@@ -19,7 +19,7 @@
 a { 
   outline: none;
   text-decoration: none;
-  color: #09BCE8;
+  color: #AD201E;
   
 }
 
@@ -89,7 +89,7 @@ dd {
 }
 
 .carousel-indicators .active{
-    background-color: #09BCE8;
+    background-color: rgba(230,54,41, 0.8) ;
 }
 .carousel-indicators li {
   background-color: rgba(25, 25, 2, 0.5);
@@ -209,7 +209,10 @@ tr {
 .list-group-item-action.active{
 
   color: #FFF;
-  background-color: #09BCE8;
+  background-color: #AD201E;
   border: none;
 
+}
+.text-info {
+color: #AD201E !important;
 }
