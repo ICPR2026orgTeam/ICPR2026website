@@ -30,7 +30,6 @@ h1 {\
         }\
         .subtitle {\
             font-size: 1.5em; /* Taille de police plus petite pour le sous-titre */\
-            color: gray; /* Couleur de texte plus subtile pour le sous-titre */\
             margin-top: -10px; /* Élimine l\'espace en haut du sous-titre */\
         }\
  </style> \

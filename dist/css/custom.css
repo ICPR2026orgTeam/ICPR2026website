@@ -71,7 +71,7 @@ blockquote {
 }
 
 h1, h2, h3, h4, h5, h6 { 
-  color: #362C20;
+  color: #253e40;
   letter-spacing: 0em;
   padding: 10px 0px 10px 0;
 }
@@ -173,7 +173,7 @@ dd {
 
 }
 .navbar {
-  background-color: #00000088;
+  background-color: #253e40CC;
 }
 
 tr {
