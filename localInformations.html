@@ -9,13 +9,24 @@
   <meta name="author" content="">
   <link rel="icon" href="../../../../favicon.ico">
 
-  <title> ICPR 2026 : topics</title>
+  <title> ICPR 2026 : local informations</title>
 
   <!-- Bootstrap core CSS -->
   <link href="dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="dist/css/custom.css">
 
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <style>
+      /* Assurer que la carte prend bien toute la hauteur de son conteneur */
+        #map-container {
+            height: 80vh; /* La carte occupe 80% de la hauteur de l'écran */
+        }
+        #map {
+            height: 100%; /* La carte prend toute la hauteur du conteneur */
+        }
 
+    </style>
 </head>
 
 <body>
@@ -25,19 +36,30 @@
   <script>includeHTML("contentMenu");</script>
 
   <div class="blurrer"></div>
-  </div>
+  
   <!--/.nav-collapse -->
 
-  </div>
   <div id="site_content" class=" ml-0  mr-0">
-
     <div class="row ml-3 mr-1">
       <div class="col-12  text-justify  ">
-
+  
         <h2>Local Informations </h2>
-        <div class="col-8 center mx-auto ">
-          <img class="w-100" src="Images/access.png"> 
+        <div class="col-12 col-md-8 mx-auto p-3">
+        <div id="map-container">
+          <div id="map"></div> 
         </div>
+    <script>
+        var map = L.map('map').setView([45.785021, 4.858137], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+        L.marker([45.785021, 4.858137]).addTo(map)
+            .bindPopup("Center of Congres<br> 45.785021, 4.858137")
+            .openPopup();
+    </script>
+    
+          </div>
+      
         <h3>Accessibility – Transportation and visa</h3>
         <h4>By plane – Lyon Airport – the Heart of Europe</h4>
           <ul>
@@ -82,6 +104,12 @@
           <div class="col-8 center mx-auto ">
             <img class="w-100" src="Images/transport.png"> 
           </div>
+
+  
+          <div id="footerSite">
+
+      </div>
+    </div>
 
 
        <!------ Section Board Team ----->

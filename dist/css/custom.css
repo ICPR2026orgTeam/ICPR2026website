@@ -8,7 +8,6 @@
 }
 
 .jumbotron {
-  background: #000 url(../../Images/pattern.png);    
   max-height : 250px;
   margin-bottom:10px;
   margin-top:-30px;  
@@ -44,7 +43,6 @@ a:hover {
 
 body {
     font: normal .910em arial, sans-serif;
-  background: #000 url(../../Images/pattern.png);
   color: #444;
 }
 
