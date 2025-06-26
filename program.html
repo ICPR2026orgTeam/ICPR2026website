@@ -81,6 +81,13 @@
 @media (min-width: 769px) {
   .long-text { display: inline; }
   .short-text { display: none; }
+    }
+
+    @media (max-width: 768px) {
+  .vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
 }
   </style>
 </head>
@@ -133,30 +140,68 @@
         <span class="short-text">Mo 17</span>
     </div>
     <div class="cell">
-        <span class="long-text">Tuesday 18</span>
-            <span class="short-text">Tu 18</span>
+      <span class="long-text">Tuesday 18</span>
+      <span class="short-text">Tu 18</span>
     
       
 
     </div>
-    <div class="cell">Wednesday 19</div>
-    <div class="cell">Thursday 20</div>
-    <div class="cell">Friday 21</div>
-    <div class="cell">Saturday 22</div>
+    <div class="cell">
+            <span class="long-text">Wednesday 19</span>
+      <span class="short-text">We 19</span>
+    </div>
+    <div class="cell">
+      <span class="long-text">  Thursday 20</span>
+      <span class="short-text">Th 18</span>
+
+
+    </div>
+    <div class="cell">
+      <span class="long-text">  Friday 21</span>
+      <span class="short-text">Fr 21</span>
+
+      </div>
+    <div class="cell">
+            <span class="long-text">  Saturday 22</span>
+      <span class="short-text">Sat 22</span>
+</div>
 
     <!-- 08:00 -->
     <div class="cell time">08:00</div>
     <div class="cell empty" style="grid-row: span 16"></div>
-    <div class="cell registration">Registration</div>
-    <div class="cell registration">Registration</div>
-    <div class="cell registration">Registration</div>
-    <div class="cell registration">Registration</div>
-    <div class="cell registration">Registration</div>
-    <div class="cell registration">Registration</div>
+    <div class="cell registration">
+      <span class="long-text">Registration</span>
+      <span class="short-text">Reg.</span>
+    </div>
+    <div class="cell registration">
+      <span class="long-text">Registration</span>
+      <span class="short-text">Reg.</span>
+    </div>
+    <div class="cell registration">
+      <span class="long-text">Registration</span>
+      <span class="short-text">Reg.</span>
+    </div>
+    <div class="cell registration">
+      <span class="long-text">Registration</span>
+      <span class="short-text">Reg.</span>
+    </div>
+    <div class="cell registration">
+      <span class="long-text">Registration</span>
+      <span class="short-text">Reg.</span>
+    </div>
+    <div class="cell registration">
+      <span class="long-text">Registration</span>
+      <span class="short-text">Reg.</span>
+    </div>
+
 
     <!-- 08:30 -->
     <div class="cell time">08:30</div>
-    <div class="cell ceremony" style="grid-row: span 2">Opening Ceremony</div>
+    <div class="cell ceremony" style="grid-row: span 2">
+          <span class="long-text">   Opening Ceremony</span>
+      <span class="short-text">  Opening</span>
+
+    </div>
     <div class="cell oral" style="grid-row: span 2">
       <span class="long-text">Oral Sessions 3</span>
       <span class="short-text">Oral 3</span>
@@ -170,15 +215,26 @@
             <span class="short-text">Oral 9</span>
     
     </div>
-    <div class="cell workshop" style="grid-row: span 7">Workshops</div>
-    <div class="cell workshop" style="grid-row: span 7">Workshops</div>
+    <div class="cell workshop" style="grid-row: span 7">
+      <span class="long-text"> Workshops</span>
+            <span class="short-text vertical-text"> Workshops</span>
+    </div>
+    <div class="cell workshop" style="grid-row: span 7">
+      <span class="long-text"> Workshops</span>
+            <span class="short-text vertical-text"> Workshops</span>
+    </div>
+
 
     <!-- 09:00 -->
     <div class="cell time">09:00</div>
 
     <!-- 09:30 -->
     <div class="cell time">09:30</div>
-    <div class="cell prizeLecture" style="grid-row: span 2">K. S. Fu Prize Lecture</div>
+    <div class="cell prizeLecture" style="grid-row: span 2">
+          <span class="long-text">   K. S. Fu Prize Lecture </span>
+      <span class="short-text">Fu Prize Lect</span>
+
+    </div>
     <div class="cell prizeLecture" style="grid-row: span 2">J. K. Aggarwal Prize Lecture</div>
     <div class="cell prizeLecture" style="grid-row: span 2">Maria Petrou Prize Lecture</div>
     <div class="cell keynote" style="grid-row: span 2">Keynote Talk 3</div>
@@ -188,47 +244,100 @@
 
     <!-- 10:30 -->
     <div class="cell time">10:30</div>
-    <div class="cell coffee">Coffee Break</div>
-    <div class="cell coffee">Coffee Break</div>
-    <div class="cell coffee">Coffee Break</div>
-    <div class="cell coffee">Coffee Break</div>
+    <div class="cell coffee">
+          <span class="long-text">    Coffee Break</span>
+          <span class="short-text">  Coffee </span>
+    </div>
+    <div class="cell coffee">
+          <span class="long-text">    Coffee Break</span>
+          <span class="short-text">  Coffee </span>
+    </div>
+    <div class="cell coffee">
+          <span class="long-text">    Coffee Break</span>
+          <span class="short-text">  Coffee </span>
+    </div>
+    <div class="cell coffee">
+          <span class="long-text">    Coffee Break</span>
+          <span class="short-text">  Coffee </span>
+    </div>
 
 
 
      <!-- 11:00 -->
     <div class="cell time">11:00</div>
-    <div class="cell oral" style="grid-row: span 2">Oral Session 1</div>
-    <div class="cell oral" style="grid-row: span 2">Oral Session 4</div>
-    <div class="cell oral" style="grid-row: span 2">Oral Session 7</div>
-    <div class="cell oral" style="grid-row: span 2">Oral Session 10</div>    
+    <div class="cell oral" style="grid-row: span 2">
+          <span class="long-text">  Oral Session 1</span>
+          <span class="short-text">Oral 1</span>  
+    </div>
+    <div class="cell oral" style="grid-row: span 2">
+          <span class="long-text">  Oral Session 4</span>
+          <span class="short-text">Oral 4</span>  
+    </div>
+
+        <div class="cell oral" style="grid-row: span 2">
+          <span class="long-text">  Oral Session 7</span>
+          <span class="short-text">Oral 7</span>  
+    </div>
+    <div class="cell oral" style="grid-row: span 2">
+          <span class="long-text">  Oral Session 10</span>
+          <span class="short-text">Oral 10</span>  
+    </div>
 
     <div class="cell time">12:00</div>
 
     
     <!-- 12:00 -->
     <div class="cell time">12:30</div>
-    <div class="cell lunch" style="grid-row: span 3">Lunch Break</div>
-    <div class="cell lunch" style="grid-row: span 3">Lunch Break</div>
-    <div class="cell lunch" style="grid-row: span 3">Lunch Break</div>
-    <div class="cell lunch" style="grid-row: span 3">Lunch Break</div>
-    <div class="cell lunch" style="grid-row: span 2">Lunch Break</div>
-    <div class="cell lunch" style="grid-row: span 2">Lunch Break</div>
+    <div class="cell lunch" style="grid-row: span 3">
+        
+          <span class="long-text">    Lunch Break</span>
+          <span class="short-text">Lunch </span>  
+        
+    </div>
+    <div class="cell lunch" style="grid-row: span 3">
+      <span class="long-text">    Lunch Break</span>
+          <span class="short-text">Lunch </span>  </div>
+    <div class="cell lunch" style="grid-row: span 3"><span class="long-text">    Lunch Break</span>
+          <span class="short-text">Lunch </span>  </div>
+    <div class="cell lunch" style="grid-row: span 3"><span class="long-text">    Lunch Break</span>
+          <span class="short-text">Lunch </span>  </div>
+    <div class="cell lunch" style="grid-row: span 2"><span class="long-text">    Lunch Break</span>
+          <span class="short-text">Lunch </span>  </div>
+    <div class="cell lunch" style="grid-row: span 2"> <span class="long-text">    Lunch Break</span>
+          <span class="short-text">Lunch </span>  </div>
 
     <div class="cell time">13:00</div>
     
 
 
     <div class="cell time">13:30</div>
-
-    <div class="cell workshop" style="grid-row: span 7">Workshops</div>
-    <div class="cell workshop" style="grid-row: span 7">Workshops</div>
+    <div class="cell workshop" style="grid-row: span 7">
+      <span class="long-text"> Workshops</span>
+            <span class="short-text vertical-text"> Workshops</span>
+    </div>
+    <div class="cell workshop" style="grid-row: span 7">
+      <span class="long-text"> Workshops</span>
+            <span class="short-text vertical-text"> Workshops</span>
+    </div>
   
     <!-- 14:00 -->
     <div class="cell time">14:00</div>
-    <div class="cell keynote" style="grid-row: span 2">Keynote Talk 1</div>
+    <div class="cell keynote" style="grid-row: span 2">
+      <span class="long-text">    Keynote Talk 1</span>
+      <span class="short-text">  Keynote1</span>
+
+    </div>
     <div class="cellSmall2 keynote" style="grid-row: span 2">Keynote Talk 2</div>
-    <div class="cellSmall1 iapr" style="grid-row: span 16">IAPR Governing Board Meeting</div>
-    <div class="cell women" style="grid-row: span 2">Women at ICPR Session</div>
+    <div class="cellSmall1 iapr" style="grid-row: span 16">
+          <span class="long-text">  IAPR Governing Board Meeting</span>
+      <span class="short-text vertical-text ">IAPR Gov. Board Meeting</span>
+
+    </div>
+    <div class="cell women" style="grid-row: span 2">
+          <span class="long-text">    Women at ICPR Session </span>
+      <span class="short-text">  Women at ICPR </span>
+
+    </div>
     <div class="cell keynote" style="grid-row: span 2">Keynote Talk 4</div>
 
     <div class="cell time">14:30</div>
@@ -236,10 +345,24 @@
 
     <div class="cell time">15:00</div>
 
-    <div class="cellSmall2 poster" style="grid-row: span 3 ">Poster Session 1 and Coffee</div>
-    <div class="cellSmall1 doctorial" style="grid-row: span 3 ">Doctoral Consortium Session</div>
-    <div class="cellSmall2 poster" style="grid-row: span 3">Poster Session 2 and Coffee</div>
-    <div class="cellSmall2 poster" style="grid-row: span 3">Poster Session 3 and Coffee</div>
+    <div class="cellSmall2 poster" style="grid-row: span 3 ">
+    <span class="long-text">    Poster Session 1 and Coffee</span>
+    <span class="short-text vertical-text">Poster sesssion 1 </span>  
+    </div>
+    <div class="cellSmall1 doctorial" style="grid-row: span 3 ">
+          <span class="long-text">    Doctoral Consortium Session</span>
+    <span class="short-text vertical-text">Doct. Consortium  </span>  
+
+    </div>
+    <div class="cellSmall2 poster" style="grid-row: span 3">
+          <span class="long-text">    Poster Session 2 and Coffee</span>
+    <span class="short-text vertical-text">Poster sesssion 2 </span>  
+</div>
+    <div class="cellSmall2 poster" style="grid-row: span 3">
+        <span class="long-text">    Poster Session 3 and Coffee</span>
+    <span class="short-text vertical-text">Poster sesssion 3 </span>  
+
+    </div>
     <div class="cellSmall1 iapr" style="grid-row: span 3">IAPR Technical Committee</div>
     <div class="cellSmall2 poster" style="grid-row: span 3">Poster Session 4 and Coffee</div>
     <div class="cellSmall1 indus" style="grid-row: span 3">Industry Paper Award Session</div>
@@ -252,7 +375,12 @@
 
 
         <div class="cell time">16:30</div>
-        <div class="cell registration" style="grid-row: span 5"> Registration</div>
+        <div class="cell registration" style="grid-row: span 5">
+      <span class="long-text"> Registration</span>
+      <span class="short-text vertical-text">Registration</span>
+
+          
+        </div>
         <div class="cell oral" style="grid-row: span 2">Oral Session 2</div>
     <div class="cellSmall2 oral" style="grid-row: span 2">Oral Session 5</div>
     <div class="cell oral" style="grid-row: span 2">Oral Session 8</div>
@@ -276,7 +404,12 @@
 
 
            <div class="cell time">19:00</div>
-                   <div class="cell ceremony" style="grid-row: span 6"> Welcome Reception</div>
+           <div class="cell ceremony" style="grid-row: span 6">
+                 <span class="long-text">    Welcome Reception</span>
+                 <span class="short-text vertical-text">  Welcome Reception</span>
+
+
+           </div>
                    <div class="cell empty" style="grid-column: span 5"></div>
            <div class="cell empty" style="grid-column: span 9"></div>
            
