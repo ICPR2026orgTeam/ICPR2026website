@@ -19,16 +19,33 @@
   <style>
     .schedule-grid {
       display: grid;
-      grid-template-columns: 100px repeat(7, 1fr);
-      grid-auto-rows: 40px;
+      grid-template-columns: 2fr repeat(23, 3fr);
+      grid-auto-rows: 30px;
       gap: 1px;
       background: #ccc;
     }
     .cell {
+    grid-column: span 3;
       background: white;
       padding: 4px;
       text-align: center;
       display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+   .cellSmall1 {
+    grid-column: span 1;
+      background: white;
+      padding: 4px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+    .cellSmall2 {
+    grid-column: span 2;
+      background: white;
+      padding: 4px;
+      text-align: center;
       align-items: center;
       justify-content: center;
     }
@@ -39,7 +56,6 @@
     .empty { background-color: #f0f0f0; }
     .registration { background-color: #c0c0c0; }
     .oral { background-color: #F5A77C; }
-    .opening  { background-color: #d1e7dd; }
     .workshop{ background-color: #A1B1C2; }
     .keynote { background-color: #FBE7A3; }
     .poster { background-color: #93A8D7; }
@@ -50,7 +66,9 @@
     .lunch { background-color: #C2D6EC; }
     .women { background-color: #E4EFDC; }
     .lunch { background-color: #C2D6EC; }
-    .ceremony { background-color: #C2D6EC; }
+    .ceremony { background-color: #d1e7dd; }
+    .iapr { background-color: #FFFF54; }
+    .doctorial { background-color: #A3C1E3; }
 
     .welcome { background-color: #a4c2f4; }
   </style>
@@ -105,7 +123,7 @@
 
     <!-- 08:00 -->
     <div class="cell time">08:00</div>
-    <div class="cell empty" style="grid-row: span 2"></div>
+    <div class="cell empty" style="grid-row: span 16"></div>
     <div class="cell registration">Registration</div>
     <div class="cell registration">Registration</div>
     <div class="cell registration">Registration</div>
@@ -115,7 +133,7 @@
 
     <!-- 08:30 -->
     <div class="cell time">08:30</div>
-    <div class="cell opening" style="grid-row: span 2">Opening Ceremony</div>
+    <div class="cell ceremony" style="grid-row: span 2">Opening Ceremony</div>
     <div class="cell oral" style="grid-row: span 2">Oral Sessions 3</div>
     <div class="cell oral" style="grid-row: span 2">Oral Sessions 6</div>
     <div class="cell oral" style="grid-row: span 2">Oral Sessions 9</div>
@@ -124,11 +142,9 @@
 
     <!-- 09:00 -->
     <div class="cell time">09:00</div>
-    <div class="cell empty"></div>
 
     <!-- 09:30 -->
     <div class="cell time">09:30</div>
-    <div class="cell empty"></div>
     <div class="cell prizeLecture" style="grid-row: span 2">K. S. Fu Prize Lecture</div>
     <div class="cell prizeLecture" style="grid-row: span 2">J. K. Aggarwal Prize Lecture</div>
     <div class="cell prizeLecture" style="grid-row: span 2">Maria Petrou Prize Lecture</div>
@@ -136,11 +152,9 @@
 
     <!-- 10:00 -->
     <div class="cell time">10:00</div>
-    <div class="cell empty"></div>
 
     <!-- 10:30 -->
     <div class="cell time">10:30</div>
-    <div class="cell empty"></div>
     <div class="cell coffee">Coffee Break</div>
     <div class="cell coffee">Coffee Break</div>
     <div class="cell coffee">Coffee Break</div>
@@ -150,19 +164,16 @@
 
      <!-- 11:00 -->
     <div class="cell time">11:00</div>
-    <div class="cell empty"></div>
     <div class="cell oral" style="grid-row: span 2">Oral Session 1</div>
     <div class="cell oral" style="grid-row: span 2">Oral Session 4</div>
     <div class="cell oral" style="grid-row: span 2">Oral Session 7</div>
     <div class="cell oral" style="grid-row: span 2">Oral Session 10</div>    
 
     <div class="cell time">12:00</div>
-    <div class="cell empty"></div>
 
     
     <!-- 12:00 -->
     <div class="cell time">12:30</div>
-    <div class="cell empty"></div>
     <div class="cell lunch" style="grid-row: span 3">Lunch Break</div>
     <div class="cell lunch" style="grid-row: span 3">Lunch Break</div>
     <div class="cell lunch" style="grid-row: span 3">Lunch Break</div>
@@ -171,47 +182,101 @@
     <div class="cell lunch" style="grid-row: span 2">Lunch Break</div>
 
     <div class="cell time">13:00</div>
-    <div class="cell empty"></div>
     
 
 
     <div class="cell time">13:30</div>
-    <div class="cell empty"></div>
+
     <div class="cell workshop" style="grid-row: span 7">Workshops</div>
     <div class="cell workshop" style="grid-row: span 7">Workshops</div>
   
     <!-- 14:00 -->
     <div class="cell time">14:00</div>
-    <div class="cell empty"></div>
     <div class="cell keynote" style="grid-row: span 2">Keynote Talk 1</div>
-    <div class="cell keynote" style="grid-row: span 2">Keynote Talk 2</div>
+    <div class="cellSmall2 keynote" style="grid-row: span 2">Keynote Talk 2</div>
+    <div class="cellSmall1 iapr" style="grid-row: span 16">IAPR Governing Board Meeting</div>
     <div class="cell women" style="grid-row: span 2">Women at ICPR Session</div>
     <div class="cell keynote" style="grid-row: span 2">Keynote Talk 4</div>
 
     <div class="cell time">14:30</div>
-    <div class="cell empty"></div>
 
 
     <div class="cell time">15:00</div>
-   <div class="cell empty"></div>
-    <div class="cell poster" style="grid-row: span 3">Poster Session 1 and Coffee</div>
-    <div class="cell poster" style="grid-row: span 3">Poster Session 2 and Coffee</div>
+
+    <div class="cellSmall2 poster" style="grid-row: span 3 ">Poster Session 1 and Coffee</div>
+    <div class="cellSmall1 doctorial" style="grid-row: span 3 ">Doctoral Consortium Session</div>
+    <div class="cellSmall2 poster" style="grid-row: span 3">Poster Session 2 and Coffee</div>
     <div class="cell poster" style="grid-row: span 3">Poster Session 3 and Coffee</div>
     <div class="cell poster" style="grid-row: span 3">Poster Session 4 and Coffee</div>
     <div class="cell time">15:30</div>
-   <div class="cell empty"></div>
     <div class="cell time">16:00</div>
-    <div class="cell empty"></div>
+
+
+
 
 
         <div class="cell time">16:30</div>
-   <div class="cell empty"></div>
+        <div class="cell registration" style="grid-row: span 5"> Registration</div>
         <div class="cell oral" style="grid-row: span 2">Oral Session 2</div>
-    <div class="cell oral" style="grid-row: span 2">Oral Session 5</div>
+    <div class="cellSmall2 oral" style="grid-row: span 2">Oral Session 5</div>
     <div class="cell oral" style="grid-row: span 2">Oral Session 8</div>
-    <div class="cell ceremonyl" style="grid-row: span 1">Closing Cereminy with Awards</div>    
+    <div class="cell ceremony" style="grid-row: span 1">Closing Ceremony with Awards</div>    
+        <div class="cell time">17:00</div>
+           <div class="cell empty" style="grid-column: span 9"></div>
+           
 
+                <div class="cell time">17:30</div>
+           <div class="cell empty" style="grid-column: span 5"></div>
+           <div class="cell empty" style="grid-column: span 12"></div>
+           <div class="cell time">18:00</div>
+           <div class="cell empty" style="grid-column: span 5"></div>
+           <div class="cell empty" style="grid-column: span 12"></div>
+           <div class="cell time">18:30</div>
+           <div class="cell empty" style="grid-column: span 5"></div>
+           <div class="cell empty" style="grid-column: span 12"></div>
+
+
+
+           <div class="cell time">19:00</div>
+                   <div class="cell ceremony" style="grid-row: span 6"> Welcome Reception</div>
+                   <div class="cell empty" style="grid-column: span 5"></div>
+           <div class="cell empty" style="grid-column: span 12"></div>
+           
+           
+                   <div class="cell time">19:30</div>
+                   <div class="cell empty" style="grid-column: span 5"></div>
+                   <div class="cell empty" style="grid-column: span 12"></div>
+
+
+           <div class="cell time">20:00</div>
+<div class="cell empty" style="grid-column: span 5"></div>
+                   <div class="cell empty" style="grid-column: span 12"></div>
+
+
+           <div class="cell time">20:30</div>
+<div class="cell empty" style="grid-column: span 5"></div>
+                   <div class="cell empty" style="grid-column: span 12"></div>
+
+           
+           <div class="cell time">21:00</div>
+<div class="cell empty" style="grid-column: span 5"></div>
+                   <div class="cell empty" style="grid-column: span 12"></div>
+
+           <div class="cell time">21:30</div>
+<div class="cell empty" style="grid-column: span 5"></div>
+                   <div class="cell empty" style="grid-column: span 12"></div>
+
+           <div class="cell time">22:00</div>
+           <div class="cell empty" style="grid-column: span 21"></div>
+           <div class="cell time">22:30</div>
+           <div class="cell empty" style="grid-column: span 21"></div>
+           <div class="cell time">23:00</div>
+           <div class="cell empty" style="grid-column: span 21"></div>
+
+           
  </div>
+
+ 
 
 
   </div>        
