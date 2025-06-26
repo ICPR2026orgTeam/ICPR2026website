@@ -31,7 +31,8 @@
       text-align: center;
       display: flex;
       align-items: center;
-      justify-content: center;
+    justify-content: center;
+    
     }
    .cellSmall1 {
     grid-column: span 1;
@@ -51,6 +52,16 @@
       align-items: center;
       justify-content: center;
     }
+    .cell, .cellSmall1, .cellSmall2 {
+  background: white;
+  padding: 4px;
+  text-align: center;
+  display: flex;
+    align-items: center;
+    
+  justify-content: center;
+  border: 1px solid #ccc; /* <-- ajoute des bordures visibles */
+}
     .time {
       background: #f0f0f0;
       font-weight: bold;
@@ -60,6 +71,7 @@
     .registration { background-color: #c0c0c0; }
     .oral { background-color: #F5A77C; }
     .workshop{ background-color: #A1B1C2; }
+    .findings{ background-color: #8896AE; }
     .keynote { background-color: #FBE7A3; }
     .poster { background-color: #93A8D7; }
     .coffee { background-color: #B8912F; }
@@ -70,7 +82,7 @@
     .women { background-color: #E4EFDC; }
     .lunch { background-color: #C2D6EC; }
     .ceremony { background-color: #d1e7dd; }
-    .iapr { background-color: #FFFF54; }
+    .iapr { background-color: #FFFF54;    font-size: 0.8rem; }
     .doctorial { background-color: #A3C1E3; }
     .indus { background-color: #A3C1E3; }
 
@@ -93,11 +105,12 @@
     .med-text { display: none; }
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: 20484px) {
     .vertical-text {
        writing-mode: vertical-rl;
        text-orientation: mixed;
     }
+                                 
 }
   </style>
 </head>
@@ -135,9 +148,13 @@
           <li> Tutorials and workshops: Friday August 21     </li>
         </ul>
 
-<div class="container my-5">
-  <h2 class="mb-4 text-center">ICPR 2026 – Programme at a Glance</h2>
-  <div class="table-responsive">
+        <h2 >ICPR 2026 – Programme at a Glance</h2>
+
+        
+        <div class="container my-5">
+
+
+<div class="table-responsive">
  <div class="schedule-grid">
     <!-- Headers -->
     <div class="cell time">
@@ -192,35 +209,43 @@
     <!-- 08:00 -->
     <div class="cell time">08:00</div>
     <div class="cell empty" style="grid-row: span 16"></div>
-    <div class="cell registration">
+    <div class="cell registration d-none d-lg-block">
       <span class="long-text">Registration</span>
       <span class="med-text">Registration</span>
       <span class="short-text">Reg.</span>
     </div>
-    <div class="cell registration">
+    <div class="cell registration d-none d-lg-block">
       <span class="long-text">Registration</span>
       <span class="med-text">Registration</span>
       <span class="short-text">Reg.</span>
     </div>
-    <div class="cell registration">
+    <div class="cell registration d-none d-lg-block">
       <span class="long-text">Registration</span>
       <span class="med-text">Registration</span>
       <span class="short-text">Reg.</span>
     </div>
-    <div class="cell registration">
+    <div class="cell registration d-none d-lg-block">
       <span class="long-text">Registration</span>
       <span class="med-text">Registration</span>
       <span class="short-text">Reg.</span>
     </div>
-    <div class="cell registration">
+    <div class="cell registration d-none d-lg-block">
       <span class="long-text">Registration</span>
       <span class="med-text">Registration</span>
       <span class="short-text">Reg.</span>
     </div>
-    <div class="cell registration">
+    <div class="cell registration d-none d-lg-block">
       <span class="long-text">Registration</span>
       <span class="med-text">Registration</span>
       <span class="short-text">Reg.</span>
+    </div>
+
+
+
+    <div class="cell registration d-block d-lg-none", style="grid-column: span 18 ">
+      <span class="short-text">Registration</span>
+      <span class="med-text">Registration</span>
+
     </div>
 
 
@@ -248,10 +273,15 @@
       <span class="short-text">Oral 9</span>
     
     </div>
-    <div class="cell workshop" style="grid-row: span 7">
+    <div class="cell workshop" style="grid-row: span 7; grid-column: span 1">
       <span class="long-text"> Workshops</span>
       <span class="med-text vertical-text "> Workshops</span>
       <span class="short-text vertical-text"> Workshops</span>
+    </div>
+    <div class="cell findings" style="grid-row: span 7; grid-column: span 2">
+      <span class="long-text"> Findings Workshop </span>
+      <span class="med-text vertical-text "> Findings </span>
+      <span class="short-text vertical-text">Findings </span>
     </div>
     <div class="cell workshop" style="grid-row: span 7">
       <span class="long-text"> Workshops</span>
@@ -291,26 +321,28 @@
 
     <!-- 10:30 -->
     <div class="cell time">10:30</div>
-    <div class="cell coffee">
+    <div class="cell coffee d-none d-lg-block">
       <span class="long-text">    Coffee Break</span>
       <span class="med-text">    Coffee Break</span>
           <span class="short-text">  Coffee </span>
     </div>
-    <div class="cell coffee">
+    <div class="cell coffee d-none d-lg-block">
       <span class="long-text">    Coffee Break</span>
       <span class="med-text">    Coffee Break</span>
           <span class="short-text">  Coffee </span>
     </div>
-    <div class="cell coffee">
+    <div class="cell coffee d-none d-lg-block">
       <span class="long-text">    Coffee Break</span>
       <span class="med-text">    Coffee Break</span>
           <span class="short-text">  Coffee </span>
     </div>
-    <div class="cell coffee">
+    <div class="cell coffee d-none d-lg-block">
       <span class="long-text">    Coffee Break</span>
       <span class="med-text">    Coffee Break</span>
           <span class="short-text">  Coffee </span>
     </div>
+
+    <div class="cell coffee d-block d-lg-none" style="grid-column: span 12"> Coffee Break    </div>
 
 
 
@@ -343,27 +375,34 @@
     
     <!-- 12:00 -->
     <div class="cell time">12:30</div>
-    <div class="cell lunch" style="grid-row: span 3">
-        
-          <span class="long-text">    Lunch Break</span>
+    <div class="cell lunch d-none d-lg-block" style="grid-row: span 3 ">        
+         <span class="long-text">    Lunch Break</span>
           <span class="med-text">    Lunch Break</span>
-          <span class="short-text">Lunch </span>  
-        
+          <span class="short-text">Lunch </span>      
     </div>
-    <div class="cell lunch" style="grid-row: span 3">
+    <div class="cell lunch d-none d-lg-block" style="grid-row: span 3">
       <span class="long-text">    Lunch Break</span>
       <span class="med-text">    Lunch Break</span>
       <span class="short-text">Lunch </span>  </div>
-    <div class="cell lunch" style="grid-row: span 3">
+    <div class="cell lunch d-none d-lg-block" style="grid-row: span 3">
       <span class="long-text">    Lunch Break</span>
       <span class="short-text">Lunch </span>
       <span class="med-text">    Lunch Break</span>
           
     </div>
-    <div class="cell lunch" style="grid-row: span 3">
+    <div class="cell lunch d-none d-lg-block" style="grid-row: span 3">
           <span class="med-text">    Lunch Break</span>
           <span class="long-text">    Lunch Break</span>
           <span class="short-text">Lunch </span>  </div>
+
+    <div class="cell lunch d-block d-lg-none" style="grid-row: span 3; grid-column: span 12">
+          <span class="med-text">    Lunch Break</span>
+          <span class="long-text">    Lunch Break</span>
+          <span class="short-text">Lunch </span>  </div>
+
+
+
+    
     <div class="cell lunch" style="grid-row: span 2">
                 <span class="med-text">    Lunch Break</span>
                 <span class="long-text">    Lunch Break</span>
@@ -378,10 +417,15 @@
 
 
     <div class="cell time">13:30</div>
-    <div class="cell workshop" style="grid-row: span 7">
+    <div class="cell workshop" style="grid-row: span 7; grid-column: span 1">
       <span class="long-text"> Workshops</span>
-<span class="med-text vertical-text"> Workshops</span>
+      <span class="med-text vertical-text"> Workshops</span>
       <span class="short-text vertical-text"> Workshops</span>
+    </div>
+    <div class="cell findings" style="grid-row: span 7; grid-column: span 2">
+      <span class="long-text"> Findings Workshop</span>
+      <span class="med-text vertical-text"> Findings </span>
+      <span class="short-text vertical-text"> Findings </span>
     </div>
     <div class="cell workshop" style="grid-row: span 7">
       <span class="long-text"> Workshops</span>
@@ -404,7 +448,7 @@
       <span class="short-text vertical-text">Keynote 2 </span>  
     </div>
     <div class="cellSmall1 iapr" style="grid-row: span 16">
-      <span class="long-text">  IAPR Governing Board Meeting</span>
+      <span class="long-text vertical-text">  IAPR Governing Board Meeting</span>
       <span class="med-text vertical-text">  IAPR Gov. Board Meeting</span>
       <span class="short-text vertical-text ">IAPR Gov. Board Meeting</span>
 
@@ -451,7 +495,14 @@
         <span class="short-text vertical-text">Poster  3 </span>  
 
     </div>
-    <div class="cellSmall1 iapr" style="grid-row: span 3">IAPR Technical Committee</div>
+    <div class="cellSmall1 iapr" style="grid-row: span 3">
+  <span class="long-text vertical-text "> IAPR TC</span>
+      <span class="med-text vertical-text">  IAPR TC</span>
+      <span class="short-text vertical-text">IAPR TC </span>  
+
+      
+
+    </div>
     <div class="cellSmall2 poster" style="grid-row: span 3">
       <span class="long-text">   Poster Session 4 and Coffee</span>
       <span class="med-text">   Poster 4 and Coffee</span>
@@ -462,8 +513,8 @@
     </div>
     <div class="cellSmall1 indus" style="grid-row: span 3">
       <span class="long-text"> Industry Paper Award Session </span>
-      <span class="med-text"> Indus. Paper Award  </span>
-      <span class="short-text ">Industry Paper Award  </span>  
+      <span class="med-text"> Ind. Paper Award  </span>
+      <span class="short-text vertical-text ">Ind. Paper Award  </span>  
 
       
 
@@ -502,9 +553,9 @@
           <span class="short-text vertical-text">Oral 8 </span>  
         </div>
         <div class="cell ceremony" style="grid-row: span 1">
-          <span class="long-text"> Closing Ceremony with & Awards</span>
+          <span class="long-text"> Closing Ceremony  & Awards</span>
           <span class="med-text"> Closing  & Awards</span>
-          <span class="short-text ">Closing  & Awards </span>  
+          <span class="short-text ">Closing  Awards </span>  
 
 
 
@@ -522,7 +573,13 @@
            <div class="cell time">18:30</div>
            <div class="cell empty" style="grid-column: span 5"></div>
 
-           <div class="cell ceremony" style="grid-column: span 3; grid-row: span 9 ">Conference Banquet</div>
+           <div class="cell ceremony" style="grid-column: span 3; grid-row: span 9 ">
+             <span class="long-text">    Conference Banquet</span>
+             <span class="med-text">    Conference Banquet</span>
+             <span class="short-text vertical-text">  Conference Banquet</span>
+
+             
+           </div>
            <div class="cell empty" style="grid-column: span 9"></div>
 
 
