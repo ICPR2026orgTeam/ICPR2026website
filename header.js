@@ -40,7 +40,7 @@ h1 {\
        <img class=" d-none d-sm-block d-md-none" width="150" src="Logos/icpr26Logo.svg"> </div>\
         <div class="col-md-8 col-sm-8 col-xs-12 " > \
         <h1 class="col-xs-8 "> 28<sup>th</sup> - International Conference on Pattern Recognition  </h1> \
-     <h2 class=" d-none d-sm-none d-md-block ">Lyon, France August, 17-21, 2026 </h4> \
+     <h2 class=" d-none d-sm-none d-md-block ">Lyon, France August, 17-22, 2026 </h4> \
  <h3 class="d-none d-sm-none d-md-none d-lg-block  subtitle">International Convention Center</h3>\
 </div>   \
 </div>\
