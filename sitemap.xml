@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Page d'accueil -->
+  <url>
+    <loc>https://icpr2026.org/</loc>
+    <lastmod>2025-09-23</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Programme -->
+  <url>
+    <loc>https://icpr2026.org/programme.html</loc>
+    <lastmod>2025-09-23</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://icpr2026.org/contact.html</loc>
+    <lastmod>2025-09-23</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Soumission d'article -->
+  <url>
+    <loc>https://icpr2026.org/submission.html</loc>
+    <lastmod>2025-09-23</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- À propos / infos -->
+  <url>
+    <loc>https://icpr2026.org/about.html</loc>
+    <lastmod>2025-09-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
+
+
