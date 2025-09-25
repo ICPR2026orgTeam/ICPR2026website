@@ -7,31 +7,72 @@
     <lastmod>2025-09-23</lastmod>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://icpr2026.org/index.html</loc>
+    <lastmod>2025-09-23</lastmod>
+    <priority>1.0</priority>
+  </url>
 
   <!-- Programme -->
   <url>
-    <loc>https://icpr2026.org/programme.html</loc>
+    <loc>https://icpr2026.org/program.html</loc>
     <lastmod>2025-09-23</lastmod>
     <priority>0.8</priority>
   </url>
-
-  <!-- Contact -->
+  <!-- Committee -->
   <url>
-    <loc>https://icpr2026.org/contact.html</loc>
-    <lastmod>2025-09-23</lastmod>
-    <priority>0.6</priority>
+    <loc>https://icpr2026.org/committee.html</loc>
+    <lastmod>2025-09-24</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <!-- Date -->
+  <url>
+    <loc>https://icpr2026.org/dates.html</loc>
+    <lastmod>2025-09-24</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <!-- Calls -->
+  <url>
+    <loc>https://icpr2026.org/calls.html</loc>
+    <lastmod>2025-09-24</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <!-- Calls Competitions-->
+  <url>
+    <loc>https://icpr2026.org/callCompetitions.html</loc>
+    <lastmod>2025-09-24</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <!-- Calls Tutorials-->
+  <url>
+    <loc>https://icpr2026.org/callTutorials.html</loc>
+    <lastmod>2025-09-24</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <!-- Calls Workshops-->
+  <url>
+    <loc>https://icpr2026.org/callWorkshops.html</loc>
+    <lastmod>2025-09-24</lastmod>
+    <priority>0.8</priority>
   </url>
 
-  <!-- Soumission d'article -->
+  <!-- Program -->
   <url>
-    <loc>https://icpr2026.org/submission.html</loc>
+    <loc>https://icpr2026.org/program.html</loc>
+    <lastmod>2025-09-23</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- For Authors -->
+  <url>
+    <loc>https://icpr2026.org/authors.html</loc>
     <lastmod>2025-09-23</lastmod>
     <priority>0.7</priority>
   </url>
 
   <!-- À propos / infos -->
   <url>
-    <loc>https://icpr2026.org/about.html</loc>
+    <loc>https://icpr2026.org/localInformations.html</loc>
     <lastmod>2025-09-23</lastmod>
     <priority>0.5</priority>
   </url>
