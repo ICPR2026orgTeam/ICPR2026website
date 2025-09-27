@@ -50,9 +50,20 @@
         
         <h3>Flyers of Call For Papers </h3>
          The main flyer of the call for papers is available here:
-         <div class="col-4 center mx-auto ">
-          <a href="files/flyerCallFP.pdf"  ><img class="w-100" src="Images/flyer.png"> </a>
-        </div>
+<div class="text-center">
+  <a href="files/flyerCallFP.pdf">
+    <picture class="flyer-container">
+      <!-- Version WebP -->
+      <source srcset="Images/flyer.webp" type="image/webp">
+      <!-- Fallback PNG -->
+      <img 
+        src="Images/flyer.png" 
+        alt="ICPR 2026 Conference flyer Call for papers"
+        class="img-fluid flyer"
+      >
+    </picture>
+  </a>
+</div>
 </section>
     
 
