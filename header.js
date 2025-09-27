@@ -2,7 +2,10 @@
 document.getElementById("headerSite").innerHTML = '\
 <style> \
         .background-image { \
-            background-image: url(\'Images/headerBackground.jpg\');  \
+     background-image: image-set( \
+          url("Images/headerBackground.webp") type("image/webp"), \
+          url("Images/headerBackground.jpg") type("image/jpeg") \
+       ); \
             background-size: cover; \
             height: 20vh; /* Hauteur pleine fenêtre */ \
             align-items: center; \
