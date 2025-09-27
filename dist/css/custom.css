@@ -1,3 +1,20 @@
+.flyer {
+  width: 90%; /* Mobile : presque toute la largeur */
+  max-width: 400px;
+}
+
+@media (min-width: 992px) {
+  .flyer {
+    width: 33%; /* Desktop : environ un tiers */
+    max-width: none;
+  }
+}
+
+.flyer-container {
+  display: block;
+  margin: auto;
+}
+
 
   table {
     border-collapse: collapse;
