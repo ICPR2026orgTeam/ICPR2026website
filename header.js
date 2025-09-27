@@ -2,7 +2,10 @@
 document.getElementById("headerSite").innerHTML = '\
 <style> \
         .background-image { \
-            background-image: url(\'Images/headerBackground.jpg\');  \
+     background-image: image-set( \
+          url("Images/headerBackground.webp") type("image/webp"), \
+          url("Images/headerBackground.jpg") type("image/jpeg") \
+       ); \
             background-size: cover; \
             height: 20vh; /* Hauteur pleine fenêtre */ \
             align-items: center; \
@@ -36,8 +39,8 @@ h1 {\
  <section class="background-image">\
         <div class="row">\
         <div class="col-md-4 col-sm-3 " > \
-       <img class=" d-none d-sm-none d-md-block" width="250" src="Logos/icpr26Logo.svg"> \
-       <img class=" d-none d-sm-block d-md-none" width="150" src="Logos/icpr26Logo.svg"> </div>\
+       <img class=" d-none d-sm-none d-md-block" width="250" src="Logos/icpr26Logo.svg" alt="Logo of ICPR 2026"> \
+       <img class=" d-none d-sm-block d-md-none" width="150" src="Logos/icpr26Logo.svg" alt="Logo of ICPR 2026"> </div>\
         <div class="col-md-8 col-sm-8 col-xs-12 " > \
         <h1 class="col-xs-8 "> 28<sup>th</sup> - International Conference on Pattern Recognition  </h1> \
      <h2 class=" d-none d-sm-none d-md-block ">Lyon, France August, 17-22, 2026 </h4> \
