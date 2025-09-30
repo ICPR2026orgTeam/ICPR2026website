@@ -9,6 +9,15 @@
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="dist/css/custom.css">
 
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% endif %}
+
+    {% if page.canonical %}
+    <link rel="canonical" href="{{ page.canonical }}">
+    {% endif %}
+
+    
     <title>{{ page.title }}</title>
 
   </head>
