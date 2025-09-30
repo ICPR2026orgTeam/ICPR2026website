@@ -3,6 +3,5 @@ plugins:
   - jekyll-sitemap
 
 
-exclude:
-  - index.html
+
 
