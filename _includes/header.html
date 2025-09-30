@@ -1,0 +1,67 @@
+<!-- _includes/header.html -->
+<style>
+  /* Bandeau ICPR */
+  .background-image {
+    background-image: image-set(
+      url("/Images/headerBackground.webp") type("image/webp"),
+      url("/Images/headerBackground.jpg") type("image/jpeg")
+    );
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    position: relative;
+  }
+
+  .background-image::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 0;
+  }
+
+  .background-image > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Hauteur responsive */
+  .background-image {
+    height: 150px; min-height: 150px;
+  }
+  @media (min-width: 768px) {
+    .background-image { height: 200px; min-height: 200px; }
+  }
+  @media (min-width: 992px) {
+    .background-image { height: 250px; min-height: 250px; }
+  }
+
+  h1, h2, h3 {
+    margin: 0;
+  }
+
+  .subtitle {
+    font-size: 1.2em;
+  }
+</style>
+
+<header>
+  <!-- Bandeau -->
+  <section class="background-image">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4 col-sm-3 text-center">
+          <img class="d-none d-sm-none d-md-block" width="250" src="/Logos/icpr26Logo.svg" alt="Logo of ICPR 2026">
+          <img class="d-none d-sm-block d-md-none" width="150" src="/Logos/icpr26Logo.svg" alt="Logo of ICPR 2026">
+        </div>
+        <div class="col-md-8 col-sm-9 text-center text-md-left">
+          <h1>28<sup>th</sup> - International Conference on Pattern Recognition</h1>
+          <h2 class="d-none d-sm-none d-md-block">Lyon, France August, 17-22, 2026</h2>
+          <h3 class="d-none d-sm-none d-md-none d-lg-block subtitle">International Convention Center</h3>
+        </div>
+      </div>
+    </div>
+  </section>
