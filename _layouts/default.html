@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="dist/css/custom.css">
-
+    
     {% if page.description %}
     <meta name="description" content="{{ page.description }}">
     {% endif %}
@@ -19,19 +19,19 @@
 
     
     <title>{{ page.title }}</title>
+    <link rel="icon" type="image/png" href="Logos/icprIcon.ico">
 
   </head>
 
 <body>
   <div id="headerSite"></div>
   {% include header.html %}
-{% include menu.html %} 
+  {% include menu.html %} 
 
   <div class="blurrer"></div>
 </div>
 
   <main>
-
     {{ content }}
   </main>
 
