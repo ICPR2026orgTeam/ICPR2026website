@@ -4,6 +4,75 @@
 <html lang="en">
 <link rel="preload" as="image" href="/Images/headerBackground.webp">
   <head>
+    <style>
+      .custom-navbar {
+    background-color: #343a40; /* fond sombre */
+    font-family: Arial, sans-serif;
+}
+
+.custom-navbar .navbar-brand {
+    font-size: 1.3rem;
+    color: white !important;
+    padding-left: 15px;
+}
+
+.custom-navbar .nav-link {
+    color: white !important;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #cccccc !important;
+}
+
+.custom-navbar .dropdown-menu {
+    background-color: #EEEEEE !important;
+    border: none;
+}
+
+.custom-navbar .dropdown-item {
+    color: #343a40 !important;
+    padding: 0.5rem 1rem;
+}
+
+.custom-navbar .dropdown-item:hover {
+    background-color: #FFFFFF !important;
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive spacing */
+@media (max-width: 992px) {
+    .custom-navbar .nav-link {
+        text-align: center;
+        padding: 1rem;
+    }
+    .custom-navbar .navbar-brand {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        text-align: left !important;
+    }
+    .navbar-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-link {
+        width: 100%;
+        text-align: left;
+        padding-left: 1rem;
+    }
+}
+  </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
@@ -35,8 +104,6 @@
     {{ content }}
   </main>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-<script src="dist/js/bootstrap.min.js"></script>
+<script src="dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
