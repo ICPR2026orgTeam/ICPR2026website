@@ -1,52 +1,5 @@
 <!-- _includes/header.html -->
-<style>
-  /* Bandeau ICPR */
-  .background-image {
-    background-image: image-set(
-      url("/Images/headerBackground.webp") type("image/webp"),
-      url("/Images/headerBackground.jpg") type("image/jpeg")
-    );
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-    position: relative;
-  }
-
-  .background-image::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background-color: rgba(255, 255, 255, 0.7);
-    z-index: 0;
-  }
-
-  .background-image > * {
-    position: relative;
-    z-index: 1;
-  }
-
-  /* Hauteur responsive */
-  .background-image {
-    height: 150px; min-height: 150px;
-  }
-  @media (min-width: 768px) {
-    .background-image { height: 175px; min-height: 150px; }
-  }
-  @media (min-width: 992px) {
-    .background-image { height: 200px; min-height: 200px; }
-  }
-
-  h1, h2, h3 {
-    margin: 0;
-  }
-
-  .subtitle {
-    font-size: 1.2em;
-  }
-</style>
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
 <header>
   <!-- Bandeau -->

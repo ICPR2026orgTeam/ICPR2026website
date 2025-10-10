@@ -1,0 +1,4 @@
+@use "variables";
+
+.text-primary { color: red; }
+.text-info { color: variables.$color-primary !important; }
