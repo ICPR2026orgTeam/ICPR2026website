@@ -1,0 +1,301 @@
+@charset "UTF-8";
+/* 🌍 Base */
+body {
+  font: normal 0.91em Arial, sans-serif;
+}
+
+a {
+  color: #AD201E;
+  text-decoration: none;
+  outline: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a.shiftedAnchor {
+  display: block;
+  position: relative;
+  top: -120px;
+  visibility: hidden;
+}
+
+p {
+  line-height: 1.7em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #253e40;
+  padding: 10px 0;
+}
+
+h2 {
+  color: #BC0028;
+}
+
+blockquote {
+  border: 1px solid #E5E5DB;
+  background: #FFF;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  scroll-margin-top: 80px; /* hauteur de la navbar */
+}
+
+dt {
+  padding-bottom: 5px;
+}
+
+dd {
+  padding-left: 10px;
+}
+
+.custom-navbar {
+  background-color: #4D5E60;
+  font-family: Arial, sans-serif;
+}
+.custom-navbar .navbar-brand {
+  color: white !important;
+  font-size: 1.3rem;
+}
+.custom-navbar .nav-link {
+  color: white !important;
+  margin: 0 5px;
+  padding: 0.5rem 1rem;
+}
+.custom-navbar .nav-link:hover {
+  color: #ccc !important;
+}
+.custom-navbar .dropdown-menu {
+  background-color: white;
+}
+.custom-navbar .dropdown-menu .dropdown-item {
+  color: #343a40 !important;
+}
+.custom-navbar .dropdown-menu .dropdown-item:hover {
+  background-color: #EEEEEE;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  font-family: Arial, sans-serif; /* même font pour tous */
+  font-size: 1.1rem; /* même taille que les nav-link */
+  line-height: 1.5; /* même hauteur de ligne */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* 📄 Tables */
+table {
+  border-collapse: collapse;
+  width: 60%;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+table th {
+  background-color: #4D5E60;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  font-size: 1.2em;
+}
+table td {
+  padding: 10px;
+  vertical-align: top;
+}
+table tr:nth-child(even) {
+  background-color: #CCDDCC;
+}
+table .date {
+  font-weight: bold;
+  width: 30%;
+}
+
+tr {
+  line-height: 25px;
+  height: 25px;
+}
+
+/* 🖼️ Sections */
+.jumbotron {
+  max-height: 250px;
+  margin: -30px 0 10px;
+}
+
+.tab-pane {
+  background-color: #FFF;
+  min-height: 300px;
+}
+.tab-pane.proj {
+  background-color: #EEE;
+  min-height: 400px;
+}
+
+/* 📄 Content wrappers */
+#site_content {
+  overflow: hidden;
+  margin: 10px 0;
+  background: rgba(255, 255, 255, 0.5333333333);
+}
+
+/* 🎠 Carrousel */
+.carousel-inner {
+  height: 400px;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.carousel-indicators .active {
+  background-color: rgba(230, 54, 41, 0.8);
+}
+.carousel-indicators li {
+  background-color: rgba(25, 25, 2, 0.5);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+/* 🖼️ Gallery */
+.myGallery {
+  text-align: center;
+  margin: 0 10px 10px 0;
+}
+.myGallery .gallery-item,
+.myGallery .gallery-item-large {
+  float: left;
+  margin: 0 5px 10px;
+  text-align: center;
+}
+.myGallery .gallery-item.gallery-item,
+.myGallery .gallery-item-large.gallery-item {
+  width: 45%;
+}
+.myGallery .gallery-item.gallery-item-large,
+.myGallery .gallery-item-large.gallery-item-large {
+  width: 90%;
+}
+.myGallery img {
+  border: 10px solid #f1f1f1;
+}
+.myGallery .gallery-caption,
+.myGallery .gallery-reference {
+  font-size: 12px;
+  margin: 0 0 12px;
+  text-align: left;
+  width: 100%;
+}
+.myGallery .gallery-caption {
+  color: #777;
+}
+.myGallery .gallery-reference {
+  color: #09BCE8;
+  z-index: 2020;
+}
+
+/* 🧾 Divers */
+.btn {
+  border-radius: 0;
+}
+
+.btn-responsive {
+  white-space: normal !important;
+  word-wrap: break-word;
+}
+
+.card-body-scroll,
+.list-group {
+  max-height: 250px;
+  margin-bottom: 10px;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.list-group-item-action.active {
+  color: #FFF;
+  background-color: #AD201E;
+  border: none;
+}
+
+/* 🪧 Flyer */
+.flyer-container {
+  display: block;
+  margin: auto;
+}
+
+.flyer {
+  width: 90%;
+  max-width: 400px;
+}
+@media (min-width: 992px) {
+  .flyer {
+    width: 33%;
+    max-width: none;
+  }
+}
+
+.text-primary {
+  color: red;
+}
+
+.text-info {
+  color: #AD201E !important;
+}
+
+/* 🎓 Bandeau ICPR */
+.background-image {
+  background-image: image-set(url("/Images/headerBackground.webp") type("image/webp"), url("/Images/headerBackground.jpg") type("image/jpeg"));
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+.background-image::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 0;
+}
+.background-image > * {
+  position: relative;
+  z-index: 1;
+}
+.background-image {
+  height: 150px;
+  min-height: 150px;
+}
+@media (min-width: 768px) {
+  .background-image {
+    height: 175px;
+  }
+}
+@media (min-width: 992px) {
+  .background-image {
+    height: 200px;
+  }
+}
+
+/* Titres dans le bandeau */
+.background-image h1,
+.background-image h2,
+.background-image h3 {
+  margin: 0;
+}
+
+.background-image .subtitle {
+  font-size: 1.2em;
+}
+
+/*# sourceMappingURL=main.css.map */
