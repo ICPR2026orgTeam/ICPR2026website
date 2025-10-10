@@ -3,8 +3,13 @@ layout: default
 title: "Home"
 canonical: "https://icpr2026.org/"
 description: "Main page of ICPR 2026 - International Conference on Pattern Recognition that take place in Lyon 17-22 August 2026."
-sitemap: false
 ---
+<script>
+    const q = window.location.search;
+    if (q.match(/(\?|&)(page_id|p|cat|feed)=/)) {
+        window.location.replace(window.location.origin + '/');
+    }
+</script>
     <!-- About Conference -->
     <div class="col-lg-6">
       <h2>About Conference</h2>

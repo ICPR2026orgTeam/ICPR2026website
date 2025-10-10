@@ -1,6 +1,6 @@
 url: "https://icpr2026.org"
-plugins:
-  - jekyll-sitemap
+plugins: []
+#  - jekyll-sitemap
 
 
 
