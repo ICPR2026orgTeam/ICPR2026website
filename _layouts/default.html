@@ -96,12 +96,15 @@
   <div id="headerSite"></div>
   {% include header.html %}
   {% include menu.html %} 
-
   <div class="blurrer"></div>
 </div>
-
   <main>
-    {{ content }}
+    <div  class="container px-1">
+       <div class="row">
+          {{ content }}
+       </div>
+    </div>
+    
   </main>
 
 <script src="dist/js/bootstrap.bundle.min.js"></script>
