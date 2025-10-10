@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /*?page_id=
+Disallow: /*?p=
+Disallow: /*?cat=
+Disallow: /*?feed=
+Allow: /
+Sitemap: https://icpr2026.org/sitemap.xml
