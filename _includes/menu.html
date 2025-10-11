@@ -1,51 +1,39 @@
- <nav  id="navMenu"
-      class=" navbar  blurry navbar-expand-lg navbar-dark  navbar-dark  mb-4 sticky-top"> 
+<nav id="navMenu" class="navbar navbar-expand-lg navbar-dark custom-navbar sticky-top px-3 mb-4 blurry">
+    <a class="navbar-brand" href="/">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
- <a class="navbar-brand" href="/">Home</a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-	aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-	<span class="navbar-toggler-icon"></span>
-</button>
-
-<div class="collapse navbar-collapse" id="navbarCollapse">
-	<ul class="navbar-nav mr-auto">
-	
-
-
-
-		<li class="navbar-brand">
-			<a class="nav-link active" href="committee.html">Committee</a>
-		</li>                
-		<li class="navbar-brand">
-			<a class="nav-link active" href="dates.html">Important Dates</a>
-		</li>
-
-                
-                <li class="navbar-brand dropdown active">
-			<a class="nav-link dropdown-toggle item" data-target="events.html" href="calls.html"
-				id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"
-				aria-expanded="false">Calls</a>
-			<div class="dropdown-menu" aria-labelledby="dropdown01">
-				<a class="dropdown-item" href="calls.html">Main Call</a>
-                                <a class="dropdown-item" href="callCompetitions.html">Call for Competitions</a>
-                                <a class="dropdown-item" href="callTutorials.html">Call for Tutorials</a>
-                                <a class="dropdown-item" href="callWorkshops.html">Call for Workshops</a>
-
-
-
-			</div>
-		</li>
-                                  
-                <li class="navbar-brand">
-			<a class="nav-link active" href="program.html">Program</a>
-		</li>
-
-                <li class="navbar-brand">
-			<a class="nav-link active" href="authors.html">For Authors</a>
-		</li>
-
-                <li class="navbar-brand">
-			<a class="nav-link active" href="localInformations.html">Local Informations</a>
-		</li>
-</ul>
-</div></nav>
+    <div class="collapse navbar-collapse " id="navbarCollapse">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="committee.html">Committee</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="dates.html">Important Dates</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="calls.html" id="dropdown01" role="button"
+                   data-bs-toggle="dropdown" aria-expanded="false">
+                    Calls
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                    <li><a class="dropdown-item" href="calls.html">Main Call</a></li>
+                    <li><a class="dropdown-item" href="callCompetitions.html">Call for Competitions</a></li>
+                    <li><a class="dropdown-item" href="callTutorials.html">Call for Tutorials</a></li>
+                    <li><a class="dropdown-item" href="callWorkshops.html">Call for Workshops</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="program.html">Program</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="authors.html">For Authors</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="localInformations.html">Local Informations</a>
+            </li>
+        </ul>
+    </div>
+</nav>

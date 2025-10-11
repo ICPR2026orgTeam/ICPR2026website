@@ -1,0 +1,91 @@
+@use "variables";
+
+/* 🎠 Carrousel */
+.carousel-inner {
+  height: 400px;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.carousel-indicators {
+  .active { background-color: rgba(230, 54, 41, 0.8); }
+  li { background-color: rgba(25, 25, 2, 0.5); }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+/* 🖼️ Gallery */
+.myGallery {
+  text-align: center;
+  margin: 0 10px 10px 0;
+
+  .gallery-item,
+  .gallery-item-large {
+    float: left;
+    margin: 0 5px 10px;
+    text-align: center;
+
+    &.gallery-item { width: 45%; }
+    &.gallery-item-large { width: 90%; }
+  }
+
+  img { border: 10px solid #f1f1f1; }
+
+  .gallery-caption,
+  .gallery-reference {
+    font-size: 12px;
+    margin: 0 0 12px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .gallery-caption { color: #777; }
+  .gallery-reference { color: #09BCE8; z-index: 2020; }
+}
+
+/* 🧾 Divers */
+.btn {
+  border-radius: 0;
+}
+
+.btn-responsive {
+  white-space: normal !important;
+  word-wrap: break-word;
+}
+
+.card-body-scroll,
+.list-group {
+  max-height: 250px;
+  margin-bottom: 10px;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.list-group-item-action.active {
+  color: #FFF;
+  background-color: variables.$color-primary;
+  border: none;
+}
+
+/* 🪧 Flyer */
+.flyer-container {
+  display: block;
+  margin: auto;
+}
+
+.flyer {
+  width: 90%;
+  max-width: 400px;
+
+  @media (min-width: 992px) {
+    width: 33%;
+    max-width: none;
+  }
+}

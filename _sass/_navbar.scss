@@ -1,0 +1,36 @@
+@use "variables";
+
+.custom-navbar {
+  background-color: variables.$color-secondary;
+  font-family: variables.$font-main;
+
+  .navbar-brand {
+    color: white !important;
+    font-size: 1.3rem;
+  }
+
+  .nav-link {
+    color: white !important;
+    margin: 0 5px;
+    padding: 0.5rem 1rem;
+
+    &:hover { color: #ccc !important; }
+  }
+
+  .dropdown-menu {
+    background-color: white;
+    .dropdown-item {
+      color: variables.$color-dark !important;
+      &:hover { background-color: variables.$color-light; }
+    }
+  }
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  font-family: Arial, sans-serif; /* même font pour tous */
+  font-size: 1.1rem;              /* même taille que les nav-link */
+  line-height: 1.5;               /* même hauteur de ligne */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}

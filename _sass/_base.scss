@@ -1,0 +1,47 @@
+@use "variables";
+
+/* 🌍 Base */
+
+body {
+  font: normal 0.91em variables.$font-main;
+}
+
+a {
+  color: variables.$color-primary;
+  text-decoration: none;
+  outline: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &.shiftedAnchor {
+    display: block;
+    position: relative;
+    top: -120px;
+    visibility: hidden;
+  }
+}
+
+p { line-height: 1.7em; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #253e40;
+  padding: 10px 0;
+}
+
+h2 { color: #BC0028; }
+
+blockquote {
+  border: 1px solid #E5E5DB;
+  background: #FFF;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  scroll-margin-top: 80px; /* hauteur de la navbar */
+}
+
+dt { padding-bottom: 5px; }
+dd { padding-left: 10px; }
