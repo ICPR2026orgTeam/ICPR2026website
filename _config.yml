@@ -1,6 +1,7 @@
 url: "https://icpr2026.org"
 plugins: #[]
    - jekyll-seo-tag
+   - jekyll-last-modified-at
 #  - jekyll-sitemap
 
 
