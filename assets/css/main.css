@@ -2,6 +2,7 @@
 /* 🌍 Base */
 body {
   font: normal 0.91em Arial, sans-serif;
+  padding: 30;
 }
 
 a {
@@ -65,7 +66,7 @@ footer .last-update {
 }
 
 .custom-navbar {
-  background-color: #4D5E60;
+  background-color: rgba(77, 94, 96, 0.8666666667);
   font-family: Arial, sans-serif;
 }
 .custom-navbar .navbar-brand {
@@ -107,7 +108,7 @@ table {
   font-family: Arial, sans-serif;
 }
 table th {
-  background-color: #4D5E60;
+  background-color: rgba(77, 94, 96, 0.8666666667);
   color: white;
   text-align: center;
   padding: 12px;
@@ -152,6 +153,23 @@ tr {
   background: rgba(255, 255, 255, 0.5333333333);
 }
 
+.container {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+@media (min-width: 576px) {
+  .container {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+}
 /* 🎠 Carrousel */
 .carousel-inner {
   height: 400px;
