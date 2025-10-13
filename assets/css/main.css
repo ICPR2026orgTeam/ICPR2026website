@@ -51,6 +51,19 @@ dd {
   padding-left: 10px;
 }
 
+footer {
+  position: relative;
+}
+footer .last-update {
+  position: absolute;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  right: 10px;
+  font-size: 0.8rem;
+  color: #555;
+  font-style: italic;
+}
+
 .custom-navbar {
   background-color: #4D5E60;
   font-family: Arial, sans-serif;
@@ -298,3 +311,4 @@ tr {
   font-size: 1.2em;
 }
 
+/*# sourceMappingURL=main.css.map */
