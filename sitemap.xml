@@ -31,10 +31,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://icpr2026.org/callDocConsortium.html</loc>
+    <lastmod>2025-10-14T13:42:10+20:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://icpr2026.org/callWorkshops.html</loc>
     <lastmod>2025-10-05T00:00:00+00:00</lastmod>
     <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://icpr2026.org/committee.html</loc>
     <lastmod>2025-10-13T13:10:20+20:00</lastmod>
