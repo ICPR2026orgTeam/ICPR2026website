@@ -67,6 +67,14 @@
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
 }
+.card-body ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.card-body ul li {
+  margin-bottom: 0.5rem; /* espace vertical entre chaque item */
+}
 
 .list-group-item-action.active {
   color: #FFF;
