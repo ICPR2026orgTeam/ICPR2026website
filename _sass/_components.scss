@@ -280,3 +280,15 @@
   }
   /*  Program component*/
   /*-------------------*/
+
+  /*-------------------*/
+  /*  Map component    */
+
+ #map-container {
+    height: 80vh; /* La carte occupe 80% de la hauteur de l'écran */
+}
+#map {
+    height: 100%; /* La carte prend toute la hauteur du conteneur */
+}
+  /*  Map component    */
+  /*-------------------*/

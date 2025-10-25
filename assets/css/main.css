@@ -50,11 +50,6 @@ blockquote {
   padding: 0;
 }
 
-section {
-  scroll-margin-top: 80px;
-  /* hauteur de la navbar */
-}
-
 dt {
   padding-bottom: 5px;
 }
@@ -482,6 +477,18 @@ tr {
   }
 }
 /*  Program component*/
+/*-------------------*/
+/*-------------------*/
+/*  Map component    */
+#map-container {
+  height: 80vh; /* La carte occupe 80% de la hauteur de l'écran */
+}
+
+#map {
+  height: 100%; /* La carte prend toute la hauteur du conteneur */
+}
+
+/*  Map component    */
 /*-------------------*/
 .text-primary {
   color: red;
