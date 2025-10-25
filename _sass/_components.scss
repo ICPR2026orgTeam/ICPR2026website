@@ -89,3 +89,194 @@
     max-width: none;
   }
 }
+
+/*-------------------*/
+/*  Program component*/
+  .schedule-grid {
+    display: grid;
+    grid-template-columns: 2fr repeat(23, 3fr);
+    grid-auto-rows: 40px;
+    gap: 1px;
+    background: #ccc;
+  }
+
+  .cell {
+    grid-column: span 3;
+    background: white;
+    padding: 4px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .cellSmall1 {
+    grid-column: span 1;
+    background: white;
+    padding: 4px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cellSmall2 {
+    grid-column: span 2;
+    background: white;
+    padding: 4px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cell,
+  .cellSmall1,
+  .cellSmall2 {
+    background: white;
+    padding: 4px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    border: 1px solid #ccc;
+    /* <-- ajoute des bordures visibles */
+  }
+
+  .time {
+    background: #f0f0f0;
+    font-weight: bold;
+    font-size: 0.65rem;
+    align-items: flex-start;
+  }
+
+  .empty {
+    background-color: #f0f0f0;
+  }
+
+  .registration {
+    background-color: #c0c0c0;
+  }
+
+  .oral {
+    background-color: #F5A77C;
+  }
+
+  .workshop {
+    background-color: #A1B1C2;
+  }
+
+  .findings {
+    background-color: #8896AE;
+  }
+
+  .keynote {
+    background-color: #FBE7A3;
+  }
+
+  .poster {
+    background-color: #93A8D7;
+  }
+
+  .coffee {
+    background-color: #B8912F;
+  }
+
+  .prizeLecture {
+    background-color: #F8E5D8;
+  }
+
+  .special {
+    background-color: #f8d7da;
+  }
+
+  .break {
+    background-color: #dddddd;
+  }
+
+  .lunch {
+    background-color: #C2D6EC;
+  }
+
+  .women {
+    background-color: #E4EFDC;
+  }
+
+  .lunch {
+    background-color: #C2D6EC;
+  }
+
+  .ceremony {
+    background-color: #d1e7dd;
+  }
+
+  .iapr {
+    background-color: #FFFF54;
+    font-size: 0.8rem;
+  }
+
+  .doctorial {
+    background-color: #A3C1E3;
+  }
+
+  .indus {
+    background-color: #A3C1E3;
+  }
+
+  .welcome {
+    background-color: #a4c2f4;
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .long-text {
+      display: none;
+    }
+
+    .short-text {
+      display: none;
+    }
+
+    .med-text {
+      display: inline;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .long-text {
+      display: inline;
+    }
+
+    .short-text {
+      display: none;
+    }
+
+    .med-text {
+      display: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .long-text {
+      display: none;
+    }
+
+    .short-text {
+      display: inline;
+    }
+
+    .med-text {
+      display: none;
+    }
+  }
+
+  @media (max-width: 20484px) {
+    .vertical-text {
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+    }
+
+  }
+  /*  Program component*/
+  /*-------------------*/
