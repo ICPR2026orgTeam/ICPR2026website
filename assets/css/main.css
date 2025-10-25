@@ -9,6 +9,7 @@ a {
   color: #AD201E;
   text-decoration: none;
   outline: none;
+  font-weight: 500;
 }
 a:hover {
   text-decoration: none;
@@ -275,6 +276,16 @@ tr {
   margin-bottom: 10px;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
+}
+
+.card-body ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.card-body ul li {
+  margin-bottom: 0.5rem; /* espace vertical entre chaque item */
 }
 
 .list-group-item-action.active {
