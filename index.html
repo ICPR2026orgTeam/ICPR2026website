@@ -3,7 +3,7 @@ layout: default
 title: "ICPR 2026 - International Conference on Pattern Recognition"
 canonical: "https://icpr2026.org/"
 description: "Main page of ICPR 2026 - International Conference on Pattern Recognition that take place in Lyon 17-22 August 2026."
-last_modified: 2025-10-12
+last_modified: 2025-11-01
 ---
 <script>
     const q = window.location.search;
@@ -68,6 +68,21 @@ last_modified: 2025-10-12
       </div>
     </div>
   </div>
+
+     <section id="news" class="news-panel">
+       <h2>Latest News</h2>
+       <div class="news-list">
+    {% for post in site.posts limit:3 %}
+      <article class="news-item">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p class="news-date">{{ post.date | date: "%d %B %Y" }}</p>
+        <p>{{ post.excerpt  | truncatewords: 25 }}</p>
+      </article>
+    {% endfor %}
+  </div>
+  <p class="more-news"><a href="/news/">See all news →</a></p>
+</section>
+
 
   <!-- Contact information -->
   <div class="row mt-5">
