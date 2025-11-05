@@ -1,0 +1,15 @@
+---
+layout: default
+title: All News
+last_modified: 2025-11-02
+---
+
+<h1>All News</h1>
+<ul class="all-news-list">
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span class="date">{{ post.date | date: "%d %B %Y" }}</span>
+    </li>
+  {% endfor %}
+</ul>
