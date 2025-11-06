@@ -98,3 +98,30 @@ last_modified: 2025-11-06
       </div>
     </div>
   </div>
+
+
+<div class="row">
+  <div class="col-12 text-center my-3">
+    <div id="visits-container">
+      👁️ <span id="visits-count">...</span> visites
+    </div>
+  </div>
+</div>
+
+<script>
+(async function() {
+  const siteId = "cb791972-3363-4719-91c9-be80f4922a76"; // ton ID Umami
+  const url = window.location.pathname;
+
+  try {
+    const response = await fetch(`https://cloud.umami.is/api/websites/${siteId}/stats?startAt=0&endAt=${Date.now()}&url=${url}`);
+    const data = await response.json();
+    const views = data.pageviews?.value ?? "N/A";
+    document.getElementById("visits-count").textContent = views;
+  } catch (error) {
+    console.error("Erreur compteur Umami :", error);
+    document.getElementById("visits-count").textContent = "N/A";
+  }
+})();
+</script>
+
