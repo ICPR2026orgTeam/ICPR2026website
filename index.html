@@ -3,11 +3,11 @@ layout: default
 title: "ICPR 2026 - International Conference on Pattern Recognition"
 canonical: "https://icpr2026.org/"
 description: "Main page of ICPR 2026 - International Conference on Pattern Recognition that take place in Lyon 17-22 August 2026."
-last_modified: 2025-11-06
+last_modified: 2025-11-08
 ---
 <script>
     const q = window.location.search;
-    if (q.match(/(\?|&)(page_id|p|cat|feed)=/)) {
+    if (q.match(/(\?|&)(page_id|p|cat|feed|author)=/)) {
         window.location.replace(window.location.origin + '/');
     }
 </script>
@@ -112,9 +112,8 @@ last_modified: 2025-11-06
 
 <script>
 (async function() {
-  const siteId = "96da01bb-0162-407e-88a0-03d3e2fe0465"; // ton ID Umami
+  const siteId = "96da01bb-0162-407e-88a0-03d3e2fe0465"; 
   const url = window.location.pathname;
-
   try {
     const response7d = await fetch(`https://livelightning.ddnsfree.com/visits?range=7d`);
     const data = await response7d.json();
@@ -127,8 +126,8 @@ last_modified: 2025-11-06
     document.getElementById("visits-count24h").textContent = views24h;
   } catch (error) {
     console.error("Erreur compteur Umami :", error);
-document.getElementById("visits-count7d").textContent = "N/A";
-document.getElementById("visits-count24h").textContent = "N/A";
+    document.getElementById("visits-count7d").textContent = "N/A";
+    document.getElementById("visits-count24h").textContent = "N/A";
   }
 })();
 </script>
