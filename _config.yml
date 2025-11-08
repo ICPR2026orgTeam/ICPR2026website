@@ -1,9 +1,9 @@
 url: "https://icpr2026.org"
 plugins: #[]
    - jekyll-seo-tag
-# last modified do not work on github   
-#   - jekyll-last-modified-at 
-#  - jekyll-sitemap
+sass:
+  sass_dir: _sass
+  style: expanded
 
 
 

@@ -2,10 +2,10 @@
 # front matter requis
 ---
 
-@use "variables" ;
-@use "base";
-@use "navbar";
-@use "layout" ;
-@use "components";
-@use "utilities";
-@use "banner" ;
+@import "variables" ;
+@import "base";
+@import "navbar";
+@import "layout" ;
+@import "components";
+@import "utilities";
+@import "banner" ;

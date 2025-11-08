@@ -156,12 +156,16 @@ footer {
 }
 
 
-
-#visits-container {
-  display: inline-flex;
+#visits-count24h, #visits-count7d{
+ font-size: 1.1em;
+ font-weight: 600; /* 👈 gras */
+}
+.visits-block {
+  display: flex; 
   align-items: center;
   justify-content: center;
   gap: 0.3em;
+
   background: #f5f5f5;
   padding: 0.4em 0.8em;
   border-radius: 0.4em;
@@ -171,12 +175,14 @@ footer {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease, background 0.2s ease;
 
+  width: fit-content; 
+  margin: 0.4em auto; 
+
   &:hover {
     transform: scale(1.05);
     background: #eee;
   }
 
-  // Petit effet responsive
   @media (max-width: 600px) {
     font-size: 0.8em;
     padding: 0.3em 0.6em;
