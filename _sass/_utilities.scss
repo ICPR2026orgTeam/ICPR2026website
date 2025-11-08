@@ -1,4 +1,4 @@
 @import "variables";
 
 .text-primary { color: red; }
-.text-info { color: variables.$color-primary !important; }
+.text-info { color: $color-primary !important; }

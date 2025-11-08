@@ -1,8 +1,8 @@
 @import "variables";
 
 .custom-navbar {
-  background-color: variables.$color-secondary;
-  font-family: variables.$font-main;
+  background-color: $color-secondary;
+  font-family: $font-main;
 
   .navbar-brand {
     color: white !important;
@@ -20,8 +20,8 @@
   .dropdown-menu {
     background-color: white;
     .dropdown-item {
-      color: variables.$color-dark !important;
-      &:hover { background-color: variables.$color-light; }
+      color: $color-dark !important;
+      &:hover { background-color: $color-light; }
     }
   }
 }

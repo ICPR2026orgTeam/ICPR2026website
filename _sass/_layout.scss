@@ -6,10 +6,10 @@ table {
   border-collapse: collapse;
   width: 60%;
   margin: auto;
-  font-family: variables.$font-main;
+  font-family: $font-main;
 
   th {
-    background-color: variables.$color-secondary;
+    background-color: $color-secondary;
     color: white;
     text-align: center;
     padding: 12px;
