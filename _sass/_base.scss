@@ -3,13 +3,14 @@
 /* 🌍 Base */
 
 body {
-  font: normal 0.91em variables.$font-main;
-  padding: 30;
+    font: normal 0.91em $font-main;
+    padding: 30;
+    font: normal;
 
 }
 
 a {
-  color: variables.$color-primary;
+  color: $color-primary;
   text-decoration: none;
   outline: none;
   font-weight: 500;
