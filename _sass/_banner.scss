@@ -44,6 +44,12 @@
   }
 }
 
+/* Mobile reduced font since */
+@media (max-width: 991px) {
+  .conference-location {
+    font-size: 1rem; 
+  }
+}
 /* Titres dans le bandeau */
 .background-image h1,
 .background-image h2,
