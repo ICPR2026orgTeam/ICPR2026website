@@ -115,12 +115,12 @@ last_modified: 2025-11-10
   const siteId = "96da01bb-0162-407e-88a0-03d3e2fe0465"; 
   const url = window.location.pathname;
   try {
-    const response7d = await fetch(`https://livelightning.ddnsfree.com/visits?range=7d`);
+    const response7d = await fetch(`https://statsllapp.mywire.org/visits?range=7d`);
     const data = await response7d.json();
     const views = data.visits ?? "N/A";
     document.getElementById("visits-count7d").textContent = views;
 
-    const response24h = await fetch(`https://livelightning.ddnsfree.com/visits?range=24h`);
+    const response24h = await fetch(`https://statsllapp.mywire.org/visits?range=24h`);
     const data24h = await response24h.json();
     const views24h = data24h.visits ?? "N/A";
     document.getElementById("visits-count24h").textContent = views24h;
