@@ -1,8 +1,10 @@
 ---
 layout: default
-title: "New sponsor added with Elsevier supporting Piero the Zamperoni student award."
+title: "New sponsor: Elsevier supports the Piero Zamperoni Student Award"
 date: 2025-11-15
 last_modified: 2025-11-15
 ---
-Thanks to the Elsevier <a href="{{ site.baseurl }}/sponsors.html">sponsor</a> for supporting Piero the Zamperoni student award. 
+
+Thanks to <a href="{{ site.baseurl }}/sponsors.html">Elsevier</a> for supporting the Piero Zamperoni Student Award.
+
 
