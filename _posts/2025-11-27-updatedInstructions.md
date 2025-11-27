@@ -1,8 +1,9 @@
 ---
 layout: default
-title: "Authors instructions updated"
+title: "Author instructions updated"
 date: 2025-11-27
 last_modified: 2025-11-27
 ---
 
-Authors instructions updated with precision on supplementary material (see <a href="{{ site.baseurl }}/instructions.html">instruction page</a>).
+The author instructions have been updated with additional details on supplementary material (see the <a href="{{ site.baseurl }}/instructions.html">instructions page</a>) and with a clarification on the <a href="{{ site.baseurl }}/dates.html">deadline timezone</a>.
+
