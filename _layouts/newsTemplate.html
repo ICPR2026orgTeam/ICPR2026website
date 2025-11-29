@@ -39,12 +39,12 @@
 <main>
   <div class="container px-1">    
     <!-- H1 avec info News + date -->
-       <h1 class="news-header">
-      News of 
-      {% if page.date %}
-        {{ page.date | date: "%d %B %Y" }}
-      {% else %}
-        {{ "now" | date: "%d %B %Y" }}
+<time class="news-date" datetime="{{ page.date | date_to_xmlschema }}">
+    {{ page.date | default: "now" | date: "%d %B %Y" }}
+  </time>
+    <h1 class="news-header">
+      {% if page.title %}
+        {{ page.title  }}
       {% endif %}
     </h1> 
 
