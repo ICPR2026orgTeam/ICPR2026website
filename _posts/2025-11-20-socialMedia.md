@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: newsTemplate
 title: "Announcement of the Official ICPR 2026 Social Media Channels"
 date: 2025-11-20
 last_modified: 2025-11-20

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: newsTemplate
 title: "Instructions to Reproducible Research in Pattern Recognition (RRPR) Badge"
 date: 2025-11-15
 last_modified: 2025-11-15

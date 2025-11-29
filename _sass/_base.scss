@@ -146,8 +146,23 @@ footer {
     transform: scale(1.05);
   }
 }
+.news-title {
+  display: block;
+  font-size: clamp(14px, 2.5vw, 18px);
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  color: $color-primary;   
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
 
-
+.news-title:hover {
+  color: #e74c3c;       /* rouge plus vif au survol */
+}
 
 .news-date {
   font-size: 0.9rem;
@@ -155,11 +170,39 @@ footer {
   margin-bottom: 0.5rem;
 }
 
+
 .more-news {
   text-align: right;
   margin-top: 1rem;
 }
 
+.news-header {
+  font-size: clamp(20px, 3vw, 32px); 
+  margin-bottom: 1.5rem;
+  color: $color-primary;
+}
+.hidden {
+  display: none;
+}
+
+.show-more-wrapper {
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+#show-more-news {
+  background: none;
+  border: none;
+  color: #8d1100;
+  padding: 0.2em 0.4em;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+#show-more-news:hover {
+  text-decoration: underline;
+  color: #5d0000;
+}
 
 #visits-count24h, #visits-count7d{
  font-size: 1.1em;
@@ -192,4 +235,38 @@ footer {
     font-size: 0.8em;
     padding: 0.3em 0.6em;
   }
+}
+
+
+.faq-panel {
+    padding: 0 1em;
+   margin-left: 0; /* aligné à gauche comme les news */
+}
+
+.faq-item {
+  margin-bottom: 1em;
+}
+
+.faq-question {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-align: left;
+  background-color: #fff3f3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.faq-question:hover {
+  background-color: #ffe0e0;
+}
+
+.faq-answer {
+  margin-top: 0.25em;
+  padding: 0 1em;
+}
+
+.hidden {
+  display: none;
 }
