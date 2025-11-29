@@ -4,9 +4,28 @@ title: FAQ & All News - ICPR 2026
 canonical: "https://icpr2026.org/news.html"
 last_modified: 2025-11-28
 ---
-<h1>FAQ and News</h1>
+<h1>News and FAQ </h1>
 
 <p>Before contacting us, please check the following FAQ or the list of news.</p>
+
+
+<h2>All News</h2>
+<section id="AllNews" >
+<ul class="all-news-list">
+  {% for post in site.posts %}
+    <li class="{% if forloop.index > 5 %}hidden{% endif %}">
+      <a href="{{ post.url | relative_url}}" class="news-title toggle-content">{{ post.title }}</a>
+      <div class="news-content hidden">{{ post.excerpt }}</div>
+      <span class="news-date">({{ post.date | date: "%d %B %Y" }})</span>
+    </li>
+  {% endfor %}
+</ul>
+<div class="show-more-wrapper">
+  <button id="show-more-news">show all...</button>
+</div>
+</section>
+
+
 
 <h2>FAQ</h2>
 <section id="faq" class="faq-panel">
@@ -56,22 +75,6 @@ last_modified: 2025-11-28
 </section>
 
 
-
-<h2>All News</h2>
-<section id="AllNews" >
-<ul class="all-news-list">
-  {% for post in site.posts %}
-    <li class="{% if forloop.index > 5 %}hidden{% endif %}">
-      <a href="{{ post.url | relative_url}}" class="news-title toggle-content">{{ post.title }}</a>
-      <div class="news-content hidden">{{ post.excerpt }}</div>
-      <span class="news-date">({{ post.date | date: "%d %B %Y" }})</span>
-    </li>
-  {% endfor %}
-</ul>
-<div class="show-more-wrapper">
-  <button id="show-more-news">show all...</button>
-</div>
-</section>
 <script>
   const btn = document.getElementById('show-more-news');
   const newsItems = document.querySelectorAll('.all-news-list li.hidden');
