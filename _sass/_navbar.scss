@@ -34,3 +34,17 @@
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+@media (min-width: 992px) and (max-width: 1200px) {
+  .navbar-nav .nav-link {
+    padding-left: .1rem;
+    padding-right: .2rem;
+    font-size: 1rem;  /* optionnel mais aide beaucoup */
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  #navMenu .navbar-brand {
+    font-size: 1rem;   /* plus discret */
+    padding-left: 0.1rem;
+    padding-right: 0.2rem;
+  }
+}
