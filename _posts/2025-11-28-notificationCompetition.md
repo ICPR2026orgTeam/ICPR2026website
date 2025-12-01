@@ -12,7 +12,7 @@ last_modified: 2025-11-28
 <ul>
   <li>Low-Resolution License Plate Recognition</li>
   <li>RARE-VISION</li>
-  <li>VISTAC: Visual Tracking in Adverse Conditions</li>
+  <li>VISTAC: Visual Tracking on Adverse Conditions</li>
   <li>Beyond Visible Spectrum: AI for Agriculture</li>
   <li>Privacy-Preserving Person Re-Identification from Top-View RGB-Depth Camera</li>
 </ul>
