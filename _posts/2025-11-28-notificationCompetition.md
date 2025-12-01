@@ -2,7 +2,7 @@
 layout: newsTemplate
 title: "Competition Proposal Results Sent to Authors"
 date: 2025-11-28
-last_modified: 2025-11-28
+last_modified: 2025-12-01
 ---
 
 <p>The decisions regarding the Competition Proposals for ICPR 2026 have been sent to the authors.</p>
