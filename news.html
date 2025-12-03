@@ -11,7 +11,8 @@ last_modified: 2025-11-29
 
 
 
-<h2>All News</h2>
+<h2>All News</h2> 
+  <a href="{{ "/feed.xml" | relative_url }}">📡 RSS</a>
 <section id="AllNews" >
 <ul class="all-news-list">
   {% for post in site.posts %}
@@ -22,9 +23,12 @@ last_modified: 2025-11-29
     </li>
   {% endfor %}
 </ul>
+
 <div class="show-more-wrapper">
   <button id="show-more-news">show all...</button>
+
 </div>
+
 </section>
 
 
