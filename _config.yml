@@ -1,6 +1,7 @@
 url: "https://icpr2026.org"
 plugins: #[]
    - jekyll-seo-tag
+   - jekyll-feed
 sass:
   sass_dir: _sass
   style: expanded
