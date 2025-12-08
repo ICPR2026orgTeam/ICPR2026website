@@ -1,8 +1,8 @@
 ---
 layout: newsTemplate
 title: "Special Section in Pattern Recognition Letters for ICPR 2026"
-date: 2025-12-09
-last_modified: 2025-12-09
+date: 2025-12-08
+last_modified: 2025-12-08
 ---
 
 <p> We are pleased to announce that, as for previous editions, a Special Section of <em><a href="https://www.sciencedirect.com/journal/pattern-recognition-letters">Elsevier Pattern Recognition Letters</a> (PRL)</em> will be dedicated to ICPR 2026.</p>
