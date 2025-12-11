@@ -1,34 +1,11 @@
-// 🎨 ===== Variables globales ICPR 2026 =====
+// ===== ICPR 2026 global variables =====
 
-// Couleurs principales
-$color-primary: #AD201E;      // Rouge ICPR
-$color-secondary: #4D5E60DD;    // Vert foncé
+// Main colors
+$color-primary: #AD201E;        // red ICPR
+$color-secondary: #4D5E60DD;    // dark green
 $color-dark: #343a40;
 $color-light: #EEEEEE;
 $color-text: #444;
 
-// Typographie
+// Typography
 $font-main: Arial, sans-serif;
-
-// Mode clair / sombre
-$color-bg-dark: #121212;
-$color-text-dark: #f5f5f5;
-$theme: light !default;
-
-// 🎚️ Mixins utilitaires
-@mixin theme-colors {
-  @if $theme == light {
-    body {
-      background-color: white;
-      color: $color-text;
-    }
-  } @else if $theme == dark {
-    body {
-      background-color: $color-bg-dark;
-      color: $color-text-dark;
-    }
-
-    a { color: lighten($color-primary, 20%); }
-    .navbar { background-color: rgba($color-primary, 0.8); }
-  }
-}
