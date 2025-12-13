@@ -3,7 +3,7 @@ layout: default
 title: "ICPR 2026 - International Conference on Pattern Recognition"
 canonical: "https://icpr2026.org/"
 description: "Main page of ICPR 2026 - International Conference on Pattern Recognition that take place in Lyon 17-22 August 2026."
-last_modified: 2025-11-20
+last_modified: 2025-12-13
 ---
 <script>
     const q = window.location.search;
@@ -94,10 +94,30 @@ last_modified: 2025-11-20
     <div class="col-md-6 mx-auto">
       <div class="card border-info mb-3">
         <div class="card-header text-center">Contact information and social media</div>
-        <div class="card-body text-center ">
-          e-mail: <a href="mailto:contact@icpr2026.org">contact@icpr2026.org</a>
      <div class="card-body text-center ">
-         <ul>
+<div class="faq-item">
+  <div class="card-body text-center">
+    <p>Questions about:</p>
+    <table class="table-contact"  >
+      <tbody>
+        <tr><td>program chair:</td><td><a href="mailto:pc@icpr2026.org">pc@icpr2026.org</a></td></tr>
+        <tr><td>general chairs:</td><td><a href="mailto:general_chairs@icpr2026.org">general_chairs@icpr2026.org</a></td></tr>
+        <tr><td>local organisation:</td><td><a href="mailto:local_chairs@icpr2026.org">local_chairs@icpr2026.org</a></td></tr>
+        <tr class="extra" style="display:none;"><td>website:</td><td><a href="mailto:media@icpr2026.org">media@icpr2026.org</a></td></tr>
+        <tr class="extra" style="display:none;"><td>sponsors:</td><td><a href="mailto:sponsors@icpr2026.org">sponsors@icpr2026.org</a></td></tr>
+        <tr class="extra" style="display:none;"><td>tutorials:</td><td><a href="mailto:tutorials@icpr2026.org">tutorials@icpr2026.org</a></td></tr>
+        <tr class="extra" style="display:none;"><td>workshops:</td><td><a href="mailto:workshop_chairs@icpr2026.org">workshop_chairs@icpr2026.org</a></td></tr>
+        <tr class="extra" style="display:none;"><td>reproducible research:</td><td><a href="mailto:rr_chairs@icpr2026.org">rr_chairs@icpr2026.org</a></td></tr>
+        <tr class="extra" style="display:none;"><td>publications:</td><td><a href="mailto:publication_chairs@icpr2026.org">publication_chairs@icpr2026.org</a></td></tr>
+        <tr class="extra" style="display:none;"><td>doctorial consortium:</td><td><a href="mailto:doctorial-consortium@icpr2026.org">doctorial-consortium@icpr2026.org</a></td></tr>
+        <tr class="extra" style="display:none;"><td>Other questions:</td><td><a href="mailto:contact@icpr2026.org">contact@icpr2026.org</a></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <a href="#" id="toggle-contacts" >Show all.. </a>
+</div>
+<br>
+        <ul>
            <li>
              <a href="https://instagram.com/icpr2026" target="_blank" rel="noopener">
                <img src="/Logos/logoInstagram.svg" alt="Threads" width="24" height="24"> icpr2026
@@ -108,10 +128,8 @@ last_modified: 2025-11-20
              <a href="https://www.threads.net/@icpr2026" target="_blank" rel="noopener">
                <img src="/Logos/logoThreads.svg" alt="Threads" width="24" height="24"> icpr2026
              </a>             
-           </li>
-           
+           </li>           
           </ul>
-
          </div>
 
          
@@ -120,7 +138,6 @@ last_modified: 2025-11-20
       <div class="text-center">
         <img class="w-50" src="Logos/IAPR.svg" alt="IAPR Logo">
       </div>
-    </div>
   </div>
 <div class="row">
   <div class="col-12 text-center my-3">
@@ -154,5 +171,16 @@ last_modified: 2025-11-20
     document.getElementById("visits-count24h").textContent = "N/A";
   }
 })();
+</script>
+<script>
+const extras = document.querySelectorAll('tr.extra');
+const toggle = document.getElementById('toggle-contacts');
+
+toggle.addEventListener('click', e => {
+  e.preventDefault();
+  const hidden = extras[0].style.display === 'none';
+  extras.forEach(tr => tr.style.display = hidden ? 'table-row' : 'none');
+  toggle.textContent = hidden ? 'Show less' : 'Show all';
+});
 </script>
 

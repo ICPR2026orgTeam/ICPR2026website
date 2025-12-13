@@ -2,7 +2,7 @@
 layout: default
 title:  News and FAQ - ICPR 2026
 canonical: "https://icpr2026.org/news.html"
-last_modified: 2025-12-10
+last_modified: 2025-12-12
 ---
 
 <h1>News and FAQ</h1>
@@ -12,7 +12,7 @@ last_modified: 2025-12-10
 
 
 <h2>All News</h2> 
-  <a href="{{ "/feed.xml" | relative_url }}">📡 RSS</a>
+<a href="{{ "/feed.xml" | relative_url }}">📡 RSS</a>
 <section id="AllNews" >
 <ul class="all-news-list">
   {% for post in site.posts %}
@@ -35,60 +35,18 @@ last_modified: 2025-12-10
 
 <h2>FAQ</h2>
 <section id="faq" class="faq-panel">
+
+
+  {% assign faq = site.data.faq %}
+ {% for f in faq %}   
   <div class="faq-item">
-    <button class="faq-question"> Contact guide </button>
+    <button class="faq-question">{{ f.question }}</button>
     <div class="faq-answer hidden">
-      <p>
-        <ul>
-          <li> Questions about ICPR program:         <a href="mailto:pc@icpr2026.org@icpr2026.org">pc@icpr2026.org</a> </il>
-          <li> Questions about local organisation:         <a href="mailto:local_chairs@icpr2026.org">local_chairs@icpr2026.org</a> </il>
-          <li> Questions for general chairs:         <a href="mailto:general_chairs@icpr2026.org">general_chairs@icpr2026.org</a> </li>
-          <li> Questions about local origanisation:         <a href="mailto:local_chairs@icpr2026.org">local_chairs@icpr2026.org</a> </li>
-          <li> Questions about ICPR website:         <a href="mailto:media@icpr2026.org">media@icpr2026.org</a> </li>
-          <li> Questions about sponsors:         <a href="mailto:sponsors@icpr2026.org">sponsors@icpr2026.org</a> </li>
-          <li> Questions about tutorials:         <a href="mailto:tutorials@icpr2026.org">tutorials@icpr2026.org</a> </li>
-          <li> Questions about workshops:         <a href="mailto:workshop_chairs@icpr2026.org">workshop_chairs@icpr2026.org</a> </li>
-          <li> Questions about reproducible research:   <a href="mailto:rr_chairs@icpr2026.org">rr_chairs@icpr2026.org</a> </li>
-          <li> Questions about publications:   <a href="mailto:publication_chairs@icpr2026.org">publication_chairs@icpr2026.org</a> </li>
-          <li> Questions about doctorial consortium <a href="mailto:doctorial-consortium@icpr2026.org">doctorial-consortium@icpr2026.org</a> </li>
-<li> Other questions  <a href="mailto:contact@icpr2026.org">contact@icpr2026.org</a> </li>
-</ul>
-      </p>
+      <p> {{ f.answer }}</p>
     </div>
   </div>
-
-  <div class="faq-item">
-    <button class="faq-question">I have some questions about CMT interface who can I contact ?</button>
-    <div class="faq-answer hidden">
-      <p>In case of any issues with CMT, please contact the publication chairs at: <a href="mailto:cmt@icpr2026.org" >cmt@icpr2026.org </a></p>
-    </div>
-  </div>
-  <div class="faq-item">
-    <button class="faq-question">Does each co-author need to individually declare their domain conflicts through their own account, or is it sufficient for the corresponding author to make a single declaration ?  </button>
-    <div class="faq-answer hidden">
-      <p>
-        All authors <b>must</b> be registered in CMT and all authors <b>must</b> list the domains of conflict of interest. 
-      </p>
-    </div>
-  </div>
-
-
-  <div class="faq-item">
-    <button class="faq-question">I have some questions about the Reproducible Research Badge </button>
-    <div class="faq-answer hidden">
-      <p>
-        You can check the description <a href="rrprBadges.html">here</a>, or contact the reproducible research chairs at: 
-        <a href="mailto:rr_chairs@icpr2026.org">rr_chairs@icpr2026.org</a>
-      </p>
-    </div>
-  </div>
-
-
+  {% endfor %}
   
-
-
-  
-  <!-- ajoute autant d'items que nécessaire -->
 </section>
 
 

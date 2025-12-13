@@ -1,0 +1,28 @@
+
+- question: "I have some questions about CMT interface who can I contact ?"
+  answer: "In case of any issues with CMT, please contact the publication chairs at: <a href=\"mailto:cmt@icpr2026.org\" >cmt@icpr2026.org </a>."
+
+- question: "Does each co-author need to individually declare their domain conflicts through their own account, or is it sufficient for the corresponding author to make a single declaration ?"
+  answer: "All authors <b>must</b> be registered in CMT and all authors <b>must</b> list the domains of conflict of interest."
+
+- question: "I have some questions about the Reproducible Research Badge"
+  answer: "You can check the description <a href=\"rrprBadges.html\">here</a>, or contact the reproducible research chairs at: <a href=\"mailto:rr_chairs@icpr2026.org\">rr_chairs@icpr2026.org</a>."
+
+- question: "Will be possible to attend the conference remotely ?"
+  answer:  "Presentations are intended to be onsite."
+
+- question: "Shall we add the ORCID numbers for paper authors ?"
+  answer: "The placeholder for ORCID numbers is included in the template, but its inclusion is optional."
+
+- question: "I have questions about the paper format. Who can answer ?"
+  answer: "Any question about the paper format can be sent by email to publication chairs at <a href=\"mailto:publication_chairs@icpr2026.org\">publication_chairs@icpr2026.org</a>."
+
+- question: "Will the supplementary material for a paper be published ?"
+  answer: "No, the supplementary material will not be published and it has not to be mentioned in any way in the paper, which must be self-contained; supplementary material is only intended for reviewers to get a more clear idea of the proposal, but it is not mandatory for them to take it into account."
+
+- question: "Will it be possible to add an author or to change the authors' order after submission ?"
+  answer: "No, this will not be allowed."
+
+- question: "Does the conference plan to have a rebuttal phase ?"
+  answer: "No rebuttal period is scheduled."
+

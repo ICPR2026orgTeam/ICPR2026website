@@ -1,6 +1,8 @@
 @import "variables";
 
 
+
+
 /* 📄 Tables */
 table {
   border-collapse: collapse;
@@ -30,25 +32,27 @@ table {
     width: 30%;
   }
 }
-
-tr { line-height: 25px; height: 25px; }
-
-/* 🖼️ Sections */
-.jumbotron {
-  max-height: 250px;
-  margin: -30px 0 10px;
+/* Mini style pour tableau contact */
+.table-contact {
+  width: 90%;
+  text-align: left;
 }
 
-.tab-pane {
-  background-color: #FFF;
-  min-height: 300px;
 
-  &.proj {
-    background-color: #EEE;
-    min-height: 400px;
-  }
+.table-contact td.right {
+  width: 50%;           
 }
 
+.table-contact td.left {
+  width: 50%;           
+}
+
+.table-contact tr.extra {
+  display: none;        
+}
+.table-contact tr {
+  background-color: white !important; /* force toutes les lignes à blanc */
+}
 /* 📄 Content wrappers */
 #site_content {
   overflow: hidden;
