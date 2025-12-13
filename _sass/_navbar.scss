@@ -1,50 +1,46 @@
-@import "variables";
-
-.custom-navbar {
+nav.custom-navbar {
   background-color: $color-secondary;
   font-family: $font-main;
 
-  .navbar-brand {
-    color: white !important;
-    font-size: 1.3rem;
+  .navbar-brand, .nav-link {
+    color: white;
+
+    // Should also be used for dropdown-menu items ?
+    line-height: 1.5;
+
+    font-size: 1.1rem;
+
+    padding-top: .5cqi;
+    padding-bottom: .5cqi;
+
+    @media (min-width: 992px) and (max-width: 1200px) {
+      font-size: 1rem;
+
+      padding-left: .1cqi;
+      padding-right: .2cqi;
+    }
   }
 
   .nav-link {
-    color: white !important;
-    margin: 0 5px;
-    padding: 0.5rem 1rem;
+    margin: 0 .3cqi;
 
-    &:hover { color: #ccc !important; }
+    padding-left: 1cqi;
+    padding-right: 1cqi;
+
+    &:hover { color: #ccc; }
+  }
+
+  .active {
+    font-weight: 600;
   }
 
   .dropdown-menu {
     background-color: white;
+
     .dropdown-item {
-      color: $color-dark !important;
+      color: $color-dark;
+
       &:hover { background-color: $color-light; }
     }
-  }
-}
-
-.custom-navbar .navbar-brand,
-.custom-navbar .nav-link {
-  font-family: Arial, sans-serif; /* même font pour tous */
-  font-size: 1.1rem;              /* même taille que les nav-link */
-  line-height: 1.5;               /* même hauteur de ligne */
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-@media (min-width: 992px) and (max-width: 1200px) {
-  .navbar-nav .nav-link {
-    padding-left: .1rem;
-    padding-right: .2rem;
-    font-size: 1rem;  /* optionnel mais aide beaucoup */
-  }
-}
-@media (min-width: 992px) and (max-width: 1200px) {
-  #navMenu .navbar-brand {
-    font-size: 1rem;   /* plus discret */
-    padding-left: 0.1rem;
-    padding-right: 0.2rem;
   }
 }
