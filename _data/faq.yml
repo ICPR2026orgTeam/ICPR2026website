@@ -26,3 +26,9 @@
 - question: "Does the conference plan to have a rebuttal phase ?"
   answer: "No rebuttal period is scheduled."
 
+- question: "Is it possible to submit a paper that has already been submitted to arXiv?"
+  answer: "Yes, papers submitted to arXiv can be submitted to the conference as they are unreviewed material."
+
+- question: "How can I submit the supplementary material?"
+  answer:  "Supplementary material can be submitted as a separate PDF file after completing the submission of the main file."
+
