@@ -1,3 +1,28 @@
+- question: "Is it mandatory to enter one’s domain conflicts ?"
+  answer: "Yes. Domain conflicts MUST be entered by ALL authors of a paper to avoid the paper is desk rejected. Domain conflicts MUST be entered by reviewers otherwise they will not be assigned any paper and they will not be listed as members of the Program Committee of ICPR 2026."
+
+- question: "How can I add my domain conflicts ?"
+  answer: "When you login in CMT you will find a request from the Chairs in a reddish box and in the same box you can find the link to follow to enter your conflicts, as shown below:
+  <img
+  src=\"Images/FAQ_cmtDecStep1.png\"
+  alt=\"Université Lumière Lyon 2 logo\"
+   class=\" mx-auto d-block  border-secondary rounded\"
+   style=\"width: 80%;\"
+/>
+
+
+
+
+After clicking you will land on a new page where you complete the task, as shown below:
+  <img
+  src=\"Images/FAQ_cmtDecStep2.png\"
+  alt=\"Université Lumière Lyon 2 logo\"
+  class=\" mx-auto d-block  border-secondary rounded\"
+  style=\"width: 80%;\"
+  />
+
+"
+
 
 - question: "Do we need to follow the page margins as well as font size in the Springer LNCS template for our manuscript?"
   answer: "Yes. Parts of tables and figures that are out-of-bound the Springer LNCS margins will not be visible in a camera-ready version and should be avoided already at submission. According to common layout rules, a manuscript should be readable without having to zoom in. Hence, the font size are to be followed not only in text but also in tables and figures. We anticipate that it should be possible to present your project and results in an explanatory way to the reviewers and future readers within the allowed 15 pages without pushing limits."
