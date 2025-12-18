@@ -1,3 +1,7 @@
+
+- question: "Do we need to follow the page margins as well as font size in the Springer LNCS template for our manuscript?"
+  answer: "Yes. Parts of tables and figures that are out-of-bound the Springer LNCS margins will not be visible in a camera-ready version and should be avoided already at submission. According to common layout rules, a manuscript should be readable without having to zoom in. Hence, the font size are to be followed not only in text but also in tables and figures. We anticipate that it should be possible to present your project and results in an explanatory way to the reviewers and future readers within the allowed 15 pages without pushing limits."
+  
 - question: "Is it possible to submit a paper that has already been submitted to arXiv?"
   answer: "Yes, papers submitted to arXiv can be submitted to the conference as they are unreviewed material."
 
