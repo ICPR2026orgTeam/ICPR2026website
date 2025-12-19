@@ -237,44 +237,18 @@
     background-color: #a4c2f4;
   }
 
-  @media (min-width: 769px) and (max-width: 1024px) {
-    .long-text {
-      display: none;
-    }
-
+  @media (min-width: 769px) {
+    .long-text,
     .short-text {
       display: none;
     }
-
-    .med-text {
-      display: inline;
-    }
   }
 
-  @media (min-width: 1025px) {
-    .long-text {
-      display: inline;
-    }
-
-    .short-text {
-      display: none;
-    }
-
-    .med-text {
-      display: none;
-    }
-  }
+ 
 
   @media (max-width: 768px) {
-    .long-text {
-      display: none;
-    }
-
-    .short-text {
-      display: inline;
-    }
-
-    .med-text {
+      .long-text,
+      .med-text {
       display: none;
     }
   }
