@@ -1,0 +1,47 @@
+---
+layout: default
+title:  Competitopns - ICPR 2026
+canonical: "https://icpr2026.org/competitions.html"
+last_modified: 2025-12-18
+---
+
+<h1>Competitions</h1>
+
+<p> </p>
+
+
+
+<h2>Selected Competitions</h2> 
+
+<p>From this ICPR 2026 the following competitions were selected.</p>
+
+
+  {% assign comp = site.data.competitions %}
+{% for c in comp %}
+
+<div class="card text-dark bg-light mb-5" style="max-width: 110rem;">
+  <div class="card-header">{{ c.title }}</div>
+  <div class="card-body">
+    <h5 class="card-title">Website</h5>
+    <p class="card-text"> <a href="{{ c.website }}">{{ c.website }}</a>  </p>
+  </div>
+</div>
+
+  {% endfor %}
+  
+</section>
+
+
+
+<script>
+document.querySelectorAll('.faq-question').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const answer = btn.nextElementSibling;
+    answer.classList.toggle('hidden');
+  });
+});
+
+
+</script>
+
+
