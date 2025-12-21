@@ -30,9 +30,13 @@ process.
 
 <p> Please read the following <a href="/instructions.html"> instructions</a> before submission.
   To submit a paper you should follow this link:
-<div class="d-grid gap-2 col-sm-6 col-md-3  mx-auto">
-  <a href="https://cmt3.research.microsoft.com/ICPR2026" class="btn btn-success mt-3 rounded-pill "
-    role="button" aria-disabled="true"> submit a paper </a>
+
+  <div class="d-grid gap-2 col-sm-6 col-md-3  mx-auto">
+<a href="#" class="btn btn-success mt-3 rounded-pill"
+   data-bs-toggle="modal"
+   data-bs-target="#submissionConfirmModal">
+  Submit a paper
+</a>
 </div>
 </p>
 
@@ -76,5 +80,46 @@ process.
 </div>
 </p>
 
+<div class="modal fade" id="submissionConfirmModal" tabindex="-1"
+     aria-labelledby="submissionConfirmModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="submissionConfirmModalLabel">
+          ⚠️ Important Notice for Authors
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <p>
+          Authors are required to follow <strong>all submission requirements</strong> as listed on the ICPR 2026 website. Violating a requirement may result in the Program Chairs <strong>rejecting your paper without review</strong> (i.e., <em>a desk rejection</em>).
+        </p>
+        <p>
+          Submissions that do not comply with these requirements may result in
+           (<em>desk rejection</em>).
+        </p>
+        <p class="mb-0">
+          By proceeding, you confirm that you have read and understood
+          the submission requirements.
+        </p>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary"
+                data-bs-dismiss="modal">
+          Cancel
+        </button>
+        <a href="https://cmt3.research.microsoft.com/ICPR2026"
+           class="btn btn-success">
+          OK – Proceed to CMT
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>
 
 </section>
