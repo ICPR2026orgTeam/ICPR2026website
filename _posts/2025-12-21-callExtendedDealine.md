@@ -1,11 +1,14 @@
 ---
 layout: newsTemplate
-title: "New call for paper updated with new deadline"
+title: "Call for Papers Updated with Extended Deadline"
 date: 2025-12-18
 last_modified: 2025-12-21
 ---
 
-<p>Following the deadline extension (<b class="text-info">January 10, 2026 AoE</b>), the call for paper was updated in the main <a href="{{ site.baseurl }}/calls.html">call for paper page</a>.
-
+<p>
+The Call for Papers has been updated following the deadline extension
+(<b class="text-info">January 10, 2026 (AoE)</b>). Please refer to the main
+<a href="{{ site.baseurl }}/calls.html">Call for Papers page</a> for details.
+</p>
 
 
