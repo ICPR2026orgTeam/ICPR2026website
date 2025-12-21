@@ -5,7 +5,7 @@
   answer: "When you login in CMT you will find a request from the Chairs in a reddish box and in the same box you can find the link to follow to enter your conflicts, as shown below:
   <img
   src=\"Images/FAQ_cmtDecStep1.png\"
-  alt=\"Université Lumière Lyon 2 logo\"
+  alt=\"illustration of step1 to declare domain conflict\"
    class=\" mx-auto d-block  border-secondary rounded\"
    style=\"width: 80%;\"
 />
@@ -16,7 +16,7 @@
 After clicking you will land on a new page where you complete the task, as shown below:
   <img
   src=\"Images/FAQ_cmtDecStep2.png\"
-  alt=\"Université Lumière Lyon 2 logo\"
+  alt=\"illustration of step2 to declare domain conflict\"
   class=\" mx-auto d-block  border-secondary rounded\"
   style=\"width: 80%;\"
   />
@@ -31,7 +31,16 @@ After clicking you will land on a new page where you complete the task, as shown
   answer: "Yes, papers submitted to arXiv can be submitted to the conference as they are unreviewed material."
 
 - question: "How can I submit the supplementary material?"
-  answer:  "Supplementary material can be submitted as a separate PDF file after completing the submission of the main file."
+  answer:  "After completing the submission of the main file, the paper will appear in the Author's console;  it will be possible to submit the supplementary material as a separate PDF file from the Author's console by selecting the appropriate menu item associated with the main file as illustrated below.
+
+ <a href=\"Images/FAQ_suppMaterial.png\" > <img
+  src=\"Images/FAQ_suppMaterial.png\"
+  alt=\"illustration of adding supplementary file in the consol of the paper\"
+  class=\" mx-auto d-block  border-secondary rounded\"
+  style=\"width: 80%;\"
+  /></a>
+"
+
 
 - question: "Will it be possible to add an author or to change the authors' order after submission ?"
   answer: "No, this will not be allowed."
