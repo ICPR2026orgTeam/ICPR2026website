@@ -3,11 +3,24 @@ layout: default
 title: "ICPR 2026: Submit a paper"
 canonical: "https://icpr2026.org/authors.html"
 description: "Authors instructions for ICPR 2026 - International Conference on Pattern Recognition that take place in Lyon 17-22 August 2026."
-last_modified: 2025-12-9
+last_modified: 2025-12-29
 ---
 
 <section id="forAuthors">
-<h1> For Authors </h1>
+<div class="submission-notice">
+  <strong>⚠️ Important Notice for Authors</strong>
+  <p>
+    Authors are required to follow <b>all submission requirements</b>
+    as listed on the ICPR 2026 website paying particular attention to the <a href="/instructions.html">"Instructions for Authors" webpage</a>.
+    Failure to comply with these requirements may result in
+    <b>rejection without review</b> (i.e., a <em>desk rejection</em>).
+    Questions regarding the submission requirements should be directed to the
+    <b><a href="mailto:pc@icpr2026.org">Program Chairs</a></b>.
+  </p>
+</div>
+<section id="forAuthors">
+
+  <h1> Submit a Paper </h1>
 
 <p>
   Like the previous edition of ICPR, all accepted papers will be published in the proceedings published in the <a
@@ -30,9 +43,13 @@ process.
 
 <p> Please read the following <a href="/instructions.html"> instructions</a> before submission.
   To submit a paper you should follow this link:
-<div class="d-grid gap-2 col-sm-6 col-md-3  mx-auto">
-  <a href="https://cmt3.research.microsoft.com/ICPR2026" class="btn btn-success mt-3 rounded-pill "
-    role="button" aria-disabled="true"> submit a paper </a>
+
+  <div class="d-grid gap-2 col-sm-6 col-md-3  mx-auto">
+<a href="#" class="btn btn-success mt-3 rounded-pill"
+   data-bs-toggle="modal"
+   data-bs-target="#submissionConfirmModal">
+  Submit a paper
+</a>
 </div>
 </p>
 
@@ -76,5 +93,46 @@ process.
 </div>
 </p>
 
+<div class="modal fade" id="submissionConfirmModal" tabindex="-1"
+     aria-labelledby="submissionConfirmModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="submissionConfirmModalLabel">
+          ⚠️ Important Notice for Authors
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <p>
+             Authors are required to follow <b>all submission requirements</b>
+    as listed on the ICPR 2026 website paying particular attention to the <a href="/instructions.html">"Instructions for Authors" webpage</a>.
+    Failure to comply with these requirements may result in
+    <b>rejection without review</b> (i.e., a <em>desk rejection</em>).
+    Questions regarding the submission requirements should be directed to the
+    <b><a href="mailto:pc@icpr2026.org">Program Chairs</a></b>.
+        <p class="mb-0">
+          By proceeding, you confirm that you have read and understood
+          the submission requirements.
+        </p>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary"
+                data-bs-dismiss="modal">
+          Cancel
+        </button>
+        <a href="https://cmt3.research.microsoft.com/ICPR2026"
+           class="btn btn-success">
+          OK – Proceed to CMT
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>
 
 </section>
