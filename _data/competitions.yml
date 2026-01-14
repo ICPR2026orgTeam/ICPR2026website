@@ -2,19 +2,21 @@
 
 - title: "Beyond Visible Spectrum: AI for Agriculture"
   website: "https://han-research.gitlab.io/Agvision/"
+  resume: "The ICPR 2026 Competition challenges researchers to develop deep learning algorithms for crop disease monitoring using multi/hyperspectral and satellite remote sensing data. The competition focuses on two tasks: multimodal crop disease diagnosis and boosting classification accuracy using Sentinel satellite data and self-supervised learning."
   
-
-- title: "VISual Tracking in Adverse Conditions (VISTAC-2)"
-  website: "https://sites.google.com/view/vistac-2"
-
-
-- title: "Low-Resolution License Plate Recognition"
+- title: "Low-Resolution License Plate Recognition (LRLPR)"
   website: "https://icpr26lrlpr.github.io/"
-
-
-- title: "RAREChallenge2026/RARE-VISION-2026-Challenge"
-  website: "https://github.com/RAREChallenge2026/RARE-VISION-2026-Challenge"
+  resume: "In surveillance contexts, license plate images are frequently captured at low resolutions or subjected to heavy compression due to storage and bandwidth limitations. Consequently, characters often become distorted, blend into the background, or overlap with neighboring symbols, making automated recognition particularly challenging."
 
 
 - title: "Privacy-Preserving Person Re-Identification from Top-View RGB-Depth Camera"
   website: "https://www.codabench.org/competitions/12315/"
+  resume: "TVRID is the ICPR 2026 competition on top-view person re-identification with aligned RGB and Depth. The benchmark captures 88 identities with four overhead Intel RealSense D455 cameras observing each passage twice (IN/OUT) across four geometric contexts: flat ground, ascent, descent, and oblique roof view. Submissions are ranked lists evaluated with CMC@1/5/10 and mAP, and the primary leaderboard metric is overallMap (mean of per-track overall mAP)."
+
+- title: "RAREChallenge2026/RARE-VISION-2026-Challenge"
+  website: "https://github.com/RAREChallenge2026/RARE-VISION-2026-Challenge"
+  resume: "The ICPR 2026 RARE-VISION Competition, running virtually from December 15, 2025 to March 1, 2026, challenges participants to develop machine learning models for robust classification of anatomical regions and rare pathological findings in VCE video streams. Using the Galar dataset, participants will address class imbalance through innovative strategies like advanced sampling and data augmentation."
+
+- title: "VISual Tracking in Adverse Conditions (VISTAC-2)"
+  website: "https://sites.google.com/view/vistac-2"
+  resume: "The ExtremeTrack dataset, introduced for the VISTAC-2 challenge, addresses the lack of specialized datasets for object tracking in adverse weather conditions. It comprises 199 real-world videos with detailed annotations, enabling researchers to develop algorithms for hazy and rainy scenarios. The challenge aims to benchmark and promote robust tracking algorithms, contributing to advancements in surveillance and navigation systems."
