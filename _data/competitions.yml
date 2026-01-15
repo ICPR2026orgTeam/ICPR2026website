@@ -1,22 +1,41 @@
 
 
 - title: "Beyond Visible Spectrum: AI for Agriculture"
-  website: "https://han-research.gitlab.io/Agvision/"
-  resume: "The ICPR 2026 Competition challenges researchers to develop deep learning algorithms for crop disease monitoring using multi/hyperspectral and satellite remote sensing data. The competition focuses on two tasks: multimodal crop disease diagnosis and boosting classification accuracy using Sentinel satellite data and self-supervised learning."
-  
+  website: "https://han-research.gitlab.io/Agvision"
+  resume: "The ICPR 2026 Competition on “Beyond Visible Spectrum: AI for Agriculture” offers a unique opportunity for researchers to advance computer vision techniques in agricultural crop disease monitoring. Building on a successful series of competitions from 2022 to 2025, which attracted over 1000 participants from over 10 countries across Europe, Asia, and North America, the challenge focuses on developing innovative deep learning algorithms using extensive multi/hyperspectral and satellite remote sensing datasets across two main tasks."
+  deadline: "March 1, 2026"
+  resultdate: "March 15, 2026"
+
 - title: "Low-Resolution License Plate Recognition (LRLPR)"
-  website: "https://icpr26lrlpr.github.io/"
-  resume: "In surveillance contexts, license plate images are frequently captured at low resolutions or subjected to heavy compression due to storage and bandwidth limitations. Consequently, characters often become distorted, blend into the background, or overlap with neighboring symbols, making automated recognition particularly challenging."
+  website: "https://icpr26lrlpr.github.io"
+  resume: "In surveillance contexts, license plate images are frequently captured at low resolutions or subjected to heavy compression due to storage and bandwidth limitations. Consequently, characters often become distorted, blend into the background, or overlap with neighboring symbols, making automated recognition particularly challenging.
+
+Recognizing these low-resolution license plates remains a highly challenging and underexplored problem with strong forensic and societal relevance. The difficulty is evident in the fact that even state-of-the-art methods currently struggle to surpass 50-60% recognition accuracy. Improving recognition performance under such adverse conditions, therefore, offers a significant opportunity to substantially narrow investigative searches and expedite law enforcement decisions. This competition aims to encourage the development of advanced approaches, such as super-resolution, temporal modeling, and robust Optical Character Recognition (OCR) techniques, capable of operating effectively despite low-quality input conditions."
+  deadline: "March 1, 2026"
+  resultdate: "March 15, 2026 (registration 15 February)"
 
 
 - title: "Privacy-Preserving Person Re-Identification from Top-View RGB-Depth Camera"
   website: "https://www.codabench.org/competitions/12315/"
-  resume: "TVRID is the ICPR 2026 competition on top-view person re-identification with aligned RGB and Depth. The benchmark captures 88 identities with four overhead Intel RealSense D455 cameras observing each passage twice (IN/OUT) across four geometric contexts: flat ground, ascent, descent, and oblique roof view. Submissions are ranked lists evaluated with CMC@1/5/10 and mAP, and the primary leaderboard metric is overallMap (mean of per-track overall mAP)."
+  resume: "TVRID is the ICPR 2026 competition on top-view person re-identification with aligned RGB and Depth. The benchmark captures 88 identities with four overhead Intel RealSense D455 cameras observing each passage twice (IN/OUT) across four geometric contexts: flat ground, ascent, descent, and oblique roof view. Submissions are ranked lists evaluated with CMC@1/5/10 and mAP, and the primary leaderboard metric is overallMap (mean of per-track overall mAP).TVRID is the ICPR 2026 competition on top-view person re-identification with aligned RGB and Depth. The benchmark captures 88 identities with four overhead Intel RealSense D455 cameras observing each passage twice (IN/OUT) across four geometric contexts: flat ground, ascent, descent, and oblique roof view. Submissions are ranked lists evaluated with CMC@1/5/10 and mAP, and the primary leaderboard metric is overallMap (mean of per-track overall mAP).
+3 tracks are proposed : RGB Re-ID (privacy-unconstrained); Depth Re-ID (privacy-preserving); Cross-modal RGB↔Depth retrieval "
+  deadline: "March 1, 2026"
+  resultdate: "tba "
 
-- title: "RAREChallenge2026/RARE-VISION-2026-Challenge"
+
+
+- title: "Robust AI for Rare Events in Video Capsule Endoscopy (VCE) Vision Competition"
   website: "https://github.com/RAREChallenge2026/RARE-VISION-2026-Challenge"
-  resume: "The ICPR 2026 RARE-VISION Competition, running virtually from December 15, 2025 to March 1, 2026, challenges participants to develop machine learning models for robust classification of anatomical regions and rare pathological findings in VCE video streams. Using the Galar dataset, participants will address class imbalance through innovative strategies like advanced sampling and data augmentation."
+  resume: "A growing burden of gastrointestinal (GI) diseases has increased reliance on video capsule endoscopy (VCE) for non-invasive visualization of the GI tract, thereby overcoming limitations of conventional endoscopic methods in evaluating GI tract pathology. The sheer volume of video data, coupled with the rarity of clinically relevant anomalies, has introduced machine learning into this field to assist in efficient and accurate analysis by addressing challenges such as class imbalance and reducing the time required for manual review of video data.
+
+The ICPR 2026 RARE-VISION Competition aims to advance this field by encouraging the development of machine learning models designed specifically to address the class imbalance challenge inherent in VCE data. Running virtually from December 15, 2025 to March 1, 2026, the competition focuses on robust classification of anatomical regions and rare pathological findings within continuous, noisy VCE video streams."
+  deadline: "March 1, 2026"
+  resultdate: "tba"
+
+
 
 - title: "VISual Tracking in Adverse Conditions (VISTAC-2)"
   website: "https://sites.google.com/view/vistac-2"
-  resume: "The ExtremeTrack dataset, introduced for the VISTAC-2 challenge, addresses the lack of specialized datasets for object tracking in adverse weather conditions. It comprises 199 real-world videos with detailed annotations, enabling researchers to develop algorithms for hazy and rainy scenarios. The challenge aims to benchmark and promote robust tracking algorithms, contributing to advancements in surveillance and navigation systems."
+  resume: "Building on the success of the first VISTAC (VISual Tracking in Adverse Conditions) challenge at ICPR 2024, which focused on nighttime infrared video tracking, VISTAC-2 extends the scope to object tracking under adverse weather conditions. Despite advancements in tracking under well-lit settings, algorithm performance often degrades in challenging environment scenarios involving haze and rain. To address this, VISTAC-2 introduces the ExtremeTrack dataset, featuring 199 real-world videos (100 hazy and 99 rainy) with detailed annotations. The challenge aims to benchmark and promote the development of robust and resilient tracking algorithms capable of maintaining accuracy and temporal consistency in degraded environments, supporting progress in surveillance, intelligent transportation, and autonomous vision systems."
+  deadline: "June 20, 2026"
+  resultdate: "July 10, 2026"
