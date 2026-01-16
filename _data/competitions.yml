@@ -37,5 +37,5 @@ The ICPR 2026 RARE-VISION Competition aims to advance this field by encouraging 
 - title: "VISual Tracking in Adverse Conditions (VISTAC-2)"
   website: "https://sites.google.com/view/vistac-2"
   resume: "Building on the success of the first VISTAC (VISual Tracking in Adverse Conditions) challenge at ICPR 2024, which focused on nighttime infrared video tracking, VISTAC-2 extends the scope to object tracking under adverse weather conditions. Despite advancements in tracking under well-lit settings, algorithm performance often degrades in challenging environment scenarios involving haze and rain. To address this, VISTAC-2 introduces the ExtremeTrack dataset, featuring 199 real-world videos (100 hazy and 99 rainy) with detailed annotations. The challenge aims to benchmark and promote the development of robust and resilient tracking algorithms capable of maintaining accuracy and temporal consistency in degraded environments, supporting progress in surveillance, intelligent transportation, and autonomous vision systems."
-  deadline: "June 20, 2026"
+  deadline: "March 1, 2026"
   resultdate: "July 10, 2026"
