@@ -3,7 +3,7 @@
 /* 🌍 Base */
 
 body {
-    font: normal 0.91em $font-main;
+    font: normal 1.2em $font-main;
     padding: 30;
     font: normal;
 
@@ -27,9 +27,13 @@ a {
 }
 
 p {
-  line-height: 1.7em;
+  line-height: 1.5em;
 }
-
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+}
 h1, h2, h3, h4, h5, h6,
 conference-title {
   color: #253e40;
@@ -38,15 +42,16 @@ conference-title {
 
 h1 {
   color: #BC0028;
-  font-size: clamp(1.8rem, 3.5vw, 2.0rem);
+  font-size: clamp(2.1rem, 3.8vw, 2.3rem);
 }
 
 h2 {
-  font-size: clamp(1.2rem, 3vw, 1.6rem);
+  color: #023739;
+  font-size: clamp(1.8rem, 3.5vw, 1.8rem);
 }
 
 h3 {
-  font-size: clamp(1rem, 2.5vw, 1.3rem);
+  font-size: clamp(1.3rem, 2.8vw, 1.5rem);
 }
 
 blockquote {

@@ -1,8 +1,50 @@
 @import "variables";
+.table-wrapper {
+  display: inline-block;
+}
 
+/* tableau */
+.registration-table {
+  border-collapse: collapse;
+}
 
+.registration-table th,
+.registration-table td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: center;
+}
 
+/* cadre rouge externe */
+.paper-top    { border-top:    3px solid red !important; }
+.paper-bottom { border-bottom: 3px solid red !important; }
+.paper-left   { border-left:   3px solid red !important; }
+.paper-right  { border-right:  3px solid red !important; }
 
+/* légende */
+.table-legend {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+  font-size: 15px;
+}
+
+.legend-box {
+  width: 16px;
+  height: 10px;
+  border: 2px solid red;
+}
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-align: center;
+  vertical-align: middle;
+  align-items: center;
+  white-space: normal;
+
+}
 /* 📄 Tables */
 table {
   border-collapse: collapse;
@@ -15,12 +57,13 @@ table {
     color: white;
     text-align: center;
     padding: 12px;
-    font-size: 1.2em;
+    font-size: 1.0em;
   }
 
   td {
     padding: 10px;
     vertical-align: top;
+    text-align: center;
   }
 
   tr:nth-child(even) {
