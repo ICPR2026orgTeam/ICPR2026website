@@ -20,10 +20,13 @@ last_modified: 2025-12-20
 {% for c in comp %}
 
 <div class="card text-dark bg-light mb-5" style="max-width: 110rem;">
-  <div class="card-header">{{ c.title }}</div>
+  <div class="card-header fs-5 fw"><b>{{ c.title }}</b></div>
   <div class="card-body">
-    <h5 class="card-title">Website</h5>
-    <p class="card-text"> <a href="{{ c.website }}">{{ c.website }}</a>  </p>
+    <h5 class="card-title">Competition Overview</h5>
+    <p> {{ c.resume }} </p>
+    <p class="card-text"> <strong class="card-title"> Competition Website</strong>: <a href="{{ c.website }}">{{ c.website }}</a>  </p>
+    <p class="card-text"> <strong class="card-title"> Deadline</strong>: <strong class="text-info"> {{ c.deadline }}</strong>  </p>
+    <p class="card-text"> <strong class="card-title"> Results</strong>: {{ c.resultdate }}  </p>
   </div>
 </div>
 
