@@ -1,3 +1,41 @@
+- question: "I don’t understand where to find the <b class=\"text-info\">Domain conflicts</b> and the <b class=\"text-info\">conflict of interest form</b> mentioned in the warning page."
+  answer: "<p>Both are accessible from the author CMT account interface.</p>
+<b class=\"text-info\">Domain Conflicts</b>
+<p>Domain conflicts are declared per author and are linked to each author account.</p>
+<ol>
+<li>Go to your Author Account</li>
+<li>Open the Domain Conflicts section</li>
+  <img
+  src=\"Images/FAQ_cmtAuthorsDec1.png\"
+  alt=\"illustration of step1 to declare domain conflict Step1\"
+   class=\" mx-auto d-block  border-secondary rounded\"
+   style=\"width: 80%;\"/>
+<li> Declare the relevant domain conflicts
+<img
+  src=\"Images/FAQ_cmtAuthorsDec2.png\"
+  alt=\"illustration of step1 to declare domain conflict Step2\"
+   class=\" mx-auto d-block  border-secondary rounded\"
+   style=\"width: 80%;\"
+/>
+</ol>   
+<b class=\"text-info\">Conflict of Interest Form:</b>
+
+<p>The Conflict of Interest form is available in a paper preview interface:</p>
+ <img
+  src=\"Images/FAQ_cmtAuthorsForm1.png\"
+  alt=\"illustration of step1 to declare domain conflict Step1\"
+   class=\" mx-auto d-block  border-secondary rounded\"
+   style=\"width: 80%;\"/>
+   Then:
+<img
+  src=\"Images/FAQ_cmtAuthorsForm2.png\"
+  alt=\"illustration of step1 to declare domain conflict Step2\"
+   class=\" mx-auto d-block  border-secondary rounded\"
+   style=\"width: 80%;\"
+/>"
+- question: "I’m worried that not all co-authors have completed the conflict of interest form before the 10th. Has my paper already been desk rejected?"
+  answer: "No. Your paper has not been desk rejected yet. We will allow authors to complete or update the conflict of interest information in CMT until desk rejections begin on Tuesday, January 13. Note that each author must be registered in CMT with the same email used for the submission"
+
 - question: "Is it mandatory to enter one’s domain conflicts ?"
   answer: "Yes. Domain conflicts MUST be entered by ALL authors of a paper to avoid the paper is desk rejected. Domain conflicts MUST be entered by reviewers otherwise they will not be assigned any paper and they will not be listed as members of the Program Committee of ICPR 2026."
 
