@@ -4,7 +4,6 @@ nav.custom-navbar {
 
   .navbar-brand, .nav-link {
     color: white;
-
     // Should also be used for dropdown-menu items ?
     line-height: 1.5;
 
@@ -15,7 +14,6 @@ nav.custom-navbar {
 
     @media (min-width: 992px) and (max-width: 1200px) {
       font-size: 1rem;
-
       padding-left: .1cqi;
       padding-right: .2cqi;
     }
@@ -26,7 +24,10 @@ nav.custom-navbar {
 
     padding-left: 1cqi;
     padding-right: 1cqi;
-
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 16ch;
     &:hover { color: #ccc; }
   }
 
