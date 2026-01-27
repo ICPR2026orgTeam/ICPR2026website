@@ -2,7 +2,7 @@
 layout: default
 title:  Workshops - ICPR 2026
 canonical: "https://icpr2026.org/workshops.html"
-last_modified: 2026-01-19
+last_modified: 2026-01-27
 ---
 
 <h1>Workshops</h1>
@@ -13,21 +13,50 @@ last_modified: 2026-01-19
 
 <h2>Selected Workshops</h2> 
 
-<p>We thank the IAPR community for 36 submitted workshop proposals. The list of selected events will be presented after notification to proposers on 25 January 2026. </p>
+<p>We thank the IAPR community for 36 submitted workshop proposals.
+  The list of selected events are given here. The associated website
+  will be completed by 16th of February, 2026.</p>
 
 
-  {% assign wList = site.data.workshops %}
-{% for w in wList %}
+
+{% assign work = site.data.workshops %}
+{% for w in work %}
+
+
 
 <div class="card text-dark bg-light mb-5" style="max-width: 110rem;">
-  <div class="card-header">{{ w.title }}</div>
+  <div class="card-header fs-5 fw"><b>{{ w.title }}</b></div>
   <div class="card-body">
-    <h5 class="card-title">Website</h5>
-    <p class="card-text"> <a href="{{ c.website }}">{{ w.website }}</a>  </p>
+  {% if w.resume %}
+    <h5 class="card-title">Workshop Overview</h5>
+    <p> {{ w.resume }} </p>
+  {% endif %}
+  {% if w.website %}
+  <p class="card-text"> <strong class="card-title"> Competition Website</strong>: <a href="{{ c.website }}">{{ w.website }}</a>  </p>
+  {% endif %}
+  {% if w.deadline %}
+  <p class="card-text"> <strong class="card-title"> Deadline</strong>: <strong class="text-info"> {{ w.deadline }}</strong>  </p>
+  {% endif %}
+  {% if w.resultdate %}
+  <p class="card-text"> <strong class="card-title"> Results</strong>: {{ w.resultdate }}  </p>
+  {% endif %}
+  </div>
+  
+</div>
+
+
+<div class="card text-dark bg-light mb-5" style="max-width: 110rem;">
+  <div class="card-header fs-5 fw"><b>{{ w.title }}</b> ({{ w.acronym }})</div>
+  <div class="card-body">
+
   </div>
 </div>
 
   {% endfor %}
+
+
+
+
   
 </section>
 
