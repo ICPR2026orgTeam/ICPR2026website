@@ -13,21 +13,26 @@ last_modified: 2026-01-19
 
 <h2>Selected Workshops</h2> 
 
-<p>We thank the IAPR community for 36 submitted workshop proposals. The list of selected events will be presented after notification to proposers on 25 January 2026. </p>
+<p>We thank the IAPR community for 36 submitted workshop proposals.
+  The list of selected events are given here. The associated website
+  will be completed by 16th of February, 2026.</p>
 
 
-  {% assign wList = site.data.workshops %}
-{% for w in wList %}
+
+{% assign work = site.data.workshops %}
+{% for w in work %}
 
 <div class="card text-dark bg-light mb-5" style="max-width: 110rem;">
-  <div class="card-header">{{ w.title }}</div>
+  <div class="card-header fs-5 fw"><b>{{ w.title }}</b> ({{ w.acronym }})</div>
   <div class="card-body">
-    <h5 class="card-title">Website</h5>
-    <p class="card-text"> <a href="{{ c.website }}">{{ w.website }}</a>  </p>
   </div>
 </div>
 
   {% endfor %}
+
+
+
+
   
 </section>
 
