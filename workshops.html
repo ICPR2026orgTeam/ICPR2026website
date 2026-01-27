@@ -22,9 +22,33 @@ last_modified: 2026-01-19
 {% assign work = site.data.workshops %}
 {% for w in work %}
 
+
+
+<div class="card text-dark bg-light mb-5" style="max-width: 110rem;">
+  <div class="card-header fs-5 fw"><b>{{ w.title }}</b></div>
+  <div class="card-body">
+  {% if w.resume %}
+    <h5 class="card-title">Workshop Overview</h5>
+    <p> {{ w.resume }} </p>
+  {% endif %}
+  {% if w.website %}
+  <p class="card-text"> <strong class="card-title"> Competition Website</strong>: <a href="{{ c.website }}">{{ w.website }}</a>  </p>
+  {% endif %}
+  {% if w.deadline %}
+  <p class="card-text"> <strong class="card-title"> Deadline</strong>: <strong class="text-info"> {{ w.deadline }}</strong>  </p>
+  {% endif %}
+  {% if w.resultdate %}
+  <p class="card-text"> <strong class="card-title"> Results</strong>: {{ w.resultdate }}  </p>
+  {% endif %}
+  </div>
+  
+</div>
+
+
 <div class="card text-dark bg-light mb-5" style="max-width: 110rem;">
   <div class="card-header fs-5 fw"><b>{{ w.title }}</b> ({{ w.acronym }})</div>
   <div class="card-body">
+
   </div>
 </div>
 
