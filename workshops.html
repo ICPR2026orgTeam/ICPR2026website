@@ -25,7 +25,7 @@ last_modified: 2026-01-27
 
 
 <div class="card text-dark bg-light mb-5" style="max-width: 110rem;">
-  <div class="card-header fs-5 fw"><b>{{ w.title }}</b></div>
+  <div class="card-header fs-5 fw"><b>{{ w.title }}</b> ({{ w.acronym }})</div>
   <div class="card-body">
   {% if w.resume %}
     <h5 class="card-title">Workshop Overview</h5>
@@ -42,14 +42,6 @@ last_modified: 2026-01-27
   {% endif %}
   </div>
   
-</div>
-
-
-<div class="card text-dark bg-light mb-5" style="max-width: 110rem;">
-  <div class="card-header fs-5 fw"><b>{{ w.title }}</b> ({{ w.acronym }})</div>
-  <div class="card-body">
-
-  </div>
 </div>
 
   {% endfor %}
