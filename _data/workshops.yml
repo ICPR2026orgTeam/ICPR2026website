@@ -1,93 +1,589 @@
 
 - title : "Behavioral Robotics and AI for iNdustrial and social systems "
+  id : "WS1"
   acronym : "BRAIN"
-  resumee: "The convergence of Artificial Intelligence and Robotics is driving a new era of intelligent systems capable of interacting with the physical world in increasingly sophisticated ways. At the heart of this transformation lies Physical AI, namely the application of AI to systems that directly engage with their environment through sensors and actuators. Physical AI enables robots and devices to perceive, understand, and act upon complex, dynamic, and often uncertain environments, making it a cornerstone of modern robotics.
-This workshop, BRAIN: “Behavioral Robotics and AI for iNdustrial and social systems”, seeks to explore the role of Physical AI in shaping robotic behaviors across different critical domains, including industrial automation and social interaction. In industrial settings, Physical AI drives precision, adaptability, and efficiency in tasks such as manufacturing, logistics, and inspection. In social contexts, it empowers robots to interpret human cues, respond empathetically, and engage in meaningful interactions.
+  website : "tba"
+  resume: "The convergence of Artificial Intelligence and Robotics is driving a new era of intelligent systems capable of interacting with the physical world in increasingly sophisticated ways. At the heart of this transformation lies Physical AI, namely the application of AI to systems that directly engage with their environment through sensors and actuators. Physical AI enables robots and devices to perceive, understand, and act upon complex, dynamic, and often uncertain environments, making it a cornerstone of modern robotics.
+This workshop, BRAIN: 'Behavioral Robotics and AI for iNdustrial and social systems', seeks to explore the role of Physical AI in shaping robotic behaviors across different critical domains, including industrial automation and social interaction. In industrial settings, Physical AI drives precision, adaptability, and efficiency in tasks such as manufacturing, logistics, and inspection. In social contexts, it empowers robots to interpret human cues, respond empathetically, and engage in meaningful interactions.
 By focusing on behavioral robotics, the workshop emphasizes the integration of perception, decision-making, and physical embodiment, which are key elements for creating intelligent systems that are not only reactive but also proactive and context-aware. AI plays a vital role in this process, enabling robots to interpret sensory data, learn from experience, and adapt their behavior in real time."
-- title : "Workshop on Pattern Recognition in Remote Sensing "
+
+
+
+
+- title : "Workshop on Pattern Recognition in Remote Sensing"
+  id : "WS2"
   acronym : "PRRS"
+  website : "https://iapr-tc7.github.io/prrs2026"
+  resume : "As climate change intensifies, Earth observation (EO) and remote sensing has become indispensable for monitoring and understanding its impact. In the past five years, half of all EO satellites have been launched, producing an unprecedented volume of data with diverse spatial, spectral, and temporal characteristics. While these rich data sources open opportunities for various applications, they also create significant challenges in representation and interpretation. Pattern recognition and, more generally, artificial intelligence have therefore become essential for extracting key insights from these data. In this context, this workshop aims to explore the following topics:
+ <ul>
+ <li>Deep learning for Earth observation</li>
+ <li>Earth observation foundation models</li>   
+ <li>Usability of foundation model embeddings for Earth observation tasks</li>
+ <li>Vision and language models for Earth observation</li>
+ <li>Hybrid models, combining physics and machine learning</li>
+ <li>Dynamic Earth observation, including multi-temporal and change detection analysis</li>
+ <li>Active, interactive and transfer learning</li>
+ <li>Explainable and interpretable machine learning</li>
+ <li>Novel pattern recognition tasks in remote sensing applications</li>
+ <li>Benchmark models and datasets</li>
+ </ul>"
+
+
 
 - title : "Efficient Methods for Multimodal Models"
+  id : "WS3"
   acronym : "EMM"
+  website : "tba"
+  resume: "<p>With extensive applications in image and video understanding, as well as in image, video, and text generation, multimodal models have become increasingly prominent and transformative in the fields of pattern recognition and computer vision.</p>
 
-- title : "The First International Workshop on Artificial Intelligence for Multimodal Transportation"
+<p>As the scale of these models grows exponentially, there is an urgent need to explore efficient learning and deployment strategies to address the associated computational and resource challenges. This workshop aims to provide a dedicated platform for researchers and practitioners to exchange ideas and develop innovative solutions, thereby advancing the efficiency and practical deployment of multimodal models.</p>
+
+<p>The topics will cover efficient inference methods and model architecture designs for multimodal models, e.g., compression, quantization, distillation, and lightweight architectures, as well as efficient learning strategies, e.g., training and fine-tuning techniques for multimodal tasks. In addition, the workshop will address related applications, including efficient multimodal generation and editing models, practical multimodal systems, and the deployment of multimodal models on resource-constrained or low-power devices.</p>
+<p>Relevant topics include:</p>
+<ul>
+<li>Compression, quantization, conditional compute, pruning, and distillation of multimodal models;</li>
+<li>Efficient training/finetuning of multimodal models, e.g., low-rank adaptation;</li>
+<li>Efficient sampling of multimodal diffusion models, e.g., step distillation and consistency models;</li>
+<li>Efficient LLM/LVLM/MLLM in multimodal tasks, e.g., token pruning and merging</li>
+<li>Efficient multi-/cross-modal learning</li>
+<li>Efficient multimodal generative and editing models and sensors, e.g., for vision, language, audio and 3D objects;</li>
+<li>Efficient image, video and audio synthesis by multimodal data;</li>
+<li>Efficient multimodal applications (e.g., drone vision, autonomous driving, etc.);</li>
+<li>Efficient self-/un-/weakly-supervised learning for multimodal data;</li>
+<li>Deploying multimodal models on low power devices e.g., smartphone;</li></ul>"
+
+
+
+
+- title : "The First International Workshop on Artificial Intelligence for Multimodal Transportation    "
+  id : "WS4"
   acronym : "AI4MT"
+  website : "tba"
+  resume : "<p>This workshop addresses the transformative role of artificial intelligence in multimodal transportation systems, with particular emphasis on pattern recognition techniques that enable intelligent decision-making across interconnected transport networks.</p>
+<p>The workshop  cover pattern recognition and AI applications across multiple transportation domains:</p>
+<ol>
+<li>Computer Vision for Transportation: Real-time object detection and tracking for autonomous vehicles, traffic monitoring, pedestrian behavior analysis, and infrastructure inspection using deep learning architectures</li>
+<li>Spatiotemporal Pattern Mining: Identification of mobility patterns, traffic flow prediction, demand forecasting, and anomaly detection in multimodal networks using recurrent and transformer-based models</li>
+<li>Sensor Fusion and Multimodal Data Integration: Integration of heterogeneous data sources (camera, LiDAR, radar, GPS, IoT sensors) for comprehensive transportation state estimation</li>
+<li>Reinforcement Learning for Operations Management: Dynamic routing, scheduling optimization, airspace management, and adaptive traffic control systems
+<li>Graph Neural Networks for Network Analysis: Modeling transportation networks as graphs for congestion prediction, route optimization, and network resilience assessment</li>
+<li>Trajectory Prediction and Planning: Human mobility modeling, vehicle path planning, and conflict resolution in shared spaces</li>
+</ol> "
 
-- title : "Machine Vision for Industrial Inspection"
-  acronym : "MVI2"
+- title : "Machine Vision for Industrial Inspection (MVI2)"
+  id : "WS5"
+  website : "tba"
+  acronym: "MV2"
+  resume: "
+<p>  Machine vision for industrial inspection represents a critical real-world application domain that drives fundamental advances in pattern recognition research while addressing pressing industrial needs. The field presents unique challenges that push the boundaries of classical pattern recognition methodologies: the scarcity of defect samples motivates innovation in few-shot learning and anomaly detection; high-consequence decision-making demands advances in uncertainty quantification and explainable AI; naturally multi-modal sensing environments (visual, thermal, 3D, ultrasonic, X-ray) serve as ideal testbeds for sensor fusion algorithms; and real-time processing requirements drive research in efficient architectures and edge computing. Manufacturing variations and evolving production processes create natural domain shift scenarios that advance transfer learning and continual learning applicable across pattern recognition applications. This workshop serves as a crucial bridge between academic research and industrial deployment, addressing evaluation beyond standard metrics, scalability from laboratory prototypes to production systems, and standardization of benchmark datasets specific to inspection tasks. As Chair of IAPR Technical Committee 8, this workshop directly supports TC8's mission while creating a focused forum for presenting state-of-the-art methodologies, fostering academic-industry collaboration, and identifying future research directions. The broader impact spans global manufacturing competitiveness, product safety, infrastructure integrity, and sustainability through zero-defect manufacturing, automated quality assurance for critical systems, enhanced worker safety, and optimized production efficiency—making this workshop valuable to both pattern recognition researchers seeking impactful applications and industry practitioners requiring cutting-edge solutions.</p>
+<p>  The topics will include: </p>
+<ol>
+<li>Deep Learning Architectures for Industrial Vision </li>
+<li>Few-Shot and Zero-Shot Learning for Defect Recognition </li>
+<li>Multi-Modal and Multi-Scale Pattern Analysis </li>
+<li>Texture and Surface Pattern Analysis </li>
+<li>3D Vision and Geometric Pattern Recognition </li>
+<li>Explainable and Interpretable Pattern Recognition </li>
+<li>Transfer Learning and Domain Adaptation </li>
+<li>Pattern Recognition for Non-Destructive Testing </li>
+<li>Real-Time Vision Systems and Optimization </li>
+<li>Novel Pattern Recognition Paradigms </li>
+<li>Benchmark Datasets and Evaluation Metrics </li>
+<li>Emerging Applications and Case Studies </li>
+</ol>
+
+
+Standard ICPR workshop facilities should be sufficient. The primary needs are reliable AV equipment and adequate space for anticipated attendance. If industrial partners plan equipment demonstrations, advance coordination would be needed, but this is optional and not essential for the workshop's success."
 
 - title : "Fourth International Workshop on Artificial Intelligence for Healthcare Applications"
+  id : "WS6"
   acronym : "AIHA"
+  website : "tba"
+  resume : "<p>Most of the medical data collected from healthcare systems is recorded in digital format. The increased availability of  these data has enabled numerous artificial intelligence applications. Specifically, machine learning can generate insights to improve the discovery of new therapeutics tools, to support diagnostic decisions, to help in the rehabilitation process, to name a few. Researchers, along with expert clinicians, can play an important role in turning complex medical data (e.g., genomic data, online acquisitions of physicians, medical imagery, etc.) into actionable knowledge that ultimately improves patient care.  In recent years, these topics have drawn the attention of clinical and machine learning researchers, resulting in practical and successful applications in healthcare. These techniques have been deployed across various healthcare system levels with applications ranging from diagnosis to therapeutics. </p>
+<p>AHIA also host a special session focusing on the latest advancements in AI-based solutions to enhance assessment and facilitate recovery in rehabilitation. The goal of this session is to highlight feasible approaches driven by real-world data for the development of practical clinical solutions.</p>
+<p>The purpose of this workshop is to present recent advances in artificial intelligence techniques for healthcare applications. To bring together the advances in this wide and multidisciplinary subject, we propose a workshop that covers (but is not limited to) the following topics:</p>
+<ul>
+<li> Biomedical image analysis;</li>
+<li> Data analytics for healthcare;</li>
+<li> Automatic disease prediction;</li>
+<li> Automatic diagnosis support systems;</li>
+<li> Genomic and proteomic data analysis;</li>
+<li> Artificial intelligence for personalized medicine;</li>
+<li> Machine Learning as a  tool to support medical diagnoses and decisions;</li>
+<li> Machine learning for diagnosis and rehabilitation;</li>
+<li> Generative AI for healthcare;</li>
+<li> Multimodal analysis of health data;</li>
+<li> Explainability to support diagnosis;</li>
+<li> Neural signal analysis for diagnosis assistance;</li>
+<li> Physiological signals processing;</li>
+<li> Gait analysis;</li>
+<li> Therapy selection;</li>
+<li> Brain-computer interface for healthcare;</li>
+<li> Biomechatronics for medicine;</li>
+<li> Neuromotor rehabilitation;</li>
+<li> Machine learning approaches in rehabilitation;</li>
+<li> Motion analysis for healthcare.</li>
+</ul>"
 
 - title : "Pattern Recognition and Computer Vision for e-Heritage and Digital Humanities Workshop"
+  id : "WS7"
   acronym : "PRESTIGE"
-
+  website : "tba"
+  resume: "The role of digital technologies in the preservation, analysis, and dissemination of cultural and historical heritage has become increasingly central. Pattern recognition, machine learning, and computer vision now play a key role in this transformation, providing innovative methodologies to digitize, restore, interpret, and enhance artworks, documents, and cultural sites. The digital age has not only broadened access to heritage collections but has also enabled new forms of analysis, revealing patterns and relationships that were previously inaccessible.
+At the same time, the convergence of technology and the humanities introduces new challenges and research questions. These range from the reliable digital reconstruction of artifacts and the interpretation of historical data using AI-driven methods, to issues of authorship, authenticity, and ethical considerations surrounding generative AI and cultural production.
+This workshop aims to address these emerging challenges by providing a dedicated forum for researchers, professionals, and practitioners to present advances, share experiences, and discuss future directions at the intersection of pattern recognition and cultural heritage applications.
+Topics of interest include, but are not limited to:
+<ul>
+<li>Computer vision and generative AI for art and cultural heritage</li>
+<li>Automated analysis and transcription of historical manuscripts and documents</li>
+<li>Digital acquisition, representation, and manipulation of cultural artifacts</li>
+<li>Augmented and virtual reality for cultural heritage communication and education</li>
+<li>Image processing, classification, retrieval, and similarity search in the art domain</li>
+<li>Point cloud analysis and segmentation for heritage sites and objects</li>
+<li>3D reconstruction of historical artifacts and architectural environments</li>
+<li>Serious games, edutainment, and interactive storytelling for cultural heritage</li>
+<li>Knowledge representation, ontology learning, and semantic modeling in cultural heritage</li>
+<li>Robotic and autonomous systems for inspection, conservation, and preservation</li>
+<li>Projects, prototypes, and digital tools for restoration, conservation, and heritage outreach</li>
+</ul>
+"
 - title : "The Fourth International Workshop on Pattern Recognition in Healthcare Analytics and Bioinformatics"
+  id : "WS8"
   acronym : "PRHA"
+  website : "tba"
+  resume : "<p>The fourth PRHA workshop aims to continue showcasing the latest developments in pattern recognition for healthcare analytics. The scope of the workshop entails, but is not limited to, bioinformatics, phenotyping and subtyping, patient monitoring and machine learning in pervasive healthcare, temporal modeling for disease progression, interpretable models for clinical decision support, privacy-preserving techniques for distributed and sensitive patient data, medical image analysis,  and disease progression modeling.</p>
+
+<p>Biomedical informatics and bioinformatics are interdisciplinary fields leveraging machine learning, deep learning, and natural language processing techniques. Tasks and datasets in these fields constitute various challenges due to the complex and multimodal nature of data. Furthermore, interpretability and explainability have become inevitable requirements to consider while designing models to address bioinformatics and biomedical informatics tasks. With the increasing importance and widespread use of pattern recognition, applications such as vision, biometrics, and natural language processing have migrated to their respective communities. However, the biomedical informatics and bioinformatics studies within the machine learning and pattern recognition communities have been proliferating. While specific challenges posed by digital patient data, as well as gene and protein data, encourage novel ideas in the field of pattern recognition, achievements attained by pattern recognition techniques open new doors to a better understanding of the complex nature of data in healthcare and bioinformatics. The fourth PRHA will again take on the duty of providing a platform under the ICPR for the exchange and collaboration between pattern recognition and medical communities.</p>"
+
 
 - title : "The Art of Compressing LLMs: Pruning, Distillation, and Quantization Demystified"
+  id : "WS9"
   acronym : "CompressLLMs"
+  website : "tba"
+  resume : "<p>This workshop explores the art and engineering of compressing large language models to make them cheaper, faster, and easier to deploy while preserving practical capability. Designed for a broad audience that spans beginners to advanced practitioners, the workshop will introduce foundational concepts for newcomers, share implementation patterns and pitfalls for experienced engineers, and highlight cutting-edge research directions for specialists.</p> "
 
 - title : "The third International Workshop on Video Surveillance Systems in Smart Cities: Aerial Monitoring and Synthetic Data"
+  id : "WS10"
   acronym : "V3SC 2026-3"
+  website: "https://sites.google.com/view/v3sc-icpr2026"
+  resume: "<p >We invite original research papers, case studies, and technical reports on (but not limited to) the following topics:</p>
+<ol>
+<li>Integration of traditional CCTV systems with aerial images</li>
+<li>Innovations in urban monitoring using aerial and satellite images</li>
+<li>AI and machine learning applications in smart city surveillance</li>
+<li>Data fusion and analytics for enhanced urban security</li>
+<li>Privacy and ethical implications of widespread surveillance</li>
+<li>Case studies of real-world implementations of urban surveillance</li>
+<li>Real-time monitoring: applications in traffic management and anomaly detection (e.g., fires, critical events)</li>
+Future trends and challenges in urban surveillance
+<li>Use of synthetic images for training and validation of surveillance algorithms</li>
+<li>Synthetic-to-Real domain adaptation and generalization for surveillance tasks</li>
+<li>Foundation models and their applicability in video surveillance and analysis</li>
+<li>Reducing bias and improving AI model accuracy through synthetic data strategies</li>
+<li>Privacy preserving model training and deployment</li>
+<li>Action recognition in surveillance systems</li>
+<li>Enabling technologies for aerial monitoring</li>
+</ol>"
 
 - title : "Perception, Interaction and Decision-Making for Human Cyber-Physical Systems"
+  id : "WS11"
+  website : "tba"
   acronym : "PIDM4HCPS"
+  resume : "The workshop focuses on the emerging pipeline that connects synthetic data generation (digital twins, simulation-to-real) with downstream perception and decision-making tasks in robotics, remote sensing, and extended reality environments. Core topics include, but are not limited to:
+<ol>
+<li>Synthetic data generation and domain adaptation (sim-to-real, Digital Twin).</li>
+<li>Multimodal data fusion and remote sensing.</li>
+<li>6D pose estimation, semantic segmentation, and scene understanding.</li>
+<li>Active perception (next-best-view, information-theoretic planning).</li>
+<li>SLAM and long-term mapping in dynamic environments.</li>
+<li>Embodied navigation and decision-making.</li>
+<li>Real-time perception and interaction in the Metaverse and eXtended Reality.</li>
+<li>Augmented perception and vision-based mixed reality.</li>
+<li>Etc.</li>
+</ol>"
 
 - title : "BIO-inspired Methods for Pattern Recognition"
+  id : "WS12"
+  website : "tba"
   acronym : "BIOMAP"
+  resume : "<p>Biological systems exhibit remarkable pattern recognition capabilities, achieved through evolutionary adaptation, self-organisation, and efficient information processing. These mechanisms inspire a growing class of computational approaches-drawing from evolutionary computation, swarm intelligence, artificial life, and neuromorphic computing-that offer new solutions beyond conventional optimisation or fixed-model learning. Recent advances demonstrate this potential: evolutionary algorithms automatically discover novel neural architectures, swarm-based methods enable distributed visual processing, and self-organising systems adapt to dynamic pattern sets in real-time.
+This workshop aims to present recent advances in bio-inspired techniques for pattern recognition applications and to bring together researchers and practitioners interested in exploiting the potential of such approaches. It will explore how principles from evolution, collective behaviour, and self-organisation can support robust, adaptive, and resource-efficient pattern recognition. Key questions include: How can evolutionary processes support the automated design of pattern recognition models? What insights does swarm intelligence offer for distributed perception? How do self-organising mechanisms maintain performance under shifting data conditions?</p>
+
+Topics:
+<ol>
+<li>Evolutionary neural architecture search; </li>
+<li>Swarm intelligence for distributed pattern recognition;</li>
+<li>Particle swarm optimisation for feature selection and extraction; </li>
+<li>Bio-inspired algorithms for image processing and analysis</li>
+<li>Artificial life and emergent pattern recognition</li>
+<li>Evolutionary multi-objective optimisation in computer vision;</li>
+<li>Evolutionary few-shot and zero-shot learning; </li>
+<li>Bio-inspired algorithms for automatic data augmentation; </li>
+<li>Evolutionary meta-learning;</li>
+<li>Hybrid evolutionary-gradient methods</li>
+<li>Neuromorphic and brain-inspired evolutionary systems;</li>
+<li>Federated evolutionary learning;</li>
+<li>Dynamic and online evolutionary adaptation;</li>
+<li>Evolutionary robotics and embodied vision;</li>
+<li>Quantum-inspired evolutionary pattern recognition</li>
+<li>Evolutionary explainability and interpretability;</li>
+<li>Bio-inspired hardware-software co-evolution; </li>
+<li>DNA computing for pattern matching</li>
+<ol>
+"
 
 - title : "Human-Centric Video Generation"
+  id : "WS13"
+  website : "tba"
   acronym : "HVG"
+  resume: "The Workshop on Human-Centric Video Generation (HVG) will focus on advancing methodologies for synthesizing realistic 2D human videos guided by multimodal control signals (text, audio, pose), addressing critical challenges in temporal consistency, anatomical fidelity, and environmental interaction. 
+Aligned with recent advancements in diffusion models, auto-regressive models and generative AI, this workshop emphasizes three core technical pillars: 
+(1) conditional motion synthesis (text-to-action alignment, audio-driven co-speech gestures, pose-guided motion transfer), 
+(2) quality assurance (occlusion handling, deformation mitigation, appearance consistency), 
+and (3) evaluation frameworks (metrics for temporal coherence, action accuracy, and perceptual realism).
+<p>Throughout the workshop among others, we are aiming to address the following topics during the workshop:</p>
+<ul>
+<li>Text-Driven Synthesis: Generating human videos from textual descriptions with accurate action-semantic alignment.</li>
+<li>Audio-Gesture Synchronization: Modeling co-speech gesture dynamics from audio-visual correlations.</li>
+<li>Pose-Guided Motion Transfer: Transferring source motion to target subjects while preserving identity and context.</li>
+<li>Multi-Conditional Animation: Integrating heterogeneous control signals (e.g., text + pose + audio) for compositional generation.</li>
+<li>Long-Form Synthesis: Maintaining consistency and diversity in extended video sequences.</li>
+<li>Interactive Generation: Enabling real-time user control via sketches, prompts, or physical simulations.</li>
+<li>Evaluation Frameworks: Developing metrics for temporal stability, biomechanical plausibility, and environmental interaction.</li>
+<li>Dataset Curation: Constructing cross-modal datasets with annotated human motions and multi-view sequences.</li>
+<li>3D-Consistent Avatars: Bridging 2D generation with 3D-aware representations for viewpoint-invariant synthesis.</li>
+</ul>
+"
 
 - title : "Foundation Models for Vision Applications"
+  id : "WS14"
   acronym : "FMVA"
+  website : "tba"
+  resume: "<p>In recent years large scale visual-language models have seen an explosive rise in capability. As general models they offer exceptional performance on a range of downstream tasks not explicitly trained for.  By necessity, the full capability of an architecture is often only expressed in terms of zero-shot performance on benchmark dataset tasks, such as ImageNet classification or ADE20K segmentation. The performance, generality, comprehension and prompt-sensitivity of the architectures in specific vision fields, such as biometrics or medical imaging, has room for exploration.  </p>
+
+<p>Visual Language Models have the potential to revolutionise these areas through direct application, novel systems design and explainability, leading to insights on future model development, and a more comprehensive understanding of the tasks they are applied to. This workshop aims to provide a platform for the effective utilisation of such architectures in all fields of computer vision with their varying requirements.</p>
+
+<p>The workshop topics include (but are not limited to): Dataset development and curation; Metrics and benchmarking methodologies (performance, robustness, and fairness, etc.); Innovative applications and methodological advances for exploiting visual-language models; Multimodal learning and representation (for example synergy between vision and language); Biometric analysis and human-computer interaction; Biomedical imaging and bioinformatics; Vehicular traffic perception and analysis; Image, speech, and video processing; Explainable and privacy-preserving artificial intelligence.</p>
+"
 
 - title : "PAVER: Workshop on Physics-Aware Video gEneration and Restoration"
+  id : "WS15"
   acronym : "PAVER"
+  website : "tba"
+  resume : "<p>This workshop aims to bring together researchers and practitioners from computer vision, machine learning, and physics-based modeling to discuss the latest advancements in video generation and restoration. The workshop will emphasize the importance of integrating physical constraints and real-world priors into generative video models to ensure realism, consistency, and applicability in diverse domains.</p>
+<p>Physics-aware video generation and restoration are fundamental for applications where realistic motion, temporal consistency, and adherence to physical laws are critical, including:</p>
+<ol>
+<li>Autonomous driving: Accurate motion forecasting and scene reconstruction.</li>
+<li>Medical imaging: High-fidelity generation/restoration for better diagnostics.</li>
+<li>Scientific simulations: Data-driven video generation for physics-based modeling.</li>
+<li>Streaming, AR/VR, and gaming: Real-time video enhancement for immersive experiences.</li>
+<li>Surveillance and forensics: Reconstruction of occluded or degraded video.</li>
+<li>Infant/toddler monitoring: Detecting and restoring subtle movements in low-quality recordings.</li>
+<li>Elderly care and assistive technology: Enhancing visibility and understanding of movement patterns.</li>
+</ol>
+<p>As Generative AI (GenAI) advances, new challenges emerge, such as maintaining physical realism, enforcing temporal consistency, and ensuring generalization across domains. This workshop will explore cutting-edge research at the intersection of physics-aware modeling, deep learning, and generative AI to push the boundaries of video generation and restoration.</p>
+"
 
 - title : "Second International Workshop on Eye Tracking Techniques, Applications and Challenges"
+  id : "WS16"
   acronym : "ETTAC"
+  website : "tba"
+  resume: "<p>Eye tracking technology is becoming increasingly widespread, thanks to the recent availability of cheap commercial devices, both remote and wearable. At the same time, novel techniques are continually pursued to enhance the precision of gaze detection, and new methods are continuously explored to fully leverage the potential of eye data. Regardless of the considered context (human-computer interaction, user behavior understanding, biometrics, or others), pattern recognition often plays a significant role. The purpose of the ETTAC2026 workshop is to present recent eye tracking research that directly or indirectly exploits any form of pattern recognition.</p> 
+<p>The event’s scope includes (but is not limited to) the following topics:</p>
+<ol>
+<li>Gaze detection techniques</li>
+<li>Gaze-based human-computer interaction (e.g., assistive technologies, hybrid interfaces, etc.)</li>
+<li>Eye tracking and AI integration (e.g., combination of gaze and LLMs)</li>
+<li>Eye tracking for usability inspection</li>
+<li>Eye tracking in VR/AR applications</li>
+<li>User behavior understanding from eye data</li>
+<li>Eye movement analysis for biometrics, security, and privacy</li>
+<li>Eye tracking in medicine and health care</li>
+<li>Machine/deep learning for gaze analysis</li>
+</ol>"
 
 - title : "Second International Workshop on Multi- and Cross-Modal Information for Enhanced Pattern Recognition"
+  id : "WS17"
   acronym : "MCMI"
+  website : "https://mcmi2024.unikore.it/"  
+  resume: "<p>Modern AI systems combine information from multiple sources (such as images, audio, and text) to enable better pattern recognition and understanding. MCMI brings together researchers from various fields, including audio processing, computer vision, and natural language processing, to share their work and ideas.</p>
+
+Topics:
+
+<p>Technological Advancements in Multimodal Systems:</p>
+<ol>
+<li> Multimodal Fusion Strategies</li>
+<li> Deep Learning Architectures for Multimodal Fusion</li>
+<li> Cross-Modal Feature Extraction and Learning</li>
+<li> Audio-Visual Speech Recognition</li>
+<li> Scene and Object Recognition from Audio-Visual Cues</li>
+<li> Temporal Dynamics in Multimodal Data Processing</li>
+<li> Robustness and Generalization across Diverse Modalities</li>
+</ol>
+
+<p>Applications and Interaction in Multimodal Systems:</p>
+<ol>
+<li> Emotion Recognition in Multimodal Data</li>
+<li> Natural Language Processing for Multimedia Content</li>
+<li> Multimodal Datasets and Benchmarks</li>
+<li> Novel Interaction Paradigms for Multimodal Data Acquisition</li>
+</ol>
+<p>Security, Ethics, and Transparency in Multimodal Systems:</p>
+<ol>
+<li> Ethical Considerations in Multimodal Data Processing</li>
+<li> Privacy-Preserving Multimodal Learning</li>
+<li> Explainable AI (XAI) in Multimodal Systems</li>
+<li> Security and Robustness in Multimodal Systems</li>
+<li> Adversarial Attacks and Defense in Multimodal Systems</li>
+</ol>
+" 
+
 
 - title : "Fourth workshop on Explainable and Ethical"
+  id : "WS18"
   acronym : "AIXAIE@ICPR2026"
+  website : "https://xaie.sciencesconf.org/"
+  resume : "<p>The topics covered by the workshop are Naturally explainable AI methods, Post-Hoc Explanation methods of Deep Neural Networks, including transformers and Generative Artificial Intelligence, and any ethical consideration when using pattern recognition models.</p>
+
+<p>Technical issues in explainability are related to the creation of explanations, their representation, as well as the quantification of their confidence, while those in AI ethics include automated audits, detection of bias, ability to control AI systems to prevent harm and others methods to improve AI explainability in general, including algorithms and evaluation methods, user interface and visualization for achieving more explainable and ethical AI, real world applications and case studies.</p>"
 
 - title : "Trustworthy Document Understanding: Privacy, Unlearning, Robustness, and Explainability"
+  id : "WS19"
   acronym : "TrustDoc"
+  website : "https://sites.google.com/view/trustdoc/home"
+  resume : "<p>The workshop welcomes contributions on topics including (but not limited to):</p>
+
+<p>Machine unlearning in document AI</p>
+
+<ol>
+<li> unlearning for document image classification</li>
+<li> unlearning for handwritten text recognition</li>
+<li> unlearning for document visual question answering</li>
+<li> unlearning for multimodal document understanding</li>
+</ol>
+
+<p>Robustness in document image recognition systems</p>
+<ol>
+<li> adversarial attacks & defenses</li>
+<li> robustness to data noise, layout variation, and handwriting styles</li>
+</ol>
+
+<p>Privacy in document image understanding</p>
+<ol>
+<li> differential privacy for document image datasets</li>
+<li> membership inference and training data leakage prevention</li>
+<li> privacy-preserving OCR and document representation learning</li>
+</ol>
+
+<p>Explainability and interpretability</p>
+<ol>
+<li> explaining document model decisions at pixel, region, and semantic levels</li>
+<li> visualization tools for understanding features learned from document images</li>
+</ol>
+
+<p>Evaluation, benchmarks, and best practices</p>
+<ol>
+<li> metrics and datasets for assessing unlearning, privacy, robustness, and explainability</li>
+<li> standardized evaluation pipelines for trustworthy document intelligence</li>
+</ol>
+
+<p>Applications and case studies</p>
+<ol>
+<li> legal, financial, medical, and government documents</li>
+<li> lifelong learning and compliance-driven document AI</li>
+</ol>
+"
 
 - title : "Computer Vision for Biodiversity Monitoring and Conservation"
+  id : "WS20"
   acronym : "CVBMC"
+  website: "https://cvbmc.github.io"
+  resume: "<p>The Workshop on Computer Vision for Biodiversity Monitoring and Conservation (CVBMC) aims to bridge the gap between advanced pattern recognition and ecological preservation. While computer vision has reached maturity in industrial and urban domains, its application to the natural world presents unique, high-dimensional challenges that require specialized technical approaches. The workshop will explore the deployment of state-of-the-art deep learning and AI methodologies to automate the extraction of biological information from unstructured visual datasets.</p>
+
+<p>The subject is highly relevant to Pattern Recognition because biodiversity monitoring requires solving complex problems such as fine-grained visual categorization for species identification, often under conditions of high occlusion, varying illumination, and camouflage. Furthermore, several tasks in this domain (e.g., long-term population monitoring, study of behavioral changes) require handling of temporal data, thus increasing the dimensionality of the problem and calling for temporal-aware visual modeling. </p>
+
+<p>Topics to be addressed include:</p>
+<ol>
+<li>animal and plant species identification</li>
+<li>organism tracking and movement analysis</li>
+<li>land-cover mapping, deforestation, and habitat monitoring</li>
+<li>classification of different organisms (e.g., by subspecies)</li>
+<li>assessment of organism behavior or behavior changes</li>
+<li>computer vision tools for ecological assessment</li>
+<li>counting and biodiversity monitoring</li>
+<li>analysis of terrestrial and underwater wildlife</li>
+<li>ecosystems and conservation case studies</li>
+</ol>"
 
 - title : "Multimodal pattern recognition for social signal processing  in human computer interaction"
+  id : "WS21"
   acronym : "MPRSS 2026"
+  website: "https://iaprtc09.com/?page_id=77"
+  resume: "<p>The workshop will provide participants with foundational and applied skills for developing advanced AI agents, including preparing diverse data types to be neural-network ready, understanding model fusion techniques and the distinctions between early, late, and intermediate fusion, and performing PDF data extraction using OCR. Participants will also learn to differentiate between modality orchestration and agent orchestration and gain hands-on experience customizing NVIDIA AI Blueprints—particularly the Video Search and Summarization (VSS) blueprint—to design and deploy powerful multimodal AI agents.</p>"
+
 
 - title : "Advances in Underwater Surveillance: Technologies, Challenges, and Future Directions"
-  acronym : "AUSTech 2.0"
+  id : "WS22"      
+  acronym : "AUSTech 2.0" 
+  website: "https://austech-25.github.io/workshop"
+  resume: "<p>The workshop focuses on recent developments in underwater surveillance, including underwater imaging, multimodal sensor fusion, acoustic–optical perception, generative data enhancement, graph-based reasoning, and autonomous underwater vehicles. </p>
+  <p>Topics include:</p>
+<ol>
+<li>Underwater image enhancement, dehazing, and restoration</li>
+<li>Object detection, segmentation, and tracking in underwater scenes</li>
+<li>Sensor fusion using optical, sonar, and LiDAR data</li>
+<li>AI-driven underwater communication and networking</li>
+<li>Learning-based AUV navigation and marine robotics</li>
+<li>Applications in environmental monitoring, Blue Economy, maritime security, and industrial inspection</li>
+</ol>
+"
+
+
 
 - title : "Workshop on Textual Information Processing & Synthesis in the Wild"
+  id : "WS23"
+  website : "tba"
   acronym : "TIPS"
+  resume: "Topics:
+  <ol>
+<li>Scene and video text detection, recognition, and editing</li>
+<li>Stylistic text recognition</li>
+<li>Font analysis and synthesis </li>
+<li><li>Detection of synthetic manipulation in documents, and document forensics</li>
+<li>Multimodal document understanding</li>
+<li>Analysis and interpretation of graphical documents</li>
+<li>Recognition and Analysis of low-resource language</li>
+<li>Handwriting recognition</li>
+<li>Personality traits detection </li>
+<li>Natural Language Processing</li>
+<li><li>Sentiment analysis from text</li>
+<li>Historical document analysis</li>
+<li>Text summarization and translation</li>
+<li>Language model for document information extraction</li>
+<li>NLP+Vision multimodal approaches</li>
+<li>Other relevant applications, etc.</li>
+</ol>
+"
 
 - title : "Workshop on Human Gaze and Visual Attention Modeling"
+  id : "WS24"
+  website : "tba"
   acronym : "HGVA"
+  resume : " <p>Human attention modeling, including human gaze modeling, eye tracking, have been key areas of focus in computer vision and pattern recognition research over the past decade. These dynamic fields have evolved from various perspectives, shaped by the diverse expertise and objectives of researchers. Despite recent advancements in technologies such as large vision and language models, these innovations have yet to be fully integrated into current research. Additionally, while the potential applications of gaze estimation, attention prediction and eye tracking across images, videos, and audio are vast, there remains a lack of groundbreaking approaches that push the boundaries of the field.</p>
+  <p> The Workshop on Human Gaze and Visual Attention Modeling aims to address this gap by providing a platform for introducing novel ideas and methodologies in human attention modeling, and gaze estimation and eye tracking. The workshop will also explore the intersection of these fields with emerging domains, such as human-computer interaction (HCI), robotics, autonomous systems and medical image analysis. By highlighting the broader, yet still underexplored, opportunities of gaze and human-attention and eye tracking research in real-world applications, we aim to spark new interdisciplinary collaborations.</p>
+<p>Through this workshop, we aim to encourage forward-looking discussions that move beyond conventional computer vision applications and address meaningful real-world challenges. Our goal is to inspire the next wave of research and broaden the impact of human visual attention, eye-tracking, and gaze-based methods across diverse industries and domains.</p>
+<p>Main topics that will be covered in the workshop:</p>
+  <ul>
+  <li> Computational Modeling of Human Visual Attention & Deep Learning for Visual Saliency</li>
+  <li> Advances in Eye-Tracking Technologies and Applications</li>
+  <li> Scanpath Prediction and Temporal Dynamics of Gaze in Video Understanding</li>
+  <li> Active Vision and Real-World Applications</li>
+  <li> Human Visual Perception for Computer Vision & Cognitive Modeling</li>
+  <li> Benchmarking, Evaluation, and Privacy-Preserving Methods for Gaze Analysis</li>
+  <li> Applications of Human Visual Attention in Medical Imaging & Vision-Based Interaction</li>
+  <li> Robotics and HCI: Eye-Gaze Interaction and Gaze-Based Interfaces</li>
+</ul>"
 
 - title : "Reproducible Research in Pattern Recognition"
+  id : "WS25"
   acronym : "RRPR"
+  website : "https://tc22-team.github.io/rrpr2026"
+  resume : "<p>The topic is Reproducible Research (RR) in direct relation to the Pattern Recognition domains, corresponding to most of the ICPR topics where research results rely on algorithms and code implementation. This workshop is an important activity of the newly created TC-22, specifically on computational reproducibility. As in all previous editions, RRPR 2026 is intended as both a short participative course on computational reproducibility, leading to open discussions with the participants, and also as a practical workshop on how to actually practice RR. In addition, another key goal for gathering the research community is to further advance the scientific aspects of reproducibility specifically in pattern recognition research. The call for papers includes three main tracks: (1) RR frameworks (including experiences, frameworks, or complete platforms), (2) RR results focusing on the quality of the reproducible research results, and (3) short papers. RRPR short papers are tailored to allow authors the extra space needed to document the steps they have taken to make their regular ICPR submission more reproducible. Sometimes this valuable information is not made available in conference papers, but doing so certainly grows awareness and increases visibility for reproducibility as a core aspect of pattern recognition research. RRPR is also an excellent forum for ICPR authors to share and discuss best practices in reproducibility, thereby advancing the field.</p>
+<p>Reproducibility is an important topic in general and particularly important for PhD students
+and young researchers to learn about the best practices in research, including not only the
+scientific paper, but also the source code and the data. The special track is also related to
+the Deep Learning and Geometry fields where reproducibility and reliability are key points.
+The RRPR workshop has special relevance in ICPR 2026 since this time the conference
+will grant a Reproducibility Badge to authors, to recognize and celebrate the effort of authors towards trustworthy reproducible research, transparency, and reliable science. A selection of papers will be presented in RRPR and all ICPR attendees are welcomed to participate in this workshop, for which we expect substantial discussions around computational reproducibility.</p>
+"
 
 - title : "International Workshop on coMics ANalysis, Processing and Understanding"
+  id : "WS26"
   acronym : "MANPU"
+  website : "tba"
+  resume: "<p>This workshop deals with research activities about comics. MANPU workshop targets researchers in image processing, image analysis, pattern recognition and even knowledge representation. Indeed, the large variability of comic books and the complexity of their contents make comics analysis a kind of advanced problem of document image understanding or more generally knowledge-based scene recognition.</p>
+
+The topics of interest include among others:
+<ol>
+<li> Comics Image Processing</li>
+<li> Comics Analysis and Understanding</li>
+<li> Comics Recognition</li>
+<li> Comics Retrieval and Spotting</li>
+<li> Comics Enrichment</li>
+<li> Born-digital comics</li>
+<li> Reading Behavior Analysis</li>
+<li> Comics Generation</li>
+<li> Copy Protection – Fraud Detection</li>
+<li> Physical/Digital Comics Interfaces</li>
+</ol>"
 
 - title : "Sustainable PR & PR for Environment"
+  id : "WS27"
   acronym : "GREEN-PR"
+  website : "https://green-pr.sciencesconf.org "
+  resume: "<p>GREEN-PR aims to group researchers working on more sustainable approaches in pattern recognition and/or recent developments of pattern recognition contributions in environmental applications. </p>
+
+<p>Topics (non-exhaustive list):</p>
+<ol>
+<li>Low-complexity and more energy-efficient PR approaches : lightweight models, sparse and modular representations, edge and federated learning, etc.</li>
+ <li>Development of pattern recognition for environmental applications : remote sensing and earth observation, climate and environmental monitoring, smart cities, wildlife and ecosystem models, agriculture, etc. </li>
+ <li>Efficient data-driven learning approaches : transfer learning, distillation, active learning, etc.</li>
+ <li>Lifecycle and sustainable AI frameworks, economical assessment, measure of carbon footprint, best practices for PR and AI developments. </li>
+</ol>
+"
 
 - title : "Image Mining. Theory and Applications"
+  id : "WS28"
   acronym : "IMTAX-2026"
+  website : "https://imta.isti.cnr.it"
+  resume : "
+<p>The main subject of the workshop in the broadest sense of the word is the assessment and discussion of the current state of the mathematical theory of image analysis and the prospects for its development, as well as its application to solve particularly important difficult and socially significant applied problems.</p>
+
+<p>The main purposes of the IMTA workshops are:</p>
+<ol>
+<li>1)	to observe, overview and discuss state of the art in mathematical foundations of image-mining;</li>
+<li>2)	to provide the fusion of modern fundamental mathematical approaches and techniques for image analysis/pattern recognition with the requests of applications. </li>
+</ol>
+<p>This workshop is intended to cover, but it is not limited to, the following topics:</p>
+<ol>
+<li>Methodological and mathematical advances in image analysis and pattern recognition with a special focus on:</li>
+<li>New Mathematical Techniques in Image-Mining</li>
+<li>Image Models, Representations and Features</li>
+<li>Automation of Image- and Data-Mining</li>
+<li>Artificial Intelligence Techniques in Image-Mining</li>
+<li>Applied Problems of Image-Mining</li>
+</ol>
+"
 
 - title : "Pattern Recognition Challenges in Infectious Disease"
+  id : "WS29"
   acronym : "PRCID"
+  website : "tba"
+  resume : "<p>Bacterial infections are the second-leading cause of death globally. Antimicrobial resistance threatens the effectiveness of modern healthcare and is recognized by the WHO as one of the top global public health threats. Infections also lead to significant economic costs, further motivating the urgent need to develop novel techniques for monitoring spread, develop accessible and accurate diagnostics, and tracking information spread and societal impact. These urgent challenges all require different forms of pattern recognition. We envision a workshop covering three broad topics: (i) diagnostics based on biomedical image and video analysis, (ii) bioinformatics as a tool for surveillance and prediction of spread, and (iii) artificial intelligence for analysis of communication strategies and societal response.  </p>
 
-- title : "Workshop on Generative and Agentic AI for Real-World Video Understanding"
-  acronym :  "GenAAI 2026"
+<p>Technical pattern recognition challenges central to each topic could for (i) for example be: DL for highly skewed datasets, rare case and anomaly detection, explainable AI, low computational demand networks for point of care diagnostics, real-time video analysis of pathogen growth, and domain adapted evaluation approaches. For (ii) for example: genomic sequence pattern analysis for resistance and emerging pathogen detection, GNNs for modeling transmission networks and co-occurrence networks for tracing resistance genes across populations, time series analysis of genomic data for modeling spread and mutations,  and forecasting outbreaks. For (iii), for example: NLP for detection of misinformation patterns, information diffusion modeling, behavioural response analysis, and multi-modal AI for understanding how communication strategies affect the societal response in emergency situations.</p>"
   
+- title : "Workshop on Generative and Agentic AI for Real-World Video Understanding"
+  id : "WS30"
+  acronym :  "GenAAI 2026"
+  website : "tba"
+  resume: "<p>Key Workshop Highlights – GenAAI-2026</p>
+  
+<p>1.	Generative Video Models as Autonomous Reasoning Engines: This theme examines how diffusion-based video models, 3D-aware world models, and large multimodal transformers can serve as cognitive backbones for agentic systems. Participants will explore how generative priors improve temporal coherence, fill in missing frames, simulate potential outcomes, and support high-level reasoning over complex dynamic scenes. By integrating planning modules and feedback loops, generative agents can autonomously interpret human activities, detect anomalies, and propose future scene evolutions.</p>
+<p>2.	Agentic AI for Real-World Environments: Agentic AI introduces capabilities such as autonomous task decomposition, context-aware decision-making, and self-optimization. This segment focuses on how these properties enhance video understanding in challenging real-world conditions—crowded surveillance scenes, variable lighting, occlusions, abrupt motion patterns, and multi-agent interactions. Discussions will center on vision-language-action models, tool-use agents, embodied decision systems, and reinforcement learning frameworks designed to operate in unconstrained environments.</p>
+<p>3.	Spatiotemporal Representation Learning & Predictive Modeling: High-quality video understanding depends on structured spatiotemporal representations. This section explores world models, graph neural video architectures, motion-aware transformers, and predictive generative models that anticipate future states of complex scenes. Use cases include trajectory prediction, pedestrian intent estimation, environmental hazard forecasting, and robotics navigation. The session will also investigate multimodal fusion across video, LiDAR, IMU, and audio, enabling agents to form a holistic perception of real-world environments.</p>
+<p>
+We invite submissions and participation under the theme “GenAAI 2026”, including but not limited to:</p>
+<ol>
+<li>	Agentic AI for Video Reasoning and Decision-Making</li>
+<li>	Video Models and Spatiotemporal Generative Representations</li>
+<li>	Vision-Language-Action Agents</li>
+<li>	Generative Trajectory Prediction and Scene Forecasting</li>
+<li>	Real-World Video Surveillance, Crowd Analytics, and Behavior Understanding</li>
+<li>	Video Anomaly Detection Using Generative Priors</li>
+<li>	Self-Supervised and Foundation Models for Long Video Sequences</li>
+<li>	Generative Augmentation, Reconstruction, and Inpainting in Videos</li>
+<li>	Few-shot and Zero-shot Video Understanding</li>
+<li>	Edge and Real-Time Deployment of Generative Agents</li>
+</ol>
+"

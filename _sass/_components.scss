@@ -68,12 +68,41 @@
   -webkit-overflow-scrolling: touch;
 }
 .card-body ul {
-  list-style: none;
-  padding-left: 0;
+    list-style: none;
+  padding-left: 2.5rem;
   margin-bottom: 0;
 }
 .card-body ul li {
   margin-bottom: 0.5rem; /* espace vertical entre chaque item */
+
+}
+
+.resume-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;   
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  list-style: none;
+}
+.resume-clamp ol li {
+  list-style: initial;
+}
+.resume-clamp ul li {
+  list-style: initial;
+}
+
+.resume-clamp.expanded {
+  -webkit-line-clamp: unset;
+}
+.resume-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;  
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.resume-clamp.expanded {
+  -webkit-line-clamp: unset;
 }
 
 .list-group-item-action.active {
