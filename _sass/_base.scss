@@ -53,7 +53,9 @@ h2 {
 h3 {
   font-size: clamp(1.3rem, 2.8vw, 1.5rem);
 }
-
+h5 {
+  scroll-margin-top: 120px;
+}
 blockquote {
   border: 1px solid #E5E5DB;
   background: #FFF;
@@ -205,9 +207,27 @@ footer {
 }
 
 #show-more-news:hover {
-  text-decoration: underline;
-  color: #5d0000;
+  &:hover {
+    transform: scale(1.25);
+    color: #5d0000;   
+  }
+
 }
+// Style for workshop show-more-less
+.show-more-WS {
+  border: none;
+  color: #8d1100;
+
+  font-size: 0.85rem;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 0.5em;
+  &:hover {
+    transform: scale(1.05);
+   
+  }
+}
+
 
 #visits-count24h, #visits-count7d{
  font-size: 1.1em;
