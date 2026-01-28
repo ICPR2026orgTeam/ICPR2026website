@@ -13,27 +13,64 @@ last_modified: 2026-01-27
 
 <h2>Selected Workshops</h2> 
 
-<p>We thank the IAPR community for 36 submitted workshop proposals.
+<p>We thank the IAPR community for 34 submitted workshop proposals.
   The list of selected events are given here. The associated website
   will be completed by 16th of February, 2026.</p>
 
 
 
 {% assign work = site.data.workshops %}
+<table class="table-workshop">
+  <thead>
+    <tr>
+      <th ># </th>
+      <th >Acronym</th>
+      <th >Title</th>
+    </tr>
+  </thead>
+  <tbody>
+
+{% for w in work %}
+
+  <tr>
+    <td> {{ w.id }} </td>
+    <td> {{ w.acronym }} </td>
+    <td> <a href = "#{{ w.id }}"> {{ w.title }} </a></td>
+  </tr>
+{% endfor %}
+</tbody>
+</table>
+
+
+
 {% for w in work %}
 
 
 
-<div class="card text-dark bg-light mb-5" style="max-width: 110rem;">
-  <div class="card-header fs-5 fw"><b>{{ w.title }}</b> ({{ w.acronym }})</div>
+<div  class="card text-dark bg-light mb-5" style="max-width: 110rem;">
+  <div class="card-header fs-5 fw d-flex align-items-center"> <span> <b>{{ w.title }} </b> ({{ w.acronym }})</span> <span class="ms-auto">{{ w.id }}</span></div>
   <div class="card-body">
-  {% if w.resume %}
-    <h5 class="card-title">Workshop Overview</h5>
-    <p> {{ w.resume }} </p>
+ {% if w.resume %}
+  <h5 id="{{ w.id }}"  class="card-title">Workshop Overview</h5>
+
+  <div class="resume-clamp" id="resume-{{ forloop.index }}">
+    {{ w.resume }}
+  </div>
+  <div class="show-more-ws ">
+  <button 
+    class="btn "
+    onclick="toggleResume('{{ forloop.index }}', this)">
+    Show more
+  </button></div>
   {% endif %}
   {% if w.website %}
-  <p class="card-text"> <strong class="card-title"> Competition Website</strong>: <a href="{{ c.website }}">{{ w.website }}</a>  </p>
-  {% endif %}
+  {% if w.website != "tba" %}
+ <p class="card-text"> <strong class="card-title"> Workshop  Website</strong>: <a href="{{ w.website }}">  {{ w.website }} </a></p>
+ {% else %}
+ <p class="card-text"> <strong class="card-title"> Workshop  Website</strong>: {{ w.website }}  </p>
+ 
+ {% endif %}
+ {% endif %}
   {% if w.deadline %}
   <p class="card-text"> <strong class="card-title"> Deadline</strong>: <strong class="text-info"> {{ w.deadline }}</strong>  </p>
   {% endif %}
@@ -44,7 +81,7 @@ last_modified: 2026-01-27
   
 </div>
 
-  {% endfor %}
+{% endfor %}
 
 
 
@@ -53,16 +90,17 @@ last_modified: 2026-01-27
 </section>
 
 
-
 <script>
-document.querySelectorAll('.faq-question').forEach(btn => {
-  btn.addEventListener('click', () => {
-    const answer = btn.nextElementSibling;
-    answer.classList.toggle('hidden');
-  });
-});
+function toggleResume(id, btn) {
+  const resume = document.getElementById('resume-' + id);
 
-
+  if (resume.classList.contains('expanded')) {
+    resume.classList.remove('expanded');
+    btn.innerText = 'Show more';
+  } else {
+    resume.classList.add('expanded');
+    btn.innerText = 'Show less';
+  }
+}
 </script>
-
 
