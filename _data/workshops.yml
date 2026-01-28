@@ -2,7 +2,7 @@
 - title : "Behavioral Robotics and AI for iNdustrial and social systems "
   id : "WS1"
   acronym : "BRAIN"
-  website : "tba"
+  website : "https://sites.google.com/view/prestige-icpr2026"
   resume: "The convergence of Artificial Intelligence and Robotics is driving a new era of intelligent systems capable of interacting with the physical world in increasingly sophisticated ways. At the heart of this transformation lies Physical AI, namely the application of AI to systems that directly engage with their environment through sensors and actuators. Physical AI enables robots and devices to perceive, understand, and act upon complex, dynamic, and often uncertain environments, making it a cornerstone of modern robotics.
 This workshop, BRAIN: 'Behavioral Robotics and AI for iNdustrial and social systems', seeks to explore the role of Physical AI in shaping robotic behaviors across different critical domains, including industrial automation and social interaction. In industrial settings, Physical AI drives precision, adaptability, and efficiency in tasks such as manufacturing, logistics, and inspection. In social contexts, it empowers robots to interpret human cues, respond empathetically, and engage in meaningful interactions.
 By focusing on behavioral robotics, the workshop emphasizes the integration of perception, decision-making, and physical embodiment, which are key elements for creating intelligent systems that are not only reactive but also proactive and context-aware. AI plays a vital role in this process, enabling robots to interpret sensory data, learn from experience, and adapt their behavior in real time."
