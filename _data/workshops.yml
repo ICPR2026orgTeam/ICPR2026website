@@ -444,25 +444,29 @@ Topics:
   id : "WS23"
   website : "tba"
   acronym : "TIPS"
-  resume: "Topics:
-  <ol>
-<li>Scene and video text detection, recognition, and editing</li>
-<li>Stylistic text recognition</li>
-<li>Font analysis and synthesis </li>
-<li><li>Detection of synthetic manipulation in documents, and document forensics</li>
+  resume: "<p>In text analysis and synthesis areas many recent research topics like text editing in images and videos, vision languages models, text style transfer etc. are getting special attentions. The aim of this workshop is towards information processing  and synthesis of textual data that may appear in normal text and different images and videos.</p>
+
+Topics of Interest include, but not limited to:
+<ol >
+<li>Text editing in images and Videos</li>
+<li>Text style transfer</li>
+<li>Vision Language models</li>
+<li>Sentiment analysis from text</li>
+<li>Personality traits detection</li>
+<li>Natural Language Processing</li>
 <li>Multimodal document understanding</li>
+<li>Stylistic text recognition</li>
+<li>Font analysis and synthesis</li>
+<li>Detection of synthetic manipulation in documents, and document forensics</li>
 <li>Analysis and interpretation of graphical documents</li>
 <li>Recognition and Analysis of low-resource language</li>
-<li>Handwriting recognition</li>
-<li>Personality traits detection </li>
-<li>Natural Language Processing</li>
-<li><li>Sentiment analysis from text</li>
+<li>Complex Handwriting recognition</li>
 <li>Historical document analysis</li>
 <li>Text summarization and translation</li>
 <li>Language model for document information extraction</li>
-<li>NLP+Vision multimodal approaches</li>
-<li>Other relevant applications, etc.</li>
-</ol>
+<li>Scene and video text detection and recognition</li>
+<li>NLP+Vision multimodal approaches
+ </ol>
 "
 
 - title : "Workshop on Human Gaze and Visual Attention Modeling"
