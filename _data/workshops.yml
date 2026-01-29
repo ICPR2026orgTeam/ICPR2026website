@@ -2,7 +2,7 @@
 - title : "Behavioral Robotics and AI for iNdustrial and social systems "
   id : "WS1"
   acronym : "BRAIN"
-  website : "https://sites.google.com/view/prestige-icpr2026"
+  website : "tba"
   resume: "The convergence of Artificial Intelligence and Robotics is driving a new era of intelligent systems capable of interacting with the physical world in increasingly sophisticated ways. At the heart of this transformation lies Physical AI, namely the application of AI to systems that directly engage with their environment through sensors and actuators. Physical AI enables robots and devices to perceive, understand, and act upon complex, dynamic, and often uncertain environments, making it a cornerstone of modern robotics.
 This workshop, BRAIN: 'Behavioral Robotics and AI for iNdustrial and social systems', seeks to explore the role of Physical AI in shaping robotic behaviors across different critical domains, including industrial automation and social interaction. In industrial settings, Physical AI drives precision, adaptability, and efficiency in tasks such as manufacturing, logistics, and inspection. In social contexts, it empowers robots to interpret human cues, respond empathetically, and engage in meaningful interactions.
 By focusing on behavioral robotics, the workshop emphasizes the integration of perception, decision-making, and physical embodiment, which are key elements for creating intelligent systems that are not only reactive but also proactive and context-aware. AI plays a vital role in this process, enabling robots to interpret sensory data, learn from experience, and adapt their behavior in real time."
@@ -128,7 +128,7 @@ Standard ICPR workshop facilities should be sufficient. The primary needs are re
 - title : "Pattern Recognition and Computer Vision for e-Heritage and Digital Humanities Workshop"
   id : "WS7"
   acronym : "PRESTIGE"
-  website : "tba"
+  website : "https://sites.google.com/view/prestige-icpr2026"
   resume: "The role of digital technologies in the preservation, analysis, and dissemination of cultural and historical heritage has become increasingly central. Pattern recognition, machine learning, and computer vision now play a key role in this transformation, providing innovative methodologies to digitize, restore, interpret, and enhance artworks, documents, and cultural sites. The digital age has not only broadened access to heritage collections but has also enabled new forms of analysis, revealing patterns and relationships that were previously inaccessible.
 At the same time, the convergence of technology and the humanities introduces new challenges and research questions. These range from the reliable digital reconstruction of artifacts and the interpretation of historical data using AI-driven methods, to issues of authorship, authenticity, and ethical considerations surrounding generative AI and cultural production.
 This workshop aims to address these emerging challenges by providing a dedicated forum for researchers, professionals, and practitioners to present advances, share experiences, and discuss future directions at the intersection of pattern recognition and cultural heritage applications.

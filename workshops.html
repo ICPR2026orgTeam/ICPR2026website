@@ -56,7 +56,7 @@ last_modified: 2026-01-27
   <div class="resume-clamp" id="resume-{{ forloop.index }}">
     {{ w.resume }}
   </div>
-  <div class="show-more-ws ">
+  <div class="show-more-WS ">
   <button 
     class="btn "
     onclick="toggleResume('{{ forloop.index }}', this)">
@@ -65,7 +65,7 @@ last_modified: 2026-01-27
   {% endif %}
   {% if w.website %}
   {% if w.website != "tba" %}
- <p class="card-text"> <strong class="card-title"> Workshop  Website</strong>: <a href="{{ w.website }}">  {{ w.website }} </a></p>
+ <p class="card-text"> <strong class="card-title"> Workshop  Website</strong>: <a href="{{ w.website }}">  available here  </a></p>
  {% else %}
  <p class="card-text"> <strong class="card-title"> Workshop  Website</strong>: {{ w.website }}  </p>
  
