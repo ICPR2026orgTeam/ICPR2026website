@@ -82,6 +82,28 @@ table {
   }
   margin-bottom: 100px; 
 }
+/* Mini style pour tableau contact */
+.table-contact {
+  width: 100%;
+}
+
+.table-contact td.right {
+  width: 50%; 
+  text-align: left;
+          
+}
+
+.table-contact td.left {
+  width: 50%;  
+  text-align: right;         
+}
+
+.table-contact tr.extra {
+  display: none;        
+}
+.table-contact tr {
+  background-color: white !important; /* force toutes les lignes à blanc */
+}
 
 .container {
   padding-left: 1rem !important;
