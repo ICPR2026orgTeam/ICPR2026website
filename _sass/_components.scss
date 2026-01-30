@@ -280,13 +280,15 @@
     }
   }
 
-  @media (max-width: 20484px) {
-    .vertical-text {
-      writing-mode: vertical-rl;
-      text-orientation: mixed;
-    }
+.vertical-text {
+  writing-mode: vertical-rl;
+  white-space: nowrap;
 
-  }
+}
+
+ 
+
+
   /*  Program component*/
   /*-------------------*/
 

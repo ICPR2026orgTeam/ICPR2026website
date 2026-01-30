@@ -5,15 +5,21 @@
 
 /* tableau */
 .registration-table {
-  border-collapse: collapse;
+    border-collapse: collapse;
+    
 }
 
 .registration-table th,
 .registration-table td {
   border: 1px solid #ccc;
-  padding: 8px 12px;
   text-align: center;
+  vertical-align: middle;
+  font-size: 0.9rem;
+  padding: 5px 10px;
 }
+
+  
+
 
 /* cadre rouge externe */
 .paper-top    { border-top:    3px solid red !important; }
@@ -36,15 +42,6 @@
   border: 2px solid red;
 }
 
-.vertical-text {
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  text-align: center;
-  vertical-align: middle;
-  align-items: center;
-  white-space: normal;
-
-}
 /* 📄 Tables */
 table {
   border-collapse: collapse;
@@ -56,14 +53,15 @@ table {
     background-color: $color-secondary;
     color: white;
     text-align: center;
-    padding: 12px;
+
     font-size: 1.0em;
   }
 
   td {
-    padding: 10px;
     vertical-align: top;
     text-align: center;
+    padding-right: 1.0rem !important;
+    padding-left: 0.7rem !important;        
   }
 
   tr:nth-child(even) {
