@@ -1,0 +1,47 @@
+---
+layout: default
+title:  Tutorials - ICPR 2026
+canonical: "https://icpr2026.org/competitions.html"
+last_modified: 2026-02-14
+---
+
+<h1>Tutorials</h1>
+
+<p> The call for tutorials is still open and available on this <a href="{{ site.baseurl }}/callTutorials.html">page</a>. </p>
+
+
+<h2>Selected Tutorials</h2> 
+
+<p> The list of selected tutorials will be available starting March 31. </p>
+
+{% assign tuto = site.data.tutorials %}
+{% for t in tuto %}
+
+<div class="card text-dark bg-light mb-5" style="max-width: 110rem;">
+  <div class="card-header fs-5 fw"><b>{{ t.title }}</b></div>
+  <div class="card-body">
+    <h5 class="card-title"><strong class="card-title"> Resume</strong>: </h5>
+    <p> {{ t.resume }} </p>
+    <p class="card-text"> <strong class="card-title"> Presenter </strong>: {{ t.authors }}  </p>
+    <p class="card-text"> <strong class="card-title"> Date</strong>: {{ t.date }}  </p>
+  </div>
+</div>
+
+{% endfor %}
+  
+</section>
+
+
+
+<script>
+document.querySelectorAll('.faq-question').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const answer = btn.nextElementSibling;
+    answer.classList.toggle('hidden');
+  });
+});
+
+
+</script>
+
+
