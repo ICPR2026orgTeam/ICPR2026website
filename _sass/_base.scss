@@ -34,6 +34,11 @@ ul {
   flex-direction: column;
   gap: 0.4em;
 }
+ol li {
+  margin-bottom: 1rem; 
+
+}
+
 h1, h2, h3, h4, h5, h6,
 conference-title {
   color: #253e40;
