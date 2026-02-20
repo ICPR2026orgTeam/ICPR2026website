@@ -55,20 +55,20 @@ By focusing on behavioral robotics, the workshop emphasizes the integration of p
 
 
 
-- title : "The First International Workshop on Artificial Intelligence for Multimodal Transportation    "
-  id : "WS4"
-  acronym : "AI4MT"
-  website : "tba"
-  resume : "<p>This workshop addresses the transformative role of artificial intelligence in multimodal transportation systems, with particular emphasis on pattern recognition techniques that enable intelligent decision-making across interconnected transport networks.</p>
-<p>The workshop  cover pattern recognition and AI applications across multiple transportation domains:</p>
-<ol>
-<li>Computer Vision for Transportation: Real-time object detection and tracking for autonomous vehicles, traffic monitoring, pedestrian behavior analysis, and infrastructure inspection using deep learning architectures</li>
-<li>Spatiotemporal Pattern Mining: Identification of mobility patterns, traffic flow prediction, demand forecasting, and anomaly detection in multimodal networks using recurrent and transformer-based models</li>
-<li>Sensor Fusion and Multimodal Data Integration: Integration of heterogeneous data sources (camera, LiDAR, radar, GPS, IoT sensors) for comprehensive transportation state estimation</li>
-<li>Reinforcement Learning for Operations Management: Dynamic routing, scheduling optimization, airspace management, and adaptive traffic control systems
-<li>Graph Neural Networks for Network Analysis: Modeling transportation networks as graphs for congestion prediction, route optimization, and network resilience assessment</li>
-<li>Trajectory Prediction and Planning: Human mobility modeling, vehicle path planning, and conflict resolution in shared spaces</li>
-</ol> "
+# - title : "The First International Workshop on Artificial Intelligence for Multimodal Transportation    "
+#   id : "WS4"
+#   acronym : "AI4MT"
+#   website : "tba"
+#   resume : "<p>This workshop addresses the transformative role of artificial intelligence in multimodal transportation systems, with particular emphasis on pattern recognition techniques that enable intelligent decision-making across interconnected transport networks.</p>
+# <p>The workshop  cover pattern recognition and AI applications across multiple transportation domains:</p>
+# <ol>
+# <li>Computer Vision for Transportation: Real-time object detection and tracking for autonomous vehicles, traffic monitoring, pedestrian behavior analysis, and infrastructure inspection using deep learning architectures</li>
+# <li>Spatiotemporal Pattern Mining: Identification of mobility patterns, traffic flow prediction, demand forecasting, and anomaly detection in multimodal networks using recurrent and transformer-based models</li>
+# <li>Sensor Fusion and Multimodal Data Integration: Integration of heterogeneous data sources (camera, LiDAR, radar, GPS, IoT sensors) for comprehensive transportation state estimation</li>
+# <li>Reinforcement Learning for Operations Management: Dynamic routing, scheduling optimization, airspace management, and adaptive traffic control systems
+# <li>Graph Neural Networks for Network Analysis: Modeling transportation networks as graphs for congestion prediction, route optimization, and network resilience assessment</li>
+# <li>Trajectory Prediction and Planning: Human mobility modeling, vehicle path planning, and conflict resolution in shared spaces</li>
+# </ol> "
 
 - title : "Machine Vision for Industrial Inspection (MVI2)"
   id : "WS5"
