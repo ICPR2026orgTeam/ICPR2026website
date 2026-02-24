@@ -300,3 +300,37 @@ last_modified: 2025-12-01
   </section>
 
 
+
+
+
+  <section id="area_chair">
+       <!------ Section Board Team ----->
+      <div class="container d-flex justify-content-center">
+        <div class="row justify-content-center">
+
+    <h2> Area chairs </h2>
+
+{% for i in (1..6) %}
+    {% capture track_name %}track{{ i }}{% endcapture %}
+  <div class="col-md-5  ml-3  mr-3 b-3 t-3">
+      <div class="card border-info ml-1 mb-3">
+        <div class="card-header"><b>Area chairs</b>: Track {{ i }}  </div>
+        <div class="card-body text-info">
+          <ul class="area-chairs">
+            {% assign areachairs = site.data.areaChairs %}
+            {% for ac in areachairs  %}
+            {% if ac.area == track_name  %}
+            <li> {{ ac.firstname }} {{ ac.lastname }} </li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+  </div>
+
+{% endfor %}
+  
+
+        </div>
+      </div>
+  </section>
