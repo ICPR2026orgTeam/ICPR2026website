@@ -425,7 +425,7 @@ Topics:
 - title : "Advances in Underwater Surveillance: Technologies, Challenges, and Future Directions"
   id : "WS22"      
   acronym : "AUSTech 2.0" 
-  website: "https://austech-25.github.io/workshop"
+  website: "https://austechworkshop.github.io/icpr"
   resume: "<p>The workshop focuses on recent developments in underwater surveillance, including underwater imaging, multimodal sensor fusion, acoustic–optical perception, generative data enhancement, graph-based reasoning, and autonomous underwater vehicles. </p>
   <p>Topics include:</p>
 <ol>
