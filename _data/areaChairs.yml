@@ -1,0 +1,541 @@
+- area: track1
+  firstname: Carmen
+  lastname: Bisogni
+  mail: cbisogni@unisa.it
+  affiliation: University of Salerno
+- area: track1
+  firstname: Tianlong
+  lastname: Chen
+  mail: tianlong@cs.unc.edu
+  affiliation: UNC Chapel Hill
+- area: track1
+  firstname: Wuyang
+  lastname: Chen
+  mail: wuyang_chen@sfu.ca
+  affiliation: Simon Fraser University
+- area: track1
+  firstname: Da
+  lastname: Chen
+  mail: da.chen@bath.edu
+  affiliation: University of Bath, UK
+- area: track1
+  firstname: Francisco
+  lastname: Escolano
+  mail: escolano.ua@gmail.com
+  affiliation: University of Alicante
+- area: track1
+  firstname: Francesco
+  lastname: Fontanella
+  mail: fontanella@unicas.it
+  affiliation: University of Cassino
+- area: track1
+  firstname: David
+  lastname: Freire-Obregón
+  mail: david.freire@ulpgc.es
+  affiliation: University of Las Palmas de Gran Canaria
+- area: track1
+  firstname: Kent
+  lastname: Fujiwara
+  mail: kent.fujiwara@lycorp.co.jp
+  affiliation: LINE Research, Japan
+- area: track1
+  firstname: Lanqing
+  lastname: Guo
+  mail: LANQING001@e.ntu.edu.sg
+  affiliation: Google
+- area: track1
+  firstname: Deep
+  lastname: Gupta
+  mail: deepgupta@ece.vnit.ac.in
+  affiliation: VNTI, India
+- area: track1
+  firstname: Junyuan
+  lastname: Hong
+  mail: mr.junyuan.hong@gmail.com
+  affiliation: National University of Singapore
+- area: track1
+  firstname: Xiaopeng
+  lastname: Hong
+  mail: hongxiaopeng_hit@hotmail.com
+  affiliation: Harbin Institute of Technology
+- area: track1
+  firstname: Hezhen
+  lastname: Hu
+  mail: alexhu@utexas.edu
+  affiliation: UT Austin
+- area: track1
+  firstname: Tianjin
+  lastname: Huang
+  mail: t.huang2@exeter.ac.uk
+  affiliation: University of Exeter
+- area: track1
+  firstname: Sunghoon
+  lastname: Im
+  mail: sunghoonim@dgist.ac.kr
+  affiliation: DGIST
+- area: track1
+  firstname: Robert
+  lastname: Jenssen
+  mail: robert.jenssen@uit.no
+  affiliation: The Arctic University of Norway
+- area: track1
+  firstname: Wonjun
+  lastname: Kim
+  mail: wonjkim@konkuk.ac.kr
+  affiliation: Konkuk University
+- area: track1
+  firstname: Jong Taek
+  lastname: Lee
+  mail: jongtaeklee@knu.ac.kr
+  affiliation: Kyungpook National University
+- area: track1
+  firstname: Shuang
+  lastname: Li
+  mail: shuangliai@buaa.edu.cn
+  affiliation: Beihang University
+- area: track1
+  firstname: Yunfei
+  lastname: Liu
+  mail: liuyunfei@idea.edu.cn
+  affiliation: ''
+- area: track1
+  firstname: Ling
+  lastname: Lo
+  mail: linglo.ee08@nycu.edu.tw
+  affiliation: National Yang-Ming Chiao-Tung University
+- area: track1
+  firstname: Chengjiang
+  lastname: Long
+  mail: chengjiang.long@gmail.com
+  affiliation: ''
+- area: track1
+  firstname: Mirko
+  lastname: Marras
+  mail: mirko.marras@unica.it
+  affiliation: University of Cagliari
+- area: track1
+  firstname: Mario
+  lastname: Molinara
+  mail: m.molinara@unicas.it
+  affiliation: University of Cassino
+- area: track1
+  firstname: Bhalaji
+  lastname: Nagarajan
+  mail: bhalaji.nagarajan@bsc.es
+  affiliation: Barcelona Supercomputing Center
+- area: track1
+  firstname: Fabio
+  lastname: Narducci
+  mail: fnarducci@unisa.it
+  affiliation: University of Salerno
+- area: track1
+  firstname: Xose
+  lastname: Pardo
+  mail: xose.pardo@usc.es
+  affiliation: University of Santiago de Compostela
+- area: track1
+  firstname: Wei
+  lastname: Peng
+  mail: wepeng@stanford.edu
+  affiliation: Stanford University
+- area: track1
+  firstname: Yue
+  lastname: Qiu
+  mail: qiu.yue@aist.go.jp
+  affiliation: National Institute of Advanced Industrial Science and Technology (AIST)
+- area: track1
+  firstname: Christian
+  lastname: Rathgeb
+  mail: christian.rathgeb@h-da.de
+  affiliation: Hochschule Darmstadt
+- area: track1
+  firstname: Alessandra
+  lastname: Scotto di Freca
+  mail: a.scotto@unicas.it
+  affiliation: University of Cassino
+- area: track1
+  firstname: Jifei
+  lastname: Song
+  mail: jifeisong@huawei.com
+  affiliation: Huawei Noah's Ark Lab
+- area: track1
+  firstname: Estefania
+  lastname: Talavera
+  mail: e.talaveramartinez@utwente.nl
+  affiliation: University of Twente, The Netherlands
+- area: track1
+  firstname: Youngjung
+  lastname: Uh
+  mail: yj.uh@yonsei.ac.kr
+  affiliation: Yonsei University
+- area: track1
+  firstname: Qilong
+  lastname: Wang
+  mail: qlwang@tju.edu.cn
+  affiliation: Tianjin University
+- area: track1
+  firstname: Yu-Xiong
+  lastname: Wang
+  mail: yxw@illinois.edu
+  affiliation: ''
+- area: track1
+  firstname: Le
+  lastname: Yang
+  mail: yangle15@xjtu.edu.cn
+  affiliation: Xi'an Jiaotong University
+- area: track1
+  firstname: Bing
+  lastname: Yao
+  mail: byao3@utk.edu
+  affiliation: University of Tennessee
+- area: track1
+  firstname: Yusuke
+  lastname: Yasuyoshi
+  mail: yusuke-yoshiyasu@aist.go.jp
+  affiliation: National Institute of Advanced Industrial Science and Technology (AIST)
+- area: track1
+  firstname: Lu
+  lastname: Yin
+  mail: l.yin@tue.nl
+  affiliation: University of Surrey
+- area: track1
+  firstname: Min-Ling
+  lastname: Zhang
+  mail: zhangml@seu.edu.cn
+  affiliation: Southeast University, China
+- area: track2
+  firstname: Giuseppe
+  lastname: Averta
+  mail: giuseppe.averta@polito.it
+  affiliation: Politecnico di Torino
+- area: track2
+  firstname: Ikram
+  lastname: Ben Addel Ouahab
+  mail: ibenabdelouahab@uae.ac.ma
+  affiliation: Abdelmalek Essaadi University
+- area: track2
+  firstname: Bingzhi
+  lastname: Chen
+  mail: chenbingzhi@bit.edu.cn
+  affiliation: Beijing Institute of Technology
+- area: track2
+  firstname: Yuchao
+  lastname: Dai
+  mail: daiyuchao@nwpu.edu.cn
+  affiliation: ''
+- area: track2
+  firstname: Zan
+  lastname: Gojcic
+  mail: zan.gojcic@gmail.com
+  affiliation: ''
+- area: track2
+  firstname: Antonio
+  lastname: Greco
+  mail: agreco@unisa.it
+  affiliation: University of Salerno
+- area: track2
+  firstname: Yunhui
+  lastname: Guo
+  mail: yunhui.guo@utdallas.edu
+  affiliation: ''
+- area: track2
+  firstname: Hao
+  lastname: Huang
+  mail: hh1811@nyu.edu
+  affiliation: New York University
+- area: track2
+  firstname: Tae Hyun
+  lastname: Kim
+  mail: taehyunkim@hanyang.ac.kr
+  affiliation: ''
+- area: track2
+  firstname: Viktor
+  lastname: Larsson
+  mail: viktor.larsson@math.lth.se
+  affiliation: ''
+- area: track2
+  firstname: Alexy
+  lastname: Lechervy
+  mail: alexis.lechervy@unicaen.fr
+  affiliation: ''
+- area: track2
+  firstname: Wenqing
+  lastname: Li
+  mail: wqli2025@hnu.edu.cn
+  affiliation: Hunan University
+- area: track2
+  firstname: Shijian
+  lastname: lu
+  mail: Shijian.Lu@ntu.edu.sg
+  affiliation: ''
+- area: track2
+  firstname: Massimiliano
+  lastname: Mancini
+  mail: massimiliano.mancini@unitn.it
+  affiliation: Università di Trento
+- area: track2
+  firstname: Manuel
+  lastname: Marin-Jimenez
+  mail: in1majim@uco.es
+  affiliation: University of Córdoba
+- area: track2
+  firstname: Hanlin
+  lastname: Mo
+  mail: mohanlin@xidian.edu.cn
+  affiliation: Xidian University
+- area: track2
+  firstname: Takayuki
+  lastname: Okatani
+  mail: okatani@vision.is.tohoku.ac.jp
+  affiliation: ''
+- area: track2
+  firstname: In Kyu
+  lastname: Park
+  mail: pik@inha.ac.kr
+  affiliation: Inha University
+- area: track2
+  firstname: Silvia
+  lastname: Rossi
+  mail: silrossi@unina.it
+  affiliation: University of Naples Federico II
+- area: track2
+  firstname: Rui
+  lastname: Shao
+  mail: shaorui@hit.edu.cn
+  affiliation: Harbin Institute of Technology
+- area: track2
+  firstname: Nicola
+  lastname: Strisciuglio
+  mail: n.strisciuglio@utwente.nl
+  affiliation: Twente University
+- area: track2
+  firstname: Mengyu
+  lastname: Wang
+  mail: mengyu_wang@meei.harvard.edu
+  affiliation: Harvard Univeristy
+- area: track2
+  firstname: Yiming
+  lastname: Wang
+  mail: ywang@fbk.eu
+  affiliation: Fondazione Bruno Kessler, Italy
+- area: track2
+  firstname: Chang
+  lastname: Xu
+  mail: c.xu@sydney.edu.au
+  affiliation: ''
+- area: track3
+  firstname: Muzammil
+  lastname: Behzad
+  mail: muzammil.behzad@kfupm.edu.sa
+  affiliation: KFUPM
+- area: track3
+  firstname: Ayan Kumar
+  lastname: Bhunia
+  mail: 2ayan.bhunia@gmail.com
+  affiliation: Sony Playstation
+- area: track3
+  firstname: Dongliang
+  lastname: Chang
+  mail: changdongliang@pris-cv.cn
+  affiliation: Beijing University of Post and Telecommunications
+- area: track3
+  firstname: Haoyu
+  lastname: Chen
+  mail: chen.haoyu@oulu.fi
+  affiliation: University of Oulu
+- area: track3
+  firstname: Pinaki Nath
+  lastname: Chowdhury
+  mail: pinakinathc@gmail.com
+  affiliation: Sony Playstation
+- area: track3
+  firstname: Zhenhua
+  lastname: Feng
+  mail: feng-zhenhua@outlook.com
+  affiliation: Jiangnan University
+- area: track3
+  firstname: Xiaohua
+  lastname: Huang
+  mail: xiaohua_huang@live.cn
+  affiliation: Nanjing Institute of Technology
+- area: track3
+  firstname: Deokwoo
+  lastname: Lee
+  mail: dwoolee@kmu.ac.kr
+  affiliation: Keimyung University
+- area: track3
+  firstname: Ke
+  lastname: Li
+  mail: like1990@bupt.edu.cn
+  affiliation: Beijing University of Post and Telecommunications
+- area: track3
+  firstname: Xin
+  lastname: Liu
+  mail: linuxsino@gmail.com
+  affiliation: Lappeenranta University of Technology
+- area: track3
+  firstname: Antonio
+  lastname: Pertusa
+  mail: apertusa@gmail.com
+  affiliation: University of Alicante
+- area: track3
+  firstname: Yonggang
+  lastname: Qi
+  mail: qiyg@bupt.edu.cn
+  affiliation: Beijing University of Post and Telecommunications
+- area: track3
+  firstname: Jingang
+  lastname: Shi
+  mail: jingang@xjtu.edu.cn
+  affiliation: Xi'an Jiaotong University
+- area: track3
+  firstname: Marco
+  lastname: Volino
+  mail: m.volino@surrey.ac.uk
+  affiliation: University of Surrey
+- area: track4
+  firstname: Matteo
+  lastname: Ferrara
+  mail: matteo.ferrara@unibo.it
+  affiliation: Department of Computer Science and Engineering,UniBO
+- area: track4
+  firstname: Yufei
+  lastname: Han
+  mail: yufei.han@inria.fr
+  affiliation: INRIA
+- area: track4
+  firstname: Xiaobai
+  lastname: Li
+  mail: xiaobai.li@zju.edu.cn
+  affiliation: Zhejiang University
+- area: track4
+  firstname: Qing
+  lastname: Liu
+  mail: qing.liu@oulu.fi
+  affiliation: University of Oulu
+- area: track4
+  firstname: Emanuele
+  lastname: Maiorana
+  mail: emanuele.maiorana@uniroma3.it
+  affiliation: Universita Roma TRE
+- area: track4
+  firstname: Karthik
+  lastname: Nandakumar
+  mail: nandakum@msu.edu
+  affiliation: Michigan State University
+- area: track4
+  firstname: Kiran
+  lastname: Raja
+  mail: kiran.raja@ntnu.no
+  affiliation: NTNU
+- area: track4
+  firstname: Mang
+  lastname: Ye
+  mail: yemang@whu.edu.cn
+  affiliation: Wuhan University
+- area: track5
+  firstname: Apostolos
+  lastname: Antonacopoulos
+  mail: a.antonacopoulos@primaresearch.org
+  affiliation: Pattern Recognition and Image Analysis (PRImA) Lab, University of Salford
+- area: track5
+  firstname: Vincent
+  lastname: Christlein
+  mail: vincent.christlein@fau.de
+  affiliation: University Erlangen-Nuremberg
+- area: track5
+  firstname: Rafael
+  lastname: Lins
+  mail: rdl@cin.ufpe.br
+  affiliation: Federal University of Pernambuco
+- area: track5
+  firstname: Thierry
+  lastname: Paquet
+  mail: Thierry.Paquet@univ-rouen.fr
+  affiliation: Laboratoire LITIS, Université de Rouen
+- area: track5
+  firstname: Irina
+  lastname: Rabaev
+  mail: irinar@ac.sce.ac.il
+  affiliation: Shamoon College of Engineering, SCE
+- area: track5
+  firstname: Berrin
+  lastname: Yanikoglu
+  mail: berrin@sabanciuniv.edu
+  affiliation: Sabanci University
+- area: track6
+  firstname: Ulas
+  lastname: Bagci
+  mail: ulas.bagci@northwestern.edu
+  affiliation: Northwestern University
+- area: track6
+  firstname: Ananda
+  lastname: Chowdhury
+  mail: as.chowdhury@jadavpuruniversity.in
+  affiliation: Jadavpur University
+- area: track6
+  firstname: Cecilia
+  lastname: Di Ruberto
+  mail: dirubert@unica.it
+  affiliation: University of Cagliari
+- area: track6
+  firstname: Nina
+  lastname: Hirata
+  mail: nina@ime.usp.br
+  affiliation: University of São Paulo
+- area: track6
+  firstname: Mingxia
+  lastname: Liu
+  mail: mingxia_liu@med.unc.edu
+  affiliation: University of North Carolina at Chapel Hill
+- area: track6
+  firstname: Andrea
+  lastname: Loddo
+  mail: andrea.loddo@unica.it
+  affiliation: University of Cagliari
+- area: track6
+  firstname: Filip
+  lastname: Malmberg
+  mail: filip.malmberg@it.uu.se
+  affiliation: Uppsala University
+- area: track6
+  firstname: Laurent
+  lastname: Najman
+  mail: laurent.najman@esiee.fr
+  affiliation: ESIEE
+- area: track6
+  firstname: Fatima
+  lastname: Nunes
+  mail: fatima.nunes@usp.br
+  affiliation: University of Sao Paulo
+- area: track6
+  firstname: Luciano
+  lastname: Oliveira
+  mail: lrebouca@ufba.br
+  affiliation: Federal University of Bahia (UFBA)
+- area: track6
+  firstname: Gustavo
+  lastname: Rohde
+  mail: gustavo@virginia.edu
+  affiliation: University of Virginia
+- area: track6
+  firstname: Pranav
+  lastname: Saha
+  mail: punam-saha@uiowa.edu
+  affiliation: University of Iowa
+- area: track6
+  firstname: Agma
+  lastname: Traina
+  mail: agma@icmc.usp.br
+  affiliation: University of São Paulo (ICMC-USP)
+- area: track6
+  firstname: Christian
+  lastname: Wallraven
+  mail: wallraven@korea.ac.kr
+  affiliation: Korea University
+- area: track6
+  firstname: Yixuan
+  lastname: Yuan
+  mail: yxyuan@ee.cuhk.edu.hk
+  affiliation: The Chinese University of Hong Kong
+
