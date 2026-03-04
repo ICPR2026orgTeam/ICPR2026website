@@ -320,11 +320,30 @@ last_modified: 2025-12-01
           <div class="card-body text-info">
             <ul class="area-chairs">
               {% assign areachairs = site.data.areaChairs %}
-              {% for ac in areachairs %}
+              {% assign count = 0 %}
+
+              {%- for ac in areachairs -%}
               {% if ac.area == track_name %}
-              <li> {{ ac.firstname }} {{ ac.lastname }} </li>
+              <li>{{ ac.firstname }} {{ ac.lastname }}</li>
+              {% assign count = count | plus: 1 %}
               {% endif %}
-              {% endfor %}
+              {%- endfor -%}
+              {% comment %}
+              custom special filling depending of the block type 
+              {% endcomment %}
+
+              {% if count > 20 %}
+              {%- assign missing = 40 | minus: count -%}
+              {%- for i in (1..missing) -%}
+                 <li>&nbsp;</li>
+              {%- endfor -%}
+              {% endif %}
+              {% if count < 20 %} {%- assign missing=14 | minus: count -%}
+               {%- for i in (1..missing) -%}
+                <li>&nbsp;</li>
+                {%- endfor -%}
+               {% endif %}
+
             </ul>
           </div>
         </div>
@@ -340,28 +359,28 @@ last_modified: 2025-12-01
 
 
 
-<section id="area_chair">
-  <!------ Section Board Team ----->
-  <div class="container d-flex justify-content-center">
-    <div class="row justify-content-center">
+<!-- <section id="area_chair"> -->
+<!--   <\!------ Section Board Team ----\-> -->
+<!--   <div class="container d-flex justify-content-center"> -->
+<!--     <div class="row justify-content-center"> -->
 
-      <h2> Reviewers </h2>
+<!--       <h2> Reviewers </h2> -->
 
 
-      <div class="col-md-12  ml-10  mr-3 b-3 t-3">
-        <div class="card border-info ml-1 mb-3">
-          <div class="card-header"><b>List of ICPR main conference Reviewers</b> </div>
-          <div class="card-body text-info">
-            <ul class="reviewers">
-              {% assign reviewers = site.data.reviewers %}
-              {% for r in reviewers %}
-              <li> {{ r.firstname }} {{ r.lastname }} </li>
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
-      </div>
+<!--       <div class="col-md-12  ml-10  mr-3 b-3 t-3"> -->
+<!--         <div class="card border-info ml-1 mb-3"> -->
+<!--           <div class="card-header"><b>List of ICPR main conference Reviewers</b> </div> -->
+<!--           <div class="card-body text-info"> -->
+<!--             <ul class="reviewers"> -->
+<!--               {% assign reviewers = site.data.reviewers %} -->
+<!--               {% for r in reviewers %} -->
+<!--               <li> {{ r.firstname }} {{ r.lastname }} </li> -->
+<!--               {% endfor %} -->
+<!--             </ul> -->
+<!--           </div> -->
+<!--         </div> -->
+<!--       </div> -->
 
-    </div>
-  </div>
-</section>
+<!--     </div> -->
+<!--   </div> -->
+<!-- </section> -->
