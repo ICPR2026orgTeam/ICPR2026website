@@ -19,6 +19,15 @@ last_modified: 2026-03-09
        style="max-height: 50px;
        padding-bottom: 0.8em;">
 </a>
+<a href="https://www.springernature.com"> 
+  <img src="{{ site.baseurl }}/Logos/logoSpringerNature2.png"
+       alt="Springer Nature logo 2"
+       class="img-fluid"
+       style="max-height: 150px;
+       padding-bottom: 0.8em;
+              padding-left: 1.4em;">
+</a>
+
 </center>
 
 
