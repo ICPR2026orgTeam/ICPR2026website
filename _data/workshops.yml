@@ -234,7 +234,7 @@ Topics:
 
 - title : "Human-Centric Video Generation"
   id : "WS13"
-  website : "tba"
+  website : "https://hvg-workshop.github.io/workshop2026"
   acronym : "HVG"
   resume: "The Workshop on Human-Centric Video Generation (HVG) will focus on advancing methodologies for synthesizing realistic 2D human videos guided by multimodal control signals (text, audio, pose), addressing critical challenges in temporal consistency, anatomical fidelity, and environmental interaction. 
 Aligned with recent advancements in diffusion models, auto-regressive models and generative AI, this workshop emphasizes three core technical pillars: 
