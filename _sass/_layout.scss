@@ -70,7 +70,6 @@ table {
   tr:nth-child(even) {
     background-color: #CCDDCC;
   }
-
   .date {
     font-weight: bold;
     width: 30%;
@@ -85,8 +84,11 @@ table {
 }
 /* Mini style pour tableau contact */
 .table-contact {
-  width: 100%;
+    width: 100%;
+        font-size: 0.9em;
+
 }
+
 
 .table-contact td.right {
   width: 50%; 
