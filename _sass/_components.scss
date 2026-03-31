@@ -76,6 +76,13 @@
   margin-bottom: 0.5rem; /* espace vertical entre chaque item */
 
 }
+.card-body ul.with-bullets {
+  list-style: disc;       /* ou circle / square */
+  padding-left: 2.5rem;   /* ajusté pour les bullets */
+}
+.card-body ul.with-bullets li {
+  margin-bottom: 0.5rem;
+}
 
 ul.area-chairs {
   columns: 2;

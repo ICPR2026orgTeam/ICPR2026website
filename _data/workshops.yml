@@ -339,9 +339,9 @@ Topics:
 " 
 
 
-- title : "Fourth workshop on Explainable and Ethical"
+- title : "4th workshop on Explainable and Ethical"
   id : "WS18"
-  acronym : "AIXAIE@ICPR2026"
+  acronym : "XAIE4@ICPR2026"
   website : "https://xaie4.sciencesconf.org/"
   resume : "<p>The topics covered by the workshop are Naturally explainable AI methods, Post-Hoc Explanation methods of Deep Neural Networks, including transformers and Generative Artificial Intelligence, and any ethical consideration when using pattern recognition models.</p>
 
