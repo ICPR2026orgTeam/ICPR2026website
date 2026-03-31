@@ -7,23 +7,43 @@ last_modified: 2026-02-14
 
 <h1>Tutorials</h1>
 
-<p> The call for tutorials is still open and available on this <a href="{{ site.baseurl }}/callTutorials.html">page</a>. </p>
+<p>We thank the IAPR community for all submitted tutorial proposals. The list of selected tutorial are given below.</p>
 
 
-<h2>Selected Tutorials</h2> 
 
-<p> The list of selected tutorials will be available starting March 31. </p>
 
-{% assign tuto = site.data.tutorials %}
-{% for t in tuto %}
+{% assign tutoList = site.data.tutorials %}
+<table class="table-workshop">
+  <thead>
+    <tr>
+      <th ># </th>
+      <th >Title</th>
+    </tr>
+  </thead>
+  <tbody>
+
+{% for tuto in tutoList %}
+
+  <tr>
+    <td> {{ tuto.id }} </td>
+    <td> <a href = "#{{ tuto.id }}"> {{ tuto.title }} </a></td>
+  </tr>
+{% endfor %}
+</tbody>
+</table>
+
+
+
+{% assign tutoList = site.data.tutorials %}
+{% for tuto in tutoList %}
 
 <div class="card text-dark bg-light mb-5" style="max-width: 110rem;">
-  <div class="card-header fs-5 fw"><b>{{ t.title }}</b></div>
+  <div class="card-header fs-5 fw d-flex align-items-center"><b>{{ tuto.title }}</b> <span class="ms-auto">{{ tuto.id }}</span></div>
   <div class="card-body">
-    <h5 class="card-title"><strong class="card-title"> Resume</strong>: </h5>
-    <p> {{ t.resume }} </p>
-    <p class="card-text"> <strong class="card-title"> Presenter </strong>: {{ t.authors }}  </p>
-    <p class="card-text"> <strong class="card-title"> Date</strong>: {{ t.date }}  </p>
+    <h5 class="card-title" id="{{ tuto.id }}"><strong class="card-title"> Resume</strong>: </h5>
+    <p> {{ tuto.resume }} </p>
+    <p class="card-text"> <strong class="card-title"> Authors </strong>: {{ tuto.authors }}  </p>
+    <p class="card-text"> <strong class="card-title"> Date</strong>: {{ tuto.date }}  </p>
   </div>
 </div>
 

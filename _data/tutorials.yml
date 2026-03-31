@@ -2,9 +2,240 @@
 
 
 
-# - title : "Tutorial Fusce sagittis, libero non molestie mollis, magna orci ultrices dolor "
-#   authors: "AuthorX "
-#   date: "August 21, 2026"
-#   resume: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Donec hendrerit tempor tellus.  Donec pretium posuere tellus.  Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  Nulla posuere.  Donec vitae dolor.  Nullam tristique diam non turpis.  Cras placerat accumsan nulla.  Nullam rutrum.  Nam vestibulum accumsan nisl. Nullam eu ante vel est convallis dignissim.  Fusce suscipit, wisi nec facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio.  Nunc porta vulputate tellus.  Nunc rutrum turpis sed pede.  Sed bibendum.  Aliquam posuere.  Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio.  Pellentesque condimentum, magna ut suscipit hendrerit, ipsum augue ornare nulla, non luctus diam neque sit amet urna.  Curabitur vulputate vestibulum lorem.  Fusce sagittis, libero non molestie mollis, magna orci ultrices dolor, at vulputate neque nulla lacinia eros.  Sed id ligula quis est convallis tempor.  Curabitur lacinia pulvinar nibh.  Nam a sapien."
+ - title : "Graph based Models for Video Data Analysis from Various Sensors"
+   id: "T1"
+   authors: "<ul>
+   <li>   Assoc. Prof. (HDR) Thierry Bouwmans, Laboratoire MIA, University of La Rochelle, France</li>
+   <li> Assoc. Prof. Anastasia Zakharova, Laboratoire MIA, University of La Rochelle, France</li>
+   <li> Dr. Meghna Kapoor, Laboratoire L3i, University of La Rochelle, France</li>
+   <li> Asst. Prof. Abhimanyu Sahu, Motilal Nehru National Institute of Technology, India</li>
+   <li> Prof. Ananda S. Chowdhury, Jadavpur University, India</li>
+</ul>"
+   date: "August 21, 2026"
+   resume: "<p>In this tutorial, we aim to explore graph based methods for video data analysis captured
+by a wide variety of sensors like normal camera, egocentric camera, and moving
+camera. This tutorial will aim to combine graph based theory, practical methods, and a
+variety of applications pertaining to the analysis of video data generated from the above
+sensors. The graph based models will also be combined with deep learning
+architectures as deem necessary. We will further demonstrate the role of GNNs (deep
+learning on graphs) and graph signal processing in solving various problems in this
+connection. As a summary, the tutorial will help attendees to gain theoretical insights as
+well as make them aware of potential applicability of graph based models for processing different types of videos.</p>"
 
+
+
+
+
+ - title : "Advancing Comprehensive Reasoning in Multimodal Large Language Models"
+   id: "T2"          
+   authors: "<ul>
+   <li>Yiwei Wang, University of California, Merced †University of Queensland <li>
+   <li>Yujun Cai, University of Queensland </li>
+   <li> Junsong Yuan  University at Buffalo, State University of New York </li>
+   <li> Jun Lui, Lancaster University </li>
+   </ul>"
+   date: "August 21, 2026"
+   resume: "<p>This tutorial will provide a comprehensive overview of
+reasoning capabilities in Multimodal Large Language Models (MLLMs),
+focusing on the transition from basic perception to complex
+inference. We will explore how multimodal reasoning differs from
+text-only reasoning, challenges specific to visual reasoning, and
+recent advances inspired by reasoning-focused LLMs. The tutorial aims
+to bridge the gap between theoretical foundations and practical
+implementations, offering attendees insights into both current
+capabilities and future research directions.</p>"
+
+
+
+ - title: "Reliable Industrial AI"
+   id: "T3"
+   authors : "<ul>
+   <li>Liangliang Cao, Google Gemini (2024-2025), Apple Intelligence (2023-2024) </li>
+   <li> Chang Wen Chen, The Hong Kong Polytechnic University </li>
+   </ul>"
+   date: "August 21, 2026"
+   resume: |
+      Recent advances in large language models (LLMs) and multimodal foundation models have
+      enabled rapid progress in AI capabilities. However, when deployed in industrial and enterprise
+      environments, these systems often fail to meet critical requirements such as:
+      <ul class="with-bullets" >
+      <li> Flexibility, reliability and traceability</li>
+      <li> Safety and compliance</li>
+      <li> Cost and energy efficiency</li>
+      This tutorial introduces the emerging paradigm of Reliable Industrial AI, which integrates:
+      <li> Multimodal perception (vision, speech, language)</li>
+      <li> Agentic LLM design (agent pipelines, orchestration, evaluation)</li>
+      <li> From Chatbot to Coding Agent</li>
+      </ul> <p>We emphasize lessons learned from real-world deployments, highlighting the gap between
+      research prototypes and production systems.
+       </p>
+
+
+
+
+
+
+
+
+ - title: " Robot Learning with Embodied Vision: From Perception to Action "
+   id: "T4"
+   authors : "<ul>
+   <li>Wei Zhang, School of Control Science and Engineering, Shandong University</li>
+   <li>Cong Zhang, School of Control Science and Engineering, Shandong University</li>
+   <li>Ran Song, School of Control Science and Engineering, Shandong University</li>
+   <li>Paul L. Rosin, School of Computer Science and Informatics, Cardiff University</li>
+   <li>Jiwen Lu, Department of Automation, Tsinghua University</li>
+   </ul>"
+   date: "August 21, 2026"
+   resume : "<p>Traditional robotic systems are fundamentally limited by their
+reliance on hand-coded behaviors and modular pipelines that separate
+perception, planning, and control. While effective in controlled
+settings, these approaches fail to adapt to the complexity and
+uncertainty of unstructured real-world environments. The problem is
+particularly acute when vision serves as the primary interface between
+a robot and its surroundings. Robot learning, which integrates deep
+learning, reinforcement learning, and imitation learning, offers a
+transformative paradigm, enabling robots to acquire skills directly
+from data and close the loop from visual perception to physical
+action. This tutorial provides a comprehensive introduction to this
+rapidly evolving field, structured to bridge foundational concepts
+with advanced embodiment-specific applications.  The tutorial is
+organized into five parts. We begin by establishing the core
+principles of robot learning, contrasting it with traditional methods,
+and covering essential kinematics, dynamics, and the spectrum of
+learning paradigms . The following three parts delve into the
+application of these paradigms across the primary robotic
+embodiments. For wheeled robots, we explore learning robust
+environment representations, multi-sensor perception fusion, and
+advanced decision-making frameworks for safe navigation. For legged
+robots, we discuss bio-inspired locomotion, hierarchical reinforcement
+learning for gait and terrain adaptation, and whole-body motion
+control. For robot arms, we examine various skill acquisition, from
+imitation learning and dexterous manipulation to the frontier of
+language-guided policies using large foundation models. The final part
+synthesizes cross-cutting open challenges, including generalization,
+sim-to-real transfer, safety, and the path toward generalist robotic
+agents.  To enhance engagement and comprehension, the tutorial will
+incorporate comparative visualizations and rich video demonstrations
+from both simulation and real-world deployments. This halfday
+tutorial, led by experts in the field, is designed for a broad
+audience of researchers and practitioners in robotics, computer
+vision, and machine learning at ICPR 2026, offering a structured and
+holistic perspective on enabling embodied intelligence through
+learning.<p>
+<p>Index Terms: Robot Learning, Wheeled Robots, Legged Robots,
+Robot Arms</p>
+"
+
+
+
+ - title: "An introduction to the formal verification of neural networks"
+   id: "T5"
+   authors : "<ul>
+   <li>Julien Girard-Satabin Sasha Cuau Guilhem Ardouin</li>
+   <li>Université Paris-Saclay, CEA, List, F-91120, Palaiseau, France</li>
+   </ul>"
+   date: "August 21, 2026"
+   resume : "
+
+
+<p>Ensuring a complex system is safe is a tedious task, and is often
+required by regulations and norms in critical industries like energy
+or transport. These application fields have very strong requirements
+regarding software safety, which involve proving that the system
+behaves as intended without any faulty behaviour. In this regard,
+testing approaches are insufficient as they only cover a finite set of
+cases. This need therefore led to the development of formal methods -
+a set of techniques that provides mathematical guarantees on the
+specified behaviours of a system.</p> <p> As machine learning systems
+become increasingly integrated into our everyday lives, ensuring their
+safety becomes even more crucial. Formal verification can provide
+guarantees in a provable way, making it a good candidate to assess
+whether a neural network behaves as expected.</p>
+
+<p>This tutorial will introduce the application of formal verification
+techniques to neural networks [15]. It will first explore the reasons
+why formal methods are a crucial step towards AI systems’
+safety. Then, formal properties, such as robustness [5] and functional
+properties, will be introduced on an industrial example (ACAS-XU
+[13]). An emphasis on the different steps of the formal verification
+will be made: definition of the property on a system, translation to a
+specification language, and its effective verification.  Verification
+techniques will be introduced, with a focus on abstract interpretation
+[14].  Then, state-of-the-art verification tools will be introduced,
+and the remaining part of the tutorial will be a practical session
+with one of them: PyRAT [12]. This tutorial will be concluded by open
+research questions regarding the efficient verification of properties
+and their formalisation</p>
+
+"
+
+
+
+
+ - title: "Counterfactual Explanations of AI Systems: Fundamentals, Methods, & User Studies for XAI "
+   id: "T6"
+   authors : "<ul>
+   <li> Dr. André Artelt, Postdoctoral Researcher, Bielefeld University, Germany; Dr. Ulrike</li>
+   <li> Kuhl, Postdoctoral Researcher, Bielefeld University, Germany </li>
+   </ul>"
+   date: "August 21, 2026"
+   resume : "
+
+<p>This tutorial aims to build connections between the fields of
+pattern recognition, eXplainable AI (XAI), and psychology with a focus
+on counterfactual explanation strategies. Counterfactual XAI has
+become a major research topic in recent years, with over a thousand
+papers on the topic covering at least 150 distinct
+algorithms. Counterfactual explanations are widely regarded as readily
+understandable and psychologically compelling, providing actionable
+insights into model predictions, while simultaneously supporting
+regulatory constraints regarding transparency, such as those specified
+in the EU AI Act.</p>
+
+<p>This tutorial will provide attendees with a comprehensive,
+practical guide to this popular XAI methodology. The program will
+feature interactive hands-on sessions on theoretical foundations,
+modeling approaches, and both computational and psychological
+evaluation methodologies to help attendees understand how to use
+counterfactuals for XAI.</p> <p>It targets pattern recognition
+researchers, machine learning practitioners, PhD students, and
+advanced graduate students who have little to no background in XAI,
+and perhaps even less expe- rience of running user studies. As such,
+the tutorial aims to empower attendees in the XAI space to deepen
+their understanding of common issues and widen their research skills
+beyond their current modeling expertise. By the end of the session,
+attendees will have gained practical insights into how counterfactual
+explanations can enhance the transparency and accountability of AI
+systems, as well as a deeper understanding of (a) how to deploy these
+explanations effectively (using the DiCE toolbox [25]) and (b)
+practically conduct human-centered evaluations.</p>"
+
+
+
+ - title: "Agentic Document Intelligence: From Prototype to Production with Trustworthy AI Agents "
+   id: "T7"
+   authors : "<ul>
+           <li>Dr. Sanket Biswas Research Scientist / AI Lead, Ennova Research (Elevate) and Computer Vision Center (Ph.D. 2021-25)</li>
+           <li> Dr. Andres Aravena Senior AI Engineer, Ennova Research (Elevate)</li>
+           <li>Dr. Lukasz Borchmann, Senior Research Scientist, SnowFlake </li>
+           </ul>"
+   date: "August 21, 2026"
+   resume : " <p>Recent advances in multimodal foundation models and agentic AI are
+fundamentally reshaping Document Intelligence (DI), moving the field
+well beyond classical OCR pipelines and static extraction systems
+toward interactive, reasoning-driven workflows. In enterprise
+settings, documents remain one of the most critical and voluminous
+data modalities, yet the gap between research prototypes and
+production-grade systems remains large. Common failure modes include
+hallucination, weak evidence grounding, brittle orchestration, limited
+auditability, and insufficient human oversight.</p>
+<p>This tutorial provides a practical and research-oriented
+introduction to Agentic Document Intelligence, with a dual focus on
+(i) how modern document AI systems are architected using multimodal
+foundation models and agentic reasoning, and (ii) how to make these
+systems trustworthy in real-world deployment. The tutorial is designed
+to be accessible to ICPR participants with backgrounds in document
+analysis, computer vision, or NLP, while also offering depth for
+researchers and engineers actively working in this space</p>"
 
