@@ -3,6 +3,7 @@
 
 
  - title : "Graph based Models for Video Data Analysis from Various Sensors"
+   id: "T1"
    authors: "<ul>
    <li>   Assoc. Prof. (HDR) Thierry Bouwmans, Laboratoire MIA, University of La Rochelle, France</li>
    <li> Assoc. Prof. Anastasia Zakharova, Laboratoire MIA, University of La Rochelle, France</li>
@@ -11,7 +12,7 @@
    <li> Prof. Ananda S. Chowdhury, Jadavpur University, India</li>
 </ul>"
    date: "August 21, 2026"
-   resume: "In this tutorial, we aim to explore graph based methods for video data analysis captured
+   resume: "<p>In this tutorial, we aim to explore graph based methods for video data analysis captured
 by a wide variety of sensors like normal camera, egocentric camera, and moving
 camera. This tutorial will aim to combine graph based theory, practical methods, and a
 variety of applications pertaining to the analysis of video data generated from the above
@@ -19,13 +20,14 @@ sensors. The graph based models will also be combined with deep learning
 architectures as deem necessary. We will further demonstrate the role of GNNs (deep
 learning on graphs) and graph signal processing in solving various problems in this
 connection. As a summary, the tutorial will help attendees to gain theoretical insights as
-well as make them aware of potential applicability of graph based models for processing different types of videos."
+well as make them aware of potential applicability of graph based models for processing different types of videos.</p>"
 
 
 
 
 
  - title : "Advancing Comprehensive Reasoning in Multimodal Large Language Models"
+   id: "T2"          
    authors: "<ul>
    <li>Yiwei Wang, University of California, Merced †University of Queensland <li>
    <li>Yujun Cai, University of Queensland </li>
@@ -33,7 +35,7 @@ well as make them aware of potential applicability of graph based models for pro
    <li> Jun Lui, Lancaster University </li>
    </ul>"
    date: "August 21, 2026"
-   resume: "This tutorial will provide a comprehensive overview of
+   resume: "<p>This tutorial will provide a comprehensive overview of
 reasoning capabilities in Multimodal Large Language Models (MLLMs),
 focusing on the transition from basic perception to complex
 inference. We will explore how multimodal reasoning differs from
@@ -41,30 +43,32 @@ text-only reasoning, challenges specific to visual reasoning, and
 recent advances inspired by reasoning-focused LLMs. The tutorial aims
 to bridge the gap between theoretical foundations and practical
 implementations, offering attendees insights into both current
-capabilities and future research directions."
+capabilities and future research directions.</p>"
 
 
 
  - title: "Reliable Industrial AI"
+   id: "T3"
    authors : "<ul>
    <li>Liangliang Cao, Google Gemini (2024-2025), Apple Intelligence (2023-2024) </li>
    <li> Chang Wen Chen, The Hong Kong Polytechnic University </li>
    </ul>"
    date: "August 21, 2026"
-   resume : "Recent advances in large language models (LLMs) and multimodal foundation models have
-enabled rapid progress in AI capabilities. However, when deployed in industrial and enterprise
-environments, these systems often fail to meet critical requirements such as:
-<ul>
-<li> Flexibility, reliability and traceability</li>
-<li> Safety and compliance</li>
-<li> Cost and energy efficiency</li>
-This tutorial introduces the emerging paradigm of Reliable Industrial AI, which integrates:
-<li> Multimodal perception (vision, speech, language)</li>
-<li> Agentic LLM design (agent pipelines, orchestration, evaluation)</li>
-<li> From Chatbot to Coding Agent</li>
-We emphasize lessons learned from real-world deployments, highlighting the gap between
-research prototypes and production systems.
-</uL>"
+   resume: |
+      Recent advances in large language models (LLMs) and multimodal foundation models have
+      enabled rapid progress in AI capabilities. However, when deployed in industrial and enterprise
+      environments, these systems often fail to meet critical requirements such as:
+      <ul class="with-bullets" >
+      <li> Flexibility, reliability and traceability</li>
+      <li> Safety and compliance</li>
+      <li> Cost and energy efficiency</li>
+      This tutorial introduces the emerging paradigm of Reliable Industrial AI, which integrates:
+      <li> Multimodal perception (vision, speech, language)</li>
+      <li> Agentic LLM design (agent pipelines, orchestration, evaluation)</li>
+      <li> From Chatbot to Coding Agent</li>
+      </ul> <p>We emphasize lessons learned from real-world deployments, highlighting the gap between
+      research prototypes and production systems.
+       </p>
 
 
 
@@ -74,6 +78,7 @@ research prototypes and production systems.
 
 
  - title: " Robot Learning with Embodied Vision: From Perception to Action "
+   id: "T4"
    authors : "<ul>
    <li>Wei Zhang, School of Control Science and Engineering, Shandong University</li>
    <li>Cong Zhang, School of Control Science and Engineering, Shandong University</li>
@@ -125,6 +130,7 @@ Robot Arms</p>
 
 
  - title: "An introduction to the formal verification of neural networks"
+   id: "T5"
    authors : "<ul>
    <li>Julien Girard-Satabin Sasha Cuau Guilhem Ardouin</li>
    <li>Université Paris-Saclay, CEA, List, F-91120, Palaiseau, France</li>
@@ -168,6 +174,7 @@ and their formalisation</p>
 
 
  - title: "Counterfactual Explanations of AI Systems: Fundamentals, Methods, & User Studies for XAI "
+   id: "T6"
    authors : "<ul>
    <li> Dr. André Artelt, Postdoctoral Researcher, Bielefeld University, Germany; Dr. Ulrike</li>
    <li> Kuhl, Postdoctoral Researcher, Bielefeld University, Germany </li>
@@ -207,6 +214,7 @@ practically conduct human-centered evaluations.</p>"
 
 
  - title: "Agentic Document Intelligence: From Prototype to Production with Trustworthy AI Agents "
+   id: "T7"
    authors : "<ul>
            <li>Dr. Sanket Biswas Research Scientist / AI Lead, Ennova Research (Elevate) and Computer Vision Center (Ph.D. 2021-25)</li>
            <li> Dr. Andres Aravena Senior AI Engineer, Ennova Research (Elevate)</li>
