@@ -1,0 +1,84 @@
+---
+layout: default
+title:  List of Hotels - ICPR 2026
+canonical: "https://icpr2026.org/hotels.html"
+last_modified: 2026-04-01
+---
+
+<h1>Hotels</h1>
+<section id="hotels">
+
+  <p>
+  The following map shows the hotels closest to the convention center.
+</p>
+
+<div class="col">
+  <a href="Images/hotelMap.png" target="_blank" rel="noopener noreferrer">
+    <img 
+      src="Images/hotelMap.png" 
+      alt="Map showing hotels near the Lyon Convention Center" 
+      class="img-fluid"
+      loading="lazy"
+      style="max-width: 100%; height: auto;"
+    >
+  </a>
+</div>
+
+
+
+  
+{% assign hotelList = site.data.hotels %}
+{% assign sections = 
+"  ccl:Hostels close to CCL|
+   doua:Hotels close to the DOUA campus|
+   partdieu:Hotels close to Part-Dieu train station (main Lyon transport hub)|
+   centre:Hotels close to city center|
+   gerland:Hostels close to ENS Gerland|
+   youth:Youth hostels|
+   other:Other Hostels" | split: "|" %}
+
+{% for s in sections %}
+  {% assign parts = s | split: ":" %}
+  {% assign key = parts[0] | strip %}
+  {% assign title = parts[1] | strip %}
+
+
+  <h2>{{ title }}</h2>
+
+  <ul>
+    {% assign hotels = site.data.hotels | where: "section", key %}
+    
+    {% for h in hotels %}
+      <li>
+        {% if h.lien and h.lien != "" %}
+        <a href="{{ h.lien }}">{{ h.name hotel }}</a>
+        {% else %}
+        {{ h.name hotel }}
+        {% endif %}
+
+        <ul>
+          <li>adresse: {{ h.adresse }}</li>
+
+          {% if h.tel and h.tel != "" %}
+            {% if h.tel contains "@" %}
+              <li>contact: <a href="mailto:{{ h.tel }}">{{ h.tel }}</a></li>
+            {% else %}
+              <li>contact: {{ h.tel }}</li>
+            {% endif %}
+          {% endif %}
+
+          {% if h.price and h.price != "" %}
+            <li>price: {{ h.price }}</li>
+          {% endif %}
+        </ul>
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
+
+ 
+
+
+</section>
+
