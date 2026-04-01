@@ -1,0 +1,191 @@
+---
+layout: default
+title:  News and FAQ - ICPR 2026
+canonical: "https://icpr2026.org/hotels.html"
+last_modified: 2026-04-01
+---
+
+<h1>Hotels</h1>
+<section id="hotels">
+
+
+  {% assign hotelList = site.data.hotels %}
+  
+<h2> Hotels close to the DOUA campus</h2>
+
+<ul>
+ {% for h in hotelList %}   
+ {% if h.section == "doua" %}
+ <li> <a href="{{ h.lien }}"> {{ h.name }}</a> </lu>
+<ul>
+<li>  adresse: {{ h.adresse }}</li>
+{% if h.tel contains "@" %}
+<li> contact: <a href="mailto:{{ h.tel }}">{{ h.tel }}</a></li>
+{% else %}
+  <li>  contact: {{ h.tel }}  </li>
+  {% endif %}
+  {% if h.price !=  "" %}
+<li> price : {{ h.price }} </li>
+{% endif %}
+</ul>
+{% endif %}
+ {% endfor %}
+</ul>
+
+
+<h2> Hotels close to Part-Dieu train station (main Lyon transport hub)</h2>
+
+<ul>
+ {% for h in hotelList %}   
+ {% if h.section == "partdieu" %}
+ <li> <a href="{{ h.lien }}"> {{ h.name }}</a> </lu>
+<ul>
+<li>  adresse: {{ h.adresse }}</li>
+{% if h.tel contains "@" %}
+<li> contact: <a href="mailto:{{ h.tel }}">{{ h.tel }}</a></li>
+{% else %}
+  <li>  contact: {{ h.tel }}  </li>
+{% endif %}
+  {% if h.price !=  "" %}
+<li> price : {{ h.price }} </li>
+{% endif %}
+</ul>
+{% endif %}
+ {% endfor %}
+</ul>
+
+
+
+
+<h2> Hotels close to city center</h2>
+
+<ul>
+ {% for h in hotelList %}   
+ {% if h.section == "centre" %}
+ <li> <a href="{{ h.lien }}"> {{ h.name }}</a> </lu>
+<ul>
+<li>  adresse: {{ h.adresse }}</li>
+{% if h.tel contains "@" %}
+<li> contact: <a href="mailto:{{ h.tel }}">{{ h.tel }}</a></li>
+{% else %}
+  <li>  contact: {{ h.tel }}  </li>
+{% endif %}
+  {% if h.price !=  "" %}
+<li> price : {{ h.price }} </li>
+{% endif %}
+</ul>
+{% endif %}
+ {% endfor %}
+</ul>
+
+
+
+<h2> Hostels close to CCL </h2>
+
+  <ul>
+ {% for h in hotelList %}   
+ {% if h.section == "ccl" %}
+ <li> <a href="{{ h.lien }}"> {{ h.name }}</a> </lu>
+<ul>
+<li>  adresse: {{ h.adresse }}</li>
+{% if h.tel contains "@" %}
+<li> contact: <a href="mailto:{{ h.tel }}">{{ h.tel }}</a></li>
+{% else %}
+  <li>  contact: {{ h.tel }}  </li>
+{% endif %}
+  {% if h.price !=  "" %}
+<li> price : {{ h.price }} </li>
+{% endif %}
+</ul>
+{% endif %}
+ {% endfor %}
+</ul>
+
+
+<h2> Other Hostels </h2>
+
+  <ul>
+ {% for h in hotelList %}   
+ {% if h.section == "other" %}
+ <li> <a href="{{ h.lien }}"> {{ h.name }}</a> </lu>
+<ul>
+<li>  adresse: {{ h.adresse }}</li>
+{% if h.tel contains "@" %}
+<li> contact: <a href="mailto:{{ h.tel }}">{{ h.tel }}</a></li>
+{% else %}
+  <li>  contact: {{ h.tel }}  </li>
+{% endif %}
+  {% if h.price !=  "" %}
+<li> price : {{ h.price }} </li>
+{% endif %}
+</ul>
+{% endif %}
+ {% endfor %}
+</ul>
+
+
+
+
+
+<h2> Hostels close to ENS Gerland </h2>
+
+  <ul>
+ {% for h in hotelList %}   
+ {% if h.section == "gerland" %}
+ <li> <a href="{{ h.lien }}"> {{ h.name }}</a> </lu>
+<ul>  
+  <li>  adresse: {{ h.adresse }}</li>
+{% if h.tel contains "@" %}
+<li> contact: <a href="mailto:{{ h.tel }}">{{ h.tel }}</a></li>
+{% else %}
+  <li>  contact: {{ h.tel }}  </li>
+{% endif %}
+  {% if h.price !=  "" %}
+<li> price : {{ h.price }} </li>
+{% endif %}
+</ul>
+{% endif %}
+ {% endfor %}
+</ul>
+ 
+
+
+
+ 
+
+
+</section>
+
+
+<script>
+  const btn = document.getElementById('show-more-news');
+  const newsItems = document.querySelectorAll('.all-news-list li.hidden');
+
+  btn.addEventListener('click', () => {
+    const isHidden = newsItems[0].classList.contains('hidden');
+
+    newsItems.forEach(li => {
+      if (isHidden) {
+        li.classList.remove('hidden');
+      } else {
+        li.classList.add('hidden');
+      }
+    });
+
+    btn.textContent = isHidden ? "show less" : "show all ...";
+  });
+</script>
+
+
+<script>
+document.querySelectorAll('.faq-question').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const answer = btn.nextElementSibling;
+    answer.classList.toggle('hidden');
+  });
+});
+
+
+</script>
+
+
