@@ -37,16 +37,63 @@ last_modified: 2026-04-01
 <section id="faq" class="faq-panel">
 
 
-  {% assign faq = site.data.faq %}
+ {% assign faq = site.data.faq %}
+
+ <h3> FAQ on Participation</h3>
  {% for f in faq %}   
-  <div class="faq-item">
+ {% if f.category == "participation" %}
+   <div class="faq-item">
     <button class="faq-question">{{ f.question }}</button>
     <div class="faq-answer hidden">
       <p> {{ f.answer }}</p>
     </div>
-  </div>
+   </div>
+  {% endif %}
+ {% endfor %}
+
+
+   
+
+ <h3> FAQ on Camera-ready Uploading</h3>
+ {% for f in faq %}   
+ {% if f.category == "cameraready" %}
+   <div class="faq-item">
+    <button class="faq-question">{{ f.question }}</button>
+    <div class="faq-answer hidden">
+      <p> {{ f.answer }}</p>
+    </div>
+   </div>
+  {% endif %}
+ {% endfor %}
+
+ 
+ <h3> FAQ on Conference Registration</h3>
+ {% for f in faq %}   
+ {% if f.category == "registration" %}
+ <div class="faq-item">
+    <button class="faq-question">{{ f.question }}</button>
+    <div class="faq-answer hidden">
+      <p> {{ f.answer }}</p>
+    </div>
+ </div>
+ {% endif %}
   {% endfor %}
-  
+
+
+ <h3> FAQ on Paper Submission</h3>
+ {% for f in faq %}   
+ {% if f.category == "submission" %}
+ <div class="faq-item">
+    <button class="faq-question">{{ f.question }}</button>
+    <div class="faq-answer hidden">
+      <p> {{ f.answer }}</p>
+    </div>
+ </div>
+ {% endif %}
+  {% endfor %}
+
+
+
 </section>
 
 
