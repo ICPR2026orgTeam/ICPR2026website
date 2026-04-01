@@ -129,7 +129,7 @@ Robot Arms</p>
 
 
 
- - title: "An introduction to the formal verification of neural networks"
+ - title: "An Introduction to the Formal Verification of Neural Networks"
    id: "T5"
    authors : "<ul>
    <li>Julien Girard-Satabin Sasha Cuau Guilhem Ardouin</li>
@@ -176,12 +176,11 @@ and their formalisation</p>
  - title: "Counterfactual Explanations of AI Systems: Fundamentals, Methods, & User Studies for XAI "
    id: "T6"
    authors : "<ul>
-   <li> Dr. André Artelt, Postdoctoral Researcher, Bielefeld University, Germany; Dr. Ulrike</li>
-   <li> Kuhl, Postdoctoral Researcher, Bielefeld University, Germany </li>
+   <li> Dr. André Artelt, Postdoctoral Researcher, Bielefeld University, Germany </li>
+   <li> Dr. Ulrike Kuhl, Postdoctoral Researcher, Bielefeld University, Germany </li>
    </ul>"
    date: "August 21, 2026"
    resume : "
-
 <p>This tutorial aims to build connections between the fields of
 pattern recognition, eXplainable AI (XAI), and psychology with a focus
 on counterfactual explanation strategies. Counterfactual XAI has
