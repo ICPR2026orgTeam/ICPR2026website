@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  News and FAQ - ICPR 2026
+title:  List of Hotels - ICPR 2026
 canonical: "https://icpr2026.org/hotels.html"
 last_modified: 2026-04-01
 ---
@@ -81,37 +81,4 @@ last_modified: 2026-04-01
 
 
 </section>
-
-
-<script>
-  const btn = document.getElementById('show-more-news');
-  const newsItems = document.querySelectorAll('.all-news-list li.hidden');
-
-  btn.addEventListener('click', () => {
-    const isHidden = newsItems[0].classList.contains('hidden');
-
-    newsItems.forEach(li => {
-      if (isHidden) {
-        li.classList.remove('hidden');
-      } else {
-        li.classList.add('hidden');
-      }
-    });
-
-    btn.textContent = isHidden ? "show less" : "show all ...";
-  });
-</script>
-
-
-<script>
-document.querySelectorAll('.faq-question').forEach(btn => {
-  btn.addEventListener('click', () => {
-    const answer = btn.nextElementSibling;
-    answer.classList.toggle('hidden');
-  });
-});
-
-
-</script>
-
 
