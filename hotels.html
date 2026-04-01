@@ -8,8 +8,26 @@ last_modified: 2026-04-01
 <h1>Hotels</h1>
 <section id="hotels">
 
+<p>
+  The following map gives an overview of the nearest hotels to the convention center.
+</p>
 
-  {% assign hotelList = site.data.hotels %}
+<div class="col">
+  <a href="Images/hotelMap.png" target="_blank" rel="noopener noreferrer">
+    <img 
+      src="Images/hotelMap.png" 
+      alt="Map showing hotels near the Lyon Convention Center" 
+      class="img-fluid"
+      loading="lazy"
+      style="max-width: 100%; height: auto;"
+    >
+  </a>
+</div>
+
+
+
+  
+{% assign hotelList = site.data.hotels %}
 {% assign sections = 
   "doua:Hotels close to the DOUA campus|
    partdieu:Hotels close to Part-Dieu train station (main Lyon transport hub)|
