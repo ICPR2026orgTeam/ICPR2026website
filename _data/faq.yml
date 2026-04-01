@@ -1,4 +1,7 @@
-
+- question: "Do we need to follow the 15-page limit, the page margins, and the font size in the Springer LNCS template for our manuscript?"
+  answer: "Yes, otherwise Springer will reject the paper upon uploading. Parts of text, tables, and figures that are out-of-bound of the Springer LNCS margins will not be visible in a camera-ready version. According to common layout rules, a manuscript should be readable without having to zoom in. Hence, the font size is to be followed not only in text but also in tables and figures. We anticipate that it should be possible to present your accepted paper in an explanatory way within the allowed 15 pages without pushing limits."
+  category: "cameraready"
+ 
 
 - question: "Will it be possible to attend the conference remotely?"
   answer: "No, presentations re intended to be onsite. Per the author instructions during submission, there is attendance responsibility that the authors agreed to: If the paper is accepted, then at least one of the authors will register for the conference and present the paper."
