@@ -1,5 +1,6 @@
 ---
 layout: keyNoteSpeaker
+idInvite: "I1"
 name: "Maja Pantić"
 slug: "Maja_Pantić"
 role: "Keynote Speaker"

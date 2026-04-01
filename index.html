@@ -41,8 +41,9 @@ last_modified: 2026-04-01
 
   <div class="container">
     <div class="row text-center justify-content-around">
+      {% assign sorted_invites = site.invites | sort: "idInvite" %}
 
-      {% for ks in site.invites %}
+      {% for ks in sorted_invites   %}
     <div class="col-sm-12 col-md-4 col-lg-3 mb-4">
   <a href="{{ ks.url | relative_url  }}"> 
         <article class="keynotespeaker-item">
