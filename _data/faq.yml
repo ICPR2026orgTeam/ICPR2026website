@@ -2,24 +2,32 @@
 
 - question: "Will it be possible to attend the conference remotely?"
   answer: "No, presentations re intended to be onsite. Per the author instructions during submission, there is attendance responsibility that the authors agreed to: If the paper is accepted, then at least one of the authors will register for the conference and present the paper."
+  category: "participation"
+
+
 
 #- question: "Will there be any travel stipends for ICPR 2026?"
 #  answer: "Yes, a limited number of IAPR Travel Stipends will be available for students to apply for <a href=\"link.html\">here</a>."
-
+#   category: "participation"
+   
 - question : "Is it possible to register the paper with student registration option only?"
   answer : "No, each paper needs a FULL registration. However, one full registration can cover up to three papers at ICPR 2026."
+  category: "registration"
 
 - question : "Can an author registered as student present the paper at ICPR 2026 if a co-author has full registration?"
   answer: "Yes, as long as there is one full registration for the paper, any author can present the paper. In fact, we encourage supervisors to let their students come forward at ICPR 2026."
+  category: "registration"
+
 
 - question : "Is it possible to add an author or to change the author order for the camera-ready version?"
   answer : "No, this is not allowed."
-
+  category: "cameraready"
 
 
 
 
 - question: "I don’t understand where to find the <b class=\"text-info\">Domain conflicts</b> and the <b class=\"text-info\">conflict of interest form</b> mentioned in the warning page."
+  category: "submission"
   answer: "<p>Both are accessible from the author CMT account interface.</p>
 <b class=\"text-info\">Domain Conflicts</b>
 <p>Domain conflicts are declared per author and are linked to each author account.</p>
@@ -56,11 +64,14 @@
 />"
 - question: "I’m worried that not all co-authors have completed the conflict of interest form before the 10th. Has my paper already been desk rejected?"
   answer: "No. Your paper has not been desk rejected yet. We will allow authors to complete or update the conflict of interest information in CMT until desk rejections begin on Tuesday, January 13. Note that each author must be registered in CMT with the same email used for the submission"
+  category: "submission"
 
 - question: "Is it mandatory to enter one’s domain conflicts ?"
   answer: "Yes. Domain conflicts MUST be entered by ALL authors of a paper to avoid the paper is desk rejected. Domain conflicts MUST be entered by reviewers otherwise they will not be assigned any paper and they will not be listed as members of the Program Committee of ICPR 2026."
+  category: "submission"
 
 - question: "How can I add my domain conflicts ?"
+  category: "submission"
   answer: "When you login in CMT you will find a request from the Chairs in a reddish box and in the same box you can find the link to follow to enter your conflicts, as shown below:
   <img
   src=\"Images/FAQ_cmtDecStep1.png\"
@@ -84,12 +95,15 @@ After clicking you will land on a new page where you complete the task, as shown
 
 
 - question: "Do we need to follow the page margins as well as font size in the Springer LNCS template for our manuscript?"
+  category: "submission"
   answer: "Yes. Parts of tables and figures that are out-of-bound the Springer LNCS margins will not be visible in a camera-ready version and should be avoided already at submission. According to common layout rules, a manuscript should be readable without having to zoom in. Hence, the font size are to be followed not only in text but also in tables and figures. We anticipate that it should be possible to present your project and results in an explanatory way to the reviewers and future readers within the allowed 15 pages without pushing limits."
   
 - question: "Is it possible to submit a paper that has already been submitted to arXiv?"
+  category: "submission"
   answer: "Yes, papers submitted to arXiv can be submitted to the conference as they are unreviewed material."
 
 - question: "How can I submit the supplementary material?"
+  category: "submission"
   answer:  "After completing the submission of the main file, the paper will appear in the Author's console;  it will be possible to submit the supplementary material as a separate PDF file from the Author's console by selecting the appropriate menu item associated with the main file as illustrated below.
 
  <a href=\"Images/FAQ_suppMaterial.png\" > <img
@@ -102,28 +116,36 @@ After clicking you will land on a new page where you complete the task, as shown
 
 
 - question: "Will it be possible to add an author or to change the authors' order after submission ?"
+  category: "submission"
   answer: "No, this will not be allowed."
 
 - question: "Does the conference plan to have a rebuttal phase ?"
+  category: "submission"
   answer: "No rebuttal period is scheduled."
 
 - question: "Will be possible to attend the conference remotely ?"
   answer:  "Presentations are intended to be onsite."
 
 - question: "I have some questions about CMT interface who can I contact ?"
+  category: "submission"
   answer: "In case of any issues with CMT, please contact the publication chairs at: <a href=\"mailto:cmt@icpr2026.org\" >cmt@icpr2026.org </a>."
 
 - question: "Does each co-author need to individually declare their domain conflicts through their own account, or is it sufficient for the corresponding author to make a single declaration ?"
+  category: "submission"
   answer: "All authors <b>must</b> be registered in CMT and all authors <b>must</b> list the domains of conflict of interest."
 
 - question: "I have some questions about the Reproducible Research Badge"
+  category: "submission"
   answer: "You can check the description <a href=\"rrprBadges.html\">here</a>, or contact the reproducible research chairs at: <a href=\"mailto:rr_chairs@icpr2026.org\">rr_chairs@icpr2026.org</a>."
 
 - question: "Shall we add the ORCID numbers for paper authors ?"
+  category: "submission"
   answer: "The placeholder for ORCID numbers is included in the template, but its inclusion is optional."
 
 - question: "I have questions about the paper format. Who can answer ?"
+  category: "submission"
   answer: "Any question about the paper format can be sent by email to publication chairs at <a href=\"mailto:publication_chairs@icpr2026.org\">publication_chairs@icpr2026.org</a>."
 
 - question: "Will the supplementary material for a paper be published ?"
+  category: "submission"
   answer: "No, the supplementary material will not be published and it has not to be mentioned in any way in the paper, which must be self-contained; supplementary material is only intended for reviewers to get a more clear idea of the proposal, but it is not mandatory for them to take it into account."
