@@ -19,11 +19,6 @@
   mail: da.chen@bath.edu
   affiliation: University of Bath, UK
 - area: track1
-  firstname: Francisco
-  lastname: Escolano
-  mail: escolano.ua@gmail.com
-  affiliation: University of Alicante
-- area: track1
   firstname: Francesco
   lastname: Fontanella
   mail: fontanella@unicas.it
@@ -343,11 +338,6 @@
   lastname: Chen
   mail: chen.haoyu@oulu.fi
   affiliation: University of Oulu
-- area: track3
-  firstname: Pinaki Nath
-  lastname: Chowdhury
-  mail: pinakinathc@gmail.com
-  affiliation: Sony Playstation
 - area: track3
   firstname: Zhenhua
   lastname: Feng
