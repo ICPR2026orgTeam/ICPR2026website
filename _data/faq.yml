@@ -1,3 +1,10 @@
+
+- question: "I need a visa to enter France. How do I obtain an invitation letter for conference visa?"
+  answer: |
+   For any request for a letter of invitation, please <a href="mailto:contactcolloque@insavalor.fr">contactcolloque@insavalor.fr</a>. In order to issue the letter of invitation, you will be required to pay the full amount of your registration fee.
+  category: "registration"
+
+
 - question: "Do we need to follow the 15-page limit, the page margins, and the font size in the Springer LNCS template for our manuscript?"
   answer: "Yes, otherwise Springer will reject the paper upon uploading. Parts of text, tables, and figures that are out-of-bound of the Springer LNCS margins will not be visible in a camera-ready version. According to common layout rules, a manuscript should be readable without having to zoom in. Hence, the font size is to be followed not only in text but also in tables and figures. We anticipate that it should be possible to present your accepted paper in an explanatory way within the allowed 15 pages without pushing limits."
   category: "cameraready"
