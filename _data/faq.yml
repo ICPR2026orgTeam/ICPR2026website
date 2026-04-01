@@ -1,3 +1,23 @@
+
+
+- question: "Will it be possible to attend the conference remotely?"
+  answer: "No, presentations re intended to be onsite. Per the author instructions during submission, there is attendance responsibility that the authors agreed to: If the paper is accepted, then at least one of the authors will register for the conference and present the paper."
+
+#- question: "Will there be any travel stipends for ICPR 2026?"
+#  answer: "Yes, a limited number of IAPR Travel Stipends will be available for students to apply for <a href=\"link.html\">here</a>."
+
+- question : "Is it possible to register the paper with student registration option only?"
+  answer : "No, each paper needs a FULL registration. However, one full registration can cover up to three papers at ICPR 2026."
+
+- question : "Can an author registered as student present the paper at ICPR 2026 if a co-author has full registration?"
+  answer: "Yes, as long as there is one full registration for the paper, any author can present the paper. In fact, we encourage supervisors to let their students come forward at ICPR 2026."
+
+- question: "Will it be possible to attend the conference remotely?"
+  answer: "Per the author instructions during submission, there is attendance responsibility that the authors agreed to: If the paper is accepted, then at least one of the authors will register for the conference and present the paper."
+
+
+
+
 - question: "I don’t understand where to find the <b class=\"text-info\">Domain conflicts</b> and the <b class=\"text-info\">conflict of interest form</b> mentioned in the warning page."
   answer: "<p>Both are accessible from the author CMT account interface.</p>
 <b class=\"text-info\">Domain Conflicts</b>
