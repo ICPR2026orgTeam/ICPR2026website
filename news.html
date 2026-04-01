@@ -39,17 +39,6 @@ last_modified: 2026-04-01
 
  {% assign faq = site.data.faq %}
 
- <h3> FAQ on Participation</h3>
- {% for f in faq %}   
- {% if f.category == "participation" %}
-   <div class="faq-item">
-    <button class="faq-question">{{ f.question }}</button>
-    <div class="faq-answer hidden">
-      <p> {{ f.answer }}</p>
-    </div>
-   </div>
-  {% endif %}
- {% endfor %}
 
 
    
@@ -79,6 +68,20 @@ last_modified: 2026-04-01
  {% endif %}
   {% endfor %}
 
+
+ <h3> FAQ on Participation</h3>
+ {% for f in faq %}   
+ {% if f.category == "participation" %}
+   <div class="faq-item">
+    <button class="faq-question">{{ f.question }}</button>
+    <div class="faq-answer hidden">
+      <p> {{ f.answer }}</p>
+    </div>
+   </div>
+  {% endif %}
+ {% endfor %}
+
+   
 
  <h3> FAQ on Paper Submission</h3>
  {% for f in faq %}   
