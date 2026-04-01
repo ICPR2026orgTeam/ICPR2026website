@@ -17,7 +17,7 @@ last_modified: 2026-04-01
 
 <div class="row">
 
-    <div class="col-lg-6">
+    <div class="col-lg-12">
       <h1>About the ICPR Conference</h1>
       <p>
         The International Conference on Pattern Recognition (ICPR) is
@@ -33,49 +33,45 @@ last_modified: 2026-04-01
       </p>
     </div>
 
-    <!-- Gallery -->
-    <div class="col-lg-6 text-center">
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <picture>
-              <source srcset="Images/Gallerie/bouleLumi.webp" type="image/webp">
-              <img class="img-fluid w-100 mt-3" 
-                   src="Images/Gallerie/bouleLumi.jpg" 
-                   alt="photo boules lumineuses" 
-                   width="466" height="311">
-            </picture>
+
+
+
+    <section id="keynotespeaker" class="keynote-speaker-panel">
+  <h2>Keynote Speakers</h2>
+
+  <div class="container">
+    <div class="row text-center justify-content-around">
+      {% assign sorted_invites = site.invites | sort: "idInvite" %}
+
+      {% for ks in sorted_invites   %}
+    <div class="col-sm-12 col-md-4 col-lg-3 mb-4">
+  <a href="{{ ks.url | relative_url  }}"> 
+        <article class="keynotespeaker-item">
+
+          <!-- IMAGE -->
+          <div class="speaker-img-wrapper mb-2">
+            <img src="{{ site.baseurl }}/Images/{{ ks.photoSpeaker }}" alt="{{ ks.name }}" class="speaker-img">
           </div>
-          <div class="carousel-item">
-            <picture>
-              <source srcset="Images/Gallerie/vueAerienneCiteInternat.webp" type="image/webp">
-              <img class="img-fluid w-100 mt-3" 
-                   src="Images/Gallerie/vueAerienneCiteInternat.jpg" 
-                   alt="Vue aérienne cité internationale" 
-                   width="466" height="311"
-                   loading="lazy">
-            </picture>
-          </div>
-          <div class="carousel-item">
-            <picture>
-              <source srcset="Images/Gallerie/vueGeneraleCiteInternat.webp" type="image/webp">
-              <img class="img-fluid w-100 mt-3" 
-                   src="Images/Gallerie/vueGeneraleCiteInternat.jpg" 
-                   alt="Vue générale cité internationale" 
-                   width="466" height="262"
-                   loading="lazy">
-            </picture>
-          </div>
-        </div>
+
+          <!-- NAME -->
+          <h6 class="speaker-name mb-0">
+            <a href="{{ ks.url }}">{{ ks.name }}</a>
+          </h6>
+
+          <!-- UNIVERSITY -->
+          <small class="speaker-university text-muted">
+            {{ ks.company }}
+          </small>
+
+        </article>
+</a>
       </div>
+      {% endfor %}
     </div>
   </div>
-
+</section>
+     
+    
      <section id="news" class="news-panel">
        <h2>Latest News</h2>
        <div class="news-list">
@@ -86,16 +82,21 @@ last_modified: 2026-04-01
         <p>{{ post.excerpt  | truncatewords: 25 }}</p>
       </article>
     {% endfor %}
-  </div>
+       </div>
        <p class="more-news"><a href="/news.html">See all news →</a></p>
        <a href="{{ "/feed.xml" | relative_url }}">📡 RSS</a>
-</section>
+     </section>
 
 
+
+
+
+
+     
   <!-- Contact information -->
-  <div class="row mt-5">
-    <div class="col-md-8 mx-auto">
-      <div class="card border-info mb-3">
+  <div class="row mt-12">
+<div class="col-12 col-lg-6 mx-auto px-2 px-md-3">
+      <div class="card border-info mb-2">
         <div class="card-header text-center">Contact information and social media</div>
         <div class="card-body text-center ">
           <div class="card-body text-center">
@@ -175,6 +176,50 @@ last_modified: 2026-04-01
         </div>
       </div>
     </div>
+
+      <!-- Gallery -->
+    <div class="col-lg-6 text-center">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <picture>
+              <source srcset="Images/Gallerie/bouleLumi.webp" type="image/webp">
+              <img class="img-fluid w-100 mt-3" 
+                   src="Images/Gallerie/bouleLumi.jpg" 
+                   alt="photo boules lumineuses" 
+                   width="466" height="311">
+            </picture>
+          </div>
+          <div class="carousel-item">
+            <picture>
+              <source srcset="Images/Gallerie/vueAerienneCiteInternat.webp" type="image/webp">
+              <img class="img-fluid w-100 mt-3" 
+                   src="Images/Gallerie/vueAerienneCiteInternat.jpg" 
+                   alt="Vue aérienne cité internationale" 
+                   width="466" height="262"
+                   loading="lazy">
+            </picture>
+          </div>
+          <div class="carousel-item">
+            <picture>
+              <source srcset="Images/Gallerie/vueGeneraleCiteInternat.webp" type="image/webp">
+              <img class="img-fluid w-100 mt-3" 
+                   src="Images/Gallerie/vueGeneraleCiteInternat.jpg" 
+                   alt="Vue générale cité internationale" 
+                   width="466" height="311"
+                   loading="lazy">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
     <div class="text-center">
       <img class="w-50" src="Logos/IAPR.svg" alt="IAPR Logo">
     </div>

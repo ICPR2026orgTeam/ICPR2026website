@@ -8,4 +8,9 @@ sass:
 
 
 
+collections:
+  invites:
+    output: true
+    permalink: /invites/:path/
+
 

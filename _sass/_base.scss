@@ -182,6 +182,40 @@ footer {
   margin-bottom: 0.5rem;
 }
 
+.keynote-speaker-panel {
+  margin: 3rem 0;
+  padding: 2rem;
+
+  border-radius: 12px;
+}
+.keynote-speaker-panel h2 {
+  font-size: 1.8rem;
+  color: #8d1100;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+
+.speaker-img-wrapper {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.speaker-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ border-radius: 12px; /* carré arrondi */
+
+}
+.news-panel h2 {
+  font-size: 1.8rem;
+  color: #8d1100;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
 
 .more-news {
   text-align: right;
