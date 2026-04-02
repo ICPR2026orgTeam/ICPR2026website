@@ -2,7 +2,7 @@
 layout: default
 title:  List of Hotels - ICPR 2026
 canonical: "https://icpr2026.org/hotels.html"
-last_modified: 2026-04-01
+last_modified: 2026-04-03
 ---
 
 <h1>Hotels</h1>
@@ -29,13 +29,13 @@ last_modified: 2026-04-01
   
 {% assign hotelList = site.data.hotels %}
 {% assign sections = 
-"  ccl:Hostels close to CCL|
+"  ccl:Hotels close to CCL|
    doua:Hotels close to the DOUA campus|
    partdieu:Hotels close to Part-Dieu train station (main Lyon transport hub)|
    centre:Hotels close to city center|
+   other:Other Hotels |
    gerland:Hostels close to ENS Gerland|
-   youth:Youth hostels|
-   other:Other Hostels" | split: "|" %}
+   youth:Youth Hostels" | split: "|" %}
 
 {% for s in sections %}
   {% assign parts = s | split: ":" %}
@@ -57,13 +57,13 @@ last_modified: 2026-04-01
         {% endif %}
 
         <ul>
-          <li>adresse: {{ h.adresse }}</li>
+          <li>address: {{ h.adresse }}</li>
 
           {% if h.tel and h.tel != "" %}
             {% if h.tel contains "@" %}
               <li>contact: <a href="mailto:{{ h.tel }}">{{ h.tel }}</a></li>
             {% else %}
-              <li>contact: {{ h.tel }}</li>
+              <li>contact:  {{ h.tel }}</li>
             {% endif %}
           {% endif %}
 
