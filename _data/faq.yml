@@ -19,9 +19,9 @@
 
 
 
-#- question: "Will there be any travel stipends for ICPR 2026?"
-#  answer: "Yes, a limited number of IAPR Travel Stipends will be available for students to apply for <a href=\"link.html\">here</a>."
-#   category: "participation"
+- question: "Will there be any travel stipends for ICPR 2026?"
+  answer: "Yes, a limited number of IAPR Travel Stipends will be available for students to apply for <a href=\"https://forms.gle/ih1PJsHgoiFKYNWFA\">here</a>."
+  category: "participation"
    
 - question : "Is it possible to register the paper with student registration option only?"
   answer : "No, each paper needs a FULL registration. However, one full registration can cover up to three papers at ICPR 2026."
