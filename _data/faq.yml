@@ -1,3 +1,8 @@
+- question: "I am a current member of the British Machine Vision Association (BMVA), which is the UK member society of IAPR. Could you please confirm that I am eligible to register under the “IAPR member” category?"
+  answer: |
+    Yes, as a member of the BMVA (a member society of IAPR), you are eligible to register under the “IAPR member” category. If you have any doubts, you can consult the list of IAPR member societies on the official <a href="https://iapr.org/about-us/iapr-membership/"> IAPR website</a>.
+  category: "registration"
+  
 - question: "Has my paper been accepted for oral or poster presentation?"
   answer: "The program has not been set yet with partition of papers into oral and poster sessions. The Track Chairs will work on this during May when the camera-ready papers have been well received by Springer. Please note that the distinction between oral and poster papers will not depend on quality, but rather on suitability in the scientific program. Regardless of presentation type, all accepted papers are eligible for the Best Paper Award – and, additionally, the Best Student Paper Award, if the main author is a student. "
   category: "participation"
