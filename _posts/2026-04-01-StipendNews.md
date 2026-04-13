@@ -1,6 +1,6 @@
 ---
 layout: newsTemplate
-title: "Application for IAPR Travel Stipends completed"
+title: "Application for IAPR Stipends completed"
 date: 2026-04-13
 last_modified: 2026-04-13
 ---
