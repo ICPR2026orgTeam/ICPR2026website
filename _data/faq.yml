@@ -1,75 +1,83 @@
 - question: "How and when do I upload my camera-ready manuscript for ICPR 2026?"
   answer: "All authors who have completed a full author registration will receive author instructions how to upload their camera-ready version to Springer.  The uploading site will open after 20 April and close on 4 May."
   category: "cameraready"
-
+  id: "upload-camReady"
 
 - question: "Can I upload my ICPR paper to arXiv?"
   answer: "Papers submitted to ICPR can be uploaded to arXiv as they are unreviewed material. Regarding the camera-ready version of an accepted paper, it can be made publicly available on arXiv 12 months after the official publication according to Springer Publishing´s self-archiving policy."
   category: "cameraready"
-
+  id: "upload-arXiv"
 
 - question : "I am concerned that my registration payment via bank transfer or purchase order may not arrive before April 13. Is it possible to get a deadline extension?"
   answer : "No deadline extensions are planned. However, we accept payments made by bank transfer or purchase order as long as they are initiated in time for banks to complete the transaction properly. We understand that your payment may arrive with a slight delay. The payment is considered valid once it has been initiated. In all cases, the most important point is that it is initiated before April 13, 11:59pm AoE."
   category : "registration"
- 
+  id: "reg-deadlineExt" 
 
 - question : "When will the travel stipend results be announced?"
   answer : "The IAPR Secretary Josep Llados is planning to have the evaluation of stipend applications ready so notification can be sent out on Monday morning 13 April CET."
   category: "registration"
+  id: "reg-stipend"
   
 - question : "What is the deadline time for author registration on 13 April?"
   answer: "A full registration must have been received for each paper no later than on 13 April at 23:59 AoE."   
   category: "registration"
+  id: "reg-deadline"
+
 
 - question : "If I have already registered and thereafter is awarded an IAPR Travel Stipend may I be waived the paid registration fee?"
   answer: "Yes, that will be handled by the ICPR organisers."
   category: "registration"
+  id: "reg-stipend-org"
 
 
 - question: "I am a current member of the British Machine Vision Association (BMVA), which is the UK member society of IAPR. Could you please confirm that I am eligible to register under the “IAPR member” category?"
   answer: |
     Yes, as a member of the BMVA (a member society of IAPR), you are eligible to register under the “IAPR member” category. If you have any doubts, you can consult the list of IAPR member societies on the official <a href="https://iapr.org/about-us/iapr-membership/"> IAPR website</a>.
   category: "registration"
+  id: "reg-iapr-member"
   
 - question: "Has my paper been accepted for oral or poster presentation?"
   answer: "The program has not been set yet with partition of papers into oral and poster sessions. The Track Chairs will work on this during May when the camera-ready papers have been well received by Springer. Please note that the distinction between oral and poster papers will not depend on quality, but rather on suitability in the scientific program. Regardless of presentation type, all accepted papers are eligible for the Best Paper Award – and, additionally, the Best Student Paper Award, if the main author is a student. "
   category: "participation"
-
+  id: "part-type-pres"
+  
 - question: "I need a visa to enter France. How do I obtain an invitation letter for conference visa?"
   answer: |
    For any request for a letter of invitation, please <a href="mailto:invitation_letter@icpr2026.org">invitation_letter@icpr2026.org</a>. In order to issue the letter of invitation, you will be required to pay the full amount of your registration fee.
   category: "registration"
+  id: "reg-visa"
 
 
 - question: "Do we need to follow the 15-page limit, the page margins, and the font size in the Springer LNCS template for our manuscript?"
   answer: "Yes, otherwise Springer will reject the paper upon uploading. Parts of text, tables, and figures that are out-of-bound of the Springer LNCS margins will not be visible in a camera-ready version. According to common layout rules, a manuscript should be readable without having to zoom in. Hence, the font size is to be followed not only in text but also in tables and figures. We anticipate that it should be possible to present your accepted paper in an explanatory way within the allowed 15 pages without pushing limits."
   category: "cameraready"
- 
+  id: "camready-limit-page"
 
 - question: "Will it be possible to attend the conference remotely?"
   answer: "No, presentations re intended to be onsite. Per the author instructions during submission, there is attendance responsibility that the authors agreed to: If the paper is accepted, then at least one of the authors will register for the conference and present the paper."
   category: "participation"
-
+  id: "part-online"
 
 
 - question: "Will there be any travel stipends for ICPR 2026?"
   answer: "Yes, a limited number of IAPR Travel Stipends will be available for students to apply for <a href=\"https://forms.gle/ih1PJsHgoiFKYNWFA\">here</a>."
   category: "participation"
-   
+  id: "part-stipent"
+  
 - question : "Is it possible to register the paper with student registration option only?"
   answer : "No, each paper needs a FULL registration. However, one full registration can cover up to three papers at ICPR 2026."
   category: "registration"
-
+  id: "reg-stipend"
+  
 - question : "Can an author registered as student present the paper at ICPR 2026 if a co-author has full registration?"
   answer: "Yes, as long as there is one full registration for the paper, any author can present the paper. In fact, we encourage supervisors to let their students come forward at ICPR 2026."
   category: "registration"
-
+  id: "reg-present-pers"
 
 - question : "Is it possible to add an author or to change the author order for the camera-ready version?"
   answer : "No, this is not allowed."
   category: "cameraready"
-
-
+  id: "reg-present-order"
 
 
 - question: "I don’t understand where to find the <b class=\"text-info\">Domain conflicts</b> and the <b class=\"text-info\">conflict of interest form</b> mentioned in the warning page."
@@ -108,14 +116,17 @@
    class=\" mx-auto d-block  border-secondary rounded\"
    style=\"width: 80%;\"
 />"
+  id: "sub-Conflict2"
 - question: "I’m worried that not all co-authors have completed the conflict of interest form before the 10th. Has my paper already been desk rejected?"
   answer: "No. Your paper has not been desk rejected yet. We will allow authors to complete or update the conflict of interest information in CMT until desk rejections begin on Tuesday, January 13. Note that each author must be registered in CMT with the same email used for the submission"
   category: "submission"
+  id: "sub-Conflict"
 
 - question: "Is it mandatory to enter one’s domain conflicts ?"
   answer: "Yes. Domain conflicts MUST be entered by ALL authors of a paper to avoid the paper is desk rejected. Domain conflicts MUST be entered by reviewers otherwise they will not be assigned any paper and they will not be listed as members of the Program Committee of ICPR 2026."
   category: "submission"
-
+  id: "sub-Conflict3"
+  
 - question: "How can I add my domain conflicts ?"
   category: "submission"
   answer: "When you login in CMT you will find a request from the Chairs in a reddish box and in the same box you can find the link to follow to enter your conflicts, as shown below:
@@ -138,16 +149,17 @@ After clicking you will land on a new page where you complete the task, as shown
   />
 
 "
-
+  id: "sub-Conflict5"
 
 - question: "Do we need to follow the page margins as well as font size in the Springer LNCS template for our manuscript?"
   category: "submission"
   answer: "Yes. Parts of tables and figures that are out-of-bound the Springer LNCS margins will not be visible in a camera-ready version and should be avoided already at submission. According to common layout rules, a manuscript should be readable without having to zoom in. Hence, the font size are to be followed not only in text but also in tables and figures. We anticipate that it should be possible to present your project and results in an explanatory way to the reviewers and future readers within the allowed 15 pages without pushing limits."
+  id: "sub-template"
   
 - question: "Is it possible to submit a paper that has already been submitted to arXiv?"
   category: "submission"
   answer: "Yes, papers submitted to arXiv can be submitted to the conference as they are unreviewed material."
-
+  id: "sub-arXiv"     
 - question: "How can I submit the supplementary material?"
   category: "submission"
   answer:  "After completing the submission of the main file, the paper will appear in the Author's console;  it will be possible to submit the supplementary material as a separate PDF file from the Author's console by selecting the appropriate menu item associated with the main file as illustrated below.
@@ -159,39 +171,43 @@ After clicking you will land on a new page where you complete the task, as shown
   style=\"width: 80%;\"
   /></a>
 "
-
-
+  id: "sub-suppMat"     
 - question: "Will it be possible to add an author or to change the authors' order after submission ?"
   category: "submission"
   answer: "No, this will not be allowed."
-
+  id: "sub-author"
+ 
 - question: "Does the conference plan to have a rebuttal phase ?"
   category: "submission"
   answer: "No rebuttal period is scheduled."
-
-- question: "Will be possible to attend the conference remotely ?"
-  answer:  "Presentations are intended to be onsite."
-
+  id: "sub-rebutal"
+ 
+  
 - question: "I have some questions about CMT interface who can I contact ?"
   category: "submission"
   answer: "In case of any issues with CMT, please contact the publication chairs at: <a href=\"mailto:cmt@icpr2026.org\" >cmt@icpr2026.org </a>."
-
+  id: "sub-cmt" 
 - question: "Does each co-author need to individually declare their domain conflicts through their own account, or is it sufficient for the corresponding author to make a single declaration ?"
   category: "submission"
   answer: "All authors <b>must</b> be registered in CMT and all authors <b>must</b> list the domains of conflict of interest."
+  id: "sub-authoConf" 
 
 - question: "I have some questions about the Reproducible Research Badge"
   category: "submission"
   answer: "You can check the description <a href=\"rrprBadges.html\">here</a>, or contact the reproducible research chairs at: <a href=\"mailto:rr_chairs@icpr2026.org\">rr_chairs@icpr2026.org</a>."
-
+  id: "sub-RR"
+  
 - question: "Shall we add the ORCID numbers for paper authors ?"
   category: "submission"
   answer: "The placeholder for ORCID numbers is included in the template, but its inclusion is optional."
-
+  id: "sub-orcid"
+  
 - question: "I have questions about the paper format. Who can answer ?"
   category: "submission"
   answer: "Any question about the paper format can be sent by email to publication chairs at <a href=\"mailto:publication_chairs@icpr2026.org\">publication_chairs@icpr2026.org</a>."
-
+  id: "sub-format"
+  
 - question: "Will the supplementary material for a paper be published ?"
   category: "submission"
   answer: "No, the supplementary material will not be published and it has not to be mentioned in any way in the paper, which must be self-contained; supplementary material is only intended for reviewers to get a more clear idea of the proposal, but it is not mandatory for them to take it into account."
+  id: "sub-supp-pub"

@@ -334,3 +334,8 @@ footer {
 .hidden {
   display: none;
 }
+
+
+:target {
+  scroll-margin-top: 80px;
+}

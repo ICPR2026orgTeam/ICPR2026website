@@ -46,12 +46,15 @@ last_modified: 2026-04-15
  <h3> FAQ on Camera-ready Uploading</h3>
  {% for f in faq %}   
  {% if f.category == "cameraready" %}
-   <div class="faq-item">
-    <button class="faq-question">{{ f.question }}</button>
-    <div class="faq-answer hidden">
-      <p> {{ f.answer }}</p>
-    </div>
-   </div>
+ <div class="faq-item" id="{{ f.id }}">
+  <button class="faq-question">
+    {{ f.question }}
+    <span class="faq-link" data-id="{{ f.id }}">🔗</span>
+  </button>
+  <div class="faq-answer hidden">
+    <p>{{ f.answer }}</p>
+  </div>
+</div>
   {% endif %}
  {% endfor %}
 
@@ -59,12 +62,15 @@ last_modified: 2026-04-15
  <h3> FAQ on Conference Registration</h3>
  {% for f in faq %}   
  {% if f.category == "registration" %}
- <div class="faq-item">
-    <button class="faq-question">{{ f.question }}</button>
-    <div class="faq-answer hidden">
-      <p> {{ f.answer }}</p>
-    </div>
- </div>
+ <div class="faq-item" id="{{ f.id }}">
+  <button class="faq-question">
+    {{ f.question }}
+    <span class="faq-link" data-id="{{ f.id }}">🔗</span>
+  </button>
+  <div class="faq-answer hidden">
+    <p>{{ f.answer }}</p>
+  </div>
+</div>
  {% endif %}
   {% endfor %}
 
@@ -72,12 +78,15 @@ last_modified: 2026-04-15
  <h3> FAQ on Participation</h3>
  {% for f in faq %}   
  {% if f.category == "participation" %}
-   <div class="faq-item">
-    <button class="faq-question">{{ f.question }}</button>
-    <div class="faq-answer hidden">
-      <p> {{ f.answer }}</p>
-    </div>
-   </div>
+ <div class="faq-item" id="{{ f.id }}">
+  <button class="faq-question">
+    {{ f.question }}
+    <span class="faq-link" data-id="{{ f.id }}">🔗</span>
+  </button>
+  <div class="faq-answer hidden">
+    <p>{{ f.answer }}</p>
+  </div>
+</div>
   {% endif %}
  {% endfor %}
 
@@ -86,12 +95,15 @@ last_modified: 2026-04-15
  <h3> FAQ on Paper Submission</h3>
  {% for f in faq %}   
  {% if f.category == "submission" %}
- <div class="faq-item">
-    <button class="faq-question">{{ f.question }}</button>
-    <div class="faq-answer hidden">
-      <p> {{ f.answer }}</p>
-    </div>
- </div>
+  <div class="faq-item" id="{{ f.id }}">
+  <button class="faq-question">
+    {{ f.question }}
+    <span class="faq-link" data-id="{{ f.id }}">🔗</span>
+  </button>
+  <div class="faq-answer hidden">
+    <p>{{ f.answer }}</p>
+  </div>
+</div>
  {% endif %}
   {% endfor %}
 
@@ -128,6 +140,41 @@ document.querySelectorAll('.faq-question').forEach(btn => {
   });
 });
 
+document.querySelectorAll(".faq-link").forEach(link => {
+  link.addEventListener("click", (e) => {
+    e.stopPropagation();
+
+    const id = link.getAttribute("data-id");
+    const url = window.location.origin + window.location.pathname + "#" + id;
+
+    navigator.clipboard.writeText(url);
+
+    link.textContent = "✅";
+    setTimeout(() => link.textContent = "🔗", 1500);
+  });
+});
+
+
+// 🔥 NOUVEAU : ouvrir la FAQ depuis l'URL
+function openFAQFromHash() {
+  const hash = window.location.hash;
+  if (!hash) return;
+
+  const target = document.querySelector(hash);
+  if (!target) return;
+
+  const answer = target.querySelector('.faq-answer');
+  if (answer) {
+    answer.classList.remove('hidden');
+  }
+
+ }
+
+// au chargement
+document.addEventListener("DOMContentLoaded", openFAQFromHash);
+
+// si le hash change (rare mais propre)
+window.addEventListener("hashchange", openFAQFromHash);
 
 </script>
 
