@@ -1,3 +1,16 @@
+
+ 
+- question: "Are we allowed to change the order of authors in the camera-ready manuscript for ICPR 2026?"
+  answer: "Yes, the order of authors does not have to be identical, although it is not recommended to change it. However, note that all names in the camera-ready manuscript must be among the authors in the CMT entry as the CMT data generates the licence-to publish form."
+  category: "cameraready"
+  id: "cameraready-order-author"
+
+- question: "Is it possible to change the paper title in the camera-ready manuscript for ICPR 2026?"
+  answer: "No, this is not allowed. The title in the uploaded version must match the title in the CMT entry. The rationale is that Springer’s licence-to-publish form, which authors are to sign when uploading the camera-ready version will be generated from the CMT data and therefore the title must be the same in the manuscript."
+  category: "cameraready"
+  id: "cameraready-titre"
+
+
 - question: "How and when do I upload my camera-ready manuscript for ICPR 2026?"
   answer: "All authors who have completed a full author registration will receive author instructions how to upload their camera-ready version to Springer.  The uploading site will open after 20 April and close on 4 May."
   category: "cameraready"
@@ -74,8 +87,8 @@
   category: "registration"
   id: "reg-present-pers"
 
-- question : "Is it possible to add an author or to change the author order for the camera-ready version?"
-  answer : "No, this is not allowed."
+- question: "Is it possible to add or remove an author in the camera-ready manuscript for ICPR 2026?"
+  answer: "No, this is not allowed. The list of authors in the manuscript must match the list of authors in the CMT entry."
   category: "cameraready"
   id: "reg-present-order"
 
