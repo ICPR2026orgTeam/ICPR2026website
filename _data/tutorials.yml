@@ -28,8 +28,9 @@ well as make them aware of potential applicability of graph based models for pro
 
  - title : "Advancing Comprehensive Reasoning in Multimodal Large Language Models"
    id: "T2"          
-   authors: "<ul>
-   <li>Yiwei Wang, University of California, Merced <li>
+   authors: "
+   <ul>
+   <li>Yiwei Wang, University of California, Merced</li>
    <li>Yujun Cai, University of Queensland </li>
    <li> Junsong Yuan  University at Buffalo, State University of New York </li>
    <li> Jun Liu, Lancaster University </li>
