@@ -1,8 +1,8 @@
 ---
 layout: newsTemplate
 title: "Camera-ready Upload Period"
-date: 2026-04-13
-last_modified: 2026-04-13
+date: 2026-04-16
+last_modified: 2026-04-16
 ---
 
 <p>
