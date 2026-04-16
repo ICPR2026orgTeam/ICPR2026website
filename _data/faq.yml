@@ -1,4 +1,17 @@
 
+- question: "Who can I contact for questions about camera-ready?"
+  answer: |
+    Any question about camera-ready format and submission can be asked to the group of publication chairs by sending an email to <a href="mailto:publication_chairs@icpr2026.org">publication_chairs@icpr2026.org</a> if the response is not already present in this FAQ section.
+  category: "cameraready"
+  id: "camera-ready-contact"
+
+- question: "Who can I contact for questions about registration?"
+  answer: |
+    Any question about camera-ready format and submission can be asked by sending an email to <a href="mailto:contactcolloque@insavalor.fr">contactcolloque@insavalor.fr</a> if the response is not already present in this FAQ section. 
+  category: "registration"
+  id: "reg-contact" 
+
+
  
 - question: "Are we allowed to change the order of authors in the camera-ready manuscript for ICPR 2026?"
   answer: "Yes, the order of authors does not have to be identical, although it is not recommended to change it. However, note that all names in the camera-ready manuscript must be among the authors in the CMT entry as the CMT data generates the licence-to publish form."
