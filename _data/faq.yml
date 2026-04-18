@@ -1,4 +1,11 @@
 
+- question: "We have not yet received any e-mail with camera-ready upload instructions for ICPR 2026. Did we miss it or when can we expect that information?"
+  answer: |
+      The e-mail with upload instructions will be sent as soon as Springer confirms that the upload system is open. The author designated as the primary contact in CMT will receive the invitation regardless of which author has registered for the conference; we trust that there is communication between co-authors for their joint paper. In the meantime, please prepare your camera-ready manuscript according to <a href="camerareadyInstructions.html">Camera-ready Instructions Page</a>.
+  category: "cameraready"
+  id: "camera-ready-notyet-received"
+
+
 - question: "Who can I contact for questions about camera-ready?"
   answer: |
     Any question about camera-ready format and submission can be asked to the group of publication chairs by sending an email to <a href="mailto:publication_chairs@icpr2026.org">publication_chairs@icpr2026.org</a> if the response is not already present in this FAQ section.
