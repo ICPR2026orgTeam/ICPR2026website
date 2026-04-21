@@ -93,12 +93,17 @@
    <url>
     <loc>https://icpr2026.org/reviewers.html</loc>
     <lastmod>2026-02-17T00:09:00+00:00</lastmod>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
    <url>
     <loc>https://icpr2026.org/hotels.html</loc>
     <lastmod>2026-04-03T00:36:00+00:00</lastmod>
     <priority>0.9</priority>
+  </url>
+   <url>
+    <loc>https://icpr2026.org/acceptedPapers.html</loc>
+    <lastmod>2026-04-21T23:10:00+00:00</lastmod>
+    <priority>0.95</priority>
   </url>
 
 </urlset>
