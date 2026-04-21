@@ -28,7 +28,8 @@ last_modified: 2026-04-21
   </thead>
   <tbody>
 
-{% for p in papers %}
+{% assign sorted_papers = papers | sort: "id" %}
+{% for p in sorted_papers %}
 
   <tr>
     <td> {{ p.id }} </td>
