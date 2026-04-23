@@ -1,6 +1,6 @@
 ---
 layout: keyNoteSpeaker
-idInvite: "I2"
+idInvite: "I3"
 name: "Cuntai Guan "
 slug: "CuntaiGuan "
 role: "Keynote Speaker"
