@@ -37,9 +37,6 @@
   <div class="blurrer"></div>
 <main>
   <div class="container px-1">    
-<time class="news-date" datetime="{{ page.date | date_to_xmlschema }}">
-    {{ page.date | default: "now" | date: "%d %B %Y" }}
-  </time>
    
         <div class="row text-center justify-content-around">
 
@@ -53,8 +50,18 @@
    <h1>{{ page.name }}</h1>
 <p>{{ page.role }}</p>
     <p>{{ page.company }}</p>
-
+ {% if page.abstract != "" %}
+    {% if page.abstractTitle  %}
+    <h3> Abstract: {{ page.abstractTitle}} </h3>
+    {% else %}
+    <h3> Abstract:</h3>    
+    {% endif %}
+        <p>{{ page.abstract }}</p> 
+      {% endif %}
+   {% if page.biographie != "" %}
+    <h3> Biography:</h3>
     <p>{{ page.biographie }}</p>
+    {% endif %}
 
   </div>
 </main>
