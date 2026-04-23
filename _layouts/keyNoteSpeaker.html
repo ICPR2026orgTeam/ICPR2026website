@@ -50,12 +50,13 @@
    <h1>{{ page.name }}</h1>
 <p>{{ page.role }}</p>
     <p>{{ page.company }}</p>
- {% if page.abstract != "" %}
     {% if page.abstractTitle  %}
-    <h3> Abstract: {{ page.abstractTitle}} </h3>
-    {% else %}
-    <h3> Abstract:</h3>    
+    <h3> {{ page.abstractTitle}} </h3>
     {% endif %}
+
+    {% if page.abstract != "" %}
+    <h3> Abstract:</h3>    
+    
         <p>{{ page.abstract }}</p> 
       {% endif %}
    {% if page.biographie != "" %}
