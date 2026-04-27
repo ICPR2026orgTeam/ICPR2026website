@@ -1,7 +1,7 @@
 ---
 layout: newsTemplate
 title: "Camera-ready instructions updated"
-date: 2026-04-21
+date: 2026-04-27
 last_modified: 2026-04-27
 ---
 
