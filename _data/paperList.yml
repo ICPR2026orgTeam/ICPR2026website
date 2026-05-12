@@ -386,16 +386,16 @@
   fullauthors: Seo Seungmo (Chung-Ang University); Jongsu Youn (Chung-Ang University);
     Jaehyung Bae (Chung-Ang University); Jongwon Choi (Chung-Ang University)*
   authors: Seungmo, Seo; Youn, Jongsu; Bae, Jaehyung; Choi, Jongwon*
-- id: 177
-  title: Diabetic Complication Progression Prediction Based On Hierarchical Reinforcement
-    Path Reasoning
-  fullauthors: Jin Dai (School of Computer Science and Technology, Chongqing University
-    of Posts and Telecommunications); Meng Yuan (School of Computer Science and Technology,
-    Chongqing University of Posts and Telecommunications)*; Zhen Zhang (Department
-    of Proctology, Chongqing Traditional Chinese Medicine Hospital, Chongqing); Ziwen
-    Zhang (School of Computer Science and Technology, Chongqing University of Posts
-    and Telecommunications)
-  authors: Dai, Jin; Yuan, Meng*; Zhang, Zhen; Zhang, Ziwen
+# - id: 177
+#   title: Diabetic Complication Progression Prediction Based On Hierarchical Reinforcement
+#     Path Reasoning
+#   fullauthors: Jin Dai (School of Computer Science and Technology, Chongqing University
+#     of Posts and Telecommunications); Meng Yuan (School of Computer Science and Technology,
+#     Chongqing University of Posts and Telecommunications)*; Zhen Zhang (Department
+#     of Proctology, Chongqing Traditional Chinese Medicine Hospital, Chongqing); Ziwen
+#     Zhang (School of Computer Science and Technology, Chongqing University of Posts
+#     and Telecommunications)
+#   authors: Dai, Jin; Yuan, Meng*; Zhang, Zhen; Zhang, Ziwen
 - id: 179
   title: 'Beyond Consistency: Explicit Boundary Learning For Semi-Supervised Ovarian
     Tumor Segmentation'
@@ -2226,14 +2226,14 @@
   fullauthors: Jehyuk Lee (Kookmin University)*; Junhoe Ku (Kookmin University); Eunwoo
     Park (Kookmin University)
   authors: Lee, Jehyuk*; Ku, Junhoe; Park, Eunwoo
-- id: 834
-  title: 'Disentangling Cognition And Affect: A Caps-Inspired Multimodal Framework
-    For Interpretable Personality Prediction'
-  fullauthors: Qilin Li (School of Computer Science, University of Chinese Academy
-    of Sciences); Weiqiang Wang (University of Chinese Academy of Sciences)*; Xiaoqian
-    Liu (Institute of Psychology, Chinese Academy of Science); Tingshao Zhu (Institute
-    of Psychology, Chinese Academy of Science)
-  authors: Li, Qilin; Wang, Weiqiang*; Liu, Xiaoqian; Zhu, Tingshao
+# - id: 834
+#   title: 'Disentangling Cognition And Affect: A Caps-Inspired Multimodal Framework
+#     For Interpretable Personality Prediction'
+#   fullauthors: Qilin Li (School of Computer Science, University of Chinese Academy
+#     of Sciences); Weiqiang Wang (University of Chinese Academy of Sciences)*; Xiaoqian
+#     Liu (Institute of Psychology, Chinese Academy of Science); Tingshao Zhu (Institute
+#     of Psychology, Chinese Academy of Science)
+#   authors: Li, Qilin; Wang, Weiqiang*; Liu, Xiaoqian; Zhu, Tingshao
 - id: 835
   title: 'Uavdb: Point-Guided Masks For Uav Detection And Segmentation'
   fullauthors: Yu-Hsi Chen (The University of Melbourne)*
@@ -2509,15 +2509,15 @@
   fullauthors: Julien Walther (University of Bordeaux)*; Rémi Giraud (University of
     Bordeaux); Michaël Clément (University of Bordeaux)
   authors: Walther, Julien*; Giraud, Rémi; Clément, Michaël
-- id: 929
-  title: 'Cmffusion: A Layout-Aware Text-To-Image Diffusion Model Via Multi-Object
-    Cross-Attention For Cross-Modal Feature Fusion'
-  fullauthors: Kai Qi (Zhejiang University); Qifei Zhang (School of Software, Zhejiang
-    University)*; Wenjuan Li (School of Information Science and Technology, Hangzhou
-    Normal University); Minfeng Lu (School of Modern Informaton Technology, Zhejiang
-    Polytechnic University of Mechanical and Electrical Engineering); Lei Sheng (Ningbo
-    Intellectual Property Protection Center)
-  authors: Qi, Kai; Zhang, Qifei*; Li, Wenjuan; Lu, Minfeng; Sheng, Lei
+# - id: 929
+#   title: 'Cmffusion: A Layout-Aware Text-To-Image Diffusion Model Via Multi-Object
+#     Cross-Attention For Cross-Modal Feature Fusion'
+#   fullauthors: Kai Qi (Zhejiang University); Qifei Zhang (School of Software, Zhejiang
+#     University)*; Wenjuan Li (School of Information Science and Technology, Hangzhou
+#     Normal University); Minfeng Lu (School of Modern Informaton Technology, Zhejiang
+#     Polytechnic University of Mechanical and Electrical Engineering); Lei Sheng (Ningbo
+#     Intellectual Property Protection Center)
+#   authors: Qi, Kai; Zhang, Qifei*; Li, Wenjuan; Lu, Minfeng; Sheng, Lei
 - id: 930
   title: Delve Into Visual Contrastive Decoding For Hallucination Mitigation Of Large
     Vision-Language Models
