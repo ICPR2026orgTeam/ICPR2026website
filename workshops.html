@@ -43,12 +43,100 @@ last_modified: 2026-04-09
 
 
 
+
+<h2 id="WSOverview">Workshop program overview </h2>
+  
+  {% assign wsA = site.data.workshops | where: "tslot", "A" %}
+  {% assign wsB = site.data.workshops | where: "tslot", "B" %}
+  {% assign wsC = site.data.workshops | where: "tslot", "C" %}
+  {% assign wsD = site.data.workshops | where: "tslot", "D" %}
+
+{% assign max = wsB.size %}
+
+{% if wsC.size > max %}
+  {% assign max = wsC.size %}
+ {% endif %}
+
+
+    
+</table>  
+<table class="table-workshop">
+  <thead>
+    <tr>
+      <th > Friday Aug 21  </th>
+    </tr>
+    <tr>
+      <th > 8:30-17:30  (full day workshops)  </th>
+    </tr>
+  </thead>
+  <tbody>
+{% for w in wsA %}
+  <tr>
+    <td> <a href = "#{{ w.id }}"> {{ w.acronym }} </a> ( {{ w.room }} ) </td>
+  </tr>
+{% endfor %}
+</tbody>
+</table>
+
+
+<table class="table-workshop">
+  <thead>
+    <tr>
+      <th colspan  = "2" > Friday Aug 21  </th>
+    </tr>
+
+    <tr>
+      <th >  8:30-12:30 </th>  <th >  13:30-17:30 </th>
+    </tr>
+  </thead>
+  <tbody>
+
+ {% for i in (0..max) %}
+ <tr>
+   {% if wsB[i] %}
+    <td> <a href = "#{{ wsB[i].id }}"> {{ wsB[i].acronym }} </a> ( {{ wsB[i].room }} )</td>
+   {% endif %}
+   {% if wsC[i] %}
+     <td> <a href = "#{{ wsC[i].id }}"> {{ wsC[i].acronym }} </a> ( {{ wsC[i].room }} )</td>
+   {% endif %}
+ </tr>
+{% endfor %}
+</tbody>
+</table>
+
+
+    
+</table>  
+<table class="table-workshop">
+  <thead>
+    <tr>
+      <th > Friday Aug 22  </th>
+    </tr>
+    <tr>
+      <th > 8:00-14:00	 </th>
+    </tr>
+  </thead>
+  <tbody>
+{% for w in wsD %}
+  <tr>
+    <td> <a href = "#{{ w.id }}"> {{ w.acronym }} </a> ( {{ w.room }} )  </td>
+  </tr>
+{% endfor %}
+</tbody>
+</table>
+
+
+
+  
+
+<h2>Workshop Detailed List </h2> 
+
 {% for w in work %}
 
 
 
 <div  class="card text-dark bg-light mb-5" style="max-width: 110rem;">
-  <div class="card-header fs-5 fw d-flex align-items-center"> <span> <b>{{ w.title }} </b> ({{ w.acronym }})</span> <span class="ms-auto">{{ w.id }}</span></div>
+  <div class="card-header fs-5 fw d-flex align-items-center"> <span> <b>{{ w.title }} </b> ({{ w.acronym }})</span> <span class="ms-auto">({{ w.room }})</span> <span class="ms-auto">{{ w.id }}</span> </div>
   <div class="card-body">
  {% if w.resume %}
   <h5 id="{{ w.id }}"  class="card-title">Overview</h5>

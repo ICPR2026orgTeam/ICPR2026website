@@ -1,7 +1,10 @@
 
 - title : "Behavioral Robotics and AI for iNdustrial and social systems "
   id : "WS1"
+  tslot: "D"
+  time : "8:00-14:00"
   acronym : "BRAIN"
+  room: "room C4"
   website : "https://mivia.unisa.it/brain2026/"
   resume: "The convergence of Artificial Intelligence and Robotics is driving a new era of intelligent systems capable of interacting with the physical world in increasingly sophisticated ways. At the heart of this transformation lies Physical AI, namely the application of AI to systems that directly engage with their environment through sensors and actuators. Physical AI enables robots and devices to perceive, understand, and act upon complex, dynamic, and often uncertain environments, making it a cornerstone of modern robotics.
 This workshop, BRAIN: 'Behavioral Robotics and AI for iNdustrial and social systems', seeks to explore the role of Physical AI in shaping robotic behaviors across different critical domains, including industrial automation and social interaction. In industrial settings, Physical AI drives precision, adaptability, and efficiency in tasks such as manufacturing, logistics, and inspection. In social contexts, it empowers robots to interpret human cues, respond empathetically, and engage in meaningful interactions.
@@ -13,6 +16,9 @@ By focusing on behavioral robotics, the workshop emphasizes the integration of p
 - title : "Workshop on Pattern Recognition in Remote Sensing"
   id : "WS2"
   acronym : "PRRS"
+  room: "room C13"
+  tslot: "C"
+  time: "afternoon 21/8 13:30-17:30"
   website : "https://iapr-tc7.github.io/prrs2026"
   resume : "As climate change intensifies, Earth observation (EO) and remote sensing has become indispensable for monitoring and understanding its impact. In the past five years, half of all EO satellites have been launched, producing an unprecedented volume of data with diverse spatial, spectral, and temporal characteristics. While these rich data sources open opportunities for various applications, they also create significant challenges in representation and interpretation. Pattern recognition and, more generally, artificial intelligence have therefore become essential for extracting key insights from these data. In this context, this workshop aims to explore the following topics:
  <ul>
@@ -33,6 +39,9 @@ By focusing on behavioral robotics, the workshop emphasizes the integration of p
 - title : "Efficient Methods for Multimodal Models"
   id : "WS3"
   acronym : "EMM"
+  room: "room B4"
+  tslot: "D"
+  time: "8:00-14:00"
   website : "https://emm-workshop.github.io/workshop2026.html"
   resume: "<p>With extensive applications in image and video understanding, as well as in image, video, and text generation, multimodal models have become increasingly prominent and transformative in the fields of pattern recognition and computer vision.</p>
 
@@ -74,6 +83,9 @@ By focusing on behavioral robotics, the workshop emphasizes the integration of p
   id : "WS5"
   website : "https://zhengliu6699.github.io/IAPR-TC8/workshops.html"
   acronym: "MVI2"
+  room: "room C5"
+  tslot: "C"
+  time: "afternoon 21/8 13:30-17:30"
   resume: "
 <p>  Machine vision for industrial inspection represents a critical real-world application domain that drives fundamental advances in pattern recognition research while addressing pressing industrial needs. The field presents unique challenges that push the boundaries of classical pattern recognition methodologies: the scarcity of defect samples motivates innovation in few-shot learning and anomaly detection; high-consequence decision-making demands advances in uncertainty quantification and explainable AI; naturally multi-modal sensing environments (visual, thermal, 3D, ultrasonic, X-ray) serve as ideal testbeds for sensor fusion algorithms; and real-time processing requirements drive research in efficient architectures and edge computing. Manufacturing variations and evolving production processes create natural domain shift scenarios that advance transfer learning and continual learning applicable across pattern recognition applications. This workshop serves as a crucial bridge between academic research and industrial deployment, addressing evaluation beyond standard metrics, scalability from laboratory prototypes to production systems, and standardization of benchmark datasets specific to inspection tasks. As Chair of IAPR Technical Committee 8, this workshop directly supports TC8's mission while creating a focused forum for presenting state-of-the-art methodologies, fostering academic-industry collaboration, and identifying future research directions. The broader impact spans global manufacturing competitiveness, product safety, infrastructure integrity, and sustainability through zero-defect manufacturing, automated quality assurance for critical systems, enhanced worker safety, and optimized production efficiency—making this workshop valuable to both pattern recognition researchers seeking impactful applications and industry practitioners requiring cutting-edge solutions.</p>
 <p>  The topics will include: </p>
@@ -98,6 +110,9 @@ Standard ICPR workshop facilities should be sufficient. The primary needs are re
 - title : "Fourth International Workshop on Artificial Intelligence for Healthcare Applications"
   id : "WS6"
   acronym : "AIHA"
+  room: "room C2"
+  tslot: "A"
+  time : " full day workshops 8:30-17:30 "
   website : "https://aida.unicas.it/AIHA2026/"
   resume : "<p>Most of the medical data collected from healthcare systems is recorded in digital format. The increased availability of  these data has enabled numerous artificial intelligence applications. Specifically, machine learning can generate insights to improve the discovery of new therapeutics tools, to support diagnostic decisions, to help in the rehabilitation process, to name a few. Researchers, along with expert clinicians, can play an important role in turning complex medical data (e.g., genomic data, online acquisitions of physicians, medical imagery, etc.) into actionable knowledge that ultimately improves patient care.  In recent years, these topics have drawn the attention of clinical and machine learning researchers, resulting in practical and successful applications in healthcare. These techniques have been deployed across various healthcare system levels with applications ranging from diagnosis to therapeutics. </p>
 <p>AHIA also host a special session focusing on the latest advancements in AI-based solutions to enhance assessment and facilitate recovery in rehabilitation. The goal of this session is to highlight feasible approaches driven by real-world data for the development of practical clinical solutions.</p>
@@ -128,6 +143,9 @@ Standard ICPR workshop facilities should be sufficient. The primary needs are re
 - title : "Pattern Recognition and Computer Vision for e-Heritage and Digital Humanities Workshop"
   id : "WS7"
   acronym : "PRESTIGE"
+  room: "room C4"
+  tslot: "B"
+  time: "morning workshops 8:30-12:30"
   website : "https://sites.google.com/view/prestige-icpr2026"
   resume: "The role of digital technologies in the preservation, analysis, and dissemination of cultural and historical heritage has become increasingly central. Pattern recognition, machine learning, and computer vision now play a key role in this transformation, providing innovative methodologies to digitize, restore, interpret, and enhance artworks, documents, and cultural sites. The digital age has not only broadened access to heritage collections but has also enabled new forms of analysis, revealing patterns and relationships that were previously inaccessible.
 At the same time, the convergence of technology and the humanities introduces new challenges and research questions. These range from the reliable digital reconstruction of artifacts and the interpretation of historical data using AI-driven methods, to issues of authorship, authenticity, and ethical considerations surrounding generative AI and cultural production.
@@ -150,6 +168,9 @@ Topics of interest include, but are not limited to:
 - title : "The Fourth International Workshop on Pattern Recognition in Healthcare Analytics and Bioinformatics"
   id : "WS8"
   acronym : "PRHA"
+  room: "room C5"
+  tslot: "D"
+  time: "8:00-14:00"
   website : "https://sites.google.com/view/prha2026/home"
   resume : "<p>The fourth PRHA workshop aims to continue showcasing the latest developments in pattern recognition for healthcare analytics. The scope of the workshop entails, but is not limited to, bioinformatics, phenotyping and subtyping, patient monitoring and machine learning in pervasive healthcare, temporal modeling for disease progression, interpretable models for clinical decision support, privacy-preserving techniques for distributed and sensitive patient data, medical image analysis,  and disease progression modeling.</p>
 
@@ -159,12 +180,18 @@ Topics of interest include, but are not limited to:
 - title : "The Art of Compressing LLMs: Pruning, Distillation, and Quantization Demystified"
   id : "WS9"
   acronym : "CompressLLMs"
+  room: "Amphi Vannier"
+  tslot: "D"
+  time: "8:00-14:00"
   website : "https://lavinia13.github.io/ICPR-Compression-Workshop/"
   resume : "<p>This workshop explores the art and engineering of compressing large language models to make them cheaper, faster, and easier to deploy while preserving practical capability. Designed for a broad audience that spans beginners to advanced practitioners, the workshop will introduce foundational concepts for newcomers, share implementation patterns and pitfalls for experienced engineers, and highlight cutting-edge research directions for specialists.</p> "
 
 - title : "The third International Workshop on Video Surveillance Systems in Smart Cities: Aerial Monitoring and Synthetic Data"
   id : "WS10"
   acronym : "V3SC 2026-3"
+  room: "room C8"
+  tslot: "C"
+  time: "afternoon 21/8 13:30-17:30"
   website: "https://sites.google.com/view/v3sc-icpr2026"
   resume: "<p >We invite original research papers, case studies, and technical reports on (but not limited to) the following topics:</p>
 <ol>
@@ -189,6 +216,9 @@ Future trends and challenges in urban surveillance
   id : "WS11"
   website : "https://lineact.cesi.fr/en/workshop-icpr-2026-cesi-lineact/"
   acronym : "PIDM4HCPS"
+  room: "room B10"
+  tslot: "D"
+  time: "8:00-14:00"
   resume : "The workshop focuses on the emerging pipeline that connects synthetic data generation (digital twins, simulation-to-real) with downstream perception and decision-making tasks in robotics, remote sensing, and extended reality environments. Core topics include, but are not limited to:
 <ol>
 <li>Synthetic data generation and domain adaptation (sim-to-real, Digital Twin).</li>
@@ -206,6 +236,9 @@ Future trends and challenges in urban surveillance
   id : "WS12"
   website : "https://narden91.github.io/biomap/"
   acronym : "BIOMAP"
+  room: "room C8"
+  tslot: "D"
+  time: "8:00-14:00"        
   resume : "<p>Biological systems exhibit remarkable pattern recognition capabilities, achieved through evolutionary adaptation, self-organisation, and efficient information processing. These mechanisms inspire a growing class of computational approaches-drawing from evolutionary computation, swarm intelligence, artificial life, and neuromorphic computing-that offer new solutions beyond conventional optimisation or fixed-model learning. Recent advances demonstrate this potential: evolutionary algorithms automatically discover novel neural architectures, swarm-based methods enable distributed visual processing, and self-organising systems adapt to dynamic pattern sets in real-time.
 This workshop aims to present recent advances in bio-inspired techniques for pattern recognition applications and to bring together researchers and practitioners interested in exploiting the potential of such approaches. It will explore how principles from evolution, collective behaviour, and self-organisation can support robust, adaptive, and resource-efficient pattern recognition. Key questions include: How can evolutionary processes support the automated design of pattern recognition models? What insights does swarm intelligence offer for distributed perception? How do self-organising mechanisms maintain performance under shifting data conditions?</p>
 
@@ -236,6 +269,9 @@ Topics:
   id : "WS13"
   website : "https://hvg-workshop.github.io/workshop2026"
   acronym : "HVG"
+  room: "Amphi Seguin"
+  tslot: "A"
+  time : " full day workshops 8:30-17:30 "
   resume: "The Workshop on Human-Centric Video Generation (HVG) will focus on advancing methodologies for synthesizing realistic 2D human videos guided by multimodal control signals (text, audio, pose), addressing critical challenges in temporal consistency, anatomical fidelity, and environmental interaction. 
 Aligned with recent advancements in diffusion models, auto-regressive models and generative AI, this workshop emphasizes three core technical pillars: 
 (1) conditional motion synthesis (text-to-action alignment, audio-driven co-speech gestures, pose-guided motion transfer), 
@@ -258,6 +294,9 @@ and (3) evaluation frameworks (metrics for temporal coherence, action accuracy, 
 - title : "Foundation Models for Vision Applications"
   id : "WS14"
   acronym : "FMVA"
+  room: "room C1"
+  tslot: "D"
+  time: "8:00-14:00"        
   website : "https://sites.google.com/view/fmva2026/home"
   resume: "<p>In recent years large scale visual-language models have seen an explosive rise in capability. As general models they offer exceptional performance on a range of downstream tasks not explicitly trained for.  By necessity, the full capability of an architecture is often only expressed in terms of zero-shot performance on benchmark dataset tasks, such as ImageNet classification or ADE20K segmentation. The performance, generality, comprehension and prompt-sensitivity of the architectures in specific vision fields, such as biometrics or medical imaging, has room for exploration.  </p>
 
@@ -269,6 +308,9 @@ and (3) evaluation frameworks (metrics for temporal coherence, action accuracy, 
 - title : "PAVER: Workshop on Physics-Aware Video gEneration and Restoration"
   id : "WS15"
   acronym : "PAVER"
+  room: "room C12"
+  tslot: "D"
+  time: "8:00-14:00"
   website : "https://icpr2026-paver-workshop.github.io/"
   resume : "<p>This workshop aims to bring together researchers and practitioners from computer vision, machine learning, and physics-based modeling to discuss the latest advancements in video generation and restoration. The workshop will emphasize the importance of integrating physical constraints and real-world priors into generative video models to ensure realism, consistency, and applicability in diverse domains.</p>
 <p>Physics-aware video generation and restoration are fundamental for applications where realistic motion, temporal consistency, and adherence to physical laws are critical, including:</p>
@@ -287,6 +329,9 @@ and (3) evaluation frameworks (metrics for temporal coherence, action accuracy, 
 - title : "Second International Workshop on Eye Tracking Techniques, Applications and Challenges"
   id : "WS16"
   acronym : "ETTAC"
+  room: "room C1"
+  tslot: "B"
+  time: "morning workshops 8:30-12:30"
   website : "https://vision.unipv.it/ettac2026/"
   resume: "<p>Eye tracking technology is becoming increasingly widespread, thanks to the recent availability of cheap commercial devices, both remote and wearable. At the same time, novel techniques are continually pursued to enhance the precision of gaze detection, and new methods are continuously explored to fully leverage the potential of eye data. Regardless of the considered context (human-computer interaction, user behavior understanding, biometrics, or others), pattern recognition often plays a significant role. The purpose of the ETTAC2026 workshop is to present recent eye tracking research that directly or indirectly exploits any form of pattern recognition.</p> 
 <p>The event’s scope includes (but is not limited to) the following topics:</p>
@@ -305,6 +350,9 @@ and (3) evaluation frameworks (metrics for temporal coherence, action accuracy, 
 - title : "Second International Workshop on Multi- and Cross-Modal Information for Enhanced Pattern Recognition"
   id : "WS17"
   acronym : "MCMI"
+  room: "Amphi Vannier"
+  tslot: "B"
+  time: "morning workshops 8:30-12:30"
   website : "https://mcmi-workshop.github.io/2026/"  
   resume: "<p>Modern AI systems combine information from multiple sources (such as images, audio, and text) to enable better pattern recognition and understanding. MCMI brings together researchers from various fields, including audio processing, computer vision, and natural language processing, to share their work and ideas.</p>
 
@@ -342,6 +390,9 @@ Topics:
 - title : "4th workshop on Explainable and Ethical AI"
   id : "WS18"
   acronym : "XAIE4@ICPR2026"
+  tslot: "D"
+  room: "room C10"
+  time: "8:00-14:00"
   website : "https://xaie4.sciencesconf.org/"
   resume : "<p>The topics covered by the workshop are Naturally explainable AI methods, Post-Hoc Explanation methods of Deep Neural Networks, including transformers and Generative Artificial Intelligence, and any ethical consideration when using pattern recognition models.</p>
 
@@ -350,6 +401,9 @@ Topics:
 - title : "Trustworthy Document Understanding: Privacy, Unlearning, Robustness, and Explainability"
   id : "WS19"
   acronym : "TrustDoc"
+  room: "room C6"
+  tslot: "B"
+  time: "morning workshops 8:30-12:30"
   website : "https://sites.google.com/view/trustdoc/home"
   resume : "<p>The workshop welcomes contributions on topics including (but not limited to):</p>
 
@@ -397,6 +451,9 @@ Topics:
 - title : "Computer Vision for Biodiversity Monitoring and Conservation"
   id : "WS20"
   acronym : "CVBMC"
+  room: "room C6"
+  tslot: "C"
+  time: "afternoon 21/8 13:30-17:30"
   website: "https://cvbmc.github.io"
   resume: "<p>The Workshop on Computer Vision for Biodiversity Monitoring and Conservation (CVBMC) aims to bridge the gap between advanced pattern recognition and ecological preservation. While computer vision has reached maturity in industrial and urban domains, its application to the natural world presents unique, high-dimensional challenges that require specialized technical approaches. The workshop will explore the deployment of state-of-the-art deep learning and AI methodologies to automate the extraction of biological information from unstructured visual datasets.</p>
 
@@ -418,13 +475,19 @@ Topics:
 - title : "Multimodal pattern recognition for social signal processing  in human computer interaction"
   id : "WS21"
   acronym : "MPRSS 2026"
+  tslot: "A"
+  room: "room C12"
+  time : " full day workshops 8:30-17:30 "
   website: "https://sites.google.com/ualr.edu/mprss2026/home"
   resume: "<p>The workshop will provide participants with foundational and applied skills for developing advanced AI agents, including preparing diverse data types to be neural-network ready, understanding model fusion techniques and the distinctions between early, late, and intermediate fusion, and performing PDF data extraction using OCR. Participants will also learn to differentiate between modality orchestration and agent orchestration and gain hands-on experience customizing NVIDIA AI Blueprints—particularly the Video Search and Summarization (VSS) blueprint—to design and deploy powerful multimodal AI agents.</p>"
 
 
 - title : "Advances in Underwater Surveillance: Technologies, Challenges, and Future Directions"
   id : "WS22"      
-  acronym : "AUSTech 2.0" 
+  acronym : "AUSTech 2.0"
+  room: "room C2"
+  tslot: "D"
+  time: "8:00-14:00"
   website: "https://austechworkshop.github.io/icpr"
   resume: "<p>The workshop focuses on recent developments in underwater surveillance, including underwater imaging, multimodal sensor fusion, acoustic–optical perception, generative data enhancement, graph-based reasoning, and autonomous underwater vehicles. </p>
   <p>Topics include:</p>
@@ -444,6 +507,9 @@ Topics:
   id : "WS23"
   website : "https://tips2026.midasoc.org"
   acronym : "TIPS"
+  room: "room C13"
+  tslot: "A"
+  time : " full day workshops 8:30-17:30 "
   resume: "<p>In text analysis and synthesis areas many recent research topics like text editing in images and videos, vision languages models, text style transfer etc. are getting special attentions. The aim of this workshop is towards information processing  and synthesis of textual data that may appear in normal text and different images and videos.</p>
 
 Topics of Interest include, but not limited to:
@@ -473,6 +539,9 @@ Topics of Interest include, but not limited to:
   id : "WS24"
   website : "https://sites.google.com/view/hgva-2026"
   acronym : "HGVA"
+  room: "Amphi Vannier"
+  tslot: "C"
+  time: "afternoon 21/8 13:30-17:30"
   resume : " <p>Human attention modeling, including human gaze modeling, eye tracking, have been key areas of focus in computer vision and pattern recognition research over the past decade. These dynamic fields have evolved from various perspectives, shaped by the diverse expertise and objectives of researchers. Despite recent advancements in technologies such as large vision and language models, these innovations have yet to be fully integrated into current research. Additionally, while the potential applications of gaze estimation, attention prediction and eye tracking across images, videos, and audio are vast, there remains a lack of groundbreaking approaches that push the boundaries of the field.</p>
   <p> The Workshop on Human Gaze and Visual Attention Modeling aims to address this gap by providing a platform for introducing novel ideas and methodologies in human attention modeling, and gaze estimation and eye tracking. The workshop will also explore the intersection of these fields with emerging domains, such as human-computer interaction (HCI), robotics, autonomous systems and medical image analysis. By highlighting the broader, yet still underexplored, opportunities of gaze and human-attention and eye tracking research in real-world applications, we aim to spark new interdisciplinary collaborations.</p>
 <p>Through this workshop, we aim to encourage forward-looking discussions that move beyond conventional computer vision applications and address meaningful real-world challenges. Our goal is to inspire the next wave of research and broaden the impact of human visual attention, eye-tracking, and gaze-based methods across diverse industries and domains.</p>
@@ -491,6 +560,9 @@ Topics of Interest include, but not limited to:
 - title : "Reproducible Research in Pattern Recognition"
   id : "WS25"
   acronym : "RRPR"
+  room: "room C11"
+  tslot: "A"
+  time : " full day workshops 8:30-17:30 "
   website : "https://tc22-team.github.io/rrpr2026"
   resume : "<p>The topic is Reproducible Research (RR) in direct relation to the Pattern Recognition domains, corresponding to most of the ICPR topics where research results rely on algorithms and code implementation. This workshop is an important activity of the newly created TC-22, specifically on computational reproducibility. As in all previous editions, RRPR 2026 is intended as both a short participative course on computational reproducibility, leading to open discussions with the participants, and also as a practical workshop on how to actually practice RR. In addition, another key goal for gathering the research community is to further advance the scientific aspects of reproducibility specifically in pattern recognition research. The call for papers includes three main tracks: (1) RR frameworks (including experiences, frameworks, or complete platforms), (2) RR results focusing on the quality of the reproducible research results, and (3) short papers. RRPR short papers are tailored to allow authors the extra space needed to document the steps they have taken to make their regular ICPR submission more reproducible. Sometimes this valuable information is not made available in conference papers, but doing so certainly grows awareness and increases visibility for reproducibility as a core aspect of pattern recognition research. RRPR is also an excellent forum for ICPR authors to share and discuss best practices in reproducibility, thereby advancing the field.</p>
 <p>Reproducibility is an important topic in general and particularly important for PhD students
@@ -504,6 +576,9 @@ will grant a Reproducibility Badge to authors, to recognize and celebrate the ef
 - title : "International Workshop on coMics ANalysis, Processing and Understanding"
   id : "WS26"
   acronym : "MANPU"
+  room: "room C3"
+  tslot: "D"
+  time: "8:00-14:00"
   website : "https://manpu2026.imlab.jp"
   resume: "<p>This workshop deals with research activities about comics. MANPU workshop targets researchers in image processing, image analysis, pattern recognition and even knowledge representation. Indeed, the large variability of comic books and the complexity of their contents make comics analysis a kind of advanced problem of document image understanding or more generally knowledge-based scene recognition.</p>
 
@@ -524,6 +599,9 @@ The topics of interest include among others:
 - title : "Sustainable PR & PR for Environment"
   id : "WS27"
   acronym : "GREEN-PR"
+  tslot: "B"
+  room: "room B10"
+  time: "morning workshops 8:30-12:30"
   website : "https://green-pr.sciencesconf.org" 
   resume: "<p>GREEN-PR aims to group researchers working on more sustainable approaches in pattern recognition and/or recent developments of pattern recognition contributions in environmental applications. </p>
 
@@ -539,6 +617,9 @@ The topics of interest include among others:
 - title : "Image Mining. Theory and Applications"
   id : "WS28"
   acronym : "IMTAX-2026"
+  room: "room C3"
+  tslot: "A"
+  time : " full day workshops 8:30-17:30 "
   website : "https://imta.isti.cnr.it"
   resume : "
 <p>The main subject of the workshop in the broadest sense of the word is the assessment and discussion of the current state of the mathematical theory of image analysis and the prospects for its development, as well as its application to solve particularly important difficult and socially significant applied problems.</p>
@@ -570,6 +651,9 @@ The topics of interest include among others:
 - title : "Workshop on Generative and Agentic AI for Real-World Video Understanding"
   id : "WS30"
   acronym :  "GenAAI 2026"
+  room: "room C7"
+  tslot: "C"
+  time: "afternoon 21/8 13:30-17:30"
   website : "https://www.genai2026.org/"
   resume: "<p>Key Workshop Highlights – GenAAI-2026</p>
   
