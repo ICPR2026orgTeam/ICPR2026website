@@ -1,0 +1,89 @@
+- sessionId: "1.1" 
+  title: "Session paralel 1.1"
+  listPapers: "8 14 16 18"
+  chair: "Martin XX"
+
+- sessionId: "1.2" 
+  title: "Session paralel 1.2"
+  listPapers: "8 9 14 16 1000"
+  chair: "Martin2 Martin2"
+
+- sessionId: "1.3" 
+  title: "Session paralel 1.3"
+  listPapers: "8 9 14 16 210"
+  chair: "Martin2 Martin2"
+
+- sessionId: "1.4" 
+  title: "Session paralel 1.4"
+  listPapers: "8 9 14 "
+  chair: "Toto Titi"
+
+
+
+- sessionId: "2.1" 
+  title: "Session paralel 2.1"
+  listPapers: "8 9 14 16 18"
+  chair: "Martin Martin"
+
+- sessionId: "2.2" 
+  title: "Session paralel 2.2"
+  listPapers: "8 9 14 16 1000"
+  chair: "Martin2 Martin2"
+
+- sessionId: "2.3" 
+  title: "Session paralel 2.3"
+  listPapers: "8 9 14 16 1000"
+  chair: "Martin2 Martin2"
+
+- sessionId: "2.4" 
+  title: "Session paralel 2.4"
+  listPapers: "8 9 14 "
+  chair: "Toto Titi"
+
+
+
+
+
+- sessionId: "3.1" 
+  title: "Session paralel 3.1"
+  listPapers: "8 9 14 16 18"
+  chair: "Martin Martin"
+
+- sessionId: "3.2" 
+  title: "Session paralel 3.2"
+  listPapers: "8 9 14 16 1000"
+  chair: "Martin2 Martin2"
+
+- sessionId: "3.3" 
+  title: "Session paralel 3.3"
+  listPapers: "8 9 14 16 1000"
+  chair: "Martin2 Martin2"
+
+- sessionId: "3.4" 
+  title: "Session paralel 3.4"
+  listPapers: "8 9 14 "
+  chair: "Toto Titi"
+
+
+
+
+- sessionId: "4.1" 
+  title: "Session paralel 4.1"
+  listPapers: "8 9 14 16 18"
+  chair: "Martin Martin"
+
+- sessionId: "4.2" 
+  title: "Session paralel 4.2"
+  listPapers: "8 9 14 16 1000"
+  chair: "Martin2 Martin2"
+
+- sessionId: "4.3" 
+  title: "Session paralel 4.3"
+  listPapers: "8 9 14 16 1000"
+  chair: "Martin2 Martin2"
+
+- sessionId: "4.4" 
+  title: "Session paralel 4.4"
+  listPapers: "8 9 14 "
+  chair: "Toto Titi"
+
