@@ -177,14 +177,14 @@ Topics of interest include, but are not limited to:
 <p>Biomedical informatics and bioinformatics are interdisciplinary fields leveraging machine learning, deep learning, and natural language processing techniques. Tasks and datasets in these fields constitute various challenges due to the complex and multimodal nature of data. Furthermore, interpretability and explainability have become inevitable requirements to consider while designing models to address bioinformatics and biomedical informatics tasks. With the increasing importance and widespread use of pattern recognition, applications such as vision, biometrics, and natural language processing have migrated to their respective communities. However, the biomedical informatics and bioinformatics studies within the machine learning and pattern recognition communities have been proliferating. While specific challenges posed by digital patient data, as well as gene and protein data, encourage novel ideas in the field of pattern recognition, achievements attained by pattern recognition techniques open new doors to a better understanding of the complex nature of data in healthcare and bioinformatics. The fourth PRHA will again take on the duty of providing a platform under the ICPR for the exchange and collaboration between pattern recognition and medical communities.</p>"
 
 
-- title : "The Art of Compressing LLMs: Pruning, Distillation, and Quantization Demystified"
-  id : "WS9"
-  acronym : "CompressLLMs"
-  room: "Amphi Vannier"
-  tslot: "D"
-  time: "8:00-14:00"
-  website : "https://lavinia13.github.io/ICPR-Compression-Workshop/"
-  resume : "<p>This workshop explores the art and engineering of compressing large language models to make them cheaper, faster, and easier to deploy while preserving practical capability. Designed for a broad audience that spans beginners to advanced practitioners, the workshop will introduce foundational concepts for newcomers, share implementation patterns and pitfalls for experienced engineers, and highlight cutting-edge research directions for specialists.</p> "
+# - title : "The Art of Compressing LLMs: Pruning, Distillation, and Quantization Demystified"
+#   id : "WS9"
+#   acronym : "CompressLLMs"
+#   room: "Amphi Vannier"
+#   tslot: "D"
+#   time: "8:00-14:00"
+#   website : "https://lavinia13.github.io/ICPR-Compression-Workshop/"
+#   resume : "<p>This workshop explores the art and engineering of compressing large language models to make them cheaper, faster, and easier to deploy while preserving practical capability. Designed for a broad audience that spans beginners to advanced practitioners, the workshop will introduce foundational concepts for newcomers, share implementation patterns and pitfalls for experienced engineers, and highlight cutting-edge research directions for specialists.</p> "
 
 - title : "The third International Workshop on Video Surveillance Systems in Smart Cities: Aerial Monitoring and Synthetic Data"
   id : "WS10"
@@ -265,31 +265,31 @@ Topics:
 <ol>
 "
 
-- title : "Human-Centric Video Generation"
-  id : "WS13"
-  website : "https://hvg-workshop.github.io/workshop2026"
-  acronym : "HVG"
-  room: "Amphi Seguin"
-  tslot: "A"
-  time : " full day workshops 8:30-17:30 "
-  resume: "The Workshop on Human-Centric Video Generation (HVG) will focus on advancing methodologies for synthesizing realistic 2D human videos guided by multimodal control signals (text, audio, pose), addressing critical challenges in temporal consistency, anatomical fidelity, and environmental interaction. 
-Aligned with recent advancements in diffusion models, auto-regressive models and generative AI, this workshop emphasizes three core technical pillars: 
-(1) conditional motion synthesis (text-to-action alignment, audio-driven co-speech gestures, pose-guided motion transfer), 
-(2) quality assurance (occlusion handling, deformation mitigation, appearance consistency), 
-and (3) evaluation frameworks (metrics for temporal coherence, action accuracy, and perceptual realism).
-<p>Throughout the workshop among others, we are aiming to address the following topics during the workshop:</p>
-<ul>
-<li>Text-Driven Synthesis: Generating human videos from textual descriptions with accurate action-semantic alignment.</li>
-<li>Audio-Gesture Synchronization: Modeling co-speech gesture dynamics from audio-visual correlations.</li>
-<li>Pose-Guided Motion Transfer: Transferring source motion to target subjects while preserving identity and context.</li>
-<li>Multi-Conditional Animation: Integrating heterogeneous control signals (e.g., text + pose + audio) for compositional generation.</li>
-<li>Long-Form Synthesis: Maintaining consistency and diversity in extended video sequences.</li>
-<li>Interactive Generation: Enabling real-time user control via sketches, prompts, or physical simulations.</li>
-<li>Evaluation Frameworks: Developing metrics for temporal stability, biomechanical plausibility, and environmental interaction.</li>
-<li>Dataset Curation: Constructing cross-modal datasets with annotated human motions and multi-view sequences.</li>
-<li>3D-Consistent Avatars: Bridging 2D generation with 3D-aware representations for viewpoint-invariant synthesis.</li>
-</ul>
-"
+# - title : "Human-Centric Video Generation"
+#   id : "WS13"
+#   website : "https://hvg-workshop.github.io/workshop2026"
+#   acronym : "HVG"
+#   room: "Amphi Seguin"
+#   tslot: "A"
+#   time : " full day workshops 8:30-17:30 "
+#   resume: "The Workshop on Human-Centric Video Generation (HVG) will focus on advancing methodologies for synthesizing realistic 2D human videos guided by multimodal control signals (text, audio, pose), addressing critical challenges in temporal consistency, anatomical fidelity, and environmental interaction. 
+# Aligned with recent advancements in diffusion models, auto-regressive models and generative AI, this workshop emphasizes three core technical pillars: 
+# (1) conditional motion synthesis (text-to-action alignment, audio-driven co-speech gestures, pose-guided motion transfer), 
+# (2) quality assurance (occlusion handling, deformation mitigation, appearance consistency), 
+# and (3) evaluation frameworks (metrics for temporal coherence, action accuracy, and perceptual realism).
+# <p>Throughout the workshop among others, we are aiming to address the following topics during the workshop:</p>
+# <ul>
+# <li>Text-Driven Synthesis: Generating human videos from textual descriptions with accurate action-semantic alignment.</li>
+# <li>Audio-Gesture Synchronization: Modeling co-speech gesture dynamics from audio-visual correlations.</li>
+# <li>Pose-Guided Motion Transfer: Transferring source motion to target subjects while preserving identity and context.</li>
+# <li>Multi-Conditional Animation: Integrating heterogeneous control signals (e.g., text + pose + audio) for compositional generation.</li>
+# <li>Long-Form Synthesis: Maintaining consistency and diversity in extended video sequences.</li>
+# <li>Interactive Generation: Enabling real-time user control via sketches, prompts, or physical simulations.</li>
+# <li>Evaluation Frameworks: Developing metrics for temporal stability, biomechanical plausibility, and environmental interaction.</li>
+# <li>Dataset Curation: Constructing cross-modal datasets with annotated human motions and multi-view sequences.</li>
+# <li>3D-Consistent Avatars: Bridging 2D generation with 3D-aware representations for viewpoint-invariant synthesis.</li>
+# </ul>
+# "
 
 - title : "Foundation Models for Vision Applications"
   id : "WS14"
@@ -535,27 +535,27 @@ Topics of Interest include, but not limited to:
  </ol>
 "
 
-- title : "Workshop on Human Gaze and Visual Attention Modeling"
-  id : "WS24"
-  website : "https://sites.google.com/view/hgva-2026"
-  acronym : "HGVA"
-  room: "Amphi Vannier"
-  tslot: "C"
-  time: "afternoon 21/8 13:30-17:30"
-  resume : " <p>Human attention modeling, including human gaze modeling, eye tracking, have been key areas of focus in computer vision and pattern recognition research over the past decade. These dynamic fields have evolved from various perspectives, shaped by the diverse expertise and objectives of researchers. Despite recent advancements in technologies such as large vision and language models, these innovations have yet to be fully integrated into current research. Additionally, while the potential applications of gaze estimation, attention prediction and eye tracking across images, videos, and audio are vast, there remains a lack of groundbreaking approaches that push the boundaries of the field.</p>
-  <p> The Workshop on Human Gaze and Visual Attention Modeling aims to address this gap by providing a platform for introducing novel ideas and methodologies in human attention modeling, and gaze estimation and eye tracking. The workshop will also explore the intersection of these fields with emerging domains, such as human-computer interaction (HCI), robotics, autonomous systems and medical image analysis. By highlighting the broader, yet still underexplored, opportunities of gaze and human-attention and eye tracking research in real-world applications, we aim to spark new interdisciplinary collaborations.</p>
-<p>Through this workshop, we aim to encourage forward-looking discussions that move beyond conventional computer vision applications and address meaningful real-world challenges. Our goal is to inspire the next wave of research and broaden the impact of human visual attention, eye-tracking, and gaze-based methods across diverse industries and domains.</p>
-<p>Main topics that will be covered in the workshop:</p>
-  <ul>
-  <li> Computational Modeling of Human Visual Attention & Deep Learning for Visual Saliency</li>
-  <li> Advances in Eye-Tracking Technologies and Applications</li>
-  <li> Scanpath Prediction and Temporal Dynamics of Gaze in Video Understanding</li>
-  <li> Active Vision and Real-World Applications</li>
-  <li> Human Visual Perception for Computer Vision & Cognitive Modeling</li>
-  <li> Benchmarking, Evaluation, and Privacy-Preserving Methods for Gaze Analysis</li>
-  <li> Applications of Human Visual Attention in Medical Imaging & Vision-Based Interaction</li>
-  <li> Robotics and HCI: Eye-Gaze Interaction and Gaze-Based Interfaces</li>
-</ul>"
+# - title : "Workshop on Human Gaze and Visual Attention Modeling"
+#   id : "WS24"
+#   website : "https://sites.google.com/view/hgva-2026"
+#   acronym : "HGVA"
+#   room: "Amphi Vannier"
+#   tslot: "C"
+#   time: "afternoon 21/8 13:30-17:30"
+#   resume : " <p>Human attention modeling, including human gaze modeling, eye tracking, have been key areas of focus in computer vision and pattern recognition research over the past decade. These dynamic fields have evolved from various perspectives, shaped by the diverse expertise and objectives of researchers. Despite recent advancements in technologies such as large vision and language models, these innovations have yet to be fully integrated into current research. Additionally, while the potential applications of gaze estimation, attention prediction and eye tracking across images, videos, and audio are vast, there remains a lack of groundbreaking approaches that push the boundaries of the field.</p>
+#   <p> The Workshop on Human Gaze and Visual Attention Modeling aims to address this gap by providing a platform for introducing novel ideas and methodologies in human attention modeling, and gaze estimation and eye tracking. The workshop will also explore the intersection of these fields with emerging domains, such as human-computer interaction (HCI), robotics, autonomous systems and medical image analysis. By highlighting the broader, yet still underexplored, opportunities of gaze and human-attention and eye tracking research in real-world applications, we aim to spark new interdisciplinary collaborations.</p>
+# <p>Through this workshop, we aim to encourage forward-looking discussions that move beyond conventional computer vision applications and address meaningful real-world challenges. Our goal is to inspire the next wave of research and broaden the impact of human visual attention, eye-tracking, and gaze-based methods across diverse industries and domains.</p>
+# <p>Main topics that will be covered in the workshop:</p>
+#   <ul>
+#   <li> Computational Modeling of Human Visual Attention & Deep Learning for Visual Saliency</li>
+#   <li> Advances in Eye-Tracking Technologies and Applications</li>
+#   <li> Scanpath Prediction and Temporal Dynamics of Gaze in Video Understanding</li>
+#   <li> Active Vision and Real-World Applications</li>
+#   <li> Human Visual Perception for Computer Vision & Cognitive Modeling</li>
+#   <li> Benchmarking, Evaluation, and Privacy-Preserving Methods for Gaze Analysis</li>
+#   <li> Applications of Human Visual Attention in Medical Imaging & Vision-Based Interaction</li>
+#   <li> Robotics and HCI: Eye-Gaze Interaction and Gaze-Based Interfaces</li>
+# </ul>"
 
 - title : "Reproducible Research in Pattern Recognition"
   id : "WS25"
