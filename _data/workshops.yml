@@ -36,30 +36,30 @@ By focusing on behavioral robotics, the workshop emphasizes the integration of p
 
 
 
-- title : "Efficient Methods for Multimodal Models"
-  id : "WS3"
-  acronym : "EMM"
-  room: "room B4"
-  tslot: "D"
-  time: "8:00-14:00"
-  website : "https://emm-workshop.github.io/workshop2026.html"
-  resume: "<p>With extensive applications in image and video understanding, as well as in image, video, and text generation, multimodal models have become increasingly prominent and transformative in the fields of pattern recognition and computer vision.</p>
+# - title : "Efficient Methods for Multimodal Models"
+#   id : "WS3"
+#   acronym : "EMM"
+#   room: "room B4"
+#   tslot: "D"
+#   time: "8:00-14:00"
+#   website : "https://emm-workshop.github.io/workshop2026.html"
+#   resume: "<p>With extensive applications in image and video understanding, as well as in image, video, and text generation, multimodal models have become increasingly prominent and transformative in the fields of pattern recognition and computer vision.</p>
 
-<p>As the scale of these models grows exponentially, there is an urgent need to explore efficient learning and deployment strategies to address the associated computational and resource challenges. This workshop aims to provide a dedicated platform for researchers and practitioners to exchange ideas and develop innovative solutions, thereby advancing the efficiency and practical deployment of multimodal models.</p>
+# <p>As the scale of these models grows exponentially, there is an urgent need to explore efficient learning and deployment strategies to address the associated computational and resource challenges. This workshop aims to provide a dedicated platform for researchers and practitioners to exchange ideas and develop innovative solutions, thereby advancing the efficiency and practical deployment of multimodal models.</p>
 
-<p>The topics will cover efficient inference methods and model architecture designs for multimodal models, e.g., compression, quantization, distillation, and lightweight architectures, as well as efficient learning strategies, e.g., training and fine-tuning techniques for multimodal tasks. In addition, the workshop will address related applications, including efficient multimodal generation and editing models, practical multimodal systems, and the deployment of multimodal models on resource-constrained or low-power devices.</p>
-<p>Relevant topics include:</p>
-<ul>
-<li>Compression, quantization, conditional compute, pruning, and distillation of multimodal models;</li>
-<li>Efficient training/finetuning of multimodal models, e.g., low-rank adaptation;</li>
-<li>Efficient sampling of multimodal diffusion models, e.g., step distillation and consistency models;</li>
-<li>Efficient LLM/LVLM/MLLM in multimodal tasks, e.g., token pruning and merging</li>
-<li>Efficient multi-/cross-modal learning</li>
-<li>Efficient multimodal generative and editing models and sensors, e.g., for vision, language, audio and 3D objects;</li>
-<li>Efficient image, video and audio synthesis by multimodal data;</li>
-<li>Efficient multimodal applications (e.g., drone vision, autonomous driving, etc.);</li>
-<li>Efficient self-/un-/weakly-supervised learning for multimodal data;</li>
-<li>Deploying multimodal models on low power devices e.g., smartphone;</li></ul>"
+# <p>The topics will cover efficient inference methods and model architecture designs for multimodal models, e.g., compression, quantization, distillation, and lightweight architectures, as well as efficient learning strategies, e.g., training and fine-tuning techniques for multimodal tasks. In addition, the workshop will address related applications, including efficient multimodal generation and editing models, practical multimodal systems, and the deployment of multimodal models on resource-constrained or low-power devices.</p>
+# <p>Relevant topics include:</p>
+# <ul>
+# <li>Compression, quantization, conditional compute, pruning, and distillation of multimodal models;</li>
+# <li>Efficient training/finetuning of multimodal models, e.g., low-rank adaptation;</li>
+# <li>Efficient sampling of multimodal diffusion models, e.g., step distillation and consistency models;</li>
+# <li>Efficient LLM/LVLM/MLLM in multimodal tasks, e.g., token pruning and merging</li>
+# <li>Efficient multi-/cross-modal learning</li>
+# <li>Efficient multimodal generative and editing models and sensors, e.g., for vision, language, audio and 3D objects;</li>
+# <li>Efficient image, video and audio synthesis by multimodal data;</li>
+# <li>Efficient multimodal applications (e.g., drone vision, autonomous driving, etc.);</li>
+# <li>Efficient self-/un-/weakly-supervised learning for multimodal data;</li>
+# <li>Deploying multimodal models on low power devices e.g., smartphone;</li></ul>"
 
 
 
