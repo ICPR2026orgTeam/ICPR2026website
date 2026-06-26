@@ -15,13 +15,15 @@ Louis Néel Building
 
 <h2>Selected Workshops</h2> 
 
+{% assign work = site.data.workshops %}
+
 <p>
-  We thank the IAPR community for all submitted workshop proposals. The list of selected workshops with links to their respective webpages with submission instructions and more information is available below. For general queries on the workshops, please, contact <a href="mailto:workshop_chairs@icpr2026.org">workshop_chairs@icpr2026.org</a>. For queries on a specific workshop, please, contact the respective organisers listed on their webpage.</p>
+  We thank the IAPR community for all submitted workshop proposals. The list of selected workshops ({{ work.size }}) with links to their respective webpages with submission instructions and more information is available below. For general queries on the workshops, please, contact <a href="mailto:workshop_chairs@icpr2026.org">workshop_chairs@icpr2026.org</a>. For queries on a specific workshop, please, contact the respective organisers listed on their webpage.</p>
 
 <p> Information about workshop registration and registration requirements for authors of accepted workshop papers can be found on the <a href="registration.html"> ICPR registration page.</a> </p>
 
 
-{% assign work = site.data.workshops %}
+
 <table class="table-workshop">
   <thead>
     <tr>
