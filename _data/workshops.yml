@@ -648,30 +648,30 @@ The topics of interest include among others:
 
 # <p>Technical pattern recognition challenges central to each topic could for (i) for example be: DL for highly skewed datasets, rare case and anomaly detection, explainable AI, low computational demand networks for point of care diagnostics, real-time video analysis of pathogen growth, and domain adapted evaluation approaches. For (ii) for example: genomic sequence pattern analysis for resistance and emerging pathogen detection, GNNs for modeling transmission networks and co-occurrence networks for tracing resistance genes across populations, time series analysis of genomic data for modeling spread and mutations,  and forecasting outbreaks. For (iii), for example: NLP for detection of misinformation patterns, information diffusion modeling, behavioural response analysis, and multi-modal AI for understanding how communication strategies affect the societal response in emergency situations.</p>"
   
-- title : "Workshop on Generative and Agentic AI for Real-World Video Understanding"
-  id : "WS30"
-  acronym :  "GenAAI 2026"
-  room: "room C7"
-  tslot: "C"
-  time: "afternoon 21/8 13:30-17:30"
-  website : "https://www.genai2026.org/"
-  resume: "<p>Key Workshop Highlights – GenAAI-2026</p>
+# - title : "Workshop on Generative and Agentic AI for Real-World Video Understanding"
+#   id : "WS30"
+#   acronym :  "GenAAI 2026"
+#   room: "room C7"
+#   tslot: "C"
+#   time: "afternoon 21/8 13:30-17:30"
+#   website : "https://www.genai2026.org/"
+#   resume: "<p>Key Workshop Highlights – GenAAI-2026</p>
   
-<p>1.	Generative Video Models as Autonomous Reasoning Engines: This theme examines how diffusion-based video models, 3D-aware world models, and large multimodal transformers can serve as cognitive backbones for agentic systems. Participants will explore how generative priors improve temporal coherence, fill in missing frames, simulate potential outcomes, and support high-level reasoning over complex dynamic scenes. By integrating planning modules and feedback loops, generative agents can autonomously interpret human activities, detect anomalies, and propose future scene evolutions.</p>
-<p>2.	Agentic AI for Real-World Environments: Agentic AI introduces capabilities such as autonomous task decomposition, context-aware decision-making, and self-optimization. This segment focuses on how these properties enhance video understanding in challenging real-world conditions—crowded surveillance scenes, variable lighting, occlusions, abrupt motion patterns, and multi-agent interactions. Discussions will center on vision-language-action models, tool-use agents, embodied decision systems, and reinforcement learning frameworks designed to operate in unconstrained environments.</p>
-<p>3.	Spatiotemporal Representation Learning & Predictive Modeling: High-quality video understanding depends on structured spatiotemporal representations. This section explores world models, graph neural video architectures, motion-aware transformers, and predictive generative models that anticipate future states of complex scenes. Use cases include trajectory prediction, pedestrian intent estimation, environmental hazard forecasting, and robotics navigation. The session will also investigate multimodal fusion across video, LiDAR, IMU, and audio, enabling agents to form a holistic perception of real-world environments.</p>
-<p>
-We invite submissions and participation under the theme “GenAAI 2026”, including but not limited to:</p>
-<ol>
-<li>	Agentic AI for Video Reasoning and Decision-Making</li>
-<li>	Video Models and Spatiotemporal Generative Representations</li>
-<li>	Vision-Language-Action Agents</li>
-<li>	Generative Trajectory Prediction and Scene Forecasting</li>
-<li>	Real-World Video Surveillance, Crowd Analytics, and Behavior Understanding</li>
-<li>	Video Anomaly Detection Using Generative Priors</li>
-<li>	Self-Supervised and Foundation Models for Long Video Sequences</li>
-<li>	Generative Augmentation, Reconstruction, and Inpainting in Videos</li>
-<li>	Few-shot and Zero-shot Video Understanding</li>
-<li>	Edge and Real-Time Deployment of Generative Agents</li>
-</ol>
-"
+# <p>1.	Generative Video Models as Autonomous Reasoning Engines: This theme examines how diffusion-based video models, 3D-aware world models, and large multimodal transformers can serve as cognitive backbones for agentic systems. Participants will explore how generative priors improve temporal coherence, fill in missing frames, simulate potential outcomes, and support high-level reasoning over complex dynamic scenes. By integrating planning modules and feedback loops, generative agents can autonomously interpret human activities, detect anomalies, and propose future scene evolutions.</p>
+# <p>2.	Agentic AI for Real-World Environments: Agentic AI introduces capabilities such as autonomous task decomposition, context-aware decision-making, and self-optimization. This segment focuses on how these properties enhance video understanding in challenging real-world conditions—crowded surveillance scenes, variable lighting, occlusions, abrupt motion patterns, and multi-agent interactions. Discussions will center on vision-language-action models, tool-use agents, embodied decision systems, and reinforcement learning frameworks designed to operate in unconstrained environments.</p>
+# <p>3.	Spatiotemporal Representation Learning & Predictive Modeling: High-quality video understanding depends on structured spatiotemporal representations. This section explores world models, graph neural video architectures, motion-aware transformers, and predictive generative models that anticipate future states of complex scenes. Use cases include trajectory prediction, pedestrian intent estimation, environmental hazard forecasting, and robotics navigation. The session will also investigate multimodal fusion across video, LiDAR, IMU, and audio, enabling agents to form a holistic perception of real-world environments.</p>
+# <p>
+# We invite submissions and participation under the theme “GenAAI 2026”, including but not limited to:</p>
+# <ol>
+# <li>	Agentic AI for Video Reasoning and Decision-Making</li>
+# <li>	Video Models and Spatiotemporal Generative Representations</li>
+# <li>	Vision-Language-Action Agents</li>
+# <li>	Generative Trajectory Prediction and Scene Forecasting</li>
+# <li>	Real-World Video Surveillance, Crowd Analytics, and Behavior Understanding</li>
+# <li>	Video Anomaly Detection Using Generative Priors</li>
+# <li>	Self-Supervised and Foundation Models for Long Video Sequences</li>
+# <li>	Generative Augmentation, Reconstruction, and Inpainting in Videos</li>
+# <li>	Few-shot and Zero-shot Video Understanding</li>
+# <li>	Edge and Real-Time Deployment of Generative Agents</li>
+# </ol>
+# "
