@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://icpr2026.org/</loc>
-    <lastmod>2026-04-27T09:50:00+00:00</lastmod>
+    <lastmod>2026-06-26T13:25:00+00:00</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
@@ -37,12 +37,12 @@
   </url>
   <url>
     <loc>https://icpr2026.org/callDocConsortium.html</loc>
-    <lastmod>2026-05-07T17:42:10+02:00</lastmod>
+    <lastmod>2026-06-18T15:00:10+02:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://icpr2026.org/news.html</loc>
-    <lastmod>2026-04-18T21:04:00+02:00</lastmod>
+    <lastmod>2026-06-04T23:42:00+02:00</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
@@ -52,12 +52,12 @@
   </url>
   <url>
     <loc>https://icpr2026.org/committee.html</loc>
-    <lastmod>2026-04-02T02:23:20+20:00</lastmod>
+    <lastmod>2026-06-16T23:56:20+20:00</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://icpr2026.org/program.html</loc>
-    <lastmod>2026-02-27T10:59:00+00:00</lastmod>
+    <lastmod>2026-07-06T03:10:00+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -67,7 +67,7 @@
   </url>
   <url>
     <loc>https://icpr2026.org/sponsors.html</loc>
-    <lastmod>2026-03-20T16:27:00+02:00</lastmod>
+    <lastmod>2026-06-04T16:53:00+02:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -82,12 +82,12 @@
   </url>
    <url>
     <loc>https://icpr2026.org/workshops.html</loc>
-    <lastmod>2026-05-27T02:33:00+00:00</lastmod>
+    <lastmod>2026-06-29T10:20:00+00:00</lastmod>
     <priority>0.95</priority>
   </url>
    <url>
     <loc>https://icpr2026.org/registration.html</loc>
-    <lastmod>2026-04-02T13:55:00+00:00</lastmod>
+    <lastmod>2026-06-17T19:05:00+00:00</lastmod>
     <priority>0.9</priority>
   </url>
    <url>
@@ -101,13 +101,23 @@
     <priority>0.9</priority>
   </url>
    <url>
-    <loc>https://icpr2026.org/acceptedPapers.html</loc>
-    <lastmod>2026-05-13T23:10:00+00:00</lastmod>
+    <loc>https://icpr2026.org/acceptedPapersTrack.html</loc>
+    <lastmod>2026-06-07T19:28:00+00:00</lastmod>
     <priority>0.95</priority>
   </url>
    <url>
     <loc>https://icpr2026.org/camerareadyInstructions.html</loc>
     <lastmod>2026-04-30T00:13:00+00:00</lastmod>
+    <priority>0.95</priority>
+  </url>
+   <url>
+    <loc>https://icpr2026.org/oralPresInstructions.html</loc>
+    <lastmod>2026-07-06T02:15:00+00:00</lastmod>
+    <priority>0.95</priority>
+  </url>
+   <url>
+    <loc>https://icpr2026.org/posterPresInstructions.html</loc>
+    <lastmod>2026-07-06T02:15:00+00:00</lastmod>
     <priority>0.95</priority>
   </url>
 

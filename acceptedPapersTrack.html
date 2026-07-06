@@ -1,0 +1,97 @@
+---
+layout: default
+title: "ICPR 2026: list of accepted papers by track"
+canonical: "https://icpr2026.org/acceptedPapersTrack.html"
+description: "List of accepted papers to ICPR 2026 - International Conference on Pattern Recognition that take place in Lyon 17-22 August 2026."
+last_modified: 2026-07-06
+---
+
+
+{% assign papers = site.data.paperList %}
+
+<section id="program">
+  <h1>List of papers accepted for ICPR 2026 by track  </h1>
+  
+<p>We received 1432 paper submissions to ICPR 2026. After a thorough reviewing process, the following {{ papers.size }} papers are accepted and have uploaded their camera-ready manuscript for publication in Springer’s LNCS series.
+ </p>
+
+
+
+{% assign tracksdef = site.data.tracks %}
+
+
+<table class="table-workshop">
+  <thead>
+    <tr>
+      <th ># </th>
+      <th >Track name</th>
+    </tr>
+  </thead>
+  <tbody>
+
+{% for t in tracksdef %}
+
+  <tr>
+    <td> {{ t.name }} </td>
+    <td> <a href = "#{{ t.name }}"> {{ t.title }} </a></td>
+  </tr>
+{% endfor %}
+</tbody>
+</table>
+
+
+
+
+{% assign papers = site.data.paperList %}
+{% assign sorted_papers = papers | sort: "id" %}
+
+{% for t in (1..6) %}
+  {% assign track_key = "T" | append: t %}
+  {% assign key = t | minus: 1 %}
+
+  <h2 id="{{tracksdef[key].name}}">Track {{ track_key }}: {{ tracksdef[key].title }}</h2>
+
+  <table class="table-workshop">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Title and Authors</th>
+        <th>session code</th>
+      </tr>
+    </thead>
+    <tbody>
+
+    {% for p in sorted_papers %}
+      {% assign parts = p.track | split: "." %}
+      {% assign last_part = parts | last %}
+
+      {% if last_part == track_key %}
+        <tr>
+          <td>{{ p.id }}</td>
+          <td>
+            <div>{{ p.title }}</div>
+            <div style="font-size: 0.9em; color: #666;">
+              {{ p.authors | join: ", " | replace: "*", "" }}
+            </div>
+          </td>
+          <td>{{ p.track }}</td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+
+    </tbody>
+  </table>
+
+{% endfor %}
+
+
+</tbody>
+</table>
+
+
+
+  
+
+
+  
+</section>

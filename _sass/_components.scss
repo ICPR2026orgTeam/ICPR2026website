@@ -1,5 +1,25 @@
 @import "variables";
 
+.homepage-sponsors {
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 3rem;
+  border-top: 1px solid #e5e5e5;
+}
+
+.sponsors-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.sponsors-row img {
+  max-height: 80px;
+  width: auto;
+}
+
 /* 🎠 Carrousel */
 .carousel-inner {
   height: 400px;
@@ -298,6 +318,9 @@ ul.reviewers li {
 
   .indus {
     background-color: #A3C1E3;
+  }
+  .comp {
+    background-color: #FF3133;
   }
 
   .welcome {

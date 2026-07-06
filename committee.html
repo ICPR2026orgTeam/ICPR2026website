@@ -4,7 +4,7 @@ title: "ICPR 2026: List of committee members"
 canonical: "https://icpr2026.org/committee.html"
 description: "Committee of ICPR 2026 - International Conference on Pattern Recognition that take place in Lyon 17-22
 August 2026."
-last_modified: 2026-04-02
+last_modified: 2026-06-16
 ---
 
 
@@ -94,7 +94,7 @@ last_modified: 2026-04-02
               <li><a href="https://lucbrun.ensicaen.fr">Luc Brun</a>, France </li>
             </ul>
           </div>
-        </div>
+       </div>
       </div>
       <div class="col-md-5  ml-3  mr-3 b-3 t-3">
         <div class="card border-info ml-1 mb-3">
@@ -143,6 +143,16 @@ last_modified: 2026-04-02
               </dl>
           </div>
         </div>
+    </div>
+    <div class="col-md-5  ml-3  mr-3 b-3 t-3">
+        <div class="card border-info ml-1 mb-3">
+          <div class="card-header">Awards Committee Chair :</div>
+          <div class="card-body text-info">
+            <ul>
+              <li><a href="https://perso.liris.cnrs.fr/laure.tougne/">Laure Tougne Rodet</a>, France</li>
+              </dl>
+          </div>
+        </div>
       </div>
 
 
@@ -188,12 +198,14 @@ last_modified: 2026-04-02
 
       <div class="col-md-5  ml-3  mr-3 b-3 t-3">
         <div class="card border-info ml-1 mb-3">
-          <div class="card-header">Women in ICPR Chairs:</div>
+          <div class="card-header">Women4PR Chairs:</div>
           <div class="card-body text-info">
             <ul>
               <li> Lale Akarun, Turkey</li>
               <li>Alexandra Branzan Albu, Canada</li>
               <li>Jing Dong, China</li>
+              <li> Linda O'Gorman, USA </li>
+              <li> Sarbani Palit, India </li>
             </ul>
 
           </div>
@@ -208,14 +220,15 @@ last_modified: 2026-04-02
 
 <section id="committee">
   <h2> Track Chairs</h2>
+  {% assign tracksdef = site.data.tracks %}
+
   <!------ Section Board Team ----->
   <div class="container d-flex justify-content-center">
     <div class="row justify-content-center">
 
       <div class="col-md-5  ml-3  mr-3 b-3 t-3">
         <div class="card border-info ml-1 mb-3">
-          <div class="card-header"><b>Track 1</b>: Machine Learning and Artificial Intelligence in Pattern Recognition
-          </div>
+          <div class="card-header"><b>{{tracksdef[0].name}}</b>: {{tracksdef[0].title}}</div>
           <div class="card-body text-info">
             <ul class="mb-0">
               <li>Modesto Castrillon-Santana, Spain </li>
@@ -230,7 +243,7 @@ last_modified: 2026-04-02
 
       <div class="col-md-5  ml-3  mr-3 b-3 t-3">
         <div class="card border-info ml-1 mb-3">
-          <div class="card-header"><b>Track 2</b>: Computer and Robot Vision </div>
+          <div class="card-header"><b>{{tracksdef[1].name}}</b>: {{tracksdef[1].title}}</div>
           <div class="card-body text-info">
             <ul class="mb-0">
               <li>Si Liu, China </li>
@@ -246,8 +259,8 @@ last_modified: 2026-04-02
 
       <div class="col-md-5  ml-3  mr-3 b-3 t-3">
         <div class="card border-info ml-1 mb-3">
-          <div class="card-header"><b>Track 3</b>: Image, Speech, Signal and Video Processing </div>
-          <div class="card-body text-info">
+          <div class="card-header"><b>{{tracksdef[2].name}}</b>: {{tracksdef[2].title}}</div>
+            <div class="card-body text-info">
             <ul class="mb-0">
               <li>Yi-Zhe Song, UK</li>
               <li>Jianhua Tao, China</li>
@@ -260,7 +273,7 @@ last_modified: 2026-04-02
 
       <div class="col-md-5  ml-3  mr-3 b-3 t-3">
         <div class="card border-info ml-1 mb-3">
-          <div class="card-header"><b>Track 4</b>: Biometrics and Human Computer Interaction </div>
+          <div class="card-header"><b>{{tracksdef[3].name}}</b>: {{tracksdef[3].title}}</div>
           <div class="card-body text-info">
             <ul class="mb-0">
               <li>Jing Dong, China</li>
@@ -273,7 +286,7 @@ last_modified: 2026-04-02
       </div>
       <div class="col-md-5  ml-3  mr-3 b-3 t-3">
         <div class="card border-info ml-1 mb-3">
-          <div class="card-header"><b>Track 5</b>: Document Analysis and Recognition </div>
+          <div class="card-header"><b>{{tracksdef[4].name}}</b>: {{tracksdef[4].title}}</div>
           <div class="card-body text-info">
             <ul class="mb-0">
               <li>Elisa Barney-Smith, Sweden</li>
@@ -287,8 +300,8 @@ last_modified: 2026-04-02
 
       <div class="col-md-5  ml-3  mr-3 b-3 t-3">
         <div class="card border-info ml-1 mb-3">
-          <div class="card-header"><b>Track 6</b>: Biomedical Image Analysis and Bioinformatics </div>
-          <div class="card-body text-info">
+          <div class="card-header"><b>{{tracksdef[5].name}}</b>: {{tracksdef[5].title}}</div>
+            <div class="card-body text-info">
             <ul class="mb-0">
               <li>Alexandre Falcao, Brazil</li>
               <li>Seong-Whan Lee, South Korea</li>
