@@ -110,5 +110,15 @@
     <lastmod>2026-04-30T00:13:00+00:00</lastmod>
     <priority>0.95</priority>
   </url>
+   <url>
+    <loc>https://icpr2026.org/oralPresInstructions.html</loc>
+    <lastmod>2026-07-06T02:15:00+00:00</lastmod>
+    <priority>0.95</priority>
+  </url>
+   <url>
+    <loc>https://icpr2026.org/posterPresInstructions.html</loc>
+    <lastmod>2026-07-06T02:15:00+00:00</lastmod>
+    <priority>0.95</priority>
+  </url>
 
 </urlset>
