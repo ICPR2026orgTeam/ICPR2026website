@@ -38,15 +38,19 @@
 <main>
   <div class="container px-1">    
    
-    {% assign sessionID = page.slug | remove_first: "oral" %}
-    {% assign session = site.data.sessionsPaperID | where: "sessionId", sessionID | first %}
+    {% assign pageBaseCode = page.slug | remove_first: "oral" %}
+    {% assign room = pageBaseCode | slice: 1 %}
+    {% assign sessionID = pageBaseCode | slice: 0 %}
+    {% assign session = site.data.sessionsPaperID
+    | where: "sessionId", sessionID
+    | where: "codePlace", room
+    | first %}
+
     {% assign listPapersAll = site.data.paperList %}
     
     {% assign paperID = session.listPapers | split: " " %}
-   <h1> {{ session["title"] }}  </h1>
-
-    <h3> Session chair: {{ session["chair"] }} </h3>
-
+   <h1>{{ session["title"] }} (O{{sessionID}}-{{session["codePlace"]}}.T{{session["paperTrack"]}})  </h1>
+<h3> Track: {{ session["paperTrack"] }}; Session chair: {{ session["chair"] }};  Location: {{ session["place"] }} </h3>
     <h4> Details </h4>
     
 

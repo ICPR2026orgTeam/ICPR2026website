@@ -49,7 +49,7 @@
 {% assign base = page.slug %}
 {% assign src = "oral" | append: session.sessionId  %}
 {% if  src contains  base  %}
-   <li> <a href="{{ site.baseurl }}/sessions/oral{{session.sessionId}}/"> {{ session.title }} </a>    </li>
+   <li> <a href="{{ site.baseurl }}/sessions/oral{{session.sessionId}}{{session.codePlace}}/"> O{{sessionID}}-{{session["codePlace"]}}.T{{session["paperTrack"]}}:  {{ session["title"] }} {{ session.title }} </a>    </li>
 {% endif %}
 
 {% endfor %}
