@@ -20,10 +20,6 @@
   paperTrack: "1"
 
 
-
-
-
-
 - sessionId: "1" 
   title: "Oral Sessions"
   codePlace: "C"
@@ -32,6 +28,27 @@
   date: "Monday at 11:10-12:30" 
   chair: "Martin XX"
   paperTrack: "2"
+
+
+
+- sessionId: "8" 
+  title: "Oral Sessions"
+  codePlace: "E"
+  place: "Room E"
+  listPapers: "276 278 282 "
+  date: "Wednesday at 16:30-17:50" 
+  chair: "Super Women"
+  paperTrack: "6"
+  last_modified: 06/07/2026
+
+- sessionId: "8" 
+  title: "Oral Sessions"
+  codePlace: "E"
+  place: "Room E"
+  listPapers: "458 459 472 "
+  date: "Wednesday at 16:30-17:50" 
+  chair: "Super Man"
+  paperTrack: "6"
 
 
 
