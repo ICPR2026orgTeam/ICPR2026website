@@ -44,19 +44,36 @@
     {% assign listPaper = site.data.paperList %}
     {% assign time = site.data.timeSession %}
     {% capture code %}P{{posterSessionID}}{% endcapture %}
+
+    {% assign listPapers = "" | split: "" %}
+
+    {% for paper in site.data.paperList %}
+    {% assign trackPrefix = paper.track | slice: 0, 2 %}
+    {% if trackPrefix == code %}
+      {% assign listPapers = listPapers | push: paper %}
+    {% endif %}
+    {% endfor %}
+
+
+    {% assign tracks = "" | split: "" %}
+
+    {% for p in listPapers %}
+    {% unless tracks contains p.track %}
+      {% assign tracks = tracks | push: p.track %}
+    {% endunless %}
+    {% endfor %}
+
+
+
     
     <h1> Poster Session {{posterSessionID}} </h1>
     <h3>Date:  {{ time[code].day }} at {{ time[code].time }} </h3>
+    <h3>Track present: {% for track in tracks %}
+      {{ track | slice: -2, 2 }}
+      {% endfor %} </h3>
     <h4> Details </h4>
 
-{% assign listPapers = "" | split: "" %}
 
-{% for paper in site.data.paperList %}
-  {% assign trackPrefix = paper.track | slice: 0, 2 %}
-  {% if trackPrefix == code %}
-    {% assign listPapers = listPapers | push: paper %}
-  {% endif %}
-{% endfor %}
  <table class="table-workshop">
     <thead>
       <tr>
@@ -66,9 +83,10 @@
       </tr>
     </thead>
     <tbody>
-      
+      {% assign listPapers = listPapers | sort: "track" %}
 
-      {% for p in listPapers %}
+
+      {% for p in listPapers  %}
  <tr>
           <td>{{ p.id }}</td>
           <td>
