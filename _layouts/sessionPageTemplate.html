@@ -63,35 +63,30 @@
     {% assign listPapers = listPaper | where: "track", mySessionCode  %}
     <ul>
 
-
+ <table class="table-workshop">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Title and Authors</th>
+      </tr>
+    </thead>
+    <tbody>
+    
       {% for paper in listPapers %}
-      <li>
-        <ul> 
-          <li>Title:   {{ paper.title }}</li>
-          <li>AUTHORS:   {{ paper.authors }}</li>
-        </ul>
-      </li>
-
+      <tr>
+        <td>{{ paper.id }}</td>
+        <td>
+            <div>{{ paper.title }}</div>
+            <div style="font-size: 0.9em; color: #666;">
+              {{ paper.authors | join: ", " | replace: "*", "" }}
+            </div>
+        </td>
+      </tr>
 {% endfor %}
 </ul>
 
-{% comment %}
-
-<ul>
-{% for key in paperID %}
-  {% assign idNumber = key | plus: 0 %}
-   {% assign result = listPapersAll | where: "id", idNumber | first %}
-
-<li>
-  <ul> 
-   <li>Title:   {{ result.title }}</li>
-   <li>AUTHORS:   {{ result.authors }}</li>
-  </ul>
-</li>
-
-{% endfor %}
-</ul>
-{% endcomment %}
+</tbody>
+</table>
 
 </main>
 
