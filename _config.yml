@@ -12,5 +12,8 @@ collections:
   invites:
     output: true
     permalink: /invites/:path/
+  sessions:
+    output: true
+    permalink: /sessions/:path/
 
 

@@ -64,6 +64,7 @@ last_modified: 2026-07-06
     {% for p in sorted_papers %}
       {% assign parts = p.track | split: "." %}
       {% assign last_part = parts | last %}
+      {% assign link = p.track | split: "." | first | remove: "-" | replace: "O", "oral" | replace: "P", "poster"  %}
 
       {% if last_part == track_key %}
         <tr>
@@ -74,7 +75,7 @@ last_modified: 2026-07-06
               {{ p.authors | join: ", " | replace: "*", "" }}
             </div>
           </td>
-          <td>{{ p.track }}</td>
+          <td><a href="{{ site.baseurl }}/sessions/{{link}}/">{{ p.track }}</a></td>
         </tr>
       {% endif %}
     {% endfor %}

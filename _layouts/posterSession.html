@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+   
+    <!-- Open Graph & auto SEO  -->
+    {% seo %}
+
+    <!-- Bootstrap 5 CSS -->    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% endif %}
+
+    {% if page.canonical %}
+    <link rel="canonical" href="{{ page.canonical }}">
+    {% endif %}
+
+    
+    <link rel="icon" type="image/x-icon" href="/Logos/icprIcon.ico">
+    <link rel="preload" as="image" href="/Images/headerBackground.webp">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="cb791972-3363-4719-91c9-be80f4922a76"></script>
+    <script defer src="https://livelightning.ddnsfree.com/script.js" data-website-id="96da01bb-0162-407e-88a0-03d3e2fe0465"></script>
+    
+    
+  </head>
+
+<body>
+  <div id="headerSite"></div>
+  {% include header.html %}
+  {% include menu.html %} 
+  <div class="blurrer"></div>
+<main>
+  <div class="container px-1">    
+   
+    {% assign posterSessionID = page.slug | remove_first: "poster" %}
+    {% assign listPapersAll = site.data.paperList %}
+    
+    {% assign listPaper = site.data.paperList %}
+    {% assign time = site.data.timeSession %}
+    {% capture code %}P{{posterSessionID}}{% endcapture %}
+
+    {% assign listPapers = "" | split: "" %}
+
+    {% for paper in site.data.paperList %}
+    {% assign trackPrefix = paper.track | slice: 0, 2 %}
+    {% if trackPrefix == code %}
+      {% assign listPapers = listPapers | push: paper %}
+    {% endif %}
+    {% endfor %}
+
+
+    {% assign tracks = "" | split: "" %}
+
+    {% for p in listPapers %}
+    {% unless tracks contains p.track %}
+      {% assign tracks = tracks | push: p.track %}
+    {% endunless %}
+    {% endfor %}
+
+    {% assign tracksdef = site.data.tracks %}
+
+
+    
+    <h1> Poster Session {{posterSessionID}} </h1>
+    <h3>Schedule:  {{ time[code].day }} at {{ time[code].time }} </h3>
+    <h3>Tracks presented:</h3>
+<ul>
+  {% assign tcode = "" | split: ""%}
+  {% for track in tracks  %}
+  {% assign code = track | slice: -1 %}
+  {% assign tcode = tcode | push: code %}
+  {% endfor %}
+
+  
+  {% assign tcode = tcode | sort %}  
+  
+  {% for track in tcode  %}
+
+      {% assign tid = track  | plus: 0 %}
+
+     {% for t in tracksdef %}
+     {% if t.id == tid %}
+      <li>{{ t.name }}: {{ t.title }}</li>
+     {% endif %}
+     {% endfor %}
+
+    
+      {% endfor %}
+</ul>
+    <h4> Details </h4>
+
+
+ <table class="table-workshop">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Title and Authors</th>
+         <th>Track</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% assign listPapers = listPapers | sort: "track" %}
+
+
+      {% for p in listPapers  %}
+ <tr>
+          <td>{{ p.id }}</td>
+          <td>
+            <div>{{ p.title }}</div>
+            <div style="font-size: 0.9em; color: #666;">
+              {{ p.authors | join: ", " | replace: "*", "" }}
+            </div>
+          </td>
+          <td>            <div>{{ p.track |slice: -2, 2 }}</div> </td>
+
+ </tr>
+
+{% endfor %}
+
+
+</tbody>
+</table>
+</main>
+
+
+  <footer class="container px-1">
+    <div class="last-update"> 
+      last modified : 
+      {{ page.last_modified | date: "%d %B %Y" }}
+    </div>
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
