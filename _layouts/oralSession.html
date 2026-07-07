@@ -54,8 +54,12 @@
     {% capture code %}O{{sessionID}}{% endcapture %}
 
     <h1>{{ session["title"] }} (O{{sessionID}}-{{session["codePlace"]}}.T{{session["paperTrack"]}})  </h1>
-<h3> Track: {{ session["paperTrack"] }}; Session chair: {{ session["chair"] }};  Location: {{ session["place"] }} </h3>
-<h3>Date:  {{ time[code].day }} at {{ time[code].time }} </h3>
+    <h3> Track: {{ session["paperTrack"] }};
+      {% if session["chair"] != "" %}
+      ; Session chair: {{ session["chair"] }};
+      {% endif %}
+      Location: {{ session["place"] }} </h3>
+<h3>Schedule:  {{ time[code].day }} at {{ time[code].time }} </h3>
 <h4> Details </h4>
     
     {% capture mySessionCode %}O{{ sessionID }}-{{ session.codePlace }}.T{{ session.paperTrack }}{% endcapture %}

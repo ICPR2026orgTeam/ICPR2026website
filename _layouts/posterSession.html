@@ -63,14 +63,36 @@
     {% endunless %}
     {% endfor %}
 
+    {% assign tracksdef = site.data.tracks %}
 
 
     
     <h1> Poster Session {{posterSessionID}} </h1>
-    <h3>Date:  {{ time[code].day }} at {{ time[code].time }} </h3>
-    <h3>Track present: {% for track in tracks %}
-      {{ track | slice: -2, 2 }}
-      {% endfor %} </h3>
+    <h3>Schedule:  {{ time[code].day }} at {{ time[code].time }} </h3>
+    <h3>Tracks presented:</h3>
+<ul>
+  {% assign tcode = "" | split: ""%}
+  {% for track in tracks  %}
+  {% assign code = track | slice: -1 %}
+  {% assign tcode = tcode | push: code %}
+  {% endfor %}
+
+  
+  {% assign tcode = tcode | sort %}  
+  
+  {% for track in tcode  %}
+
+      {% assign tid = track  | plus: 0 %}
+
+     {% for t in tracksdef %}
+     {% if t.id == tid %}
+      <li>{{ t.name }}: {{ t.title }}</li>
+     {% endif %}
+     {% endfor %}
+
+    
+      {% endfor %}
+</ul>
     <h4> Details </h4>
 
 
@@ -101,24 +123,6 @@
 
 {% endfor %}
 
-
-{% comment %}
-
-<ul>
-{% for key in paperID %}
-  {% assign idNumber = key | plus: 0 %}
-   {% assign result = listPapersAll | where: "id", idNumber | first %}
-
-<li>
-  <ul> 
-   <li>Title:   {{ result.title }}</li>
-   <li>AUTHORS:   {{ result.authors }}</li>
-  </ul>
-</li>
-
-{% endfor %}
-</ul>
-{% endcomment %}
 
 </tbody>
 </table>
