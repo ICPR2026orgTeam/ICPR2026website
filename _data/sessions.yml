@@ -133,12 +133,12 @@
 
 
 
-- sessionId: "4" 
-  title: "Oral Session"
+- sessionId: "11" 
+  title: "Competiton Session"
   codePlace: "A"
   place: "Room A" 
   chair: ""
-  paperTrack: "C"
+  paperTrack: ""
 
 - sessionId: "4" 
   title: "Oral Session"
