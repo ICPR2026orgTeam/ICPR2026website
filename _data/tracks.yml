@@ -1,27 +1,23 @@
-
-
 - id: 1
   name: "Track 1"
   title: "Machine Learning and Artificial Intelligence in Pattern Recognition"
-
 - id: 2
   name: "Track 2"
   title: "Computer and Robot Vision"
-
 - id: 3
   name: "Track 3"
   title: "Image, Speech, Signal and Video Processing"
-
 - id: 4 
   name: "Track 4"
   title: "Biometrics and Human Computer Interaction"
-
 - id: 5
   name: "Track 5"
   title: "Document Analysis and Recognition"
-
 - id: 6
   name: "Track 6"
   title: "Biomedical Image Analysis and Bioinformatics"
 
+- id: 7
+  name: "Track Comp"
+  title: "Competition Papers"
 
