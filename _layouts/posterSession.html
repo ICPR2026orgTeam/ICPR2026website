@@ -38,42 +38,51 @@
 <main>
   <div class="container px-1">    
    
-    {% assign pageBaseCode = page.slug | remove_first: "oral" %}
-    {% assign room = pageBaseCode | slice: -1 %}
-    {% assign sessionID = pageBaseCode | remove: room  %}
-    {% assign session = site.data.sessionsPaperID
-    | where: "sessionId", sessionID
-    | where: "codePlace", room
-    | first %}
-
+    {% assign posterSessionID = page.slug | remove_first: "poster" %}
     {% assign listPapersAll = site.data.paperList %}
     
-    {% assign paperID = session.listPapers | split: " " %}
     {% assign listPaper = site.data.paperList %}
     {% assign time = site.data.timeSession %}
-    {% capture code %}O{{sessionID}}{% endcapture %}
-
-    <h1>{{ session["title"] }} (O{{sessionID}}-{{session["codePlace"]}}.T{{session["paperTrack"]}})  </h1>
-<h3> Track: {{ session["paperTrack"] }}; Session chair: {{ session["chair"] }};  Location: {{ session["place"] }} </h3>
-<h3>Date:  {{ time[code].day }} at {{ time[code].time }} </h3>
-<h4> Details </h4>
+    {% capture code %}P{{posterSessionID}}{% endcapture %}
     
-    {% capture mySessionCode %}O{{ sessionID }}-{{ session.codePlace }}.T{{ session.paperTrack }}{% endcapture %}
+    <h1> Poster Session {{posterSessionID}} </h1>
+    <h3>Date:  {{ time[code].day }} at {{ time[code].time }} </h3>
+    <h4> Details </h4>
 
-    {% assign listPapers = listPaper | where: "track", mySessionCode  %}
-    <ul>
+{% assign listPapers = "" | split: "" %}
 
+{% for paper in site.data.paperList %}
+  {% assign trackPrefix = paper.track | slice: 0, 2 %}
+  {% if trackPrefix == code %}
+    {% assign listPapers = listPapers | push: paper %}
+  {% endif %}
+{% endfor %}
+ <table class="table-workshop">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Title and Authors</th>
+         <th>Track</th>
+      </tr>
+    </thead>
+    <tbody>
+      
 
-      {% for paper in listPapers %}
-      <li>
-        <ul> 
-          <li>Title:   {{ paper.title }}</li>
-          <li>AUTHORS:   {{ paper.authors }}</li>
-        </ul>
-      </li>
+      {% for p in listPapers %}
+ <tr>
+          <td>{{ p.id }}</td>
+          <td>
+            <div>{{ p.title }}</div>
+            <div style="font-size: 0.9em; color: #666;">
+              {{ p.authors | join: ", " | replace: "*", "" }}
+            </div>
+          </td>
+          <td>            <div>{{ p.track |slice: -2, 2 }}</div> </td>
+
+ </tr>
 
 {% endfor %}
-</ul>
+
 
 {% comment %}
 

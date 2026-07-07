@@ -1,0 +1,64 @@
+
+
+
+O1:
+  time: "11h10-12h30"
+  day: "Monday 17"
+
+
+O2:
+  time: "16:30-17:50"
+  day: "Monday 17"
+
+
+O3:
+  time: "08:30-09:30"
+  day: "Tuesday 18"
+
+O4:
+  time: "11h10-12h30"
+  day: "Tuesday 18"
+
+
+O5:
+  time: "16:30-17:50"
+  day: "Tuesday 18"
+
+O6:
+  time: "08:30-09:30"
+  day: "Wednesday 19"
+
+O7:
+  time: "11h10-12h30" 
+  day: "Wednesday 19"
+
+O8:
+  time: "16:30-17:50" 
+  day: "Wednesday 19"
+
+O9:
+  time: "08:30-09:30" 
+  day: "Thursday 20"
+
+O10:
+  time: "11h10-12h30"
+  day: "Thursday 20"
+
+
+P1:
+  time: "15:00-16:30"
+  day: "Monday 17"
+
+
+P2:
+  time: "15:00-16:30"
+  day: "Tuesday 18"
+
+
+P3:
+  time: "15:00-16:30"
+  day: "Wednesday 19"
+
+P4:
+  time: "15:00-16:30"
+  day: "Thursday 20"

@@ -37,19 +37,27 @@
   <div class="blurrer"></div>
 <main>
   <div class="container px-1">    
+    
+    {% assign base = page.slug | remove_first: "oral" %}
+    {% assign room = pageBaseCode | slice: -1 %}
+    {% assign sessionID = pageBaseCode | remove: room  %}
+  
+{% assign id = page.slug | slice: 4,2  %}
 
+{% assign time = site.data.timeSession %}
+{% capture code %}O{{id}}{% endcapture %}
     
    <h1> {{ page.title }}  </h1>
-   {{ page.datesession }}:    {{ page.time }}
+   {{ time[code].day }}:    {{ time[code].time }}
    <h2> Paralell sessions  </h2>
     
-
-<ul>
+   <ul>
 {% for session in site.data.sessionsPaperID %}
-{% assign base = page.slug %}
+
 {% assign src = "oral" | append: session.sessionId  %}
-{% if  src contains  base  %}
-   <li> <a href="{{ site.baseurl }}/sessions/oral{{session.sessionId}}{{session.codePlace}}/"> O{{sessionID}}-{{session["codePlace"]}}.T{{session["paperTrack"]}}:  {{ session["title"] }} {{ session.title }} </a>    </li>
+
+{% if  src ==  page.slug  %}
+   <li> <a href="{{ site.baseurl }}/sessions/oral{{session.sessionId}}{{session.codePlace}}/"> O{{id}}-{{session["codePlace"]}}.T{{session["paperTrack"]}}:  {{ session["title"] }}  </a>    </li>
 {% endif %}
 
 {% endfor %}
