@@ -1,7 +1,7 @@
 ---
 layout: overViewOralSession
-title: "Oral Session 1"
-slug: "oral1"
+title: "Oral Session 7"
+slug: oral7
 last_modified: 27/05/2026
 ---
 

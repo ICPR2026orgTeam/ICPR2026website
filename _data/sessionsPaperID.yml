@@ -1,57 +1,424 @@
 
 - sessionId: "1" 
-  title: "Oral Sessions"
-  codePlace: "D"
-  place: "Room D"
-  listPapers: "8 14 16 18"
-  date: "Monday at 11:10-12:30" 
-  chair: "Martin XX"
-  paperTrack: "5"
-
-
-
-- sessionId: "1" 
-  title: "Oral Sessions"
+  title: "Oral Session"
   codePlace: "A"
-  place: "Room A"
-  listPapers: "8 14 16 18"
-  date: "Monday at 11:10-12:30" 
-  chair: "Martin XX"
+  place: "Room A" 
+  chair: ""
   paperTrack: "1"
 
 
 - sessionId: "1" 
-  title: "Oral Sessions"
+  title: "Oral Session"
+  codePlace: "B"
+  place: "Room B" 
+  chair: ""
+  paperTrack: "2"
+
+- sessionId: "1" 
+  title: "Oral Session"
   codePlace: "C"
-  place: "Room C"
-  listPapers: "276 278 282 "
-  date: "Monday at 11:10-12:30" 
-  chair: "Martin XX"
+  place: "Room C" 
+  chair: ""
+  paperTrack: "1"
+
+
+- sessionId: "1" 
+  title: "Oral Session"
+  codePlace: "D"
+  place: "Room D" 
+  chair: ""
+  paperTrack: "5"
+
+
+- sessionId: "1" 
+  title: "Oral Session"
+  codePlace: "E"
+  place: "Room E" 
+  chair: ""
+  paperTrack: "2"
+
+
+
+
+- sessionId: "2" 
+  title: "Oral Session"
+  codePlace: "A"
+  place: "Room A" 
+  chair: ""
+  paperTrack: "1"
+
+- sessionId: "2" 
+  title: "Oral Session"
+  codePlace: "B"
+  place: "Room B" 
+  chair: ""
+  paperTrack: "2"
+
+
+- sessionId: "2" 
+  title: "Oral Session"
+  codePlace: "C"
+  place: "Room C" 
+  chair: ""
+  paperTrack: "1"
+
+
+
+- sessionId: "2" 
+  title: "Oral Session"
+  codePlace: "D"
+  place: "Room D" 
+  chair: ""
+  paperTrack: "3"
+
+- sessionId: "2" 
+  title: "Oral Session"
+  codePlace: "E"
+  place: "Room E" 
+  chair: ""
+  paperTrack: "1"
+
+
+
+
+- sessionId: "3" 
+  title: "Oral Session"
+  codePlace: "A"
+  place: "Room A" 
+  chair: ""
+  paperTrack: "1"
+
+
+- sessionId: "3" 
+  title: "Oral Session"
+  codePlace: "B"
+  place: "Room B" 
+  chair: ""
+  paperTrack: "2"
+
+- sessionId: "3" 
+  title: "Oral Session"
+  codePlace: "B"
+  place: "Room B" 
+  chair: ""
+  paperTrack: "2"
+
+
+
+- sessionId: "3" 
+  title: "Oral Session"
+  codePlace: "C"
+  place: "Room C" 
+  chair: ""
+  paperTrack: "1"
+
+
+
+
+- sessionId: "3" 
+  title: "Oral Session"
+  codePlace: "D"
+  place: "Room D" 
+  chair: ""
+  paperTrack: "3"
+
+
+- sessionId: "3" 
+  title: "Oral Session"
+  codePlace: "E"
+  place: "Room E" 
+  chair: ""
+  paperTrack: "2"
+
+
+
+
+- sessionId: "4" 
+  title: "Oral Session"
+  codePlace: "A"
+  place: "Room A" 
+  chair: ""
+  paperTrack: "C"
+
+- sessionId: "4" 
+  title: "Oral Session"
+  codePlace: "B"
+  place: "Room B" 
+  chair: ""
+  paperTrack: "2"
+
+- sessionId: "4" 
+  title: "Oral Session"
+  codePlace: "C"
+  place: "Room C" 
+  chair: ""
+  paperTrack: "4"
+
+
+
+- sessionId: "4" 
+  title: "Oral Session"
+  codePlace: "D"
+  place: "Room D" 
+  chair: ""
+  paperTrack: "5"
+
+
+- sessionId: "4" 
+  title: "Oral Session"
+  codePlace: "E"
+  place: "Room E" 
+  chair: ""
+  paperTrack: "6"
+
+
+
+- sessionId: "5" 
+  title: "Oral Session"
+  codePlace: "A"
+  place: "Room A" 
+  chair: ""
+  paperTrack: "1"
+
+
+
+- sessionId: "5" 
+  title: "Oral Session"
+  codePlace: "B"
+  place: "Room B" 
+  chair: ""
+  paperTrack: "2"
+
+
+
+- sessionId: "5" 
+  title: "Oral Session"
+  codePlace: "C"
+  place: "Room C" 
+  chair: ""
+  paperTrack: "4"
+
+
+- sessionId: "5" 
+  title: "Oral Session"
+  codePlace: "D"
+  place: "Room D" 
+  chair: ""
+  paperTrack: "5"
+
+
+- sessionId: "5" 
+  title: "Oral Session"
+  codePlace: "E"
+  place: "Room E" 
+  chair: ""
+  paperTrack: "1"
+
+
+- sessionId: "6" 
+  title: "Oral Session"
+  codePlace: "A"
+  place: "Room A" 
+  chair: ""
+  paperTrack: "1"
+
+
+- sessionId: "6" 
+  title: "Oral Session"
+  codePlace: "B"
+  place: "Room B" 
+  chair: ""
+  paperTrack: "2"
+
+
+
+- sessionId: "6" 
+  title: "Oral Session"
+  codePlace: "C"
+  place: "Room C" 
+  chair: ""
+  paperTrack: "1"
+
+
+- sessionId: "6" 
+  title: "Oral Session"
+  codePlace: "D"
+  place: "Room D" 
+  chair: ""
+  paperTrack: "3"
+
+
+
+- sessionId: "6" 
+  title: "Oral Session"
+  codePlace: "E"
+  place: "Room E" 
+  chair: ""
+  paperTrack: "2"
+
+
+- sessionId: "7" 
+  title: "Oral Session"
+  codePlace: "A"
+  place: "Room A" 
+  chair: ""
+  paperTrack: "1"
+
+- sessionId: "7" 
+  title: "Oral Session"
+  codePlace: "B"
+  place: "Room B" 
+  chair: ""
+  paperTrack: "2"
+
+- sessionId: "7" 
+  title: "Oral Session"
+  codePlace: "C"
+  place: "Room C" 
+  chair: ""
+  paperTrack: "4"
+
+- sessionId: "7" 
+  title: "Oral Session"
+  codePlace: "D"
+  place: "Room D" 
+  chair: ""
+  paperTrack: "3"
+
+
+- sessionId: "7" 
+  title: "Oral Session"
+  codePlace: "E"
+  place: "Room E" 
+  chair: ""
+  paperTrack: "6"
+
+
+- sessionId: "8" 
+  title: "Oral Session"
+  codePlace: "A"
+  place: "Room A" 
+  chair: ""
+  paperTrack: "1"
+
+
+- sessionId: "8" 
+  title: "Oral Session"
+  codePlace: "B"
+  place: "Room B" 
+  chair: ""
   paperTrack: "2"
 
 
 
 - sessionId: "8" 
-  title: "Oral Sessions"
-  codePlace: "E"
-  place: "Room E"
-  listPapers: "276 278 282 "
-  date: "Wednesday at 16:30-17:50" 
-  chair: "Super Women"
-  paperTrack: "6"
-  last_modified: 06/07/2026
+  title: "Oral Session"
+  codePlace: "C"
+  place: "Room C" 
+  chair: ""
+  paperTrack: "1"
+
 
 - sessionId: "8" 
-  title: "Oral Sessions"
+  title: "Oral Session"
+  codePlace: "D"
+  place: "Room D" 
+  chair: ""
+  paperTrack: "3"
+
+
+- sessionId: "8" 
+  title: "Oral Session"
   codePlace: "E"
-  place: "Room E"
-  listPapers: "458 459 472 "
-  date: "Wednesday at 16:30-17:50" 
-  chair: "Super Man"
+  place: "Room E" 
+  chair: ""
+  paperTrack: "6"
+
+
+
+- sessionId: "9" 
+  title: "Oral Session"
+  codePlace: "A"
+  place: "Room A" 
+  chair: ""
+  paperTrack: "1"
+
+
+- sessionId: "9" 
+  title: "Oral Session"
+  codePlace: "B"
+  place: "Room B" 
+  chair: ""
+  paperTrack: "2"
+
+
+
+- sessionId: "9" 
+  title: "Oral Session"
+  codePlace: "C"
+  place: "Room C" 
+  chair: ""
+  paperTrack: "1"
+
+
+- sessionId: "9" 
+  title: "Oral Session"
+  codePlace: "D"
+  place: "Room D" 
+  chair: ""
+  paperTrack: "3"
+
+
+- sessionId: "9" 
+  title: "Oral Session"
+  codePlace: "E"
+  place: "Room E" 
+  chair: ""
   paperTrack: "6"
 
 
 
 
+- sessionId: "10" 
+  title: "Oral Session"
+  codePlace: "A"
+  place: "Room A" 
+  chair: ""
+  paperTrack: "1"
+
+
+
+- sessionId: "10" 
+  title: "Oral Session"
+  codePlace: "B"
+  place: "Room B" 
+  chair: ""
+  paperTrack: "2"
+
+
+- sessionId: "10" 
+  title: "Oral Session"
+  codePlace: "C"
+  place: "Room C" 
+  chair: ""
+  paperTrack: "1"
+
+
+
+- sessionId: "10" 
+  title: "Oral Session"
+  codePlace: "D"
+  place: "Room D" 
+  chair: ""
+  paperTrack: "3"
+
+
+
+- sessionId: "10" 
+  title: "Oral Session"
+  codePlace: "E"
+  place: "Room E" 
+  chair: ""
+  paperTrack: "6"
 
 
