@@ -41,7 +41,7 @@
     {% assign pageBaseCode = page.slug | remove_first: "oral" %}
     {% assign room = pageBaseCode | slice: -1 %}
     {% assign sessionID = pageBaseCode | remove: room  %}
-    {% assign session = site.data.sessionsPaperID
+    {% assign session = site.data.sessions
     | where: "sessionId", sessionID
     | where: "codePlace", room
     | first %}
