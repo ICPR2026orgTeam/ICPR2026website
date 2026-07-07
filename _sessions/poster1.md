@@ -2,7 +2,7 @@
 layout: posterSession
 title: "Poster Session 1"
 slug: "poster1"
-last_modified: 27/05/2026
+last_modified: 07/07/2026
 ---
 
 
