@@ -138,7 +138,7 @@
   codePlace: "A"
   place: "Room A" 
   chair: ""
-  paperTrack: ""
+  paperTrack: "7"
 
 - sessionId: "4" 
   title: "Oral Session"

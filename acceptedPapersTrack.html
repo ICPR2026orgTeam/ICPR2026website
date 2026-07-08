@@ -45,7 +45,7 @@ last_modified: 2026-07-06
 {% assign papers = site.data.paperList %}
 {% assign sorted_papers = papers | sort: "id" %}
 
-{% for t in (1..6) %}
+{% for t in (1..7) %}
   {% assign track_key = "T" | append: t %}
   {% assign key = t | minus: 1 %}
 
