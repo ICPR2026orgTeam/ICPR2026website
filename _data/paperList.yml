@@ -5472,14 +5472,14 @@
     Science, University of Tu
   authors: Fouad, OUESLATI*; Bahroun, Sahbi; Zagrouba, Ezzeddine
 
-- id: C1
+- id: 'C1'
   title: 'Beyond Visible Spectrum: AI for Agriculture'
   track: O11-A.T7
   fullauthors: Liangxiu Han, Wenjiang Huang, Xin Zhang, Yue Shi, Yingying Dong, Tam Sobeih, Carlo Metta, Rabina Twayana, Gaurav Parkhedkar, Danyang Wang, Kush Ashvinbhai Patel, Kungsamreth SOK, Duy Tran Khanh, Soumyajyoti Mohanta, and Sasmit Shashwat
   authors: Liangxiu Han, Wenjiang Huang, Xin Zhang, Yue Shi, Yingying Dong, Tam Sobeih, Carlo Metta, Rabina Twayana, Gaurav Parkhedkar, Danyang Wang, Kush Ashvinbhai Patel, Kungsamreth SOK, Duy Tran Khanh, Soumyajyoti Mohanta, and Sasmit Shashwat
 
 
-- id: C2
+- id: 'C2'
   title: 'Low-Resolution License Plate Recognition'
   track: O11-A.T7
   fullauthors: Rayson Laroca , Valfride Nascimento, Donggun Kim , Sanghyeok Chung , Subin Bae , Uihwan Seo , Seungsang Oh , Chi M. Phung, Minh G. Vo, Xingsong Ye, Yongkun Du, Yuchen Su, Zhineng Chen, Sunhee Heo, Hyangwoo Lee, Kihyun Na, Khanh V. Vu Nguyen, Sang T. Pham, Duc N. N. Phung, Trong P. Le, Vy N. Vo Tran, and David Menotti
@@ -5487,7 +5487,7 @@
 
 
 
-- id: C3
+- id: 'C3'
   title: 'RARE-VISION Competition'
   track: O11-A.T7
   fullauthors: Maxime Le Floch, Anni Lawniczak, Manas Dhir, Catrein Stopp, Anton A. Rapprich, Alexander Zech, Alexandra Kolbig, Hannah Tolle, Jonas L. Steinhaeuser-Meerz, Jochen Hampe, Franz Brinkmann, Anastasios Koulaouzidis, and Palak Handa
@@ -5495,7 +5495,7 @@
 
 
 
-- id: C4
+- id: 'C4'
   title: 'Privacy-Preserving Person Re-Identification from Top-View RGB-Depth Camera (TVRID)'
   track: O11-A.T7
   fullauthors: Raphaël Delécluse, Hazem Wannous, Laurent Guimas
@@ -5503,7 +5503,7 @@
 
 
 
-- id: C5
+- id: 'C5'
   title: 'VISual Tracking in Adverse Conditions (VISTAC-2)'
   track: O11-A.T7
   fullauthors: Asfak Ali, Suvojit Acharjee, Utathya Aich, Sayoni Mandal, Sheli Sinha Chaudhuri3, Sos S. Agaian, Khalifa Djemal, Yu-Hsi Chen, Carlo Metta, Diptarka Mandal, and Chiranjib Sur
