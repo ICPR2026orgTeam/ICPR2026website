@@ -7,12 +7,12 @@ O1:
 
 
 O2:
-  time: "16:30-17:50"
+  time: "16h30-17h50"
   day: "Monday 17"
 
 
 O3:
-  time: "08:30-09:30"
+  time: "08h30-09h30"
   day: "Tuesday 18"
 
 O4:
@@ -25,7 +25,7 @@ O11:
 
 
 O5:
-  time: "16:30-17:50"
+  time: "16h30-17h50"
   day: "Tuesday 18"
 
 O6:
@@ -37,11 +37,11 @@ O7:
   day: "Wednesday 19"
 
 O8:
-  time: "16:30-17:50" 
+  time: "16h30-17h50" 
   day: "Wednesday 19"
 
 O9:
-  time: "08:30-09:30" 
+  time: "08h30-09h30" 
   day: "Thursday 20"
 
 O10:
@@ -50,19 +50,19 @@ O10:
 
 
 P1:
-  time: "15:00-16:30"
+  time: "15h00-16h30"
   day: "Monday 17"
 
 
 P2:
-  time: "15:00-16:30"
+  time: "15h00-16h30"
   day: "Tuesday 18"
 
 
 P3:
-  time: "15:00-16:30"
+  time: "15h00-16h30"
   day: "Wednesday 19"
 
 P4:
-  time: "15:00-16:30"
+  time: "15h00-16h30"
   day: "Thursday 20"
