@@ -47,6 +47,14 @@
     | first %}
 
     {% assign listPapersAll = site.data.paperList %}
+
+
+    {% capture sessionNumber %}
+    {% include sessionNumber.html session=session %}
+    {% endcapture %}
+    
+
+
     
     {% assign paperID = session.listPapers | split: " " %}
     {% assign listPaper = site.data.paperList %}
@@ -55,7 +63,7 @@
     {% assign tracksdef = site.data.tracks %}
     {% assign idT = session["paperTrack"] | minus: 1%}
     <h1><a href="{{site.baseurl}}/sessions/oral{{sessionID}}">{{ session["title"] }} O{{sessionID}}-{{session["codePlace"]}}.T{{session["paperTrack"]}}</a>  </h1>
-    <h3> Track {{ session["paperTrack"] }}: {{tracksdef[idT].title}}  </h3>
+    <h3> Track {{ session["paperTrack"] }}: {{tracksdef[idT].title}} - {{sessionNumber}} </h3>
     <h3>Schedule:  {{ time[code].day }} at {{ time[code].time }}, {{ session["place"] }} </h3>
     
       {% if session["chair"] != "" %}

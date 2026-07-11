@@ -1,0 +1,16 @@
+{% assign sessionNumber = 1 %}
+
+{% for s in site.data.sessions %}
+  {% if s.paperTrack == include.session.paperTrack
+        and s.title == include.session.title %}
+
+    {% if s.sessionId == include.session.sessionId
+          and s.codePlace == include.session.codePlace %}
+      {% break %}
+    {% endif %}
+
+    {% assign sessionNumber = sessionNumber | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+{{ sessionNumber }}

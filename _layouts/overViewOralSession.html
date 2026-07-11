@@ -42,6 +42,7 @@
     {% assign room = pageBaseCode | slice: -1 %}
     {% assign sessionID = pageBaseCode | remove: room  %}
   
+    
 {% assign id = page.slug | slice: 4,2  %}
 
 {% assign time = site.data.timeSession %}
@@ -58,10 +59,15 @@
 {% assign tracksdef = site.data.tracks %}
 
 
+    {% capture sessionNumber %}
+    {% include sessionNumber.html session=session %}
+    {% endcapture %}
+
+
 {% if  src ==  page.slug  %}
 <li> <a href="{{ site.baseurl }}/sessions/oral{{session.sessionId}}{{session.codePlace}}/">
     {% assign tID = session["paperTrack"] | minus: 1 %}
-    {{ session["title"] }} O{{id}}-{{session["codePlace"]}}.T{{session["paperTrack"]}}: {{tracksdef[tID].title}}  </a>    </li>
+    {{ session["title"] }} O{{id}}-{{session["codePlace"]}}.T{{session["paperTrack"]}}: {{tracksdef[tID].title}} - {{ sessionNumber  }}   </a>    </li>
 {% endif %}
 
 {% endfor %}
