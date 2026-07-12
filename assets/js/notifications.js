@@ -15,14 +15,32 @@ async function enableNotifications() {
         return;
     }
 
-    const permission = await Notification.requestPermission();
+    try{
+        const permission = await Notification.requestPermission();
 
-    updateNotificationsInterface(button, status)
+        if (permission === "granted") {
+            const subscription = await subscribeUserToPush();
 
-    if (permission !== "granted") {
-        alert("Notifications were not enabled.");
-        return;
+            console.log(
+                "[Notifications] Push subscription:",
+                subscription
+            );
+
+            await sendSubscriptionToServer(subscription);
+        }
+    } catch (error) {
+        console.error(
+            "[Notifications] Unable to enable notifications:",
+            error
+        );
+
+        if (status) {
+            status.textContent = 
+                "An error occured while enabling notifications.";
+        }
     }
+
+    updateNotificationsInterface(button, status);
 
     const registration = await navigator.serviceWorker.ready;
 
@@ -33,6 +51,87 @@ async function enableNotifications() {
     
 }
 
+//Create the subscription
+async function subscribeUserToPush(){
+    const registration = await navigator.serviceWorker.ready;
+
+    let subscription = await registration.pushManager.getSubscription();
+
+    if (!subscription) {
+        const vapidPublicKey = await getVapidPublicKey();
+
+        subscription =await registration.pushManager.subscribe({
+            userVisibleOnly: true,
+            applicationServerKey: urlBase64ToUint8Array(vapidPublicKey)
+        });
+    }
+
+    return subscription;
+}
+
+//Convert url to Uint8 array
+function urlBase64ToUint8Array(base64String){
+
+    const padding = "=".repeat((4 - base64String.length % 4) % 4);
+
+    const base64 = (base64String + padding)
+        .replace(/-/g, "+")
+        .replace(/_/g, "/");
+
+    const rawData = window.atob(base64);
+
+    return Uint8Array.from(
+        [...rawData].map(character => character.charCodeAt(0))
+    );
+
+}
+
+//Send subscription
+async function sendSubscriptionToServer(subscription) {
+    const response = await fetch("http://localhost:3000/subscribe", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(subscription)
+    });
+
+    if (!response.ok) {
+        throw new Error(
+            `Server returned HTTP ${response.status}`
+        );
+    }
+
+    const result = await response.json();
+
+    console.log(
+        "[Notifications] Subscription sent to server:",
+        result
+    );
+
+    return result;
+}
+
+//Ask public key to backend
+async function getVapidPublicKey() {
+    const response = await fetch("http://localhost:3000/vapidPublicKey");
+    
+    if (!response.ok) {
+        throw new Error(
+            `Unable to retreive VAPID public key:  HTTP ${response.status}`
+        );
+    }
+
+    const data = await response.json();
+
+    if (!data.publicKey) {
+        throw new Error("VAPID public key is missing.");
+    }
+
+    return data.publicKey;
+}
+
+//Init of notifications
 function initializeNotifications() {
 
     console.log("[Notifications] Initializing...");
