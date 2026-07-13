@@ -1727,7 +1727,7 @@
   authors: Henry, Maxim*; Deliège, Adrien; Cioppa, Anthony; Van Droogenbroeck, Marc
 - id: 561
   title: 'Llava-Mr: Large Language-And-Vision Assistant For Video Moment Retrieval'
-  track: O3-A.T1
+  track: P3.T1
   fullauthors: Weiheng Lu (Peking University )*; An Yu (the Department of Computer
     Science, University at Albany); Jian Li (Tencent); Ming-Ching Chang (the Department
     of Computer Science, University at Albany)
@@ -4805,7 +4805,7 @@
 - id: 1453
   title: 'Beyond Co-Existence: Measuring Attribute Binding Hallucinations In Audio-Language
     Models'
-  track: P2.T1
+  track: O3-A.T1
   fullauthors: Mingi Kim (Chung-Ang University)*; Minchol Kwon (Chung-Ang University);
     Minuk Ma (University of British Columbia); Trung X.  Pham (Korea Advanced Institute
     of Science and Technology (KAIST)); Junyeong Kim (Chung-Ang University)
