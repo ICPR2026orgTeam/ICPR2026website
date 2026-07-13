@@ -15,12 +15,18 @@ last_modified: 2026-07-06
 <p>We received 1432 paper submissions to ICPR 2026. After a thorough reviewing process, the following {{ papers.size }} papers are accepted and have uploaded their camera-ready manuscript for publication in Springer’s LNCS series.
  </p>
 
-
+<div style="margin:20px 0;">
+  <label for="paperSearch"><strong>Filter by (paper ID, title, authors): </strong></label>
+  <input type="text"
+         id="paperSearch"
+         placeholder="e.g. 123"
+         style="max-width:250px;padding:6px;">
+</div>
 
 {% assign tracksdef = site.data.tracks %}
 
 
-<table class="table-workshop">
+<table class="table-workshop" id="tracksOverview">
   <thead>
     <tr>
       <th ># </th>
@@ -48,7 +54,7 @@ last_modified: 2026-07-06
 {% for t in (1..7) %}
   {% assign track_key = "T" | append: t %}
   {% assign key = t | minus: 1 %}
-
+<div class="track-section">
   <h2 id="{{tracksdef[key].name}}">Track {{ track_key }}: {{ tracksdef[key].title }}</h2>
 
   <table class="table-workshop">
@@ -82,7 +88,7 @@ last_modified: 2026-07-06
 
     </tbody>
   </table>
-
+</div>
 {% endfor %}
 
 
@@ -90,9 +96,26 @@ last_modified: 2026-07-06
 </table>
 
 
+<script>
+const search = document.getElementById("paperSearch");
+const overview = document.getElementById("tracksOverview");
 
-  
+search.addEventListener("input", function () {
+    const value = this.value.trim().toLowerCase();
+    // Hide overview tabular once entering data in input search
+    overview.style.display = value === "" ? "" : "none";
 
-
+    document.querySelectorAll(".track-section").forEach(section => {
+        let visibleRows = 0;
+        section.querySelectorAll("tbody tr").forEach(row => {
+            const text = row.textContent.toLowerCase();
+            const visible = (value === "" || text.includes(value));
+            row.style.display = visible ? "" : "none";
+            if (visible) visibleRows++;
+        });
+        section.style.display = visibleRows ? "" : "none";
+    });
+});
+</script>
   
 </section>
