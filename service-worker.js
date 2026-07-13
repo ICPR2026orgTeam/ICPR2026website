@@ -44,11 +44,25 @@ self.addEventListener("push", event => {
 });
 
 self.addEventListener("notificationclick", event => {
+
+    console.log("[Service Worker] Notification clicked.")
+
     event.notification.close();
 
     const targetUrl = event.notification.data?.url || "/";
 
-event.waitUntil(
-    clients.openWindow(targetUrl) 
+    event.waitUntil(
+        clients.matchAll({
+            type: "window",
+            includeUncontrolled: true
+        })
+        .then(windowClients => {
+            for (const client of windowClients){
+                if (client.url === new URL(targetUrl, self.location.origin).href) {
+                    return client.focus();
+                }
+            }
+            return clients.openWindow(targetUrl);
+        }) 
     );
 });
