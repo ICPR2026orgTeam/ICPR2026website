@@ -116,6 +116,14 @@ search.addEventListener("input", function () {
         section.style.display = visibleRows ? "" : "none";
     });
 });
+
+// To get link from query string
+const params = new URLSearchParams(window.location.search);
+const query = params.get("search") || params.get("id");
+if (query) {
+    search.value = query;
+    search.dispatchEvent(new Event("input"));
+}
 </script>
   
 </section>
