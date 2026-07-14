@@ -3850,7 +3850,8 @@
 - id: 1187
   title: 'Pecker: A Precisely Efficient Critical Knowledge Erasure Recipe For Machine
     Unlearning In Diffusion Models'
-  track: O5-E.T1
+  #OLD ONE track: O5-E.T1 
+  track: P2.T1 #(to be put around 767)
   fullauthors: Zhiyong Ma (South China University of Technology)*; Zhitao Deng (Guangzhou
     Xinhua University); Huan Tang ( Guangzhou Xinhua University); Jialin Chen (Cao
     Tu Li(Guangzhou) Technology Co., Ltd); Zhijun Zheng (Guangzhou Xinhua University);
