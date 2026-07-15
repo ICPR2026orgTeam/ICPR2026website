@@ -1339,7 +1339,7 @@
 - id: 452
   title: 'Prism: A Unified Framework For Photorealistic Reconstruction And Intrinsic
     Scene Modeling'
-  track: P2.T1
+  track: O5-E.T1 ## OLD P2.T1
   fullauthors: Alara Dirik (Imperial College London)*; Tuanfeng Wang (Adobe Research);
     Duygu Ceylan (Adobe Research); Stefanos Zafeiriou (Imperial College London); Anna
     Frühstück (Adobe Research)

@@ -109,8 +109,15 @@ search.addEventListener("input", function () {
         let visibleRows = 0;
         section.querySelectorAll("tbody tr").forEach(row => {
             const text = row.textContent.toLowerCase();
-            const visible = (value === "" || text.includes(value));
-            row.style.display = visible ? "" : "none";
+const id = row.querySelector("td").textContent.trim();
+
+// recherche stricte si la valeur est un nombre
+let visible;
+if (/^\d+$/.test(value)) {
+    visible = (id === value);
+} else {
+    visible = (text.includes(value));
+}            row.style.display = visible ? "" : "none";
             if (visible) visibleRows++;
         });
         section.style.display = visibleRows ? "" : "none";
