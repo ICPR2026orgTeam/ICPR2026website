@@ -24,7 +24,7 @@
 - id: 16
   title: Skeleton-Snippet Contrastive Learning With Multiscale Feature Fusion For
     Action Localization
-  track: P1.T2
+  track: P2.T2 # OLD P1.T2
   fullauthors: Qiushuo Cheng (University of Bristol)*; Jingjing Liu (University of
     Bristol); Catherine Morgan (North Bristol NHS Trust); Alan Whone ( North Bristol
     NHS Trust); Majid Mirmehdi ( University of Bristol)
@@ -231,7 +231,7 @@
 - id: 100
   title: 'Psformer: Parameter-Efficient Transformer With Segment Shared Attention
     For Time Series Forecasting'
-  track: O10-C.T1
+  track: P4.T1 #OLD O10-C.T1
   fullauthors: yanlong wang (tsinghua university)*; Jian Xu (Tsinghua University);
     Fei Ma (Guangming Laboratory); Hongkang Zhang (Tsinghua University); Shao-Lun
     Huang (Tsinghua University); Danny Dongning Sun (Pengcheng Laboratory); Xiao-Ping
@@ -259,7 +259,7 @@
 - id: 105
   title: 'Deca-Net: A Dual-Encoder Network Leveraging Pre/Post-Contrast Comparison
     For Coronary Artery Segmentation'
-  track: O8-E.T6
+  track: P3.T6 ## OLD O8-E.T6
   fullauthors: 倪 庆鑫 (东北大学); 冯 朝路 (东北大学)*; 张 睦卿 (东北大学); 杨 金柱 (东北大学)
   authors: 庆鑫, 倪; 朝路, 冯*; 睦卿, 张; 金柱, 杨
 - id: 109
@@ -567,7 +567,7 @@
   authors: KHAN, DADAN*; Zohaib, Mohammad; Timofte, Radu; Odone, Francesca
 - id: 219
   title: Llm-Based Poi Recommendation Incorporating Explicit Behavior Pattern
-  track: P4.T1
+  track: O10-C.T1 ## OLD P4.T1
   fullauthors: Xin Yao (Shanghai University); Xiangfeng Luo (Shanghai University)*;
     Xue Chen (Shanghai University); Jinhui Zhu (Shanghai University)
   authors: Yao, Xin; Luo, Xiangfeng*; Chen, Xue; Zhu, Jinhui
@@ -919,7 +919,7 @@
 - id: 317
   title: 'Chardiff-Lp: A Diffusion Model With Character-Level Guidance For License
     Plate Image Restoration'
-  track: P1.T3
+  track: P4.T3 # OLD P1.T3
   fullauthors: Kihyun Na (Handong Global University); Gyuhwan Park (Handong Global
     University); Injung Kim (Handong Global University)*
   authors: Na, Kihyun; Park, Gyuhwan; Kim, Injung*
@@ -1727,7 +1727,7 @@
   authors: Henry, Maxim*; Deliège, Adrien; Cioppa, Anthony; Van Droogenbroeck, Marc
 - id: 561
   title: 'Llava-Mr: Large Language-And-Vision Assistant For Video Moment Retrieval'
-  track: P3.T1
+  track: P3.T1 ### OLD P3.T1
   fullauthors: Weiheng Lu (Peking University )*; An Yu (the Department of Computer
     Science, University at Albany); Jian Li (Tencent); Ming-Ching Chang (the Department
     of Computer Science, University at Albany)
@@ -2813,7 +2813,7 @@
   authors: FODIL, Nour El Houda*; OLIVIER, Damien; Tranouez, Pierrick
 - id: 911
   title: 'Egohang: Graph-Enhanced Horizon Aware Egocentric Action Anticipation'
-  track: P1.T2
+  track: P3.T2 # OLD P1.T2
   fullauthors: Pawanesh Kumar  Vishwakarma ( Motilal Nehru National Institute of Technology
     Allahabad, Prayagraj); Ananda S. Chowdhury (Jadavpur University Kolkata); ABHIMANYU
     SAHU (Motilal Nehru National Institute of Technology, Allahabad,)*
@@ -3267,7 +3267,7 @@
 - id: 1032
   title: A Saliency-Driven Graph-Based Metric For Fmri-Based Visual Brain Decoding
     Evaluation
-  track: O8-B.T2
+  track: P3.T2 #OLD O8-B.T2
   fullauthors: Mohammad Moradi (University of Catania); Morteza Moradi (University
     of Catania)*; Marco Grassia (University of Catania);  Giuseppe   Mangioni  (University
     of Catania)
@@ -4806,7 +4806,7 @@
 - id: 1453
   title: 'Beyond Co-Existence: Measuring Attribute Binding Hallucinations In Audio-Language
     Models'
-  track: O3-A.T1
+  track: O3-A.T1# OLD P2
   fullauthors: Mingi Kim (Chung-Ang University)*; Minchol Kwon (Chung-Ang University);
     Minuk Ma (University of British Columbia); Trung X.  Pham (Korea Advanced Institute
     of Science and Technology (KAIST)); Junyeong Kim (Chung-Ang University)
@@ -5029,7 +5029,7 @@
   authors: Soor, Sampriti*; Ghosh, Suklav; Sur, Arijit
 - id: 1513
   title: 'Deep In The Jungle: Towards Automating Chimpanzee Population Estimation'
-  track: P1.T3
+  track: P4.T3 ## OLD P1.T3
   fullauthors: Tom Raynes (University of Bristol); Otto Brookes (University of Bristol)*;
     Timm Haucke (MIT); Anne-Sophie Crunchant (Wild Chimpanzee Foundation); Lukas Boesch
     (WCF); Hjalmar  Kühl (Senckenberg Museum of Natural History); Sara Beery (MIT);
@@ -5364,7 +5364,7 @@
 - id: 1601
   title: 'From Cells To Survival: Hierarchical Analysis Of Cell Inter-Relations In
     Multiplex Microscopy For Lung Cancer Prognosis'
-  track: P3.T6
+  track: O8-E.T6 #OLD P3.T6
   fullauthors: Olle Edgren Schüllerqvist (Uppsala University)*; Jens Baumann (PAICON
     GmbH); Joakim Lindblad (Uppsala University); Love Nordling (Uppsala University);
     Artur Mezheyeuski (Vall d’Hebron Institute of Oncology); Patrick Micke (Uppsala
