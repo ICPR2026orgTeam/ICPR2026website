@@ -919,7 +919,7 @@
 - id: 317
   title: 'Chardiff-Lp: A Diffusion Model With Character-Level Guidance For License
     Plate Image Restoration'
-  track: P1.T3
+  track: P4.T3 # OLD P1.T3
   fullauthors: Kihyun Na (Handong Global University); Gyuhwan Park (Handong Global
     University); Injung Kim (Handong Global University)*
   authors: Na, Kihyun; Park, Gyuhwan; Kim, Injung*
@@ -5029,7 +5029,7 @@
   authors: Soor, Sampriti*; Ghosh, Suklav; Sur, Arijit
 - id: 1513
   title: 'Deep In The Jungle: Towards Automating Chimpanzee Population Estimation'
-  track: P1.T3
+  track: P4.T3 ## OLD P1.T3
   fullauthors: Tom Raynes (University of Bristol); Otto Brookes (University of Bristol)*;
     Timm Haucke (MIT); Anne-Sophie Crunchant (Wild Chimpanzee Foundation); Lukas Boesch
     (WCF); Hjalmar  Kühl (Senckenberg Museum of Natural History); Sara Beery (MIT);
