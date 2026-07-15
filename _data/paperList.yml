@@ -3937,8 +3937,8 @@
   title: 'Sedtalker: Emotion-Aware 3D Facial Animation Using Frame-Level Speech Emotion
     Diarization'
   track: P4.T4
-  fullauthors: Farzaneh Jafari (University of Alberta)*
-  authors: Jafari, Farzaneh*
+  fullauthors: Farzaneh Jafari (University of Alberta)*; Stefano Berretti (University of Florence); Anup Basu (University of Alberta)
+  authors: Jafari, Farzaneh*; Berretti, Stefano; Basu, Anup 
 - id: 1210
   title: Lightweight Gating Mechanism For Rnns With Sech-Based Vector Gates
   track: P4.T1
