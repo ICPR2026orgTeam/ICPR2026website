@@ -59,15 +59,13 @@
 {% assign tracksdef = site.data.tracks %}
 
 
-    {% capture sessionNumber %}
-    {% include sessionNumber.html session=session %}
-    {% endcapture %}
+    {% capture sessionNumber %}{% include sessionNumber.html session=session%}{% endcapture %}
 
 
 {% if  src ==  page.slug  %}
 <li> <a href="{{ site.baseurl }}/sessions/oral{{session.sessionId}}{{session.codePlace}}/">
     {% assign tID = session["paperTrack"] | minus: 1 %}
-    {{ session["title"] }} O{{id}}-{{session["codePlace"]}}.T{{session["paperTrack"]}}: {{tracksdef[tID].title}} - {{ sessionNumber  }}   </a>    </li>
+    Oral Session O{{id}}-{{session["codePlace"]}}.T{{session["paperTrack"]}}: {{ session["title"] }} </a></li>
 {% endif %}
 
 {% endfor %}
