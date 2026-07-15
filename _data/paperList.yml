@@ -259,7 +259,7 @@
 - id: 105
   title: 'Deca-Net: A Dual-Encoder Network Leveraging Pre/Post-Contrast Comparison
     For Coronary Artery Segmentation'
-  track: O8-E.T6
+  track: P3.T6 ## OLD O8-E.T6
   fullauthors: 倪 庆鑫 (东北大学); 冯 朝路 (东北大学)*; 张 睦卿 (东北大学); 杨 金柱 (东北大学)
   authors: 庆鑫, 倪; 朝路, 冯*; 睦卿, 张; 金柱, 杨
 - id: 109
@@ -5364,7 +5364,7 @@
 - id: 1601
   title: 'From Cells To Survival: Hierarchical Analysis Of Cell Inter-Relations In
     Multiplex Microscopy For Lung Cancer Prognosis'
-  track: P3.T6
+  track: O8-E.T6 #OLD P3.T6
   fullauthors: Olle Edgren Schüllerqvist (Uppsala University)*; Jens Baumann (PAICON
     GmbH); Joakim Lindblad (Uppsala University); Love Nordling (Uppsala University);
     Artur Mezheyeuski (Vall d’Hebron Institute of Oncology); Patrick Micke (Uppsala
