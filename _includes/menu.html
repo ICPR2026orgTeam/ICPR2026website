@@ -96,9 +96,39 @@
     </div>
 </nav>
 
+<div id="notice-wrapper">
+ <div class="submission-notice notice active">
+    <center>
+      <strong>🍽️ Make the most of your lunch break! </strong>
+
+      <p class="mt-2">
+         Make your lunch break easier! Reserve your <a href="https://www.ecolloque.com/icpr-restauration/en/new/">conference lunch</a> in advance and avoid waiting.
+        More information
+        <a href="{{site.baseurl}}/lunchBox.html">here</a>.
+      </p>
+    </center>
+  </div>
+  <div class="submission-notice notice ">
+    <center>
+      <strong>⚠️ New important notice for Main Conference participants</strong>
+
+      <p class="mt-2">
+        The deadline for submitting the order for printing posters is
+        <b>Thursday 30 July</b>
+        (see details
+        <a href="{{site.baseurl}}/posterPresInstructions.html">here</a>
+        and tutorial
+        <a href="{{site.baseurl}}/tutoCorep.html">here</a>).
+      </p>
+    </center>
+  </div>
+
+ 
+
+</div>
 
 
-
+{% comment %}
 <div class="submission-notice">
 <center>
   <strong>⚠️ New important notice for Main Conference participant</strong>
@@ -111,7 +141,16 @@
 </center>
 </div>
 
-{% comment %}
-
-
 {% endcomment %}
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const notices = document.querySelectorAll("#notice-wrapper .notice");
+    let current = 0;
+
+    setInterval(() => {
+        notices[current].classList.remove("active");
+        current = (current + 1) % notices.length;
+        notices[current].classList.add("active");
+    }, 5000);
+});
+</script>
