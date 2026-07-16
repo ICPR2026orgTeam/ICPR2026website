@@ -567,7 +567,7 @@
   authors: KHAN, DADAN*; Zohaib, Mohammad; Timofte, Radu; Odone, Francesca
 - id: 219
   title: Llm-Based Poi Recommendation Incorporating Explicit Behavior Pattern
-  track: O10-C.T1 ## OLD P4.T1
+  track: P4.T1 ##O10-C.T1 ## OLD P4.T1
   fullauthors: Xin Yao (Shanghai University); Xiangfeng Luo (Shanghai University)*;
     Xue Chen (Shanghai University); Jinhui Zhu (Shanghai University)
   authors: Yao, Xin; Luo, Xiangfeng*; Chen, Xue; Zhu, Jinhui
