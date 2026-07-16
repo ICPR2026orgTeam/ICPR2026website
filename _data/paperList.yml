@@ -3033,7 +3033,7 @@
   authors: dong, juncheng*; wu, zihao; Jafarkhani, Hamid; Pezeshki, Ali; Tarokh, Vahid
 - id: 969
   title: Eliminating Object Hallucination In Mllms Via Convex Potential Flow Intervention
-  track: P4.T1
+  track: O10-C.T1 # OLD P4.T1
   fullauthors: Ziqiang Shi (Fujitsu Research \& Development Center Co.,LTD.)*; Rujie
     Liu (Fujitsu Research \& Development Center Co.,LTD.); Shanshan Yu (Fujitsu Limited);
     Koichi Shirahata (Fujitsu Limited)
