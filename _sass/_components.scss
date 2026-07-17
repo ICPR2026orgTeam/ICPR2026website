@@ -374,6 +374,11 @@ ul.reviewers li {
     perspective:1200px;
     min-height:120px; /* adapte selon la hauteur de tes annonces */
 }
+@media (max-width:768px){
+    #notice-wrapper{
+        min-height:200px;
+    }
+}
 
 .notice{
     position:absolute;
@@ -408,5 +413,6 @@ ul.reviewers li {
   margin-bottom: 8px;
   font-size: 1.3rem;
 }
+
 
 
