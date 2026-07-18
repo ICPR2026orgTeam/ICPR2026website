@@ -390,10 +390,43 @@ ul.reviewers li {
 .submission-notice p {
   margin: 6px 0;
 }
+
+#notice-wrapper {
+    position: relative;
+    perspective: 1200px;
+    min-height: 110px; /* à adapter */
+}
+
 .notice {
-    display: none;
+    position: absolute;
+    inset: 0;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+    transform-origin: top center;
+    transform: rotateX(-85deg) translateZ(-40px);
+
+    transition:
+        transform 0.7s cubic-bezier(.22,.61,.36,1),
+        opacity 0.45s ease,
+        visibility 0s linear .7s;
+
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
 }
 
 .notice.active {
-    display: block;
+    position: relative;
+
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+
+    transform: rotateX(0deg) translateZ(0);
+
+    transition:
+        transform 0.7s cubic-bezier(.22,.61,.36,1),
+        opacity 0.45s ease;
 }
