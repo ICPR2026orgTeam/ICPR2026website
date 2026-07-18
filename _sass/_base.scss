@@ -4,9 +4,7 @@
 
 body {
     font: normal 1.2em $font-main;
-    padding: 30;
-    font: normal;
-
+    padding: 0;
 }
 
 a {
@@ -133,13 +131,11 @@ footer {
   display: inline-block;
   padding-bottom: 0.3rem;
 }
-
-.news-list {
+news-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
   gap: 1.5rem;
 }
-
 .news-item {
   background: #fff;
   border: 1px solid #ddd;

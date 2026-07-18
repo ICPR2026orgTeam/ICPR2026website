@@ -2,13 +2,16 @@
 
 /* 🎓 Bandeau ICPR */
 .background-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-image: image-set(
     url("/Images/headerBackground.webp") type("image/webp"),
     url("/Images/headerBackground.jpg") type("image/jpeg")
   );
   background-size: cover;
   background-position: center;
-  display: flex;
+  
   align-items: center;
   justify-content: center; // centrer horizontalement aussi
   color: white;

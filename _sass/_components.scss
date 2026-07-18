@@ -1,5 +1,6 @@
 @import "variables";
 
+
 .homepage-sponsors {
   text-align: center;
   padding: 2rem 0;
@@ -7,19 +8,20 @@
   border-top: 1px solid #e5e5e5;
 }
 
-.sponsors-row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 4rem;
-  flex-wrap: wrap;
+sponsors-row {
+     display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 4rem;
+ flex-wrap: wrap;
 }
+
 
 .sponsors-row img {
-  max-height: 80px;
-  width: auto;
-}
+    max-height: 80px;
+    width: auto;
 
+}
 /* 🎠 Carrousel */
 .carousel-inner {
   height: 400px;
@@ -369,41 +371,12 @@ ul.reviewers li {
 
 
 
-#notice-wrapper{
-    position:relative;
-    perspective:1200px;
-    min-height:120px; /* adapte selon la hauteur de tes annonces */
-}
-@media (max-width:768px){
-    #notice-wrapper{
-        min-height:200px;
-    }
-}
 
-.notice{
-    position:absolute;
-    inset:0;
-
-    backface-visibility:hidden;
-    transform-origin:center center;
-
-    opacity:0;
-    transform:rotateX(-90deg);
-
-    transition:
-        transform .7s cubic-bezier(.4,.2,.2,1),
-        opacity .7s;
-}
-
-.notice.active{
-    opacity:1;
-    transform:rotateX(0deg);
-}
 .submission-notice {
   border-left: 5px solid #d32f2f; /* rouge sobre */
   background-color: #fff5f5;
-  padding: 16px 10px;
-  margin: 5px 0;
+  padding: 16px 20px;
+  margin: 24px 0;
   font-size: 1.2rem;
   line-height: 1.5;
 }
@@ -414,5 +387,13 @@ ul.reviewers li {
   font-size: 1.3rem;
 }
 
+.submission-notice p {
+  margin: 6px 0;
+}
+.notice {
+    display: none;
+}
 
-
+.notice.active {
+    display: block;
+}

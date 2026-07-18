@@ -27,7 +27,33 @@
 
     <script defer src="https://cloud.umami.is/script.js" data-website-id="cb791972-3363-4719-91c9-be80f4922a76"></script>
     <script defer src="https://livelightning.ddnsfree.com/script.js" data-website-id="96da01bb-0162-407e-88a0-03d3e2fe0465"></script>    
+
+    <!-- Application -->   
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#1a1a1a">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="ICPR 2026">
+    <link rel="apple-touche-icon" href="./Logos/icprIcon-square.png">
+    
   </head>
+
+  <script>
+      if ("serviceWorker" in navigator){
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("/service-worker.js")
+          .then(function (registration) {
+            console.log("Service worker registered:", registration);
+          })
+          .catch(function (error) {
+            console.error("Service worker registration failed:", error)
+          });
+        });
+      }
+  </script>
+  
+
+  <script src="{{'/assets/js/notifications.js' | relative_url }}"></script>
 
   <body>
     <div id="headerSite"></div>
@@ -36,12 +62,15 @@
     <div class="blurrer"></div>
 
     <main>
-      <div  class="container px-1 ">    
+<div class="container px-1">
+
+
             {{ content }}
+
       </div>
     </main>
     
-    <footer class="container px-1">
+    <footer class="container ">
       <div class="last-update"> 
         last modified : 
         {{ page.last_modified | date: "%d %B %Y" }}
