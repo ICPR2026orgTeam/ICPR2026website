@@ -131,17 +131,17 @@ footer {
   display: inline-block;
   padding-bottom: 0.3rem;
 }
-news-list {
+.news-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
 }
+
 .news-item {
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 10px;
   padding: 1rem;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
 .news-item h3 a {
