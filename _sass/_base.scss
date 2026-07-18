@@ -4,9 +4,7 @@
 
 body {
     font: normal 1.2em $font-main;
-    padding: 30;
-    font: normal;
-
+    padding: 0;
 }
 
 a {
@@ -133,7 +131,6 @@ footer {
   display: inline-block;
   padding-bottom: 0.3rem;
 }
-
 .news-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -145,7 +142,6 @@ footer {
   border: 1px solid #ddd;
   border-radius: 10px;
   padding: 1rem;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
 .news-item h3 a {
