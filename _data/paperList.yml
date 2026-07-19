@@ -4806,7 +4806,7 @@
 - id: 1453
   title: 'Beyond Co-Existence: Measuring Attribute Binding Hallucinations In Audio-Language
     Models'
-  track: O3-A.T1# OLD P2
+  track: O3-A.T1 # OLD P2
   fullauthors: Mingi Kim (Chung-Ang University)*; Minchol Kwon (Chung-Ang University);
     Minuk Ma (University of British Columbia); Trung X.  Pham (Korea Advanced Institute
     of Science and Technology (KAIST)); Junyeong Kim (Chung-Ang University)
@@ -5463,15 +5463,6 @@
     marco zorzi ( University of Padova); lamberto ballan (University of Padova); alberto
     testolin (University of Padova)*
   authors: hou, kuinan; mi, jing; zorzi, marco; ballan, lamberto; testolin, alberto*
-- id: 1639
-  title: 'Emo-Gnn: Graph Neural Networks For Explainable Monoand Multi-Label Emotion
-    Detection'
-  track: O1-D.T5
-  fullauthors: OUESLATI Fouad (LIMTIC-ISI)*; Sahbi Bahroun (LR16ES06 Laboratoire LIMTIC,
-    Higher Institute of Computer Science, University of Tunis El Manar, Tunisia);
-    Ezzeddine Zagrouba (LR16ES06 Laboratoire LIMTIC, Higher Institute of Computer
-    Science, University of Tu
-  authors: Fouad, OUESLATI*; Bahroun, Sahbi; Zagrouba, Ezzeddine
 
 - id: 1701
   title: 'Beyond Visible Spectrum: AI for Agriculture'
