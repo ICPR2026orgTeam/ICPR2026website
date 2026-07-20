@@ -605,3 +605,73 @@ last_modified: 2026-07-09
 
     
     </section>
+
+
+{% assign sessions = site.data.sessions %}
+{% assign tracksdef = site.data.tracks %}
+{% assign time = site.data.timeSession %}
+
+<section id="track-program">
+
+<h2>Oral sessions program by track</h2>
+
+{% for t in (1..7) %}
+
+{% assign track_key = t | append: "" %}
+{% assign key = t | minus: 1 %}
+
+<div class="track-program-section">
+
+<h3>
+Track {{ t }}: {{ tracksdef[key].title }}
+</h3>
+
+<table class="table-workshop">
+<thead>
+<tr>
+<th>Session</th>
+<th>day</th>
+<th>Time</th>
+<th>Room</th>
+</tr>
+</thead>
+
+<tbody>
+
+{% assign track_sessions = sessions | where:"paperTrack",track_key %}
+
+
+{% for s in track_sessions %}
+
+<tr>
+<td>
+<a href="{{site.baseurl}}/sessions/oral{{s.sessionId}}{{s.codePlace}}">
+{{s.title}}
+</a>
+</td>
+<td>
+{% assign sessionCode = "O" | append: s.sessionId %}
+{{time[sessionCode].day}}
+</td>
+
+<td>
+{% assign sessionCode = "O" | append: s.sessionId %}
+{{time[sessionCode].time}}
+</td>
+
+<td>
+{{s.place}}
+</td>
+
+</tr>
+
+{% endfor %}
+
+</tbody>
+</table>
+
+</div>
+
+{% endfor %}
+
+</section>
