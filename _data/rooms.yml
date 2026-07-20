@@ -1,9 +1,9 @@
 
 
 rooms:
-  "A": "Main Auditorium"
+  "A": <span class="long-text">Main Auditorium</span><span class="med-text">Main Auditorium</span> <span class="short-text">Audit.</span>
   "B": "Gratte-Ciel 1-2"
-  "C": "Prestige Gratte-Ciel"
+  "C": <span class="long-text">Prestige Gratte-Ciel</span><span class="med-text">Prestige Gratte-Ciel.</span> <span class="short-text">Prest. Gratte-Ciel</span>
   "D": "Gratte-Ciel 3"
   "E": "Tête d'or 1"
 
