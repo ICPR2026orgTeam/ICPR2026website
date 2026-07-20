@@ -44,7 +44,7 @@
   
     
 {% assign id = page.slug | slice: 4,2  %}
-
+{% assign room_names = site.data.rooms.rooms %}
 {% assign time = site.data.timeSession %}
 {% capture code %}O{{id}}{% endcapture %}
     
@@ -65,7 +65,7 @@
 {% if  src ==  page.slug  %}
 <li> <a href="{{ site.baseurl }}/sessions/oral{{session.sessionId}}{{session.codePlace}}/">
     {% assign tID = session["paperTrack"] | minus: 1 %}
-    Oral Session O{{id}}-{{session["codePlace"]}}.T{{session["paperTrack"]}}: {{ session["title"] }} </a></li>
+    Oral Session O{{id}}-{{session["codePlace"]}}.T{{session["paperTrack"]}}: {{ session["title"] }} ({{room_names[session["codePlace"]]}}) </a></li>
 {% endif %}
 
 {% endfor %}
