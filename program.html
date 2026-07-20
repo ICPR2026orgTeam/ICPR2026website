@@ -655,7 +655,7 @@ Track {{ t }}: {{ tracksdef[key].title }}
 {% assign sessionCode = "O" | append: s.sessionId %}
 
 <span class="long-text">{{ time[sessionCode].day }}</span>
-<span class="med-text">{{ time[sessionCode].day | slice: 0, 10 }}</span>
+<span class="med-text">{{ time[sessionCode].day  }}</span>
 <span class="short-text">{{ time[sessionCode].day | slice: 0, 2 }} {{ time[sessionCode].day | slice: -2, 2 }}</span>
 
 
