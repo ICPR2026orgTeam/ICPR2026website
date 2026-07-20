@@ -1,9 +1,17 @@
 
 rooms:
-  "A": "Main Amphiteater"
-  "B": "Room B"
-  "C": "Room C"
-  "D": "Room D"
-  "E": "Room E"
+  "A": "Main Auditorium"
+  "B": "Prestige Gratte-Ciel"
+  "C": "Gratte-Ciel 1"
+  "D": "Gratte-Ciel 2"
+  "E": "Gratte-Ciel 3"
+
+
+#rooms:
+#  "A": "Main Auditorium"
+#  "B": "Gratte-Ciel 1-2"
+#  "C": "Prestige Gratte-Ciel"
+#  "D": "Gratte-Ciel 3"
+#  "E": "Tête d'or 1"
 
 
