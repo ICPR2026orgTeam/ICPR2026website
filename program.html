@@ -610,6 +610,7 @@ last_modified: 2026-07-09
 {% assign sessions = site.data.sessions %}
 {% assign tracksdef = site.data.tracks %}
 {% assign time = site.data.timeSession %}
+{% assign room_names = site.data.rooms.rooms %}
 
 <section id="track-program">
 
@@ -660,7 +661,7 @@ Track {{ t }}: {{ tracksdef[key].title }}
 </td>
 
 <td>
-{{s.place}}
+  {{room_names[s.codePlace]}}
 </td>
 
 </tr>
