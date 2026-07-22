@@ -1,0 +1,315 @@
+---
+layout: default
+title: "ICPR 2026 - International Conference on Pattern Recognition"
+canonical: "https://icpr2026.org/test.html"
+description: "Main page of ICPR 2026 - International Conference on Pattern Recognition that take place in Lyon 17-22 August 2026."
+last_modified: 2026-07-11
+---
+<script>
+    const q = window.location.search;
+    if (q.match(/(\?|&)(page_id|p|cat|feed|author)=/)) {
+        window.location.replace(window.location.origin + '/');
+    }
+</script>
+    <!-- About Conference -->
+    <section id="forAuthors">
+
+
+<div class="row">
+
+    <div class="col-lg-12">
+      <h1>About the ICPR Conference</h1>
+      <p>
+        The International Conference on Pattern Recognition (ICPR) is
+        the leading event of the International Association for Pattern
+        Recognition, recognized as a top conference in the field. It
+        encompasses a wide range of topics where Pattern Recognition
+        methods are applied in fields including Computer Vision,
+        Machine Learning, Image Processing, Speech and Natural
+        Language Processing, and Sensor Pattern Processing. The 28th
+        ICPR, taking place from 17 to 22 August 2026, offers an
+        excellent platform for students, academics, and industry
+        researchers to foster new ideas and collaborations.
+      </p>
+    </div>
+
+
+
+
+    <section id="keynotespeaker" class="keynote-speaker-panel">
+  <h2>Keynote Speakers</h2>
+
+  <div class="container">
+    <div class="row text-center justify-content-around">
+      {% assign sorted_invites = site.invites | sort: "idInvite" %}
+
+      {% for ks in sorted_invites   %}
+    <div class="col-sm-12 col-md-4 col-lg-3 mb-4">
+  <a href="{{ ks.url | relative_url  }}"> 
+        <article class="keynotespeaker-item">
+
+          <!-- IMAGE -->
+          <div class="speaker-img-wrapper mb-2">
+            <img src="{{ site.baseurl }}/Images/{{ ks.photoSpeaker }}" alt="{{ ks.name }}" class="speaker-img">
+          </div>
+
+          <!-- NAME -->
+          <h6 class="speaker-name mb-0">
+            <a href="{{ ks.url }}">{{ ks.name }}</a>
+          </h6>
+
+          <!-- UNIVERSITY -->
+          <small class="speaker-university text-muted">
+            {{ ks.company }}
+          </small>
+
+        </article>
+</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+     
+    
+     <section id="news" class="news-panel">
+       <h2>Latest News</h2>
+       <div class="news-list">
+    {% for post in site.posts limit:3 %}
+      <article class="news-item">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p class="news-date">{{ post.date | date: "%d %B %Y" }}</p>
+        <p>{{ post.excerpt  | truncatewords: 25 }}</p>
+      </article>
+    {% endfor %}
+       </div>
+       <p class="more-news"><a href="/news.html">See all news →</a></p>
+       <a href="{{ "/feed.xml" | relative_url }}">📡 RSS</a>
+     </section>
+
+
+
+
+
+
+     
+  <!-- Contact information -->
+  <div class="row mt-12">
+<div class="col-12 col-lg-6 mx-auto px-2 px-md-3">
+      <div class="card border-info mb-2">
+        <div class="card-header text-center">Contact information and social media</div>
+        <div class="card-body text-center ">
+          <div class="card-body text-center">
+            <p>Contact for:
+            <table class="table-contact">
+              <tbody>
+                <tr>
+                  <td class="left">program chair:</td>
+                  <td  class="right"><a href="mailto:pc@icpr2026.org">pc@icpr2026.org</a></td>
+                </tr>
+                <tr>
+                  <td class="left">general chairs:</td>
+                  <td class="right"><a href="mailto:general_chairs@icpr2026.org">general_chairs@icpr2026.org</a></td>
+                </tr>
+                <tr>
+                  <td class="left">regisration:</td>
+                  <td  class="right"><a href="mailto:contactcolloque@insavalor.fr">contactcolloque@insavalor.fr</a></td>
+                </tr>
+                <tr>
+                  <td class="left">invitation letter:</td>
+                  <td  class="right"><a href="mailto:invitation_letter@icpr2026.org">invitation_letter@icpr2026.org</a></td>
+                </tr>
+
+                <tr>
+                  <td class="left">local organisation:</td>
+                  <td class="right"><a href="mailto:local_chairs@icpr2026.org">local_chairs@icpr2026.org</a></td>
+                </tr>
+
+                <tr class="extra" style="display:table-row;">
+                  <td class="left" >website:</td>
+                  <td class="right"><a href="mailto:media@icpr2026.org">media@icpr2026.org</a></td>
+                </tr>
+                <tr class="extra" style="display:table-row;">
+                  <td class="left">sponsors:</td>
+                  <td class="right"><a href="mailto:sponsors@icpr2026.org">sponsors@icpr2026.org</a></td>
+                </tr>
+                <tr class="extra" style="display:table-row;">
+                  <td class="left">tutorials:</td>
+                  <td class="right"><a href="mailto:tutorials@icpr2026.org">tutorials@icpr2026.org</a></td>
+                </tr>
+                <tr class="extra" style="display:table-row;">
+                  <td class="left">workshops:</td>
+                  <td class="right"><a href="mailto:workshop_chairs@icpr2026.org">workshop_chairs@icpr2026.org</a></td>
+                </tr>
+                <tr class="extra" style="display:table-row;">
+                  <td class="left">reproducible research:</td>
+                  <td class="right"><a href="mailto:rr_chairs@icpr2026.org">rr_chairs@icpr2026.org</a></td>
+                </tr>
+                <tr class="extra" style="display:table-row;">
+                  <td class="left">publications:</td>
+                  <td class="right"><a href="mailto:publication_chairs@icpr2026.org">publication_chairs@icpr2026.org</a></td>
+                </tr>
+                <tr class="extra" style="display:table-row;">
+                  <td class="left">doctorial consortium:</td>
+                  <td class="right"><a href="mailto:doctorial-consortium@icpr2026.org">doctorial-consortium@icpr2026.org</a></td>
+                </tr>
+                <tr class="extra" style="display:table-row;">
+                  <td class="left">award chair:</td>
+                  <td class="right"><a href="mailto:award@icpr2026.org">award@icpr2026.org</a></td>
+                </tr>
+                <tr class="extra" style="display:table-row;">
+                  <td class="left">women4pr chairs</td>
+                  <td class="right"><a href="mailto:women4pr_chairs@icpr2026.org">women4pr_chairs@icpr2026.org</a></td>
+                </tr>
+                <tr class="extra" style="display:table-row;">
+                  <td class="left">Other questions:</td>
+                  <td class="right"><a href="mailto:contact@icpr2026.org">contact@icpr2026.org</a></td>
+                </tr>
+              </tbody>
+            </table>
+            </p>
+            <a href="#" id="toggle-contacts">Show less...</a>
+          </div>
+           
+  
+  
+          <ul>
+            <li>
+              <a href="https://instagram.com/icpr2026" target="_blank" rel="noopener">
+                <img src="/Logos/logoInstagram.svg" alt="Threads" width="24" height="24"> icpr2026
+              </a>
+            </li>
+  
+            <li>
+              <a href="https://www.threads.net/@icpr2026" target="_blank" rel="noopener">
+                <img src="/Logos/logoThreads.svg" alt="Threads" width="24" height="24"> icpr2026
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+      <!-- Gallery -->
+    <div class="col-lg-6 text-center">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <picture>
+              <source srcset="Images/Gallerie/bouleLumi.webp" type="image/webp">
+              <img class="img-fluid w-100 mt-3" 
+                   src="Images/Gallerie/bouleLumi.jpg" 
+                   alt="photo boules lumineuses" 
+                   width="466" height="311">
+            </picture>
+          </div>
+          <div class="carousel-item">
+            <picture>
+              <source srcset="Images/Gallerie/vueAerienneCiteInternat.webp" type="image/webp">
+              <img class="img-fluid w-100 mt-3" 
+                   src="Images/Gallerie/vueAerienneCiteInternat.jpg" 
+                   alt="Vue aérienne cité internationale" 
+                   width="466" height="262"
+                   loading="lazy">
+            </picture>
+          </div>
+          <div class="carousel-item">
+            <picture>
+              <source srcset="Images/Gallerie/vueGeneraleCiteInternat.webp" type="image/webp">
+              <img class="img-fluid w-100 mt-3" 
+                   src="Images/Gallerie/vueGeneraleCiteInternat.jpg" 
+                   alt="Vue générale cité internationale" 
+                   width="466" height="311"
+                   loading="lazy">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="text-center">
+<img class="img-fluid" src="Logos/IAPR.svg" alt="IAPR Logo">
+
+    </div>
+  </div>
+  
+  
+  <section class="homepage-sponsors">
+  <h2>Sponsors</h2>
+
+  <div class="sponsors-row">
+    <a href="https://imds-world.com/" target="_blank">
+      <img src="{{ site.baseurl }}/Logos/LogoIMDS.jpg" alt="IMDS logo">
+    </a>
+
+    <a href="https://www.getyooz.com/" target="_blank">
+      <img src="{{ site.baseurl }}/Logos/logoYooz.png" alt="Yooz logo">
+    </a>
+
+    <img src="Logos/logoElevate.png" alt="sponsor start-up Elevate  " class="img-fluid" style="max-height: 80px;">
+    <img src="Logos/logoExco.png" alt="sponsor start up Exco " class="img-fluid" style="max-height: 80px;">
+    <a href="https://www.insa-lyon.fr"> <img src="Logos/logoINSA.png" alt="sponsor INSA Lyon " class="img-fluid" style="max-height: 80px;"></a>
+      <a href="https://www.univ-lyon2.fr"> <img src="Logos/logoLyon2.png" alt="Sponsor Lyon2" class="img-fluid" style="max-height: 150px;"></a>
+      <a href="https://icom.univ-lyon2.fr/"> <img src="Logos/logoICOM.png" alt="Sponsor icom Lyon2" class="img-fluid" style="max-height: 80px;"></a>
+      <a href="https://liris.cnrs.fr"> <img src="Logos/logoLIRIS.png" alt="Sponsor LIRIS " class="img-fluid" style="max-height: 80px;"></a>
+      <a href="https://cnrs.fr"> <img src="Logos/logoCNRS.png" alt="Sponsor CNRS" class="img-fluid" style="max-height: 80px;"></a>
+      <a href="https://www.springernature.com/"> <img src="Logos/logoSpringerNature.png" alt="logo sponsor springer " class="img-fluid" style="max-height: 30px;"></a>
+      <a href="https://www.springernature.com/"> <img src="Logos/logoSpringerNature2.png" alt="logo sponsor springer " class="img-fluid" style="max-height: 150px;"></a>
+      <a href="https://www.elsevier.com"> <img src="Logos/elsevierLogo.png" alt="logo sponsor elsevier " class="img-fluid" style="max-height: 150px;"></a>
+
+  </div>
+</section>
+  
+  
+  
+  <div class="row">
+  <div class="col-12 text-center my-3">
+    <div class="visits-block">
+      👁️ <span id="visits-count24h" title="last 24h visits">...</span> (24h)
+    </div>
+
+    <div class="visits-block">
+      👁️ <span id="visits-count7d" title="last 7 days visits">...</span> (7 days)
+    </div>
+  </div>
+</div>
+
+<script>
+(async function() {
+  const siteId = "96da01bb-0162-407e-88a0-03d3e2fe0465"; 
+  const url = window.location.pathname;
+  try {
+    const response7d = await fetch(`https://livelightning.ddnsfree.com/visits?range=7d`);
+    const data = await response7d.json();
+    const views = data.visits ?? "N/A";
+    document.getElementById("visits-count7d").textContent = views;
+
+    const response24h = await fetch(`https://livelightning.ddnsfree.com/visits?range=24h`);
+    const data24h = await response24h.json();
+    const views24h = data24h.visits ?? "N/A";
+    document.getElementById("visits-count24h").textContent = views24h;
+  } catch (error) {
+    console.error("Erreur compteur Umami :", error);
+    document.getElementById("visits-count7d").textContent = "N/A";
+    document.getElementById("visits-count24h").textContent = "N/A";
+  }
+})();
+</script>
+<script>
+const extras = document.querySelectorAll('tr.extra');
+const toggle = document.getElementById('toggle-contacts');
+
+toggle.addEventListener('click', e => {
+e.preventDefault();
+  const hidden = extras[0].style.display === 'none';
+  extras.forEach(tr => tr.style.display = hidden ? 'table-row' : 'none');
+  toggle.textContent = hidden ? 'Show less' : 'Show all...';
+});
+</script>
+

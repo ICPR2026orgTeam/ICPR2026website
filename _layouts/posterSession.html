@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -80,18 +81,28 @@
   
   {% assign tcode = tcode | sort %}  
   
-  {% for track in tcode  %}
+  
+  
+  {% if page.tpresented1 %}
+  <li>{{ page.tpresented1 }}</li>
+  {% endif %}
+  {% if page.tpresented2 %}
+  <li>{{ page.tpresented2 }}</li>
+  {% endif %}
+    {% if page.tpresented3 %}
+  <li>{{ page.tpresented3 }}</li>
+  {% endif %}
+  {% if page.tpresented4 %}
+  <li>{{ page.tpresented4 }}</li>
+  {% endif %}
+    {% if page.tpresented5 %}
+  <li>{{ page.tpresented5 }}</li>
+  {% endif %}
+  {% if page.tpresented6 %}
+  <li>{{ page.tpresented6 }}</li>
+  {% endif %}
 
-      {% assign tid = track  | plus: 0 %}
 
-     {% for t in tracksdef %}
-     {% if t.id == tid %}
-      <li>{{ t.name }}: {{ t.title }}</li>
-     {% endif %}
-     {% endfor %}
-
-    
-      {% endfor %}
 </ul>
     <h4> Details </h4>
 

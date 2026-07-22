@@ -1,6 +1,4 @@
 
-
-
 O1:
   time: "11h10-12h30"
   day: "Monday 17"
@@ -70,3 +68,28 @@ P3:
 P4:
   time: "15h00-16h30"
   day: "Thursday 20"
+
+
+I1:
+  time: "14h00-15h00"
+  day: "Monday 17 August"
+
+
+I2:
+  time: "14h00-15h00"
+  day: "Tuesday 18 August"
+
+
+
+I3:
+  time: "09h40-10h40"
+  day: "Thursday 20 August "
+
+
+I4:
+  time: "14h00-15h00"
+  day: "Thursday 20 August"
+
+
+
+

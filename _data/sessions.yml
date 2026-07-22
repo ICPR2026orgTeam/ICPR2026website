@@ -1,6 +1,6 @@
 
 - sessionId: "1" 
-  title: "Oral Session"
+  title: "Representation, Knowledge & Reasoning"
   codePlace: "A"
   place: "Room A" 
   chair: ""
@@ -8,14 +8,14 @@
 
 
 - sessionId: "1" 
-  title: "Oral Session"
+  title: "Object Detection And Recognition"
   codePlace: "B"
   place: "Room B" 
   chair: ""
   paperTrack: "2"
 
 - sessionId: "1" 
-  title: "Oral Session"
+  title: "Induction, Gameplay & Logic Traces"
   codePlace: "C"
   place: "Room C" 
   chair: ""
@@ -23,7 +23,7 @@
 
 
 - sessionId: "1" 
-  title: "Oral Session"
+  title: "Natural Language Processing"
   codePlace: "D"
   place: "Room D" 
   chair: ""
@@ -31,7 +31,7 @@
 
 
 - sessionId: "1" 
-  title: "Oral Session"
+  title: "Visual Perception From 3D Point Clouds"
   codePlace: "E"
   place: "Room E" 
   chair: ""
@@ -41,14 +41,14 @@
 
 
 - sessionId: "2" 
-  title: "Oral Session"
+  title: "Regularization, VAEs & Structural Rigidity"
   codePlace: "A"
   place: "Room A" 
   chair: ""
   paperTrack: "1"
 
 - sessionId: "2" 
-  title: "Oral Session"
+  title: "Vision And Language"
   codePlace: "B"
   place: "Room B" 
   chair: ""
@@ -56,7 +56,7 @@
 
 
 - sessionId: "2" 
-  title: "Oral Session"
+  title: "Generative Models & Graph Implementations"
   codePlace: "C"
   place: "Room C" 
   chair: ""
@@ -65,14 +65,14 @@
 
 
 - sessionId: "2" 
-  title: "Oral Session"
+  title: "Speech Enhancement and Recognition "
   codePlace: "D"
   place: "Room D" 
   chair: ""
   paperTrack: "3"
 
 - sessionId: "2" 
-  title: "Oral Session"
+  title: "Machine Intelligence & Diagnostic Analysis"
   codePlace: "E"
   place: "Room E" 
   chair: ""
@@ -82,7 +82,7 @@
 
 
 - sessionId: "3" 
-  title: "Oral Session"
+  title: "Choice, Answering & Output"
   codePlace: "A"
   place: "Room A" 
   chair: ""
@@ -90,23 +90,15 @@
 
 
 - sessionId: "3" 
-  title: "Oral Session"
-  codePlace: "B"
-  place: "Room B" 
-  chair: ""
-  paperTrack: "2"
-
-- sessionId: "3" 
-  title: "Oral Session"
+  title: "Motion, Tracking And Video Analysis"
   codePlace: "B"
   place: "Room B" 
   chair: ""
   paperTrack: "2"
 
 
-
 - sessionId: "3" 
-  title: "Oral Session"
+  title: "Deep Learning & Low-Frequency Analysis"
   codePlace: "C"
   place: "Room C" 
   chair: ""
@@ -116,7 +108,7 @@
 
 
 - sessionId: "3" 
-  title: "Oral Session"
+  title: "Video Question Answering"
   codePlace: "D"
   place: "Room D" 
   chair: ""
@@ -124,7 +116,7 @@
 
 
 - sessionId: "3" 
-  title: "Oral Session"
+  title: "Early And Low-Level Vision"
   codePlace: "E"
   place: "Room E" 
   chair: ""
@@ -141,14 +133,14 @@
   paperTrack: "7"
 
 - sessionId: "4" 
-  title: "Oral Session"
+  title: "Stereo And 3D Vision"
   codePlace: "B"
   place: "Room B" 
   chair: ""
   paperTrack: "2"
 
 - sessionId: "4" 
-  title: "Oral Session"
+  title: "Biometrics and HCI (I)"
   codePlace: "C"
   place: "Room C" 
   chair: ""
@@ -157,7 +149,7 @@
 
 
 - sessionId: "4" 
-  title: "Oral Session"
+  title: "Text Detection and Recognition"
   codePlace: "D"
   place: "Room D" 
   chair: ""
@@ -165,7 +157,7 @@
 
 
 - sessionId: "4" 
-  title: "Oral Session"
+  title: "Magnetic Resonance Imaging"
   codePlace: "E"
   place: "Room E" 
   chair: ""
@@ -174,7 +166,7 @@
 
 
 - sessionId: "5" 
-  title: "Oral Session"
+  title: "Mobile AI & Embedded Systems"
   codePlace: "A"
   place: "Room A" 
   chair: ""
@@ -183,7 +175,7 @@
 
 
 - sessionId: "5" 
-  title: "Oral Session"
+  title: "Action And Behavior Recognition"
   codePlace: "B"
   place: "Room B" 
   chair: ""
@@ -192,7 +184,7 @@
 
 
 - sessionId: "5" 
-  title: "Oral Session"
+  title: "Biometrics and HCI (II)"
   codePlace: "C"
   place: "Room C" 
   chair: ""
@@ -200,7 +192,7 @@
 
 
 - sessionId: "5" 
-  title: "Oral Session"
+  title: "Text Detection and Recognition"
   codePlace: "D"
   place: "Room D" 
   chair: ""
@@ -208,7 +200,7 @@
 
 
 - sessionId: "5" 
-  title: "Oral Session"
+  title: "Autonomous Driving & World GPT Models"
   codePlace: "E"
   place: "Room E" 
   chair: ""
@@ -216,7 +208,7 @@
 
 
 - sessionId: "6" 
-  title: "Oral Session"
+  title: "Facial Recognition & Phishing Detection"
   codePlace: "A"
   place: "Room A" 
   chair: ""
@@ -224,7 +216,7 @@
 
 
 - sessionId: "6" 
-  title: "Oral Session"
+  title: "Object Detection And Recognition II"
   codePlace: "B"
   place: "Room B" 
   chair: ""
@@ -233,7 +225,7 @@
 
 
 - sessionId: "6" 
-  title: "Oral Session"
+  title: "Transfer & Meta Learning"
   codePlace: "C"
   place: "Room C" 
   chair: ""
@@ -241,7 +233,7 @@
 
 
 - sessionId: "6" 
-  title: "Oral Session"
+  title: "Image and Video Retrieval"
   codePlace: "D"
   place: "Room D" 
   chair: ""
@@ -250,7 +242,7 @@
 
 
 - sessionId: "6" 
-  title: "Oral Session"
+  title: "Computer And Robot Vision"
   codePlace: "E"
   place: "Room E" 
   chair: ""
@@ -258,28 +250,28 @@
 
 
 - sessionId: "7" 
-  title: "Oral Session"
+  title: "Clustering & Anomaly Detection Systems "
   codePlace: "A"
   place: "Room A" 
   chair: ""
   paperTrack: "1"
 
 - sessionId: "7" 
-  title: "Oral Session"
+  title: "Scene Analysis And Understanding"
   codePlace: "B"
   place: "Room B" 
   chair: ""
   paperTrack: "2"
 
 - sessionId: "7" 
-  title: "Oral Session"
+  title: "Biometrics and HCI (III)"
   codePlace: "C"
   place: "Room C" 
   chair: ""
   paperTrack: "4"
 
 - sessionId: "7" 
-  title: "Oral Session"
+  title: "Low Light Image Enhancement"
   codePlace: "D"
   place: "Room D" 
   chair: ""
@@ -287,7 +279,7 @@
 
 
 - sessionId: "7" 
-  title: "Oral Session"
+  title: "Pathology Systems"
   codePlace: "E"
   place: "Room E" 
   chair: ""
@@ -295,7 +287,7 @@
 
 
 - sessionId: "8" 
-  title: "Oral Session"
+  title: "Complex Classification & Data Augmentation"
   codePlace: "A"
   place: "Room A" 
   chair: ""
@@ -303,7 +295,7 @@
 
 
 - sessionId: "8" 
-  title: "Oral Session"
+  title: "Computer And Robot Vision"
   codePlace: "B"
   place: "Room B" 
   chair: ""
@@ -312,7 +304,7 @@
 
 
 - sessionId: "8" 
-  title: "Oral Session"
+  title: "Medical Deep Learning & Breast Imaging"
   codePlace: "C"
   place: "Room C" 
   chair: ""
@@ -320,7 +312,7 @@
 
 
 - sessionId: "8" 
-  title: "Oral Session"
+  title: "Generated Image and Video Detection"
   codePlace: "D"
   place: "Room D" 
   chair: ""
@@ -328,7 +320,7 @@
 
 
 - sessionId: "8" 
-  title: "Oral Session"
+  title: "Medical Image Analysis"
   codePlace: "E"
   place: "Room E" 
   chair: ""
@@ -337,7 +329,7 @@
 
 
 - sessionId: "9" 
-  title: "Oral Session"
+  title: "Supervised, Unsupervised & Self-Supervised Methods"
   codePlace: "A"
   place: "Room A" 
   chair: ""
@@ -345,7 +337,7 @@
 
 
 - sessionId: "9" 
-  title: "Oral Session"
+  title: "Action And Behavior Recognition II"
   codePlace: "B"
   place: "Room B" 
   chair: ""
@@ -354,7 +346,7 @@
 
 
 - sessionId: "9" 
-  title: "Oral Session"
+  title: "Adaptive Time-Series Analysis"
   codePlace: "C"
   place: "Room C" 
   chair: ""
@@ -362,7 +354,7 @@
 
 
 - sessionId: "9" 
-  title: "Oral Session"
+  title: "Image Superpixel and Super-resolution  "
   codePlace: "D"
   place: "Room D" 
   chair: ""
@@ -370,7 +362,7 @@
 
 
 - sessionId: "9" 
-  title: "Oral Session"
+  title: "Medical Applications"
   codePlace: "E"
   place: "Room E" 
   chair: ""
@@ -380,7 +372,7 @@
 
 
 - sessionId: "10" 
-  title: "Oral Session"
+  title: "Standard Loops & Cross-Domain Channels"
   codePlace: "A"
   place: "Room A" 
   chair: ""
@@ -389,7 +381,7 @@
 
 
 - sessionId: "10" 
-  title: "Oral Session"
+  title: "Action And Behavior Recognition III"
   codePlace: "B"
   place: "Room B" 
   chair: ""
@@ -397,7 +389,7 @@
 
 
 - sessionId: "10" 
-  title: "Oral Session"
+  title: "Natural Languages & Byte-Time Operations"
   codePlace: "C"
   place: "Room C" 
   chair: ""
@@ -406,7 +398,7 @@
 
 
 - sessionId: "10" 
-  title: "Oral Session"
+  title: "Image Processing and Applications"
   codePlace: "D"
   place: "Room D" 
   chair: ""
@@ -415,7 +407,7 @@
 
 
 - sessionId: "10" 
-  title: "Oral Session"
+  title: "Modelling for Medical Images "
   codePlace: "E"
   place: "Room E" 
   chair: ""

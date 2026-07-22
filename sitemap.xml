@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://icpr2026.org/</loc>
-    <lastmod>2026-07-09T11:15:00+00:00</lastmod>
+    <lastmod>2026-07-22T17:10:00+00:00</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
@@ -67,7 +67,7 @@
   </url>
   <url>
     <loc>https://icpr2026.org/sponsors.html</loc>
-    <lastmod>2026-07-09T11:03:00+02:00</lastmod>
+    <lastmod>2026-07-11T12:03:00+02:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -82,7 +82,7 @@
   </url>
    <url>
     <loc>https://icpr2026.org/workshops.html</loc>
-    <lastmod>2026-06-29T10:20:00+00:00</lastmod>
+    <lastmod>2026-07-22T14:23:00+00:00</lastmod>
     <priority>0.95</priority>
   </url>
    <url>
@@ -102,7 +102,7 @@
   </url>
    <url>
     <loc>https://icpr2026.org/acceptedPapersTrack.html</loc>
-    <lastmod>2026-06-07T19:28:00+00:00</lastmod>
+    <lastmod>2026-07-14T11:20:00+00:00</lastmod>
     <priority>0.95</priority>
   </url>
    <url>
@@ -118,6 +118,11 @@
    <url>
     <loc>https://icpr2026.org/posterPresInstructions.html</loc>
     <lastmod>2026-07-07T18:34:00+00:00</lastmod>
+    <priority>0.95</priority>
+  </url>
+   <url>
+    <loc>https://icpr2026.org/tutoCorep.html</loc>
+    <lastmod>2026-07-12T11:26:00+00:00</lastmod>
     <priority>0.95</priority>
   </url>
 

@@ -7,8 +7,9 @@ role: "Keynote Speaker"
 company: "Universitat Autònoma de Barcelona (UAB)"
 photoSpeaker: photoFornes.jpg
 last_modified: 23/04/2026
-abstractTitle: ""
-abstract: ""
+abstractTitle: "Challenges in Handwriting Recognition: The case of Historical Texts, Music Scores and Ciphers"
+abstract: "Despite Handwritten Text Recognition (HTR) has been addressed for decades, the recognition of images of manuscripts is challenging. Current deep-learning architectures are powerful but they need a huge amount of training data. Not surprisingly, deep learning methods are not satisfactory in case of low resource scenarios (when data or labeled data is scarce). This is the case of historical manuscripts, music scores, ciphered manuscripts or documents with rare scripts. This talk will discuss some of the current challenges and overview some methods designed for coping with the limitations of few labelled data, including few-shot learning, synthetic data generation and self-supervised learning.
+ "
 biographie: | 
             <p> Dr. Alicia Fornés is an Associate Professor at the Universitat Autònoma de Barcelona (UAB) and an affiliated researcher at the Computer Vision Center (CVC). Her research focuses on document image analysis, handwriting recognition and graphics recognition, with particular focus on historical documents and optical music recognition.</p>
             <p> She has more than 100 scientific publications and has participated in numerous research and technology transfer projects. Her contributions have been recognized with several awards, including the AERFAI (IAPR) Thesis Award (2010), the IAPR/ICDAR Young Investigator Award (2017), the DonaTIC Award (2021), and the CIARP (IAPR) Aurora Pons-Porrata Award (2024). </p>

@@ -46,9 +46,10 @@
             <img src="{{ site.baseurl }}/Images/{{ page.photoSpeaker }}" alt="{{ page.nameSpeaker }}" class="speaker-img">
           </div>
 </div></div>
-
+{% assign time = site.data.timeSession %}
    <h1>{{ page.name }}</h1>
-<p>{{ page.role }}</p>
+   <h3>Schedule:  {{ time[page.idInvite].day }} at <b class="text-info"> {{ time[page.idInvite].time }}</b>, main auditorium </h3>
+        <p>{{ page.role }}</p>
     <p>{{ page.company }}</p>
     {% if page.abstractTitle  %}
     <h3> {{ page.abstractTitle}} </h3>

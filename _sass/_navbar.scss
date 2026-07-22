@@ -27,7 +27,7 @@ nav.custom-navbar {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 17ch;
+    
     &:hover { color: #ccc; }
   }
 
@@ -44,5 +44,11 @@ nav.custom-navbar {
       &:hover { background-color: $color-light; }
     }
   }
- 
+.navbar-nav {
+    flex-wrap: wrap;
+}
+
+.navbar-nav .nav-link {
+    white-space: normal;
+} 
 }
