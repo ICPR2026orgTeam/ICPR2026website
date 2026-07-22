@@ -1,3 +1,5 @@
+const API_BASE_URL = "http://localhost:3000";
+
 // Ask permission for notifications
 async function enableNotifications() {
 
@@ -152,23 +154,29 @@ function initializeNotifications() {
 }
 
 function updateNotificationsInterface(button, status) {
+    status.classList.remove("is-enabled", "is-blocked");
 
     switch (Notification.permission) {
 
         case "default":
-            status.textContent = "Notifications are disabled.";
+
+            button.disabled = false;
+            button.textContent = "Enable notifications";
+            status.textContent = "⚪ Notifications are disabled.";
             break;
 
         case "granted":
-            status.textContent = "✅ Notifications are enabled.";
-            button.disabled = true;
-            button.textContent = "Notifications enabled";
+
+            status.textContent = "Notifications are enabled.";
+            button.hidden = true;
+            status.classList.add("is-enabled");
             break;
 
         case "denied":
-            status.textContent = "❌ Notifications have been blocked.";
-            button.disabled = true;
-            button.textContent = "Notifications blocked";
+
+            status.textContent = "Notifications have been blocked.";
+            button.hidden = true;
+            status.classList.add("is-blocked");
             break;
     }
 

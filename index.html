@@ -34,25 +34,38 @@ last_modified: 2026-07-11
     </div>
 
 <!-- Notifications -->
-<section class="notifications-panel">
-  <h2>Stay informed during ICPR 2026</h2>
+<section class="notifications-panel" aria-labelledby="notifications-title">
+  <div class="notifications-icon" aria-hidden="true">
+    🔔
+  </div>
 
-  <p>
-    Recieved live notifications about keynote reminders, romm changes, social events and important announcements.
-  </p>
+  <div class="notifications-content">
 
-  <button id="enable-notifications" class="btn btn-primary">
-    Enable notifications
-  </button>
-
-  <p id= "notifications-status"></p>
+    <h2 id="notifications-title">
+      Stay informed during ICPR 2026
+    </h2>
+    
+    <p>
+      Receive live notifications about keynote reminders, room changes, social events and important announcements.
+    </p>
+  
+    <div class="notifications-actions">
+      <button id="enable-notifications" class="notifications-button" type="button">
+        Enable notifications
+      </button>
+      
+      <p id= "notifications-status" class="notification-status" aria-live="police">
+        Notifications are disable
+      </p>
+    </div>
+  </div>
 </section>
-
-
-    <section id="keynotespeaker" class="keynote-speaker-panel">
-  <h2>Keynote Speakers</h2>
-
-  <div class="container">
+  
+  
+  <section id="keynotespeaker" class="keynote-speaker-panel">
+    <h2>Keynote Speakers</h2>
+    
+    <div class="container">
     <div class="row text-center justify-content-around">
       {% assign sorted_invites = site.invites | sort: "idInvite" %}
 
@@ -294,6 +307,11 @@ last_modified: 2026-07-11
     <div class="visits-block">
       👁️ <span id="visits-count7d" title="last 7 days visits">...</span> (7 days)
     </div>
+
+     <div class="visits-block">
+      🔔 <span id="subscriptions-count" title="Push notification subscribers">...</span> subscribers
+    </div>
+
   </div>
 </div>
 
@@ -311,10 +329,19 @@ last_modified: 2026-07-11
     const data24h = await response24h.json();
     const views24h = data24h.visits ?? "N/A";
     document.getElementById("visits-count24h").textContent = views24h;
+
+    const responseSubscriptions = await fetch(
+      `${API_BASE_URL}/subscriptions/count`
+    );
+
+    const dataSubscriptions =await responseSubscriptions.json();
+
+    document.getElementById("subscriptions-count").textContent = dataSubscriptions.count ?? "N/A";
   } catch (error) {
     console.error("Erreur compteur Umami :", error);
     document.getElementById("visits-count7d").textContent = "N/A";
     document.getElementById("visits-count24h").textContent = "N/A";
+    document.getElementById("subscriptions-count").textContent = "N/A";
   }
 })();
 </script>
