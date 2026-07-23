@@ -47,10 +47,12 @@
           </div>
 </div></div>
 {% assign time = site.data.timeSession %}
-   <h1>{{ page.name }}</h1>
-   <h3>Schedule:  {{ time[page.idInvite].day }} at <b class="text-info"> {{ time[page.idInvite].time }}</b>, main auditorium </h3>
-        <p>{{ page.role }}</p>
+        <h1>{{ page.name }}</h1>
     <p>{{ page.company }}</p>
+        <h2 class="speaker-badge prize">{{ page.role }}</h2>
+   <h3>Schedule:  {{ time[page.idInvite].day }} at <b class="text-info"> {{ time[page.idInvite].time }}</b>, main auditorium </h3>
+
+
     {% if page.abstractTitle  %}
     <h3> {{ page.abstractTitle}} </h3>
     {% endif %}
