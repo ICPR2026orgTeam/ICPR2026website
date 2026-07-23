@@ -180,7 +180,11 @@ footer {
 
 .keynote-speaker-panel {
   margin: 3rem 0;
-  padding: 2rem;
+
+  border-radius: 12px;
+}
+.prize-speaker-panel {
+  margin: 3rem 0;
 
   border-radius: 12px;
 }
@@ -189,6 +193,18 @@ footer {
   color: #8d1100;
   margin-bottom: 1.5rem;
   display: inline-block;
+  padding-bottom: 0.3rem;
+}
+.prize-speaker-panel h2 {
+  font-size: 1.8rem;
+  color: #8d1100;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+.speaker-name   {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
   padding-bottom: 0.3rem;
 }
 
@@ -205,6 +221,28 @@ footer {
  border-radius: 12px; /* carré arrondi */
 
 }
+
+.speaker-badge {
+    display: inline-block;
+    padding: 0.25rem 0.7rem;
+    border-radius: 999px;
+    font-size: 0.92rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+.speaker-badge.keynote {
+    background: #198754;
+    color: white;
+}
+
+.speaker-badge.prize {
+    background: #d4af37;
+    color: white;
+}
+
+
 .news-panel h2 {
   font-size: 1.8rem;
   color: #8d1100;

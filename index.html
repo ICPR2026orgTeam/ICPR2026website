@@ -44,8 +44,9 @@ last_modified: 2026-07-22
       {% assign sorted_invites = site.invites | sort: "idInvite" %}
 
       {% for ks in sorted_invites   %}
-    <div class="col-sm-12 col-md-4 col-lg-3 mb-4">
-  <a href="{{ ks.url | relative_url  }}"> 
+      {% if ks.role == "Keynote Speaker"  %}
+      <div class="col-6 col-sm-5 col-md-4 col-lg-3 mb-2">
+        <a href="{{ ks.url | relative_url  }}"> 
         <article class="keynotespeaker-item">
 
           <!-- IMAGE -->
@@ -59,18 +60,66 @@ last_modified: 2026-07-22
           </h6>
 
           <!-- UNIVERSITY -->
-          <small class="speaker-university text-muted">
+         <small class="speaker-university text-muted">
             {{ ks.company }}
           </small>
+          <!-- Role  -->
 
+          
         </article>
-</a>
+      </a>
       </div>
+            {% endif %}
       {% endfor %}
     </div>
   </div>
 </section>
-     
+
+
+
+
+    <section id="iaprLecturePrize" class="prize-speaker-panel">
+  <h2>IAPR Lecture Prize</h2>
+
+  <div class="container">
+    <div class="row text-center justify-content-around">
+      {% assign sorted_invites = site.invites | sort: "idInvite" %}
+
+      {% for ks in sorted_invites   %}
+      {% if ks.role != "Keynote Speaker"  %}
+      <div class="col-6 col-sm-5 col-md-4 col-lg-3 mb-2">
+      <a href="{{ ks.url | relative_url  }}"> 
+        <article class="keynotespeaker-item">
+          <!-- Role  -->
+          <h6 class="speaker-badge prize">
+            {{ ks.role }}
+          </h6>
+
+          <!-- IMAGE -->
+          <div class="speaker-img-wrapper mb-2">
+            <img src="{{ site.baseurl }}/Images/{{ ks.photoSpeaker }}" alt="{{ ks.name }}" class="speaker-img">
+          </div>
+
+          <!-- NAME -->
+          <h6 class="speaker-name mb-0">
+            <a href="{{ ks.url }}">{{ ks.name }}</a>
+          </h6>
+
+          <!-- UNIVERSITY -->
+         <small class="speaker-univrsity text-muted">
+            {{ ks.company }}
+          </small>
+
+          
+        </article>
+      </a>
+      </div>
+            {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
     
      <section id="news" class="news-panel">
        <h2>Latest News</h2>
