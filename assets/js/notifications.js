@@ -90,7 +90,7 @@ function urlBase64ToUint8Array(base64String){
 
 //Send subscription
 async function sendSubscriptionToServer(subscription) {
-    const response = await fetch("http://localhost:3000/subscribe", {
+    const response = await fetch(`${API_BASE_URL}/subscribe`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -116,7 +116,7 @@ async function sendSubscriptionToServer(subscription) {
 
 //Ask public key to backend
 async function getVapidPublicKey() {
-    const response = await fetch("http://localhost:3000/vapidPublicKey");
+    const response = await fetch(`${API_BASE_URL}/vapidPublicKey`);
     
     if (!response.ok) {
         throw new Error(
