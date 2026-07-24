@@ -3790,7 +3790,7 @@
   authors: Wang, Yifei; Shi, Jun*; Wu, Shihao; Li, Jiyang; Jiang, Zhiguo; Zheng, Yushan
 - id: 1168
   title: Compact Recurrent Transformer With Persistent Memory
-  track: O3-E.T2
+  track: P3.T2 #O3-E.T2
   fullauthors: Edison Mucllari (University of Kentucky)*; Zachary Daniels (SRI International);
     David Zhang (SRI International); Qiang Ye (University of Kentucky)
   authors: Mucllari, Edison*; Daniels, Zachary; Zhang, David; Ye, Qiang
