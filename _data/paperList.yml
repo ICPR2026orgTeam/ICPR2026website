@@ -1882,7 +1882,7 @@
   authors: Yan, Mengfan*; Huang, Maochen; Chen, Wenjie
 - id: 600
   title: Two-Stage Vision Transformers And Hard Masking Offer Robust Object Representations
-  track: P2.T2
+  track: O3-E.T2 #P2.T2
   fullauthors: Ananthu Aniraj (Inria)*; Cassio F. Dantas (Inrae); Dino Ienco (Inrae);
     Diego Marcos (Inria)
   authors: Aniraj, Ananthu*; F. Dantas, Cassio; Ienco, Dino; Marcos, Diego
