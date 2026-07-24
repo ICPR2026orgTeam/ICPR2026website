@@ -27,7 +27,7 @@ O5:
   day: "Tuesday 18"
 
 O6:
-  time: "08:30-09:30"
+  time: "08h30-09:30"
   day: "Wednesday 19"
 
 O7:
@@ -94,17 +94,17 @@ I4:
 
 
 
-P1:
-  time: "9h30-10h30"
+PRIZE1:
+  time: "09h30-10h30"
   day: "Monday 17 August"
 
 
-P2:
-  time: "9h30-10h30"
+PRIZE2:
+  time: "09h30-10h30"
   day: "Tuesday 18 August"
 
 
 
-P3:
+PRIZE3:
   time: "09h30-10h30"
   day: "Wednesday 19 August "
