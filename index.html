@@ -3,7 +3,7 @@ layout: default
 title: "ICPR 2026 - International Conference on Pattern Recognition"
 canonical: "https://icpr2026.org/"
 description: "Main page of ICPR 2026 - International Conference on Pattern Recognition that take place in Lyon 17-22 August 2026."
-last_modified: 2026-07-22
+last_modified: 2026-07-25
 ---
 <script>
     const q = window.location.search;
@@ -35,45 +35,6 @@ last_modified: 2026-07-22
 
 
 
-
-    <section id="keynotespeaker" class="keynote-speaker-panel">
-  <h2>Keynote Speakers</h2>
-
-  <div class="container">
-    <div class="row text-center justify-content-around">
-      {% assign sorted_invites = site.invites | sort: "idInvite" %}
-
-      {% for ks in sorted_invites   %}
-      {% if ks.role == "Keynote Speaker"  %}
-      <div class="col-6 col-sm-5 col-md-4 col-lg-3 mb-2">
-        <a href="{{ ks.url | relative_url  }}"> 
-        <article class="keynotespeaker-item">
-
-          <!-- IMAGE -->
-          <div class="speaker-img-wrapper mb-2">
-            <img src="{{ site.baseurl }}/Images/{{ ks.photoSpeaker }}" alt="{{ ks.name }}" class="speaker-img">
-          </div>
-
-          <!-- NAME -->
-          <h6 class="speaker-name mb-0">
-            <a href="{{ ks.url }}">{{ ks.name }}</a>
-          </h6>
-
-          <!-- UNIVERSITY -->
-         <small class="speaker-university text-muted">
-            {{ ks.company }}
-          </small>
-          <!-- Role  -->
-
-          
-        </article>
-      </a>
-      </div>
-            {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-</section>
 
 
 
@@ -120,6 +81,45 @@ last_modified: 2026-07-22
   </div>
 </section>
 
+
+    <section id="keynotespeaker" class="keynote-speaker-panel">
+  <h2>Keynote Speakers</h2>
+
+  <div class="container">
+    <div class="row text-center justify-content-around">
+      {% assign sorted_invites = site.invites | sort: "idInvite" %}
+
+      {% for ks in sorted_invites   %}
+      {% if ks.role == "Keynote Speaker"  %}
+      <div class="col-4 col-sm-3 col-md-2 col-lg-2 mb-2">
+        <a href="{{ ks.url | relative_url  }}"> 
+        <article class="keynotespeaker-item">
+
+          <!-- IMAGE -->
+          <div class="speaker-img-wrapper mb-2">
+            <img src="{{ site.baseurl }}/Images/{{ ks.photoSpeaker }}" alt="{{ ks.name }}" class="speaker-img">
+          </div>
+
+          <!-- NAME -->
+          <h6 class="speaker-name mb-0">
+            <a href="{{ ks.url }}">{{ ks.name }}</a>
+          </h6>
+
+          <!-- UNIVERSITY -->
+         <small class="speaker-university text-muted">
+            {{ ks.company }}
+          </small>
+          <!-- Role  -->
+
+          
+        </article>
+      </a>
+      </div>
+            {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
     
      <section id="news" class="news-panel">
        <h2>Latest News</h2>
