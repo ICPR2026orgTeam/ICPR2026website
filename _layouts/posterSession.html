@@ -41,7 +41,8 @@
    
     {% assign posterSessionID = page.slug | remove_first: "poster" %}
     {% assign listPapersAll = site.data.paperList %}
-    
+    {% assign session = site.data.sessions %}
+    {% assign room_names = site.data.rooms.rooms %}   
     {% assign listPaper = site.data.paperList %}
     {% assign time = site.data.timeSession %}
     {% capture code %}P{{posterSessionID}}{% endcapture %}
@@ -65,11 +66,12 @@
     {% endfor %}
 
     {% assign tracksdef = site.data.tracks %}
-
+    {% assign posterIndex = 10 | plus: posterSessionID %}
+    {% assign found = session | where: "sessionId", code | first %}
 
     
     <h1> Poster Session {{posterSessionID}} </h1>
-    <h3>Schedule:  {{ time[code].day }} at {{ time[code].time }} </h3>
+    <h3>Schedule:  {{ time[code].day }} at {{ time[code].time }}, {{room_names[found.codePlace]}}</h3>
     <h3>Tracks presented:</h3>
 <ul>
   {% assign tcode = "" | split: ""%}

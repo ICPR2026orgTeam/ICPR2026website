@@ -2,7 +2,6 @@
 - sessionId: "1" 
   title: "Representation, Knowledge & Reasoning"
   codePlace: "A"
-  place: "Room A" 
   chair: ""
   paperTrack: "1"
 
@@ -10,14 +9,12 @@
 - sessionId: "1" 
   title: "Object Detection And Recognition"
   codePlace: "B"
-  place: "Room B" 
   chair: ""
   paperTrack: "2"
 
 - sessionId: "1" 
   title: "Induction, Gameplay & Logic Traces"
   codePlace: "C"
-  place: "Room C" 
   chair: ""
   paperTrack: "1"
 
@@ -25,7 +22,6 @@
 - sessionId: "1" 
   title: "Natural Language Processing"
   codePlace: "D"
-  place: "Room D" 
   chair: ""
   paperTrack: "5"
 
@@ -33,7 +29,6 @@
 - sessionId: "1" 
   title: "Visual Perception From 3D Point Clouds"
   codePlace: "E"
-  place: "Room E" 
   chair: ""
   paperTrack: "2"
 
@@ -43,14 +38,12 @@
 - sessionId: "2" 
   title: "Regularization, VAEs & Structural Rigidity"
   codePlace: "A"
-  place: "Room A" 
   chair: ""
   paperTrack: "1"
 
 - sessionId: "2" 
   title: "Vision And Language"
   codePlace: "B"
-  place: "Room B" 
   chair: ""
   paperTrack: "2"
 
@@ -58,7 +51,6 @@
 - sessionId: "2" 
   title: "Generative Models & Graph Implementations"
   codePlace: "C"
-  place: "Room C" 
   chair: ""
   paperTrack: "1"
 
@@ -67,14 +59,12 @@
 - sessionId: "2" 
   title: "Speech Enhancement and Recognition "
   codePlace: "D"
-  place: "Room D" 
   chair: ""
   paperTrack: "3"
 
 - sessionId: "2" 
   title: "Machine Intelligence & Diagnostic Analysis"
   codePlace: "E"
-  place: "Room E" 
   chair: ""
   paperTrack: "1"
 
@@ -84,7 +74,6 @@
 - sessionId: "3" 
   title: "Choice, Answering & Output"
   codePlace: "A"
-  place: "Room A" 
   chair: ""
   paperTrack: "1"
 
@@ -92,7 +81,6 @@
 - sessionId: "3" 
   title: "Motion, Tracking And Video Analysis"
   codePlace: "B"
-  place: "Room B" 
   chair: ""
   paperTrack: "2"
 
@@ -100,7 +88,6 @@
 - sessionId: "3" 
   title: "Deep Learning & Low-Frequency Analysis"
   codePlace: "C"
-  place: "Room C" 
   chair: ""
   paperTrack: "1"
 
@@ -110,7 +97,6 @@
 - sessionId: "3" 
   title: "Video Question Answering"
   codePlace: "D"
-  place: "Room D" 
   chair: ""
   paperTrack: "3"
 
@@ -118,7 +104,6 @@
 - sessionId: "3" 
   title: "Early And Low-Level Vision"
   codePlace: "E"
-  place: "Room E" 
   chair: ""
   paperTrack: "2"
 
@@ -128,21 +113,18 @@
 - sessionId: "11" 
   title: "Competiton Session"
   codePlace: "A"
-  place: "Room A" 
   chair: ""
   paperTrack: "7"
 
 - sessionId: "4" 
   title: "Stereo And 3D Vision"
   codePlace: "B"
-  place: "Room B" 
   chair: ""
   paperTrack: "2"
 
 - sessionId: "4" 
   title: "Biometrics and HCI (I)"
   codePlace: "C"
-  place: "Room C" 
   chair: ""
   paperTrack: "4"
 
@@ -151,7 +133,6 @@
 - sessionId: "4" 
   title: "Text Detection and Recognition"
   codePlace: "D"
-  place: "Room D" 
   chair: ""
   paperTrack: "5"
 
@@ -159,7 +140,6 @@
 - sessionId: "4" 
   title: "Magnetic Resonance Imaging"
   codePlace: "E"
-  place: "Room E" 
   chair: ""
   paperTrack: "6"
 
@@ -168,7 +148,6 @@
 - sessionId: "5" 
   title: "Mobile AI & Embedded Systems"
   codePlace: "A"
-  place: "Room A" 
   chair: ""
   paperTrack: "1"
 
@@ -177,7 +156,6 @@
 - sessionId: "5" 
   title: "Action And Behavior Recognition"
   codePlace: "B"
-  place: "Room B" 
   chair: ""
   paperTrack: "2"
 
@@ -186,7 +164,6 @@
 - sessionId: "5" 
   title: "Biometrics and HCI (II)"
   codePlace: "C"
-  place: "Room C" 
   chair: ""
   paperTrack: "4"
 
@@ -194,7 +171,6 @@
 - sessionId: "5" 
   title: "Text Detection and Recognition"
   codePlace: "D"
-  place: "Room D" 
   chair: ""
   paperTrack: "5"
 
@@ -202,7 +178,6 @@
 - sessionId: "5" 
   title: "Autonomous Driving & World GPT Models"
   codePlace: "E"
-  place: "Room E" 
   chair: ""
   paperTrack: "1"
 
@@ -210,7 +185,6 @@
 - sessionId: "6" 
   title: "Facial Recognition & Phishing Detection"
   codePlace: "A"
-  place: "Room A" 
   chair: ""
   paperTrack: "1"
 
@@ -218,7 +192,6 @@
 - sessionId: "6" 
   title: "Object Detection And Recognition II"
   codePlace: "B"
-  place: "Room B" 
   chair: ""
   paperTrack: "2"
 
@@ -227,7 +200,6 @@
 - sessionId: "6" 
   title: "Transfer & Meta Learning"
   codePlace: "C"
-  place: "Room C" 
   chair: ""
   paperTrack: "1"
 
@@ -235,7 +207,6 @@
 - sessionId: "6" 
   title: "Image and Video Retrieval"
   codePlace: "D"
-  place: "Room D" 
   chair: ""
   paperTrack: "3"
 
@@ -244,7 +215,6 @@
 - sessionId: "6" 
   title: "Computer And Robot Vision"
   codePlace: "E"
-  place: "Room E" 
   chair: ""
   paperTrack: "2"
 
@@ -252,28 +222,24 @@
 - sessionId: "7" 
   title: "Clustering & Anomaly Detection Systems "
   codePlace: "A"
-  place: "Room A" 
   chair: ""
   paperTrack: "1"
 
 - sessionId: "7" 
   title: "Scene Analysis And Understanding"
   codePlace: "B"
-  place: "Room B" 
   chair: ""
   paperTrack: "2"
 
 - sessionId: "7" 
   title: "Biometrics and HCI (III)"
   codePlace: "C"
-  place: "Room C" 
   chair: ""
   paperTrack: "4"
 
 - sessionId: "7" 
   title: "Low Light Image Enhancement"
   codePlace: "D"
-  place: "Room D" 
   chair: ""
   paperTrack: "3"
 
@@ -281,7 +247,6 @@
 - sessionId: "7" 
   title: "Pathology Systems"
   codePlace: "E"
-  place: "Room E" 
   chair: ""
   paperTrack: "6"
 
@@ -289,7 +254,6 @@
 - sessionId: "8" 
   title: "Complex Classification & Data Augmentation"
   codePlace: "A"
-  place: "Room A" 
   chair: ""
   paperTrack: "1"
 
@@ -297,7 +261,6 @@
 - sessionId: "8" 
   title: "Computer And Robot Vision"
   codePlace: "B"
-  place: "Room B" 
   chair: ""
   paperTrack: "2"
 
@@ -306,7 +269,6 @@
 - sessionId: "8" 
   title: "Medical Deep Learning & Breast Imaging"
   codePlace: "C"
-  place: "Room C" 
   chair: ""
   paperTrack: "1"
 
@@ -314,7 +276,6 @@
 - sessionId: "8" 
   title: "Generated Image and Video Detection"
   codePlace: "D"
-  place: "Room D" 
   chair: ""
   paperTrack: "3"
 
@@ -322,7 +283,6 @@
 - sessionId: "8" 
   title: "Medical Image Analysis"
   codePlace: "E"
-  place: "Room E" 
   chair: ""
   paperTrack: "6"
 
@@ -331,7 +291,6 @@
 - sessionId: "9" 
   title: "Supervised, Unsupervised & Self-Supervised Methods"
   codePlace: "A"
-  place: "Room A" 
   chair: ""
   paperTrack: "1"
 
@@ -339,7 +298,6 @@
 - sessionId: "9" 
   title: "Action And Behavior Recognition II"
   codePlace: "B"
-  place: "Room B" 
   chair: ""
   paperTrack: "2"
 
@@ -348,7 +306,6 @@
 - sessionId: "9" 
   title: "Adaptive Time-Series Analysis"
   codePlace: "C"
-  place: "Room C" 
   chair: ""
   paperTrack: "1"
 
@@ -356,7 +313,6 @@
 - sessionId: "9" 
   title: "Image Superpixel and Super-resolution  "
   codePlace: "D"
-  place: "Room D" 
   chair: ""
   paperTrack: "3"
 
@@ -364,7 +320,6 @@
 - sessionId: "9" 
   title: "Medical Applications"
   codePlace: "E"
-  place: "Room E" 
   chair: ""
   paperTrack: "6"
 
@@ -374,7 +329,6 @@
 - sessionId: "10" 
   title: "Standard Loops & Cross-Domain Channels"
   codePlace: "A"
-  place: "Room A" 
   chair: ""
   paperTrack: "1"
 
@@ -383,7 +337,6 @@
 - sessionId: "10" 
   title: "Action And Behavior Recognition III"
   codePlace: "B"
-  place: "Room B" 
   chair: ""
   paperTrack: "2"
 
@@ -391,7 +344,6 @@
 - sessionId: "10" 
   title: "Natural Languages & Byte-Time Operations"
   codePlace: "C"
-  place: "Room C" 
   chair: ""
   paperTrack: "1"
 
@@ -400,7 +352,6 @@
 - sessionId: "10" 
   title: "Image Processing and Applications"
   codePlace: "D"
-  place: "Room D" 
   chair: ""
   paperTrack: "3"
 
@@ -409,8 +360,40 @@
 - sessionId: "10" 
   title: "Modelling for Medical Images "
   codePlace: "E"
-  place: "Room E" 
   chair: ""
   paperTrack: "6"
+
+
+
+- sessionId: "P1" 
+  title: "Poster Session 1"
+  codePlace: "F"
+  chair: ""
+  paperTrack: "1,2,3"
+
+
+
+- sessionId: "P2" 
+  title: "Poster Session 2"
+  codePlace: "F"
+  chair: ""
+  paperTrack: "1,2,4,5"
+
+
+- sessionId: "P3" 
+  title: "Poster Session 3"
+  codePlace: "F"
+  chair: ""
+  paperTrack: "1,2,6"
+
+
+
+
+- sessionId: "P4" 
+  title: "Poster Session 4"
+  codePlace: "F"
+  chair: ""
+  paperTrack: "1,3,4,6"
+
 
 
