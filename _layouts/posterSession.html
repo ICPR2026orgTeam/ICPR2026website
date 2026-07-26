@@ -55,7 +55,7 @@
       {% assign listPapers = listPapers | push: paper %}
     {% endif %}
     {% endfor %}
-
+    
 
     {% assign tracks = "" | split: "" %}
 
@@ -72,6 +72,7 @@
     
     <h1> Poster Session {{posterSessionID}} </h1>
     <h3>Schedule:  {{ time[code].day }} at {{ time[code].time }}, {{room_names[found.codePlace]}}</h3>
+    ({{ listPapers.size }} papers)
     <h3>Tracks presented:</h3>
 <ul>
   {% assign tcode = "" | split: ""%}
@@ -82,27 +83,16 @@
 
   
   {% assign tcode = tcode | sort %}  
-  
-  
-  
-  {% if page.tpresented1 %}
-  <li>{{ page.tpresented1 }}</li>
+
+  {% for i in (1..6) %}
+  {% assign field = "tpresented" | append: i %}
+  {% if page[field] %}
+    {% assign trackID = "P" | append: posterSessionID | append: ".T" | append: i  %}
+  {% assign l = listPapers | where: "track", trackID %}
+    <li>{{ page[field] }} ({{ l.size }})</li>
   {% endif %}
-  {% if page.tpresented2 %}
-  <li>{{ page.tpresented2 }}</li>
-  {% endif %}
-    {% if page.tpresented3 %}
-  <li>{{ page.tpresented3 }}</li>
-  {% endif %}
-  {% if page.tpresented4 %}
-  <li>{{ page.tpresented4 }}</li>
-  {% endif %}
-    {% if page.tpresented5 %}
-  <li>{{ page.tpresented5 }}</li>
-  {% endif %}
-  {% if page.tpresented6 %}
-  <li>{{ page.tpresented6 }}</li>
-  {% endif %}
+{% endfor %}
+
 
 
 </ul>
