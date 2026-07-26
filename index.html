@@ -381,19 +381,25 @@ last_modified: 2026-07-11
     const views24h = data24h.visits ?? "N/A";
     document.getElementById("visits-count24h").textContent = views24h;
 
-    const responseSubscriptions = await fetch(
-      `${API_BASE_URL}/subscriptions/count`
-    );
-
-    const dataSubscriptions =await responseSubscriptions.json();
-
-    document.getElementById("subscriptions-count").textContent = dataSubscriptions.count ?? "N/A";
   } catch (error) {
     console.error("Erreur compteur Umami :", error);
     document.getElementById("visits-count7d").textContent = "N/A";
     document.getElementById("visits-count24h").textContent = "N/A";
     document.getElementById("subscriptions-count").textContent = "N/A";
   }
+try {
+ const responseSubscriptions = await fetch(
+      `${API_BASE_URL}/subscriptions/count`
+    );
+
+    const dataSubscriptions =await responseSubscriptions.json();
+
+    document.getElementById("subscriptions-count").textContent = dataSubscriptions.count ?? "N/A";
+}catch (error) {
+    console.error("Erreur compteur subscription :", error);
+    document.getElementById("subscriptions-count").textContent = "N/A";
+
+}
 })();
 </script>
 <script>
