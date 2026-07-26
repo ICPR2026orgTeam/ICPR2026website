@@ -3,7 +3,7 @@ layout: default
 title: "ICPR 2026 - International Conference on Pattern Recognition"
 canonical: "https://icpr2026.org/"
 description: "Main page of ICPR 2026 - International Conference on Pattern Recognition that take place in Lyon 17-22 August 2026."
-last_modified: 2026-07-25
+last_modified: 2026-07-11
 ---
 <script>
     const q = window.location.search;
@@ -33,6 +33,34 @@ last_modified: 2026-07-25
       </p>
     </div>
 
+
+<!-- Notifications -->
+<section class="notifications-panel" aria-labelledby="notifications-title">
+    <div class="notifications-icon" aria-hidden="true">
+        🔔
+    </div>
+    
+    <div class="notifications-content">
+        
+        <h2 id="notifications-title">
+            Stay informed during ICPR 2026
+        </h2>
+        
+        <p>
+        Receive live notifications about keynote reminders, room changes, social events and important announcements.
+        </p>
+        
+        <div class="notifications-actions">
+            <button id="enable-notifications" class="notifications-button" type="button">
+                Enable notifications
+            </button>
+            
+            <p id= "notifications-status" class="notification-status" aria-live="police">
+            Notifications are disable
+            </p>
+        </div>
+    </div>
+</section>
 
 
 
@@ -330,6 +358,11 @@ last_modified: 2026-07-25
     <div class="visits-block">
       👁️ <span id="visits-count7d" title="last 7 days visits">...</span> (7 days)
     </div>
+
+     <div class="visits-block">
+      🔔 <span id="subscriptions-count" title="Push notification subscribers">...</span> subscribers
+    </div>
+
   </div>
 </div>
 
@@ -347,10 +380,19 @@ last_modified: 2026-07-25
     const data24h = await response24h.json();
     const views24h = data24h.visits ?? "N/A";
     document.getElementById("visits-count24h").textContent = views24h;
+
+    const responseSubscriptions = await fetch(
+      `${API_BASE_URL}/subscriptions/count`
+    );
+
+    const dataSubscriptions =await responseSubscriptions.json();
+
+    document.getElementById("subscriptions-count").textContent = dataSubscriptions.count ?? "N/A";
   } catch (error) {
     console.error("Erreur compteur Umami :", error);
     document.getElementById("visits-count7d").textContent = "N/A";
     document.getElementById("visits-count24h").textContent = "N/A";
+    document.getElementById("subscriptions-count").textContent = "N/A";
   }
 })();
 </script>
