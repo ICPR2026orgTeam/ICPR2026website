@@ -41,6 +41,22 @@ last_modified: 2026-07-28
 
 
 
+ 
+ <h3> FAQ on Conference Registration</h3>
+ {% for f in faq %}   
+ {% if f.category == "registration" %}
+ <div class="faq-item" id="{{ f.id }}">
+  <button class="faq-question">
+    {{ f.question }}
+    <span class="faq-link" data-id="{{ f.id }}">🔗</span>
+  </button>
+  <div class="faq-answer hidden">
+    <p>{{ f.answer }}</p>
+  </div>
+</div>
+ {% endif %}
+  {% endfor %}
+
    
 
  <h3 id="FAQ-cameraready"> FAQ on Camera-ready Uploading</h3>
@@ -57,22 +73,6 @@ last_modified: 2026-07-28
 </div>
   {% endif %}
  {% endfor %}
-
- 
- <h3> FAQ on Conference Registration</h3>
- {% for f in faq %}   
- {% if f.category == "registration" %}
- <div class="faq-item" id="{{ f.id }}">
-  <button class="faq-question">
-    {{ f.question }}
-    <span class="faq-link" data-id="{{ f.id }}">🔗</span>
-  </button>
-  <div class="faq-answer hidden">
-    <p>{{ f.answer }}</p>
-  </div>
-</div>
- {% endif %}
-  {% endfor %}
 
 
  <h3> FAQ on Participation</h3>
