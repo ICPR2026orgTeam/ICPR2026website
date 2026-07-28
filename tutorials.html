@@ -34,22 +34,73 @@ last_modified: 2026-04-15
 
 
 
+
+<h2 id="WSOverview">Tutorial Program Overview </h2>
+  
+  {% assign wsA = site.data.tutorials | where: "tslot", "A" %}
+  {% assign wsB = site.data.tutorials | where: "tslot", "B" %}
+  {% assign wsC = site.data.tutorials | where: "tslot", "C" %}
+  {% assign wsD = site.data.tutorials | where: "tslot", "D" %}
+
+{% assign max = wsB.size %}
+
+{% if wsC.size > max %}
+  {% assign max = wsC.size %}
+ {% endif %}
+
+
+    
+
+<table class="table-workshop">
+  <thead>
+    <tr>
+      <th colspan  = "2" > Friday August 21 (<a style="color:#ffd9d9;" href="https://www.google.com/maps?ll=45.783714,4.882288&z=18&hl=fr-FR&gl=US&mapclient=apiv3&cid=1632147326884673947">
+Louis Néel Building
+</a>) </th>
+    </tr>
+
+    <tr>
+      <th >  8:30-12:30 </th>  <th >  13:30-17:30 </th>
+    </tr>
+  </thead>
+  <tbody>
+
+ {% for i in (0..max) %}
+ <tr>
+   {% if wsA[i] %}
+    <td> <a href = "#{{ wsB[i].id }}"> {{ wsA[i].title }} </a> ({{ wsA[i].room }})</td>
+   {% endif %}
+   {% if wsB[i] %}
+     <td> <a href = "#{{ wsC[i].id }}"> {{ wsB[i].title }} </a> ({{ wsB[i].room }})</td>
+   {% endif %}
+ </tr>
+{% endfor %}
+</tbody>
+</table>
+
+
+<h2>Tutorial Detailed List</h2>
+
 {% assign tutoList = site.data.tutorials %}
 {% for tuto in tutoList %}
 
 <div class="card text-dark bg-light mb-5" style="max-width: 110rem;">
-  <div class="card-header fs-5 fw d-flex align-items-center"><b>{{ tuto.title }}</b> <span class="ms-auto">{{ tuto.id }}</span></div>
+  <div class="card-header fs-5 fw d-flex align-items-center"><b>{{ tuto.title }}</b>  <span class="ms-auto">({{ tuto.room }})</span> <span class="ms-auto">{{ tuto.id }}</span></div>
   <div class="card-body">
     <h5 class="card-title" id="{{ tuto.id }}"><strong class="card-title"> Resume</strong>: </h5>
     <p> {{ tuto.resume }} </p>
     <p class="card-text"> <strong class="card-title"> Authors </strong>: {{ tuto.authors }}  </p>
-    <p class="card-text"> <strong class="card-title"> Date</strong>: {{ tuto.date }}  </p>
+    <p class="card-text"> <strong class="card-title"> Date</strong>: {{ tuto.date }},  {{ tuto.time }}  </p>
+    <p class="card-text"> <strong class="card-title"> Room</strong>: {{ tuto.room }}  </p>
   </div>
 </div>
 
 {% endfor %}
   
-</section>
+
+
+
+
 
 
 
