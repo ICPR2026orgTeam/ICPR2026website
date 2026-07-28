@@ -196,7 +196,7 @@ ul.reviewers li {
     grid-auto-rows: 40px;
     gap: 1px;
     background: #ccc;
-    font-size: 1.0rem;
+    font-size: 0.9rem;
   }
 
   .cell {
@@ -247,7 +247,7 @@ ul.reviewers li {
   .time {
     background: #f0f0f0;
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     align-items: flex-start;
   }
 
@@ -348,12 +348,17 @@ ul.reviewers li {
   }
 
 .vertical-text {
-  writing-mode: vertical-rl;
-  white-space: nowrap;
-
+    writing-mode: vertical-rl;
+    transform: rotate(0deg);
+    white-space: nowrap;
 }
 
- 
+.cell a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
   /*  Program component*/
