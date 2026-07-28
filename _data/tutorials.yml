@@ -21,10 +21,10 @@ architectures as deem necessary. We will further demonstrate the role of GNNs (d
 learning on graphs) and graph signal processing in solving various problems in this
 connection. As a summary, the tutorial will help attendees to gain theoretical insights as
 well as make them aware of potential applicability of graph based models for processing different types of videos.</p>"
-   room: "C13"
+   room: "B3"
    tslot: "A"
-   time : "13h30-17:30"
-   tslot: "B"
+   time : "08h30-12:30"
+
 
 
  - title : "Advancing Comprehensive Reasoning in Multimodal Large Language Models"
