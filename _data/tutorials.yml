@@ -22,8 +22,9 @@ learning on graphs) and graph signal processing in solving various problems in t
 connection. As a summary, the tutorial will help attendees to gain theoretical insights as
 well as make them aware of potential applicability of graph based models for processing different types of videos.</p>"
    room: "C13"
-
-
+   tslot: "A"
+   time : "13h30-17:30"
+   tslot: "B"
 
 
  - title : "Advancing Comprehensive Reasoning in Multimodal Large Language Models"
@@ -46,7 +47,8 @@ to bridge the gap between theoretical foundations and practical
 implementations, offering attendees insights into both current
 capabilities and future research directions.</p>"
    room: "Amphi Seguin" 
-             
+   time : "13h30-17:30"             
+   tslot: "B"
 
  - title: "Reliable Industrial AI"
    id: "T3"
@@ -71,9 +73,8 @@ capabilities and future research directions.</p>"
       research prototypes and production systems.
        </p>
    room: "B7-B8"
-
-
-
+   time : "08h30-12:30"
+   tslot: "A"
 
 
 
@@ -128,7 +129,8 @@ learning.<p>
 Robot Arms</p>
 "
    room: "Amphi Vannier"
-
+   time : "13h30-17:30"
+   tslot: "B"
 
  - title: "An Introduction to the Formal Verification of Neural Networks"
    id: "T5"
@@ -168,8 +170,8 @@ research questions regarding the efficient verification of properties
 and their formalisation</p>
 "
    room: "B5"
-
-
+   time : "08h30-12:30"
+   tslot: "A"
 
  - title: "Counterfactual Explanations of AI Systems: Fundamentals, Methods, & User Studies for XAI "
    id: "T6"
@@ -208,6 +210,8 @@ systems, as well as a deeper understanding of (a) how to deploy these
 explanations effectively (using the DiCE toolbox [25]) and (b)
 practically conduct human-centered evaluations.</p>"
    room: "B3"
+   time : "13h30-17:30"
+   tslot: "B"
 
  - title: "Agentic Document Intelligence: From Prototype to Production with Trustworthy AI Agents "
    id: "T7"
@@ -235,3 +239,7 @@ to be accessible to ICPR participants with backgrounds in document
 analysis, computer vision, or NLP, while also offering depth for
 researchers and engineers actively working in this space</p>"
    room: "Amphi Seguin"
+   time : "08h30-12:30 "
+   tslot: "A"
+ 
+ 
