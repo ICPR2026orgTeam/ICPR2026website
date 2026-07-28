@@ -1,4 +1,9 @@
-
+- question: "After registering, I realized that I need to add an accompanying person to the gala dinner. Is it still possible?"
+  answer: |
+    Yes, as long as seats are still available. Please contact us as soon as possible at <a href="mailto:contactcolloque@insavalor.fr">contactcolloque@insavalor.fr</a>. We will send you a personalized registration and payment link for your accompanying person.
+  category: "registration"
+  id: "reg-gala"
+  
 - question: "We have not yet received any e-mail with camera-ready upload instructions for ICPR 2026. Did we miss it or when can we expect that information?"
   answer: |
       The e-mail with upload instructions will be sent as soon as Springer confirms that the upload system is open. The author designated as the primary contact in CMT will receive the invitation regardless of which author has registered for the conference; we trust that there is communication between co-authors for their joint paper. In the meantime, please prepare your camera-ready manuscript according to <a href="camerareadyInstructions.html">Camera-ready Instructions Page</a>.
