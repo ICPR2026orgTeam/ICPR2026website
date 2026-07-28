@@ -35,8 +35,12 @@ last_modified: 2026-07-11
 
 
 <!-- Notifications -->
-<section class="notifications-panel" aria-labelledby="notifications-title">
-    <div class="notifications-icon" aria-hidden="true">
+<section
+    id="notifications-panel"
+    class="notifications-panel"
+    aria-labelledby="notifications-title">
+  
+  <div class="notifications-icon" aria-hidden="true">
         🔔
     </div>
     
@@ -46,7 +50,7 @@ last_modified: 2026-07-11
             Stay informed during ICPR 2026
         </h2>
         
-        <p>
+        <p id="notifications-description">
         Receive live notifications about keynote reminders, room changes, social events and important announcements.
         </p>
         
@@ -55,7 +59,8 @@ last_modified: 2026-07-11
                 Enable notifications
             </button>
             
-            <p id= "notifications-status" class="notification-status" aria-live="police">
+            
+      <p id= "notification-status" class="notification-status" aria-live="polite">
             Notifications are disable
             </p>
         </div>
@@ -105,6 +110,7 @@ last_modified: 2026-07-11
       </div>
             {% endif %}
       {% endfor %}
+      
     </div>
   </div>
 </section>

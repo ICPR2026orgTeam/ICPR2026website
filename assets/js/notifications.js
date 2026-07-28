@@ -4,7 +4,7 @@ const API_BASE_URL = "http://localhost:3000";
 async function enableNotifications() {
 
     const button = document.getElementById("enable-notifications"); //Button to enable notifs
-    const status = document.getElementById("notifications-status"); //Paragraph for the status notifications
+    const status = document.getElementById("notification-status"); //Paragraph for the status notifications
 
 
     if (!("Notification" in window)) {
@@ -139,7 +139,7 @@ function initializeNotifications() {
     console.log("[Notifications] Initializing...");
 
     const button = document.getElementById("enable-notifications"); //Button to enable notifs
-    const status = document.getElementById("notifications-status"); //Paragraph for the status notifications
+    const status = document.getElementById("notification-status"); //Paragraph for the status notifications
 
     if (!button || !status) {
         console.error("[Notifications] HTML elements not found.");
@@ -154,28 +154,61 @@ function initializeNotifications() {
 }
 
 function updateNotificationsInterface(button, status) {
+
+    const panel = document.getElementById("notifications-panel");
+    const description = document.getElementById("notifications-description");
+
+    if (!panel || !button || !status || !description) {
+        return;
+    }
+
+    panel.classList.remove("is-compact", "is-enabled", "is-blocked");
+
     status.classList.remove("is-enabled", "is-blocked");
 
     switch (Notification.permission) {
 
         case "default":
+            panel.classList.remove("is-compact");
 
+            description.hidden = false;
+
+            button.hidden = false;
             button.disabled = false;
             button.textContent = "Enable notifications";
+
+            status.hidden = false;
             status.textContent = "⚪ Notifications are disabled.";
             break;
 
         case "granted":
 
-            status.textContent = "Notifications are enabled.";
+            panel.classList.add(
+                "is-compact",
+                "is-enabled"
+            );
+
+            description.hidden = true;
+            
             button.hidden = true;
+
+            status.hidden = false;
+            status.textContent = "Notifications are enabled.";
             status.classList.add("is-enabled");
             break;
 
         case "denied":
 
-            status.textContent = "Notifications have been blocked.";
+            panel.classList.add(
+                    "is-compact",
+                    "is-blocked"
+                );
+
+            description.hidden = true;
             button.hidden = true;
+
+            status.hidden = false;
+            status.textContent = "Notifications have been blocked.";
             status.classList.add("is-blocked");
             break;
     }
