@@ -128,6 +128,11 @@
             <div style="font-size: 0.9em; color: #666;">
               {{ p.authors | join: ", " | replace: "*", "" }}
             </div>
+            {% if p.ext-presenter %}
+            <div style="font-size: 0.9em; color: #644;">
+              {{  "presented by:" }} {{ p.ext-presenter }}
+            </div>
+            {% endif %}
           </td>
           <td>            <div>{{ p.track |slice: -2, 2 }}</div> </td>
 
