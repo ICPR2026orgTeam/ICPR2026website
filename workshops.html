@@ -38,7 +38,16 @@ Louis Néel Building
 
   <tr>
     <td> {{ w.id }} </td>
-    <td> {{ w.acronym }} </td>
+<td>
+  <span class="d-none d-md-inline">{{ w.acronym }}</span>
+  <span class="d-inline d-md-none">
+    {% if w.acronym.size > 7 %}
+      {{ w.acronym | slice: 0,7 }}…
+    {% else %}
+      {{ w.acronym }}
+    {% endif %}
+  </span>
+ </td>
     <td> <a href = "#{{ w.id }}"> {{ w.title }} </a></td>
   </tr>
 {% endfor %}
