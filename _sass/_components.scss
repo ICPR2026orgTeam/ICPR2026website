@@ -374,6 +374,7 @@ ul.reviewers li {
   margin: 6px 0;
 }
 
+
 #notice-wrapper {
     position: relative;
     perspective: 1200px;
@@ -412,4 +413,41 @@ ul.reviewers li {
     transition:
         transform 0.7s cubic-bezier(.22,.61,.36,1),
         opacity 0.45s ease;
+}
+#notice-wrapper {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.notice-content {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    text-align: center;
+    overflow-wrap: break-word;
+    word-break: normal;
+}
+
+.notice-content p {
+    margin-bottom: 0;
+}
+
+.notice-content a {
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 576px) {
+    .notice-content {
+        padding: 0 .5rem;
+        font-size: 0.9rem;
+    }
+
+    .notice-content strong {
+        display: block;
+    }
+}
+.submission-notice {
+    margin-top: 0;
+    margin-bottom: 0;
 }
