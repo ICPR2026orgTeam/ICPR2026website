@@ -2,7 +2,7 @@
 layout: newsTemplate
 title: "IAPR Lecture Prize lectures available"
 date: 2026-07-23
-last_modified: 2026-07-23
+last_modified: 2026-07-29
 ---
 
 <p >
@@ -11,6 +11,6 @@ The IAPR Lecture Prize speaker pages are now available. Congratulations to:
 <ul>
   <li><a href="{{site.origin}}/invites/JiriMatas">Jiří Matas</a> – King-Sun Fu Prize</li>
   <li><a href="{{site.origin}}/invites/ZhangyangWang">Zhangyang "Atlas" Wang</a> – J. K. Aggarwal Prize</li>
-  <li><a href="{{site.origin}}/invites/SanghamitraBandopadhyay">Sanghamitra Bandopadhyay</a> – King-Sun Fu Prize</li>
+  <li><a href="{{site.origin}}/invites/SanghamitraBandopadhyay">Sanghamitra Bandopadhyay</a> – Maria Petrou Prize Prize</li>
 </ul>
 
