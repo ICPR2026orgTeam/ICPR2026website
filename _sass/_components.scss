@@ -210,33 +210,9 @@ ul.reviewers li {
 
   }
 
-  .cellSmall1 {
-    grid-column: span 1;
+  .cell{
     background: white;
     padding: 4px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .cellSmall2 {
-    grid-column: span 2;
-    background: white;
-    padding: 4px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .cell,
-  .cellSmall1,
-  .cellSmall2 {
-    background: white;
-    padding: 4px;
-    text-align: center;
-    display: flex;
     align-items: center;
 
     justify-content: center;
