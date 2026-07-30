@@ -187,6 +187,13 @@
   firstname: Robin
   lastname: Arsac
   affiliation: INSAVALOR
+  coordination: yes
 
+
+- role: localorgteam
+  firstname: Muriel
+  lastname: Personne
+  affiliation: INSAVALOR
+  coordination: yes
 
 

@@ -7,8 +7,7 @@ August 2026."
 last_modified: 2026-06-16
 ---
 
-
-<section id="committee">
+<section id="ConfCommittee">
   <h1>Committee</h1>
 
 
@@ -94,7 +93,7 @@ last_modified: 2026-06-16
               <li><a href="https://lucbrun.ensicaen.fr">Luc Brun</a>, France </li>
             </ul>
           </div>
-       </div>
+        </div>
       </div>
       <div class="col-md-5  ml-3  mr-3 b-3 t-3">
         <div class="card border-info ml-1 mb-3">
@@ -143,8 +142,8 @@ last_modified: 2026-06-16
               </dl>
           </div>
         </div>
-    </div>
-    <div class="col-md-5  ml-3  mr-3 b-3 t-3">
+      </div>
+      <div class="col-md-5  ml-3  mr-3 b-3 t-3">
         <div class="card border-info ml-1 mb-3">
           <div class="card-header">Awards Committee Chair :</div>
           <div class="card-body text-info">
@@ -212,13 +211,11 @@ last_modified: 2026-06-16
         </div>
       </div>
     </div>
-
 </section>
 
 
 
-
-<section id="committee">
+<section id="TrackChairs">
   <h2> Track Chairs</h2>
   {% assign tracksdef = site.data.tracks %}
 
@@ -260,7 +257,7 @@ last_modified: 2026-06-16
       <div class="col-md-5  ml-3  mr-3 b-3 t-3">
         <div class="card border-info ml-1 mb-3">
           <div class="card-header"><b>{{tracksdef[2].name}}</b>: {{tracksdef[2].title}}</div>
-            <div class="card-body text-info">
+          <div class="card-body text-info">
             <ul class="mb-0">
               <li>Yi-Zhe Song, UK</li>
               <li>Jianhua Tao, China</li>
@@ -301,7 +298,7 @@ last_modified: 2026-06-16
       <div class="col-md-5  ml-3  mr-3 b-3 t-3">
         <div class="card border-info ml-1 mb-3">
           <div class="card-header"><b>{{tracksdef[5].name}}</b>: {{tracksdef[5].title}}</div>
-            <div class="card-body text-info">
+          <div class="card-body text-info">
             <ul class="mb-0">
               <li>Alexandre Falcao, Brazil</li>
               <li>Seong-Whan Lee, South Korea</li>
@@ -316,15 +313,12 @@ last_modified: 2026-06-16
 
 
 
-
-
 <section id="area_chair">
   <!------ Section Board Team ----->
+  <h2> Area chairs </h2>
+
   <div class="container d-flex justify-content-center">
     <div class="row justify-content-center">
-
-      <h2> Area chairs </h2>
-
       {% for i in (1..6) %}
       {% capture track_name %}track{{ i }}{% endcapture %}
       <div class="col-md-5  ml-3  mr-3 b-3 t-3">
@@ -334,7 +328,7 @@ last_modified: 2026-06-16
             <ul class="area-chairs">
               {% assign areachairs = site.data.areaChairs %}
               {% assign count = 0 %}
-
+  
               {%- for ac in areachairs -%}
               {% if ac.area == track_name %}
               <li>{{ ac.firstname }} {{ ac.lastname }}</li>
@@ -342,55 +336,53 @@ last_modified: 2026-06-16
               {% endif %}
               {%- endfor -%}
               {% comment %}
-              custom special filling depending of the block type 
+              custom special filling depending of the block type
               {% endcomment %}
-
+  
               {% if count > 20 %}
               {%- assign missing = 40 | minus: count -%}
               {%- for i in (1..missing) -%}
-                 <li>&nbsp;</li>
+              <li>&nbsp;</li>
               {%- endfor -%}
               {% endif %}
-              {% if count < 20 %} {%- assign missing=14 | minus: count -%}
-               {%- for i in (1..missing) -%}
-                <li>&nbsp;</li>
+              {% if count < 20 %} {%- assign missing=14 | minus: count -%} {%- for i in (1..missing) -%} <li>&nbsp;</li>
                 {%- endfor -%}
-               {% endif %}
-
+                {% endif %}
+  
             </ul>
           </div>
         </div>
       </div>
       {% endfor %}
-
-
+  
     </div>
   </div>
-</section>
+  </section>
 
 
-<h2> Local Organisation Team </h2>
+
   <!------ Section Board Team ----->
 
 <section id="Local organisation team">
+  <h2> Local Organisation Team </h2>
   <!------ Local organisation team ----->
   <div class="container d-flex justify-content-center">
     <div class="row justify-content-center">
-     
+
       <div class="col-md-4  ml-4  mr-3 b-3 t-3">
         <div class="card border-info ml-1 mb-3">
           <div class="card-header"><b>Local Coordination</b> </div>
           <div class="card-body text-info">
             <ul class="reviewers">
-              {% assign localTeam = site.data.localTeam | sort: "lastname"   %}      
+              {% assign localTeam = site.data.localTeam | sort: "lastname" %}
               {% for member in localTeam %}
-              {% if member.coordination  %}
-              {% if member.chair  %}
-              <li><b class="text-info"> {{ member.firstname }} {{ member.lastname}} </b></li>
-               {% else %}
-               <li> {{ member.firstname }} {{ member.lastname}} </li>
-               {% endif %}
-               {% endif %}
+                {% if member.coordination %}
+                  {% if member.chair %}
+                    <li><b class="text-info"> {{ member.firstname }} {{ member.lastname}} </b></li>
+                  {% else %}
+                    <li> {{ member.firstname }} {{ member.lastname}} </li>
+                  {% endif %}
+                {% endif %}
               {% endfor %}
             </ul>
           </div>
@@ -401,35 +393,35 @@ last_modified: 2026-06-16
           <div class="card-header"><b>Infography</b> </div>
           <div class="card-body text-info">
             <ul class="reviewers">
-              {% assign localTeam = site.data.localTeam | sort: "lastname"   %}      
+              {% assign localTeam = site.data.localTeam | sort: "lastname" %}
               {% for member in localTeam %}
-              {% if member.role == "graphism" %}
-              {% if member.chair  %}
-              <li><b class="text-info"> {{ member.firstname }} {{ member.lastname}} </b></li>
-               {% else %}
-               <li> {{ member.firstname }} {{ member.lastname}} </li>
-               {% endif %}
-              {% endif %}
+               {% if member.role == "graphism" %}
+                  {% if member.chair %}
+                    <li><b class="text-info"> {{ member.firstname }} {{ member.lastname}} </b></li>
+                  {% else %}
+                    <li> {{ member.firstname }} {{ member.lastname}} </li>
+                  {% endif %}
+                {% endif %}
               {% endfor %}
             </ul>
           </div>
-      </div>
+        </div>
       </div>
 
-        <div class="col-md-4  ml-4  mr-3 b-3 t-3">
+      <div class="col-md-4  ml-4  mr-3 b-3 t-3">
         <div class="card border-info ml-1 mb-3">
           <div class="card-header"><b>Website</b> </div>
           <div class="card-body text-info">
             <ul class="reviewers">
-              {% assign localTeam = site.data.localTeam | sort: "lastname"   %}      
+              {% assign localTeam = site.data.localTeam | sort: "lastname" %}
               {% for member in localTeam %}
-              {% if member.role == "Website" %}
-              {% if member.webchair  %}
-              <li><b class="text-info"> {{ member.firstname }} {{ member.lastname}} </b></li>
-               {% else %}
-               <li> {{ member.firstname }} {{ member.lastname}} </li>
-               {% endif %}
-                             {% endif %}
+                {% if member.role == "Website" %}
+                   {% if member.webchair %}
+                      <li><b class="text-info"> {{ member.firstname }} {{ member.lastname}} </b></li>
+                    {% else %}
+                      <li> {{ member.firstname }} {{ member.lastname}} </li>
+                    {% endif %}
+                {% endif %}
               {% endfor %}
             </ul>
           </div>
@@ -441,9 +433,9 @@ last_modified: 2026-06-16
           <div class="card-header"><b>Local Organizing Team</b> </div>
           <div class="card-body text-info">
             <ul class="reviewers">
-              {% assign localTeam = site.data.localTeam | sort: "lastname"   %}      
+              {% assign localTeam = site.data.localTeam | sort: "lastname" %}
               {% for member in localTeam %}
-              <li> {{ member.firstname }} {{ member.lastname}} </li>
+                 <li> {{ member.firstname }} {{ member.lastname}} </li>
               {% endfor %}
             </ul>
           </div>
@@ -452,18 +444,16 @@ last_modified: 2026-06-16
 
     </div>
   </div>
-
+</section>
 
   
 
 
 <section id="area_chair">
+ <h2> Reviewers </h2>
   <!------ Section Board Team ----->
   <div class="container d-flex justify-content-center">
     <div class="row justify-content-center">
-
-      <h2> Reviewers </h2>
-
 
       <div class="col-md-12  ml-10  mr-3 b-3 t-3">
         <div class="card border-info ml-1 mb-3">
