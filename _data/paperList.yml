@@ -4637,7 +4637,7 @@
   authors: Kim, Yeji*; Babiker, Housam; Kim, Mi-Young; Goebel, Randy
 - id: 1403
   title: Generating Icao-Compliant Synthetic Face Images Via Curriculum-Guided Diffusion
-  track: P4.T4
+  track: O7-C.T4   # P4.T4
   fullauthors: Raghavendra Mudgalgundurao (NTNU -NBL Lab)*; Patrick Schuch (NTNU-NBL
     Lab); Aryan  Khurana (BITS Pilani); Raghavendra Ramachandra (NTNU-NBL Lab); Kiran 
     Raja (NTNU-NBL Lab)
