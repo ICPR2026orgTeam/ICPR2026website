@@ -157,6 +157,7 @@ function updateNotificationsInterface(button, status) {
 
     const panel = document.getElementById("notifications-panel");
     const description = document.getElementById("notifications-description");
+    const historyLink = document.getElementById("notification-history-link")
 
     if (!panel || !button || !status || !description) {
         return;
@@ -179,6 +180,8 @@ function updateNotificationsInterface(button, status) {
 
             status.hidden = false;
             status.textContent = "⚪ Notifications are disabled.";
+
+            historyLink.hidden = true;
             break;
 
         case "granted":
@@ -195,6 +198,8 @@ function updateNotificationsInterface(button, status) {
             status.hidden = false;
             status.textContent = "Notifications are enabled.";
             status.classList.add("is-enabled");
+
+            historyLink.hidden = false;
             break;
 
         case "denied":
@@ -210,6 +215,8 @@ function updateNotificationsInterface(button, status) {
             status.hidden = false;
             status.textContent = "Notifications have been blocked.";
             status.classList.add("is-blocked");
+
+            historyLink.hidden = false;
             break;
     }
 
@@ -232,4 +239,67 @@ function updateNotificationsInterface(button, status) {
 //     }
 // })
 
+async function LoadNotifications() {
+    const list = document.getElementById("public-notification-list");
+    const loading = document.getElementById("notifications-loading");
+
+    try{
+        const response = await fetch(`${API_BASE_URL}/notifications?limit=30`);
+
+        if (!response.ok){
+            throw new Error("Unable to load notifications");
+        }
+
+        const data = await response.json();
+
+        loading.hidden = true;
+
+        if (data.notifications.length === 0) {
+            const message = document.createElement("p");
+            message.textContent = "No notifications have been published yet";
+            
+            list.appendChild(message);
+            return;
+        }
+
+        for (const notification of data.notifications) {
+            const article = document.createElement("article");
+            article.className = "public-notification";
+
+            const title = document.createElement("h2");
+            title.textContent = notification.title;
+
+            const body = document.createElement("p");
+            body.textContent = notification.body;
+
+            const date = document.createElement("time");
+            date.className = "public-notification-date";
+
+            const notificationDate = new Date(
+                `${notification.created_at} UTC`
+            );
+
+            date.dateTime = notificationDate.toISOString();
+            date.textContent = notificationDate.toLocaleDateString();
+
+            article.append(title, body, date);
+
+            if (notification.url) {
+                const link = document.createElement("a");
+                link.href = notification.url;
+                link.textContent = "More Information";
+
+                article.appendChild(link);
+            }
+
+            list.appendChild(article);
+        }
+    } catch(error) {
+        console.error(error);
+        loading.textContent = "Notification are temporarily unavailable";
+    }
+}
+ 
+
 document.addEventListener("DOMContentLoaded", initializeNotifications);//Wait the full loading of the page
+document.addEventListener("DOMContentLoaded", LoadNotifications);

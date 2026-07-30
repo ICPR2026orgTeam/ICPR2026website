@@ -597,3 +597,53 @@ ul.reviewers li {
 .notifications-panel.is-compact #notifications-description {
     display: none;
 }
+
+.notifications-archive {
+  margin: 2rem 0;
+}
+
+#public-notification-list {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.public-notification {
+  padding: 1.25rem;
+
+  background: #f7f9fb;
+  border: 1px solid #d9e2e8;
+  border-left: 4px solid #00636d;
+  border-radius: 10px;
+}
+
+.public-notification h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+}
+
+.public-notification p {
+  margin: 0.5rem 0;
+}
+
+.public-notification-date {
+  display: block;
+  margin-top: 0.75rem;
+
+  color: #667085;
+  font-size: 0.9rem;
+}
+
+.public-notification a {
+  display: inline-block;
+  margin-top: 0.75rem;
+}
+
+.notifications-link {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.notifications-link:hover {
+    text-decoration: underline;
+}
