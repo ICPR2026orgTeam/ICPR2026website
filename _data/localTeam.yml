@@ -197,3 +197,32 @@
   coordination: yes
 
 
+- role: localorgteam
+  firstname: Oscar 
+  lastname: Morand
+  affiliation: INSA
+
+
+
+- role: localorgteam
+  firstname: Duaa
+  lastname: Baig
+  affiliation: -
+
+
+
+- role: localorgteam
+  firstname: Malek
+  lastname: Mahjoub
+  affiliation: INSA
+
+
+
+- role: localorgteam
+  firstname: Laure 
+  lastname: Tougne Rodet
+  affiliation: Lyon 2
+
+
+
+
