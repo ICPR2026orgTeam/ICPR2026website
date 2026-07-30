@@ -1,0 +1,29 @@
+
+
+
+  <!------ Section Board Team ----->
+      <div class="col-6 col-sm-5 col-md-4 col-lg-3 mb-2">
+  
+      <a href="{{ ks.url | relative_url  }}"> 
+        <article class="keynotespeaker-item">
+
+          <!-- IMAGE -->
+          <div class="speaker-img-wrapper mb-2">
+            <img src="{{ site.baseurl }}/Images/{{include.photoName}}" alt="Photo {{include.name}}" class="speaker-img">
+          </div>
+
+          <!-- NAME -->
+          <h6 class="speaker-name mb-0">
+            <a href="{{ ks.url }}">{{include.name}}</a>
+          </h6>
+
+          <!-- UNIVERSITY -->
+         <small class="speaker-univrsity text-muted">
+           {{include.affiliation}}
+          </small>
+          <h6 class="speaker-name mb-0">
+           (main local chair)
+          </h6>
+        </article>
+      </a>
+</div> 

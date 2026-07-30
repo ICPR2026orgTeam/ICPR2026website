@@ -15,34 +15,55 @@ last_modified: 2026-06-16
   <div class="container d-flex justify-content-center">
     <div class="row justify-content-center">
 
+      <h2> General Chairs </h2>
       <!------ Chairs Panel ----->
-      <div class="col-md-5  ml-3  mr-3 b-3 t-3">
-        <div class="card border-info ml-1 mb-3">
-          <div class="card-header">General chairs:</div>
-          <div class="card-body text-info">
-            <ul class="mb-0">
-              <li>Jean-Marc Ogier, France</li>
-              <li>Tin Kam Ho, USA</li>
-              <li><a href="https://www.nlpr.ia.ac.cn/liucl/">Cheng-Lin Liu</a>, China</li>
-              <li><a href="https://www.cse.lehigh.edu/~lopresti">Dan Lopresti</a>, USA</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-5  ml-3  mr-3 b-3 t-3">
-        <div class="card border-info ml-1 mb-3">
-          <div class="card-header">Program Chairs:</div>
-          <div class="card-body text-info">
-            <ul class="mb-0">
-              <li>Maria De Marsico, Italy </li>
-              <li>Frederic Jurie, France </li>
-              <li> <a href="https://user.it.uu.se/~ingenyst">Ingela Nyström</a>, Sweden </li>
-              <li>Arun Ross, USA </li>
-              <li>Liang Wang, China </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      {% include displayPhotoPCGC.html
+      photoName="photoJM.jpeg"
+      name="Jean-Marc Ogier, France" %}
+
+      {% include displayPhotoPCGC.html
+      photoName="photoTin.jpeg"
+      name="Tin Kam Ho, USA" %}
+
+      {% include displayPhotoPCGC.html
+      photoName="photoCheng-Lin.jpeg"
+      name="Cheng-Lin Liu, China" 
+      link="https://www.nlpr.ia.ac.cn/liucl/"%}
+      
+      {% include displayPhotoPCGC.html
+      photoName="photoDan.jpeg"
+      name="Dan Lopresti, USA" 
+      link= "https://www.cse.lehigh.edu/~lopresti" %}
+
+
+      <h2> Program Chairs </h2>
+      
+      {% include displayPhotoPCGC.html
+      photoName="photoMaria.jpeg"
+      name="Maria De Marsico, Italy" %}
+
+
+      {% include displayPhotoPCGC.html
+      photoName="photoFrederic.jpeg"
+      name="Frederic Jurie, France" %}
+
+      
+      {% include displayPhotoPCGC.html
+      photoName="photoIngela.jpeg"
+      name="Ingela Nyström Sweden"
+      link="https://user.it.uu.se/~ingenyst" %}
+      
+      {% include displayPhotoPCGC.html
+      photoName="photoArun.jpeg"
+      name="Arun Ross, USA" %}
+
+      
+       {% include displayPhotoPCGC.html
+      photoName="photoLiang.jpeg"
+      name="Liang Wang, China" %}
+
+      
+      <h2> Other Main Chairs </h2>
 
       <div class="col-md-5  ml-3  mr-3 b-3 t-3">
         <div class="card border-info ml-1 mb-3">

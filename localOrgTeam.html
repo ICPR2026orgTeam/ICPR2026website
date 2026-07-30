@@ -9,9 +9,36 @@ last_modified: 2026-07-30
 
   <h1>Local Organisation Team </h1>
 
+  
+ <div class="container">
+    <div class="row text-center justify-content-around">
 
-  <!------ Section Board Team ----->
 
+
+      {% include displayPhotoMember.html
+      photoName="photoVero.jpeg"
+      affiliation="- LIRIS - INSA Lyon"
+      name="Véronique Eglin" %}
+
+      {% include displayPhotoMember.html
+      photoName="photoBertrand.jpeg"
+      affiliation="- LIRIS - Université Lumière Lyon 2"
+      name="Bertrand Kerautret" %}
+
+
+      {% include displayPhotoMember.html
+      photoName="photoSteph.jpeg"
+      affiliation="- LIRIS - INSA Lyon"
+      name="Stephane Bres" %}
+
+</div>
+
+    </div>
+ </div>
+
+<h2>Global team</h2>
+
+   
   <section id="Local organisation team">
     <!------ Local organisation team ----->
     <div class="container d-flex justify-content-center">
@@ -25,11 +52,7 @@ last_modified: 2026-07-30
                 {% assign localTeam = site.data.localTeam | sort: "lastname" %}
                 {% for member in localTeam %}
                   {% if member.coordination %}
-                    {% if member.chair %}
-                      <li><b class="text-info"> {{ member.firstname }} {{ member.lastname}} </b></li>
-                    {% else %}
                       <li> {{ member.firstname }} {{ member.lastname}} </li>
-                    {% endif %}
                   {% endif %}
                 {% endfor %}
               </ul>
@@ -44,11 +67,7 @@ last_modified: 2026-07-30
                 {% assign localTeam = site.data.localTeam | sort: "lastname" %}
                 {% for member in localTeam %}
                  {% if member.role == "graphism" %}
-                    {% if member.chair %}
-                      <li><b class="text-info"> {{ member.firstname }} {{ member.lastname}} </b></li>
-                    {% else %}
                       <li> {{ member.firstname }} {{ member.lastname}} </li>
-                    {% endif %}
                   {% endif %}
                 {% endfor %}
               </ul>
@@ -64,11 +83,7 @@ last_modified: 2026-07-30
                 {% assign localTeam = site.data.localTeam | sort: "lastname" %}
                 {% for member in localTeam %}
                   {% if member.role == "Website" %}
-                     {% if member.webchair %}
-                        <li><b class="text-info"> {{ member.firstname }} {{ member.lastname}} </b></li>
-                      {% else %}
                         <li> {{ member.firstname }} {{ member.lastname}} </li>
-                      {% endif %}
                   {% endif %}
                 {% endfor %}
               </ul>
