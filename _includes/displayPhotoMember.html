@@ -21,9 +21,11 @@
          <small class="speaker-univrsity text-muted">
            {{include.affiliation}}
           </small>
-          <h6 class="speaker-name mb-0">
-           (main local chair)
+         {% if include.role %}
+         <h6 class="speaker-name mb-0">
+           {{ include.role }}
           </h6>
+         {% endif %}
         </article>
       </a>
 </div> 
