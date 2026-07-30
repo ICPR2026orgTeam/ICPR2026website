@@ -8,10 +8,9 @@ last_modified: 2026-06-16
 ---
 
 <section id="ConfCommittee">
-  <h1>Committee</h1>
+  <h1>Conference Committee</h1>
 
 
-  <h2> Conference Committee </h2>
   <!------ Section Board Team ----->
   <div class="container d-flex justify-content-center">
     <div class="row justify-content-center">
@@ -216,7 +215,7 @@ last_modified: 2026-06-16
 
 
 <section id="TrackChairs">
-  <h2> Track Chairs</h2>
+  <h2 id=""> Track Chairs</h2>
   {% assign tracksdef = site.data.tracks %}
 
   <!------ Section Board Team ----->
@@ -360,115 +359,3 @@ last_modified: 2026-06-16
   </section>
 
 
-
-  <!------ Section Board Team ----->
-
-<section id="Local organisation team">
-  <h2> Local Organisation Team </h2>
-  <!------ Local organisation team ----->
-  <div class="container d-flex justify-content-center">
-    <div class="row justify-content-center">
-
-      <div class="col-md-4  ml-4  mr-3 b-3 t-3">
-        <div class="card border-info ml-1 mb-3">
-          <div class="card-header"><b>Local Coordination</b> </div>
-          <div class="card-body text-info">
-            <ul class="reviewers">
-              {% assign localTeam = site.data.localTeam | sort: "lastname" %}
-              {% for member in localTeam %}
-                {% if member.coordination %}
-                  {% if member.chair %}
-                    <li><b class="text-info"> {{ member.firstname }} {{ member.lastname}} </b></li>
-                  {% else %}
-                    <li> {{ member.firstname }} {{ member.lastname}} </li>
-                  {% endif %}
-                {% endif %}
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4  ml-4  mr-3 b-3 t-3">
-        <div class="card border-info ml-1 mb-3">
-          <div class="card-header"><b>Infography</b> </div>
-          <div class="card-body text-info">
-            <ul class="reviewers">
-              {% assign localTeam = site.data.localTeam | sort: "lastname" %}
-              {% for member in localTeam %}
-               {% if member.role == "graphism" %}
-                  {% if member.chair %}
-                    <li><b class="text-info"> {{ member.firstname }} {{ member.lastname}} </b></li>
-                  {% else %}
-                    <li> {{ member.firstname }} {{ member.lastname}} </li>
-                  {% endif %}
-                {% endif %}
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4  ml-4  mr-3 b-3 t-3">
-        <div class="card border-info ml-1 mb-3">
-          <div class="card-header"><b>Website</b> </div>
-          <div class="card-body text-info">
-            <ul class="reviewers">
-              {% assign localTeam = site.data.localTeam | sort: "lastname" %}
-              {% for member in localTeam %}
-                {% if member.role == "Website" %}
-                   {% if member.webchair %}
-                      <li><b class="text-info"> {{ member.firstname }} {{ member.lastname}} </b></li>
-                    {% else %}
-                      <li> {{ member.firstname }} {{ member.lastname}} </li>
-                    {% endif %}
-                {% endif %}
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-12  ml-10  mr-3 b-3 t-3">
-        <div class="card border-info ml-1 mb-3">
-          <div class="card-header"><b>Local Organizing Team</b> </div>
-          <div class="card-body text-info">
-            <ul class="reviewers">
-              {% assign localTeam = site.data.localTeam | sort: "lastname" %}
-              {% for member in localTeam %}
-                 <li> {{ member.firstname }} {{ member.lastname}} </li>
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-  
-
-
-<section id="area_chair">
- <h2> Reviewers </h2>
-  <!------ Section Board Team ----->
-  <div class="container d-flex justify-content-center">
-    <div class="row justify-content-center">
-
-      <div class="col-md-12  ml-10  mr-3 b-3 t-3">
-        <div class="card border-info ml-1 mb-3">
-          <div class="card-header"><b>List of ICPR main conference Reviewers</b> </div>
-          <div class="card-body text-info">
-            <ul class="reviewers">
-              {% assign reviewers = site.data.reviewers %}
-              {% for r in reviewers %}
-              <li> {{ r.firstname }} {{ r.lastname }} </li>
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
