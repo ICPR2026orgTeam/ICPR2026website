@@ -1,0 +1,192 @@
+
+- role: localorgteam
+  firstname: Stéphane
+  lastname: Bres
+  affiliation: LIRIS
+  coordination: yes
+  
+- role: Website
+  firstname: Hoarau
+  lastname: Kevin
+  affiliation: LIRIS
+  
+- role: Website
+  firstname: Françoise
+  lastname: Conil
+  affiliation: LIRIS
+
+- role: Main Local Chair
+  firstname: Véronique 
+  lastname: Eglin
+  affiliation: LIRIS
+  coordination: yes
+  chair: yes
+  
+- role: Website 
+  firstname: Bertrand 
+  lastname: Kerautret 
+  affiliation: LIRIS
+  coordination: yes  
+  webchair: yes
+  
+- role: graphism
+  firstname: Juliana 
+  lastname: Do Nascimento Damurie da Silva
+  affiliation: LIRIS
+  chair: yes
+
+- role: localorgteam
+  firstname: Xun
+  lastname: GONG
+  affiliation: LIRIS
+
+- role: localorgteam
+  firstname: Abderrahim
+  lastname: Mechache
+  affiliation: LIRIS
+
+- role: localorgteam
+  firstname: Muhammad
+  lastname: Safi Ullah Adam
+  affiliation: LIRIS
+
+- role: localorgteam
+  firstname: Ousmane
+  lastname: Touat
+  affiliation: LIRIS
+
+- role: localorgteam
+  firstname: Stefan
+  lastname: Duffner
+  affiliation: LIRIS
+
+- role: localorgteam
+  firstname: Duaa
+  lastname: Baig
+  affiliation: LIRIS
+
+- role: localorgteam
+  firstname: Brandon
+  lastname: Mosqueda
+  affiliation: LIRIS
+
+- role: localorgteam
+  firstname: Asma
+  lastname: Kharrat
+  affiliation: LIRIS
+
+- role: localorgteam
+  firstname: Stanislas
+  lastname: Bagnol
+  affiliation: LIRIS
+
+- role: localorgteam
+  firstname: Aymar
+  lastname: Tchagoue
+  affiliation: LIRIS
+
+- role: localorgteam
+  firstname: Mu
+  lastname: liang
+  affiliation: LIRIS
+
+- role: localorgteam
+  firstname: Franck
+  lastname: Davoine
+  affiliation: LIRIS
+
+- role: localorgteam
+  firstname: Kévin
+  lastname: Hoarau
+  affiliation: LIRIS
+
+- role: graphism
+  firstname: Mihaela
+  lastname: Scuturici
+  affiliation: LIRIS
+
+- role: localorgteam
+  firstname: Bolutife
+  lastname: Atoki
+  affiliation: LIRIS
+
+- role: localorgteam
+  firstname: Douaidi
+  lastname: Lydia
+  affiliation: LIRIS
+
+- role: localorgteam
+  firstname: Arthur
+  lastname: Deredel
+  affiliation: LIRIS
+
+- role: localorgteam
+  firstname: Marwa
+  lastname: Zaabi
+  affiliation: LIRIS
+
+- role: localorgteam
+  firstname: Taddeo
+  lastname: D'Adamo
+  affiliation: LIRIS
+
+- role: localorgteam
+  firstname: Furqan
+  lastname: Bhat
+  affiliation: LIRIS
+
+
+- role: localorgteam
+  firstname: Joanne
+  lastname: Boulos
+  affiliation: LIRIS
+
+- role: localorgteam
+  firstname: Carlos
+  lastname: Crispim
+  affiliation: LIRIS
+
+- role: localorgteam
+  firstname: Iuliia
+  lastname: Tkachenko
+  affiliation: LIRIS
+
+- role: localorgteam
+  firstname: Chokri
+  lastname: Ben Amar
+  affiliation: LIRIS
+
+- role: localorgteam
+  firstname: François
+  lastname: Wieckowiak
+  affiliation: LIRIS
+
+
+- role: localorgteam
+  firstname: Yi
+  lastname: Zhu
+  affiliation: LIRIS
+
+- role: localorgteam
+  firstname: Tetiana
+  lastname: Yemelianenko
+  affiliation: LIRIS
+
+- role: localorgteam
+  firstname: Mahdi
+  lastname: Hadj Kacem
+  affiliation: LIRIS
+
+- role: localorgteam
+  firstname: Mathilde
+  lastname: Dupouy
+  affiliation: LIRIS
+
+
+- role: localorgteam
+  firstname: Robin
+  lastname: Arsac
+  affiliation: INSAVALOR
+
+
+
