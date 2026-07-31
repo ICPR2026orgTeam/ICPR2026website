@@ -1,4 +1,3 @@
-
 - role: localorgteam
   firstname: Stéphane
   lastname: Bres
@@ -224,5 +223,13 @@
   affiliation: Lyon 2
 
 
+
+
+
+- role: localorgteam
+  firstname: Killian 
+  lastname: Barrere
+  affiliation: INSA
+  coordination: yes  
 
 
