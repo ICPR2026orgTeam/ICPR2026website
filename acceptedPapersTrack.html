@@ -149,6 +149,14 @@ if (value.length === 0) {
     });
   
 });
+// To get link from query string
+const params = new URLSearchParams(window.location.search);
+const query = params.get("search") || params.get("id");
+if (query) {
+    search.value = query;
+    search.dispatchEvent(new Event("input"));
+}
+
 </script>
   
 </section>
