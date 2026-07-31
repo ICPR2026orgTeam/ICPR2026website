@@ -204,13 +204,6 @@
 
 
 - role: localorgteam
-  firstname: Duaa
-  lastname: Baig
-  affiliation: LIRIS
-
-
-
-- role: localorgteam
   firstname: Malek
   lastname: Mahjoub
   affiliation: INSA
@@ -231,5 +224,11 @@
   lastname: Barrere
   affiliation: INSA
   coordination: yes  
+
+
+- role: localorgteam
+  firstname: Magali
+  lastname: Acik
+  affiliation: Centre des congrés
 
 
