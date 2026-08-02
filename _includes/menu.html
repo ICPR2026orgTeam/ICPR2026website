@@ -109,6 +109,9 @@
         </ul>
     </div>
 </nav>
+
+
+
 <div id="notice-wrapper">
   <div class="submission-notice notice active">
  <div class="notice-content">
@@ -124,6 +127,7 @@
   </p>
 </div>
   </div>
+{% comment %}
 
   <div class="submission-notice notice">
     <div class="notice-content">
@@ -138,6 +142,9 @@
       </p>
     </div>
   </div>
+
+{% endcomment %}
+
 </div>
 
 
@@ -155,6 +162,11 @@
 </div>
 
 {% endcomment %}
+
+
+
+{% comment %} To be used when more than one announce
+
 <script>
 document.addEventListener("DOMContentLoaded", () => {
     const notices = document.querySelectorAll("#notice-wrapper .notice");
@@ -167,3 +179,4 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 5000);
 });
 </script>
+{% endcomment %}
