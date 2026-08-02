@@ -2780,7 +2780,7 @@
     Miguel*
 - id: 893
   title: Sign-To-Speech Prosody Transfer Via Sign Reconstruction-Based Gan
-  track: O2-D.T3
+  track: P4.T3  # O2-D.T3
   fullauthors: Toranosuke Manabe (Keio University)*; Yuto Shibata (Keio University);
     Shinnosuke Takamichi (Keio University); Yoshimitsu Aoki (Keio University)
   authors: Manabe, Toranosuke*; Shibata, Yuto; Takamichi, Shinnosuke; Aoki, Yoshimitsu
