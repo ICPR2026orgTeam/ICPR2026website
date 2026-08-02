@@ -21,6 +21,8 @@ last_modified: 2026-07-14
          id="paperSearch"
          placeholder="e.g. 123"
          style="max-width:250px;padding:6px;">
+  <span id="paperCount" style="display:none;margin-left:15px;"></span>
+</span>
 </div>
 
 {% assign tracksdef = site.data.tracks %}
@@ -109,31 +111,48 @@ last_modified: 2026-07-14
 <script>
 const search = document.getElementById("paperSearch");
 const overview = document.getElementById("tracksOverview");
+const counter = document.getElementById("paperCount");
 
 search.addEventListener("input", function () {
-    const value = this.value.trim().toLowerCase();
-    // Hide overview tabular once entering data in input search
+
+const value = this.value.trim().toLowerCase();
+
+    // Hide overview table once entering data
     overview.style.display = value === "" ? "" : "none";
+
+    let totalVisible = 0;
 
     document.querySelectorAll(".track-section").forEach(section => {
         let visibleRows = 0;
+
         section.querySelectorAll("tbody tr").forEach(row => {
             const text = row.textContent.toLowerCase();
-const id = row.querySelector("td").textContent.trim();
+            const id = row.querySelector("td").textContent.trim();
 
-// recherche stricte si la valeur est un nombre
-let visible;
-if (/^\d+$/.test(value)) {
-    visible = (id === value);
-} else {
-    visible = (text.includes(value));
-}            row.style.display = visible ? "" : "none";
-            if (visible) visibleRows++;
+            let visible;
+            if (/^\d+$/.test(value)) {
+                visible = (id === value);
+            } else {
+                visible = text.includes(value);
+            }
+
+            row.style.display = visible ? "" : "none";
+
+            if (visible) {
+                visibleRows++;
+                totalVisible++;
+            }
         });
+if (value.length === 0) {
+    counter.style.display = "none";
+} else {
+    counter.style.display = "inline";
+    counter.textContent = `(${totalVisible} paper${totalVisible > 1 ? "s" : ""} found)`;
+}
         section.style.display = visibleRows ? "" : "none";
     });
+  
 });
-
 // To get link from query string
 const params = new URLSearchParams(window.location.search);
 const query = params.get("search") || params.get("id");
@@ -141,6 +160,7 @@ if (query) {
     search.value = query;
     search.dispatchEvent(new Event("input"));
 }
+
 </script>
   
 </section>

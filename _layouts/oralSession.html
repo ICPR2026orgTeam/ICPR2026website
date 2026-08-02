@@ -54,7 +54,6 @@
     {% endcapture %}
     
 
-
     
     {% assign paperID = session.listPapers | split: " " %}
     {% assign listPaper = site.data.paperList %}
@@ -75,35 +74,67 @@
     {% capture mySessionCode %}O{{ sessionID }}-{{ session.codePlace }}.T{{ session.paperTrack }}{% endcapture %}
 
     {% assign listPapers = listPaper | where: "track", mySessionCode  %}
-    <ul>
+  {% assign start = time[code].time | split: "-" | first %}
+    {% assign hh = start | split: "h" | first | plus: 0 %}
+    {% assign mm = start | split: "h" | last | plus: 0 %}
+    {% assign startMinutes = hh | times: 60 | plus: mm %}
+  
+<ul>
 
  <table class="table-workshop">
     <thead>
       <tr>
+        <th>time</th>
         <th>#</th>
         <th>Title and Authors</th>
         <th>Link pdf</th>
       </tr>
     </thead>
     <tbody>
-    
-      {% for paper in listPapers %}
+
+      {% assign start = time[code].time | split: "-" | first %}
+      {% assign parts = start | split: "h" %}
+      {% assign hh = parts[0] | plus: 0 %}
+      {% assign mm = parts[1] | plus: 0 %}
+
+      {% assign startMinutes = hh | times: 60 %}
+      {% assign startMinutes = startMinutes | plus: mm %}
+ 
+     {% for paper in listPapers %}
+        {% assign offset = forloop.index0 | times: 20 %}
+        {% assign offsetEND = forloop.index0 | times: 20 | plus: 20 %}
+        {% assign current = startMinutes | plus: offset %}
+        {% assign end = startMinutes | plus: offsetEND %}
+
+
+
+        {% assign hour = current | divided_by: 60 %}
+        {% assign minute = current | modulo: 60 %}
+        {% assign hourEND = end | divided_by: 60 %}
+        {% assign minuteEND = end | modulo: 60 %}
+
       <tr>
-        <td>{{ paper.id }}</td>
-        <td>
-            <div>{{ paper.title }}</div>
-            <div style="font-size: 0.9em; color: #666;">
-              {{ paper.authors | join: ", " | replace: "*", "" }}
-            </div>
-        </td>
-        <td>
-          {% if paper.pdflink %}
+    <td>
+      {% if hour < 10 %}0{% endif %}{{ hour }}h{% if minute < 10 %}0{% endif %}{{ minute }}-{% if hourEND < 10 %}0{% endif %}{{ hourEND }}h{% if minuteEND < 10 %}0{% endif %}{{ minuteEND }}
+    </td>
+
+    <td>{{ paper.id }}</td>
+
+    <td>
+      <div>{{ paper.title }}</div>
+      <div style="font-size:0.9em;color:#666;">
+        {{ paper.authors | join:", " | replace:"*","" }}
+      </div>
+    </td>
+    <td>
+        {% if paper.pdflink %}
         <a href="{{ paper.pdflink }}" target="_blank" class="text-danger">
-          <i class="bi bi-file-earmark-pdf"></i> PDF
+            <i class="bi bi-file-earmark-pdf"></i> PDF
         </a>
         {% endif %}
-        </td>
-      </tr>
+    </td>
+
+  </tr>
 {% endfor %}
 </ul>
 

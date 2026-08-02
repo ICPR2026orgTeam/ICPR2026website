@@ -85,7 +85,7 @@
   authors: Verma, sachin*; Wintel, Florian ; Lindseth, Frank; Kiss, Gabriel
 - id: 35
   title: 'Metamoa: Top-Down Dynamic Guidance For Parameter-Efficient Domain Generalization'
-  track: P1.T1
+  track:  P3.T1 #  P1.T1
   fullauthors: Mahmoud Soliman (UBC)*; Ahmed Radwan (UBC); Omar Abdelaziz (UBC); Mohamed
     S. Shehata (UBC)
   authors: Soliman, Mahmoud*; Radwan, Ahmed; Abdelaziz, Omar; S. Shehata, Mohamed
@@ -171,7 +171,7 @@
 - id: 79
   title: 'Feddg-Moe-Nf: Prototypical Normalizing Flow Networks For Federated Domain
     Generalization'
-  track: P2.T1
+  track: P4.T1  #P2.T1
   fullauthors: Omar Abdelaziz Morgan Abdelaziz (University of British Columbia)*;
     Mahmoud Osama (University of British Columbia); Ahmed Radwan (University of British
     Columbia); Ahmed ElGazwy (University of British Columbia); Mohamed S. Shehata
@@ -2526,13 +2526,13 @@
   authors: Hiroshima, Kei*; Uchida, Kento; Shirakawa, Shinichi
 - id: 826
   title: An Empirical Study Of Self-Supervised Pretraining In X-Ray Security Screening
-  track: P2.T2
+  track: P3.T2 # P2.T2
   fullauthors: Nilofar Akbari (Concordia University); Yang Wang (Concordia University)*;
     Xinxin Zuo (Concordia University)
   authors: Akbari, Nilofar; Wang, Yang*; Zuo, Xinxin
 - id: 827
   title: Controllable Diffusion-Based Data Augmentation For X-Ray Object Detection
-  track: P2.T2
+  track: P4.T2  # P2.T2
   fullauthors: Jacob Kingi (Concordia University); Yang Wang (Concordia University)*;
     Xinxin Zuo (Concordia University)
   authors: Kingi, Jacob; Wang, Yang*; Zuo, Xinxin
@@ -4288,7 +4288,7 @@
 - id: 1298
   title: 'Coinet: Confidence-Aware Involution Network For Joint Contactless Fingerprint
     Representation'
-  track: O7-C.T4
+  track: P4.T4  #O7-C.T4
   fullauthors: Santhoshkumar Peddi (Indian Institute of Technology, Kharagpur)*; Arun
     Balasubramanian (Indian Institute of Technology, Kharagpur); Monalisa Sarma (Indian
     Institute of Technology, Kharagpur); Debasis Samanta (Indian Institute of Technology,
@@ -5192,6 +5192,7 @@
   fullauthors: Nhut Le (Lehigh University); Ehsan Karimi (Lehigh University); Maryam
     Rahnemoonfar (Lehigh University)*
   authors: Le, Nhut; Karimi, Ehsan; Rahnemoonfar, Maryam*
+  ext-presenter: Abolfazl Chaman Motlagh
 - id: 1537
   title: 'Llie-Cvt: A Convolutional Vision Transformer For Low Light Image Enhancement'
   track: O7-D.T3
