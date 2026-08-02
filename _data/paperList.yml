@@ -88,6 +88,7 @@
   track:  P3.T1 #  P1.T1
   fullauthors: Mahmoud Soliman (UBC)*; Ahmed Radwan (UBC); Omar Abdelaziz (UBC); Mohamed
     S. Shehata (UBC)
+  ext-presenter: "Yang Wang"
   authors: Soliman, Mahmoud*; Radwan, Ahmed; Abdelaziz, Omar; S. Shehata, Mohamed
 - id: 44
   title: '$M^2$Pose: Robust 6D Object Pose Estimation Via Multi-Frequency Surface
@@ -178,6 +179,7 @@
     (University of British Columbia)
   authors: Abdelaziz, Omar Abdelaziz Morgan*; Osama, Mahmoud; Radwan, Ahmed; ElGazwy,
     Ahmed; Shehata, Mohamed S.
+  ext-presenter: "Yang Wang"
 - id: 80
   title: Physics-Guided 3D Convolutional Learning For Accurate Springback Error Prediction
     In Single Point Incremental Forming
