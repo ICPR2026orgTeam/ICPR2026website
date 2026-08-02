@@ -2644,8 +2644,8 @@
   fullauthors: Hyeongmuk Lim (Inha University); Youngbum Hur (Inha University)*
   authors: Lim, Hyeongmuk; Hur, Youngbum*
 - id: 862
-  title: 'Hypdeformnet: Edge-Deployable Deep Architecture With Jacobian-Stable Hyperbolic
-    Deformation And Lipschitz Distillation For Immunotherapy Response Prediction'
+  title: 'HypDeformNet: Edge-Deployable Deep Architecture with Jacobian-Stable Hyperbolic Deformation and Lipschitz Distillation
+    for Immunotherapy Response Prediction'
   track: O3-C.T1
   fullauthors: Francesco Rundo (University of Catania)*; Massimo Spata (University
     of Catania); Giuseppe Luigi Banna (University of Portsmouth); Sebastiano Battiato
@@ -3781,8 +3781,8 @@
     Zhao (Northeastern University); Xue Lin (Northeastern University)
   authors: Li, Yize*; Lu, Lei; Kong, Zhenglun; Wang, Yanzhi; Zhao, Pu; Lin, Xue
 - id: 1167
-  title: 'Said: Spatial And Interaction-Aware Directed Heterogeneous Graph Neural
-    Network For Gene Mutation Prediction From Histopathology Whole Slide Images'
+  title: 'SAID: Spatial and Interaction-Aware Directed Heterogeneous Graph Neural Network for Gene Mutation Prediction from Histopathology
+    Whole Slide Images'
   track: O7-E.T6
   fullauthors: Yifei Wang (Hefei University of Technology); Jun Shi (Hefei University
     of Technology)*; Shihao Wu (Hefei University of Technology); Jiyang Li (Hefei
@@ -4148,8 +4148,7 @@
     Technolog)
   authors: Singh, Jasraj; Liu, Fang*; Xu, Hong; Ng, Bee Chin; Zhang, Wei
 - id: 1274
-  title: 'Pafnet: Physics-Aware Free-Water Estimation From Single-Shell Diffusion
-    Mri Via Attention And Anisotropic Advection–Diffusion Networks'
+  title: 'PAFNet: Physics-Aware Free-Water Estimation from Single-Shell Diffusion MRI via Attention and Anisotropic Advection-Diffusion Networks'
   track: P4.T6
   fullauthors: Soma Samanta (IIT Patna); Deepa Pandey (IIT Patna)*; Ranjeet ranjan
     Jha (IIT Patna); Sudhir Kumar Pathak (University of Pittsburg); B.V. Rathish Kumar
@@ -4443,8 +4442,8 @@
     Novi Sad); Alberto Seles (University of Genova)
   authors: Magillo, Paola*; Comic, Lidjia; Seles, Alberto
 - id: 1357
-  title: 'Agmm-Adp: An Approximated Gaussian Mixture Model Approach Combined With
-    An Adaptive Dynamic Programming For Multi-Threshold Detection'
+  title: 'AGMM-ADP: An Approximated Gaussian Mixture Model Approach Combined with an Adaptive Dynamic Programming for Multi-threshold
+    Detection'
   track: P3.T1
   fullauthors: Mohamed Gabr (German University in Cairo)*
   authors: Gabr, Mohamed*
