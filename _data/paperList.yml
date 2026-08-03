@@ -2976,13 +2976,11 @@
     of Technology, Bombay, India)
   authors: Hossain, Md Aminur*; V. Patel, Ayush; Banerjee, Biplab
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_1
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_1
 - id: 901
   title: Rényi Attention Entropy For Patch Pruning
   track: O8-C.T1
   fullauthors: Hiroaki Aizawa (Hiroshima University)*; Yuki Igaue (Hiroshima University)
   authors: Aizawa, Hiroaki*; Igaue, Yuki
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_2
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_2
 - id: 906
   title: Physical-Semantic Co-Learning For Hypersepctral Image Cross-Scene Classification
@@ -2994,7 +2992,6 @@
   authors: Pan, Erting*; Zhang, Nicai; Liu, Chengyin; Li, Zhang; Liu, Xiaolin; Yu,
     Qifeng
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_3
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_3
 - id: 908
   title: 'Pact: Motif Discovery In Time Series Via Adaptive Segmentation, Symbolization,
     And Suffix Tree'
@@ -3003,7 +3000,6 @@
     (LITIS)
   authors: FODIL, Nour El Houda*; OLIVIER, Damien; Tranouez, Pierrick
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_4
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_4
 - id: 911
   title: 'Egohang: Graph-Enhanced Horizon Aware Egocentric Action Anticipation'
   track: P3.T2 # OLD P1.T2
@@ -3011,7 +3007,6 @@
     Allahabad, Prayagraj); Ananda S. Chowdhury (Jadavpur University Kolkata); ABHIMANYU
     SAHU (Motilal Nehru National Institute of Technology, Allahabad,)*
   authors: Vishwakarma, Pawanesh Kumar ; Chowdhury, Ananda S.; SAHU, ABHIMANYU*
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_5
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_5
 - id: 914
   title: 3D Wavelet-Based Structural Priors For Controlled Diffusion In Whole-Body
@@ -3028,7 +3023,6 @@
     Lima, Thiago; Strobel, Klaus; Leimgruber, Antoine; Aviles-Rivero, Angelica; Yang,
     Guang; Montoya, Javier *
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_6
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_6
 - id: 915
   title: 'Cross-Lingual Vulnerabilities Of Text-To-Image Models: Evaluating Data Poisoning
     Attacks Across Ten Languages'
@@ -3036,14 +3030,12 @@
   fullauthors: Ryohei Kakebayashi (Waseda University)*; Tatsuya Mori (Waseda University)
   authors: Kakebayashi, Ryohei*; Mori, Tatsuya
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_7
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_7
 - id: 916
   title: Rolling Feature Pattern Recognition For Adaptive Pairs Trading
   track: P4.T1
   fullauthors: Pranjala Kolapwar (Shri Guru Gobind Singhji Institute of Engineering
     and Technology)*
   authors: Kolapwar, Pranjala*
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_8
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_8
 - id: 922
   title: Local Anchor Embedding For Robust Face Recognition Via Progressive Global-Local
@@ -3055,7 +3047,6 @@
     Technology, Thakaa)
   authors: Ud Din, Nizam*; Siddiqui, Shahid; Ahmed, Fawad; Aldahlawi, Abdullah
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_9
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_9
 - id: 923
   title: 'Secmair-Crack: An Industrial Dataset For Fine Crack Segmentation For Preventive
     Road Maintenance'
@@ -3066,14 +3057,12 @@
   authors: KAGHAMBEGA, Harouna*; LE BERRE, Matthieu; CLERGUE, Manuel; PREVOST, Lionel;
     SALINESI, Camille
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_10
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_10
 - id: 924
   title: 'H-Spam: Hierarchical Superpixel Anything Model'
   track: O9-D.T3
   fullauthors: Julien Walther (University of Bordeaux)*; Rémi Giraud (University of
     Bordeaux); Michaël Clément (University of Bordeaux)
   authors: Walther, Julien*; Giraud, Rémi; Clément, Michaël
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_11
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_11
 - id: 930
   title: Delve Into Visual Contrastive Decoding For Hallucination Mitigation Of Large
@@ -3083,14 +3072,12 @@
     Yang Ming Chiao Tung University)
   authors: Lee, Yi-Lun*; Tsai, Ti-Hsuan; Chiu, Wei-Chen
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_12
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_12
 - id: 931
   title: Silhouette-Based Meta-Training For Geometric Relations
   track: P1.T1
   fullauthors: Attila Bodnár (ELTE - Eötvös Loránd University)*; László Gulyás ( ELTE
     - Eötvös Loránd University); Zoltán Kárász (Robert Bosch Kft.)
   authors: Bodnár, Attila*; Gulyás, László; Kárász, Zoltán
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_13
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_13
 - id: 936
   title: 'Fusion For Vision’S Sake: Learning Controllable Subspace Decompositions
@@ -3099,14 +3086,12 @@
   fullauthors: Ibrahim KAJO  (UTBM )*; yassine ruichek (UTBM)
   authors: KAJO , Ibrahim*; ruichek, yassine
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_14
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_14
 - id: 938
   title: 'Urbane: Urban Reasoning And Block Adjustment Via Natural-Language Editing'
   track: O10-C.T1
   fullauthors: Tanner Waltz (Purdue University)*; Julio Vera (Universidad Nacional
     San Augustin); Daniel Aliaga (Purdue University)
   authors: Waltz, Tanner*; Vera, Julio; Aliaga, Daniel
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_15
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_15
 - id: 939
   title: 'Ps-Tts: Phonetic Synchronization In Text-To-Speech For Achieving Natural
@@ -3117,7 +3102,6 @@
   authors: hong, changi; song, yoonah*; park, hwayoung; bang, chaewoon; ku, dayeon;
     lee, dohyun; kim, hongkook
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_16
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_16
 - id: 940
   title: Variance-Normalized Latent Distillation (Vld) For Domain-Specific Learned
     Image Compression Under Jpeg Ai Constraints
@@ -3126,7 +3110,6 @@
     (Huawei); Jean-Luc DUGELAY (EURECOM)
   authors: EL MENNAOUI, Abdellah*; Meehan, Joseph; Hemrit, Ghalia; DUGELAY, Jean-Luc
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_17
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_17
 - id: 945
   title: Probabilistic Ranking For Transfer Learning Bayesian Optimization
   track: O6-C.T1
@@ -3134,14 +3117,12 @@
     Marco Roth (Fraunhofer IPA); Marco Huber (Fraunhofer IPA)
   authors: Wagner, Philipp*; Namagerdi , Hayk; Roth, Marco; Huber, Marco
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_18
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_18
 - id: 947
   title: Approximate Natural Neighbors For Hyperspectral Images
   track: P2.T1
   fullauthors: IMENE MOULAY OMAR (University of Rennes)*; Benoit Vozel (University
     of Rennes); Steven Le Moan (Norwegian University of Science and Technology (NTNU))
   authors: MOULAY OMAR, IMENE*; Vozel, Benoit; Le Moan, Steven
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_19
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_19
 - id: 949
   title: Complexity-Guided Ensemble Learning For Imbalanced Data Classification
@@ -3154,7 +3135,6 @@
   authors: Moresco, Matheus*; Monteiro Jr, Marcos; Sabourin, Robert; Darmiton da Cunha
     Cavalcanti, George; Souza Britto Jr, Alceu
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_20
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_20
 - id: 950
   title: 'Chroma: Detecting Ai-Generated Images Through Inter-Channel Color-Space
     Correlations'
@@ -3163,7 +3143,6 @@
     Marina Gardella (Université Paris-Saclay, ENS Paris-Saclay, CNRS, Centre Borell);
     Pablo Musé (Facultad de Ingeniería, Universidad de la República)
   authors: Sotelo, Juan*; Gardella, Marina; Musé, Pablo
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_21
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_21
 - id: 951
   title: Learning Quantifiable Visual Explanations Without Ground-Truth
@@ -3174,7 +3153,6 @@
   authors: Singh, Amritpal; Barsky, Andrey*; Souibgui, Mohamed Ali; Valveny, Ernest;
     Karatzas, Dimosthenis
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_22
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_22
 - id: 952
   title: 'Mamer-Clip: Micro-Expression Recognition Based On Motion-Aware Contrastive
     Language-Image Pretraining Model*'
@@ -3184,7 +3162,6 @@
     and Technology Normal University)
   authors: Xie, Zhihua*; Lv, Qingqing; Tu, Chenyu
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_23
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_23
 - id: 954
   title: 'Entanglenet: An Entanglement-Based Preprocessing Framework For Robust Defense
     Against Adversarial Attacks'
@@ -3192,7 +3169,6 @@
   fullauthors: Mohammad Al-Fawa'reh (ECU)*; Luke Kelly (Edith Cowan University); Martin
     Masek (Edith Cowan University); Jumana Abu-Khalaf (Edith Cowan University)
   authors: Al-Fawa'reh, Mohammad*; Kelly, Luke; Masek, Martin; Abu-Khalaf, Jumana
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_24
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_24
 - id: 955
   title: A Low-Light Image Enhancement Framework With Adaptability Of Frozen Experts
@@ -3204,7 +3180,6 @@
   authors: Zhang, Naixin*; Wang, Ziheng; Cao, Rundong; Yu, Jiazhong; Shi, Linsu; 
     Liu, Ziwei; Cao, Sheng; Bai, Yuxuan; Lin, Tong
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_25
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_25
 - id: 956
   title: Kernel-Prototype Guided Background Adaptation For Class-Incremental Semantic
     Segmentation
@@ -3215,7 +3190,6 @@
     Trang Pham (VNU University of Engineering and Technology)*
   authors: Tran Ngoc, Viet-Anh; Loi, Dinh-Nhat; Dang, Thanh-Hai; Pham, Trang*
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_26
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_26
 - id: 958
   title: 'Scpainter: A Unified Framework For Realistic 3D Asset Insertion And Novel
     View Synthesis'
@@ -3223,7 +3197,6 @@
   fullauthors: Paul Dobre (University of Calgary); Jackson Cooper (University of Calgary);
     Xin Wang (University of Calgary); Hongzhou Yang (University of Calgary)*
   authors: Dobre, Paul; Cooper, Jackson; Wang, Xin; Yang, Hongzhou*
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_27
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_27
 - id: 962
   title: 'When Smaller Wins: Dual-Stage Distillation And Pareto-Guided Compression
@@ -3240,7 +3213,6 @@
     Wei; Ng, Man-Fai
   ext-presenter: "Wen Yang Tan"
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_28
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_28
 - id: 964
   title: Structure-Aware Phase-Based Dual Alignment For Robust Uav Object Detection
   track: P2.T2
@@ -3250,7 +3222,6 @@
   authors: Baek, Minju*; Oh, Hyeongseok; Yoon, Jaehong; Lee, Eunseon; Kim, Bogyeong;
     Paik, Joonki
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_29
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_29
 - id: 966
   title: Joint 2D-3D Segmentation And Association In Street-Level Imaging
   track: P4.T3
@@ -3258,7 +3229,6 @@
     of Science Tokyo); Yusuke Monno (Institute of Science Tokyo); Masatoshi Okutomi
     (Institute of Science Tokyo)
   authors: Melnikov, Amir*; Tanaka, Masayuki; Monno, Yusuke; Okutomi, Masatoshi
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_30
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_30
 - id: 967
   title: 'Delta-Nerf: Incremental Refinement Of Neural Radiance Fields Through Residual
@@ -3271,7 +3241,6 @@
   authors: Ghosh, Kriti*; Chakraborty, Devjyoti; Ramaswamy, Lakshmish; Bhandarkar,
     Suchendra M.; Kim, In Kee; O'Hare, Nancy; Mishra, Deepak
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_31
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_31
 - id: 968
   title: Offline Stochastic Optimization Of Black-Box Objective Functions
   track: P1.T1
@@ -3279,7 +3248,6 @@
     Jafarkhani (University of California, Irvine); Ali Pezeshki (Colorado State University);
     Vahid Tarokh (Duke University)
   authors: dong, juncheng*; wu, zihao; Jafarkhani, Hamid; Pezeshki, Ali; Tarokh, Vahid
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_32
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_32
 - id: 969
   title: Eliminating Object Hallucination In Mllms Via Convex Potential Flow Intervention
@@ -3289,14 +3257,12 @@
     Koichi Shirahata (Fujitsu Limited)
   authors: Shi, Ziqiang*; Liu, Rujie; Yu, Shanshan; Shirahata, Koichi
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_33
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_33
 - id: 974
   title: Visual Information Facilitation Scene Text Retrieval
   track: P2.T5
   fullauthors: Mayire  Ibrayim (Xinjiang University)*; Hailong  Luo ( Xinjiang University);
     Pengyang Li (Xinjiang University)
   authors: Ibrayim, Mayire *; Luo, Hailong ; Li, Pengyang
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_34
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_34
 - id: 977
   title: 'Scg-Ssc: Semantic Scene Completion Via Self-And-Cross Gated Fusion Of Depth
@@ -3308,7 +3274,6 @@
     University of Chinese Academy of Sciences); Liyue Ge (Beihang University)
   authors: Feng, Cheng*; Zhang, Congxuan; Chen, Zhen; Hu, Weiming; Lu, Ke; Ge, Liyue
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_35
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_35
 - id: 979
   title: Faceml-Moe:Face Multi-Task Learning Via Attribute-Specific Expert Routing
   track: P4.T4
@@ -3316,13 +3281,11 @@
     Tsing Hua University)*
   authors: Wang, Lu-Yan; Lai, Shang-Hong*
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_36
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_36
 - id: 981
   title: 'Spot-Face: Forensic Face Identification Using Attention Guided Optimal Transport'
   track: O6-A.T1
   fullauthors: RAVI PRASAD (IIT MANDI)*; Dinesh Singh (IIT MANDI)
   authors: PRASAD, RAVI*; Singh, Dinesh
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_37
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_37
 - id: 982
   title: A Ct-Based Non-Invasive Diagnostic Model For The Grading Of Esophageal Precancerous
@@ -3332,7 +3295,6 @@
     Yibin Jia (Shandong University); Rui Gao (Shandong University); Xu Qiao (Shandong
     University); Jianbo Wang ( Shandong University)
   authors: Sun, Jingxuan*; Li, Yuxuan; Jia, Yibin; Gao, Rui; Qiao, Xu; Wang, Jianbo
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_38
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_38
 - id: 985
   title: Sparse 3D Object Detection Via Local Geometric Refinement And Dynamic Context
@@ -3345,7 +3307,6 @@
   authors: Li, Qian; Chen, Bingxi; Wu, Guowei; Li, Xuemeng; Guo, Mi; Jiu, Mingyuan*;
     Li, Shupan; Xu, Mingliang
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_39
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_39
 - id: 988
   title: 'Ama-Vit: Acoustic-Mechanism-Aware Vision Transformer For Underwater Target
     Recognition'
@@ -3356,7 +3317,6 @@
     Polytechnical University)
   authors: Cai, Zhangjie*; Sun, Ruiting; Liao, Zhenhong; Zhang, Guanwen; Zhou, Wei
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_40
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_40
 - id: 990
   title: Consistent Scene Understanding In 3D Gaussian Splatting Via Multi-Cue Mask
     Refinement
@@ -3364,14 +3324,12 @@
   fullauthors: Hyunjoon Park (Hanyang University)*; Donghyeon Cho (Hanyang University)
   authors: Park, Hyunjoon*; Cho, Donghyeon
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_41
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_41
 - id: 991
   title: Automated Smart Data Curation Via Embedding-Based Scenario Retrieval
   track: P2.T1
   fullauthors: Dávid Magyar (Eötvös Loránd University, Robert Bosch Kft.)*; Zsombor
     Lányi (Robert Bosch Kft.); Tekla Tóth (Eötvös Loránd University)
   authors: Magyar, Dávid*; Lányi, Zsombor; Tóth, Tekla
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_42
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_42
 - id: 993
   title: From Image Hashing To Scene Change Detection
@@ -3382,7 +3340,6 @@
   authors: Duong, Anh Kiet*; Iatrides, Marie-Claire; Gomez-Krämer, Petra; Carozza,
     Jean-Michel
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_43
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_43
 - id: 994
   title: Feature-Level Fusion Of Source, System, And Fractal Features For Classification
     Of Infant Cries
@@ -3391,7 +3348,6 @@
     University); Hemant Patil (DA-IICT)
   authors: Chaudhari, Hiya*; Rana, Satyam; Patil, Hemant
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_44
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_44
 - id: 996
   title: Learning And Recognizing Latent Innovation Maturity Indicator Patterns In
     Texts
@@ -3399,7 +3355,6 @@
   fullauthors: Mélusine Caillard (Sorbonne Université)*; Gaël Lejeune (Sorbonne Université);
     Pierre-Emmanuel Fayemi (Ikos Lab); Améziane Aoussat (ENSAM)
   authors: Caillard, Mélusine*; Lejeune, Gaël; Fayemi, Pierre-Emmanuel; Aoussat, Améziane
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_45
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_45
 - id: 998
   title: Fundus To Cardiovascular Risk Factors With Anthropometric Guidance
@@ -3411,7 +3366,6 @@
   authors: Lee, Hyeonmin*; Ko, Seonghyeon; Bum, Junghyun; Le, Duc-Tai; Son, Chang-Hwan;
     Choo, Hyunseung
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_46
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_46
 - id: 1001
   title: 'Ifagenet: Identity-Aware Face Aging Via Feature Inversion And Age-Conditioned
     Adaptive Latent Shifts'
@@ -3419,7 +3373,6 @@
   fullauthors: Su Jang Pyeon (Kyungpook National University)*; Seong-Heon Kim (Kyungpook
     National University); Woo-Jeoung Nam (Kyungpook National University)
   authors: Pyeon, Su Jang*; Kim, Seong-Heon; Nam, Woo-Jeoung
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_47
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31441-3_47
 - id: 1002
   title: Diffusion-Modeled Reinforcement Learning For Carbon And Risk-Aware Microgrid
@@ -4568,7 +4521,6 @@
   authors: Wani, Mohd*; Atito, Sara; Nandam, Srinivasa Rao; Kittler, Josef ; Awais,
     Muhammad
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31404-8_28
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31920-3_46
 - id: 1287
   title: Cross-Domain Transfer Of Hyperspectral Foundation Models
   track: O10-A.T1
