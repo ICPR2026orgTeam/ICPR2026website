@@ -1,6 +1,6 @@
 ---
 layout: keyNoteSpeaker
-idInvite: "P2"
+idInvite: "PRIZE2"
 name: "Zhangyang “Atlas” Wang"
 slug: "Zhangyang"
 role: '2026 IAPR J. K. Aggarwal Prize'
