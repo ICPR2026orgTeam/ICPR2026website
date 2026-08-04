@@ -239,10 +239,41 @@ ul.reviewers li {
     background-color: #c0c0c0;
   }
 
-  .oral {
-    background-color: #F5A77C;
-  }
+$color-oral: #F5A77C;
+$color-coffee: #B8912F;
 
+.oral {
+  background-color: $color-oral;
+}
+
+.coffee {
+  background-color: $color-coffee;
+}
+
+.oral-with-break {
+  position: relative;
+  background: linear-gradient(
+    to bottom,
+    $color-oral 0%,
+    $color-oral 75%,
+    $color-coffee 75%,
+    $color-coffee 100%
+  );
+}
+
+
+.break-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 25.00%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+  
   .workshop {
     background-color: #A1B1C2;
   }
@@ -257,10 +288,6 @@ ul.reviewers li {
 
   .poster {
     background-color: #93A8D7;
-  }
-
-  .coffee {
-    background-color: #B8912F;
   }
 
   .prizeLecture {
