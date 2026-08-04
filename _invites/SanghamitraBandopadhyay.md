@@ -1,6 +1,6 @@
 ---
 layout: keyNoteSpeaker
-idInvite: "P3"
+idInvite: "PRIZE3"
 name: "Sanghamitra Bandopadhyay"
 slug: "SanghamitraBandopadhyay"
 role:  "2026 IAPR Maria Petrou Prize"

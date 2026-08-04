@@ -1,6 +1,6 @@
 ---
 layout: keyNoteSpeaker
-idInvite: "P1"
+idInvite: "PRIZE1"
 name: "Jiri Matas"
 slug: "JiriMatas"
 role: '2026 IAPR King-Sun Fu Prize'
