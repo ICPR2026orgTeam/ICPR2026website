@@ -1,8 +1,8 @@
 ---
 layout: newsTemplate
 title: "Push notifications are now available"
-date: 2026-08-06
-last_modified: 2026-08-06
+date: 2026-08-05
+last_modified: 2026-08-05
 ---
 
 <p>
