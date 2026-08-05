@@ -339,6 +339,7 @@
   fullauthors: Nishq Desai (Queen’s University )*; Ali Etemad (Queen's University);
     Michael Greenspan (Queen's University)
   authors: Desai, Nishq*; Etemad, Ali; Greenspan, Michael
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_1
 - id: 144
   title: All-In-One Conditioning For Text-To-Image Synthesis
   track: P3.T2
@@ -347,6 +348,7 @@
     of Maryland); Abhinav Shrivastava (University of Maryland)
   authors: Jayasekara, Hirunima*; Huynh, Chuong; Ren, Yixuan; Acquaye, Christabel;
     Shrivastava, Abhinav
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_2
 - id: 145
   title: State Of Charging Attack Detection Using Multi-Scale Feature Extraction And
     Attention Mechanism
@@ -356,12 +358,14 @@
     of Science and Technology ); Pengfei Qi (Changhsha University of Science and Technology
     ); Yuting Wang (Changhsha University of Science and Technology)
   authors: Su, Yan; Zhang, Jinlai*; Yang, Yuanhao; Qi, Pengfei; Wang, Yuting
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_3
 - id: 150
   title: 'Whitecon: Semi-Supervised Domain Adaptation Regression Through Whitening
     Transform And Dual Consistency'
   track: P1.T1
   fullauthors: Sejin Sim (Korea University)*; SeoungBum Kim (Korea University)
   authors: Sim, Sejin*; Kim, SeoungBum
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_4
 - id: 151
   title: Uncovering Logit Suppression Vulnerabilities In Llm Safety Alignment
   track: P2.T1
@@ -372,6 +376,7 @@
     and Technology)
   authors: li, yuxi*; Liu, Yi; Li, Yuekang; Shi, Ling; Deng, Gelei; Chen, Shengquan;
     Wang, Kailong
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_5
 - id: 152
   title: 'CoAttn-PEFT: Complementary Attention in Parameter-Efficient Fine-Tuning for Improved Adaptation and Generalization'
   track: P3.T2
@@ -379,6 +384,7 @@
     of Queensland); Jinguang Tong (Australian National University); Xuesong  Li (Australian
     National University); Hongdong Li (Australian National University)
   authors: Zhang, Chushan*; Lu, Ruihan ; Tong, Jinguang; Li, Xuesong ; Li, Hongdong
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_6
 - id: 154
   title: Benchmarking Document Parsers On Mathematical Formula Extraction From Pdfs
   track: O4-D.T5
@@ -386,6 +392,7 @@
     University)*; Janis Keuper (Institute for Machine Learning and Analytics (IMLA),
     Offenburg University)
   authors: Horn, Pius*; Keuper, Janis
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_7
 - id: 155
   title: 'Semalign: Language Guided Semi-Supervised Domain Generalization'
   track: O2-B.T2
@@ -394,6 +401,7 @@
     (University of Moratuwa); Ranga Rodrigo (University of Moratuwa)
   authors: Fernando, Muditha; Kailainathan, Kajhanan*; Nagaratnam, Krishnakanth; Senavirathne,
     Isuranga; Rodrigo, Ranga
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_8
 - id: 157
   title: 'Revnet: Rotation-Equivariant Point Cloud Completion Via Vector Neuron Anchor
     Transformer'
@@ -401,11 +409,13 @@
   fullauthors: Zhifan Ni (Technical University of Munich)*; Eckehard Steinbach (Technical
     University of Munich)
   authors: Ni, Zhifan*; Steinbach, Eckehard
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_9
 - id: 159
   title: Compositional Novelty Metrics For Graph-Structured Data
   track: P2.T1
   fullauthors: Rucha Bhalchandra Joshi (The Cyprus Institute); Subhankar Mishra (NISER)*
   authors: Joshi, Rucha Bhalchandra; Mishra, Subhankar*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_10
 - id: 160
   title: 'Adafocus: Instruction-Aware Dynamic Visual Token Compression For Efficient
     Multi-Modal Understanding'
@@ -413,6 +423,7 @@
   fullauthors: zihang ye (East China Normal University)*; xianzhong liu (East China
     Normal University )
   authors: ye, zihang*; liu, xianzhong
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_11
 - id: 162
   title: 'Tas-Gnn: A Status-Aware Signed Graph Neural Network For Anomaly Detection
     In Bitcoin Trust Systems'
@@ -421,12 +432,14 @@
     (University of California, San Diego); Jinming Xing (North Carolina State University);
     Chen Yang (University of Pennsylvania)*
   authors: Xue, Chang; Liu, Fang; Wang, Jiaye; Xing, Jinming; Yang, Chen*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_12
 - id: 168
   title: 'Tunemia: Membership Inference Attack On Latent Diffusion Models'
   track: P2.T1
   fullauthors: Noam Azulay (Ben-Gurion University)*; Idan Habler (Ben-Gurion University
     ); Asaf Shabtai (Ben-Gurion University ); Yuval Elovici (Ben-Gurion University)
   authors: Azulay, Noam*; Habler, Idan; Shabtai, Asaf; Elovici, Yuval
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_13
 - id: 171
   title: Bridging The Semantic Gap For Categorical Data Clustering Via Large Language
     Models
@@ -435,6 +448,7 @@
     University of Technology); Yiqun Zhang (Hong Kong Baptist University)*; Yiu-ming
     Cheung (Hong Kong Baptist University)
   authors: Yang, Zihua; Liao, Xin; Zhang, Yiqun*; Cheung, Yiu-ming
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_14
 - id: 173
   title: Markovian Reeb Graphs For Simulating Spatiotemporal Patterns Of Life
   track: O2-A.T1
@@ -444,6 +458,7 @@
     Barbara)
   authors: Subrahmanya, Anantajit*; Gudavalli, Chandrakanth; Levenson, Connor; Manjunath,
     B.S.
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_15
 - id: 176
   title: Flexible Knowledge Distillation For Class-Incremental Learning Via Structural
     Knowledge Transfer
@@ -451,12 +466,14 @@
   fullauthors: Seo Seungmo (Chung-Ang University); Jongsu Youn (Chung-Ang University);
     Jaehyung Bae (Chung-Ang University); Jongwon Choi (Chung-Ang University)*
   authors: Seungmo, Seo; Youn, Jongsu; Bae, Jaehyung; Choi, Jongwon*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_16
 - id: 179
   title: 'Beyond Consistency: Explicit Boundary Learning For Semi-Supervised Ovarian
     Tumor Segmentation'
   track: P3.T6
   fullauthors: Minh-Khoa Vu (HUST); Hoang-Son Bui (HUST); Thi-Lan Le (HUST)*
   authors: Vu, Minh-Khoa; Bui, Hoang-Son; Le, Thi-Lan*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_17
 - id: 181
   title: 'Seeing Red, Thinking Bad: Color Bias In Vision Language Models'
   track: P3.T2
@@ -467,6 +484,7 @@
     ); Yutaka Satoh (National Institute of Advanced Industrial Science and Technology)
   authors: Ide, Kohsuke*; Yamada, Ryousuke; Fukuhara, Yoshihiro; Kataoka, Hirokatsu;
     Satoh, Yutaka
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_18
 - id: 182
   title: 'Drivingworld: Constructing World Model For Autonomous Driving Via Video
     Gpt'
@@ -477,12 +495,14 @@
     University); Wei Yin (Horizon Robotics)
   authors: Hu, Xiaotao*; Jia, Mingkai; Guo, Xiaoyang; Zhang, Qian; Long, Xiaoxiao;
     Yin, Wei
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_19
 - id: 184
   title: 'Hypdomain: Bridging Domain Gaps In Clip With Few-Shot Hypernetwork Residuals'
   track: P3.T1
   fullauthors: Souvik Ghosh (IIIT Hyderabad)*; C. V. Jawahar (IIIT Hyderabad); Vinay
     Namboodiri (University of Bath)
   authors: Ghosh, Souvik*; Jawahar, C. V.; Namboodiri, Vinay
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_20
 - id: 185
   title: 'Most: Momentum Online Subspace Training'
   track: P4.T1
@@ -491,6 +511,7 @@
     Science and Technology (AIST)); Bojan Batalo (National Institute of Advanced Industrial
     Science and Technology (AIST))
   authors: Souza, Lincon*; Kobayashi, Takumi; Batalo, Bojan
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_21
 - id: 186
   title: 'Stpose: Unseen Object Pose Estimation With A Single Template Via Query-Aware
     3D Reconstruction'
@@ -498,30 +519,35 @@
   fullauthors: Jaeguk Kim (Seoul National University)*; Nam Ik Cho (Seoul National
     University)
   authors: Kim, Jaeguk*; Cho, Nam Ik
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_22
 - id: 189
   title: Normalized Matching Transformer
   track: P1.T2
   fullauthors: Abtin Pourhadi (Heinrich-Heine-University Dusseldorf)*; Paul  Swoboda
     (Heinrich-Heine-University Dusseldorf)
   authors: Pourhadi, Abtin*; Swoboda, Paul
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_23
 - id: 190
   title: 'Watching Ice Through The Crowd: Computer Vision On Social Media Images For
     Glacier Monitoring'
   track: P1.T1
   fullauthors: Abigail Paradise Vit (max stern academic college of emek yezre)*
   authors: Paradise Vit, Abigail*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_24
 - id: 197
   title: Approximate Nearest Neighbor Using Hierarchical K-Means For Seed Classification
   track: P3.T1
   fullauthors: Hubert Cecotti (California State University, Fresno)*; Ivan Gonzales
     (California State University, Fresno)
   authors: Cecotti, Hubert*; Gonzales, Ivan
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_25
 - id: 200
   title: 'Telerank: Pairwise Ranking Of Temporal Driver Performance Using Telemetry'
   track: P2.T4
   fullauthors: Anton Röscher (University of Johannesburg); Dustin van der Haar (University
     of Johannesburg)*
   authors: Röscher, Anton; van der Haar, Dustin*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_26
 - id: 206
   title: 'Lunar-G2R: Geometry-To-Reflectance Learning For High-Fidelity Lunar Brdf
     Estimation'
@@ -532,6 +558,7 @@
     ); Manuel Sanchez Gestido (European Space Agency)
   authors: Grethen, Clémentine*; Menga, Nicolas; Brochard, Roland; Morin, Géraldine;
     Gasparini, Simone; Lebreton, Jérémy ; Gestido, Manuel Sanchez
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_27
 - id: 209
   title: 'Cascadeformer: A Family Of Two-Stage Cascading Transformers For Skeleton-Based
     Human Action Recognition'
@@ -539,12 +566,14 @@
   fullauthors: Yusen Peng (The Ohio State University); Alper Yilmaz (The Ohio State
     University)*
   authors: Peng, Yusen; Yilmaz, Alper*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_28
 - id: 210
   title: 'More Interpretable Decision Trees: Pruning Via Node Descent And The Delta
     Penalty'
   track: P1.T1
   fullauthors: Miguel Carreira-Perpinan (UC Merced)*; Suryabhan Singh Hada (UC Merced)
   authors: Carreira-Perpinan, Miguel*; Hada, Suryabhan Singh
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_29
 - id: 212
   title: Representation Learning With Semantic-Aware Instance And Sparse Token Alignments
   track: P3.T6
@@ -553,12 +582,14 @@
     University); Hyunseung Choo (Sungkyunkwan University)
   authors: Bui, Phuoc-Nguyen*; Nguyen, Toan Duc; Bum, Junghyun; Le, Duc-Tai; Choo,
     Hyunseung
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_30
 - id: 215
   title: Diversity-Aware Multi-Prompt Learning For Compositional Zero-Shot Learning
   track: P2.T2
   fullauthors: Ziyi Chen (Beijing Jiaotong University); Xinru Zhao (Beijing Jiaotong
     University); Congyan Lang (Beijing Jiaotong University)*
   authors: Chen, Ziyi; Zhao, Xinru; Lang, Congyan*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_31
 - id: 217
   title: 'P4: Place With Purpose -- Pose And Prompt-Guided Human Synthesis In Real
     Scenes'
@@ -567,12 +598,14 @@
     Genoa); Radu Timofte (Bayerische Julius-Maximilians-Universität Würzburg); Francesca
     Odone (University of Genoa)
   authors: KHAN, DADAN*; Zohaib, Mohammad; Timofte, Radu; Odone, Francesca
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_32
 - id: 219
   title: Llm-Based Poi Recommendation Incorporating Explicit Behavior Pattern
   track: P4.T1 ##O10-C.T1 ## OLD P4.T1
   fullauthors: Xin Yao (Shanghai University); Xiangfeng Luo (Shanghai University)*;
     Xue Chen (Shanghai University); Jinhui Zhu (Shanghai University)
   authors: Yao, Xin; Luo, Xiangfeng*; Chen, Xue; Zhu, Jinhui
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_33
 - id: 220
   title: Investigating Permutation-Invariant Discrete Representation Learning For
     Spatially Aligned Images
@@ -580,12 +613,14 @@
   fullauthors: Jamie Stirling (Durham University)*; Noura Al-Moubayed (Durham University);
     Hubert Shum (Durham University)
   authors: Stirling, Jamie*; Al-Moubayed, Noura; Shum, Hubert
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_34
 - id: 221
   title: 'Refinerag: Word-Level Poisoning Attacks Via Retriever-Guided Text Refinement'
   track: P2.T1
   fullauthors: Ziye Wang (Huazhong University of Science and Technology)*; Guanyu
     Wang (Beihang University); Kailong Wang (Huazhong University of Science and Technology)
   authors: Wang, Ziye*; Wang, Guanyu; Wang, Kailong
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_35
 - id: 223
   title: 'Weeddiffusion: A Dual-Branch Synthetic Augmentation Framework For Weed Mapping'
   track: P4.T3
@@ -594,6 +629,7 @@
     Giovanna Castellano (University of Bari Aldo Moro)
   authors: De Marinis, Pasquale*; Iammarino, Antonio; Vessio, Gennaro; Castellano,
     Giovanna
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_36
 - id: 226
   title: 'Nvs-Ho: A Benchmark For Novel View Synthesis Of Handheld Objects'
   track: P1.T2
@@ -602,6 +638,7 @@
     Luigi Di Stefano (University of Bologna)
   authors: Ali, Musawar*; Carranza-García, Manuel; Fioraio, Nicola; Salti, Samuele
     ; Di Stefano, Luigi
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_37
 - id: 227
   title: 'When Safe Models Merge Into Danger: Exploiting Latent Vulnerabilities In
     Llm Fusion'
@@ -612,6 +649,7 @@
     Tianlong Yu (Hubei University); Kailong Wang (Huazhong University of Science and
     Technology)*
   authors: Li, Jiaqing; Zhang, Zhibo; Zhou, Shide; Li, Yuxi; Yu, Tianlong; Wang, Kailong*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_38
 - id: 231
   title: 'Trusted But Tainted: Enrolment Perturbations That Undermine Morphing Attack
     Detection And Face Recognition'
@@ -622,6 +660,7 @@
     Raghavendra Ramachandra (Norwegian University of Science and Technology)*
   authors: Kamble, Dhammadip; Patwardhan, Sushrut; Sao, Anil; Sharma, Arvind; Ramachandra,
     Raghavendra*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_39
 - id: 233
   title: Training-Free Photo-Realistic Point Cloud Rendering Via Geometry-Aware Densification
     And Multi-View Refinement
@@ -629,6 +668,7 @@
   fullauthors: Shogo Sato (NTT)*; Kazuhiko Murasaki (NTT, Inc.); Ryuichi Tanida (NTT,
     Inc.)
   authors: Sato, Shogo*; Murasaki, Kazuhiko; Tanida, Ryuichi
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_40
 - id: 235
   title: Higher-Order Adversarial Patches For Real-Time Object Detectors
   track: P2.T2
@@ -636,17 +676,20 @@
     Ettlingen); Stefan Becker (Fraunhofer IOSB, Ettlingen); Michael Arens (Fraunhofer
     IOSB, Ettlingen); Jürgen Beyerer (Fraunhofer IOSB, Karlsruhe)
   authors: Bayer, Jens*; Münch, David; Becker, Stefan; Arens, Michael; Beyerer, Jürgen
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_41
 - id: 236
   title: 'Kinetic Mining In Context: Few-Shot Action Synthesis Via Text-To-Motion
     Distillation'
   track: P2.T1
   fullauthors: Luca Cazzola (University of Trento)*; Ahed Alboody (CESI LINEACT)
   authors: Cazzola, Luca*; Alboody, Ahed
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_42
 - id: 237
   title: 'Cxmarena: Unified Dataset To Benchmark Performance In Realistic Cxm Scenarios'
   track: O2-E.T1
   fullauthors: Karan Gupta (Sprinklr)*; Raghav Garg (Sprinklr); Kapil Sharma (Sprinklr)
   authors: Gupta, Karan*; Garg, Raghav; Sharma, Kapil
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_43
 - id: 241
   title: 'Mgd-Depth: Disentangling Scene Dynamics Via Multi-Granularity Representation
     Learning'
@@ -656,6 +699,7 @@
     Information Science and Technology University); Kebin Peng (East Carolina University);
     Sen He (University of Arizona)
   authors: Yue, Siting; Ren, Yawei*; Li, Jun; Peng, Kebin; He, Sen
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_44
 - id: 242
   title: Implicit Neural Representations For Efficient Medical Image Segmentation
   track: P4.T3
@@ -671,6 +715,7 @@
     University)
   authors: He, Chong; Zhang, Zhicheng; Luan, Jiuhong; Wei, Zhonglian; Shen, Yuncheng;
     Yin, Yingyong; Hu, Junjie*; Zhang, Yan
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_45
 - id: 243
   title: Efficient Score Pre-Computation For Diffusion Models Via Cross-Matrix Krylov
     Projection
@@ -678,6 +723,7 @@
   fullauthors: Kai Kwan Lau (The Chinese University of Hong Kong)*; Andrew S. Na (University
     of Waterloo); Justin WL Wan (University of Waterloo)
   authors: Lau, Kai Kwan*; Na, Andrew S.; Wan, Justin WL
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_46
 - id: 244
   title: 'Gnc-Pose: Geometry-Aware Gnc-Pnp For Monocular 6D Pose Estimation'
   track: P2.T2
@@ -4521,6 +4567,7 @@
   authors: Wani, Mohd*; Atito, Sara; Nandam, Srinivasa Rao; Kittler, Josef ; Awais,
     Muhammad
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31404-8_28
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31920-3_46
 - id: 1287
   title: Cross-Domain Transfer Of Hyperspectral Foundation Models
   track: O10-A.T1
