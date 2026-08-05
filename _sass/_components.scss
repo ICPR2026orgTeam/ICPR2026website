@@ -647,3 +647,36 @@ ul.reviewers li {
 .notifications-link:hover {
     text-decoration: underline;
 }
+
+.notifications-archive {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.notification-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: #fff;
+}
+
+.notification-card h2 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+.notification-card p {
+    margin: .5rem 0;
+}
+
+.notification-meta {
+    color: #666;
+    font-size: .9rem;
+    margin-top: .75rem;
+}
+
+.notification-card a {
+    text-decoration: none;
+}
