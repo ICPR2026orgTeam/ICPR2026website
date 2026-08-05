@@ -186,6 +186,49 @@
   firstname: Robin
   lastname: Arsac
   affiliation: INSAVALOR
+  coordination: yes
 
+
+- role: localorgteam
+  firstname: Muriel
+  lastname: Personne
+  affiliation: INSAVALOR
+
+
+
+- role: localorgteam
+  firstname: Oscar 
+  lastname: Morand
+  affiliation: INSA
+
+
+
+- role: localorgteam
+  firstname: Malek
+  lastname: Mahjoub
+  affiliation: INSA
+
+
+
+- role: localorgteam
+  firstname: Laure 
+  lastname: Tougne Rodet
+  affiliation: Lyon 2
+
+
+
+
+
+- role: localorgteam
+  firstname: Killian 
+  lastname: Barrere
+  affiliation: INSA
+  coordination: yes  
+
+
+- role: localorgteam
+  firstname: Magali
+  lastname: Acik
+  affiliation: Centre des congrés
 
 
