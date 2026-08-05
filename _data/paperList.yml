@@ -729,6 +729,7 @@
   track: P2.T2
   fullauthors: Xiujin Liu (University of Michigan)*
   authors: Liu, Xiujin*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_1
 - id: 249
   title: 'Kraft: Kalman Residual Diffusion With Formation Awareness For Uav Swarm
     Tracking'
@@ -736,6 +737,7 @@
   fullauthors: Md. Hasibur Rahman (Missouri University of Science and Technology);
     Sanjay Madria (Missouri University of Science & Technology, USA)*
   authors: Rahman, Md. Hasibur; Madria, Sanjay*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_2
 - id: 251
   title: Wavelet-Driven Spatial And Frequency Domain Representation Learning For Medical
     Image Segmentation
@@ -743,6 +745,7 @@
   fullauthors: Lanping Wang (Chongqing Normal University)*; Mingyong Li (Chongqing
     Normal University); Shuaipeng Ding (Chongqing Normal University)
   authors: Wang, Lanping*; Li, Mingyong; Ding, Shuaipeng
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_3
 - id: 253
   title: 'Hifi-Fg: High-Fidelity Image Inpainting With Frequency Attention And Gated
     Fusion'
@@ -750,6 +753,7 @@
   fullauthors: Shaohan Yang (Hebei University); Fang Yang (Hebei University)*; Qingxuan
     Shi (Hebei University)
   authors: Yang, Shaohan; Yang, Fang*; Shi, Qingxuan
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_4
 - id: 258
   title: Learning Cognitive-Aware Representations For Imaging-Based Diagnosis Of Alzheimer’S
     Disease
@@ -761,11 +765,13 @@
     State University)
   authors: Yu, Huan ; Zhang, Yanteng*; Wei, Yuxiang; Fu, Yibing; Mei, Siyuan ; Liu,
     Qiang; Calhoun, Vince
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_5
 - id: 259
   title: Multiview Pedestrian Detection With Multi Pedestrian Consistency Loss
   track: P4.T3
   fullauthors: Myeongjun Kim (Deeping Source Inc.)*
   authors: Kim, Myeongjun*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_6
 - id: 260
   title: Serum Tumor Marker-Guided Lesion Features Enhancement Network For Lung Cancer
     Detection
@@ -773,6 +779,7 @@
   fullauthors: Dongxun Jiang (Tongji University); Dongdong Zhang (Tongji University)*;
     Wei Li (The First Affiliated Hospital of Bengbu Medical University)
   authors: Jiang, Dongxun; Zhang, Dongdong*; Li, Wei
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_7
 - id: 262
   title: Towards Unified Music Emotion Recognition Across Dimensional And Categorical
     Models
@@ -780,18 +787,21 @@
   fullauthors: Jaeyong Kang (Singapore University of Technology and Design)*; Dorien
     Herremans (Singapore University of Technology and Design)
   authors: Kang, Jaeyong*; Herremans, Dorien
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_8
 - id: 266
   title: Operational Readiness For Object Detection
   track: P3.T2
   fullauthors: Stefan Becker (Fraunhofer IOSB)*; Jens Bayer (Fraunhofer IOSB); Wolfgang
     Hübner (Fraunhofer IOSB); Michael Arens (Fraunhofer IOSB)
   authors: Becker, Stefan*; Bayer, Jens; Hübner, Wolfgang; Arens, Michael
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_9
 - id: 268
   title: 'Planar-Sfm: Camera Pose Estimation Via Homography Graph Embeddings'
   track: P1.T2
   fullauthors: Gabi Pragier (Amazon)*; Matan Karklinsky (Amazon); David Ungarish (Amazon);
     Avi Ben-Cohen (Amazon)
   authors: Pragier, Gabi*; Karklinsky, Matan; Ungarish, David; Ben-Cohen, Avi
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_10
 - id: 272
   title: Dynamic Classifier Ensemble Selection For Data Stream Mining Based On Loca-Global
     Dominance And Adaptive Online Sampling
@@ -799,6 +809,7 @@
   fullauthors: Fernando Santos (None)*; Fabricio Enembreck (Pontificia Univerdade
     Catolica do Parana)
   authors: Santos, Fernando*; Enembreck, Fabricio
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_11
 - id: 273
   title: Local Autoregression With Finite-Support Random Variables For Image Generation
   track: P2.T1
@@ -806,6 +817,7 @@
     University of Alberta)*; Anup Basu (Multimedia Research Centre, Department of
     Computing Science, University of Alberta)
   authors: zhao, chenqiu*; Basu, Anup
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_12
 - id: 276
   title: 'Diffuflicker: Diffusion-Based Led Traffic Light Flicker Removal In Dashcam
     Videos'
@@ -813,6 +825,7 @@
   fullauthors: Sujin Kim (Inha University); Juwon Lee (EMTOMEGA CO., LTD.); In Kyu
     Park (Inha University)*
   authors: Kim, Sujin; Lee, Juwon; Park, In Kyu*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_13
 - id: 278
   title: 'Rarr: Real-Time Attention-Driven Rain Removal With Hierarchical Scale-Aware
     Efficient Network'
@@ -820,6 +833,7 @@
   fullauthors: seungho eum (sogang University)*; Ihjjoon Cho (sogangUniversity); jeonghyeon
     kim (sogangUniversity); junsuk choe (sogangUniversity); unsang park (sogangUniversity)
   authors: eum, seungho*; Cho, Ihjjoon; kim, jeonghyeon; choe, junsuk; park, unsang
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_14
 - id: 282
   title: 'Hypermil: Hypergraph-Based Channel Reasoning For Multiple Instance Learning
     On Multivariate Time Series'
@@ -828,6 +842,7 @@
     Vittorio Cuculo (Università degli Studi di Modena e Reggio Emilia)*; Rita Cucchiara
     (Università degli Studi di Modena e Reggio Emilia)
   authors: Del Gaudio, Livia; Cuculo, Vittorio*; Cucchiara, Rita
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_15
 - id: 286
   title: 'Dual The Reasoning, Double The Insight With Tambi: A Self-Supervised Framework
     For Skeleton Action Representation'
@@ -837,6 +852,7 @@
     (INRIA)
   authors: ALI, Mahmoud*; Majhi, Snehashis; Yang, Di; Kong, Quan; Francesca, Gianpiero;
     Bremond, Francois
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_16
 - id: 288
   title: 'Snappose3D: Diffusion-Based Single-Frame 2D-To-3D Lifting Of Human Poses'
   track: O8-C.T1
@@ -849,6 +865,7 @@
   authors: Simoni, Alessandro; Catalini, RIccardo; Di Nucci, Davide; Borghi, Guido*;
     Davoli, Davide; Garattoni, Lorenzo; Francesca, Gianpiero; Kawana, Yuki; Vezzani,
     Roberto
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_17
 - id: 290
   title: 'Fixationformer: Direct Utilization Of Expert Gaze Trajectories For Chest
     X-Ray Classification'
@@ -856,6 +873,7 @@
   fullauthors: Daniel Beckmann (University of Münster); Benjamin Risse (University
     of Münster)*
   authors: Beckmann, Daniel; Risse, Benjamin*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_18
 - id: 293
   title: 'Layergs: Decomposition And Inpainting Of Layered 3D Human Avatars Via 2D
     Gaussian Splatting'
@@ -863,6 +881,7 @@
   fullauthors: Yinghan Xu (Trinity College Dublin)*; John Dingliana (Trinity College
     Dublin)
   authors: Xu, Yinghan*; Dingliana, John
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_19
 - id: 295
   title: 'Visually Informed Text Representations for Visual Contextual Classification of Arts'
   track: P2.T1
@@ -871,6 +890,7 @@
     Youssef Chahir (GREYC)
   authors: Raphaëlle, Lemaire*; Pantin, Jeremie; Lechervy, Alexis; Kaibaldiyev, Azamat;
     Maurel, Fabrice; Dias, Gaël; Chahir, Youssef
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_20
 - id: 297
   title: 'Adp-Dit: Text-Guided Diffusion Transformer For Brain Image Generation In
     Alzheimer’S Disease Progression'
@@ -878,6 +898,7 @@
   fullauthors: Juneyong Lee (Hankuk University of Foreign Studies); Geonwoo Baek (Hankuk
     University of Foreign Studies); Ikbeom Jang (Hankuk University of Foreign Studies)*
   authors: Lee, Juneyong; Baek, Geonwoo; Jang, Ikbeom*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_21
 - id: 300
   title: 'Aster: Latent Pseudo-Anomaly Generation For Unsupervised Time-Series Anomaly
     Detection'
@@ -887,18 +908,21 @@
     (University of Luxembourg); Djamila Aouada (University of Luxembourg)
   authors: Hermary, Romain*; Hicsonmez, Samet; Pineau, Dan; Shabayek, Abd El Rahman;
     Aouada, Djamila
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_22
 - id: 301
   title: Unsupervised Learning Of Density Estimates With Topological Optimization
   track: P1.T1
   fullauthors: Sunia Tanweer (Michigan State University)*; Firas A. Khasawneh (Michigan
     State University)
   authors: Tanweer, Sunia*; Khasawneh, Firas A.
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_23
 - id: 303
   title: 'Mamvi: 3D Test-Time Adaptation Via Masked Multi-View Point Clouds'
   track: O1-E.T2
   fullauthors: Inseok Kong (University of Seoul)*; Geunyoung Jung (University of Seoul); 
     Jiyoung Jung (University of Seoul)
   authors: Kong, Inseok*; Jung, Geunyoung; Jung,  Jiyoung
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_24
 - id: 305
   title: Improving Llm First-Token Predictions In Multiple-Choice Question Answering
     Via Output Prefilling
@@ -911,6 +935,7 @@
     of Modena and Reggio Emilia)
   authors: Cappelletti, Silvia; Poppi, Tobia; Poppi, Samuele; Yong, Zheng Xin; Garcia-Olano,
     Diego; Cornia, Marcella*; Baraldi, Lorenzo; Cucchiara, Rita
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_25
 - id: 307
   title: 'Pixel-To-4D: Camera-Controlled Image-To-Video Generation With Dynamic 3D
     Gaussians'
@@ -920,6 +945,7 @@
     Glasgow); Paul Henderson (University of Glasgow)
   authors: de Almeida, Melonie*; Ivanova, Daniela; Shi, Tong; Williamson, John; Henderson,
     Paul
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_26
 - id: 309
   title: 'Vamae: Vessel-Aware Masked Autoencoders For Oct-Angiography'
   track: P3.T6
@@ -929,6 +955,7 @@
     Promise Omoigui (AwaDoc); Solomon Odelola (ML Collective)
   authors: Abolade, Ilerioluwakiiye*; Mireku, Prince; Chibundu, Kelechi; Ododo, Peace;
     Idoko, Emmanuel; Omoigui, Promise; Odelola, Solomon
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_27
 - id: 312
   title: 'Abmamba: Multimodal Large Language Model With Aligned Hierarchical Bidirectional
     Scan For Efficient Video Captioning'
@@ -939,12 +966,14 @@
     Seitaro Otsuki (Keio University); Komei Sugiura (Keio University)
   authors: Yashima, Daichi*; Kurita, Shuhei; Oda, Yusuke; Suzuki, Shuntaro; Otsuki,
     Seitaro; Sugiura, Komei
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_28
 - id: 314
   title: 'Growing Your Data: A Data Synthesis Approach For Irregular Time Series Forecasting'
   track: P3.T1
   fullauthors: Tong Wang (UT Austin)*; Xuxi Chen (UT Austin); Zhangyang Wang (UT Austin);
     Ying Ding (UT Austin)
   authors: Wang, Tong*; Chen, Xuxi; Wang, Zhangyang; Ding, Ying
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_29
 - id: 315
   title: 'Sportsgpt: An Llm-Driven Framework For Interpretable Sports Motion Assessment
     And Training Guidance'
@@ -958,12 +987,14 @@
     Academy of Sciences)*
   authors: TIAN, wenbo; LIN, ruting; ZHENG, hongxian; YANG, yaodong; WU, geng; ZHANG,
     zihao; ZHANG, zhang*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_30
 - id: 316
   title: 'Sem-Neus: Semantically-Guided High-Fidelity Neural Surface Reconstruction
     Via Geometry Distillation'
   track: O6-E.T2
   fullauthors: abderraouf amrani (Murdoch university)*; hamid laga (Murdoch university)
   authors: amrani, abderraouf*; laga, hamid
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_31
 - id: 317
   title: 'Chardiff-Lp: A Diffusion Model With Character-Level Guidance For License
     Plate Image Restoration'
@@ -971,6 +1002,7 @@
   fullauthors: Kihyun Na (Handong Global University); Gyuhwan Park (Handong Global
     University); Injung Kim (Handong Global University)*
   authors: Na, Kihyun; Park, Gyuhwan; Kim, Injung*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_32
 - id: 324
   title: 'Hct-Net: A Hybrid Cnn-Transformer Network For Robust Oracle Bone Script
     Recognition'
@@ -979,17 +1011,20 @@
     Jiang (Xinjiang University); Chong Qian (Xinjiang University); Kurban Ubul (Xinjiang
     University)*
   authors: Wang, Yibo; Zuo, Yanni; Jiang, Lanxin; Qian, Chong; Ubul, Kurban*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_33
 - id: 325
   title: Reverse-Calibrated Prototype-Guided Few-Shot Semantic Segmentation Network
   track: P4.T3
   fullauthors: Yi Feng (Tianjin University)*; Hao Chen (Tianjin University)
   authors: Feng, Yi*; Chen, Hao
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_34
 - id: 326
   title: Enhancing Mlops Efficiency Through Distributionally Invariant Models
   track: P1.T1
   fullauthors: Aman Gulati (Amazon)*; Sambit Das (Amazon); Sanyog Dewani (Amazon);
     Purav Aggarwal (Amazon)
   authors: Gulati, Aman*; Das, Sambit; Dewani, Sanyog; Aggarwal, Purav
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_35
 - id: 329
   title: A Trainable Connected Filter Preprocessing Layer Based On Component Trees
   track: O10-D.T3
@@ -1000,6 +1035,7 @@
     (Normandie Université)
   authors: Luz Alves, Wonder*; Santos, Lucas; Hashimoto, Ronaldo; Passat, Nicolas;
     Souza, Anderson; Silva, Dennis; Kenmochi, Yukiko
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_36
 - id: 334
   title: Comparison Of Real-Time Multi Object Tracking With Limited Hardware Resources
   track: P2.T2
@@ -1007,6 +1043,7 @@
     (TU Wien); Marco Peer (University of Fribourg); Florian Kleber (TU Wien)*
   authors: Bernhart, Costin; Strohmayer, Julian; Kampel, Martin; Peer, Marco; Kleber,
     Florian*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_38
 - id: 335
   title: Token Reduction In Vision Transformers Via Discrete Wavelet Decomposition
   track: P4.T1
@@ -1015,6 +1052,7 @@
     Virgili (UNIVPM)
   authors: Buratti, Christopher; Marchetti, Michele; Parlapiano, Federica; Traini,
     Davide*; Ursino, Domenico; Virgili, Luca
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_39
 - id: 339
   title: An End-To-End Framework For Centimetric 3D Change Detection On Multi-Temporal
     High-Resolution Railway Mls
@@ -1024,12 +1062,14 @@
     Flavien Viguier (SNCF Réseau); Bahar Salavati (SNCF Réseau)
   authors: TIFOURA, Sid Ali*; ABABSA, Fakhreddine; REBILLAT, Marc; hascoet, nicolas;
     elmeouche, rani; Viguier, Flavien; Salavati, Bahar
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_40
 - id: 340
   title: Three-Step Hierarchical Transformer For Multi-Pedestrian Trajectory Prediction
   track: P1.T2
   fullauthors: Raphaël Delécluse (IMT Nord Europe)*; Hazem Wannous (IMT Nord Europe);
     Laurent Grisoni (University of Lille); Laurent Guimas (Explain)
   authors: Delécluse, Raphaël*; Wannous, Hazem; Grisoni, Laurent; Guimas, Laurent
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_41
 - id: 345
   title: 'Rethinking Hierarchical Supervision: Revisiting Simplicity In The Era Of
     Strong Visual Backbones'
@@ -1037,6 +1077,7 @@
   fullauthors: Philipp Thelen (Fraunhofer IOSB)*; Stefan Wolf (Fraunhofer IOSB); Jürgen
     Beyerer (Fraunhofer IOSB)
   authors: Thelen, Philipp*; Wolf, Stefan; Beyerer, Jürgen
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_42
 - id: 346
   title: Adapting Temporal Tensor Decomposition For Spatiotemporal Pattern Extraction
     In Functional Neuroimaging
@@ -1044,11 +1085,13 @@
   fullauthors: Hana Sebia (Inria, Centre de Lyon); Thomas Guyet (Inria, Centre de
     Lyon)*; Hugues Berry (Inria, Centre de Lyon); Benjamin Vidal (University of Geneva)
   authors: Sebia, Hana; Guyet, Thomas*; Berry, Hugues; Vidal, Benjamin
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_43
 - id: 347
   title: 'Stay On Topic: Reducing Hallucinations In Large Language Models With Lda'
   track: O1-D.T5
   fullauthors: Belkacem Chikhaoui (TELUQ University)*
   authors: Chikhaoui, Belkacem*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_44
 - id: 348
   title: 'Mmaf: Multimodal Attention Fusion For Molecular Toxicity Prediction'
   track: P4.T6
@@ -1058,6 +1101,7 @@
     (Ca' Foscari University of Venice)
   authors: Rehman, Faiz Ur; Rahman, Muhammad Rameez Ur*; Vascon, Sebastiano; Pelillo,
     Marcello
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_45
 - id: 349
   title: Multimodal Feature Fusion With Illumination Adaptation For Robust Household
     Waste Detection
@@ -5962,6 +6006,7 @@
   fullauthors: Francesco Dibitonto (University of Verona)*; Cigdem Beyan (University
     of Verona); Vittorio Murino (Istituto Italiano di Tecnologia)
   authors: Dibitonto, Francesco*; Beyan, Cigdem; Murino, Vittorio
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31654-7_37
 - id: 601
   title: 'Embedding Arithmetic: A Lightweight, Tuning-Free Framework For Post-Hoc
     Bias Mitigation In Text-To-Image Models'
