@@ -3,7 +3,11 @@ self.addEventListener("install", event => {
 });
 
 self.addEventListener("activate", event => {
-    console.log("Service worker activated");
+    console.log("[Service Worker] activated");
+
+    event.waitUntil(
+        self.clients.claim()
+    );
 });
 
 //Push Notification when one is received
@@ -43,26 +47,48 @@ self.addEventListener("push", event => {
     );
 });
 
-self.addEventListener("notificationclick", event => {
+self.addEventListener("push", event => {
+    console.log("[Service Worker] Push received.", event.data);
 
-    console.log("[Service Worker] Notification clicked.")
+    let data = {
+        title: "ICPR 2026",
+        body: "New conference notification.",
+        icon: "/Logos/icprIcon-square-48.png",
+        url: "/"
+    };
 
-    event.notification.close();
+    if (event.data) {
+        try {
+            data = {
+                ...data,
+                ...event.data.json()
+            };
 
-    const targetUrl = event.notification.data?.url || "/";
+            console.log("[Service Worker] Data:", data);
+        } catch (error) {
+            console.warn("[Service Worker] Payload is not JSON:", error);
+            data.body = event.data.text();
+        }
+    }
+
+    console.log("[Service Worker] Showing notification...");
 
     event.waitUntil(
-        clients.matchAll({
-            type: "window",
-            includeUncontrolled: true
-        })
-        .then(windowClients => {
-            for (const client of windowClients){
-                if (client.url === new URL(targetUrl, self.location.origin).href) {
-                    return client.focus();
-                }
+        self.registration.showNotification(data.title, {
+            body: data.body,
+            icon: data.icon,
+            data: {
+                url: data.url
             }
-            return clients.openWindow(targetUrl);
-        }) 
+        })
+        .then(() => {
+            console.log("[Service Worker] Notification shown.");
+        })
+        .catch(error => {
+            console.error(
+                "[Service Worker] showNotification failed:",
+                error
+            );
+        })
     );
 });
