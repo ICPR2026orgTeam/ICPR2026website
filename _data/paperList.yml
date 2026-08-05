@@ -5938,6 +5938,7 @@
     Grenoble Alpes, Inria)
   authors: Dasgupta, Avijit*; Dasgupta, Shayon; Laskar, Zakaria; Jawahar, C. V.; Alahari,
     Karteek
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31936-4_1
 - id: 1593
   title: 'Splatfill: 3D Scene Inpainting Via Depth-Guided Gaussian Splatting'
   track: O4-B.T2
@@ -5946,6 +5947,7 @@
     Bue (Generative Bionics ); Vittorio Murino (Istituto Italiano di Tecnologia (IIT))
   authors: Dahaghin, Mahtab*; Padalkar, Milind Gajanan; Toso, Matteo; Del Bue, Alessio;
     Murino, Vittorio
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31936-4_2
 - id: 1594
   title: 'Dats-Av: A Dissonance-Aware Two-Stage Framework For Audio–Visual Deepfake
     Detection'
@@ -5953,18 +5955,21 @@
   fullauthors: Rubayet Tonmoy (Univ. of North Texas); Ajita Rattani (Univ. of North
     Texas)*
   authors: Tonmoy, Rubayet; Rattani, Ajita*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31936-4_3
 - id: 1598
   title: Dual-Branch Spectral–Spatial Network With Knowledge- And Data-Driven Band
     Selection For Uav Hyperspectral Wheat Rust Detection
   track: P1.T2
   fullauthors: SUBIN KIM (Utah State University)*; Xiaojun Qi (Utah State University)
   authors: KIM, SUBIN*; Qi, Xiaojun
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31936-4_4
 - id: 1600
   title: 'Smellformer: Stage-Aware Event-Conditioned Transformers For Robust Odor
     Recognition'
   track: P1.T1
   fullauthors: Aayush Bhansali (IIT Mandi)*; Dr. Aditya Niagm (IIT Mandi)
   authors: Bhansali, Aayush*; Niagm, Dr. Aditya
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31936-4_5
 - id: 1601
   title: 'From Cells To Survival: Hierarchical Analysis Of Cell Inter-Relations In
     Multiplex Microscopy For Lung Cancer Prognosis'
@@ -5975,6 +5980,7 @@
     University); Nataša Sladoje (Uppsala University)
   authors: Edgren Schüllerqvist, Olle*; Baumann, Jens; Lindblad, Joakim; Nordling,
     Love; Mezheyeuski, Artur; Micke, Patrick; Sladoje, Nataša
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31936-4_6
 - id: 1602
   title: 'Egoafford: Affordance-Aware Zero-Shot Open-Vocabulary Egocentric Action
     Recognition'
@@ -5985,6 +5991,7 @@
     (Politecnico di Milano)
   authors: Gesualdi, Davide*; Santambrogio, Riccardo; Palermo, Francesca; Plizzari,
     Chiara; Mentasti, Simone; Matteucci, Matteo
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31936-4_7
 - id: 1608
   title: Continuous Online Action Detection From Egocentric Videos
   track: O7-B.T2
@@ -5993,6 +6000,7 @@
     (Politecnico di Milano); Matteo Matteucci (Politecnico di Milano)
   authors: Santambrogio, Riccardo*; Plizzari, Chiara; Palermo, Francesca; Mentasti,
     Simone; Matteucci, Matteo
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31936-4_8
 - id: 1616
   title: 'Mamba-Byte-Time: A Token-Free, Byte-Level, Natural-Language-Inspired Approach
     For Time Series Forecasting'
@@ -6000,6 +6008,7 @@
   fullauthors: Quang Nguyen (The University of Melbourne)*; Majid Sarvi (The University
     of Melbourne); Saeed Bagloee (The University of Melbourne)
   authors: Nguyen, Quang*; Sarvi, Majid; Bagloee, Saeed
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31936-4_9
 - id: 1623
   title: 'Cmd-Gcn: Categorical Multi-Domain Graph Convolutional Network For Plasmodium
     Development Stage Recognition'
@@ -6010,6 +6019,7 @@
     (Hanoi University of Science and Technology)*
   authors: Tran, Quoc Khanh; Visani, Muriel; Urruty, Thierry; Delandre, Océane; Nguyen,
     Thi-Oanh*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31936-4_10
 - id: 1629
   title: Spatio-Temporal Instability And Epoch-Wise Double Descent
   track: O8-C.T1
@@ -6017,6 +6027,7 @@
     University); Ryoichi Sekiguchi (Tokyo Denki University); Eisaku Maeda ( Tokyo
     Denki University)
   authors: Kobayashi, Keito*;  Hiramoto, Reiya; Sekiguchi, Ryoichi; Maeda, Eisaku
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31936-4_11
 - id: 1632
   title: 'Xd : Explainable Drift For Llm''S Robustness In Communication Network Protocols
     Modelling'
@@ -6024,12 +6035,14 @@
   fullauthors: Abhishek Djeachandrane (Airbus)*; Jorge Lopez (Airbus); Charalampos
     Chatzinakis (Airbus)
   authors: Djeachandrane, Abhishek*; Lopez, Jorge; Chatzinakis, Charalampos
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31936-4_12
 - id: 1635
   title: 'Versediffuser: Multi-Level Cross-Sentence Structural And Semantic Fusion
     For Classical Chinese Poetry Generation'
   track: P2.T1
   fullauthors: PeiHong Sun (Heilongjiang University)*; Jun Lu (Heilongjiang University)
   authors: Sun, PeiHong*; Lu, Jun
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31936-4_13
 - id: 1639
   title: 'Emo-Gnn: Graph Neural Networks For Explainable Monoand Multi-Label Emotion
     Detection'
@@ -6039,6 +6052,7 @@
     Ezzeddine Zagrouba (LR16ES06 Laboratoire LIMTIC, Higher Institute of Computer
     Science, University of Tunis El Manar, Tunisia)
   authors: Fouad, OUESLATI*; Bahroun, Sahbi; Zagrouba, Ezzeddine
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31936-4_14
 - id: 1065
   title: Generalizable Deepfake Detection Via Simplicity-Bias-Aware Clip Adaptation
   track: O5-C.T4
@@ -6078,6 +6092,7 @@
   authors: Liangxiu Han, Wenjiang Huang, Xin Zhang, Yue Shi, Yingying Dong, Tam Sobeih, Carlo Metta, Rabina Twayana, Gaurav Parkhedkar, Danyang Wang, Kush Ashvinbhai Patel, Kungsamreth SOK, Duy Tran Khanh, Soumyajyoti Mohanta, and Sasmit Shashwat
 
 
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31936-4_19
 - id: 1702
   title: 'Low-Resolution License Plate Recognition'
   track: O11-A.T7
@@ -6086,6 +6101,7 @@
 
 
 
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31936-4_18
 - id: 1703
   title: 'ICPR 2026 Competition RARE-Vision: Why Event Detection in Video Capsule Endoscopy Remains Unsolved'
   track: O11-A.T7
@@ -6094,6 +6110,7 @@
 
 
 
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31936-4_17
 - id: 1704
   title: 'Privacy-Preserving Person Re-Identification from Top-View RGB-Depth Camera (TVRID)'
   track: O11-A.T7
@@ -6102,6 +6119,7 @@
 
 
 
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31936-4_16
 - id: 1705
   title: 'VISual Tracking in Adverse Conditions (VISTAC-2)'
   track: O11-A.T7
@@ -6112,3 +6130,4 @@
 
 
 
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31936-4_15
