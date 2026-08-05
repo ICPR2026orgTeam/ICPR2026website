@@ -517,7 +517,7 @@
     (California State University, Fresno)
   authors: Cecotti, Hubert*; Gonzales, Ivan
 - id: 200
-  title: 'Telerank: Pairwise Ranking Of Temporal Driver Performance Using Telemetry'
+  title: 'TeleRank: Listwise Ranking of Temporal Driver Performance Using Telemetry'
   track: P2.T4
   fullauthors: Anton Röscher (University of Johannesburg); Dustin van der Haar (University
     of Johannesburg)*
