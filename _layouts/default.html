@@ -35,6 +35,23 @@
 
   </head>
 
+  <script>
+      if ("serviceWorker" in navigator){
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("/service-worker.js")
+          .then(function (registration) {
+            console.log("Service worker registered:", registration);
+          })
+          .catch(function (error) {
+            console.error("Service worker registration failed:", error)
+          });
+        });
+      }
+  </script>
+  
+
+  <script src="{{'/assets/js/notifications.js' | relative_url }}"></script>
+
   <body>
     <div id="headerSite"></div>
     {% include header.html %}

@@ -1,0 +1,18 @@
+{
+    "name": "ICPR 2026",
+    "short_name": "ICPR 2026",
+    "description": "Official ICPR 2026 conference app",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone", 
+    "backgroung_color": "#ffffff",
+    "theme_color": "#1a1a1a",
+    "icons": [
+        {
+            "src": "./Logos/icprIcon-square.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+
+}
