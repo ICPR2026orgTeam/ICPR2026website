@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://localhost:3000/notify";
+const API_BASE_URL = "https://datalivelightning.ddnsfree.com/notify";
 
 // Ask permission for notifications
 async function enableNotifications() {
