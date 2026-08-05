@@ -373,7 +373,7 @@
   authors: li, yuxi*; Liu, Yi; Li, Yuekang; Shi, Ling; Deng, Gelei; Chen, Shengquan;
     Wang, Kailong
 - id: 152
-  title: CoAttn-PEFT: Complementary Attention in Parameter-Efficient Fine-Tuning for Improved Adaptation and Generalization
+  title: 'CoAttn-PEFT: Complementary Attention in Parameter-Efficient Fine-Tuning for Improved Adaptation and Generalization"
   track: P3.T2
   fullauthors: Chushan Zhang (Australian National University)*; Ruihan  Lu (The University
     of Queensland); Jinguang Tong (Australian National University); Xuesong  Li (Australian
