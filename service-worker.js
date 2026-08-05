@@ -3,11 +3,7 @@ self.addEventListener("install", event => {
 });
 
 self.addEventListener("activate", event => {
-    console.log("[Service Worker] activated");
-
-    event.waitUntil(
-        self.clients.claim()
-    );
+    console.log("Service worker activated");
 });
 
 //Push Notification when one is received
@@ -47,48 +43,26 @@ self.addEventListener("push", event => {
     );
 });
 
-self.addEventListener("push", event => {
-    console.log("[Service Worker] Push received.", event.data);
+self.addEventListener("notificationclick", event => {
 
-    let data = {
-        title: "ICPR 2026",
-        body: "New conference notification.",
-        icon: "/Logos/icprIcon-square-48.png",
-        url: "/"
-    };
+    console.log("[Service Worker] Notification clicked.")
 
-    if (event.data) {
-        try {
-            data = {
-                ...data,
-                ...event.data.json()
-            };
+    event.notification.close();
 
-            console.log("[Service Worker] Data:", data);
-        } catch (error) {
-            console.warn("[Service Worker] Payload is not JSON:", error);
-            data.body = event.data.text();
-        }
-    }
-
-    console.log("[Service Worker] Showing notification...");
+    const targetUrl = event.notification.data?.url || "/";
 
     event.waitUntil(
-        self.registration.showNotification(data.title, {
-            body: data.body,
-            icon: data.icon,
-            data: {
-                url: data.url
+        clients.matchAll({
+            type: "window",
+            includeUncontrolled: true
+        })
+        .then(windowClients => {
+            for (const client of windowClients){
+                if (client.url === new URL(targetUrl, self.location.origin).href) {
+                    return client.focus();
+                }
             }
-        })
-        .then(() => {
-            console.log("[Service Worker] Notification shown.");
-        })
-        .catch(error => {
-            console.error(
-                "[Service Worker] showNotification failed:",
-                error
-            );
-        })
+            return clients.openWindow(targetUrl);
+        }) 
     );
 });
