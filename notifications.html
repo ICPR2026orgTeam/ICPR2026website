@@ -1,0 +1,76 @@
+---
+layout: default
+title: Notifications
+permalink: /notifications/
+---
+
+<section class="notifications-archive">
+    <h1>Notifications</h1>
+
+    <p id="notifications-loading">
+        Loading notifications...
+    </p>
+
+    <div id="public-notification-list"></div>
+</section>
+
+<script>
+document.addEventListener("DOMContentLoaded", async () => {
+    const loading = document.getElementById("notifications-loading");
+    const list = document.getElementById("public-notification-list");
+
+    try {
+        const response = await fetch(
+            "https://datalivelightning.ddnsfree.com/notify/notifications?limit=50"
+        );
+
+        if (!response.ok) {
+            throw new Error("Unable to load notifications.");
+        }
+
+        const data = await response.json();
+
+        loading.style.display = "none";
+        if (!data.notifications || data.notifications.length === 0) {
+            list.innerHTML = "<p>No notifications available.</p>";
+            return;
+        }
+
+        list.innerHTML = data.notifications.map(notification => `
+            <article class="notification-card">
+                <h2>${escapeHtml(notification.title)}</h2>
+
+                <p>${escapeHtml(notification.body)}</p>
+
+                <div class="notification-meta">
+                    <small>${formatDate(notification.created_at)}</small>
+                </div>
+
+                ${
+                    notification.url
+                        ? `<p><a href="${notification.url}">Read more →</a></p>`
+                        : ""
+                }
+            </article>
+        `).join("");
+
+    } catch (error) {
+        console.error(error);
+        loading.textContent = "Failed to load notifications.";
+    }
+});
+
+function formatDate(dateString) {
+    const date = new Date(dateString.replace(" ", "T"));
+    return date.toLocaleString();
+}
+
+function escapeHtml(text) {
+    const div = document.createElement("div");
+    div.textContent = text;
+    return div.innerHTML;
+}
+</script>
+
+
+
