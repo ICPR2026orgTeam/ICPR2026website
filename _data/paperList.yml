@@ -542,7 +542,7 @@
   authors: Cecotti, Hubert*; Gonzales, Ivan
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31583-0_25
 - id: 200
-  title: 'Telerank: Pairwise Ranking Of Temporal Driver Performance Using Telemetry'
+  title: 'TeleRank: Listwise Ranking of Temporal Driver Performance Using Telemetry'
   track: P2.T4
   fullauthors: Anton Röscher (University of Johannesburg); Dustin van der Haar (University
     of Johannesburg)*
@@ -2351,8 +2351,8 @@
   fullauthors: Aysylu Gabdulkhakova (TU Wien)*; Walter G. Kropatsch (TU Wien)
   authors: Gabdulkhakova, Aysylu*; Kropatsch, Walter G.
 - id: 671
-  title: 'Beyond Standard Benchmarks: A Systematic Audit Of Vision-Language Model''S
-    Robustness To Natural Semantic Variation Across Diverse Tasks'
+  title: 'Beyond Standard Benchmarks: A Systematic Audit of Vision-Language Model’s Robustness to Natural Semantic Variation
+    Across Diverse Tasks'
   track: P3.T2
   fullauthors: Jia Chengyu (Zhejiang University of Technology); AprilPyone MaungMaung
     (National Institute of Informatics); Huy H. Nguyen (National Institute of Informatics);
@@ -2641,8 +2641,8 @@
     Michigan); Mohamed Abouelenien ( University of Michigan)
   authors: Das, Kapotaksha*; Burzo, Mihai; Abouelenien, Mohamed
 - id: 780
-  title: 'Topolora-Sam: Topology-Aware Parameter-Efficient Adaptation Of Foundation
-    Segmenters For Thin-Structure And Cross-Domain Binary Semantic Segmentation'
+  title: 'TopoLoRA-SAM: Topology-Aware Parameter-Efficient Adaptation of Foundation Segmenters for Thin-Structure and Cross-Domain
+    Binary Semantic Segmentation'
   track: P1.T3
   fullauthors: Salim Khazem (Talan Research and Innovation Center)*
   authors: Khazem, Salim*
