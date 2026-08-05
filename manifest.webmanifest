@@ -5,7 +5,7 @@ layout: null
   "name": "ICPR 2026",
   "short_name": "ICPR",
   "description": "International Conference on Pattern Recognition 2026",
-  "start_url": "{{ '/indexTest.html' | relative_url }}",
+  "start_url": "{{ '/' | relative_url }}",
   "scope": "{{ '/' | relative_url }}",
   "display": "standalone",
   "orientation": "portrait",
