@@ -88,8 +88,8 @@
   authors: Molina Rodríguez, Adrià*; Ramos Terrades, Oriol; Lladós Canet, Josep
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31335-5_11
 - id: 33
-  title: 'Np-Desire-Gs: Neighborhood Planarity-Enhanced Gaussian Splatting For Robust
-    Static-Dynamic Object Separation And Surface Alignment In Urban Driving Scenes'
+  title: 'NP-DeSiRe-GS: Neighborhood Planarity-Enhanced Gaussian Splatting for Robust Static-Dynamic Object Separation and
+    Surface Alignment in Urban Scenes'
   track: P2.T2
   fullauthors: sachin Verma (NTNU)*; Florian  Wintel (NTNU); Frank Lindseth (NTNU);
     Gabriel Kiss (NTNU)
@@ -186,8 +186,7 @@
     Zhang, Zhiyu; Dong, Dong; Qin, Zhan
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31335-5_22
 - id: 76
-  title: 'Smoothed-Modernbert: Co-Attentional Synergy Of Probabilistic Topic Models
-    And Modernbert Through Dynamic Fusion'
+  title: 'Smoothed-ModernBERT: Cross-Modal Gated Attention of Probabilistic Topic Models and ModernBERT Through Dynamic Fusion'
   track: O9-A.T1
   fullauthors: Akinlolu Ojo (Concordia University)*; Nizar Bouguila (Concordia University)
   authors: Ojo, Akinlolu*; Bouguila, Nizar
@@ -3567,11 +3566,13 @@
     Shuhua Gao (Shandong University)
   authors: Zhao, Yunyi*; Zhang, Wei; Xiang , Cheng; Du, Hongyang; Niyato, Dusit; Gao,
     Shuhua
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_1
 - id: 1005
   title: 'Gld: Gabor Convolutional Network For 2D Line Descriptors'
   track: P4.T3
   fullauthors: ShiYi Wan (University of Szeged); Zoltan Kato (University of Szeged)*
   authors: Wan, ShiYi; Kato, Zoltan*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_2
 - id: 1007
   title: 'Trajkd: Distilling Knowledge Via Adaptive Trajectory Curriculum And Dynamic
     Weighting'
@@ -3582,6 +3583,7 @@
     University)
   authors: Jiu, Mingyuan; Guo, Mi; Ziyi Wu, Ziyi; Li, Jiahao; Li, Qian; Zhao, Hongru*;
     Xu, Mingliang
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_3
 - id: 1008
   title: 'Signmae: Segmentation-Driven Self-Supervised Learning For Sign Language
     Recognition'
@@ -3589,6 +3591,7 @@
   fullauthors: Kunyuan Xie (Monash University)*; Zhixi Cai (Monash University); Kalin
     Stefanov (Monash University)
   authors: Xie, Kunyuan*; Cai, Zhixi; Stefanov, Kalin
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_4
 - id: 1009
   title: Graph Based Learning For Visual Prompt Guided Few Shot Object Part Segmentation
   track: P3.T1
@@ -3596,6 +3599,7 @@
     Shashank Devarmani (International Institute of Information Technology, Bangalore);
     Viswanath Gopalakrishnan (International Institute of Information Technology, Bangalore)
   authors: Mohan, Anant*; Devarmani, Shashank; Gopalakrishnan, Viswanath
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_5
 - id: 1011
   title: 'The Pragmatic Persona: Discovering Llm Persona Through Bridging Inference'
   track: P2.T5
@@ -3603,6 +3607,7 @@
     Minuk Ma (University of British Columbia); Trung X. Pham (Korea Advanced Institute
     of Science and Technology); Junyeong Kim (Chung-Ang University)
   authors: Ryu, Jongwon*; Yang, Jisoo; Ma, Minuk; Pham, Trung X.; Kim, Junyeong
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_6
 - id: 1014
   title: 'Hgdl: Holistic Graph Distribution Learner For High-Fidelity Small Graph
     Generation'
@@ -3610,12 +3615,14 @@
   fullauthors: Haoyu Wang (Tianjin University)*; Zheng Wang (Tianjin University);
     Xinyu Yan (Tianjin University); Meijun Sun (Tianjin University)
   authors: Wang, Haoyu*; Wang, Zheng; Yan, Xinyu; Sun, Meijun
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_7
 - id: 1017
   title: 'Prism: Color-Stratified Point Cloud Sampling'
   track: P3.T2
   fullauthors: Hansol Lim (SUNY Korea); Minhyeok Im (SUNY Korea); Jongseong  Choi
     (SUNY Korea)*
   authors: Lim, Hansol; Im, Minhyeok; Choi, Jongseong *
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_8
 - id: 1020
   title: 'H3D-Marnet: Wavelet-Guided Dual-Path Learning For Metal Artifact Suppression
     And Ct Modality Transformation For Radiotherapy Workflows'
@@ -3626,6 +3633,7 @@
     33081 Aviano, Italy); Christian Micheloni (University of Udine)
   authors: Rehman, Mubashara*; Martinel, Niki ; Avanzo, Michele; Spizzo, Riccardo
     ; Micheloni, Christian
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_9
 - id: 1021
   title: 'See All, Reach All: Spherical Vision-Based Servoing For Full-Surround Mobile
     Manipulation'
@@ -3634,6 +3642,7 @@
     Nathan Crombez ( Université de technologie de Belfort Montbéliard)*; Yassine Ruichek
     (Université de technologie de Belfort Montbéliard)
   authors: Beaujard, Traian; Crombez, Nathan*; Ruichek, Yassine
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_10
 - id: 1022
   title: Pairwise Alignment And Compatibility For Arbitrary Irregular And Eroded Image
     Fragments
@@ -3641,6 +3650,7 @@
   fullauthors: Ofir Shahar (Ben Gurion University)*; Gur Elkin (Ben Gurion University);
     Ohad Ben-Shahar (Ben Gurion University)
   authors: Shahar, Ofir*; Elkin, Gur; Ben-Shahar, Ohad
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_11
 - id: 1024
   title: Dynamic Neuro-Symbolic Adapter For Efficient Fine-Grained Visual Recognition
   track: P1.T2
@@ -3648,6 +3658,7 @@
     Yuanyuan Shang (Capital Normal University); Hui Ding (Capital Normal University);
     Zhuhong Shao (Capital Normal University)
   authors: Chen, Guanyu; Liu, Tie*; Shang, Yuanyuan; Ding, Hui; Shao, Zhuhong
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_12
 - id: 1027
   title: A Lightweight Model-Based Method For Adversarial Purification In Autonomous
     Driving Segmentation
@@ -3655,6 +3666,7 @@
   fullauthors: IOULIA KAPSALI (Athena Research Center)*; ALEXANDROS GKILLAS (Athena
     Research Center); ARIS LALOS (Athena Research Center)
   authors: KAPSALI, IOULIA*; GKILLAS, ALEXANDROS; LALOS, ARIS
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_13
 - id: 1028
   title: Global–Local Feature Decoding With Adapter-Guided Samv2 For Salient Object
     Detection
@@ -3664,6 +3676,7 @@
     Spampinato (University of Catania)
   authors: Moradi, Morteza*; Moradi, Mohammad; Palazzo, Simone; Borji, Ali; Spampinato,
     Concetto
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_14
 - id: 1029
   title: Spatio-Temporal Pattern Spectra For Analysis Of Satellite Image Time Series
   track: O10-D.T3
@@ -3671,6 +3684,7 @@
     (ISEN Ouest); Sebastien Lefèvre (IRISA)
   authors: Raimond, Emilio*; Merciol, François; Belmouhcine, Abdelbadie; Lefèvre,
     Sebastien
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_15
 - id: 1030
   title: Semi-Supervised Soft Clustering With Flexible Cardinality
   track: P1.T1
@@ -3680,6 +3694,7 @@
     Politècnica de València)
   authors: Vallejo-Huanga, Diego*; Montenegro, Mateo; Simbaña, Brenda; Ferri, Cesar;
     Martinez-Plumed, Fernando
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_16
 - id: 1032
   title: A Saliency-Driven Graph-Based Metric For Fmri-Based Visual Brain Decoding
     Evaluation
@@ -3688,6 +3703,7 @@
     of Catania)*; Marco Grassia (University of Catania);  Giuseppe   Mangioni  (University
     of Catania)
   authors: Moradi, Mohammad; Moradi, Morteza*; Grassia, Marco;  Mangioni ,  Giuseppe
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_17
 - id: 1034
   title: 'Masked-Controlnet: Counterfactual Mri Generation Of Brain Metastasis Evolution
     For Shared Decision Making Support'
@@ -3695,6 +3711,7 @@
   fullauthors: Masaki Minami (Wakayama University); Jinhui Chen (Wakayama University)*;
     Nan Ding (Wakayama University)
   authors: Minami, Masaki; Chen, Jinhui*; Ding, Nan
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_18
 - id: 1036
   title: 'Multi: Disentangling Camera Lens, Sensor, View, And Domain For Novel Image
     Generation'
@@ -3704,12 +3721,14 @@
     Möller (Uni Siegen); Danda Paudel (INSAIT)
   authors: Godavarthy, Sonali; Neuwirth-Trapp, Matthias*; Faasch, Tim-Felix; Bieshaar,
     Maarten; Möller, Michael; Paudel, Danda
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_19
 - id: 1037
   title: Uniform Llm-Based Framework For Explainable Recommender Systems
   track: P2.T1
   fullauthors: Hajar LAKTAOUI (UM6P)*; Mohamed  LECHIAKH (UM6P); Robert  BASMADJIAN
     (UM6P); Lamiae  AZIZI (UM6P)
   authors: LAKTAOUI, Hajar*; LECHIAKH, Mohamed ; BASMADJIAN, Robert ; AZIZI, Lamiae
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_20
 - id: 1041
   title: 'Rsd-Bev: Residual Self-Distillation Framework For Efficient Bev Representation
     Learning'
@@ -3717,18 +3736,21 @@
   fullauthors: Sungjin Park (Hanyang University); Jaeha Song (Hanyang University);
     Soonmin Hwang (Hanyang University)*
   authors: Park, Sungjin; Song, Jaeha; Hwang, Soonmin*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_21
 - id: 1043
   title: Attribute-Driven Weakly Supervised Text-Based Pedestrian Search
   track: P1.T3
   fullauthors: Naixi Liu (Institute of Automation, Chinese Academy of Sciences)*;
     Yan Huang (Institute of Automation, Chinese Academy of Sciences)
   authors: Liu, Naixi*; Huang, Yan
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_22
 - id: 1046
   title: 'Ace-Grasp: Aleatoric Ambiguity Modeling Via Consistency And Exploration
     For Grasping'
   track: O9-B.T2
   fullauthors: Yiming Li (swansea university); xianghua xie (swansea university)*
   authors: Li, Yiming; xie, xianghua*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_23
 - id: 1047
   title: 'Kadr: Multi-Charge Legal Judgment Prediction Via Knowledge-Augmented Dialectical
     Reasoning'
@@ -3736,12 +3758,14 @@
   fullauthors: LiangGeng Hu (Inner Mongolia Normal University)*; YanLing Li (College
     of Artificial Intelligence); FengPei Ge (Library)
   authors: Hu, LiangGeng*; Li, YanLing; Ge, FengPei
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_24
 - id: 1048
   title: Efficient Sample Synthesis And Decoupled Distillation For Black-Box Attack
   track: P4.T4
   fullauthors: Ke Shen (Beijing Forestry University); longteng kong (Beijing Forestry
     University)*; Wanting Zhou (Beijing University of Posts and Telecommunications)
   authors: Shen, Ke; kong, longteng*; Zhou, Wanting
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_25
 - id: 1049
   title: 'Mile: Mixture Of Incremental Lora Experts For Continual Semantic Segmentation
     Across Domains And Modalities'
@@ -3749,6 +3773,7 @@
   fullauthors: Shishir Muralidhara (DFKI)*; Didier Stricker (DFKI); René Schuster
     (DFKI)
   authors: Muralidhara, Shishir*; Stricker, Didier; Schuster, René
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_26
 - id: 1050
   title: 'Oscar: Optical-Aware Semantic Control For Aleatoric Refinement In Sar-To-Optical
     Translation'
@@ -3757,11 +3782,13 @@
     National University); Ho Kyung Shin (Kyungpook National University); Taeheon Kim
     (Korea Aerospace Research Institute); Woo-Jeoung Nam (Kyungpook National University)*
   authors: Lee, Hyunseo; Kim, Sang Min; Shin, Ho Kyung; Kim, Taeheon; Nam, Woo-Jeoung*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_27
 - id: 1052
   title: 'Ca-Unetr: Transformer-Based Cross-Attention Unet For 3D Medical Segmentation'
   track: P3.T6
   fullauthors: Agnesh Chandra Yadav (IIT Patna)*; Maheshkumar H. Kolekar (IIT Patna)
   authors: Yadav, Agnesh Chandra*; Kolekar, Maheshkumar H.
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_28
 - id: 1053
   title: 'Hyperun: Controlling Uncertainty In Hyperbolic Space For Machine Unlearning'
   track: P4.T1
@@ -3770,17 +3797,20 @@
     Jinkyu Kim (Korea University)
   authors: Jung, Inseo*; Seo, Dabin; Baek, Sukyung; Jung, Jaeheun; Lee, Donghun; Kim,
     Jinkyu
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_29
 - id: 1055
   title: Latent Rigidity Regularization For Conditional Vaes In Anomaly Detection
   track: O2-A.T1
   fullauthors: Oskar Åström (Lund University)*; Alexandros Sopasakis (Lund University)
   authors: Åström, Oskar*; Sopasakis, Alexandros
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_30
 - id: 1056
   title: 'From Videos To Conversations: Egocentric Instructions For Task Assistance'
   track: P3.T2
   fullauthors: Lavisha Aggarwal (Google)*; Vikas Bahirwani (Google); Andrea Colaco
     (Google)
   authors: Aggarwal, Lavisha*; Bahirwani, Vikas; Colaco, Andrea
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_31
 - id: 1057
   title: Self-Adaptive Low-Rank Adaptation For Class-Incremental Learning
   track: P4.T1
@@ -3788,12 +3818,14 @@
     (UTS); Guochen Zhou (CityU); Yuhui Shi (SUSTech)
   authors: Song, Yiming*; Duan, Qiqi; Sun, Lijun; Shen, Yang; Zhou, Guochen; Shi,
     Yuhui
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_32
 - id: 1059
   title: Privacy-Preserving Image Annotation By Large Multimodal Models
   track: P3.T2
   fullauthors: Yuki Wakai (Kyoto University)*; Kyohei Atarashi (Kyoto University);
     Koh Takeuchi (Kyoto University); Hisashi Kashima (Kyoto University)
   authors: Wakai, Yuki*; Atarashi, Kyohei; Takeuchi, Koh; Kashima, Hisashi
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_33
 - id: 1060
   title: Does Your Definition Matter? Llms Comparison Between Prompt Sensitivity And
     Internal Behavior For Social Media Analysis
@@ -3801,6 +3833,7 @@
   fullauthors: Marc-Alexis Azais (La Rochelle University - L3i)*; Jean-Loup Guillaume
     (La Rochelle University - L3i); Mickaël  Coustaty (La Rochelle University - L3i)
   authors: Azais, Marc-Alexis*; Guillaume, Jean-Loup; Coustaty, Mickaël
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_34
 - id: 1061
   title: 'Eyetheia: A Lightweight And Accessible Eye-Tracking Toolbox'
   track: P1.T3
@@ -3817,12 +3850,14 @@
     France )
   authors: Pather, Stevenson*; Martignène, Niels; Bugnet, Arnaud; Boutaleb, Fouad;
     D'Hondt, Fabien; Santana Maia, Deise
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_35
 - id: 1062
   title: Peak Wave Period And Direction Estimation Using 3D Fft On Monoscopic Videos
   track: O7-B.T2
   fullauthors: Nicolas Paris (La Rochelle University)*; Sylvain Marchand (La Rochelle
     University); Petra Gomez-Krämer (La Rochelle University)
   authors: Paris, Nicolas*; Marchand, Sylvain; Gomez-Krämer, Petra
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_36
 - id: 1064
   title: Cross-Domain Human Action Recognition From Multiview Motion And Textual Descriptions
   track: P1.T2
@@ -3830,6 +3865,7 @@
     Bourgogne Europe); Thomas Chalumeau (Prynel SAS); Cédric Demonceaux (Université
     Bourgogne Europe)
   authors: Porto, Yannick*; Martins, Renato; Chalumeau, Thomas; Demonceaux, Cédric
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_37
 - id: 1066
   title: 'Mfnet: A Multimodal Fingerprint–Vein  Recognition Network With Frequency-Domain 
     Enhancement And Cross-Modal Fusion'
@@ -3838,6 +3874,7 @@
     Haibo Xu (Xinjiang University); Alimjan Aysa (Xinjiang University); Kurban Ubul
     (Xinjiang University)*
   authors: Wang, Jiachang; Xian, Tingting; Xu, Haibo; Aysa, Alimjan; Ubul, Kurban*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_39
 - id: 1067
   title: 'Eg-Spxnet: Edge-Gated Superpixel Graph Neural Networks For Interpretable
     Retinal Disease Grading'
@@ -3849,6 +3886,7 @@
     Louisville ); Ayman El-Baz (University of Louisville )
   authors: Elsharkawy, Mohamed*; Sakib, Sadman; El-melegy, Moumen; Ali, Asem; Mahmoud,
     Ali; Ghazal, Mohammed ; Khalil, Ashraf ; Wang, Wei; El-Baz, Ayman
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_40
 - id: 1071
   title: 'Src-Conv: Statistical Recalibration Convolution For Amorphous Fire And Smoke
     Detection'
@@ -3859,6 +3897,7 @@
     (Graduate School of Systems Engineering, Wakayama University); Chen Jinhui (Graduate
     School of Systems Engineering, Wakayama University)*
   authors: Nan, Ding; Haozheng, Sun; Wenyu, Luo; Masaki, Minami; Jinhui, Chen*
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_41
 - id: 1073
   title: 'A General Framework For Adapting Foundation Models To Specialized Domains:
     A Case Study In Sewer Defect Classification'
@@ -3867,11 +3906,13 @@
     INSA Lyon, Universite Claude Bernard Lyon 1, LIRIS, UMR5205, 69007 Lyon, France;
     Veolia)*; Remi Cuingnet (Veolia); Mihaela Scuturici (LIRIS); Serge Miguet (LIRIS)
   authors: Babé, Aloïs*; Cuingnet, Remi; Scuturici, Mihaela; Miguet, Serge
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_42
 - id: 1075
   title: 'Trtf: A Two-Stage Robust Training Framework For Visual Question Answering'
   track: O3-D.T3
   fullauthors: Yu Li (Beijing Jiaotong University)*; Jinan Xu (Beijing Jiaotong University)
   authors: Li, Yu*; Xu, Jinan
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_43
 - id: 1080
   title: Scene-Aware Emotion Recognition In Comics With Llms
   track: P1.T2
@@ -3879,12 +3920,14 @@
     La Rochelle Université); Antoine Doucet (L3i, La Rochelle Université); Christophe
     Rigaud (L3i, La Rochelle Université)
   authors: Mushtaq, Umer*; Burie, Jean-Christophe; Doucet, Antoine; Rigaud, Christophe
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_44
 - id: 1082
   title: Lidar-Driven Morphological Feature Spaces For Interactive Scene Analysis
   track: P3.T2
   fullauthors: Florent Guiotte (Université Rennes 2)*; Sébastien Lefèvre (Univ. Bretagne
     Sud); Thomas Corpetti (CNRS)
   authors: Guiotte, Florent*; Lefèvre, Sébastien; Corpetti, Thomas
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_45
 - id: 1084
   title: Multimodal Abstractive Summarization Of Instructional Videos With Vision-Language
     Models
@@ -3892,6 +3935,7 @@
   fullauthors: Maham Nazir (Beihang University); Muhammad Aqeel (University of Verona)*;
     Richong Zhang (Beihang University); Francesco Setti (University of Verona)
   authors: Nazir, Maham; Aqeel, Muhammad*; Zhang, Richong; Setti, Francesco
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_46
 - id: 1087
   title: Improving N1-Sleep Stage Detection Using Constant-Q Transform And Lightweight
     Cnn/Lstm Model
@@ -6107,6 +6151,7 @@
     Roggero (Probayes); Laurent Saroul (Probayes); Antitza Dantcheva (Inria Centre
     at Université Côte d’Azur)
   authors: yahchouchi, charbel*; Roggero, Noemi; Saroul, Laurent; Dantcheva, Antitza
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31438-3_38
 - id: 332
   title: 'Hac: Parameter-Efficient Hyperbolic Adaptation Of Clip For Zero-Shot Vqa'
   track: O3-D.T3
