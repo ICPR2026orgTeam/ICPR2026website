@@ -1,3 +1,9 @@
+- question: "If my paper is assigned an oral presentation, do I also need to prepare and present a poster?"
+  answer: |
+    No. Oral presentations do not require an additional poster presentation. Papers assigned to oral presentation sessions are not part of the poster sessions.
+  category: "participation"
+  id: "pres-oral-poster"
+  
 - question: "After registering, I realized that I need to add an accompanying person to the gala dinner. Is it still possible?"
   answer: |
     Yes, as long as seats are still available. Please contact us as soon as possible at <a href="mailto:contactcolloque@insavalor.fr">contactcolloque@insavalor.fr</a>. We will send you a personalized registration and payment link for your accompanying person.
