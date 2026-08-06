@@ -77,8 +77,8 @@
     Terrades (CVC); Josep Lladós Canet (CVC)
   authors: Molina Rodríguez, Adrià*; Ramos Terrades, Oriol; Lladós Canet, Josep
 - id: 33
-  title: 'Np-Desire-Gs: Neighborhood Planarity-Enhanced Gaussian Splatting For Robust
-    Static-Dynamic Object Separation And Surface Alignment In Urban Driving Scenes'
+  title: 'NP-DeSiRe-GS: Neighborhood Planarity-Enhanced Gaussian Splatting for Robust Static-Dynamic Object Separation and
+    Surface Alignment in Urban Scenes'
   track: P2.T2
   fullauthors: sachin Verma (NTNU)*; Florian  Wintel (NTNU); Frank Lindseth (NTNU);
     Gabriel Kiss (NTNU)
@@ -164,8 +164,7 @@
   authors: Yang, Yuchen; Huang, Enhao*; Xia, Chunshu; Yang, Bingrun; Pan, Tongtong;
     Zhang, Zhiyu; Dong, Dong; Qin, Zhan
 - id: 76
-  title: 'Smoothed-Modernbert: Co-Attentional Synergy Of Probabilistic Topic Models
-    And Modernbert Through Dynamic Fusion'
+  title: 'Smoothed-ModernBERT: Cross-Modal Gated Attention of Probabilistic Topic Models and ModernBERT Through Dynamic Fusion'
   track: O9-A.T1
   fullauthors: Akinlolu Ojo (Concordia University)*; Nizar Bouguila (Concordia University)
   authors: Ojo, Akinlolu*; Bouguila, Nizar
