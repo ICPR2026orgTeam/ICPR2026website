@@ -2,34 +2,34 @@
 - sessionId: "1" 
   title: "Representation, Knowledge & Reasoning"
   codePlace: "A"
-  chair: ""
+  chair: "Shiqi Yu"
   paperTrack: "1"
 
 
 - sessionId: "1" 
   title: "Object Detection And Recognition"
   codePlace: "B"
-  chair: ""
+  chair: "Masayuki Tanaka"
   paperTrack: "2"
 
 - sessionId: "1" 
   title: "Induction, Gameplay & Logic Traces"
   codePlace: "C"
-  chair: ""
+  chair: "Cheng-Lin Liu"
   paperTrack: "1"
 
 
 - sessionId: "1" 
   title: "Natural Language Processing"
   codePlace: "D"
-  chair: ""
+  chair: "Elisa Barney"
   paperTrack: "5"
 
 
 - sessionId: "1" 
   title: "Visual Perception From 3D Point Clouds"
   codePlace: "E"
-  chair: ""
+  chair: "Sylvain Marchand"
   paperTrack: "2"
 
 
@@ -38,20 +38,20 @@
 - sessionId: "2" 
   title: "Regularization, VAEs & Structural Rigidity"
   codePlace: "A"
-  chair: ""
+  chair: "Miguel Colom"
   paperTrack: "1"
 
 - sessionId: "2" 
   title: "Vision And Language"
   codePlace: "B"
-  chair: ""
+  chair: "Chiou-Ting Hsu"
   paperTrack: "2"
 
 
 - sessionId: "2" 
   title: "Generative Models & Graph Implementations"
   codePlace: "C"
-  chair: ""
+  chair: "Miguel Carreira-Perpiñán"
   paperTrack: "1"
 
 
@@ -59,13 +59,13 @@
 - sessionId: "2" 
   title: "Speech Enhancement and Recognition "
   codePlace: "D"
-  chair: ""
+  chair: "Hermann Ney"
   paperTrack: "3"
 
 - sessionId: "2" 
   title: "Machine Intelligence & Diagnostic Analysis"
   codePlace: "E"
-  chair: ""
+  chair: "Joao Paulo Papa"
   paperTrack: "1"
 
 
@@ -81,14 +81,14 @@
 - sessionId: "3" 
   title: "Motion, Tracking And Video Analysis"
   codePlace: "B"
-  chair: ""
+  chair: "Mario Molinara"
   paperTrack: "2"
 
 
 - sessionId: "3" 
   title: "Deep Learning & Low-Frequency Analysis"
   codePlace: "C"
-  chair: ""
+  chair: "Josef Kittler"
   paperTrack: "1"
 
 
@@ -97,35 +97,29 @@
 - sessionId: "3" 
   title: "Video Question Answering"
   codePlace: "D"
-  chair: ""
+  chair: "Takafumi Koshinaka"
   paperTrack: "3"
 
 
 - sessionId: "3" 
   title: "Early And Low-Level Vision"
   codePlace: "E"
-  chair: ""
+  chair: "Walter Kropatsch"
   paperTrack: "2"
 
 
 
 
-- sessionId: "11" 
-  title: "Competiton Session"
-  codePlace: "A"
-  chair: ""
-  paperTrack: "7"
-
 - sessionId: "4" 
   title: "Stereo And 3D Vision"
   codePlace: "B"
-  chair: ""
+  chair: "Amanda Berg"
   paperTrack: "2"
 
 - sessionId: "4" 
   title: "Biometrics and HCI (I)"
   codePlace: "C"
-  chair: ""
+  chair: "Raghavendra Ramachandra"
   paperTrack: "4"
 
 
@@ -133,14 +127,14 @@
 - sessionId: "4" 
   title: "Text Detection and Recognition"
   codePlace: "D"
-  chair: ""
+  chair: "Andreas Fischer"
   paperTrack: "5"
 
 
 - sessionId: "4" 
   title: "Magnetic Resonance Imaging"
   codePlace: "E"
-  chair: ""
+  chair: "Hamid Jafarkhani"
   paperTrack: "6"
 
 
@@ -148,7 +142,7 @@
 - sessionId: "5" 
   title: "Mobile AI & Embedded Systems"
   codePlace: "A"
-  chair: ""
+  chair: "Enzo Tartaglione"
   paperTrack: "1"
 
 
@@ -156,7 +150,7 @@
 - sessionId: "5" 
   title: "Action And Behavior Recognition"
   codePlace: "B"
-  chair: ""
+  chair: "Ilan Shimshoni"
   paperTrack: "2"
 
 
@@ -164,35 +158,35 @@
 - sessionId: "5" 
   title: "Biometrics and HCI (II)"
   codePlace: "C"
-  chair: ""
+  chair: "Nicole Vincent"
   paperTrack: "4"
 
 
 - sessionId: "5" 
-  title: "Text Detection and Recognition"
+  title: "Document Analysis Applications"
   codePlace: "D"
-  chair: ""
+  chair: "Umapada Pal"
   paperTrack: "5"
 
 
 - sessionId: "5" 
   title: "Autonomous Driving & World GPT Models"
   codePlace: "E"
-  chair: ""
+  chair: "Franck Davoine"
   paperTrack: "1"
 
 
 - sessionId: "6" 
   title: "Facial Recognition & Phishing Detection"
   codePlace: "A"
-  chair: ""
+  chair: "Daniel Lopresti"
   paperTrack: "1"
 
 
 - sessionId: "6" 
   title: "Object Detection And Recognition II"
   codePlace: "B"
-  chair: ""
+  chair: "Josiane Zerubia"
   paperTrack: "2"
 
 
@@ -200,14 +194,14 @@
 - sessionId: "6" 
   title: "Transfer & Meta Learning"
   codePlace: "C"
-  chair: ""
+  chair: "Paul Honeine"
   paperTrack: "1"
 
 
 - sessionId: "6" 
   title: "Image and Video Retrieval"
   codePlace: "D"
-  chair: ""
+  chair: "Véronique Eglin"
   paperTrack: "3"
 
 
@@ -215,53 +209,53 @@
 - sessionId: "6" 
   title: "Computer And Robot Vision"
   codePlace: "E"
-  chair: ""
+  chair: "Anup Basu"
   paperTrack: "2"
 
 
 - sessionId: "7" 
   title: "Clustering & Anomaly Detection Systems "
   codePlace: "A"
-  chair: ""
+  chair: "Alexandra Branzan Albu"
   paperTrack: "1"
 
 - sessionId: "7" 
   title: "Scene Analysis And Understanding"
   codePlace: "B"
-  chair: ""
+  chair: "Giovanna Castellano"
   paperTrack: "2"
 
 - sessionId: "7" 
   title: "Biometrics and HCI (III)"
   codePlace: "C"
-  chair: ""
+  chair: "Anoop Namboodiri"
   paperTrack: "4"
 
 - sessionId: "7" 
   title: "Low Light Image Enhancement"
   codePlace: "D"
-  chair: ""
+  chair: "Rafael Dueire Lins"
   paperTrack: "3"
 
 
 - sessionId: "7" 
   title: "Pathology Systems"
   codePlace: "E"
-  chair: ""
+  chair: "Hubert Cardot"
   paperTrack: "6"
 
 
 - sessionId: "8" 
   title: "Complex Classification & Data Augmentation"
   codePlace: "A"
-  chair: ""
+  chair: "Anuj Srivastava"
   paperTrack: "1"
 
 
 - sessionId: "8" 
   title: "Computer And Robot Vision"
   codePlace: "B"
-  chair: ""
+  chair: "Sukalpa Chanda"
   paperTrack: "2"
 
 
@@ -269,21 +263,21 @@
 - sessionId: "8" 
   title: "Medical Deep Learning & Breast Imaging"
   codePlace: "C"
-  chair: ""
+  chair: "Federico Bolelli"
   paperTrack: "1"
 
 
 - sessionId: "8" 
   title: "Generated Image and Video Detection"
   codePlace: "D"
-  chair: ""
+  chair: "Byoung Chul Ko"
   paperTrack: "3"
 
 
 - sessionId: "8" 
   title: "Medical Image Analysis"
   codePlace: "E"
-  chair: ""
+  chair: "Xiaoyi Jiang"
   paperTrack: "6"
 
 
@@ -291,14 +285,14 @@
 - sessionId: "9" 
   title: "Supervised, Unsupervised & Self-Supervised Methods"
   codePlace: "A"
-  chair: ""
+  chair: "Peter M. Roth"
   paperTrack: "1"
 
 
 - sessionId: "9" 
   title: "Action And Behavior Recognition II"
   codePlace: "B"
-  chair: ""
+  chair: "Zoltan Kato"
   paperTrack: "2"
 
 
@@ -306,21 +300,21 @@
 - sessionId: "9" 
   title: "Adaptive Time-Series Analysis"
   codePlace: "C"
-  chair: ""
+  chair: "Aysin Baytan Ertuzun"
   paperTrack: "1"
 
 
 - sessionId: "9" 
   title: "Image Superpixel and Super-resolution  "
   codePlace: "D"
-  chair: ""
+  chair: "Bertrand Kerautret"
   paperTrack: "3"
 
 
 - sessionId: "9" 
   title: "Medical Applications"
   codePlace: "E"
-  chair: ""
+  chair: "Antoine Vacavant"
   paperTrack: "6"
 
 
@@ -329,7 +323,7 @@
 - sessionId: "10" 
   title: "Standard Loops & Cross-Domain Channels"
   codePlace: "A"
-  chair: ""
+  chair: "Tin Kam Ho"
   paperTrack: "1"
 
 
@@ -337,14 +331,14 @@
 - sessionId: "10" 
   title: "Action And Behavior Recognition III"
   codePlace: "B"
-  chair: ""
+  chair: "Yasutomo Kawanishi"
   paperTrack: "2"
 
 
 - sessionId: "10" 
   title: "Natural Languages & Byte-Time Operations"
   codePlace: "C"
-  chair: ""
+  chair: "Faisal Shafait"
   paperTrack: "1"
 
 
@@ -352,7 +346,7 @@
 - sessionId: "10" 
   title: "Image Processing and Applications"
   codePlace: "D"
-  chair: ""
+  chair: "Mariofanna Milanova"
   paperTrack: "3"
 
 
@@ -360,8 +354,14 @@
 - sessionId: "10" 
   title: "Modelling for Medical Images "
   codePlace: "E"
-  chair: ""
+  chair: "Ida-Maria Sintorn"
   paperTrack: "6"
+
+- sessionId: "11" 
+  title: "Competiton Session"
+  codePlace: "A"
+  chair: "Thierry Paquet"
+  paperTrack: "7"
 
 
 
@@ -394,6 +394,13 @@
   codePlace: "F"
   chair: ""
   paperTrack: "1,3,4,6"
+
+
+- sessionId: "1W" 
+  title: "Woman at ICPR"
+  codePlace: "A"
+  chair: "Alexandra Branzan Albu"
+
 
 
 

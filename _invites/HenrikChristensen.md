@@ -2,6 +2,7 @@
 layout: keyNoteSpeaker
 idInvite: "I1"
 name: "Henrik I. Christensen"
+chair: "Ingela Nyström"
 slug: "Henrik_Christensen"
 role: "Keynote Speaker"
 company: "Contextual Robotics Institute, UC San Diego, La Jolla, CA"

@@ -2,7 +2,7 @@
 layout: default
 title:  News and FAQ - ICPR 2026
 canonical: "https://icpr2026.org/news.html"
-last_modified: 2026-07-28
+last_modified: 2026-08-06
 ---
 
 <h1>News and FAQ</h1>
@@ -39,6 +39,20 @@ last_modified: 2026-07-28
 
  {% assign faq = site.data.faq %}
 
+ <h3> FAQ on Participation</h3>
+ {% for f in faq %}   
+ {% if f.category == "participation" %}
+ <div class="faq-item" id="{{ f.id }}">
+  <button class="faq-question">
+    {{ f.question }}
+    <span class="faq-link" data-id="{{ f.id }}">🔗</span>
+  </button>
+  <div class="faq-answer hidden">
+    <p>{{ f.answer }}</p>
+  </div>
+</div>
+  {% endif %}
+ {% endfor %}
 
 
  
@@ -75,20 +89,6 @@ last_modified: 2026-07-28
  {% endfor %}
 
 
- <h3> FAQ on Participation</h3>
- {% for f in faq %}   
- {% if f.category == "participation" %}
- <div class="faq-item" id="{{ f.id }}">
-  <button class="faq-question">
-    {{ f.question }}
-    <span class="faq-link" data-id="{{ f.id }}">🔗</span>
-  </button>
-  <div class="faq-answer hidden">
-    <p>{{ f.answer }}</p>
-  </div>
-</div>
-  {% endif %}
- {% endfor %}
 
    
 
