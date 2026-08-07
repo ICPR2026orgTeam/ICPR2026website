@@ -5,6 +5,7 @@ name: "Alicia Fornes"
 slug: "AliciaDornes"
 role: "Keynote Speaker"
 company: "Universitat Autònoma de Barcelona (UAB)"
+chair: "Jean-Marc Ogier"
 photoSpeaker: photoFornes.jpg
 last_modified: 23/04/2026
 abstractTitle: "Challenges in Handwriting Recognition: The case of Historical Texts, Music Scores and Ciphers"

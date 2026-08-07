@@ -3,6 +3,7 @@ layout: keyNoteSpeaker
 idInvite: "I4"
 name: "Zhu Jun"
 slug: "Zhu_Jun"
+chair: "Maria De Marsico"
 role: "Keynote Speaker"
 company: "Department of Computer Science at Tsinghua University"
 photoSpeaker: photoZhuJun.jpg

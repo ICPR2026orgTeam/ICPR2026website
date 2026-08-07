@@ -1,8 +1,9 @@
 ---
 layout: keyNoteSpeaker
 idInvite: "I3"
-name: "Cuntai Guan "
-slug: "CuntaiGuan "
+name: "Cuntai Guan"
+slug: "CuntaiGuan"
+chair: "Seong-Whan Lee"
 role: "Keynote Speaker"
 company: "Nanyang Technological University"
 photoSpeaker: photoCuntai.jpg
