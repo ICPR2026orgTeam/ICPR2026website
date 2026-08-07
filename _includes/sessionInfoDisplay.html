@@ -1,0 +1,27 @@
+<div class="row justify-content-center text-center mt-4">
+
+    <div class="col-md-4">
+        <strong>Schedule</strong>
+        <p class="mb-3">
+            {{ include.day }}, {{ include.time }}
+        </p>
+    </div>
+
+    <div class="col-md-4">
+        <strong>Venue</strong>
+        <p class="mb-3">
+          {{include.venue}}
+        </p>
+    </div>
+
+{% if include.chair.size > 0 %}
+<div class="col-md-4">
+    <strong>Session Chair{% if include.chair.size > 1 %}s{% endif %}</strong>
+    <p class="mb-3">
+        {% for chair in include.chair %}
+            {{ chair }}{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+    </p>
+</div>
+{% endif %}
+</div>

@@ -71,8 +71,19 @@
 
     
     <h1> Poster Session {{posterSessionID}} </h1>
-    <h3>Schedule:  {{ time[code].day }} at {{ time[code].time }}, {{room_names[found.codePlace]}}</h3>
-    ({{ listPapers.size }} papers)
+{% assign currentTime = time[code] %}
+{% assign sessionDay = currentTime.day %}
+{% assign sessionTime = currentTime.time %}
+{% assign sessionVenue = room_names[found.codePlace] %}
+ {% assign chairs =  found.chair | split: "," %}
+
+{% include sessionInfoDisplay.html
+    day=sessionDay
+    time=sessionTime
+    venue=sessionVenue
+    chair=chairs
+    %}
+
     <h3>Tracks presented:</h3>
 <ul>
   {% assign tcode = "" | split: ""%}
