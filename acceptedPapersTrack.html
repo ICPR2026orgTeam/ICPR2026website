@@ -87,7 +87,11 @@ last_modified: 2026-07-14
               {{  "presented by:" }} {{ p.ext-presenter }}
             </div>
             {% endif %}
-
+            {% if p.pdflink %}
+            <a href="{{ p.pdflink }}" target="_blank" class="text-danger">
+  <i class="bi bi-file-earmark-pdf"></i> PDF
+</a>
+            {% endif %}
           </td>
           <td><a href="{{ site.baseurl }}/sessions/{{link}}/">{{ p.track }}</a></td>
         </tr>
