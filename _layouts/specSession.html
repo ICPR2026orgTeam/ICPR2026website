@@ -48,13 +48,22 @@
 
     <h1>  {{ session[0].title }} </h1>
 
-    <h3>Schedule:  {{ time[sessionID].day }} at {{ time[sessionID].time }}, {{room_names[roomCode]  }} </h3>
+{% assign currentTime = time[code] %}
+{% assign sessionDay = time[sessionID].day %}
+{% assign sessionTime =  time[sessionID].time %}
+{% assign sessionVenue = room_names[roomCode] %}
+ {% assign chairs =  session[0].chair  | split: "," %}
+
+{% include sessionInfoDisplay.html
+    day=sessionDay
+    time=sessionTime
+    venue=sessionVenue
+    chair=chairs
+    %}
+
     
-      {% if session["chair"] != "" %}
-    <h3> Session chair: {{ session[0].chair }}</h3>
-      {% endif %}
-
-
+  {{ page.mainContent }}
+    
 </main>
 
 
