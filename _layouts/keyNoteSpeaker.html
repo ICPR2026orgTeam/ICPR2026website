@@ -72,12 +72,12 @@
 {% assign sessionDay =time[page.idInvite].day  %}
 {% assign sessionTime = time[page.idInvite].time  %}
 {% assign sessionVenue = room_names[found.codePlace] %}
-        
+       {% assign chairSeesion = page.chair | split: ","  %}
   {% include sessionInfoDisplay.html
     day=sessionDay
     time=sessionTime
     venue="Main Auditorium"
-    chair=page.chair
+    chair=chairSeesion
     %}
 
         

@@ -3,6 +3,7 @@ layout: keyNoteSpeaker
 idInvite: "PRIZE3"
 name: "Sanghamitra Bandopadhyay"
 slug: "SanghamitraBandopadhyay"
+chair: ""
 role:  "2026 IAPR Maria Petrou Prize"
 company: "Indian Statistical Institute, Kolkata"
 photoSpeaker: photoSanghamitraBandopadhyay.jpg

@@ -3,6 +3,7 @@ layout: keyNoteSpeaker
 idInvite: "PRIZE2"
 name: "Zhangyang “Atlas” Wang"
 slug: "Zhangyang"
+chair: ""
 role: '2026 IAPR J. K. Aggarwal Prize'
 company: "University of Texas at Austin"
 photoSpeaker: photoZhangyangWang.jpg
