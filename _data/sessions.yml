@@ -368,7 +368,7 @@
 - sessionId: "P1" 
   title: "Poster Session 1"
   codePlace: "F"
-  chair: ""
+  chair: "Irina Rabaev"
   paperTrack: "1,2,3"
 
 
@@ -383,7 +383,7 @@
 - sessionId: "P3" 
   title: "Poster Session 3"
   codePlace: "F"
-  chair: ""
+  chair: "Irina Rabaev and Hadas Chassidim"
   paperTrack: "1,2,6"
 
 
