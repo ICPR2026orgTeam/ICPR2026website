@@ -1,6 +1,7 @@
 ---
 layout: specSession
 last_modified: 16/07/2026
+chair_name: "Moderator"
 mainContent: "
 <h3>Panelists</h3>
 <ul>

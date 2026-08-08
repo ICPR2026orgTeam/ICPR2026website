@@ -16,7 +16,7 @@
 
 {% if include.chair.size > 0 %}
 <div class="col-md-4">
-    <strong>Session Chair{% if include.chair.size > 1 %}s{% endif %}</strong>
+    <strong>{% if include.chair_name %} {{page.chair_name}} {% else %} Session Chair{% if include.chair.size > 1 %}s{% endif %}{% endif %}</strong>
     <p class="mb-3">
         {% for chair in include.chair %}
             {{ chair }}{% unless forloop.last %}, {% endunless %}
