@@ -100,7 +100,7 @@
   {% if page[field] %}
     {% assign trackID = "P" | append: posterSessionID | append: ".T" | append: i  %}
   {% assign l = listPapers | where: "track", trackID %}
-    <li>{{ page[field] }} ({{ l.size }})</li>
+    <li><a href="#T{{ i }}">{{ page[field] }} ({{ l.size }})</a></li>
   {% endif %}
 {% endfor %}
 
@@ -136,7 +136,7 @@
  <tr>
           <td>{{ p.id }}</td>
           <td>
-            <div>{{ p.title }}</div>
+            <div id="{{ p.track |slice: -2, 2 }}">{{ p.title }}</div>
             <div style="font-size: 0.9em; color: #666;">
               {{ p.authors | join: ", " | replace: "*", "" }}
             </div>
