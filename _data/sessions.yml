@@ -401,6 +401,7 @@
   codePlace: "A"
   chair: "Alexandra Branzan Albu"
 
-
-
-
+- sessionId: "2W" 
+  title: "What is the IAPR and how it can benefit you"
+  codePlace: "G"
+  chair: "Bob Fisher"
