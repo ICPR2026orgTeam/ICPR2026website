@@ -405,3 +405,19 @@
   title: "What is the IAPR and how it can benefit you"
   codePlace: "G"
   chair: "Bob Fisher"
+
+
+
+- sessionId: "3W" 
+  title: "IAPR Technical Commiittes (reserved to TC chairs)"
+  codePlace: "H"
+  chair: ""
+
+
+
+- sessionId: "4W" 
+  title: "IAPR Governing Board Meeting (reserved to governing board members)"
+  codePlace: "J"
+  chair: ""
+
+
