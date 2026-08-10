@@ -1,100 +1,110 @@
 ---
 layout: default
-title: "ICPR 2026: local informations"
+title: "ICPR 2026: Local Information"
 canonical: "https://icpr2026.org/localInformations.html"
-description: "Local information to come at ICPR 2026 - International Conference on Pattern Recognition that take place in Lyon 17-22 August 2026."
-last_modified: 2025-10-25
+description: "Travel and local transport information for ICPR 2026 in Lyon."
+last_modified: 2026-08-10
 ---
 
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
- 
- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-   
-   
+<div class="container-fluid mt-4 p-4">
+  <h1 class="display-2">Local <b>Information</b></h1>
 
+  <p class="venue-intro p-3 mt-4">
+    Everything you need to plan your trip and find the correct ICPR 2026 venue in Lyon.
+    Choose a topic below for detailed, easy-to-scan information.
+  </p>
 
+  <nav class="local-topic-nav mt-4" aria-label="Local information topics">
+    <a class="local-topic-link" href="{{ '/gettingToLyon.html' | relative_url }}">
+      <span class="local-topic-icon"><i class="bi bi-airplane" aria-hidden="true"></i></span>
+      <span>
+        <strong>How to get to Lyon</strong>
+        <small>Airport, train, late-night travel and car sharing</small>
+      </span>
+      <i class="bi bi-arrow-right local-topic-arrow" aria-hidden="true"></i>
+    </a>
 
-    <div class="row ml-3 mr-1">
-      <div class="col-12  text-justify  ">
-  
-        <h1>Local Informations </h1>
-        <div class="col-12 col-md-8 mx-auto p-3">
-        <div id="map-container">
-          <div id="map"></div> 
-        </div>
-    <script>
-        var map = L.map('map').setView([45.785021, 4.858137], 13);
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '© OpenStreetMap contributors'
-        }).addTo(map);
-        L.marker([45.785021, 4.858137]).addTo(map)
-            .bindPopup("Center of Congres<br> 45.785021, 4.858137")
-            .openPopup();
-    </script>
-    
-          </div>
-      
-        <h2>Accessibility – Transportation and visa</h2>
-        <h3>By plane – Lyon Airport – the Heart of Europe</h3>
-          <ul>
-            <li>99 international destinations connected to 59 European cities</li>
-            <li>49 airline companies</li>
-            <li>over 130 non-stop flight routes</li>        
-          </ul>
-        
+    <a class="local-topic-link" href="{{ '/tclTransport.html' | relative_url }}">
+      <span class="local-topic-icon"><i class="bi bi-ticket-perforated" aria-hidden="true"></i></span>
+      <span>
+        <strong>Getting around Lyon with TCL</strong>
+        <small>Tickets, passes, contactless payment and group fares</small>
+      </span>
+      <i class="bi bi-arrow-right local-topic-arrow" aria-hidden="true"></i>
+    </a>
 
+    <a class="local-topic-link" href="{{ '/conferenceVenue.html' | relative_url }}">
+      <span class="local-topic-icon"><i class="bi bi-building" aria-hidden="true"></i></span>
+      <span>
+        <strong>How to get to the conference venue</strong>
+        <small>Lyon Convention Centre, entrance and nearby bus stops</small>
+      </span>
+      <i class="bi bi-arrow-right local-topic-arrow" aria-hidden="true"></i>
+    </a>
 
-          <h3>By Train – 3 high speed train stations</h3>
-          <ul>
-            <li><b>St Exupéry train station </b> (airport) connected to Lyon Airport.</li>
-            <li><b>Perrache train station </b> (city center) serves mostly for trains operating on the Paris to Marseille route.</li>
-            <li><b>Part Dieu train station</b> (city center)</li>        
-          </ul>
+    <a class="local-topic-link" href="{{ '/workshopTutorialVenue.html' | relative_url }}">
+      <span class="local-topic-icon"><i class="bi bi-mortarboard" aria-hidden="true"></i></span>
+      <span>
+        <strong>How to get to workshops &amp; tutorials</strong>
+        <small>Louis Néel Building at INSA Lyon</small>
+      </span>
+      <i class="bi bi-arrow-right local-topic-arrow" aria-hidden="true"></i>
+    </a>
+  </nav>
 
+  <aside class="venue-notice mt-4" aria-label="Important venue information">
+    <i class="bi bi-info-circle venue-notice-icon" aria-hidden="true"></i>
+    <div>
+      <strong>Please note: the conference and workshops are at different locations.</strong>
+      <span>
+        The main conference takes place from <strong>17–20 August 2026</strong> at the
+        <strong>Lyon Convention Centre</strong>. Workshops and tutorials take place on
+        <strong>21–22 August 2026</strong> at the <strong>Louis Néel Building, INSA Lyon</strong>.
+      </span>
+    </div>
+  </aside>
 
-          <h3>Visa</h3>
-          <ul>
-            <li>European and Schengen area citizen: Current valid identity card or passport needed</li>
-            <li>Outside Schengen area citizen:
-            <ul>
-              <li>A passport is mandatory, with a visa for some countries.</li>
-              <li>The short-stay visa is called “visa C” and it stands for less than 90 days. Price: 80 € application.</li>
-            </ul> 
-          </li>
-          </ul>
-
-          <h2>In the City</h2>
-          <h3>The T.C.L. (Lyon Public Transportation) :</h3>
-          <ul>
-            <li>extensive network of buses, metro and tramway</li>
-            <li>4 metro lines: A B C D</li>
-            <li>7 tramway lines: T1, T2, T3, T4, T5, T6 and T7 lines</li>        
-            <li>2 funicular lines</li>
-            <li>140 bus lines, including electric trolleybuses</li>        
-            <li>the second largest public transport system in France</li>
-            <li>covers 62 communes</li>        
-            <li>spreads over 606 square kilometers (234 sq mi).</li>
-          </ul>
-          <div class="col-8 center mx-auto ">
-            <img class="w-100" alt="image illustrating transport" src="Images/transport.png"> 
-          </div>
-
-  
-          <div id="footerSite">
-
+  <section class="mt-5" aria-labelledby="venue-overview-heading">
+    <div class="d-flex flex-wrap align-items-end justify-content-between gap-3 mb-3">
+      <div>
+        <h2 id="venue-overview-heading" class="mb-0">Venue overview map</h2>
       </div>
+      <small class="text-muted">Select a marker for venue details.</small>
     </div>
 
-
-    
-
-
-
-
- 
+    <div class="venue-map-container">
+      <div id="local-information-map" class="venue-map" aria-label="Map showing the two ICPR 2026 venues"></div>
+    </div>
+  </section>
 </div>
 
-      </div>
-    </div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var conference = [45.785330, 4.857717];
+    var workshops = [45.783714, 4.882822];
+    var map = L.map('local-information-map', { scrollWheelZoom: false });
 
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    L.marker(conference).addTo(map).bindPopup(
+      '<strong>Main conference</strong><br>17–20 August 2026<br>' +
+      'Lyon Convention Centre<br>Esplanade Raymond Barre<br>69006 Lyon, France<br>' +
+      '<a href="{{ '/conferenceVenue.html' | relative_url }}">View travel details</a>'
+    );
+
+    L.marker(workshops).addTo(map).bindPopup(
+      '<strong>Workshops &amp; tutorials</strong><br>21–22 August 2026<br>' +
+      'Louis Néel Building, INSA Lyon<br>07 Avenue Jean Capelle<br>69621 Villeurbanne, France<br>' +
+      '<a href="{{ '/workshopTutorialVenue.html' | relative_url }}">View travel details</a>'
+    );
+
+    map.fitBounds([conference, workshops], { padding: [45, 45], maxZoom: 14 });
+  });
+</script>

@@ -5,6 +5,446 @@
     border-radius:.75rem;
 }
 
+.venue-notice {
+  display: flex;
+  gap: .8rem;
+  align-items: flex-start;
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0 1.75rem;
+  color: #3e4d4f;
+  font-size: 1rem;
+  background: #f8f9fa;
+  border: 1px solid #dfe4e4;
+  border-left: 4px solid $color-primary;
+  border-radius: .35rem;
+}
+
+.venue-notice-icon {
+  flex: 0 0 auto;
+  margin-top: .15rem;
+  color: $color-primary;
+  font-size: 1.2rem;
+}
+
+.local-topic-nav {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.local-topic-link {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 1rem;
+  align-items: center;
+  min-height: 110px;
+  padding: 1.25rem 1.35rem;
+  color: #253e40;
+  font-size: clamp(1.05rem, 1.6vw, 1.25rem);
+  line-height: 1.25;
+  text-decoration: none;
+  background: #f8f9fa;
+  border: 1px solid #d7dede;
+  border-top: 6px solid $color-primary;
+  border-radius: .6rem;
+  box-shadow: 0 4px 12px rgba(37, 62, 64, .12);
+  transition: transform .2s ease, box-shadow .2s ease, background-color .2s ease;
+}
+
+.local-topic-link:hover,
+.local-topic-link:focus-visible {
+  color: #253e40;
+  text-decoration: none;
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(37, 62, 64, .2);
+  transform: translateY(-3px);
+}
+
+.local-topic-link:focus-visible {
+  outline: 3px solid rgba(173, 32, 30, .3);
+  outline-offset: 3px;
+}
+
+.local-topic-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  color: #fff;
+  font-size: 1.4rem;
+  background: $color-primary;
+  border-radius: 50%;
+}
+
+.local-topic-arrow {
+  color: $color-primary;
+  font-size: 1.25rem;
+}
+
+@media (max-width: 767.98px) {
+  .local-topic-nav {
+    grid-template-columns: 1fr;
+  }
+
+  .local-topic-link {
+    min-height: 88px;
+  }
+}
+
+.tcl-intro {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.25rem;
+  color: #253e40;
+  background: #eef4f4;
+  border-left: 5px solid $color-secondary;
+}
+
+.airport-option-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 1.25rem 0 1.75rem;
+}
+
+.airport-option-card {
+  padding: 1.35rem;
+  background: #f8f9fa;
+  border: 1px solid #d7dede;
+  border-radius: .6rem;
+}
+
+.airport-option-card h3,
+.airport-option-card h4 {
+  padding-top: .25rem;
+  color: #253e40;
+  font-size: 1.35rem;
+}
+
+.airport-price-list {
+  gap: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid #d7dede;
+}
+
+.airport-price-list li {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  padding: .45rem 0;
+  border-bottom: 1px solid #d7dede;
+}
+
+.airport-main-price {
+  color: $color-primary;
+  font-size: 1.65rem;
+  font-weight: 700;
+}
+
+.airport-main-price small {
+  color: $color-secondary;
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+.travel-ticket-warning {
+  display: flex;
+  gap: .65rem;
+  align-items: flex-start;
+  padding: .8rem 1rem;
+  color: #5c4545;
+  font-size: .95rem;
+  background: #fff;
+  border-left: 3px solid $color-primary;
+}
+
+.travel-ticket-warning > i {
+  flex: 0 0 auto;
+  color: $color-primary;
+}
+
+.airport-time-advice {
+  display: flex;
+  gap: .65rem;
+  align-items: flex-start;
+  padding: .8rem 1rem;
+  margin: 1rem 0;
+  color: #31484a;
+  font-size: .95rem;
+  background: #eef4f4;
+  border-left: 3px solid $color-secondary;
+}
+
+.airport-time-advice > i {
+  flex: 0 0 auto;
+  color: $color-primary;
+}
+
+.airport-night-note {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 1rem 1.25rem;
+  margin: 0 0 1.75rem;
+  color: #31484a;
+  background: #f3f5f5;
+  border: 1px solid #d7dede;
+  border-left: 4px solid $color-secondary;
+  border-radius: .35rem;
+}
+
+.airport-night-note > i {
+  flex: 0 0 auto;
+  margin-top: .15rem;
+  color: $color-primary;
+  font-size: 1.35rem;
+}
+
+.airport-night-note h4 {
+  padding: 0;
+  margin: 0 0 .5rem;
+  color: #253e40;
+  font-size: 1.15rem;
+}
+
+.airport-carshare {
+  padding-top: 1rem;
+  margin-top: 1rem;
+  border-top: 1px solid #d7dede;
+}
+
+.airport-carshare h5 {
+  padding: 0;
+  margin: 0 0 .6rem;
+  color: #253e40;
+  font-size: 1.1rem;
+}
+
+.airport-carshare h5 > i {
+  color: $color-primary;
+}
+
+.airport-carshare ul {
+  margin-bottom: .75rem;
+}
+
+@media (max-width: 991.98px) {
+  .airport-option-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.tcl-intro > i {
+  flex: 0 0 auto;
+  color: $color-primary;
+  font-size: 1.5rem;
+}
+
+.tcl-fare-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.tcl-fare-card {
+  padding: 1.35rem;
+  background: #fff;
+  border: 1px solid #d7dede;
+  border-top: 5px solid $color-primary;
+  border-radius: .6rem;
+  box-shadow: 0 4px 12px rgba(37, 62, 64, .1);
+}
+
+.tcl-fare-card h2,
+.tcl-fare-card h3,
+.tcl-fare-card h4 {
+  margin-top: 0;
+}
+
+.tcl-fare-card h4 {
+  padding: .35rem 0;
+  color: $color-secondary;
+  font-size: 1.05rem;
+}
+
+.tcl-fare-heading {
+  display: flex;
+  gap: .75rem;
+  align-items: center;
+  margin-bottom: .5rem;
+}
+
+.tcl-fare-heading > i {
+  color: $color-primary;
+  font-size: 1.6rem;
+}
+
+.tcl-fare-heading h2,
+.tcl-fare-heading h3 {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.tcl-price {
+  margin-bottom: .75rem;
+  color: $color-primary;
+  font-size: 1.65rem;
+  font-weight: 700;
+}
+
+.tcl-price small {
+  color: $color-secondary;
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+.tcl-pass-table thead th {
+  color: #fff;
+  background: $color-secondary;
+}
+
+@media (max-width: 991.98px) {
+  .tcl-fare-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.bus-stop-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px !important;
+  height: 34px !important;
+  margin-left: -17px !important;
+  margin-top: -17px !important;
+  color: #fff;
+  font-size: 1.15rem;
+  background: #bc0028;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, .45);
+}
+
+.local-breadcrumb {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-bottom: 1.4rem;
+  color: #596568;
+  font-size: 0.95rem;
+}
+
+.local-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: #0b3436;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.local-back-link:hover,
+.local-back-link:focus-visible {
+  color: #d71920;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+}
+
+.local-breadcrumb-separator {
+  color: #98a1a3;
+  font-size: 0.75rem;
+}
+
+.local-page-footer {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0 1rem;
+}
+
+.local-page-footer .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  min-height: 3rem;
+  padding-inline: 1.25rem;
+}
+
+.venue-map-container {
+  height: clamp(360px, 55vh, 580px);
+  overflow: hidden;
+  border: 1px solid rgba(11, 52, 54, 0.16);
+  border-radius: 0.9rem;
+  box-shadow: 0 0.45rem 1.4rem rgba(11, 52, 54, 0.1);
+}
+
+.venue-map {
+  width: 100%;
+  height: 100%;
+}
+
+.venue-address {
+  padding: 1rem 1.15rem;
+  border-left: 4px solid #d71920;
+  border-radius: 0 0.55rem 0.55rem 0;
+  background: #f5f8f8;
+}
+
+.venue-landmark-note {
+  display: flex;
+  gap: .8rem;
+  align-items: flex-start;
+  padding: 1rem 1.15rem;
+  color: #31484a;
+  background: #fff7f7;
+  border: 1px solid rgba(215, 25, 32, .18);
+  border-radius: .55rem;
+}
+
+.venue-landmark-note > div > strong,
+.venue-landmark-note > div > span {
+  display: block;
+}
+
+.venue-landmark-note > .venue-landmark-icon {
+  flex: 0 0 auto;
+  color: #d71920;
+  font-size: 1.45rem;
+}
+
+.tram-line-badge {
+  color: #fff;
+  background-color: #74267d;
+}
+
+@media (max-width: 575.98px) {
+  .venue-map-container {
+    height: 420px;
+  }
+
+  .local-breadcrumb-separator,
+  .local-breadcrumb span[aria-current="page"] {
+    display: none;
+  }
+}
+
+.bus-stop-marker::after {
+  position: absolute;
+  right: -3px;
+  bottom: -3px;
+  width: 10px;
+  height: 10px;
+  content: "";
+  background: #bc0028;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: rotate(45deg);
+}
+
 .homepage-sponsors {
   text-align: center;
   padding: 2rem 0;

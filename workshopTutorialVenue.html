@@ -1,0 +1,113 @@
+---
+layout: default
+title: "ICPR 2026: Workshop and Tutorial Venue"
+canonical: "https://icpr2026.org/workshopTutorialVenue.html"
+description: "Directions to the ICPR 2026 workshops and tutorials at the Louis Néel Building, INSA Lyon."
+local_info_label: "Workshop and tutorial venue"
+last_modified: 2026-08-10
+---
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+<div class="container-fluid mt-4 p-4">
+  {% include local-information-breadcrumb.html %}
+
+  <h1 class="display-3">How to Reach <b>Workshops &amp; Tutorials</b></h1>
+
+  <aside class="venue-notice mt-4" aria-label="Workshop and tutorial dates">
+    <i class="bi bi-calendar-event venue-notice-icon" aria-hidden="true"></i>
+    <div>
+      <strong>Workshops and tutorials: 21–22 August 2026.</strong>
+      <span>The main conference on 17–20 August is held at a different location.</span>
+    </div>
+  </aside>
+
+  <div class="row g-4 mt-2 align-items-start">
+    <div class="col-lg-5">
+      <h2>Louis Néel Building</h2>
+      <address class="venue-address">
+        <strong>INSA Lyon — Bâtiment Louis Néel</strong><br>
+        07 Avenue Jean Capelle<br>
+        69621 Villeurbanne, France
+      </address>
+
+      <h3 class="mt-4">Option 1 — Tram T1</h3>
+      <ol>
+        <li>Take tram <strong>T1</strong> towards <strong>IUT Feyssine</strong>.</li>
+        <li>Get off at <strong>Croix-Luizet</strong>.</li>
+        <li>The Louis Néel Building is directly opposite the tram stop.</li>
+      </ol>
+
+      <h3 class="mt-4">Option 2 — Tram T4 or T6</h3>
+      <ol>
+        <li>Take tram <strong>T4</strong> or <strong>T6</strong> to <strong>La Doua–Gaston Berger</strong>.</li>
+        <li>
+          From there, walk approximately <strong>15 minutes</strong> to the Louis Néel Building,
+          or change to tram <strong>T1</strong> towards <strong>IUT Feyssine</strong> for two stops.
+        </li>
+      </ol>
+
+      <div class="d-flex flex-wrap gap-2 mb-4">
+        <span class="badge tram-line-badge">Tram T1</span>
+        <span class="badge tram-line-badge">Tram T4</span>
+        <span class="badge tram-line-badge">Tram T6</span>
+        <span class="badge bg-light text-dark border">Croix-Luizet</span>
+        <span class="badge bg-light text-dark border">15-minute walk</span>
+      </div>
+
+      <img class="img-fluid rounded shadow-sm mb-4"
+        src="{{ '/Images/louis-neel.jpg' | relative_url }}"
+        width="714" height="553"
+        alt="Exterior of the Louis Néel Building at INSA Lyon">
+
+      <div class="d-flex flex-wrap gap-2">
+        <a class="btn btn-danger" href="https://www.tcl.fr/itineraires" rel="noopener" target="_blank">
+          Plan with TCL <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+        </a>
+        <a class="btn btn-outline-danger" href="https://www.openstreetmap.org/?mlat=45.783714&amp;mlon=4.882822#map=18/45.783714/4.882822" rel="noopener" target="_blank">
+          OpenStreetMap
+        </a>
+        <a class="btn btn-outline-danger" href="{{ '/files/icpr2026-booklet.pdf#page=33&zoom=150,100,300' | relative_url }}">
+          Practical information
+        </a>
+      </div>
+    </div>
+
+    <div class="col-lg-7">
+      <div class="d-flex flex-wrap align-items-end justify-content-between gap-2 mb-3">
+        <div>
+          <h2 class="mb-0">Louis Néel Building</h2>
+        </div>
+        <small class="text-muted">This map shows only the workshop and tutorial location.</small>
+      </div>
+      <div class="venue-map-container">
+        <div id="workshop-map" class="venue-map" aria-label="Map showing the Louis Néel workshop and tutorial venue"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="local-page-footer">
+    <a class="btn btn-outline-danger" href="{{ '/localInformations.html' | relative_url }}">
+      <i class="bi bi-arrow-left" aria-hidden="true"></i> Back to Local Information
+    </a>
+  </div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var workshops = [45.783714, 4.882822];
+    var map = L.map('workshop-map', { scrollWheelZoom: false }).setView(workshops, 17);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    L.marker(workshops).addTo(map).bindPopup(
+      '<strong>Workshops &amp; tutorials</strong><br>21–22 August 2026<br>' +
+      'Louis Néel Building, INSA Lyon<br>07 Avenue Jean Capelle<br>69621 Villeurbanne, France'
+    ).openPopup();
+  });
+</script>
