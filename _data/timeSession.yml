@@ -1,73 +1,73 @@
 
 O1:
   time: "11h10-12h30"
-  day: "Monday 17"
+  day: "Monday 17 August"
 
 
 O2:
   time: "16h30-17h50"
-  day: "Monday 17"
+  day: "Monday 17 August"
 
 
 O3:
   time: "08h30-09h30"
-  day: "Tuesday 18"
+  day: "Tuesday 18 August"
 
 O4:
   time: "11h10-12h30"
-  day: "Tuesday 18"
+  day: "Tuesday 18 August"
 
 O11:
   time: "11h00-13h00"
-  day: "Tuesday 18"
+  day: "Tuesday 18 August"
 
 
 O5:
   time: "16h30-17h50"
-  day: "Tuesday 18"
+  day: "Tuesday 18 August"
 
 O6:
   time: "08h30-09:30"
-  day: "Wednesday 19"
+  day: "Wednesday 19 August"
 
 O7:
   time: "11h10-12h30" 
-  day: "Wednesday 19"
+  day: "Wednesday 19 August"
 
 O8:
   time: "16h30-17h50" 
-  day: "Wednesday 19"
+  day: "Wednesday 19 August"
 
 O9:
   time: "08h30-09h30" 
-  day: "Thursday 20"
+  day: "Thursday 20 August"
 
 O10:
   time: "11h10-12h30"
-  day: "Thursday 20"
+  day: "Thursday 20 August"
 
 O11:
   time: "11h00-13h00"
-  day: "Tuesday 18"
+  day: "Tuesday 18 August"
 
 
 P1:
   time: "15h00-16h30"
-  day: "Monday 17"
+  day: "Monday 17 August"
 
 
 P2:
   time: "15h00-16h30"
-  day: "Tuesday 18"
+  day: "Tuesday 18 August"
 
 
 P3:
   time: "15h00-16h30"
-  day: "Wednesday 19"
+  day: "Wednesday 19 August"
 
 P4:
   time: "15h00-16h30"
-  day: "Thursday 20"
+  day: "Thursday 20 August"
 
 
 I1:
@@ -92,20 +92,24 @@ I4:
 
 1W:
   time: "14h00-15h00"
-  day: "Wednesday 19"
+  day: "Wednesday 19 August"
 
 2W:
   time: "13h00-13h30"
-  day: "Wednesday 19"
+  day: "Wednesday 19 August"
 
 3W:
   time: "15h00-16h30"
-  day: "Wednesday 19"
+  day: "Wednesday 19 August"
 
 
 4W:
   time: "14h00-23h00"
-  day: "Wednesday 19"
+  day: "Wednesday 19 August"
+
+5W:
+  time: "15h00-16h30"
+  day: "Thursday 20 August"
 
 
 
