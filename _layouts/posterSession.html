@@ -85,7 +85,7 @@
     %}
 
     <h3>Tracks presented:</h3>
-<ul>
+    <ul>
   {% assign tcode = "" | split: ""%}
   {% for track in tracks  %}
   {% assign code = track | slice: -1 %}
@@ -100,11 +100,10 @@
   {% if page[field] %}
     {% assign trackID = "P" | append: posterSessionID | append: ".T" | append: i  %}
   {% assign l = listPapers | where: "track", trackID %}
-    <li><a href="#T{{ i }}">{{ page[field] }} ({{ l.size }})</a></li>
+    <li><a href="#T{{ i }}">{{ page[field] }} </a>({{ l.size }})</li>
   {% endif %}
 {% endfor %}
-
-
+    {{ listPapers.size }} papers presented in total.
 
 </ul>
     <h4> Details </h4>
