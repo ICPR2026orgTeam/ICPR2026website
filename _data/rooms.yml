@@ -11,6 +11,7 @@ rooms:
   "H": "Bellecour 1"
   "I": "Bellecour 2"
   "J": "Bellecour 1+2"
+  "K": "Bellecour Reception (floor -1)"        
 
 #rooms:
 #  "A": "Main Auditorium"

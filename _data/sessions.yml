@@ -423,4 +423,42 @@
   codePlace: "J"
   chair: ""
 
+- sessionId: "6W" 
+  title: "Doctorial Consortium"
+  codePlace: "F"
+  chair: "Mansour Mayaki"
+
+
+- sessionId: "S0" 
+  title: "Registration"
+  codePlace: "K"
+  chair: ""
+
+- sessionId: "S1" 
+  title: "Welcome Reception"
+  codePlace: "K"
+  chair: ""
+
+- sessionId: "S2" 
+  title: "Opening Ceremony"
+  codePlace: "A"
+  chair: ""
+
+- sessionId: "S3" 
+  title: "Conference Banquet"
+  codePlace: "F"
+  chair: ""
+
+
+- sessionId: "S3" 
+  title: "Conference Banquet"
+  codePlace: "F"
+  chair: ""
+
+- sessionId: "S4" 
+  title: "Closing & Awards"
+  codePlace: "A"
+  chair: ""
+
+
 

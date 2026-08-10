@@ -112,6 +112,11 @@ I4:
   day: "Thursday 20 August"
 
 
+6W:
+  time: "15h00-16h30"
+  day: "Monday 17 August"
+
+
 
 PRIZE1:
   time: "09h40-10h40"
@@ -126,4 +131,26 @@ PRIZE2:
 
 PRIZE3:
   time: "09h40-10h40"
-  day: "Wednesday 19 August "
+  day: "Wednesday 19 August"
+
+S0:
+  time: "16h30-19h00"
+  day: "Sunday 16 August"
+S1:
+  time: "19h00-22h00"
+  day: "Sunday 16 August"
+
+S2:
+  time: "08h30-09h30"
+  day: "Monday 17 August"
+
+S3:
+  time: "18h30-23h00"
+  day: "Wednesday 19 August"
+
+S4:
+  time: "16h30-17h00"
+  day: "Thursday 20 August"
+
+
+
