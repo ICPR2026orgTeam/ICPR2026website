@@ -1,0 +1,158 @@
+---
+layout: default
+title: "ICPR 2026: Conference Venue"
+canonical: "https://icpr2026.org/conferenceVenue.html"
+description: "Directions to the ICPR 2026 main conference at Lyon Convention Centre, including entrance and bus-stop locations."
+local_info_label: "Conference venue"
+last_modified: 2026-08-10
+---
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+<div class="container-fluid mt-4 p-4">
+  {% include local-information-breadcrumb.html %}
+
+  <h1 class="display-3">How to Reach the <b>Conference Venue</b></h1>
+
+  <aside class="venue-notice mt-4" aria-label="Conference dates">
+    <i class="bi bi-calendar-event venue-notice-icon" aria-hidden="true"></i>
+    <div>
+      <strong>Main conference: 17–20 August 2026.</strong>
+      <span>Workshops and tutorials on 21–22 August are held at a different location.</span>
+    </div>
+  </aside>
+
+  <div class="row g-4 mt-2">
+    <div class="col-lg-5">
+      <h2>Lyon Convention Centre</h2>
+      <address class="venue-address">
+        <strong>Lyon Convention Centre</strong><br>
+        Esplanade Raymond Barre<br>
+        69006 Lyon, France
+      </address>
+
+      <aside class="venue-landmark-note mt-3" aria-label="Conference entrance landmark">
+        <i class="bi bi-person-standing venue-landmark-icon" aria-hidden="true"></i>
+        <div>
+          <strong>Main entrance</strong>
+          <span>
+            Please use the <strong>Amphitheatre B entrance</strong>, located behind the orange
+            <strong>“Man on the Phone”</strong> statue.
+          </span>
+        </div>
+      </aside>
+
+      <h3 class="mt-4">By bus</h3>
+      <p>
+        The easiest option is the high-frequency <strong>C1, C5 or C23</strong> bus to
+        <strong>Cité Internationale – Centre de Congrès</strong>, the closest stop to the entrance.
+      </p>
+      <p>
+        The <strong>C2 and C26</strong> buses stop at <strong>Cité Internationale – Transbordeur</strong>,
+        a short walk from the Convention Centre.
+      </p>
+      <p>
+        From <strong>Lyon Part-Dieu railway station</strong>, take the C1 towards
+        <strong>Cuire</strong> for a direct connection.
+      </p>
+
+      <div class="d-flex flex-wrap gap-2 mb-4" aria-label="Bus lines serving the conference venue">
+        <span class="badge bg-danger">C1</span>
+        <span class="badge bg-secondary">C2</span>
+        <span class="badge bg-secondary">C5</span>
+        <span class="badge bg-secondary">C23</span>
+        <span class="badge bg-secondary">C26</span>
+      </div>
+
+      <h3>By metro and on foot</h3>
+      <p>
+        From <strong>Masséna</strong> station on metro line A, the venue is approximately a
+        30-minute walk through Parc de la Tête d'Or and across the Rhône-side entrance to Cité Internationale.
+      </p>
+
+      <div class="d-flex flex-wrap gap-2 mt-4">
+        <a class="btn btn-danger" href="https://www.tcl.fr/itineraires" rel="noopener" target="_blank">
+          Plan with TCL <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+        </a>
+        <a class="btn btn-outline-danger" href="https://citymapper.com/directions?endcoord=45.785330%2C4.857717&amp;endname=Lyon%20Convention%20Centre" rel="noopener" target="_blank">
+          Citymapper
+        </a>
+        <a class="btn btn-outline-danger" href="https://www.google.com/maps/dir/?api=1&amp;destination=45.785330,4.857717" rel="noopener" target="_blank">
+          Google Maps
+        </a>
+      </div>
+    </div>
+
+    <div class="col-lg-7">
+      <div class="d-flex flex-wrap align-items-end justify-content-between gap-2 mb-3">
+        <div>
+          <h2 class="mb-0">Entrance and bus stops</h2>
+        </div>
+        <small class="text-muted">Select a marker for directions and bus lines.</small>
+      </div>
+      <div class="venue-map-container">
+        <div id="conference-map" class="venue-map" aria-label="Map of the conference entrance and nearby bus stops"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="local-page-footer">
+    <a class="btn btn-outline-danger" href="{{ '/localInformations.html' | relative_url }}">
+      <i class="bi bi-arrow-left" aria-hidden="true"></i> Back to Local Information
+    </a>
+  </div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var entrance = [45.785330, 4.857717];
+    var centreCongress = [45.784674, 4.856674];
+    var centreLyon = [45.784732, 4.857435];
+    var transbordeur = [45.784403, 4.859951];
+    var map = L.map('conference-map', { scrollWheelZoom: false });
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    var busIcon = L.divIcon({
+      className: 'bus-stop-marker',
+      html: '<i class="bi bi-bus-front" aria-hidden="true"></i>',
+      iconSize: [34, 34],
+      iconAnchor: [17, 17],
+      popupAnchor: [0, -19]
+    });
+
+    L.marker(entrance).addTo(map).bindPopup(
+      '<strong>Conference entrance</strong><br>' +
+      'Lyon Convention Centre<br>' +
+      'Esplanade Raymond Barre<br>' +
+      '69006 Lyon, France<br>' +
+      '<strong>Landmark:</strong> behind the orange “Man on the Phone” statue<br>' +
+      '17–20 August 2026'
+    ).openPopup();
+
+    L.marker(centreCongress, { icon: busIcon }).addTo(map).bindPopup(
+      '<strong>Bus stop: Cité Internationale – Centre de Congrès</strong><br>' +
+      'Platform towards Cité Internationale<br>Lines C1, C5 and C23'
+    );
+
+    L.marker(centreLyon, { icon: busIcon }).addTo(map).bindPopup(
+      '<strong>Bus stop: Cité Internationale – Centre de Congrès</strong><br>' +
+      'Platform towards Lyon city centre<br>Lines C1, C5 and C23'
+    );
+
+    L.marker(transbordeur, { icon: busIcon }).addTo(map).bindPopup(
+      '<strong>Bus stop: Cité Internationale – Transbordeur</strong><br>' +
+      'Lines C2 and C26'
+    );
+
+    map.fitBounds([entrance, centreCongress, centreLyon, transbordeur], {
+      padding: [45, 45],
+      maxZoom: 17
+    });
+  });
+</script>
