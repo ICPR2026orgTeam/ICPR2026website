@@ -2683,8 +2683,8 @@
   title: 'Tgln-Cascade: A Knowledge Graph Completion Framework Fusing Tanh-Gated Transformer
     And Cascade Rerankers'
   track: O1-A.T1
-  fullauthors: 果 程 (北京工业大学)*; 月琪 朱 (北京工业大学); 可俽 孙 (北京工业大学); 永康 张 (北京工业大学); 明霞 高 (北京工业大学)
-  authors: 程, 果*; 朱, 月琪; 孙, 可俽; 张, 永康; 高, 明霞
+  fullauthors: Guo Cheng, Yueqi Zhu, Kexin Sun, Yongkang Zhang, Mingxia Gao
+  authors: Guo Cheng, Yueqi Zhu, Kexin Sun, Yongkang Zhang, Mingxia Gao
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31397-3_38
 - id: 767
   title: Fine-Tuning Llms With Extracted Rationales For Attributed Text Generation
