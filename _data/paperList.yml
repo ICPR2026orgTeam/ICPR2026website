@@ -4168,6 +4168,7 @@
     Arijit Sur (IIT Guwahati); Rajeev UP (VSSC, ISRO Thiruvananthapuram)
   authors: Bandyopadhyay, Ashok*; Gupta, Adarsh; Sur, Arijit; UP, Rajeev
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31452-9_29
+  ext-presenter:  Shri Suklav Ghosh
 - id: 1142
   title: 'Cutclean: Neural Network Pruning For Privacy-Preserving Inference'
   track: P4.T1
