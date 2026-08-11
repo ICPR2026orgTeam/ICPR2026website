@@ -1147,3 +1147,116 @@ $color-coffee: #B8912F;
 .notification-card a {
     text-decoration: none;
 }
+
+
+.install-app-page {
+  margin: 2rem 0;
+}
+
+.install-intro {
+  max-width: 700px;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.install-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.install-card {
+  padding: 1.5rem;
+  background: #f7f9fb;
+  border: 1px solid #d9e2e8;
+  border-radius: 12px;
+}
+
+.install-card h2 {
+  margin-top: 0;
+}
+
+.install-card li {
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+
+.install-note {
+  margin-top: 1.25rem;
+  padding: 0.75rem 1rem;
+  background: #fff3cd;
+  border-radius: 8px;
+}
+
+.install-notifications {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-left: 4px solid #005a63;
+  background: #f7f9fb;
+}
+
+.install-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .install-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* Installation guide */
+
+.install-app-guide {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+
+  background: #f7f9fb;
+  border: 1px solid #d9e2e8;
+  border-left: 4px solid #005a63;
+  border-radius: 8px;
+}
+
+.install-app-guide-icon {
+  flex-shrink: 0;
+  font-size: 1.8rem;
+}
+
+.install-app-guide strong {
+  display: block;
+  margin-bottom: 0.2rem;
+  font-size: 1.05rem;
+}
+
+.install-app-guide p {
+  margin: 0 0 0.3rem;
+  color: #555;
+}
+
+.install-app-guide a {
+  color: #005a63;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.install-app-guide a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .install-app-guide {
+    align-items: flex-start;
+  }
+
+  .install-app-guide-icon {
+    font-size: 1.4rem;
+  }
+}
