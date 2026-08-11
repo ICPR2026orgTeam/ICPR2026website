@@ -4421,6 +4421,7 @@
   authors: KUMAR, SONAL*; Jitendrabhai Kathrotiya , Sanket; Daydar, Akshay; Sur, Arijit
     ; Dutta Baruah, Rashmi
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31920-3_8
+  ext-presenter:  Shri Suklav Ghosh
 - id: 1205
   title: 'Ls-Mamba: Gated Spatio-Temporal Modulation And Bidirectional State Space
     Modeling For Eeg Emotion Recognition'
@@ -4806,7 +4807,7 @@
   authors: Peddi, Santhoshkumar*; Balasubramanian, Arun; Sarma, Monalisa; Samanta,
     Debasis
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31927-2_5
-  ext-presenter: "Suklav Ghosh"
+  ext-presenter: "Shri Suklav Ghosh"
 - id: 1302
   title: Discrete World Models Via Regularization
   track: P2.T1
