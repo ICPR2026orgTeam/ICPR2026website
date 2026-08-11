@@ -12,15 +12,8 @@
    <li> Prof. Ananda S. Chowdhury, Jadavpur University, India</li>
 </ul>"
    date: "August 21, 2026"
-   resume: "<p>In this tutorial, we aim to explore graph based methods for video data analysis captured
-by a wide variety of sensors like normal camera, egocentric camera, and moving
-camera. This tutorial will aim to combine graph based theory, practical methods, and a
-variety of applications pertaining to the analysis of video data generated from the above
-sensors. The graph based models will also be combined with deep learning
-architectures as deem necessary. We will further demonstrate the role of GNNs (deep
-learning on graphs) and graph signal processing in solving various problems in this
-connection. As a summary, the tutorial will help attendees to gain theoretical insights as
-well as make them aware of potential applicability of graph based models for processing different types of videos.</p>"
+   resume: |
+           <p> In this tutorial, we aim to explore graph based methods for video data analysis captured by a wide variety of sensors like normal camera, egocentric camera, and moving camera. This tutorial will aim to combine graph based theory, practical methods, and a variety of applications pertaining to the analysis of video data generated from the above sensors. The graph based models will also be combined with deep learning architectures as deem necessary. We will further demonstrate the role of GNNs (deep learning on graphs) and graph signal processing in solving various problems in this connection. As a summary, the tutorial will help attendees to gain theoretical insights as well as make them aware of potential applicability of graph based models for processing different types of videos.</p> <p>The associated homepage showcasing the tutorial is given available on this link: <p class="text-center mb-4"> <a  href="https://sites.google.com/view/tutorial-icpr2026-gvs">  https://sites.google.com/view/tutorial-icpr2026-gvs</a></p>
    room: "B3"
    tslot: "A"
    time : "08h30-12:30"
