@@ -60,6 +60,11 @@
         <div class="keynote-label mb-3">
         <h2 class="speaker-badge prize">{{ page.role }}</h2>
         </div>
+        {% if page.prize_description %}
+        <p class="lead mb-4">{{ page.prize_description  }}</p>
+
+        <h2>{{ }}</h2>
+        {% endif %}
 
         {% if page.abstractTitle %}
         <h2>{{ page.abstractTitle }}</h2>
