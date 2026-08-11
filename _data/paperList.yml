@@ -2139,7 +2139,7 @@
 - id: 602
   title: 'Tridar-Net: Tri-Domain Decomposition And Adaptive Routing Network For Low-Light
     Enhancement'
-  track: O7-D.T3
+  track: P4.T3  # O7-D.T3
   fullauthors: Hantian Yu (Nanjing University)*
   authors: Yu, Hantian*
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31673-8_22
