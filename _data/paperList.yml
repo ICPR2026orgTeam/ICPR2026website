@@ -4805,6 +4805,7 @@
   authors: Peddi, Santhoshkumar*; Balasubramanian, Arun; Sarma, Monalisa; Samanta,
     Debasis
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31927-2_5
+  ext-presenter: "Suklav Ghosh"
 - id: 1302
   title: Discrete World Models Via Regularization
   track: P2.T1
@@ -5490,9 +5491,9 @@
   title: 'Dgssm: Diffusion Guided State-Space Models For Multimodal Salient Object
     Detection'
   track: P2.T1
-  fullauthors: SUKLAV GHOSH (IIT Guwahati)*; Arijit Sur (Indian Institute of Technology
+  fullauthors: Suklav Ghosh (IIT Guwahati)*; Arijit Sur (Indian Institute of Technology
     Guwahati); Pinaki Mitra (Indian Institute of Technology Guwahati)
-  authors: GHOSH, SUKLAV*; Sur, Arijit; Mitra, Pinaki
+  authors: Ghosh, Suklav*; Sur, Arijit; Mitra, Pinaki
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31930-2_33
 - id: 1474
   title: Task-Free Online Replay With Contrastive Learning And Dynamic Herding
