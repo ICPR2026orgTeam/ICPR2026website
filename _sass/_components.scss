@@ -452,22 +452,20 @@
   border-top: 1px solid #e5e5e5;
 }
 
-sponsors-row {
-     display: flex;
- justify-content: center;
- align-items: center;
- gap: 4rem;
- flex-wrap: wrap;
+.sponsors-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #005a63;
+  text-decoration: underline;
 }
 
-
-.sponsors-row img {
-    max-height: 80px;
-    max-width: 200px;
-    width: auto;
-     margin: 10px;
-
+.sponsors-link:hover {
+  text-decoration: none;
 }
+
 /* 🎠 Carrousel */
 .carousel-inner {
   height: 400px;
