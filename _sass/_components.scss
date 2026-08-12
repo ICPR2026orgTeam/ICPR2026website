@@ -1147,3 +1147,31 @@ $color-coffee: #B8912F;
 .notification-card a {
     text-decoration: none;
 }
+
+/* Homepage resource cards */
+
+.homepage-resource-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  margin: 1rem 0;
+  padding: 1rem 1.25rem;
+
+  background: #f7f9fb;
+  border: 1px solid #d9e2e8;
+  border-left: 4px solid #005a63;
+  border-radius: 8px;
+
+  font-size: 1.05rem;
+}
+
+.homepage-resource-card a {
+  color: #005a63;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.homepage-resource-card a:hover {
+  text-decoration: none;
+}
