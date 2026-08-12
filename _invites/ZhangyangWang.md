@@ -7,7 +7,7 @@ chair: "Arun Ross"
 role: '2026 IAPR J. K. Aggarwal Prize'
 company: "University of Texas at Austin"
 photoSpeaker: photoZhangyangWang.jpg
-last_modified: 23/07/2026
+last_modified: 12/08/2026
 prize_description: | 
                    <b class="text-info">IAPR J. K. Aggarwal Prize</b> For contributions to the efficient training and deployment of generative models with applications to language and vision 
 abstractTitle: "Where Does Learning Live in the Spectrum? From Principal Low-Rank Gradients to Off-Principal RL Post-Training"
