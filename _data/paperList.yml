@@ -324,7 +324,7 @@
 - id: 120
   title: 'Corkhsi: Hyperspectral Anomaly Detection In Corks Using An Autoencoder With
     A Novel Spectral–Spatial Loss Optimization'
-  track: P1.T1
+  track: P2.T1 # P1.T1
   fullauthors: Afshin Dini (TAU)*; Farnaz Delirie (Tampere Univeristy); Esa Rahtu
     (Tampere Univeristy)
   authors: Dini, Afshin*; Delirie, Farnaz; Rahtu, Esa
