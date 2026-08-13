@@ -5574,7 +5574,6 @@
   authors: Xiao, Yanchao*; Wang, Chunxiao; Huang, Yuwen; Yi, Ran; Li, Wenhao; Zheng,
     Yue; Zhang, Wenzhe; Liu, Ziqiang; Zhou, Zhiwei
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31930-2_41
-  ext-presenter: Yanchao Xiao
 - id: 1489
   title: Differentially Private Datastore Generation For Retrieval-Augmented Inference
   track: P2.T5
