@@ -2196,9 +2196,10 @@
   title: 'Cloud-Edge Hybrid Reasoning: Decoupling Symbolic Correction From Large-Scale
     Generation'
   track: P2.T1
-  fullauthors: RUI WANG (Beijing University of Posts and Telecommunications)*
-  authors: WANG, RUI*
+  fullauthors: Rui Wang (Beijing University of Posts and Telecommunications)*
+  authors: Wang, Rui*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31673-8_29
+  ext-presenter: Yanchao Xiao
 - id: 617
   title: 'Plotgraph: Graph-First Screenplay Generation With Structural Consistency'
   track: P3.T1
@@ -2620,6 +2621,7 @@
   authors: Tao, He*; Zhang, Lidong; Chen, Luyuan; Lin, Tesi; Qin, Hao; Zhang, Jinjian;
     Kong, Ming; Zhu, Qiang; Zhang, Feng
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31397-3_29
+  ext-presenter: Yanchao Xiao
 - id: 742
   title: Enhance The After-Discharge Mortality Rate Prediction Via Learning From The
     Medical Notes
@@ -3759,6 +3761,7 @@
     of Artificial Intelligence); FengPei Ge (Library)
   authors: Hu, LiangGeng*; Li, YanLing; Ge, FengPei
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31438-3_24
+  ext-presenter: Yanchao Xiao
 - id: 1048
   title: Efficient Sample Synthesis And Decoupled Distillation For Black-Box Attack
   track: P4.T4
@@ -4440,6 +4443,7 @@
     Yi (College of Computer Science, Sichuan University)
   authors: Mu, Bingan*; Yi, Yuhao
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_10
+  ext-presenter: Yanchao Xiao
 - id: 1208
   title: Federated Deep Learning With Client Communication Graphs For Osteosarcoma
     Histopathology Image Classification
