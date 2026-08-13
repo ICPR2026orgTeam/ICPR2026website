@@ -2,16 +2,16 @@
 
 rooms:
   "A": <span class="long-text">Main Auditorium</span><span class="med-text">Main Auditorium</span><span class="short-text">Audit.</span>
-  "B": "Gratte-Ciel 1-2"
+  "B": Gratte-Ciel 1-2
   "C": Tête d'or 1 + 2
-  "D": "<span class="long-text">Prestige Gratte-Ciel</span><span class="med-text">Prestige Gratte-Ciel</span><span class="short-text">Prest. Gratte-Ciel</span>"
-  "E": "Gratte-Ciel 3"
-  "F": "Forum (floor -2)"
-  "G": "Gratte-Ciel 1"
-  "H": "Bellecour 1"
-  "I": "Bellecour 2"
-  "J": "Bellecour 1+2"
-  "K": "Bellecour Reception (floor -1)"        
+  "D": <span class="long-text">Prestige Gratte-Ciel</span><span class="med-text">Prestige Gratte-Ciel</span><span class="short-text">Prest. Gratte-Ciel</span>
+  "E": Gratte-Ciel 3
+  "F": Forum (floor -2)
+  "G": Gratte-Ciel 1
+  "H": Bellecour 1
+  "I": Bellecour 2
+  "J": Bellecour 1+2
+  "K": Bellecour Reception (floor -1) 
 
 #rooms:
 #  "A": "Main Auditorium"
