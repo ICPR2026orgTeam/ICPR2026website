@@ -173,5 +173,10 @@
     <lastmod>2026-08-10T1:44:00+00:00</lastmod>
     <priority>0.95</priority>
   </url>
+   <url>
+    <loc>https://icpr2026.org/proceedings.html</loc>
+    <lastmod>2026-08-11T12:25:00+00:00</lastmod>
+    <priority>0.97</priority>
+  </url>
 
 </urlset>
