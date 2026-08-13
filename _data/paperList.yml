@@ -4492,6 +4492,7 @@
     of Computing Technology, Chinese Academy of Sciences)
   authors: Fan, Yuheng*; Yang, Shuang; Shan, Shiguang; Chen, Xilin
   pdflink: https://link.springer.com/chapter/10.1007/978-3-032-31920-3_16
+  ext-presenter: Yanchao Xiao        
 - id: 1218
   title: 'Scale: Semantic- And Confidence-Aware Conditional Variational Autoencoder
     For Zero-Shot Skeleton-Based Action Recognition'
