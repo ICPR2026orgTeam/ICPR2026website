@@ -433,32 +433,37 @@
   title: "Registration"
   codePlace: "K"
   chair: ""
+  mainContent: "(main conference center)"
 
 - sessionId: "S1" 
   title: "Welcome Reception"
   codePlace: "K"
   chair: ""
+  mainContent: " <p> The cocktail reception includes a mealto be enjoyed in a standing cocktail format at the Cité Internationale Conference Center, along the forums where the poster sessions, the gala dinner, and the industrial exhibitions will take place. </p>"
 
 - sessionId: "S2" 
   title: "Opening Ceremony"
   codePlace: "A"
   chair: ""
+ 
 
 - sessionId: "S3" 
   title: "Conference Banquet"
   codePlace: "F"
   chair: ""
-
-
-- sessionId: "S3" 
-  title: "Conference Banquet"
-  codePlace: "F"
-  chair: ""
+  mainContent: "(main conference center)"
 
 - sessionId: "S4" 
   title: "Closing & Awards"
   codePlace: "A"
   chair: ""
+  mainContent: "(main conference center)"
 
+- sessionId: "S5" 
+  title: "Lunch break with Women at ICPR"
+  codePlace: "J"
+  chair: "Alexandra Branzan-Albu"
+  mainContent: |
+               Welcome to join lunch in a reserved area where we can bring our lunch boxes and sit down with other colleagues interested in activities and discussions on women in academic and non-academic environments. The local organisers kindly support this event with 50 complimentary lunch boxes that will be distributed on a first-come-first serve basis. After we have had lunch together, we will close the event and leave in time for the plenary session and panel discussion on Breaking through Career Roadblocks starting at 14:00 in the Main Auditorium, see <a href="/sessions/oral1W/"> Oral1w</a>.
 
 
