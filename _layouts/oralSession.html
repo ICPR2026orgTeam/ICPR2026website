@@ -136,6 +136,12 @@
       <div style="font-size:0.9em;color:#666;">
         {{ paper.authors | join:", " | replace:"*","" }}
       </div>
+      {% if paper.ext-presenter %}
+            <div style="font-size: 0.9em; color: #C22;">
+              {{  "presented by:" }} {{ paper.ext-presenter }}
+            </div>
+            {% endif %}
+
     </td>
     <td>
         {% if paper.pdflink %}
