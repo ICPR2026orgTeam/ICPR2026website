@@ -2611,7 +2611,7 @@
   authors: Lei, Xin*; Li, Yunhao; Huang, Jiahui; Yan, Pang; Wang, Qiong
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31397-3_28
 - id: 738
-  title: Demystifying 3D Spatial Awareness Via Llm  Router
+  title: Demystifying 3D Spatial Awareness Via LLM Router
   track: P1.T2
   fullauthors: He Tao (Zhejiang University)*; Lidong Zhang (Zhejiang University);
     Luyuan Chen (Zhejiang University); Tesi Lin (Zhejiang University); Hao Qin (Zhejiang
@@ -2639,9 +2639,9 @@
     Ai-Generated Image Detection'
   track: O8-D.T3
   fullauthors: Bo He (Nanjing University of Science and Technology); Huanglei Yang
-    (Nanjing University of Science and Technology); Zhichao  Lian (Nanjing University
+    (Nanjing University of Science and Technology); Zhichao Lian (Nanjing University
     of Science and Technology)*
-  authors: He, Bo; Yang, Huanglei;  Lian, Zhichao*
+  authors: He, Bo; Yang, Huanglei; Lian, Zhichao*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31397-3_32
 - id: 754
   title: 'Mfs-Munet: Multi-Scale Frequency Spatial Mamba U-Net For Medical Image Segmentation'
@@ -2654,7 +2654,7 @@
 - id: 757
   title: Inherently Interpretable Graph Neural Networks Via B-Cos Alignment
   track: P2.T1
-  fullauthors: Shruti  Pandey (NISER)*; Subhankar Mishra (NISER)
+  fullauthors: Shruti Pandey (NISER)*; Subhankar Mishra (NISER)
   authors: Pandey, Shruti *; Mishra, Subhankar
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31397-3_34
 - id: 762
@@ -2917,8 +2917,8 @@
     Disjoint Modality Datasets'
   track: P1.T1
   fullauthors: Qurat Ul Ain Aisha (Sookmyung Women's University); Ji-Hoon Choi (Sookmyung
-    Women's University); Se-In Choi (Sookmyung Women's University); Partha Pratim 
-    Roy (Indian Institute of Technology  Dhanbad); Byung-Gyu Kim (Sookmyung Women's
+    Women's University); Se-In Choi (Sookmyung Women's University); Partha Pratim
+    Roy (Indian Institute of Technology  Dhanbad); Byung-Gyu Kim (Sookmyung Women's
     University)*
   authors: Aisha, Qurat Ul Ain; Choi, Ji-Hoon; Choi, Se-In; Roy, Partha Pratim ; Kim,
     Byung-Gyu*
@@ -2993,8 +2993,8 @@
   authors: Lim, Hyeongmuk; Hur, Youngbum*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31404-8_28
 - id: 862
-  title: 'HypDeformNet: Edge-Deployable Deep Architecture with Jacobian-Stable Hyperbolic Deformation and Lipschitz Distillation
-    for Immunotherapy Response Prediction'
+  title: 'HypDeformNet: Edge-Deployable Deep Architecture with Jacobian-Stable Hyperbolic Deformation and Lipschitz Distillation
+    for Immunotherapy Response Prediction'
   track: O3-C.T1
   fullauthors: Francesco Rundo (University of Catania)*; Massimo Spata (University
     of Catania); Giuseppe Luigi Banna (University of Portsmouth); Sebastiano Battiato
@@ -3019,7 +3019,7 @@
   title: 'Frets: Frequency-Enhanced Residual Transformer System For Spo2 Estimation'
   track: P1.T3
   fullauthors: Surajit Mukherjee (Indian Statistical Institute); Shahzad Ahmad (Østfold
-    University College); Ram Prasad  Padhy (IIT Bhubaneswar); Sukalpa  Chanda (Østfold
+    University College); Ram Prasad Padhy (IIT Bhubaneswar); Sukalpa Chanda (Østfold
     University College)*; Umapada Pal (Indian Statistical Institute)
   authors: Mukherjee, Surajit; Ahmad, Shahzad; Padhy, Ram Prasad ; Chanda, Sukalpa
     *; Pal, Umapada
@@ -3046,8 +3046,8 @@
     Models Under Label-Level Noise'
   track: P1.T1
   fullauthors: Rogerio KACAIVA BOMBARDELLI (Schneider Electric)*; Julien Rameau (Schneider
-    Electric); Dawood Al Chanti (GIPSA Lab); Miguel  Solinas (Schneider Electric);
-    Claude  LE PAPE-GARDEUX (Schneider Electric); Mauro Dalla Mura (GIPSA Lab)
+    Electric); Dawood Al Chanti (GIPSA Lab); Miguel Solinas (Schneider Electric);
+    Claude LE PAPE-GARDEUX (Schneider Electric); Mauro Dalla Mura (GIPSA Lab)
   authors: KACAIVA BOMBARDELLI, Rogerio*; Rameau, Julien; Al Chanti, Dawood; Solinas,
     Miguel ; LE PAPE-GARDEUX, Claude ; Dalla Mura, Mauro
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31404-8_35
@@ -3055,8 +3055,8 @@
   title: 'From Datagloves To Deep Networks: A Survey Of Sign Language Recognition
     And Multimodal Approach'
   track: P2.T2
-  fullauthors: Usman Khan (Centre for Advanced Studies in Engineering)*; Zeyang  Ma
-    (University of Western Australia); Atif  Mansoor (University of Western Australia)
+  fullauthors: Usman Khan (Centre for Advanced Studies in Engineering)*; Zeyang Ma
+    (University of Western Australia); Atif Mansoor (University of Western Australia)
   authors: Khan, Usman*; Ma, Zeyang ; Mansoor, Atif
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31404-8_36
 - id: 875
@@ -3126,11 +3126,11 @@
     Rate Estimation From Ultra-Short Facial Videos'
   track: O5-C.T4
   fullauthors: Jhih-Wei Jhao (National Tsing Hua University); Wen-Pin Chen (National
-    Tsing Hua University); Jun-Ren  Chen (National Tsing Hua University);  Yen-Chun
+    Tsing Hua University); Jun-Ren Chen (National Tsing Hua University); Yen-Chun
     Chou (National Tsing Hua University); Shih-Yu Yang (National Tsing Hua University);
     Pei-Kai Huang (National Tsing Hua University)*; Chiou-Ting Hsu (National Tsing
     Hua University)
-  authors: Jhao, Jhih-Wei; Chen, Wen-Pin;  Chen, Jun-Ren; Chou,  Yen-Chun; Yang, Shih-Yu;
+  authors: Jhao, Jhih-Wei; Chen, Wen-Pin; Chen, Jun-Ren; Chou, Yen-Chun; Yang, Shih-Yu;
     Huang, Pei-Kai*; Hsu, Chiou-Ting
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31404-8_44
 - id: 890
@@ -3185,7 +3185,7 @@
 - id: 911
   title: 'Egohang: Graph-Enhanced Horizon Aware Egocentric Action Anticipation'
   track: P3.T2 # OLD P1.T2
-  fullauthors: Pawanesh Kumar  Vishwakarma ( Motilal Nehru National Institute of Technology
+  fullauthors: Pawanesh Kumar Vishwakarma ( Motilal Nehru National Institute of Technology
     Allahabad, Prayagraj); Ananda S. Chowdhury (Jadavpur University Kolkata); ABHIMANYU
     SAHU (Motilal Nehru National Institute of Technology, Allahabad,)*
   authors: Vishwakarma, Pawanesh Kumar ; Chowdhury, Ananda S.; SAHU, ABHIMANYU*
@@ -3200,7 +3200,7 @@
     Teaching and Research Hospital); Klaus Strobel (Lucerne University Teaching and
     Research Hospital); Antoine Leimgruber (Lucerne University Teaching and Research
     Hospital); Angelica Aviles-Rivero (Tsinghua University); Guang Yang (Imperial
-    College London); Javier  Montoya (Zurich University of Applied Sciences)*
+    College London); Javier Montoya (Zurich University of Applied Sciences)*
   authors: Jing, Peiyuan; Yang, Yue; Cheng, Chun-Wun; Zhang, Zhenxuan; Yang, Liutao;
     Lima, Thiago; Strobel, Klaus; Leimgruber, Antoine; Aviles-Rivero, Angelica; Yang,
     Guang; Montoya, Javier *
@@ -3265,7 +3265,7 @@
   title: 'Fusion For Vision’S Sake: Learning Controllable Subspace Decompositions
     For Visible–Infrared Fusion'
   track: P1.T2
-  fullauthors: Ibrahim KAJO  (UTBM )*; yassine ruichek (UTBM)
+  fullauthors: Ibrahim KAJO (UTBM )*; yassine ruichek (UTBM)
   authors: KAJO , Ibrahim*; ruichek, yassine
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31441-3_14
 - id: 938
@@ -3295,7 +3295,7 @@
 - id: 945
   title: Probabilistic Ranking For Transfer Learning Bayesian Optimization
   track: O6-C.T1
-  fullauthors: Philipp Wagner (Fraunhofer IPA)*; Hayk Namagerdi  (Fraunhofer IPA);
+  fullauthors: Philipp Wagner (Fraunhofer IPA)*; Hayk Namagerdi (Fraunhofer IPA);
     Marco Roth (Fraunhofer IPA); Marco Huber (Fraunhofer IPA)
   authors: Wagner, Philipp*; Namagerdi , Hayk; Roth, Marco; Huber, Marco
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31441-3_18
@@ -3357,9 +3357,9 @@
   track: O7-D.T3
   fullauthors: Naixin Zhang (Peking University)*; Ziheng Wang (Peking University);
     Rundong Cao (China Tower); Jiazhong Yu ( China Tower); Linsu Shi (China Tower);
-    Ziwei  Liu (China Tower); Sheng Cao ( China Tower); Yuxuan Bai (University of
+    Ziwei Liu (China Tower); Sheng Cao ( China Tower); Yuxuan Bai (University of
     North Carolina at Chapel Hill); Tong Lin (Peking University)
-  authors: Zhang, Naixin*; Wang, Ziheng; Cao, Rundong; Yu, Jiazhong; Shi, Linsu; 
+  authors: Zhang, Naixin*; Wang, Ziheng; Cao, Rundong; Yu, Jiazhong; Shi, Linsu;
     Liu, Ziwei; Cao, Sheng; Bai, Yuxuan; Lin, Tong
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31441-3_25
 - id: 956
@@ -3442,7 +3442,7 @@
 - id: 974
   title: Visual Information Facilitation Scene Text Retrieval
   track: P2.T5
-  fullauthors: Mayire  Ibrayim (Xinjiang University)*; Hailong  Luo ( Xinjiang University);
+  fullauthors: Mayire Ibrayim (Xinjiang University)*; Hailong Luo ( Xinjiang University);
     Pengyang Li (Xinjiang University)
   authors: Ibrayim, Mayire *; Luo, Hailong ; Li, Pengyang
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31441-3_34
@@ -3561,7 +3561,7 @@
     Optimization
   track: P1.T1
   fullauthors: Yunyi Zhao (Singapore Institute of Technology)*; Wei Zhang (Singapore
-    Institute of Technology); Cheng Xiang  (Dalian University of Technology); Hongyang
+    Institute of Technology); Cheng Xiang (Dalian University of Technology); Hongyang
     Du (University of Hong Kong); Dusit Niyato (Nanyang Technological University);
     Shuhua Gao (Shandong University)
   authors: Zhao, Yunyi*; Zhang, Wei; Xiang , Cheng; Du, Hongyang; Niyato, Dusit; Gao,
@@ -3619,7 +3619,7 @@
 - id: 1017
   title: 'Prism: Color-Stratified Point Cloud Sampling'
   track: P3.T2
-  fullauthors: Hansol Lim (SUNY Korea); Minhyeok Im (SUNY Korea); Jongseong  Choi
+  fullauthors: Hansol Lim (SUNY Korea); Minhyeok Im (SUNY Korea); Jongseong Choi
     (SUNY Korea)*
   authors: Lim, Hansol; Im, Minhyeok; Choi, Jongseong *
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31438-3_8
@@ -3627,9 +3627,9 @@
   title: 'H3D-Marnet: Wavelet-Guided Dual-Path Learning For Metal Artifact Suppression
     And Ct Modality Transformation For Radiotherapy Workflows'
   track: P4.T6
-  fullauthors: Mubashara Rehman (University of Udine)*; Niki  Martinel (University
+  fullauthors: Mubashara Rehman (University of Udine)*; Niki Martinel (University
     of Udine); Michele Avanzo (Centro di Riferimento Oncologico di Aviano IRCCS, 33081
-    Aviano, Italy); Riccardo  Spizzo (Centro di Riferimento Oncologico di Aviano IRCCS,
+    Aviano, Italy); Riccardo Spizzo (Centro di Riferimento Oncologico di Aviano IRCCS,
     33081 Aviano, Italy); Christian Micheloni (University of Udine)
   authors: Rehman, Mubashara*; Martinel, Niki ; Avanzo, Michele; Spizzo, Riccardo
     ; Micheloni, Christian
@@ -3700,9 +3700,9 @@
     Evaluation
   track: P3.T2 #OLD O8-B.T2
   fullauthors: Mohammad Moradi (University of Catania); Morteza Moradi (University
-    of Catania)*; Marco Grassia (University of Catania);  Giuseppe   Mangioni  (University
+    of Catania)*; Marco Grassia (University of Catania); Giuseppe  Mangioni (University
     of Catania)
-  authors: Moradi, Mohammad; Moradi, Morteza*; Grassia, Marco;  Mangioni ,  Giuseppe
+  authors: Moradi, Mohammad; Moradi, Morteza*; Grassia, Marco; Mangioni , Giuseppe
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31438-3_17
 - id: 1034
   title: 'Masked-Controlnet: Counterfactual Mri Generation Of Brain Metastasis Evolution
@@ -3725,7 +3725,7 @@
 - id: 1037
   title: Uniform Llm-Based Framework For Explainable Recommender Systems
   track: P2.T1
-  fullauthors: Hajar LAKTAOUI (UM6P)*; Mohamed  LECHIAKH (UM6P); Robert  BASMADJIAN
+  fullauthors: Hajar LAKTAOUI (UM6P)*; Mohamed LECHIAKH (UM6P); Robert BASMADJIAN
     (UM6P); Lamiae  AZIZI (UM6P)
   authors: LAKTAOUI, Hajar*; LECHIAKH, Mohamed ; BASMADJIAN, Robert ; AZIZI, Lamiae
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31438-3_20
