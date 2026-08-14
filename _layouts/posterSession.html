@@ -75,8 +75,8 @@
 {% assign sessionDay = currentTime.day %}
 {% assign sessionTime = currentTime.time %}
 {% assign sessionVenue = room_names[found.codePlace] %}
- {% assign chairs =  found.chair | split: "," %}
-
+{% assign chairs =  found.chair | split: "," %}
+    
 {% include sessionInfoDisplay.html
     day=sessionDay
     time=sessionTime
@@ -115,27 +115,28 @@
         <th><span id="copyIds" 
             style="cursor:pointer;"
             title="Click to copy poster IDs">
-        #
-      </span>
+            # and Track
+          </span>
       </button></th>
         <th>Title and Authors</th>
-        <th> pdf </th>
-<th><span id="copyTrack" 
+       <th><span id="copyTrack" 
             style="cursor:pointer;"
             title="Click to copy poster IDs">
-        Track
-      </span></th>
+         PDF
+</span></th>
+<th>Grid ID </th>
       </tr>
     </thead>
     <tbody>
-      {% assign listPapers2 = listPapers | sort: "id" %}
-      {% assign listPapers3 = listPapers2 | sort: "track" %}
-{{ listPapers.first.id | inspect }}
-{{ listPapers.first.id | plus: 0 }}
 
-      {% for p in listPapers3  %}
+      {% assign listPapers = listPapers | sort: "track" %}
+     
+
+
+      {% for p in listPapers  %}
  <tr>
-          <td>{{ p.id }}</td>
+   <td>{{ p.id }} <div>{{ p.track |slice: -2, 2 }}</div>
+   </td>
           <td>
             <div class="text-break" id="{{ p.track |slice: -2, 2 }}">{{ p.title }}</div>
             <div style="font-size: 0.9em; color: #666;">
@@ -148,16 +149,24 @@
             {% endif %}
           </td>
           <td>
-          {% if p.pdflink %}
+            
+            {% if p.pdflink %}
         <a href="{{ p.pdflink }}" target="_blank" class="text-danger">
           <i class="bi bi-file-earmark-pdf"></i> PDF
         </a>
         {% endif %}
+          </td>
+   <td>
+            {% assign poster_number = site.data.gridPosterID[p.id] %}
+          {% if poster_number %}
+          P {{ poster_number }}
+          {% endif %}
+   
         </td>
-          <td>            <div>{{ p.track |slice: -2, 2 }}</div> </td>
-
+        
  </tr>
 
+ 
 {% endfor %}
 
 
