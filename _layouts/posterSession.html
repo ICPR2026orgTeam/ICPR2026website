@@ -124,7 +124,7 @@
             title="Click to copy poster IDs">
          PDF
 </span></th>
-<th>Grid ID </th>
+<th>#grid board </th>
       </tr>
     </thead>
     <tbody>
@@ -159,7 +159,7 @@
    <td>
             {% assign poster_number = site.data.gridPosterID[p.id] %}
           {% if poster_number %}
-          P{{ poster_number }}
+          #{{ poster_number }}
           {% endif %}
    
         </td>
