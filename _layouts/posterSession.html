@@ -130,8 +130,8 @@
     <tbody>
       {% assign listPapers2 = listPapers | sort: "id" %}
       {% assign listPapers3 = listPapers2 | sort: "track" %}
-
-
+{{ listPapers.first.id | inspect }}
+{{ listPapers.first.id | plus: 0 }}
 
       {% for p in listPapers3  %}
  <tr>
