@@ -128,10 +128,12 @@
       </tr>
     </thead>
     <tbody>
-      {% assign listPapers = listPapers | sort: "track" %}
+      {% assign listPapers2 = listPapers | sort: "id" %}
+      {% assign listPapers3 = listPapers2 | sort: "track" %}
 
 
-      {% for p in listPapers  %}
+
+      {% for p in listPapers3  %}
  <tr>
           <td>{{ p.id }}</td>
           <td>
