@@ -215,12 +215,12 @@ Apostolos Antonacopoulos'
   title: 'Vision-Language Models for Gait-Based Screening via Zero-Shot and Multimodal In-Context Learning'
   ws: WS17
   authors: 'Moreno La Quatra, Vito Cammarata, Gabriele Trovato, Vincenzo Conti, Valerio Salerno, Salvatore Sorce, Nicole Cilia'
-  pdflink: paper_0043.pdf
+#  pdflink: paper_0043.pdf
 - id: 44
   title: 'Sunglasses-Region Adversarial Perturbations for Feature-Space Face Recognition Attacks'
   ws: WS17
   authors: 'Sheng-Pin Chang†, Chun-Yao Chen†, I-Syuan Lee, and Chia-Po Wei'
-  pdflink: paper_0044.pdf
+#  pdflink: paper_0044.pdf
 - id: 45
   title: 'Gaze-based Attention-driven Multimodal Single-Object Inference for Microcontroller-Class Edge Vision'
   ws: WS17
@@ -460,7 +460,7 @@ Apostolos Antonacopoulos'
   title: 'Decoupling Identity and Visual Attention: Integrating Latent Diffusion and Gaze Estimation for Privacy-Preserving Pediatric Video'
   ws: WS16
   authors: 'Elia Nastasio (P), Mattia Savardi, Matteo Verga, Cesare Furlanello, Alberto Signoroni'
-  pdflink: paper_0092.pdf
+#  pdflink: paper_0092.pdf
 - id: 93
   title: 'PCCR+: Leveraging Pupil Dynamics for Correcting PCCR Slippage Error'
   ws: WS16
@@ -641,7 +641,7 @@ Bria, Giuseppe Tomasso, and Giovanni Azzarà'
   title: 'Fast Tensorization of Neural Networks via Slice-wise Feature Distillation'
   ws: WS27
   authors: ''
-  pdflink: paper_0128.pdf
+#  pdflink: paper_0128.pdf
 - id: 129
   title: 'Ensemble Learning for Aerial LiDAR Point Cloud Semantic Segmentation: Exploring Model Complementarity and Combination Strategies'
   ws: WS2
@@ -776,7 +776,7 @@ Bria, Giuseppe Tomasso, and Giovanni Azzarà'
   title: 'SleapTAD: Temporal Action Detection for Sea Turtle Post-Hatchlings on Skeletal Features'
   ws: WS20
   authors: 'Alessio Pierluigi Placitelli, Vincenzo Mariano Scarrica, Margherita Sofia Panzuto, Sandra Hochscheid, Fulvio Maffucci, Gianluca Treglia, and Antonino Staiano'
-  pdflink: paper_0155.pdf
+ # pdflink: paper_0155.pdf
 - id: 156
   title: 'DeepForestVisionV2: Ecology-Driven Taxonomy Expansion for Camera-Trap Monitoring in African Tropical Forests'
   ws: WS20
@@ -851,7 +851,7 @@ Bria, Giuseppe Tomasso, and Giovanni Azzarà'
   title: 'Towards Real-Time Drone Vision for Road Safety'
   ws: WS1
   authors: ''
-  pdflink: paper_0170.pdf
+#  pdflink: paper_0170.pdf
 - id: 171
   title: 'SociaRI: Enhancing Social Robot Acceptance through Ontology-Based Context Modeling and LLM-Driven Dialogue'
   ws: WS1
@@ -916,7 +916,7 @@ Bria, Giuseppe Tomasso, and Giovanni Azzarà'
   title: ' Monocular Visual SLAM that works with Pre-built Point Cloud Maps using Point and Line Features'
   ws: WS11
   authors: 'Zenong Liu, Guillaume Caron, Fumio Kanehi'
-  pdflink: paper_0183.pdf
+#  pdflink: paper_0183.pdf
 - id: 184
   title: 'Pose-Constrained UAV Cross-View Geo-Localization with Satellite Imagery for GNSS Correction'
   ws: WS11
@@ -931,7 +931,7 @@ Bria, Giuseppe Tomasso, and Giovanni Azzarà'
   title: 'Quality Diversity under Dynamic Streaming Data Classification Tasks'
   ws: WS12
   authors: 'Ziyu Qiu and Malcolm Heywood'
-  pdflink: paper_0186.pdf
+#  pdflink: paper_0186.pdf
 - id: 187
   title: 'Towards Interpretable Alzheimer’s Disease Detection: Comparing Genetic Programming Paradigms on Handwriting Data'
   ws: WS12
@@ -966,7 +966,7 @@ Bria, Giuseppe Tomasso, and Giovanni Azzarà'
   title: 'Breaking the Central Bias: Spatially Partitioned Experts for Coordinate-Based Neuroevolution'
   ws: WS12
   authors: 'Romain Claret, Arthur Gygax, Michael O’Neill, Paul Cotofrei, Michael Palma Mendes and Pascal Felber'
-  pdflink: paper_0193.pdf
+#  pdflink: paper_0193.pdf
 - id: 194
   title: 'Confidence Scores in Open-Vocabulary Detection Are a Biased Mixture of Scale and Semantics'
   ws: WS14
@@ -996,7 +996,7 @@ Bria, Giuseppe Tomasso, and Giovanni Azzarà'
   title: 'Adaptive Query-Conditional Fusion for Egocentric Natural Language Query Grounding'
   ws: WS14
   authors: 'Enmin Zhong; Carlos R. del-Blanco; Fernando Jaureguizar; Narciso García '
-  pdflink: paper_0199.pdf
+#  pdflink: paper_0199.pdf
 - id: 200
   title: 'Are Pretrained VideoLLMs Enough for Action Recognition? A Zero-Shot Evaluation on Charades'
   ws: WS14
@@ -1131,7 +1131,7 @@ Bria, Giuseppe Tomasso, and Giovanni Azzarà'
   title: 'A Learning Support System Using Question Generation Based on Oral Reading Behavior when Reading English Manga'
   ws: WS26
   authors: 'Sotaro Takaguchi, Motoi Iwata, and Koichi Kise '
-  pdflink: paper_0226.pdf
+#  pdflink: paper_0226.pdf
 
 
 - id: 227

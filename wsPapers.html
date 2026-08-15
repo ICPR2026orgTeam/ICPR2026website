@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "ICPR 2026: list of accepted papers by track"
+title: "ICPR 2026: workshop papers"
 canonical: "https://icpr2026.org/wsPapers.html"
-description: "List of accepted papers to ICPR 2026 - International Conference on Pattern Recognition that take place in Lyon 17-22 August 2026."
-last_modified: 2026-07-14
+description: "List of Workshop papers from ICPR 2026 - International Conference on Pattern Recognition that take place in Lyon 17-22 August 2026."
+last_modified: 2026-08-15
 ---
 
 
@@ -13,6 +13,39 @@ last_modified: 2026-07-14
 <section id="searchPaper">
   <h1>Workshop ICPR 2026 Papers   </h1>
   
+<table class="table-workshop">
+  <thead>
+    <tr>
+      <th ># </th>
+      <th >Acronym</th>
+      <th >Title</th>
+    </tr>
+  </thead>
+  <tbody>
+
+{% for w in work %}
+
+  <tr>
+    <td > {{ w.id }} </td>
+<td>
+  <span class="d-none d-md-inline">{{ w.acronym }}</span>
+  <span class="d-inline d-md-none">
+    {% if w.acronym.size > 7 %}
+      {{ w.acronym | slice: 0,7 }}…
+    {% else %}
+      {{ w.acronym }}
+    {% endif %}
+  </span>
+ </td>
+    <td> <a href = "#{{ w.id }}"> {{ w.title }} </a></td>
+  </tr>
+{% endfor %}
+</tbody>
+</table>
+
+
+
+
 
   
 
@@ -23,7 +56,7 @@ last_modified: 2026-07-14
 
 
 <div  class="card text-dark bg-light mb-5" style="max-width: 110rem;">
-  <div class="card-header fs-5 fw d-flex align-items-center"> <span> <b>{{ w.title }} </b> ({{ w.acronym }})</span> <span class="ms-auto">({{ w.room }})</span> <span class="ms-auto">{{ w.id }}</span> </div>
+  <div  id="{{ w.id }}" class="card-header fs-5 fw d-flex align-items-center"> <span> <b>{{ w.title }} </b> ({{ w.acronym }})</span> <span class="ms-auto">({{ w.room }})</span> <span class="ms-auto">{{ w.id }}</span> </div>
   <div class="card-body">
 
     <table class="table-workshop">
