@@ -1,0 +1,1134 @@
+- id: 1
+  title: 'Toward Trustworthy AI for Post-Stroke Suicidal Risk: Explainable Interaction Modeling and External Validation⋆'
+  ws: WS6
+  authors: 'Flavia Costi; Emanuel Covaci; Darian Onchis; Ovidiu Roman'
+  pdflink: paper_0001.pdf
+- id: 2
+  title: 'TSD-Net: Test-Time Self-Diagnosing Neural Network for Trustworthy Medical Image Classification'
+  ws: WS6
+  authors: 'Moinul Hossain; Md Kishor Morol; Taskin Khaleque; MD. Jahidul Islam; Ramisa Anjum Oishi; Tamzid Tanvi Alam'
+  pdflink: paper_0002.pdf
+- id: 3
+  title: 'Multimodal Analysis of Emotion-Related Behavioral Patterns During Affective Labeling Using Hand Tracking and Eye Tracking'
+  ws: WS6
+  authors: 'Gabriele Trovato; Vito Cammarata; Adriano Schimmenti, and Nicole Dalia Cilia'
+  pdflink: paper_0003.pdf
+- id: 4
+  title: 'Markerless gait analysis and circular statistics: a case study in Parkinson’s disease classification'
+  ws: WS6
+  authors: 'Cesare Davide Pace; Abdul Rahman; Houyem Demni;
+Alessandro Marco De Nunzio; Claudio De Stefano, Francesco Fontanella; Mario Molinara, and Giovanni C.
+Porzio'
+  pdflink: paper_0004.pdf
+- id: 5
+  title: 'SkeleGraphAttNODE: Graph-Guided Multi-View Transformer Neural ODE for Privacy-Preserving Skeleton-Based Yoga Pose Assessment in'
+  ws: WS6
+  authors: 'Rashi Niyas P; Hitika Tiwari; Tushar Shinde'
+  pdflink: paper_0005.pdf
+- id: 6
+  title: 'Reliability-Oriented One-Shot Anatomical Landmark Detection under Extreme Annotation Scarcity'
+  ws: WS6
+  authors: 'Yinbing Tian; Xuefei Li; Ziyang Wang; Li Guo'
+  pdflink: paper_0006.pdf
+- id: 7
+  title: 'Computer Vision and Machine Learning for Assisted ADHD Screening: A Systematic Review'
+  ws: WS6
+  authors: 'Eric Pereira; Eduardo Kirchner; Théo Soares; André Vargas; and Rodrigo de Bem'
+  pdflink: paper_0007.pdf
+- id: 8
+  title: 'A Comparative Study of Deep Learning Architectures for Breast Lesion Segmentation and Detection in Multi-Source Mammography⋆'
+  ws: WS6
+  authors: 'Maria Temneanu; Emanuela-Coralia Toda-Puiulet; 1; Bogdan Teodorescu'
+  pdflink: paper_0008.pdf
+- id: 9
+  title: 'Pathologic Complete Response in Lung Cancer from Structured Clinical Records: A Retrospective Interpretability Study'
+  ws: WS6
+  authors: 'Ciro Russo; 2; Giulio Russo; 2'
+  pdflink: paper_0009.pdf
+- id: 10
+  title: 'SYNAPSE: Symmetric Neurograph Augmentation via Probabilistic diffusion Learning for fMRI based ADHD Identification'
+  ws: WS6
+  authors: 'Sricheta Parui12; Rakesh Kumar Rai; Pawanesh Kumar Vishwakarma; Dushyant Kumar Singh; Abhimanyu'
+  pdflink: paper_0010.pdf
+- id: 11
+  title: 'When CNN Features Help and When They Don’t: Task-Aware Parameter-Efficient Adaptation of Frozen Medical Vision Transformers'
+  ws: WS6
+  authors: 'Dina A. Elkholy; Mohamed S. Shehata; John W. Braun'
+  pdflink: paper_0011.pdf
+- id: 12
+  title: 'Patient-Adaptive Seizure Detection via Cluster-Based Zero-Shot and Fine-Tuned TCN on Pediatric EEG'
+  ws: WS6
+  authors: 'Cluster-Based Zero-Shot and Fine-Tuned TCN on Nafisa Binte Ghulam Kibria; Zareen Tasnim Pear; Md Kishor Morol; Ramisa Anjum Oishi; Tamzid Tanvi Alam; Diya Rahman'
+  pdflink: paper_0012.pdf
+- id: 13
+  title: 'EgoInertia-MI: A Multimodal Egocentric Vision and IMU Benchmark for Motor Impairment Assessment'
+  ws: WS6
+  authors: 'and IMU Benchmark for Motor Impairment Fatemah Alhamdoosh1 Pietro Pala1 Abduallah Mohamed; ∗and DK Arvind'
+  pdflink: paper_0013.pdf
+- id: 14
+  title: 'Inverse Flow Matching with Applications to Medical Image Classification'
+  ws: WS6
+  authors: 'Mshari Alsirhni; 2; Senjian An; Ling Li; Qilin Li'
+  pdflink: paper_0014.pdf
+- id: 15
+  title: '3D Mesh-based Intracranial Aneurysm Detection using a Synthetic Bifurcation Model'
+  ws: WS6
+  authors: 'Said Ammari; Anass Nouri; Romain Bourcier; Florent Autrusseau; 3 1 SETIME Laboratory; Faculty of Sciences; Ibn Tofail'
+  pdflink: paper_0015.pdf
+- id: 16
+  title: 'MV-CT-Net: Exploiting multi-view context fusion for enhanced chest CT image analysis'
+  ws: WS6
+  authors: 'Axel Bessy; 2; Thomas Barba; Hamid Ladjal; Antoine Richard; Mathieu Lefort; Simon Achard; Alexandre Meyer2 2 LIRIS; UMR; CNRS; INSA de Lyon; Université Claude Bernard Lyon 1'
+  pdflink: paper_0016.pdf
+- id: 17
+  title: 'A Proxy-Based CNN-TCN Architecture for Parkinson’s Disease Detection from RGB-D Gait Sequences'
+  ws: WS6
+  authors: 'Parkinson’s Disease Detection from RGB-D Gait Jaime Peris-Tchang; Nélida Mirabet-Herranz; Nicolás Javier Salazar; Jorge Luis'
+  pdflink: paper_0017.pdf
+- id: 18
+  title: 'Multi-Task Semi-Supervised Learning for Intracranial Hemorrhage Analysis in Brain CT'
+  ws: WS6
+  authors: 'Phuong-Anh Nguyen; Thi-Lan Le; Thanh-Hai Tran'
+  pdflink: paper_0018.pdf
+- id: 19
+  title: 'Physiologically Validated Synthetic ECG Generation via LLM-Guided Constraint Enforcement'
+  ws: WS6
+  authors: 'Generation via LLM-Guided Constraint Sujit Bhandari and Robin Chataut'
+  pdflink: paper_0019.pdf
+- id: 20
+  title: 'Dual-Stage Self-Attention for Contrastive EEG-Image Alignment'
+  ws: WS6
+  authors: 'Lei Kang; Xuanshuo Fu; Xim Cerda-Company; Ernest Valveny; Dimosthenis Karatzas'
+  pdflink: paper_0020.pdf
+- id: 21
+  title: 'Differentiable-GLCM with Directional Aggregation: Improving Rotational Invariance and Feature Stability For Radiomics Features⋆'
+  ws: WS6
+  authors: 'Haoyue Chen; Rosario Corso; Albert'
+  pdflink: paper_0021.pdf
+- id: 22
+  title: 'ECG-KanFormer: Multi-label ECG Signal Classification Based on KAN and Transformer'
+  ws: WS6
+  authors: 'Xuanshuo Fu; Lei Kang; Javier Vazquez-Corral'
+  pdflink: paper_0022.pdf
+- id: 23
+  title: 'Assessing Clinical Readiness: Hallucination and Safety Analysis of Vision-Language Models in Fetal Ultrasound'
+  ws: WS6
+  authors: 'Mahmood Alzubaidi; Elyas Al-Amri; Abdullatif Magram; Mowafa Househ'
+  pdflink: paper_0023.pdf
+- id: 24
+  title: 'Edge-Convolution Latent Inference for Brain Tractography Embedding'
+  ws: WS6
+  authors: 'Samuel Kostadinov; Pierfrancesco Ardino; Ludovico Coletta; Luca Zigiotto; Silvio Sarubbo; Laurent Petit; Paolo Avesani'
+  pdflink: paper_0024.pdf
+- id: 25
+  title: 'Speech-Based Dementia Detection for Low-Resource Communities via Symbolic and Text Encoding'
+  ws: WS6
+  authors: 'Toan Quoc Nguyen; Linh Le; Nghia Duong-Trung'
+  pdflink: paper_0025.pdf
+- id: 26
+  title: 'Solving Visual Analogies in Born-Digital Documents with an Attention-Based Framework'
+  ws: WS23
+  authors: 'Amresh Kumar Singh; Sandeep Khanna; Chiranjoy Chattopadhyay; Romi Banerjee; Rahul Kumar Ray'
+  pdflink: paper_0026.pdf
+- id: 27
+  title: 'SWPC-BNF: Recursive Structure-Constrained Representation of Chinese Characters'
+  ws: WS23
+  authors: 'Li Weigang and João Paulo Vieira Costa'
+  pdflink: paper_0027.pdf
+- id: 28
+  title: 'Assessing Google Vision and Tesseract OCRs for Different Font Styles'
+  ws: WS23
+  authors: 'Lucas Burle and Rafael Dueire Lins; 2'
+  pdflink: paper_0028.pdf
+- id: 29
+  title: 'Read the Scribbles: A Contextual HTR for Child Handwriting Recognition Without Linguistic Normalization'
+  ws: WS23
+  authors: 'Sumi Suresh M S1; Sahana'
+  pdflink: paper_0029.pdf
+- id: 30
+  title: 'MeViTSA: Multimodal Ensemble Approach for Sentiment Analysis of Visually Integrated Text Data'
+  ws: WS23
+  authors: 'Soham Bhattacharya; 4; Ali Reza Alaei; Sukalpa Chanda; Umapada Pal'
+  pdflink: paper_0030.pdf
+- id: 31
+  title: 'BHCP-DOC: A Real-World Bilingual Dataset for Handwritten Clinical Prescription Detection and Recognition'
+  ws: WS23
+  authors: 'Fatima Bukhari; Mickael Coustaty'
+  pdflink: paper_0031.pdf
+- id: 32
+  title: 'Performance Gap Analysis between Latin and Arabic Scripts HTR'
+  ws: WS23
+  authors: 'Sana Al-azzawi; Elisa Barney; Marcus Liwicki'
+  pdflink: paper_0032.pdf
+- id: 33
+  title: 'Automatically Creating Hyperlinks of References in a Digital Library of Scientific Articles'
+  ws: WS23
+  authors: 'Daniela R. N. de Mello; Rafael Dueire Lins; 2; Gabriel Pereira e Silva'
+  pdflink: paper_0033.pdf
+- id: 34
+  title: 'Gradient Boosting within a Single Attention Layer⋆'
+  ws: WS23
+  authors: 'Saleh Sargolzaei'
+  pdflink: paper_0034.pdf
+- id: 35
+  title: 'Divergent Readability-Accuracy Strategies of Two Mistral and QWen Models in Biomedical Text Simplification'
+  ws: WS23
+  authors: 'Mistral and QWen Models in Biomedical Text P. Bilha Githinji; Aikaterini Melliou; Zeming Liang; Lian Zhang; Peiwu Qin'
+  pdflink: paper_0035.pdf
+- id: 36
+  title: 'FAST-RE: Feature-Augmented Scientific Text Relation Extraction with Logic-Aware Representation Injection'
+  ws: WS23
+  authors: 'Chaoran Zhou; 3; Xinyu Li; Xin Zhang; 4; Yang Sisi'
+  pdflink: paper_0036.pdf
+- id: 37
+  title: 'OCR Large Models: Recent Progress and Prospects'
+  ws: WS23
+  authors: 'Yi Sun; Zhongheng Zhou; Huiguo He⋆; Jiahuan Cao; Yuyi Zhang; Peirong Zhang; Lianwen Jin'
+  pdflink: paper_0037.pdf
+- id: 38
+  title: 'A Multi-Stage Hybrid Retrieval Framework for Knowledge-Augmented Question Answering'
+  ws: WS23
+  authors: 'Veningston K.1; Selvan C.2; Ronalda M.1; Bidyut Baran Chaudhuri; Anurag Tatwal'
+  pdflink: paper_0038.pdf
+- id: 39
+  title: 'Just Ask for a Table: A Thirty-Token User Prompt Defeats Sponsored Recommendations in Twelve LLMs'
+  ws: WS23
+  authors: 'A Thirty-Token User Prompt Defeats Sponsored Andreas Maier; Jeta Sopa; Gözde Gül Şahin; Paula Pérez-Toro; and Siming Bayer'
+  pdflink: paper_0039.pdf
+- id: 40
+  title: 'PIPF: Physics-Informed Path Integral Filter-Based Video Text Tracking'
+  ws: WS23
+  authors: 'Shubham Das, Tamanas Sahana, Shivakumara Palaiahnakote, Umapada Pal,
+Apostolos Antonacopoulos'
+  pdflink: paper_0040.pdf
+- id: 41
+  title: 'SemRank: Semantic Image Retrieval via Knowledge Graph Filtering and CLIP Embeddings'
+  ws: WS17
+  authors: ' Sourav Pandey and Ashish Singh Patel'
+  pdflink: paper_0041.pdf
+- id: 42
+  title: 'Pretrained Image Encoders of Vision-Language and Multimodal Models: An Evaluation on Synthetic Facial Image Detection'
+  ws: WS17
+  authors: 'Liyue Fan and Joseph Roberson'
+  pdflink: paper_0042.pdf
+- id: 43
+  title: 'Vision-Language Models for Gait-Based Screening via Zero-Shot and Multimodal In-Context Learning'
+  ws: WS17
+  authors: 'Moreno La Quatra, Vito Cammarata, Gabriele Trovato, Vincenzo Conti, Valerio Salerno, Salvatore Sorce, Nicole Cilia'
+  pdflink: paper_0043.pdf
+- id: 44
+  title: 'Sunglasses-Region Adversarial Perturbations for Feature-Space Face Recognition Attacks'
+  ws: WS17
+  authors: 'Sheng-Pin Chang†, Chun-Yao Chen†, I-Syuan Lee, and Chia-Po Wei'
+  pdflink: paper_0044.pdf
+- id: 45
+  title: 'Gaze-based Attention-driven Multimodal Single-Object Inference for Microcontroller-Class Edge Vision'
+  ws: WS17
+  authors: 'Sofia Marilina Glorioso; Andrea Pietro'
+  pdflink: paper_0045.pdf
+- id: 46
+  title: 'Leveraging Phrase-Level Consistency between Images and Texts for Text-Based Person Search'
+  ws: WS17
+  authors: 'Kota Watanabe and Yuta Shirakawa ; Komukai-Toshiba-cho; Saiwai-ku; Kawasaki'
+  pdflink: paper_0046.pdf
+- id: 47
+  title: 'Sunglasses-Region Adversarial Perturbations for Feature-Space Face Recognition Attacks'
+  ws: WS17
+  authors: 'Sheng-Pin Chang†; Chun-Yao Chen†; I-Syuan Lee; Chia-Po Wei'
+  pdflink: paper_0047.pdf
+- id: 48
+  title: 'Contra-Phy: Re-Introducing Boundary Awareness in Infrared Image Classification via Physics-Informed Contrastive Learning'
+  ws: WS28
+  authors: 'Noyon Dey; Nasid Habib Barna; Jin'
+  pdflink: paper_0048.pdf
+- id: 49
+  title: 'Semi-Supervised Multi-Output Segmentation of Type-B Aortic Dissection'
+  ws: WS28
+  authors: 'Denis Mikhailapov and Vladimir Berikov'
+  pdflink: paper_0049.pdf
+- id: 50
+  title: 'From Facial Identification to Clothing-Based Person Re-Identification: An Interpretable Framework for Identity Continuity in Multi-Camera Surveillance Systems'
+  ws: WS28
+  authors: 'José Luis Carrillo-Medina, Ivone Arias-Almeida, Kevin Jair Chuquitarco-Velasco, Cristian Santiago Viteri-Arias, Nancy Jacho Guanoluisa, and Marco Flores Calero'
+  pdflink: paper_0050.pdf
+- id: 51
+  title: 'Cross-Dataset Transfer and Unknown-Class Detection in Imbalanced SAR Ship Classification'
+  ws: WS28
+  authors: 'Ch Muhammad Awais; Marco Reggiannini; Davide Moroni; and Giulio Del Corso'
+  pdflink: paper_0051.pdf
+- id: 52
+  title: 'Detection of Counterfeit Coins Using Vision Transformer and Multimodal GPT-4'
+  ws: WS28
+  authors: 'Dina Omidvar Tehrani; and Ching Y. Suen'
+  pdflink: paper_0052.pdf
+- id: 53
+  title: 'Method of recognizing attitude components in online discussions based on neural network models1'
+  ws: WS28
+  authors: 'Anfisa Chuganskaya; Danil Kireev; Natalia Chudova; Dmitry Devyatkin; Yulia Kuznetsova'
+  pdflink: paper_0053.pdf
+- id: 54
+  title: 'The Problem of Semantic Gaps in the Context of World Models and Sign-Symbolic Communication'
+  ws: WS28
+  authors: 'Anfisa Chuganskaya'
+  pdflink: paper_0054.pdf
+- id: 55
+  title: 'A biologically-inspired computer vision pipeline for neonatal oral motor assessment'
+  ws: WS28
+  authors: 'Danila Germanese; Serena Bardelli; Armando Cuttano; Giulio Del Corso; Fabrizia Festante; Andrea Guzzetta; M.Antonietta Pascali; Lucia Rocchitelli; Sara Colantonio'
+  pdflink: paper_0055.pdf
+- id: 56
+  title: 'Analysis of Nonlinear Characteristics of Heart Rate for Predicting Sudden Cardiac Death'
+  ws: WS28
+  authors: 'Anatoly P. Nemirko; Liudmila A. Manilo; ; Anna A. Mekhonoshina ; Zafar M. Yuldashev ; Danila A. Stepanov'
+  pdflink: paper_0056.pdf
+- id: 57
+  title: 'Semantic segmentation of green vegetation areas in remote sensing images: a multimodal 7-Channel U-Net approach'
+  ws: WS28
+  authors: 'Shiping Ye; Anastasia Intyakova; Yafen; Xu; Sergey Ablameyko '
+  pdflink: paper_0057.pdf
+- id: 58
+  title: 'Inductive robust projective Non-negative matrix factorization with adaptive graph embedding⋆'
+  ws: WS28
+  authors: 'Ying Zhao; Rigui Zhou; Zizhu Fan; Minghua Wan'
+  pdflink: paper_0058.pdf
+- id: 59
+  title: 'MAREA: Active Learning for Object Detection Using Nested Local Embeddings'
+  ws: WS28
+  authors: 'V.A. Sokolov; L.M. Teplyakov; I.A. Matveev'
+  pdflink: paper_0059.pdf
+- id: 60
+  title: 'A Method for Comparing CT Images of the Head and its Application to Identify Examinations Belonging to the Same Person'
+  ws: WS28
+  authors: 'Vladimir Petrovich Novik; 2 and Ivan Alekseevich'
+  pdflink: paper_0060.pdf
+- id: 61
+  title: 'CanonNet: Spectral Canonicalization and Curvature-Driven Learning for Compact Local-Geometry Point-Cloud Operators'
+  ws: WS28
+  authors: 'Benjy Friedmann and Michael Werman'
+  pdflink: paper_0061.pdf
+- id: 62
+  title: 'Foundation Model Representations for Scalable Content-Based Retrieval in Whole-Slide Histopathology⋆'
+  ws: WS28
+  authors: 'Content-Based Retrieval in Whole-Slide Sofia Matveeva; Andrey Krylov; Alexander Khvostikov'
+  pdflink: paper_0062.pdf
+- id: 63
+  title: 'A Comparative Study of Models for mRNA Subcellular Localization Prediction Using a Combined Dataset Benchmark ⋆'
+  ws: WS28
+  authors: 'Artyom Firstkov; Majid Forghani'
+  pdflink: paper_0063.pdf
+- id: 64
+  title: 'An Adaptive Framework for Evaluating Radiology Reports with Limited Annotated Data'
+  ws: WS28
+  authors: 'Vera Novikova; Yakov Pchelintsev; Alexander Khvostikov; Andrey'
+  pdflink: paper_0064.pdf
+- id: 65
+  title: 'Spectral-Adaptive Pyramid Network for Deformable T1-MRI Image Registration'
+  ws: WS28
+  authors: 'Yuxuan Wang; Chenyang Jiang; Dongxun Jiang'
+  pdflink: paper_0065.pdf
+- id: 66
+  title: 'Classification of Firn Data Via Topological Features⋆'
+  ws: WS28
+  authors: 'Jesse Dimino; Matt Jester; Kaitlin Keegan; Thomas Weighill; Sarah'
+  pdflink: paper_0066.pdf
+- id: 67
+  title: 'Automatic Layer Line Marking on HRTEM Images of Catalysts Based on Tracing Consistent Responses of Gabor Filters'
+  ws: WS28
+  authors: 'Andrey Kopylov; 2; Oleg Seredin; 2'
+  pdflink: paper_0067.pdf
+- id: 68
+  title: 'Petiole Removal from Plant Leaf Binary Raster Images'
+  ws: WS28
+  authors: 'Oleg Seredin; Nikita Mityugov; Kharlampiy Tiras; 3; 4 1 Tula State University; Tula; Russia'
+  pdflink: paper_0068.pdf
+- id: 69
+  title: 'Enhancing Foundation Models for Imbalanced SAR Ship Classification via Targeted Oversampling'
+  ws: WS28
+  authors: 'SAR Ship Classification via Targeted Ch Muhammad Awais; Marco Reggiannini; Davide Moroni'
+  pdflink: paper_0069.pdf
+- id: 70
+  title: 'An Adaptive Graph and Hybrid Attention Framework for Unaligned Medical Image Fusion'
+  ws: WS28
+  authors: 'Wenxuan Feng; Yufeng Zhou1⋆; Wenming Cao'
+  pdflink: paper_0070.pdf
+- id: 71
+  title: 'Fuzzy-Logic Guided Kinematic Prior Model for 3D Human Motion Prediction'
+  ws: WS28
+  authors: 'Botao Zhou1⋆; Jianqi Zhong; Wenming Cao; Wenbin Zou'
+  pdflink: paper_0071.pdf
+- id: 72
+  title: 'Integration of Visual Features for Assessing Authenticity and Detecting Synthetic Video Content'
+  ws: WS28
+  authors: 'Sergey Eremeev; Veronika Shikinova; Yulia Anokhina; and Ekaterina Fedoseeva'
+  pdflink: paper_0072.pdf
+- id: 73
+  title: 'Strategy Use and Latent Cognitive Regimes in Perceptual and Relational Classification'
+  ws: WS28
+  authors: 'Nadejda Bocheva and Bilyana Genove'
+  pdflink: paper_0073.pdf
+- id: 74
+  title: 'Few-Shot versus Zero-Shot Detection of Novel Objects Using Pretrained Vision-Language Models: A Comparative Study on Kikoriki Characters'
+  ws: WS28
+  authors: 'Nikita Andriyanov and Vitaly Dementiev'
+  pdflink: paper_0074.pdf
+- id: 75
+  title: 'Automated System for Osteoporotic Changes Detection in Vertebral Bodies Based on CT Image Analysis'
+  ws: WS28
+  authors: 'Lyakin Maksim; Ilyasova Natalia; 2; Demin Nikita; 2; Alekhin Edward'
+  pdflink: paper_0075.pdf
+- id: 76
+  title: 'Binary Linear Support Vector Machines for High Dimensional Spaces with Disjoint Subspace Combining'
+  ws: WS28
+  authors: 'Valentina Sulimova 1; Mikhail Kurbakov; Nikita Mityugov 1 and Oleg Seredin 1'
+  pdflink: paper_0076.pdf
+- id: 77
+  title: 'Quadtrees for Partial Dependencies in Data'
+  ws: WS28
+  authors: 'Alexander Vinogradov'
+  pdflink: paper_0077.pdf
+- id: 78
+  title: 'Monotone Boolean Functions of Sum-Free Sets'
+  ws: WS28
+  authors: 'Hasmik Sahakyan; Vahe Sargsyan; Levon Aslanyan'
+  pdflink: paper_0078.pdf
+- id: 79
+  title: 'Generating Support Set Classifiers'
+  ws: WS28
+  authors: 'Levon Aslanyan and Hasmik '
+  pdflink: paper_0079.pdf
+- id: 80
+  title: 'Occlusion-Aware Part-Level Supervised Contrastive Learning for Skeleton-Based Gait Recognition'
+  ws: WS28
+  authors: 'Minas Aslanyan and Levon Aslanyan'
+  pdflink: paper_0080.pdf
+- id: 81
+  title: 'Information Approach to Image Coding in the Neurobiological Retina'
+  ws: WS28
+  authors: 'Viacheslav E. Antsiperov '
+  pdflink: paper_0081.pdf
+- id: 82
+  title: 'Automatic system to determine indications for 2RT treatment'
+  ws: WS28
+  authors: 'Ionov Artem; Ilyasova Natalia; Zolotarev Andrey; Dotsenko Kamila; Demin Nikita'
+  pdflink: paper_0082.pdf
+- id: 83
+  title: 'Automated detection of type 3 neovascularization biomarkers in age‑related macular degeneration using OCT images and a complex direction field'
+  ws: WS28
+  authors: 'Ravil Samigullin; Natalia Ilyasova;  Nikita Demin; Evgeniy Zamytskiy; Andrey Zolotarev'
+  pdflink: paper_0083.pdf
+- id: 84
+  title: 'Merging Neural Network Models Based on Their Geometric Representation'
+  ws: WS28
+  authors: 'Sergey Eremeev; Denis Pankratov'
+  pdflink: paper_0084.pdf
+- id: 85
+  title: 'Automation of the Analysis of Morphometric Characteristics of the Human Eye Fundus Based on Optical Coherence Tomography Angiography Data.'
+  ws: WS28
+  authors: 'I. B. Gurevich, V. V. Yashina and A. T. Tleubaev'
+  pdflink: paper_0085.pdf
+- id: 86
+  title: 'Automating the Construction of Formalized Representations of Initial Information in Descriptive Image Analysis'
+  ws: WS28
+  authors: 'Igor Gurevich and Vera Yashina'
+  pdflink: paper_0086.pdf
+- id: 87
+  title: 'Peripheral Attention Index: Area-Weighted Distal Polygonal Areas Of Interest'
+  ws: WS16
+  authors: 'Gehrer; Jennifer Svaldi'
+  pdflink: paper_0087.pdf
+- id: 88
+  title: 'Tracking Estimated Attention Levels During Oral Character String Reading'
+  ws: WS16
+  authors: 'Minoru Nakayama1 Interdisciplinary Mathematical Sciences'
+  pdflink: paper_0088.pdf
+- id: 89
+  title: 'Re-streamed Validation of Real-Time Cognitive Load Measurement'
+  ws: WS16
+  authors: 'Zamanifard; Sonja Cecchetti; Marco Cavallo; Andy Edmonds'
+  pdflink: paper_0089.pdf
+- id: 90
+  title: 'Gaze Behavior in task- and non-task-related Web Interaction: Implications for Usability and UX'
+  ws: WS16
+  authors: 'Fabian Engl; Erik Buchmann; Michael Burmester; Jürgen Mottok'
+  pdflink: paper_0090.pdf
+- id: 91
+  title: 'SeeIntent: A Real-Time Multimodal Intent Recognition System in XR Using Spatio-Temporal LLM⋆'
+  ws: WS16
+  authors: 'Gathik Jindal; Jayant Sharma; Beryl Gnanaraj; and Jaya Sreevalsan-Nair'
+  pdflink: paper_0091.pdf
+- id: 92
+  title: 'Decoupling Identity and Visual Attention: Integrating Latent Diffusion and Gaze Estimation for Privacy-Preserving Pediatric Video'
+  ws: WS16
+  authors: 'Elia Nastasio (P), Mattia Savardi, Matteo Verga, Cesare Furlanello, Alberto Signoroni'
+  pdflink: paper_0092.pdf
+- id: 93
+  title: 'PCCR+: Leveraging Pupil Dynamics for Correcting PCCR Slippage Error'
+  ws: WS16
+  authors: 'Diako Mardanbegi '
+  pdflink: paper_0093.pdf
+- id: 94
+  title: 'Gaze-Anchored Social Net: Decoding Implicit Relations via Joint Modeling'
+  ws: WS16
+  authors: 'Yuqi Hou; Zhuo Chen; Han Hu; Je Woo Kim; Jianbo'
+  pdflink: paper_0094.pdf
+- id: 95
+  title: 'VSP: Visual Scanpath Predictor for Egocentric Videos'
+  ws: WS16
+  authors: 'Sansitha Panchadsaram and James J. Clark'
+  pdflink: paper_0095.pdf
+- id: 96
+  title: 'Beyond Image-Level Evaluation: Specimen-Aware Multi-View Feature Fusion for Wood Charcoal Classification'
+  ws: WS7
+  authors: 'Multi-View Feature Fusion for Wood Charcoal Dieu-Donné Fangnon; Diane Lingrand; Marco Corneli; 3; Isabelle Théry-Parisot; Antoine Pasqualini'
+  pdflink: paper_0096.pdf
+- id: 97
+  title: 'Photogrammetry and Grounded Generative AI for Non-Visitable Cultural Heritage: A Serious Game Framework'
+  ws: WS7
+  authors: 'Ciro Russo; Marco Saccucci'
+  pdflink: paper_0097.pdf
+- id: 98
+  title: 'A Tool-Augmented AI Agent for Grounded Access to European Cultural Heritage'
+  ws: WS7
+  authors: 'for Grounded Access to European Cultural Pierluca Landolfi; Fabio Porcelli; Simone Cioffi; Laura Di Cuffa; Maria'
+  pdflink: paper_0098.pdf
+- id: 99
+  title: 'Occurrence-level Preprocessing Page Attribution'
+  ws: WS7
+  authors: ''
+  pdflink: paper_0099.pdf
+- id: 100
+  title: 'Hierarchical Equiangular Tight Frames for Matching Relief-Printed Patterns on Medieval Ceramic Sherds'
+  ws: WS7
+  authors: 'Yassine Nasser; Sylvie Treuillet; Matthieu Exbrayat'
+  pdflink: paper_0100.pdf
+- id: 101
+  title: 'Computational Analysis of Semantic Connections Between Herman Melville’s Reading and Writing'
+  ws: WS7
+  authors: 'Nudrat Habib; Steven Olsen-Smith; Elisa Barney Smith; 2'
+  pdflink: paper_0101.pdf
+- id: 102
+  title: 'Tracing the Evolution of Scientific Discourse: A Corpus-Driven Analysis of Scientific Cultural Heritage Publications'
+  ws: WS7
+  authors: 'Simone Pio Barbagallo; Dario Allegra; Filippo Stanco'
+  pdflink: paper_0102.pdf
+- id: 103
+  title: 'Angkorian-HeritageObj: AI-Assisted Visual Condition Assessment of Khmer Stone Heritage Objects'
+  ws: WS7
+  authors: 'Nimol Thuon; and Panhapin Theang'
+  pdflink: paper_0103.pdf
+- id: 104
+  title: 'Understanding How MLLMs Describe Artworks Using Token Activation Maps'
+  ws: WS7
+  authors: 'Nicola Fanelli; Pasquale De Marinis; Raffaele Scaringi; Eva Cetinic'
+  pdflink: paper_0104.pdf
+- id: 105
+  title: 'Where Am I in the Museum? Metadata-Driven Visual Localization via Image Retrieval from 360-degree LiDAR scans'
+  ws: WS7
+  authors: 'Metadata-Driven Visual Localization via Image Gioele Litrico; Roberto Rizza; Mattia Litrico; Dario Allegra; Anna Maria Gueli; Filippo Stanco'
+  pdflink: paper_0105.pdf
+- id: 106
+  title: 'The Golden Bond: A Metadata-Driven 3D Storytelling Framework for Micro-Heritage'
+  ws: WS7
+  authors: 'May Baker; Zeynep Çizmeli Öğün; Sinem Aslan'
+  pdflink: paper_0106.pdf
+- id: 107
+  title: 'Quantifying Representation Collapse: Structural Entanglement in Document Image Unlearning'
+  ws: WS19
+  authors: 'Amisha Mishra and Chiranjoy Chattopadhyay'
+  pdflink: paper_0107.pdf
+- id: 108
+  title: 'On the Robustness of Vision-Language Models in Zero-shot Privacy Classification'
+  ws: WS19
+  authors: 'Alina Elena Baia; Alessio Xompero; Andrea Cavallaro1 2 Independent Researcher'
+  pdflink: paper_0108.pdf
+- id: 109
+  title: 'CAFE: Explainable Corruption-Aware Federated Aggregation for Robust Document Understanding'
+  ws: WS19
+  authors: 'Muhammad Rafsan Kabir; Md Shopon; Marina L. Gavrilova Department of Computer Science; University of Calgary; Canada'
+  pdflink: paper_0109.pdf
+- id: 110
+  title: 'When Enhancement Hurts Recognition: Objective Misalignment in Low-Light Scene Text Recognition'
+  ws: WS19
+  authors: 'Objective Misalignment in Low-Light Scene Text Xuanshuo Fu; Lei Kang; Ernest Valveny; Dimosthenis Karatzas; Javier Vazquez-Corral'
+  pdflink: paper_0110.pdf
+- id: 111
+  title: 'Disparity Analysis of Unsupervised Membership Inference Attacks: A Case Study in DocVQA'
+  ws: WS19
+  authors: 'João Medrado Gondim; Helio Pedrini; Sandra Avila1 {joao.gondim; helio; sandra}@ic.unicamp.br'
+  pdflink: paper_0111.pdf
+- id: 112
+  title: 'Do MLLMs Really Understand Low-Resource Khmer Documents? A Pilot Study on Khmer Document VQA'
+  ws: WS19
+  authors: 'Khmer Documents? A Pilot Study on Khmer Nimol Thuon; 2⋆and Panhapin Theang'
+  pdflink: paper_0112.pdf
+- id: 113
+  title: 'Toward Trustworthy On-Premise Compliance Pre-Assessment of Industrial Machinery: A Preliminary, Proof-of-Concept Comparison of a'
+  ws: WS19
+  authors: 'Mario Molinara, Domenico Paolo, Claudio Marrocco, Alessandro
+Bria, Giuseppe Tomasso, and Giovanni Azzarà'
+  pdflink: paper_0113.pdf
+- id: 114
+  title: 'An Exploratory Study on Quantifying the Operational Carbon Footprint of Vessel Segmentation'
+  ws: WS27
+  authors: 'Operational Carbon Footprint of Vessel Noémie Debroux; Mathéo Galuba; Antoine Vacavant'
+  pdflink: paper_0114.pdf
+- id: 115
+  title: 'ReCowGnition: A Realistic Biometric Benchmark for Cow Face Recognition'
+  ws: WS27
+  authors: 'Marco Huber; 2; Marco Kiesewalter; Judith Louise Pieper; Bastian Kubsch; Naser'
+  pdflink: paper_0115.pdf
+- id: 116
+  title: 'Comparative Analysis of Anomaly Detection Techniques for Classification of Southern Ocean Sound Data From Elephant Seals'
+  ws: WS27
+  authors: 'Sara Norouzinia; Kenny Saint Fleur; Louis Vozzola; Anatole Gros-Martial'
+  pdflink: paper_0116.pdf
+- id: 117
+  title: 'Embedding Techniques for Modeling Ambiguous Time Series in River Water Networks⋆'
+  ws: WS27
+  authors: 'Benjamin Fankhauser; Vidushi Bigler; Kaspar Riesen'
+  pdflink: paper_0117.pdf
+- id: 118
+  title: 'Energy-Efficient Plant Monitoring via Knowledge Distillation'
+  ws: WS27
+  authors: 'Ilyass Moummad; Reda Bensaid; Kawtar Zaher; 3; Hervé Goëau'
+  pdflink: paper_0118.pdf
+- id: 119
+  title: 'Supporting Amphibian Migration Tracking with State-of-the-Art Image Processing'
+  ws: WS27
+  authors: 'Marie Ceccaldi; Alexis Deseure; Akhil Nampally; Nils Ragot; Laura Tomokiyo; Lena Collet; Emilie Busson; Alain Morand; Cédric'
+  pdflink: paper_0119.pdf
+- id: 120
+  title: 'A Multi-Stage Framework for Detection and Decoding of Wildlife Ring Identifiers in Real-World Conditions'
+  ws: WS27
+  authors: 'Tom Bourbon; Thomas Blanchon; Jocelyn Champagnon; Cédric'
+  pdflink: paper_0120.pdf
+- id: 121
+  title: 'GuidedSAM-Plume: An expert-guided segmentation framework for volcanic plumes'
+  ws: WS27
+  authors: 'Taddeo D’Adamo; Simon Thivet; Catherine Pothier; Riccardo Simionato; 3; Allan Fries; Jonathan Lemus; 3; Costanza Bonadonna; Laure Tougne Rodet; Bertrand Kerautret'
+  pdflink: paper_0121.pdf
+- id: 122
+  title: 'Compar’IA: An Extensible Sustainability-Aware Dashboard for Multi-Objective Evaluation of Large Language Models'
+  ws: WS27
+  authors: 'Likhita Yerra and Anuradha Kar'
+  pdflink: paper_0122.pdf
+- id: 123
+  title: 'CORSIA : Core Regression for Soil Image Analysis'
+  ws: WS27
+  authors: 'Joanne Boulos; 3; Véronique Eglin; Bertrand Kerautret; Edith Larue; Jean-Marie Côme'
+  pdflink: paper_0123.pdf
+- id: 124
+  title: 'Neural Pattern Mining in Spatiotemporal Multigraphs: A Pan-European Land-Use Study'
+  ws: WS27
+  authors: 'Assaad Zeghina; Aurélie Leborgne; Florence Le Ber; Antoine'
+  pdflink: paper_0124.pdf
+- id: 125
+  title: 'On the Benefits of Uncertainty Estimation for Species Classification: A Case Study on Optimizing Expert re-Annotation'
+  ws: WS27
+  authors: 'Kamenan N’gadi; Martin Laviale; Cédric Pradalier; Jérémy Fix'
+  pdflink: paper_0125.pdf
+- id: 126
+  title: 'LLM-Assisted Resource-Aware Weakly Supervised Multimodal Extraction of Climate-Risk Signals from ESG Documents'
+  ws: WS27
+  authors: 'Panhapin Theang and Nimol Thuon'
+  pdflink: paper_0126.pdf
+- id: 127
+  title: 'LogbQuant: Quantizing Language Models in Logarithmic Space'
+  ws: WS27
+  authors: 'Jeremias Bohn; Tizian Dippold; Mahdi Koubaa; Elias R. Wahl; Georg Groh'
+  pdflink: paper_0127.pdf
+- id: 128
+  title: 'Fast Tensorization of Neural Networks via Slice-wise Feature Distillation'
+  ws: WS27
+  authors: ''
+  pdflink: paper_0128.pdf
+- id: 129
+  title: 'Ensemble Learning for Aerial LiDAR Point Cloud Semantic Segmentation: Exploring Model Complementarity and Combination Strategies'
+  ws: WS2
+  authors: 'Alex Salvatierra; José Antonio Sanz'
+  pdflink: paper_0129.pdf
+- id: 130
+  title: 'WADL: Wide-Area Direct Localizer for Fast and Robust Cross-View UAV Geo-Localization'
+  ws: WS2
+  authors: 'Zhang Li; 2; †; Xichao Teng; 2; †'
+  pdflink: paper_0130.pdf
+- id: 131
+  title: 'Biodiversity Profile Estimation with Earth Observation'
+  ws: WS2
+  authors: 'Moritz Dieing; Michele Volpi; Victor Boussange'
+  pdflink: paper_0131.pdf
+- id: 132
+  title: 'A Window to the Past: Connecting Historical Aerial Photographs to Satellite Images with the use of Image Registration and Enhancement'
+  ws: WS2
+  authors: 'Aikaterini Christopoulou; 2; Basilis Gatos and'
+  pdflink: paper_0132.pdf
+- id: 133
+  title: 'Loc-Aware: Integrating Geographic Metadata into Contrastive Learning'
+  ws: WS2
+  authors: 'Juliana Carvalho1⋆; Clément Rambour; Arnaud Breloy; and'
+  pdflink: paper_0133.pdf
+- id: 134
+  title: 'Diffusion Transformers for Roof Graph Synthesis and Reconstruction'
+  ws: WS2
+  authors: 'Daniel Panangian and Ksenia Bittner'
+  pdflink: paper_0134.pdf
+- id: 135
+  title: 'Parameter Eﬃcient Handling of Acquisition Artefacts'
+  ws: WS2
+  authors: 'Paul Tresson; Carmel Mounziegou-Mounziegou; 2; Diego Marcos; Hadrien Tulet; Gaelle'
+  pdflink: paper_0135.pdf
+- id: 136
+  title: 'Generalised Distillation of Geospatial Foundation Models'
+  ws: WS2
+  authors: 'Amina Said; Julia Dietlmeier; Margaret McCaul; and'
+  pdflink: paper_0136.pdf
+- id: 137
+  title: 'LMMs as Zero-Shot Teachers for Downstream Remote Sensing Classification Tasks'
+  ws: WS2
+  authors: 'Maria Tzelepi; Paraskevi Nousi; Nikolaos Dimitriou; Dimitrios'
+  pdflink: paper_0137.pdf
+- id: 138
+  title: 'Leveraging LiDAR datasets to improve SAR tomography: a diffusion model approach'
+  ws: WS2
+  authors: 'Cristiano Ulondu Mendes; Loïc Denis; 2; Christophe Kervazo; Florence Tupin'
+  pdflink: paper_0138.pdf
+- id: 139
+  title: 'LL-DAWGNet: Degradation-Adaptive Wavelet-Gradient Network for Low-Light Remote Sensing Image Enhancement'
+  ws: WS2
+  authors: 'Koyyada Dinesh Kumar; Sourav Phogat; Sujit Kumar Sahoo'
+  pdflink: paper_0139.pdf
+- id: 140
+  title: 'Diffusion Models for Advances in Manufacturing Quality – Abrasive Grains'
+  ws: WS5
+  authors: 'Srinika Sharma; Riddhi Aparajitha; Prafulla Kalapatapu; N. S. Karthiselva; Koshy Abraham; Shyam Rao; Arya Bhattacharya'
+  pdflink: paper_0140.pdf
+- id: 141
+  title: 'MARC-V: Multi-Agent Rendering for CAD-VQA'
+  ws: WS5
+  authors: 'Ken Miyamoto and Shotaro Miwa2 review and manufacturing feature recognition; the existing approaches'
+  pdflink: paper_0141.pdf
+- id: 142
+  title: 'End-To-End Multi-View Multi-Modal Detection-Driven Image Fusion: One Method to Fuse them all'
+  ws: WS5
+  authors: 'Detection-Driven Image Fusion: One Method to Gwendal Bernardi; 2; Godefroy Brisebarre; Sébastien Roman; Mohsen Ardabilian; Emmanuel Dellandrea'
+  pdflink: paper_0142.pdf
+- id: 143
+  title: 'Improving Smartphone-Based Dental Ceramic Manufacturer Classification Across Different Devices'
+  ws: WS5
+  authors: 'Manufacturer Classification Across Different Johannes Schuiki; Christof Kauba; Heinz Hofbauer; Andreas Uhl'
+  pdflink: paper_0143.pdf
+- id: 144
+  title: 'A Convolutional Block Attention and Bidirectional Pyramid Network for Gear Defect Detection in Challenging Industrial Datasets'
+  ws: WS5
+  authors: 'Ling Bai; Tom Shumka; Jason Shumka; Zheng Liu'
+  pdflink: paper_0144.pdf
+- id: 145
+  title: 'D-MECAD: Dynamic Multi-Expert Continual Anomaly Detection with Adaptive Architecture Discovery'
+  ws: WS5
+  authors: 'Anomaly Detection with Adaptive Architecture Malihe Dahmardeh and Francesco Setti'
+  pdflink: paper_0145.pdf
+- id: 146
+  title: 'Neuro-Symbolic Logical Anomaly Detection with Interpretable Neural Rules'
+  ws: WS5
+  authors: 'Malihe Dahmardeh and Francesco Setti; 2'
+  pdflink: paper_0146.pdf
+- id: 147
+  title: 'Mind the Domain Gap: Benchmarking Structure-from-Motion Methods on Paired Industrial Physical-Digital Twin Datasets to'
+  ws: WS5
+  authors: 'Sunil Choudhary , Mickyas Tamiru Asfaw , Aristide Laignel, Nicolas Ragot , Vincent Havard , Kristian Fenech , and Yohan Dupuis'
+  pdflink: paper_0147.pdf
+- id: 148
+  title: 'Semi-Automated BIM Generation from Multi-Modal Data for Nuclear Facilities Decommissioning'
+  ws: WS5
+  authors: 'Multi-Modal Data for Nuclear Facilities Léo Sron; 3; Caroline Chabal'
+  pdflink: paper_0148.pdf
+- id: 149
+  title: 'Spatial-Temporal Expert Learning for Video-based Person Re-identification'
+  ws: WS10
+  authors: 'Xiaofei Hui; Pengfei Wang; Evan Ling; Dezhao Huang; Keng Teck Ma; Minhoe Hur; Jun Liu1'
+  pdflink: paper_0149.pdf
+- id: 150
+  title: 'Difference Analysis of Synthetic and Real Weather Effects in RGB Images'
+  ws: WS10
+  authors: 'Theresa Maienschein; 2; Rebecca Schmidt; Joachim Rüter; Stefan'
+  pdflink: paper_0150.pdf
+- id: 151
+  title: 'Enhancing the accuracy of aerial imagery-based object position estimation'
+  ws: WS10
+  authors: 'Zsombor Páncsics; 2; Csaba Marosi; Zsombor Széplaki; Zoltán Berényi; Gergely Treplán; Szende Sándor; Levente Hajder; Imre Benedek'
+  pdflink: paper_0151.pdf
+- id: 152
+  title: 'Revisiting Vehicle Color Recognition in Long-Tailed Surveillance Scenarios'
+  ws: WS10
+  authors: 'Vinícius Orrú;Rayson Laroca'
+  pdflink: paper_0152.pdf
+- id: 153
+  title: 'Towards Forensic Height Estimation: Generating Digital Humans in CCTV Environments'
+  ws: WS10
+  authors: 'A. Dörsch, C. Busch, C. Rathgeb'
+  pdflink: paper_0153.pdf
+- id: 154
+  title: 'Video-Analysis-as-a-Service with Foundation Models for Real-Time Multi-Event Detection'
+  ws: WS10
+  authors: 'Vincenzo Carletti; Antonio Greco; Andrea Vincenzo Ricciardi; Alessia'
+  pdflink: paper_0154.pdf
+- id: 155
+  title: 'SleapTAD: Temporal Action Detection for Sea Turtle Post-Hatchlings on Skeletal Features'
+  ws: WS20
+  authors: 'Alessio Pierluigi Placitelli, Vincenzo Mariano Scarrica, Margherita Sofia Panzuto, Sandra Hochscheid, Fulvio Maffucci, Gianluca Treglia, and Antonino Staiano'
+  pdflink: paper_0155.pdf
+- id: 156
+  title: 'DeepForestVisionV2: Ecology-Driven Taxonomy Expansion for Camera-Trap Monitoring in African Tropical Forests'
+  ws: WS20
+  authors: 'Hugo Magaldi; Théau d’Audiffret; Etienne François Akomo-Okoue'
+  pdflink: paper_0156.pdf
+- id: 157
+  title: 'GeoIdTree: Domain-adaptive Multi-temporal Plant Identification from Geospatial Orthomosaics and RGB Images'
+  ws: WS20
+  authors: 'Doan-Duc Phan; Quang-Duy Pham; Minh-Anh Cu'
+  pdflink: paper_0157.pdf
+- id: 158
+  title: 'VNTurtle: Harnessing Image Recognition for Conservation of Endangered Turtles in Vietnam'
+  ws: WS20
+  authors: 'Phuc H. Le , Thuy T. Nguyen; Timothy E.M. McCormack; Thanh-Trung Nguyen; Thanh-TrungPhan'
+  pdflink: paper_0158.pdf
+- id: 159
+  title: 'Self-supervised Pose Representation Learning For Nonhuman Primates'
+  ws: WS20
+  authors: 'Kenza QITOUT, Mathilde ADET, Xavier DESQUESNES, Audrey MAILLE, and Bruno EMILE '
+  pdflink: paper_0159.pdf
+- id: 160
+  title: 'Self-Supervised Learning of Plant Image Representations'
+  ws: WS20
+  authors: 'Ilyass Moummad; Kawtar Zaher; 2; Lombardo; Pierre Bonnet; Alexis Joly'
+  pdflink: paper_0160.pdf
+- id: 161
+  title: 'Part-Based Re-Identiﬁcation of Mediterranean Spur-Thighed Tortoises via Anatomical Scute Decomposition'
+  ws: WS20
+  authors: 'Muhammad Mahamid, Efrat Yagur, and Ilan Shimshoni'
+  pdflink: paper_0161.pdf
+- id: 162
+  title: 'Mask-Guided Multi-Task Learning: Real-Time RGB Prediction of Plant Photosynthetic Efficiency at the Edge'
+  ws: WS20
+  authors: 'RGB Prediction of Plant Photosynthetic Efficiency Abdellah Lakhssassi; Taminul Islam; Cristiana Bernardi Rankrape; Naoufal'
+  pdflink: paper_0162.pdf
+- id: 163
+  title: 'Multispectral UAV Fusion for Native Tree Species Recognition in the Cerrado'
+  ws: WS20
+  authors: 'Pedro Fernandes de Oliveira; Ana Sofia S. Takahashi; Díbio L. Borges'
+  pdflink: paper_0163.pdf
+- id: 164
+  title: 'CoralLite: µCT Reconstruction of Coral Colonies from Individual Corallites'
+  ws: WS20
+  authors: 'Jess Jones; Leonardo Bertini; 2; 3; Kenneth Johnson; Erica Hendy; Tilo Burghardt'
+  pdflink: paper_0164.pdf
+- id: 165
+  title: 'Keypoint-Based Detection and Collective Behaviour Analysis of Honeybees Using YOLOv8n-pose'
+  ws: WS20
+  authors: 'Behaviour Analysis of Honeybees Using Valentin Daveau; Bastien Posez; Sebora Memolla; Patrice Guyot; Stefan Janaqi; Baptiste Magnier'
+  pdflink: paper_0165.pdf
+- id: 166
+  title: 'On the value of images to learn ecology-aware geographic embeddings'
+  ws: WS20
+  authors: 'Adam Menoud; Maximilien Servajean; 3; Pablo Ubilla Pavez; Théo Larcher; 3; Diego Marcos1 1 Inria; Univ Montpellier; France'
+  pdflink: paper_0166.pdf
+- id: 167
+  title: 'WeedRepFormer: Reparameterizable Vision Transformers for Real-Time Waterhemp Segmentation and Gender Classification'
+  ws: WS20
+  authors: 'Toqi Tahamid Sarker; Taminul Islam'
+  pdflink: paper_0167.pdf
+- id: 168
+  title: 'Automatic Recognition of Bee Larvae for Royal Jelly Production on Embedded Systems'
+  ws: WS20
+  authors: 'Yanis Blot–EL Mazouzi; Umut Gumus; Annaelle Delamarche; Arthur De Macédo; Sebora Memolla; Baptiste Magnier'
+  pdflink: paper_0168.pdf
+- id: 169
+  title: 'Towards benchmarking Western Bluebird detection in the wild'
+  ws: WS20
+  authors: 'Estela Monserrat Arriaga Santana; Julian Rosas Scull; Ibeth P. Alarcon; Bibiana Montoya; Aylin Sosa Mejıa; Hugo Jair Escalante'
+  pdflink: paper_0169.pdf
+- id: 170
+  title: 'Towards Real-Time Drone Vision for Road Safety'
+  ws: WS1
+  authors: ''
+  pdflink: paper_0170.pdf
+- id: 171
+  title: 'SociaRI: Enhancing Social Robot Acceptance through Ontology-Based Context Modeling and LLM-Driven Dialogue'
+  ws: WS1
+  authors: 'Luca Greco; Francesco Rosa; Alessia'
+  pdflink: paper_0171.pdf
+- id: 172
+  title: 'Real-Time Emotion Recognition System with Emotionalize Score'
+  ws: WS1
+  authors: 'Nikita Podstrelov; Hadas Chassidim; Irina Rabaev'
+  pdflink: paper_0172.pdf
+- id: 173
+  title: 'Embedded Audio Event Recognition: Architecture Trade-offs for Real-Time Inference on Resource-Constrained Platforms'
+  ws: WS1
+  authors: 'Dylan Molinié and Andréa Macario Barros'
+  pdflink: paper_0173.pdf
+- id: 174
+  title: 'An Integrated Edge-AI Architecture for Unstructured Off-Road Navigation'
+  ws: WS1
+  authors: 'Teodoro Adinolfi; Emilio Amato; Vincenzo Carletti; Alessio Guarini; Alessia Saggese; Mario Vento'
+  pdflink: paper_0174.pdf
+- id: 175
+  title: 'Medical Image Segmentation via Morphological Conformal Prediction and Fractional Iterations'
+  ws: WS8
+  authors: 'Bruce Cyusa Mukama; Soundouss Messoudi; Sylvain Rousseau; and Sébastien Destercke'
+  pdflink: paper_0175.pdf
+- id: 176
+  title: 'Quantifying the Impact of Segmentation Inaccuracies on Cell Phenotyping in Imaging Mass Cytometry'
+  ws: WS8
+  authors: 'Johannes Schuiki; Markus Steiner'
+  pdflink: paper_0176.pdf
+- id: 177
+  title: 'Modeling Temporal Dynamics of the ICSI Procedure for Fertilization Outcome Prediction'
+  ws: WS8
+  authors: 'Cristina Castera; Nélida Mirabet-Herranz; Laura Carrión; Lorena Bori; Marcos'
+  pdflink: paper_0177.pdf
+- id: 178
+  title: 'G-TBI: Graph-Structured Ordinal Learning for TBI Outcome Prediction'
+  ws: WS8
+  authors: 'Minh-Trang Duong; Thanh-Bac Nguyen; Thanh-Hai Tran'
+  pdflink: paper_0178.pdf
+- id: 179
+  title: 'Efficient Polyp Segmentation via Low-Rank Adaptation: A Cross-Dataset Study on Colonoscopy Images'
+  ws: WS8
+  authors: 'Nafisa Binte Ghulam Kibria; Md Kishor Morol; Ramisa Anjum Oishi'
+  pdflink: paper_0179.pdf
+- id: 180
+  title: 'A Deep Learning Pipeline for Lipid Droplets Analysis in Glioblastoma Spheroids'
+  ws: WS8
+  authors: 'Maroa Alani; Marie Beurton-Aimar; Lucie Brisson; Cloé Tessier'
+  pdflink: paper_0180.pdf
+- id: 181
+  title: 'USVLoc : Infrared Topographic Based Cross-view Localization in Maritime Environment'
+  ws: WS11
+  authors: 'Alexandre Foucher; Cédric Seguin; Dominque Heller; Johann'
+  pdflink: paper_0181.pdf
+- id: 182
+  title: 'Synchronized RGB-D Inpainting for Privacy-Aware 3D Scene Graph Construction'
+  ws: WS11
+  authors: 'Gawtam Chithra Ramesh; 5; Püren Güler; Hiba Alqaysi; Marcus Valtonen Örnhag; Héctor Caltenco; Erdal Akin; 3; 4; and'
+  pdflink: paper_0182.pdf
+- id: 183
+  title: ' Monocular Visual SLAM that works with Pre-built Point Cloud Maps using Point and Line Features'
+  ws: WS11
+  authors: 'Zenong Liu, Guillaume Caron, Fumio Kanehi'
+  pdflink: paper_0183.pdf
+- id: 184
+  title: 'Pose-Constrained UAV Cross-View Geo-Localization with Satellite Imagery for GNSS Correction'
+  ws: WS11
+  authors: 'Geo-Localization with Satellite Imagery for Nikolas Potamianos; Alexandros Gkillas; Aris S. Lalos1 Industrial Systems Institute; Athena Research Center; Patras Science Park; Greece'
+  pdflink: paper_0184.pdf
+- id: 185
+  title: 'Improving 6D Object Pose Estimation via Clustering-based Multi-View Consensus'
+  ws: WS11
+  authors: 'Balint Aron Janik and Viktor Varga1 Eotvos Lor'
+  pdflink: paper_0185.pdf
+- id: 186
+  title: 'Quality Diversity under Dynamic Streaming Data Classification Tasks'
+  ws: WS12
+  authors: 'Ziyu Qiu and Malcolm Heywood'
+  pdflink: paper_0186.pdf
+- id: 187
+  title: 'Towards Interpretable Alzheimer’s Disease Detection: Comparing Genetic Programming Paradigms on Handwriting Data'
+  ws: WS12
+  authors: 'Emanuele Nardone; Leonardo'
+  pdflink: paper_0187.pdf
+- id: 188
+  title: 'Learning Continuous Spectral Dynamics for Robust and Interpretable Brain Tumor Analysis'
+  ws: WS12
+  authors: 'Ujjwal Jain; 2; Santosh Prakash Chouhan; 2; Roshni Chakraborty'
+  pdflink: paper_0188.pdf
+- id: 189
+  title: 'Evolving Football Formations Across Phases of Play from Tracking Data'
+  ws: WS12
+  authors: 'Sam Nejati; Daniele Notarangelo; Jasnoor Singh'
+  pdflink: paper_0189.pdf
+- id: 190
+  title: 'Enhancing Max-k-Cut Solvers through Bio-Inspired Approaches'
+  ws: WS12
+  authors: 'Pietro De Angeli; Giorgia Gabardi; Alberto Vendramini'
+  pdflink: paper_0190.pdf
+- id: 191
+  title: 'An Evolutionary Boost to Gaussian Splatting Optimization'
+  ws: WS12
+  authors: 'Berk Kıvılcım; Erchan Aptoula; Huseyin Ozkan'
+  pdflink: paper_0191.pdf
+- id: 192
+  title: 'Swarm-Based Decoding for Pixel-Based Detection'
+  ws: WS12
+  authors: 'Ciro Russo; 2; Alessandro Bria; Claudio Marrocco'
+  pdflink: paper_0192.pdf
+- id: 193
+  title: 'Breaking the Central Bias: Spatially Partitioned Experts for Coordinate-Based Neuroevolution'
+  ws: WS12
+  authors: 'Romain Claret, Arthur Gygax, Michael O’Neill, Paul Cotofrei, Michael Palma Mendes and Pascal Felber'
+  pdflink: paper_0193.pdf
+- id: 194
+  title: 'Confidence Scores in Open-Vocabulary Detection Are a Biased Mixture of Scale and Semantics'
+  ws: WS14
+  authors: 'Yi Tang Soon and Jun-Wei Hsieh'
+  pdflink: paper_0194.pdf
+- id: 195
+  title: 'Multimodal LLMs for Visual Style Evaluation'
+  ws: WS14
+  authors: 'Ruben Pascual; Izaskun Aguirre; Mikel Sesma-Sara; Aranzazu Jurio; Daniel Paternain; Mikel Galar'
+  pdflink: paper_0195.pdf
+- id: 196
+  title: 'AV-BIMBA: A Cross-Modal State Space Model for Audio-Visual Question Answering'
+  ws: WS14
+  authors: 'Varun Shanmugam; Abduljalil Radman; Jorma Laaksonen'
+  pdflink: paper_0196.pdf
+- id: 197
+  title: 'Unified Spatio-Temporal Model for Fair Facial Attribute Classification'
+  ws: WS14
+  authors: 'Madhurika Patil and Ajita Rattani'
+  pdflink: paper_0197.pdf
+- id: 198
+  title: 'Evaluating Attention Reuse in Dynamic 3D Gaussian Reconstruction'
+  ws: WS14
+  authors: 'M. Uzzwal Vanshik Reddy; T. N. Rickesh; Sowmya Kamath S.1'
+  pdflink: paper_0198.pdf
+- id: 199
+  title: 'Adaptive Query-Conditional Fusion for Egocentric Natural Language Query Grounding'
+  ws: WS14
+  authors: 'Enmin Zhong; Carlos R. del-Blanco; Fernando Jaureguizar; Narciso García '
+  pdflink: paper_0199.pdf
+- id: 200
+  title: 'Are Pretrained VideoLLMs Enough for Action Recognition? A Zero-Shot Evaluation on Charades'
+  ws: WS14
+  authors: 'Recognition? A Zero-Shot Evaluation on Andrea Lagorio; Giuseppe A. Tunfio; Matteo Poddighe; Massimo Tistarelli; Pietro Ruiu'
+  pdflink: paper_0200.pdf
+- id: 201
+  title: 'Multilingual Motion Memory Adaptation for Turkish 3D Talking Faces'
+  ws: WS15
+  authors: 'Hüseyin Temiz; 2; Berk Gökberk; Lale Akarun'
+  pdflink: paper_0201.pdf
+- id: 202
+  title: 'Does Head Pose Correction Improve Biometric Facial Recognition?'
+  ws: WS15
+  authors: 'Justin Norman and Hany Farid1'
+  pdflink: paper_0202.pdf
+- id: 203
+  title: 'A Deep Learning Framework for Infant Sleep Monitoring and SIDS Risk Assessment'
+  ws: WS15
+  authors: 'Abhishek Herbert Samuel; Kakaraparty Sashank Kumar; Aman Bhat; Parthiv Susarla; Ashwinth Janarthanan; Prakash Poornachari; and'
+  pdflink: paper_0203.pdf
+- id: 204
+  title: 'A Comparative and Fusion-Based Analysis of Body Silhouette and Clothing Color for Real-Time Person Re-Identification'
+  ws: WS15
+  authors: 'José Luis Carrillo-Medina; Ivone'
+  pdflink: paper_0204.pdf
+- id: 205
+  title: 'Retake: A Training-free Framework for Physically Plausible Video Generation'
+  ws: WS15
+  authors: 'Junchen Zhou⋆; Zhixian He∗; Yaosi Hu; Ye Liu; Chang Wen Chen'
+  pdflink: paper_0205.pdf
+- id: 206
+  title: 'Unlocking Temporal Generalization in Hamiltonian Video Dynamics Models'
+  ws: WS15
+  authors: 'Eli Laird and Corey Clark'
+  pdflink: paper_0206.pdf
+- id: 207
+  title: 'Physics-Aware Video Generation: A Survey of First-Principles and Common-Sense Approaches'
+  ws: WS15
+  authors: 'Mickael Pires and Rodrigo de Bem'
+  pdflink: paper_0207.pdf
+- id: 208
+  title: 'Revisiting Fall Prediction Tasks: An Empirical Study of Transformer-GAN with Data Representation and Training Strategy'
+  ws: WS15
+  authors: 'Yu-Jung Hsu and Yi-Chieh Wu'
+  pdflink: paper_0208.pdf
+- id: 209
+  title: 'Self-Configurable Information Bottleneck Attribution'
+  ws: WS18
+  authors: 'Vayangi Ganepola; Oluwabukola G. Adegboro'
+  pdflink: paper_0209.pdf
+- id: 210
+  title: 'CS-FEM: Class-Specific Feature Explanation Method and Its Relation to Grad-CAM⋆'
+  ws: WS18
+  authors: 'Ahmet Furkan Ün; Dinh Nam Le; Jenny Benois-Pineau; Marcos'
+  pdflink: paper_0210.pdf
+- id: 211
+  title: 'Generative Inpainting for the Evaluation of Explanations⋆'
+  ws: WS18
+  authors: 'Mohamed Jalal Baim; Romain Xu-Darme; Alban Grastien'
+  pdflink: paper_0211.pdf
+- id: 212
+  title: 'Inpainting Insights: Elevating Visual XAI with Photorealistic Perturbations'
+  ws: WS18
+  authors: 'Josef Lindl; Mariana Chaves; Damien Garreau'
+  pdflink: paper_0212.pdf
+- id: 213
+  title: 'From latent space to voxel-wise quantification of dermis fibrous network in LC-OCT images'
+  ws: WS18
+  authors: 'Raoul Missodey; Sylvie Treuillet; Remy Leconge; Yves Lucas; Samuel Ralambondrainy; Jean-Hubert Cauchard; Franck Bonnier'
+  pdflink: paper_0213.pdf
+- id: 214
+  title: 'R-SHAP: Region Based SHAP for 3D Point Cloud Explainability'
+  ws: WS18
+  authors: 'Muhammad Shoaib Sarwar; Marc F. Harinck'
+  pdflink: paper_0214.pdf
+- id: 215
+  title: 'Explainable Artificial Intelligence (XAI) for Point Cloud Perception in Autonomous Driving: A survey'
+  ws: WS18
+  authors: 'A Aitor Iglesias; Ruben Naranjo; Nerea Aranjuelo; Ignacio Arganda-Carreras; Marcos Nieto'
+  pdflink: paper_0215.pdf
+- id: 216
+  title: 'xC2SAR: An Explainable and Auditable C2 Framework for Human–UAV Teaming in SAR Operations'
+  ws: WS18
+  authors: 'Nikolaos Marios Militsis; Achilleas Toumpas; Ilias Koulalis; Stéphane Zieba; Edward-Benedict Brodie'
+  pdflink: paper_0216.pdf
+- id: 217
+  title: 'Post-Hoc Understanding of Metaphor Processing in Decoder-Only Language Models via Conditional Scale Entropy'
+  ws: WS18
+  authors: 'Lawhori Chakrabarti; Jennifer Johnson-Leung; Bert Baumgaertner'
+  pdflink: paper_0217.pdf
+- id: 218
+  title: 'A Closed-Loop Agentic Framework for Marine Litter Monitoring: Data Synthesis, Augmentation, and Performance-Guided Optimization'
+  ws: WS22
+  authors: 'Alessio Pierluigi Placitelli; 2; Vincenzo Mariano Scarrica'
+  pdflink: paper_0218.pdf
+- id: 219
+  title: 'From Masks to Images: Mask-Conditional Diffusion for Realistic Synthetic SSS Data '
+  ws: WS22
+  authors: 'Franziska Auer; Zayd Yacouti; Tobias Meisen'
+  pdflink: paper_0219.pdf
+- id: 220
+  title: 'A Hybrid Framework for Automated Coral Reef Risk Assessment by Zero-Shot Visual Perception and Fuzzy Cognitive Map Inference'
+  ws: WS22
+  authors: 'Fabio Porcelli; Simone Cioffi'
+  pdflink: paper_0220.pdf
+- id: 221
+  title: 'DIVE-Net: Depthwise Multi-Dilation Vision Network for Efficient Underwater Image Enhancement'
+  ws: WS22
+  authors: 'Sourav Phogat; Koyyada Dinesh Kumar; Sujit Kumar Sahoo'
+  pdflink: paper_0221.pdf
+- id: 222
+  title: 'Advancing Multimodal Emotion Recognition in Comics via Multi-disciplinary, Multi-Task, Multi-Lingual Transfer Learning'
+  ws: WS26
+  authors: 'Umer Mushtaq; Jean-Christophe Burie; Antoine Doucet'
+  pdflink: paper_0222.pdf
+- id: 223
+  title: 'Drawing Boundaries: Evaluating a Heuristic Baseline for Panel Detection in Jack Kirby Comics'
+  ws: WS26
+  authors: 'Baseline for Panel Detection in Jack Kirby John A. Walsh and Faye Jelenski'
+  pdflink: paper_0223.pdf
+- id: 224
+  title: 'Learning Shared Visual Representations for Manga Title and Target Classification: A Multi-Task Closed and Open-Set Evaluation'
+  ws: WS26
+  authors: 'Rosario Licciardello; Georgia Fargetta'
+  pdflink: paper_0224.pdf
+- id: 225
+  title: '9thArtOnto: Towards an ontology for representing visual and narrative structures'
+  ws: WS26
+  authors: 'Alexandre Jaud; Jean-Christophe Burie; Vincent Nguyen; Christophe Rigaud;  Samuel Petit'
+  pdflink: paper_0225.pdf
+- id: 226
+  title: 'A Learning Support System Using Question Generation Based on Oral Reading Behavior when Reading English Manga'
+  ws: WS26
+  authors: 'Sotaro Takaguchi, Motoi Iwata, and Koichi Kise '
+  pdflink: paper_0226.pdf
