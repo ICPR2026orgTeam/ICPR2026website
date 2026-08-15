@@ -299,7 +299,26 @@ async function LoadNotifications() {
         loading.textContent = "Notification are temporarily unavailable";
     }
 }
+
+function hideInstallGuideWhenInstalled() {
+    const installGuide = document.getElementById("install-app-guide");
+
+    if (!installGuide) {
+        return;
+    }
+
+    const isStandalone =
+        window.matchMedia("(display-mode: standalone)").matches ||
+        window.navigator.standalone === true;
+
+    if (isStandalone) {
+        installGuide.hidden = true;
+    }
+}
+
+
  
 
 document.addEventListener("DOMContentLoaded", initializeNotifications);//Wait the full loading of the page
 document.addEventListener("DOMContentLoaded", LoadNotifications);
+document.addEventListener("DOMContentLoaded", hideInstallGuideWhenInstalled);
