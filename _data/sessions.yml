@@ -1,4 +1,3 @@
-
 - sessionId: "1" 
   title: "Representation, Knowledge & Reasoning"
   codePlace: "A"
@@ -400,23 +399,35 @@
   title: "Women@ICPR 2026 Panel — Breaking Through Career Roadblocks"
   codePlace: "A"
   chair: "Alexandra Branzan Albu"
+  mainContent: "
+<h3>Panelists</h3>
+<ul>
+<li>Apostolos Antonacopoulos </li>
+<li> Sara Atito Ali Ahmed </li>
+<li> Alicia Fornés </li>
+<li> Momina Moetesum </li>
+</ul>"
 
 - sessionId: "2W" 
   title: "What is the IAPR and how it can benefit you"
   codePlace: "D"
   chair: "Bob Fisher"
-
+  mainContent: ""
 
 
 - sessionId: "3W" 
-  title: "IAPR Technical Commiittes (reserved to TC chairs)"
+  title: "IAPR Technical Committees (reserved to TC chairs)"
   codePlace: "H"
-  chair: ""
+  mainContent: |
+               IAPR Technical Committees (TCs) are expert groups within IAPR dedicated to specific areas of pattern recognition. This meeting brings together TC chairs to review their activities and receive recommendations. See the list of TCs on the <a href="https://iapr.org/committees/technical-committees">IAPR TC page</a>.
+  chair: "Jose Francisco Martinez-Trinidad"
 
 - sessionId: "4W" 
   title: "IAPR Governing Board Meeting (reserved to governing board members)"
   codePlace: "J"
   chair: ""
+  mainContent: " <p>The IAPR Governing Board oversees the activities and strategic directions of IAPR. This meeting is reserved for Governing Board members. Topics typically include IAPR activities, reports from Technical Committees, financial and administrative matters, future conferences, membership, new initiatives, and governance matters.</p>
+"
 
 - sessionId: "5W" 
   title: "Industrial  Paper Award"
@@ -425,10 +436,19 @@
 
 - sessionId: "6W" 
   title: "Doctorial Consortium"
-  codePlace: "F"
+  codePlace: "G"
   chair: "Mansour Mayaki"
-
-
+  mainContent: |
+               <h2>Join Us for the ICPR 2026 Doctoral Consortium!  </h2>
+               <p> Interested in engaging with the rising talent of our academic community?</p>
+               <p>Join us for an interactive, fast-paced <b class="text-info">Doctoral Consortium</b> featuring <b class="text-info">30 outstanding PhD researchers</b> showcasing their ongoing thesis work!</p>
+               <h3>Highlights of the Session </h3>
+               <ul>
+               <li><b>Lightning Pitches</b>: Hear a rapid presentations highlighting cutting-edge PhD projects and core research challenges.</li>
+               <li><b>Interactive Poster & Networking Session</b>: Meet the PhD candidates, explore innovative methodologies, and connect directly with senior academic and industry mentors</li>
+               </ul>
+               <p>Whether you are looking to offer feedback, explore potential research collaborations, or recruit top-tier talent, you are welcome to join us.</p>
+               <b class="text-info">All ICPR attendees are warmly invited to drop in and participate!</b>
 - sessionId: "S0" 
   title: "Registration"
   codePlace: "K"
