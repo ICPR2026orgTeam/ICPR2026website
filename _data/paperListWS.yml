@@ -1132,3 +1132,106 @@ Bria, Giuseppe Tomasso, and Giovanni Azzarà'
   ws: WS26
   authors: 'Sotaro Takaguchi, Motoi Iwata, and Koichi Kise '
   pdflink: paper_0226.pdf
+
+
+- id: 227
+  title: 'Beating the Style Detector: Three Hours of Agentic Research on the AI-Text Arms Race'
+  ws: WS25
+  authors: 'Andreas Maier, Moritz Zaiss and Siming Bayer'
+  pdflink: paper_0227.pdf
+
+- id: 228
+  title: 'Enabling 8B Bitwise Autoregressive Image Generation on Edge GPUs – Implementation and Reproducibility Notes'
+  ws: WS25
+  authors: 'Enrico Vezzali, Costantino Grana and Federico Bolelli'
+  pdflink: paper_0228.pdf
+
+- id: 229
+  title: 'An Open, Hardware-Independent Protocol for Reproducible Data-Budget Evaluation of Semi-Supervised Learning Methods'
+  ws: WS25
+  authors: 'Erwan Bertrand-Bonvillain, Yassine Nasser and Frédéric Ros'
+  pdflink: paper_0229.pdf
+
+- id: 230
+  title: 'Aegis: Towards Agentic Support for Software Artifact Reviews'
+  ws: WS25
+  authors: 'Konstantin Kirchheim, Sebastian Nielebock and Frank Ortmeier'
+  pdflink: paper_0230.pdf
+
+- id: 231
+  title: 'Why Ranking Anomaly Detection Algorithms Isn''t as Reliable as You May Think'
+  ws: WS25
+  authors: 'Simon Klüttermann, Jérôme Rutinowski, Frederik Polachowski and Alice Kirchheim'
+  pdflink: paper_0231.pdf
+
+- id: 232
+  title: 'Companion Paper on Multi-modal BLIP-2: Q-Former Variants and Metric Robustness'
+  ws: WS25
+  authors: 'Antoine Brimont, Titus Zaharia and Ruxandra Tapu'
+  pdflink: paper_0232.pdf
+
+- id: 233
+  title: 'Reproducing AERO-DETR Configuration-Wise Stability and Implementation Constraints in Runway Extraction'
+  ws: WS25
+  authors: 'Durga Prasad Dhulipudi'
+  pdflink: paper_0233.pdf
+
+- id: 234
+  title: 'M2S-KD: A Multi-to-Single Modal Distillation Framework for Visible-Infrared Object Detection'
+  ws: WS25
+  authors: 'Xiguan Li, Kun Wang, Erting Pan, Zi Wang, Yibin Ye, Zhang Li, Qifeng Yu and Banglei Guan'
+  pdflink: paper_0234.pdf
+
+- id: 235
+  title: 'On the Reproducibility of the EAST-SPL Pipeline: Event-Aware Statistical Tiling for Soccer Player Localization'
+  ws: WS25
+  authors: 'Abolfazl Chaman Motlagh and Mikael Nilsson'
+  pdflink: paper_0235.pdf
+
+- id: 236
+  title: 'Reproducing Vision Transformer-Based Risky Tackle Detection in American Football Practice Videos: A Companion Study'
+  ws: WS25
+  authors: 'Syed Ahsan Masud Zaidi, Lior Shamir and Scott Dietrich'
+  pdflink: paper_0236.pdf
+
+- id: 237
+  title: 'Back to Reproducibility in 3D Anomaly Detection: Revisiting RGB-D for Point-Cloud Evaluation'
+  ws: WS25
+  authors: 'Remi Lhoste, Antoine Vacavant and Damien Delhay'
+  pdflink: paper_0237.pdf
+
+- id: 238
+  title: 'Benchmarking Transformers on Spatio-Temporal River Water Temperature Modeling: Implementation and Reproducibility Notes'
+  ws: WS25
+  authors: 'Linlin Jia, Benjamin Fankhauser, Vidushi Bigler and Kaspar Riesen'
+  pdflink: paper_0238.pdf
+
+- id: 239
+  title: 'Implementation and Reproducibility Notes on Robust 3D Human Pose Estimation from mmWave Radar via Spatio-Temporal Representation Learning'
+  ws: WS25
+  authors: 'Kai-Ming Cao, Ming-Han Lee, Wei-Che Hsu, Kun-Ru Wu, Hong-Dun Lin, Ren-De Xie, Bo-Yang Chen and Yu-Chee Tseng'
+  pdflink: paper_0239.pdf
+
+- id: 240
+  title: 'Reproducibility Companion Paper: Comparative Evaluation of Deep Learning Architectures and Training Strategies for Diabetic Retinopathy Classification'
+  ws: WS25
+  authors: 'Mohamed Lamine Benhabireche, Mourad Belhadj, Dalila Tamzalit and Oussama Aiadi'
+  pdflink: paper_0240.pdf
+
+- id: 241
+  title: 'DepthPolyp in Practice: Reproducible Deployment and Practical Lessons for Real-Time Colonoscopy Segmentation'
+  ws: WS25
+  authors: 'Zhuoyu Wu, Wenhui Ou, Lexi Zhang, Pei-Sze Tan, Mingze Sun, Junhe Zhao, Wenqi Fang and Raphaël C.-W. Phan'
+  pdflink: paper_0241.pdf
+
+- id: 242
+  title: 'Auditing the Auditor: A Reproducibility Study of Grounded Hallucination Auditing in Video Summarization'
+  ws: WS25
+  authors: 'Muhammad Aqeel, Maham Nazir, Marco Cristani and Francesco Setti'
+  pdflink: paper_0242.pdf
+
+- id: 243
+  title: 'Scaling Closed-Loop Feature Channel Configuration with LLMs'
+  ws: WS25
+  authors: 'Tolgay Atinc Uzun, Radu Timofte and Dmytro Ignatov'
+  pdflink: paper_0243.pdf

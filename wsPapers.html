@@ -1,0 +1,61 @@
+---
+layout: default
+title: "ICPR 2026: list of accepted papers by track"
+canonical: "https://icpr2026.org/wsPapers.html"
+description: "List of accepted papers to ICPR 2026 - International Conference on Pattern Recognition that take place in Lyon 17-22 August 2026."
+last_modified: 2026-07-14
+---
+
+
+{% assign papers = site.data.paperListWS %}
+{% assign work = site.data.workshops %}
+
+<section id="searchPaper">
+  <h1>Workshop ICPR 2026 Papers   </h1>
+  
+
+  
+
+<h2>Workshop papers list </h2> 
+
+{% for w in work %}
+
+
+
+<div  class="card text-dark bg-light mb-5" style="max-width: 110rem;">
+  <div class="card-header fs-5 fw d-flex align-items-center"> <span> <b>{{ w.title }} </b> ({{ w.acronym }})</span> <span class="ms-auto">({{ w.room }})</span> <span class="ms-auto">{{ w.id }}</span> </div>
+  <div class="card-body">
+
+    <table class="table-workshop">
+    <tbody>
+
+      {% for p in papers %}
+         {% if p.ws == w.id %}
+
+      <tr>
+      <td>{{ p.id }}</td>
+      <td><div class="text-break">{{ p.title }}</div>
+              <div style="font-size: 0.9em; color: #666;">
+              {{ p.authors | join: ", " | replace: "*", "" | replace: "1", "" | replace: "2", ""| replace: "3", "" | replace: " †", ""| replace: ";;", ";"| replace: "; ;", ";"}}
+            </div>
+ </td>
+      <td>{% if p.pdflink %}
+      <a href="https://icpr2026orgteam.github.io/WSpapers/pdfs/{{ p.pdflink }}" target="_blank" class="text-danger">
+        <i class="bi bi-file-earmark-pdf"></i> PDF
+      </a>
+    {% endif %}
+      </td>
+    </tr>
+      {% endif %}
+
+
+
+  {% endfor %}
+
+    </tbody>
+  </table>
+  </div>
+</div>
+    {% endfor %}
+
+</section>
