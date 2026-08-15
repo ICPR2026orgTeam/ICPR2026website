@@ -24,6 +24,7 @@ last_modified: 2026-08-15
   <tbody>
 
 {% for w in work %}
+  {% if w.id != "WS21" %}
 
   <tr>
     <td > {{ w.id }} </td>
@@ -39,7 +40,8 @@ last_modified: 2026-08-15
  </td>
     <td> <a href = "#{{ w.id }}"> {{ w.title }} </a></td>
   </tr>
-{% endfor %}
+{%endif %}
+  {% endfor %}
 </tbody>
 </table>
 
@@ -51,7 +53,10 @@ last_modified: 2026-08-15
 
 <h2>Workshop papers list </h2> 
 
+<p>Note that the papers listed here are not the final versions that will be published by Springer.</p>
+
 {% for w in work %}
+  {% if w.id != "WS21" %}
 
 
 
@@ -89,6 +94,7 @@ last_modified: 2026-08-15
   </table>
   </div>
 </div>
+{% endif %}
     {% endfor %}
 
 </section>
