@@ -1629,12 +1629,12 @@
 - id: 481
   title: 'Eva Optimizer: Escaping Low-Curvature Traps In Deep Learning'
   track: O3-C.T1
-  fullauthors: Carlo Metta (ISTI CNR)*; Antonio Di Cecco (University Campus Bio-Medico
-    Rome); Andrea Papini (Chalmers University of Technology); Marco Fantozzi (University
+  fullauthors:  Antonio Di Cecco (University Campus Bio-Medico
+    Rome);Carlo Metta (ISTI CNR)*; Andrea Papini (Chalmers University of Technology); Marco Fantozzi (University
     of Parma); Silvia Giulia Galfré (University of Pisa); Michelangelo Vegliò (University
     of Chieti Pescara); Luigi Amedeo Bianchi (University of Trento); Maurizio Parton
     (University of Chieti Pescara); Francesco Morandin (University of Pisa)
-  authors: Metta, Carlo*; Di Cecco, Antonio; Papini, Andrea; Fantozzi, Marco; Galfré,
+  authors: Di Cecco, Antonio; Metta, Carlo*; ; Papini, Andrea; Fantozzi, Marco; Galfré,
     Silvia Giulia; Vegliò, Michelangelo; Bianchi, Luigi Amedeo; Parton, Maurizio;
     Morandin, Francesco
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31666-0_8
