@@ -2259,7 +2259,7 @@
     of Cyprus)
   authors: Savva, Antonis*; Kyrkou, Christos; Theocharides, Theocharis
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31673-8_35
-  ext-presenter: Avijit Dasgupta
+ # ext-presenter: Avijit Dasgupta
 - id: 631
   title: 3D Sparse Gan-Based Moe For Object Generation And Completion
   track: P1.T1
@@ -5377,6 +5377,7 @@
     University); Massimiliano Albanese (George Mason University)
   authors: Vurity, Anudeep*; Yan, Zhisheng ; Albanese, Massimiliano
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31930-2_17
+  ext-presenter: Avijit Dasgupta
 - id: 1434
   title: Dense Frame Annotations For Low-Resource Isl Fingerspelling Recognition
   track: O7-C.T4
