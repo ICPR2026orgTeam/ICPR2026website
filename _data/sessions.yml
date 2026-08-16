@@ -375,7 +375,7 @@
 - sessionId: "P2" 
   title: "Poster Session 2"
   codePlace: "F"
-  chair: "Olga Cherednichenko"
+  chair: "Olga Cherednichenko, Mihaela Scuturici"
   paperTrack: "1,2,4,5"
 
 
@@ -391,7 +391,7 @@
 - sessionId: "P4" 
   title: "Poster Session 4"
   codePlace: "F"
-  chair: "Tetiana Yemelianenko"
+  chair: "Tetiana Yemelianenko,  Mihaela Scuturici"
   paperTrack: "1,3,4,6"
 
 
