@@ -4297,7 +4297,7 @@
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31452-9_42
 - id: 1168
   title: Compact Recurrent Transformer With Persistent Memory
-  track: P3.T2 #O3-E.T2
+  track: O8-B.T2 # P3.T2 #O3-E.T2
   fullauthors: Edison Mucllari (University of Kentucky)*; Zachary Daniels (SRI International);
     David Zhang (SRI International); Qiang Ye (University of Kentucky)
   authors: Mucllari, Edison*; Daniels, Zachary; Zhang, David; Ye, Qiang
