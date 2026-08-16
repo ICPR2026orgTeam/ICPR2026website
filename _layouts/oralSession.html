@@ -47,6 +47,7 @@
     | first %}
 
     {% assign listPapersAll = site.data.paperList %}
+    {% assign paperLabelList = site.data.papersRRLabels %}
 
 
     {% capture sessionNumber %}
@@ -123,7 +124,8 @@
         {% assign minute = current | modulo: 60 %}
         {% assign hourEND = end | divided_by: 60 %}
         {% assign minuteEND = end | modulo: 60 %}
-
+      {% assign paper_id = paper.id | append: "" %}
+      
       <tr>
     <td {% if paper.presented == "no" %}style="color:#CCC;" {% endif %}>
       {% if hour < 10 %}0{% endif %}{{ hour }}h{% if minute < 10 %}0{% endif %}{{ minute }}-{% if hourEND < 10 %}0{% endif %}{{ hourEND }}h{% if minuteEND < 10 %}0{% endif %}{{ minuteEND }}
@@ -156,7 +158,10 @@
 <a href="{{ paper.pdflink }}" target="_blank"
    class="{% if paper.presented == "no" %}text-secondary{% else %}text-danger{% endif %}">
   <i class="bi bi-file-earmark-pdf"></i> PDF
-</a>
+</a> {% if paperLabelList contains paper_id %}
+        <img src="/Images/labelRL.svg" alt="Label" width="64" height="64" class="ms-1">
+        {% endif %}
+       
         {% endif %}
     </td>
 
