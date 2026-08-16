@@ -5377,7 +5377,6 @@
     University); Massimiliano Albanese (George Mason University)
   authors: Vurity, Anudeep*; Yan, Zhisheng ; Albanese, Massimiliano
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31930-2_17
-  ext-presenter: Avijit Dasgupta
 - id: 1434
   title: Dense Frame Annotations For Low-Resource Isl Fingerspelling Recognition
   track: O7-C.T4
@@ -5385,6 +5384,7 @@
     Namboodiri (University of Bath); CV Jawahar (IIIT Hyderabad)
   authors: R, Kirandevraj*; Kurmi, Vinod; Namboodiri, Vinay; Jawahar, CV
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31930-2_18
+  ext-presenter: Avijit Dasgupta
 - id: 1436
   title: 'Toep: Task-Specific Operator Evolution Via Multi-Objective Pareto Optimization
     For Automatic Workflow Generation'
