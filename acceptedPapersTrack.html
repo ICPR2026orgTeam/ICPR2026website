@@ -27,6 +27,8 @@ last_modified: 2026-07-14
 
 {% assign tracksdef = site.data.tracks %}
 
+{% assign paperLabelList = site.data.papersRRLabels %}
+
 
 <table class="table-workshop" id="tracksOverview">
   <thead>
@@ -75,8 +77,14 @@ last_modified: 2026-07-14
       {% assign link = p.track | split: "." | first | remove: "-" | replace: "O", "oral" | replace: "P", "poster"  %}
 
       {% if last_part == track_key %}
-        <tr>
-          <td>{{ p.id }}</td>
+      {% assign paper_id = p.id | append: "" %}
+    
+    <tr>
+      <td>{{ p.id }}
+        {% if paperLabelList contains paper_id %}
+        <img src="/Images/labelRL.svg" alt="Label" width="64" height="64" class="ms-1">
+        {% endif %}
+        </td>
           <td>
             <div class="text-break">{{ p.title }}</div>
             <div style="font-size: 0.9em; color: #666;">
@@ -90,7 +98,7 @@ last_modified: 2026-07-14
             {% if p.pdflink %}
             <a href="{{ p.pdflink }}" target="_blank" class="text-danger">
   <i class="bi bi-file-earmark-pdf"></i> PDF
-</a>
+            </a>
             {% endif %}
           </td>
           <td><a href="{{ site.baseurl }}/sessions/{{link}}/">{{ p.track }}</a>
@@ -98,7 +106,7 @@ last_modified: 2026-07-14
           {% if poster_number %}
           #{{ poster_number }}
           {% endif %}
-
+          
           </td>
         </tr>
       {% endif %}
