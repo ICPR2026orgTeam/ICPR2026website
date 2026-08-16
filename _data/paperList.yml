@@ -776,6 +776,7 @@
   fullauthors: Xiujin Liu (University of Michigan)*
   authors: Liu, Xiujin*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31654-7_1
+  ext-presenter: Chen Wang
 - id: 249
   title: 'Kraft: Kalman Residual Diffusion With Formation Awareness For Uav Swarm
     Tracking'
