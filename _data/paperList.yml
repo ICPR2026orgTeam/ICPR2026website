@@ -4551,6 +4551,7 @@
   authors: Chen, Tong; Li, Jia; Chen, Yunzhi; Huang, Hongyang; Yang, Fengyu*; Chen,
     Ying
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_22
+  presented: "no"
 - id: 1238
   title: 'Fedadas: Communication-Efficient Federated Distillation For On-Device Driver
     Yawn Recognition In Vehicular Networks'

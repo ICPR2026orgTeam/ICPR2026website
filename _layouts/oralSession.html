@@ -125,17 +125,25 @@
         {% assign minuteEND = end | modulo: 60 %}
 
       <tr>
-    <td>
+    <td {% if paper.presented == "no" %}style="color:#CCC;" {% endif %}>
       {% if hour < 10 %}0{% endif %}{{ hour }}h{% if minute < 10 %}0{% endif %}{{ minute }}-{% if hourEND < 10 %}0{% endif %}{{ hourEND }}h{% if minuteEND < 10 %}0{% endif %}{{ minuteEND }}
     </td>
 
-    <td>{{ paper.id }}</td>
+    <td {% if paper.presented == "no" %}style="color:#CCC;" {% endif %}>{{ paper.id }}</td>
 
     <td>
+      {% if paper.presented == "no" %}
+      <div style="font-size:0.9em;color:#CCC;">{{ paper.title }}</div>
+      <div style="font-size:0.9em;color:#CCC;">
+        {{ paper.authors | join:", " | replace:"*","" }}
+      </div>
+
+      {% else %}
       <div>{{ paper.title }}</div>
       <div style="font-size:0.9em;color:#666;">
         {{ paper.authors | join:", " | replace:"*","" }}
       </div>
+      {% endif %}
       {% if paper.ext-presenter %}
             <div style="font-size: 0.9em; color: #C22;">
               {{  "presented by:" }} {{ paper.ext-presenter }}
@@ -143,11 +151,12 @@
             {% endif %}
 
     </td>
-    <td>
+    <td >
         {% if paper.pdflink %}
-        <a href="{{ paper.pdflink }}" target="_blank" class="text-danger">
-            <i class="bi bi-file-earmark-pdf"></i> PDF
-        </a>
+<a href="{{ paper.pdflink }}" target="_blank"
+   class="{% if paper.presented == "no" %}text-secondary{% else %}text-danger{% endif %}">
+  <i class="bi bi-file-earmark-pdf"></i> PDF
+</a>
         {% endif %}
     </td>
 
