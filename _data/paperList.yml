@@ -2258,6 +2258,7 @@
     of Cyprus)
   authors: Savva, Antonis*; Kyrkou, Christos; Theocharides, Theocharis
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31673-8_35
+  ext-presenter: Avijit Dasgupta
 - id: 631
   title: 3D Sparse Gan-Based Moe For Object Generation And Completion
   track: P1.T1
