@@ -46,6 +46,7 @@
     {% assign listPaper = site.data.paperList %}
     {% assign time = site.data.timeSession %}
     {% capture code %}P{{posterSessionID}}{% endcapture %}
+    {% assign paperLabelList = site.data.papersRRLabels %}
 
     {% assign listPapers = "" | split: "" %}
 
@@ -134,6 +135,8 @@
 
 
       {% for p in listPapers  %}
+      {% assign paper_id = p.id | append: "" %}
+      
  <tr>
    <td>{{ p.id }} <div>{{ p.track |slice: -2, 2 }}</div>
    </td>
@@ -155,6 +158,10 @@
           <i class="bi bi-file-earmark-pdf"></i> PDF
         </a>
         {% endif %}
+         {% if paperLabelList contains paper_id %}
+        <a href="https://iapr-tc22-rrl.github.io/icpr2026/results/"><img src="/Images/labelRL.svg" alt="Label" width="64" height="64" class="ms-1"></a>
+        {% endif %}
+       
           </td>
    <td>
             {% assign poster_number = site.data.gridPosterID[p.id] %}
