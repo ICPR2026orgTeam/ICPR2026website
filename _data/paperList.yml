@@ -4556,6 +4556,7 @@
     Ying
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_22
   presented: "no"
+  endOrder: 2
 - id: 1238
   title: 'Fedadas: Communication-Efficient Federated Distillation For On-Device Driver
     Yawn Recognition In Vehicular Networks'
