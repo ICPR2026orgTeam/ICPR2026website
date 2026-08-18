@@ -966,7 +966,7 @@ Bria, Giuseppe Tomasso, and Giovanni Azzarà'
   title: 'Breaking the Central Bias: Spatially Partitioned Experts for Coordinate-Based Neuroevolution'
   ws: WS12
   authors: 'Romain Claret, Arthur Gygax, Michael O’Neill, Paul Cotofrei, Michael Palma Mendes and Pascal Felber'
-#  pdflink: paper_0193.pdf
+  pdflink: paper_0193.pdf
 - id: 194
   title: 'Confidence Scores in Open-Vocabulary Detection Are a Biased Mixture of Scale and Semantics'
   ws: WS14
@@ -996,7 +996,7 @@ Bria, Giuseppe Tomasso, and Giovanni Azzarà'
   title: 'Adaptive Query-Conditional Fusion for Egocentric Natural Language Query Grounding'
   ws: WS14
   authors: 'Enmin Zhong; Carlos R. del-Blanco; Fernando Jaureguizar; Narciso García '
-#  pdflink: paper_0199.pdf
+  pdflink: paper_0199.pdf
 - id: 200
   title: 'Are Pretrained VideoLLMs Enough for Action Recognition? A Zero-Shot Evaluation on Charades'
   ws: WS14
@@ -1131,7 +1131,7 @@ Bria, Giuseppe Tomasso, and Giovanni Azzarà'
   title: 'A Learning Support System Using Question Generation Based on Oral Reading Behavior when Reading English Manga'
   ws: WS26
   authors: 'Sotaro Takaguchi, Motoi Iwata, and Koichi Kise '
-#  pdflink: paper_0226.pdf
+  pdflink: paper_0226.pdf
 
 
 - id: 227
