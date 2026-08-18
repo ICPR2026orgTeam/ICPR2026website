@@ -1178,3 +1178,13 @@ $color-coffee: #B8912F;
 .homepage-resource-card a:hover {
   text-decoration: none;
 }
+
+.sponsors-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #005a63;
+  text-decoration: underline;
+}
