@@ -111,7 +111,9 @@
 
       {% assign startMinutes = hh | times: 60 %}
       {% assign startMinutes = startMinutes | plus: mm %}
- 
+       {% assign lastCurrent = 0 %}
+      {% assign paperIndex = 0 %}
+
      {% for paper in listPapers %}
         {% unless paper.endOrder %}
 
@@ -127,7 +129,8 @@
         {% assign hourEND = end | divided_by: 60 %}
         {% assign minuteEND = end | modulo: 60 %}
       {% assign paper_id = paper.id | append: "" %}
-      
+      {% assign lastCurrent = current %}
+
       <tr>
     <td {% if paper.presented == "no" %}style="color:#CCC;" {% endif %}>
       {% if hour < 10 %}0{% endif %}{{ hour }}h{% if minute < 10 %}0{% endif %}{{ minute }}-{% if hourEND < 10 %}0{% endif %}{{ hourEND }}h{% if minuteEND < 10 %}0{% endif %}{{ minuteEND }}
@@ -168,8 +171,11 @@
     </td>
 
       </tr>
+          {% assign paperIndex = paperIndex | plus: 1 %}
+
       {% endunless %}
-{% endfor %}
+      {% endfor %}
+      
 {% for wantedOrder in (1..10) %}
 
   {% for paper in listPapers %}
