@@ -1804,7 +1804,7 @@
 - id: 528
   title: 'Mmfuser: Multimodal Multi-Layer Feature Fuser For Fine-Grained Vision-Language
     Understanding'
-  track: O2-B.T2
+  track: O8-B.T2 # O2-B.T2
   fullauthors: Yue Cao (Nanjing University)*; Yong Huang (Nanjing Customs); Wei Zhu
     (China Mobile Zijin Innovation Insititute); Yangzhou Liu (Nanjing University);
     Zhe Chen (Nanjing University); Guangchen Shi (Nanjing University); Yong Fa (Nanjing
@@ -1813,6 +1813,7 @@
   authors: Cao, Yue*; Huang, Yong; Zhu, Wei; Liu, Yangzhou; Chen, Zhe; Shi, Guangchen;
     Fa, Yong; Yang, Yujie; Mei, Song; Lu, Tong
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31666-0_27
+  endOrder: 1
 - id: 529
   title: Llm-Guided Exploration For Sample-Efficient Uav Navigation
   track: P3.T1
