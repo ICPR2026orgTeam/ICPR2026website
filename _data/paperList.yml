@@ -3003,7 +3003,7 @@
 - id: 862
   title: 'HypDeformNet: Edge-Deployable Deep Architecture with Jacobian-Stable Hyperbolic Deformation and Lipschitz Distillation
     for Immunotherapy Response Prediction'
-  track: O3-C.T1
+  track:  O7-D.T3 # O3-C.T1
   fullauthors: Francesco Rundo (University of Catania)*; Massimo Spata (University
     of Catania); Giuseppe Luigi Banna (University of Portsmouth); Sebastiano Battiato
     (University of Catania)
