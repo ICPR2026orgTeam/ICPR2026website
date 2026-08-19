@@ -1178,3 +1178,99 @@ $color-coffee: #B8912F;
 .homepage-resource-card a:hover {
   text-decoration: none;
 }
+
+/* Animated farewell toast */
+
+.champagne-toast {
+  position: relative;
+  display: inline-block;
+  width: 3.25rem;
+  height: 2.75rem;
+  margin-right: 0.45rem;
+  vertical-align: middle;
+}
+
+.champagne-toast__glass {
+  position: absolute;
+  bottom: 0;
+  width: 1.35rem;
+  height: 2.7rem;
+  overflow: visible;
+  color: #8a6718;
+  transform-origin: 50% 90%;
+}
+
+.champagne-toast__glass--left {
+  left: 0.15rem;
+  animation: champagne-clink-left 2.6s ease-in-out infinite;
+}
+
+.champagne-toast__glass--right {
+  right: 0.15rem;
+  animation: champagne-clink-right 2.6s ease-in-out infinite;
+}
+
+.champagne-toast__bowl {
+  fill: #fff9e9;
+  stroke: currentcolor;
+  stroke-width: 2.5;
+  stroke-linejoin: round;
+}
+
+.champagne-toast__drink {
+  fill: #e9b949;
+}
+
+.champagne-toast__stem {
+  fill: none;
+  stroke: currentcolor;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+}
+
+.champagne-toast__spark {
+  position: absolute;
+  top: -0.2rem;
+  left: 50%;
+  color: #d89b16;
+  font-size: 0.8rem;
+  opacity: 0;
+  transform: translateX(-50%) scale(0.4);
+  animation: champagne-spark 2.6s ease-in-out infinite;
+}
+
+@keyframes champagne-clink-left {
+  0%, 25%, 70%, 100% {
+    transform: translateX(0) rotate(-8deg);
+  }
+  40%, 55% {
+    transform: translateX(0.42rem) rotate(10deg);
+  }
+}
+
+@keyframes champagne-clink-right {
+  0%, 25%, 70%, 100% {
+    transform: translateX(0) rotate(8deg);
+  }
+  40%, 55% {
+    transform: translateX(-0.42rem) rotate(-10deg);
+  }
+}
+
+@keyframes champagne-spark {
+  0%, 35%, 60%, 100% {
+    opacity: 0;
+    transform: translateX(-50%) scale(0.4);
+  }
+  43%, 52% {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .champagne-toast__glass,
+  .champagne-toast__spark {
+    animation: none;
+  }
+}
