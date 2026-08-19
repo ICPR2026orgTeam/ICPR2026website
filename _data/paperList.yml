@@ -3009,6 +3009,7 @@
     (University of Catania)
   authors: Rundo, Francesco*; Spata, Massimo; Banna, Giuseppe Luigi; Battiato, Sebastiano
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31404-8_29
+  endOrder: 2   
 - id: 863
   title: 'Cgff: Video Style Transfer With Confidence-Guided Frame Fusion'
   track: P4.T3
