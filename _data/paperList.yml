@@ -4966,7 +4966,7 @@
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31927-2_20
 - id: 1336
   title: Smooth Or Jarring? Evaluating Video Transitions With Transisense And Vt-Bench
-  track: P3T2 #P2.T2
+  track: P3.T2 #P2.T2
   fullauthors: Abhirup Das (Indraprastha Institute of Information Technology Delhi
     (IIIT-Delhi)); Nishant Singh (Indraprastha Institute of Information Technology
     Delhi (IIIT-Delhi)); Anubha Gupta (Indraprastha Institute of Information Technology
