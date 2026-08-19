@@ -564,3 +564,20 @@
                A special moment to bring all participants together and capture a lasting memory of ICPR 2026.
                
 
+
+- sessionId: "S7" 
+  title: "ICPR TeeShirt Pick-up"
+  codePlace: "M"
+  chair: "Local volunteer team"
+  mainContent: |
+  
+               Please Pick-up your ICPR 2026 pick-up! 
+ <figure class="mb-0 mx-auto text-center" style="width: 50%;">
+  <img class="img-fluid rounded shadow-sm"
+       src="/Images/TeeShirtICPR26.jpg"
+       alt="ICPR 2026 Tee Shirt"
+       loading="lazy">
+  <figcaption class="text-muted small mt-2">
+    A preview of the ICPR 2026 Tee Shirt.
+  </figcaption>
+</figure>
