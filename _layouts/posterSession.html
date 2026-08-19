@@ -118,14 +118,14 @@
             title="Click to copy poster IDs">
             # and Track
           </span>
-      </button></th>
+      </th>
         <th>Title and Authors</th>
-       <th><span id="copyTrack" 
-            style="cursor:pointer;"
-            title="Click to copy poster IDs">
+       <th>
          PDF
 </span></th>
-<th>#grid board </th>
+<th><span id="copyGrid" 
+            style="cursor:pointer;"
+            title="Click to copy poster IDs">#grid board</span>  </th>
       </tr>
     </thead>
     <tbody>
@@ -207,14 +207,14 @@ document.getElementById("copyIds").addEventListener("click", async () => {
     alert("Unable to copy the IDs.");
   }
 });
-document.getElementById("copyTrack").addEventListener("click", async () => {
+document.getElementById("copyGrid").addEventListener("click", async () => {
 
   const ids = `{% for p in listPapers %}{{ p.track |slice: -2, 2 }}{% unless forloop.last %}, {% endunless %}{% endfor %}`;
 
   try {
     await navigator.clipboard.writeText(ids);
 
-    const btn = document.getElementById("copyTrack");
+    const btn = document.getElementById("copyGrid");
     const old = btn.innerHTML;
     btn.innerHTML = "✓";
     setTimeout(() => btn.innerHTML = old, 1500);
