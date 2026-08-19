@@ -558,10 +558,11 @@
 
 - sessionId: "S6" 
   title: "ICPR Group Photography"
-  codePlace: "F"
+  codePlace: "A"
   chair: "Main ICPR photograph"
   mainContent: |
                A special moment to bring all participants together and capture a lasting memory of ICPR 2026.
+               <b class="text-info"> In the main auditorium with your ICPR 2026 Tee-shirt!</b>
                
 
 
