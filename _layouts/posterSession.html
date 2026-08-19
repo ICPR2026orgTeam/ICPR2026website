@@ -209,7 +209,7 @@ document.getElementById("copyIds").addEventListener("click", async () => {
 });
 document.getElementById("copyGrid").addEventListener("click", async () => {
 
-  const ids = `{% for p in listPapers %}{{ p.track |slice: -2, 2 }}{% unless forloop.last %}, {% endunless %}{% endfor %}`;
+  const ids = `{% for p in listPapers %}{{ site.data.gridPosterID[p.id]  }}{% unless forloop.last %}, {% endunless %}{% endfor %}`;
 
   try {
     await navigator.clipboard.writeText(ids);
