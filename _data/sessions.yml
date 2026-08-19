@@ -522,10 +522,22 @@
  
 
 - sessionId: "S3" 
-  title: "Conference Banquet"
+  title: "Conference Banquet — Gala Dinner"
   codePlace: "F"
   chair: ""
-  mainContent: "(main conference center)"
+  mainContent: |
+               <p>Join us for the ICPR 2026 Conference Banquet, a gala dinner bringing the community together for an elegant and memorable evening.</p>
+               <p>Guests will enjoy an elegant menu in a welcoming setting, with time to connect with colleagues and celebrate the conference.</p>
+               <p><strong>Location:</strong> Main conference venue (Forum 4).</p>
+               <div class="row g-3 mt-2">
+                 <figure class="col-md-6 mb-0">
+                   <img class="img-fluid rounded shadow-sm" src="/Images/gala-dinner-table.jpg" alt="ICPR 2026 gala dinner menu surrounded by wine glasses and an elegant table setting" loading="lazy">
+                   <figcaption class="text-muted small mt-2">A preview of the ICPR 2026 gala dinner setting.</figcaption>
+                 </figure>
+                 <figure class="col-md-6 mb-0">
+                   <img class="img-fluid rounded shadow-sm" src="/Images/gala-dinner-menu.jpg" alt="ICPR 2026 gala dinner menu displayed beside bread, glassware, and cutlery" loading="lazy">
+                 </figure>
+               </div>
 
 - sessionId: "S4" 
   title: "Closing & Awards"
