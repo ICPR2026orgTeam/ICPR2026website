@@ -542,7 +542,7 @@
 - sessionId: "S4" 
   title: "Closing & Awards"
   codePlace: "A"
-  chair: ""
+  chair: "Maria De Marsico, Arun Ross and Jean-Marc Ogier "
   mainContent: |
                <p>Join us for the ICPR 2026 Closing &amp; Awards Ceremony, where we will celebrate the conference's outstanding contributions. Awards will be presented for the Best Student Paper Award, Best Scientific Award, and other distinctions.</p>
                <p><span class="champagne-toast" aria-hidden="true"><svg class="champagne-toast__glass champagne-toast__glass--left" viewBox="0 0 32 64"><path class="champagne-toast__bowl" d="M6 4h20l-2 22c-.5 6-3.5 10-8 10S8.5 32 8 26L6 4Z"/><path class="champagne-toast__drink" d="M8 18h16l-1 9c-.5 5-3 8-7 8s-6.5-3-7-8l-1-9Z"/><path class="champagne-toast__stem" d="M16 36v21M8 59h16"/></svg><svg class="champagne-toast__glass champagne-toast__glass--right" viewBox="0 0 32 64"><path class="champagne-toast__bowl" d="M6 4h20l-2 22c-.5 6-3.5 10-8 10S8.5 32 8 26L6 4Z"/><path class="champagne-toast__drink" d="M8 18h16l-1 9c-.5 5-3 8-7 8s-6.5-3-7-8l-1-9Z"/><path class="champagne-toast__stem" d="M16 36v21M8 59h16"/></svg><span class="champagne-toast__spark">✦</span></span>The ceremony will conclude with a farewell toast, offering everyone a final opportunity to celebrate together and mark the close of ICPR 2026.</p>
