@@ -78,27 +78,44 @@ last_modified: 2026-07-14
 
       {% if last_part == track_key %}
       {% assign paper_id = p.id | append: "" %}
-    
-    <tr>
-      <td>{{ p.id }}
+    <tr data-presenter="{{ p.presenter | escape }}">
+      <td>
+        {% if p.presenter == "..." %} <div style="font-size: 0.9em; color: #AAA;">
+          {{ p.id }} </div>
+        {% else %}
+          {{ p.id }}
+        {% endif %}
         {% if paperLabelList contains paper_id %}
         <a href="https://iapr-tc22-rrl.github.io/icpr2026/results/">
         <img src="/Images/labelRL.svg" alt="Label" width="64" height="64" class="ms-1"></a>
         {% endif %}
         </td>
-          <td>
+      <td>
+        {% if p.presenter == "..." %}
+        <div class="text-break" style="font-size: 0.9em; color: #888;">{{ p.title }}</div>
+        <div style="font-size: 0.9em; color: #AAA;">
+              {{ p.authors | join: ", " | replace: "*", "" }}
+            </div>
+            {% else %}
             <div class="text-break">{{ p.title }}</div>
             <div style="font-size: 0.9em; color: #666;">
               {{ p.authors | join: ", " | replace: "*", "" }}
             </div>
+            {% endif %}
             {% if p.ext-presenter %}
             <div style="font-size: 0.9em; color: #C22;">
-              {{  "presented by:" }} {{ p.ext-presenter }}
+              {{  "presented by (proxy):" }} {{ p.ext-presenter }}
             </div>
+            {% else  %}
+            {% if p.presenter and p.presenter != "..."  %}
+            <div style="font-size: 0.9em; color: #88111;">
+              {{  "presented by:" }} {{ p.presenter }}
+            </div>
+            {% endif %}
             {% endif %}
             {% if p.pdflink %}
             <a href="{{ p.pdflink }}" target="_blank" class="text-danger">
-  <i class="bi bi-file-earmark-pdf"></i> PDF
+              <i class="bi bi-file-earmark-pdf"></i> PDF
             </a>
             {% endif %}
           </td>
@@ -145,7 +162,9 @@ const value = this.value.trim().toLowerCase();
             const id = row.querySelector("td").textContent.trim();
 
             let visible;
-            if (/^\d+$/.test(value)) {
+           if (value ==="..."){
+                 visible = row.dataset.presenter === "...";
+           }else if (/^\d+$/.test(value)) {
                 visible = (id === value);
             } else {
                 visible = text.includes(value);
