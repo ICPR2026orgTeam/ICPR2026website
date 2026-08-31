@@ -132,16 +132,16 @@
       {% assign lastCurrent = current %}
 
       <tr>
-    <td {% if paper.presented == "no" %}style="color:#CCC;" {% endif %}>
+    <td {% if paper.presenter == "..." %}style="color:#888;" {% endif %}>
       {% if hour < 10 %}0{% endif %}{{ hour }}h{% if minute < 10 %}0{% endif %}{{ minute }}-{% if hourEND < 10 %}0{% endif %}{{ hourEND }}h{% if minuteEND < 10 %}0{% endif %}{{ minuteEND }}
     </td>
 
-    <td {% if paper.presented == "no" %}style="color:#CCC;" {% endif %}>{{ paper.id }}</td>
+    <td {% if paper.presenter == "..." %} style="color:#888;" {% endif %}>{{ paper.id }}</td>
 
     <td>
-      {% if paper.presented == "no" %}
-      <div style="font-size:0.9em;color:#CCC;">{{ paper.title }}</div>
-      <div style="font-size:0.9em;color:#CCC;">
+      {% if paper.presenter == "..." %}
+      <div style="font-size:0.9em;color:#888;">{{ paper.title }}</div>
+      <div style="font-size:0.9em;color:#AAA;">
         {{ paper.authors | join:", " | replace:"*","" }}
       </div>
 
@@ -153,8 +153,14 @@
       {% endif %}
       {% if paper.ext-presenter %}
             <div style="font-size: 0.9em; color: #C22;">
-              {{  "presented by:" }} {{ paper.ext-presenter }}
+              {{  "presented by (proxy):" }} {{ paper.ext-presenter }}
             </div>
+            {% else  %}
+            {% if paper.presenter and paper.presenter != "..."  %}
+            <div style="font-size: 0.9em; color: #881111;">
+              {{  "presented by:" }} {{ paper.presenter }}
+            </div>
+            {% endif %}
             {% endif %}
 
     </td>
@@ -199,18 +205,19 @@
       {% assign paper_id = paper.id | append: "" %}
       
       <tr>
-    <td {% if paper.presented == "no" %}style="color:#CCC;" {% endif %}>
+    <td {% if paper.presenter == "..." %}style="color:#888;" {% endif %}>
       {% if hour < 10 %}0{% endif %}{{ hour }}h{% if minute < 10 %}0{% endif %}{{ minute }}-{% if hourEND < 10 %}0{% endif %}{{ hourEND }}h{% if minuteEND < 10 %}0{% endif %}{{ minuteEND }}
     </td>
 
-    <td {% if paper.presented == "no" %}style="color:#CCC;" {% endif %}>{{ paper.id }}</td>
+    <td  {% if paper.presenter == "..." %}style="color:#555;" {% endif %}>{{ paper.id }}</td>
 
     <td>
-      {% if paper.presented == "no" %}
-      <div style="font-size:0.9em;color:#CCC;">{{ paper.title }}</div>
-      <div style="font-size:0.9em;color:#CCC;">
+      {% if paper.presenter == "..." %}
+      <div style="font-size:0.9em;color:#888;">{{ paper.title }}</div>
+      <div style="font-size:0.9em;color:#AAA;">
         {{ paper.authors | join:", " | replace:"*","" }}
       </div>
+
 
       {% else %}
       <div>{{ paper.title }}</div>
@@ -218,12 +225,17 @@
         {{ paper.authors | join:", " | replace:"*","" }}
       </div>
       {% endif %}
-      {% if paper.ext-presenter %}
+     {% if paper.ext-presenter %}
             <div style="font-size: 0.9em; color: #C22;">
-              {{  "presented by:" }} {{ paper.ext-presenter }}
+              {{  "presented by (proxy):" }} {{ paper.ext-presenter }}
+            </div>
+            {% else  %}
+            {% if paper.presenter and paper.presenter != "..."  %}
+            <div style="font-size: 0.9em; color: #881111;">
+              {{  "presented by:" }} {{ paper.presenter }}
             </div>
             {% endif %}
-
+            {% endif %}
     </td>
     <td >
         {% if paper.pdflink %}

@@ -19,6 +19,7 @@
   authors: Kim, Jonghun*; Ra, Sinyoung; Park, Hyunjin
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31335-5_2
 - id: 14
+  presenter: "Silvia-Laura Pintea"
   title: Deep Kernel Video Approximation For Unsupervised Action Segmentation
   track: O3-B.T2
   fullauthors: Silvia Pintea (TUDelft)*; Jouke Dijkstra (LUMC)
@@ -43,6 +44,7 @@
     Dengel, Andreas
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31335-5_5
 - id: 19
+  presenter: "Brian B. Moser"
   title: 'A Low-Resolution Image Is Worth 1X1 Words: Enabling Fine Image Super-Resolution
     With Transformers And Taylorshift'
   track: O9-D.T3
@@ -68,6 +70,7 @@
   authors: Oh, Youngjin*; Kwon, Junhyeong; Cho, Nam Ik
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31335-5_8
 - id: 25
+  presenter: "Keuper, Janis"
   title: Prompt Injection Attacks On Llm Generated Reviews Of Scientific Publications
   track: O4-D.T5
   fullauthors: Janis Keuper (hs-offenburg)*
@@ -80,6 +83,7 @@
   authors: Kim, Boseong*; Cho, Donghyeon
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31335-5_10
 - id: 29
+  presenter: "Molina Rodríguez, Adrià"
   title: 'Visual Model Checking: Graph-Based Inference Of Visual Routines For Image
     Retrieval'
   track: O6-D.T3
@@ -140,6 +144,7 @@
     Lee, Seungyong; Park, Jian; Bu, Yi; Lee, Seunghyun
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31335-5_17
 - id: 62
+  presenter: "Abdullah, Ahmed"
   title: 'Dualsight: Learning To Disentangle Artifact And Semantic Features For Detection
     Of Diffusion-Generated Images'
   track: O8-D.T3
@@ -159,6 +164,7 @@
     Arunkumar, Ganesh Samarth; Lin, Shih-Yao; Tabarestani, Solale; Chen, Caren
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31335-5_19
 - id: 67
+  presenter: "Nikolas Ebert"
   title: Efficient Post-Hoc Calibration In Object Detection Without Held-Out Data
   track: O1-B.T2
   fullauthors: Nikolas Ebert (TH Mannheim)*; Didier Stricker (RPTU Kaiserslautern-Landau);
@@ -166,6 +172,7 @@
   authors: Ebert, Nikolas*; Stricker, Didier; Wasenmüller, Oliver
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31335-5_20
 - id: 72
+  presenter: "Damjan Kalsan"
   title: A Framework For Low-Effort Training Data Generation For Urban Semantic Segmentation
   track: O8-B.T2
   fullauthors: Damjan Kalšan (Heidelberg University)*; Denis Zavadski (Heidelberg
@@ -186,6 +193,7 @@
     Zhang, Zhiyu; Dong, Dong; Qin, Zhan
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31335-5_22
 - id: 76
+  ext-presenter: "Malek_Mechergui"
   title: 'Smoothed-ModernBERT: Cross-Modal Gated Attention of Probabilistic Topic Models and ModernBERT Through Dynamic Fusion'
   track: O9-A.T1
   fullauthors: Akinlolu Ojo (Concordia University)*; Nizar Bouguila (Concordia University)
@@ -222,6 +230,7 @@
   authors: Ma, Jiahao*; Li, Hongzong; Hu, Yefan; Huang, Jian-dong
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31335-5_26
 - id: 85
+  presenter: "Soroosh Baselizadeh"
   title: Occlusion-Ordered Semantic Instance Segmentation
   track: O7-B.T2
   fullauthors: Soroosh Baselizadeh (Electronic Arts)*; Cheuk-To Yu (University of
@@ -285,6 +294,7 @@
   authors: Hendricks, Arne*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31335-5_34
 - id: 104
+  presenter: "Kecia Moura"
   title: A Prototypical Signature Approach For Writer-Independent Offline Signature
     Verification
   track: O5-D.T5
@@ -432,6 +442,7 @@
   authors: Zhang, Chushan*; Lu, Ruihan ; Tong, Jinguang; Li, Xuesong ; Li, Hongdong
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31583-0_6
 - id: 154
+  presenter: "Horn, Pius"
   title: Benchmarking Document Parsers On Mathematical Formula Extraction From Pdfs
   track: O4-D.T5
   fullauthors: Pius Horn (Institute for Machine Learning and Analytics (IMLA), Offenburg
@@ -440,6 +451,7 @@
   authors: Horn, Pius*; Keuper, Janis
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31583-0_7
 - id: 155
+  presenter: "Fernando, Muditha"
   title: 'Semalign: Language Guided Semi-Supervised Domain Generalization'
   track: O2-B.T2
   fullauthors: Muditha Fernando (University of Moratuwa); Kajhanan Kailainathan (University
@@ -496,6 +508,7 @@
   authors: Yang, Zihua; Liao, Xin; Zhang, Yiqun*; Cheung, Yiu-ming
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31583-0_14
 - id: 173
+  presenter: "Anantajit Subrahmanya"
   title: Markovian Reeb Graphs For Simulating Spatiotemporal Patterns Of Life
   track: O2-A.T1
   fullauthors: Anantajit Subrahmanya (University of California, Santa Barbara)*; Chandrakanth
@@ -542,6 +555,7 @@
   authors: Hu, Xiaotao*; Jia, Mingkai; Guo, Xiaoyang; Zhang, Qian; Long, Xiaoxiao;
     Yin, Wei
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31583-0_19
+  presenter: "..."
 - id: 184
   title: 'Hypdomain: Bridging Domain Gaps In Clip With Few-Shot Hypernetwork Residuals'
   track: P3.T1
@@ -595,6 +609,7 @@
   authors: Röscher, Anton; van der Haar, Dustin*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31583-0_26
 - id: 206
+  presenter: Clémentine Grethen
   title: 'Lunar-G2R: Geometry-To-Reflectance Learning For High-Fidelity Lunar Brdf
     Estimation'
   track: O10-D.T3
@@ -731,12 +746,14 @@
   authors: Cazzola, Luca*; Alboody, Ahed
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31583-0_42
 - id: 237
+  presenter: "Karan Gupta"
   title: 'Cxmarena: Unified Dataset To Benchmark Performance In Realistic Cxm Scenarios'
   track: O2-E.T1
   fullauthors: Karan Gupta (Sprinklr)*; Raghav Garg (Sprinklr); Kapil Sharma (Sprinklr)
   authors: Gupta, Karan*; Garg, Raghav; Sharma, Kapil
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31583-0_43
 - id: 241
+  presenter: "Yue, Siting"
   title: 'Mgd-Depth: Disentangling Scene Dynamics Via Multi-Granularity Representation
     Learning'
   track: O3-E.T2
@@ -778,6 +795,7 @@
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31654-7_1
   ext-presenter: Chen Wang
 - id: 249
+  presenter: "Sanjay Madria"
   title: 'Kraft: Kalman Residual Diffusion With Formation Awareness For Uav Swarm
     Tracking'
   track: O1-B.T2
@@ -891,6 +909,7 @@
   authors: Del Gaudio, Livia; Cuculo, Vittorio*; Cucchiara, Rita
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31654-7_15
 - id: 286
+  presenter: "ALI, Mahmoud"
   title: 'Dual The Reasoning, Double The Insight With Tambi: A Self-Supervised Framework
     For Skeleton Action Representation'
   track: O10-B.T2
@@ -901,6 +920,7 @@
     Bremond, Francois
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31654-7_16
 - id: 288
+  presenter: "Roberto Vezzani"
   title: 'Snappose3D: Diffusion-Based Single-Frame 2D-To-3D Lifting Of Human Poses'
   track: O8-C.T1
   fullauthors: Alessandro Simoni (University of Modena and Reggio Emilia); RIccardo
@@ -947,6 +967,7 @@
   authors: Lee, Juneyong; Baek, Geonwoo; Jang, Ikbeom*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31654-7_21
 - id: 300
+  presenter: "Romain Hermary"
   title: 'Aster: Latent Pseudo-Anomaly Generation For Unsupervised Time-Series Anomaly
     Detection'
   track: O2-A.T1
@@ -964,6 +985,7 @@
   authors: Tanweer, Sunia*; Khasawneh, Firas A.
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31654-7_23
 - id: 303
+  presenter: "Inseok Kong"
   title: 'Mamvi: 3D Test-Time Adaptation Via Masked Multi-View Point Clouds'
   track: O1-E.T2
   fullauthors: Inseok Kong (University of Seoul)*; Geunyoung Jung (University of Seoul); 
@@ -971,6 +993,7 @@
   authors: Kong, Inseok*; Jung, Geunyoung; Jung,  Jiyoung
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31654-7_24
 - id: 305
+  presenter: "Evelyn Turri (proxy, got permission from author for presentation PDF sharing)"
   title: Improving Llm First-Token Predictions In Multiple-Choice Question Answering
     Via Output Prefilling
   track: O3-A.T1
@@ -985,6 +1008,7 @@
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31654-7_25
   ext-presenter: Evelyn Turri
 - id: 307
+  presenter: "de Almeida, Melonie"
   title: 'Pixel-To-4D: Camera-Controlled Image-To-Video Generation With Dynamic 3D
     Gaussians'
   track: O2-B.T2
@@ -1037,6 +1061,7 @@
     zihao; ZHANG, zhang*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31654-7_30
 - id: 316
+  presenter: "Abderraouf Amrani"
   title: 'Sem-Neus: Semantically-Guided High-Fidelity Neural Surface Reconstruction
     Via Geometry Distillation'
   track: O6-E.T2
@@ -1074,6 +1099,7 @@
   authors: Gulati, Aman*; Das, Sambit; Dewani, Sanyog; Aggarwal, Purav
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31654-7_35
 - id: 329
+  presenter: Dênnis J. da Silva
   title: A Trainable Connected Filter Preprocessing Layer Based On Component Trees
   track: O10-D.T3
   fullauthors: Wonder Luz Alves (Universidade Nove de Julho)*; Lucas Santos (Universidade
@@ -1135,6 +1161,7 @@
   authors: Sebia, Hana; Guyet, Thomas*; Berry, Hugues; Vidal, Benjamin
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31654-7_43
 - id: 347
+  presenter: "Belkacem Chikhaoui"
   title: 'Stay On Topic: Reducing Hallucinations In Large Language Models With Lda'
   track: O1-D.T5
   fullauthors: Belkacem Chikhaoui (TELUQ University)*
@@ -1174,6 +1201,7 @@
     Academy of Sciences)
   authors: liu, zeyu*; zhang, zhenfeng; zhang, yunquan; cheng, daning
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31663-9_3
+  presenter: "Zeyu Liu"
 - id: 359
   title: Semi-Supervised Domain Adaptation With Entropy-Guided Curriculum And Contrastive
     Learning
@@ -1218,6 +1246,7 @@
     Watanabe, Yasuto; Ishida, Hiroyuki; Nakagawa, Koki; Jiang, Shan
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31663-9_7
 - id: 367
+  presenter: "Song, Yuhang"
   title: 'Dynamic Context Adapters: Efficiently Infusing History Into Vision-And-Language
     Models'
   track: O2-B.T2
@@ -1252,12 +1281,14 @@
   title: 'Cafe-Gs: Compactness-Aware Frequency-Guided Densification For 3D Gaussian
     Splatting'
   track: O4-B.T2
-  fullauthors: Léo-Paul HUAR (InterDigital)*; Gustavo Sandri (InterDigital); Neus
+  fullauthors: Léo-Paul Huar (InterDigital)*; Gustavo Sandri (InterDigital); Neus
     Sabater (InterDigital); Christine Guillemot (INRIA); Pierre Hellier (INRIA)
   authors: HUAR, Léo-Paul*; Sandri, Gustavo; Sabater, Neus; Guillemot, Christine;
     Hellier, Pierre
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31663-9_11
+  presenter: Léo-Paul Huar
 - id: 383
+  presenter: "Sapoutzoglou , Panagiotis"
   title: 'Sharc: Reference Point Driven Spherical Harmonic Representation For Complex
     Shapes'
   track: O1-A.T1
@@ -1315,6 +1346,7 @@
   authors: Jia, Linlin*; Fankhauser, Benjamin; Bigler, Vidushi; Riesen, Kaspar
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31663-9_17
 - id: 397
+  presenter: "Laziz Hamid"
   title: 'Dentab: A Dataset For Table Recognition And Visual Qa On Real-World Dental
     Estimates'
   track: O5-D.T5
@@ -1323,6 +1355,7 @@
   authors: Hamdi, Laziz*; Paquet, Thierry; Tamasna, Amine
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31663-9_18
 - id: 401
+  presenter: "Li Wei"
   title: 'As-Ects: Adaptive Shapelet Learning For Early Classification Of Streaming
     Time Series'
   track: O9-C.T1
@@ -1392,6 +1425,7 @@
   authors: Zhu, Haoran*; Yu, Tong; Wang, Chaoqun; Wang, Jianjia
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31663-9_26
 - id: 418
+  presenter: "Ren Jinshuai"
   title: 'Litefusion-Detr: Lightweight Dual-Branch Detr For Efficient Multi-Modal
     Uav Detection'
   track: O6-B.T2
@@ -1436,7 +1470,9 @@
   fullauthors: Stefano Berti (IIT)*; Giulia Paquale (IIT); Lorenzo Natale (IIT)
   authors: Berti, Stefano*; Paquale, Giulia; Natale, Lorenzo
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31663-9_31
+  presenter: Stefano Berti
 - id: 438
+  presenter: "Sukalpa Chanda"
   title: Difficulty-Aware Interleaved Distillation For Robust Cross-Surface Writer
     Identification
   track: O5-D.T5
@@ -1457,6 +1493,7 @@
     Parihar, Ashutosh ; Akhtar, Zahid; Dutta, Soumya; Hadid, Abdenour
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31663-9_33
 - id: 440
+  presenter: "Proxy Presenter"
   title: Diffusion-Latent Invisible Watermarking For Proactive Deepfake Provenance
     Verification
   track: O4-C.T4
@@ -1483,6 +1520,7 @@
   authors: Domeniconi, Luca*; Stramiglio, Alessandra; Lombardi, Michele; Salti, Samuele
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31663-9_36
 - id: 445
+  presenter: "Streilein, Merlin"
   title: 'Modern Summarization Methods For Diplomatic Documents: Current State And
     Limitations'
   track: O1-D.T5
@@ -1491,6 +1529,7 @@
   authors: Streilein, Merlin*; Steiner, Tobias; Riesen, Kaspar; Fischer, Andreas
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31663-9_37
 - id: 446
+  presenter: "Tamir Shor"
   title: 'Rs-Ovc: Open-Vocabulary Counting For Remote-Sensing Data'
   track: O6-E.T2
   fullauthors: Tamir Shor (Technion)*; George Leifman (Google); Genady Beryozkin (Google)
@@ -1528,6 +1567,7 @@
   authors: Dirik, Alara*; Wang, Tuanfeng; Ceylan, Duygu; Zafeiriou, Stefanos; Frühstück,
     Anna
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31663-9_42
+  presenter: Alara Dirik
 - id: 454
   title: 'Rq-Pad: Reconstruction Quality For Robust Face Presentation Attack Detection'
   track: P2.T4
@@ -1557,6 +1597,7 @@
     Xiarun; Wen, Weiping*; Cheng, Sai
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31663-9_45
 - id: 458
+  presenter: "Soltaninezhad, Ali"
   title: 'Tubelite: Lightweight Multi-Actor Spatio-Temporal Action Detection'
   track: O10-B.T2
   fullauthors: Ali Soltaninezhad (University of Victoria); Melissa Cote (University
@@ -1587,6 +1628,7 @@
     Robin
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31666-0_2
 - id: 465
+  presenter: "Zaher, Kawtar"
   title: Revisiting Human-In-The-Loop Object Retrieval With Pre-Trained Vision Transformers
   track: O6-D.T3
   fullauthors: Kawtar Zaher (Institut National de l'Audiovisuel - Inria)*; Olivier
@@ -1630,6 +1672,7 @@
   authors: Feng, Shijia*; Wray, Michael; Mayol-Cuevas, Walterio
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31666-0_7
 - id: 481
+  presenter: "Luigi Bianchi"
   title: 'Eva Optimizer: Escaping Low-Curvature Traps In Deep Learning'
   track: O3-C.T1
   fullauthors:  Antonio Di Cecco (University Campus Bio-Medico
@@ -1654,6 +1697,7 @@
   authors: Xiong, Xudong*; Zhou, Xiaohui; Wang, Yijie
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31666-0_9
 - id: 487
+  presenter: "Yuzuru Nakamura"
   title: Few-Shot Adaptive Open-Set Object Detection With Personalized Scene Generation
   track: O1-B.T2
   fullauthors: Yuzuru Nakamura (Panasonic Holdings)*; Yasunori Ishii (Panasonic Holdings);
@@ -1670,7 +1714,9 @@
   authors: Rahman, Mohammad Shahedur*; Bari, Mohammad Tahmid; Adnan, Md. Nasim ; Parvez,
     Arshad
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31666-0_11
+  presenter: Adnan, Md. Nasim
 - id: 500
+  presenter: "Tanapat Ratchatorn"
   title: 'Emasam: A Computationally Efficient Sharpness-Aware Minimization \\Via Ema-Guided
     Perturbations'
   track: O5-A.T1
@@ -1687,6 +1733,7 @@
   authors: Zhang, Haozhuo; Zhang, Bob*; Zeng, Pinxian
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31666-0_13
 - id: 502
+  presenter: "DeAndres-Tame, Ivan;"
   title: Is Visual Realism Enough? Evaluating Gait Biometric Fidelity In Generative
     Ai Human Animation
   track: O4-C.T4
@@ -1698,6 +1745,7 @@
     Yu, Shiqi
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31666-0_14
 - id: 503
+  presenter: "Kim, Jung In"
   title: 'Bughunter: An Automated Game Test Framework With Marl-Based Data Collection
     And Fdm-Based Bug Detection'
   track: O7-A.T1
@@ -1797,12 +1845,14 @@
     Lasse; Kraft, Kaisa; Suikkanen, Sanna; Kälviäinen, Heikki
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31666-0_25
 - id: 527
+  presenter: "Wenbo Tian"
   title: Risk-Field Constrained Reinforcement Learning For Safe Autonomous Driving
   track: O1-E.T2
   fullauthors: Xuanqi Wang (ShanghaiTech)*; Zhang Zhang (CASIA)
   authors: Wang, Xuanqi*; Zhang, Zhang
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31666-0_26
 - id: 528
+  presenter: "Shi Guangchen"
   title: 'Mmfuser: Multimodal Multi-Layer Feature Fuser For Fine-Grained Vision-Language
     Understanding'
   track: O8-B.T2 # O2-B.T2
@@ -1860,6 +1910,7 @@
   authors: Segura-Alabart, Natàlia*; Serratosa, Francesc; Lemoine, Jean Philippe
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31666-0_32
 - id: 539
+  presenter: Wei, Xiaopeng
   title: 'Mocodiff: Modality-Aware Conditional Diffusion Model For 3D Brain Tumor
     Segmentation'
   track: O10-E.T6
@@ -1923,6 +1974,7 @@
   authors: Ayyar, Meghna P*; Benois-Pineau, Jenny; Zemmari, Akka
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31666-0_39
 - id: 555
+  presenter: "Mathieu Dario"
   title: 'Unifying Runtime Monitoring Approaches For Safety-Critical Machine Learning:
     Application To Vision-Based Landing'
   track: O6-E.T2
@@ -1988,6 +2040,7 @@
     Frédéric; Aider, Omar Ait
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31673-8_1
 - id: 566
+  presenter: "Sungho Kang"
   title: Anomaly Detection By Effectively Leveraging Synthetic Images
   track: O2-A.T1
   fullauthors: Sungho Kang (Sungkyunkwan University); Hyunkyu Park (Sungkyunkwan University);
@@ -2007,6 +2060,7 @@
   authors: Crivoi, Carla; Ionescu, Radu Tudor*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31673-8_3
 - id: 568
+  ext-presenter: Jordan A. James
   title: Person Re-Identification Via Generalized Class Prototypes
   track: O4-C.T4
   fullauthors: Md Ahmed Al Muzaddid (University of Texas at Arlington); William Beksi
@@ -2022,6 +2076,7 @@
   authors: Barna, Nasid Habib*; Dey, Noyon; Bhandarkar, Suchendra M
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31673-8_5
 - id: 570
+  presenter: "Sahoo, Roja"
   title: 'Fusion2Print: Deep Flash-Non-Flash Fusion For Contactless Fingerprint Matching'
   track: O4-C.T4
   fullauthors: Roja Sahoo (IIIT Hyderabad)*; Anoop Namboodiri (IIIT Hyderabad)
@@ -2052,6 +2107,7 @@
   authors: Park, Hyunkyu; Kang, Sungho; Lee, Yeonho; Lee, Injae; Yi, Juneho*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31673-8_9
 - id: 580
+  presenter: ...
   title: 'Diagnosing Llm Benchmark: A Psychometric Analysis Of Difficulty And Discrimination'
   track: O10-A.T1
   fullauthors: Jiacheng Qin (National University of Defense Technology)*; Xu Zhang
@@ -2061,6 +2117,7 @@
   authors: Qin, Jiacheng*; Zhang, Xu; Feng, Dawei; Ding, Bo; Zhai, Yuanzhao
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31673-8_10
 - id: 581
+  presenter: "Fang, Zhaohao"
   title: Neuro-Symbolic Instruction Tuning For Explainable Mahjong Agents Via Two-Stage
     Dual-Lora
   track: O1-A.T1
@@ -2134,6 +2191,7 @@
   authors: Yan, Mengfan*; Huang, Maochen; Chen, Wenjie
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31673-8_19
 - id: 600
+  presenter: "Marcos, Diego"
   title: Two-Stage Vision Transformers And Hard Masking Offer Robust Object Representations
   track: O3-E.T2 #P2.T2
   fullauthors: Ananthu Aniraj (Inria)*; Cassio F. Dantas (Inrae); Dino Ienco (Inrae);
@@ -2171,6 +2229,7 @@
   authors: Li, Hailong*; Li, Feifei; Que, Wenhui; Fan, Xingyu
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31673-8_25
 - id: 608
+  presenter: Xi, Runkai
   title: 'Lwd: A Lightweight Decoder Leveraging Gated Attention And Cross-Group Convolution
     For Medical Image Segmentation'
   track: O10-E.T6
@@ -2274,6 +2333,7 @@
     Emilie
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31673-8_36
 - id: 632
+  presenter: "Song Tuhang"
   title: Blind Multi-Coil Mri Reconstruction Through Joint Optimization With The Diffusion
     Model
   track: O4-E.T6
@@ -2289,6 +2349,7 @@
     of Texas at Arlington)*
   authors: Lyu, Zongyao; Beksi, William*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31673-8_38
+  presenter: James Jordon 
 - id: 637
   title: Diagnosis-Aware Medical Radiology Report Generation With Retrieval-Augmented
     Multimodal Knowledge Injection
@@ -2351,6 +2412,7 @@
     of Wyoming)
   authors: Elgin, Michael*; Sheshappanavar, Shivanand
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31673-8_45
+  presenter: Michael Elgin
 - id: 647
   title: 'Idpad: Implicit And Dynamic Preference Alignment During Decoding'
   track: P2.T1
@@ -2422,6 +2484,7 @@
     Isao
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31397-3_7
 - id: 672
+  presenter: "Lobry, Sylvain"
   title: 'Checkmate: Interpretable And Explainable Rsvqa Is The Endgame'
   track: O3-D.T3
   fullauthors: Lucrezia Tosato (Université Paris Cité )*; Christel  Tartini-Chappuis
@@ -2432,6 +2495,7 @@
     Flora; Lobry, Sylvain; Tuia, Devis
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31397-3_8
 - id: 674
+  presenter: "Alexandre Monnier Weil"
   title: 'Ragdnet: A Region-Adjacency Graph For Semantic Segmentation Of Mechanical
     Drawings Using Graph Neural Networks'
   track: O5-D.T5
@@ -2449,7 +2513,9 @@
   authors: Fadillah, Riestiya Zain*; Amirshahi, Seyed Ali; Pedersen, Marius; Beghdadi,
     Azeddine
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31397-3_10
+  presenter: Fadillah, Riestiya Zain
 - id: 677
+  presenter: "Kaidi Liang"
   title: 'Crashchat: A Multimodal Large Language Model For Multitask Traffic Crash
     Video Analysis'
   track: O7-B.T2
@@ -2472,6 +2538,7 @@
   fullauthors: Tae Hun Kim (Inha University); Hyun Gyu Lee (Inha University)*
   authors: Kim, Tae Hun; Lee, Hyun Gyu*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31397-3_13
+  presenter: "Kim, Tae Hun"
 - id: 691
   title: 'Ic-Eo: Interpretable Code-Based Assistant For Earth Observation'
   track: P4.T3
@@ -2482,12 +2549,14 @@
     Gaetan; Lobry, Sylvain*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31397-3_14
 - id: 692
+  presenter: "Yushio Kashimoto"
   title: 'Adgr: Adaptive Density-Guided Graph Re-Ranking For Person Re-Identification'
   track: O5-C.T4
   fullauthors: Yushiro Kashimoto (Toshiba)*; Osamu Yamaguchi (Toshiba)
   authors: Kashimoto, Yushiro*; Yamaguchi, Osamu
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31397-3_15
 - id: 697
+  presenter: "a colleague (unknown name) of the first author (Shuai Pan)"
   title: 'Prism: Position-Guided Region-Based Image Separation Into Multi-Layers'
   track: O2-C.T1
   fullauthors: Pan Shuai (Advanced Institute of Information Technology, Peking University,
@@ -2505,6 +2574,7 @@
     List )
   authors: Benali, Katia*; Vieru, Bianca; Ferecatu, Marin; Le Borgne, Hervé
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31397-3_17
+  presenter: Benali, Katia
 - id: 701
   title: Visibility-Aware Diffusion-Based Face Anonymization For Real-World Deployment
   track: P2.T1
@@ -2513,6 +2583,7 @@
   authors: LAHGAZI, Mohamed Jaouad*; Tarel, Jean-Philippe
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31397-3_18
 - id: 702
+  presenter: "Radman, Abduljalil"
   title: 'Knowledge-Integrated Reasoning: A Novel Approach For External Knowledge
     Based Visual Question Answering'
   track: O9-B.T2
@@ -2541,6 +2612,7 @@
     Marcella; Baraldi, Lorenzo; Cucchiara, Rita
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31397-3_21
 - id: 712
+  presenter: Federico Putamorsi
   title: 'Gramsr: Visual Feature Conditioning For Diffusion-Based Super-Resolution'
   track: O9-D.T3
   fullauthors: Fabio D'Oronzio (University of Modena and Reggio Emilia); Federico
@@ -2574,6 +2646,7 @@
     Junhe; Fang, Wenqi; Phan, Raphael C.-W.
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31397-3_24
 - id: 716
+  presenter: "Miao, Zhenjiang"
   title: Reinforced Multi-Expert Ensemble Strategy For Weakly Supervised Video Anomaly
     Detection
   track: O10-B.T2
@@ -2598,6 +2671,7 @@
     Aggarwal, Nikunj; Kumar, Vireshwar
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31397-3_26
 - id: 725
+  presenter: "Takumi Kobayashi"
   title: Knowledge Distillation Through Low-Frequency Logits
   track: O3-C.T1
   fullauthors: Takumi Kobayashi (National Institute of Advanced Industrial Science
@@ -2636,6 +2710,7 @@
   fullauthors: ZIJIANG YANG (university of texas)*
   authors: YANG, ZIJIANG*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31397-3_30
+  presenter: ...
 - id: 744
   title: Speaker-Invariant Emotion Representations With Gradient Reversal
   track: P1.T1
@@ -2644,6 +2719,7 @@
   authors: Jayathunge, Kavisha*; Yang, Xiaosong
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31397-3_31
 - id: 747
+  presenter: "Lian, Zhichao"
   title: 'Fesa-Clip: Frequency-Enhanced Semantic-Agnostic Decoupling For Generalizable
     Ai-Generated Image Detection'
   track: O8-D.T3
@@ -2674,6 +2750,7 @@
   authors: Liu, Gaosheng*; Hu, Zhuhua; Zhou, Qi
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31397-3_35
 - id: 763
+  presenter: "Colin Simmons"
   title: Scalable Two-Sample Real-Time Evaluation Across Modalities For Generative
     Models
   track: O2-C.T1
@@ -2689,6 +2766,8 @@
   authors: Marikkar, Umar*; Husain, Sameed; Awais, Muhammad; Atito, Sara
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31397-3_37
 - id: 766
+  ext-presenter: "Zhu, Yueqi"
+  presenter: "Zhu, Yueqi (Proxy)"
   title: 'Tgln-Cascade: A Knowledge Graph Completion Framework Fusing Tanh-Gated Transformer
     And Cascade Rerankers'
   track: O1-A.T1
@@ -2718,6 +2797,7 @@
   authors: Schesch, Benedikt*; Ernst, Michael
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31397-3_41
 - id: 774
+  presenter: "Park, Miseon"
   title: A Comparative Study Of Adaptation Strategies For Time Series Foundation Models
     In Anomaly Detection
   track: O9-C.T1
@@ -2787,6 +2867,7 @@
   authors: Lin, Zih-Ci; Liao, Wen-Hung*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31404-8_4
 - id: 795
+  presenter: Yuxin Xiao
   title: 'Fpaco: Queue-Free Contrastive Learning With Asymmetric Vlm Distillation
     For Long-Tailed Medical Recognition'
   track: O8-E.T6
@@ -2797,6 +2878,7 @@
   authors: Xiao, Yuxin; Valiyev, Riad; Zhu, Xukun; Meng, Quanlin; Li, Ruirui*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31404-8_5
 - id: 798
+  ext-presenter: "Hu Yuntian"
   title: 'Dsi-Yolo: A Physics-Aware Framework For Citrus Detection In Unstructured
     Orchard Environments'
   track: O6-B.T2
@@ -2830,6 +2912,7 @@
     (The Hong Kong Polytechnic University)*
   authors: Abdrakhim, Sanzhar; Rossi, Luca*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31404-8_8
+  presenter: Sanzhar Abdrakhim
 - id: 809
   title: Cbct-To-Ios Mesh Super-Resolution Via Implicit Grid-Enhanced Offset Refinement
     Network
@@ -2891,6 +2974,7 @@
     Salimeh
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31404-8_15
 - id: 833
+  presenter: "Junhoe Ku"
   title: Efficient Korean Voice-Phishing Detection Using Qlora-Tuned Small Language
     Models
   track: O6-A.T1
@@ -2949,6 +3033,7 @@
   authors: Raahemi, Mohammad; Sekhavati, Ali; Maleki, Alireza; Nasiri, Hamid*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31404-8_22
 - id: 847
+  ext-presenter: "Zhang Xeayu"
   title: Multi-Source Pseudo-Label Generation For Weakly Supervised Salient Object
     Detection
   track: O6-B.T2
@@ -2989,12 +3074,14 @@
     Angela; Sato, Yoichi
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31404-8_26
 - id: 854
+  presenter: "Seungu Kang"
   title: What Do Students Learn? A Feature-Level Analysis Of Dark Knowledge
   track: O10-C.T1
   fullauthors: Seungu Kang (Yonsei University)*; Songkuk Kim (Yonsei University)
   authors: Kang, Seungu*; Kim, Songkuk
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31404-8_27
 - id: 861
+  presenter: "Hyeongmuk Lim"
   title: 'Corevad: A Contextual Reasoning Framework For Training-Free Video Anomaly
     Detection'
   track: O3-B.T2
@@ -3002,6 +3089,7 @@
   authors: Lim, Hyeongmuk; Hur, Youngbum*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31404-8_28
 - id: 862
+  presenter: "Sebastiano Battiato"
   title: 'HypDeformNet: Edge-Deployable Deep Architecture with Jacobian-Stable Hyperbolic Deformation and Lipschitz Distillation
     for Immunotherapy Response Prediction'
   track:  O7-D.T3 # O3-C.T1
@@ -3043,6 +3131,7 @@
   authors: Schäfer, Karla*; Bassenge, Mareike
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31404-8_33
 - id: 872
+  presenter: Pavan Martina
   title: Federated Medical Image Classification Under Class And Domain Imbalance Exploiting
     Synthetic Sample Generation
   track: O9-E.T6
@@ -3132,6 +3221,7 @@
     Gianfranco; Adjeroh, Donald A.
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31404-8_43
 - id: 889
+  presenter: "Jhih-Wei Jhao"
   title: 'Basil-Rppg: Basis Learning With Predictive Rppg Reconstruction For Heart
     Rate Estimation From Ultra-Short Facial Videos'
   track: O5-C.T4
@@ -3169,6 +3259,7 @@
   authors: Hossain, Md Aminur*; V. Patel, Ayush; Banerjee, Biplab
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31441-3_1
 - id: 901
+  presenter: "Hiroaki Aizawa"
   title: Rényi Attention Entropy For Patch Pruning
   track: O8-C.T1
   fullauthors: Hiroaki Aizawa (Hiroshima University)*; Yuki Igaue (Hiroshima University)
@@ -3185,6 +3276,7 @@
     Qifeng
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31441-3_3
 - id: 908
+  presenter: "Nour el Houda Fodil"
   title: 'Pact: Motif Discovery In Time Series Via Adaptive Segmentation, Symbolization,
     And Suffix Tree'
   track: O9-C.T1
@@ -3250,6 +3342,7 @@
     SALINESI, Camille
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31441-3_10
 - id: 924
+  presenter: Julien Walther
   title: 'H-Spam: Hierarchical Superpixel Anything Model'
   track: O9-D.T3
   fullauthors: Julien Walther (University of Bordeaux)*; Rémi Giraud (University of
@@ -3279,6 +3372,7 @@
   authors: KAJO , Ibrahim*; ruichek, yassine
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31441-3_14
 - id: 938
+  presenter: "Daniel Aliaga"
   title: 'Urbane: Urban Reasoning And Block Adjustment Via Natural-Language Editing'
   track: O10-C.T1
   fullauthors: Tanner Waltz (Purdue University)*; Julio Vera (Universidad Nacional
@@ -3286,6 +3380,7 @@
   authors: Waltz, Tanner*; Vera, Julio; Aliaga, Daniel
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31441-3_15
 - id: 939
+  presenter: "yoonah song"
   title: 'Ps-Tts: Phonetic Synchronization In Text-To-Speech For Achieving Natural
     Automated Dubbing'
   track: O2-D.T3
@@ -3295,6 +3390,7 @@
     lee, dohyun; kim, hongkook
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31441-3_16
 - id: 940
+  presenter: Abdellah El Memnnaoui
   title: Variance-Normalized Latent Distillation (Vld) For Domain-Specific Learned
     Image Compression Under Jpeg Ai Constraints
   track: O10-D.T3
@@ -3309,6 +3405,7 @@
     Marco Roth (Fraunhofer IPA); Marco Huber (Fraunhofer IPA)
   authors: Wagner, Philipp*; Namagerdi , Hayk; Roth, Marco; Huber, Marco
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31441-3_18
+  presenter: ...
 - id: 947
   title: Approximate Natural Neighbors For Hyperspectral Images
   track: P2.T1
@@ -3327,7 +3424,9 @@
   authors: Moresco, Matheus*; Monteiro Jr, Marcos; Sabourin, Robert; Darmiton da Cunha
     Cavalcanti, George; Souza Britto Jr, Alceu
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31441-3_20
+  presenter: Moresco, Matheus
 - id: 950
+  presenter: "Sotelo, Juan"
   title: 'Chroma: Detecting Ai-Generated Images Through Inter-Channel Color-Space
     Correlations'
   track: O8-D.T3
@@ -3363,6 +3462,7 @@
   authors: Al-Fawa'reh, Mohammad*; Kelly, Luke; Masek, Martin; Abu-Khalaf, Jumana
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31441-3_24
 - id: 955
+  presenter: "Tong Lin"
   title: A Low-Light Image Enhancement Framework With Adaptability Of Frozen Experts
   track: O7-D.T3
   fullauthors: Naixin Zhang (Peking University)*; Ziheng Wang (Peking University);
@@ -3383,6 +3483,7 @@
   authors: Tran Ngoc, Viet-Anh; Loi, Dinh-Nhat; Dang, Thanh-Hai; Pham, Trang*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31441-3_26
 - id: 958
+  presenter: "Paul Dobre"
   title: 'Scpainter: A Unified Framework For Realistic 3D Asset Insertion And Novel
     View Synthesis'
   track: O1-E.T2
@@ -3442,6 +3543,7 @@
   authors: dong, juncheng*; wu, zihao; Jafarkhani, Hamid; Pezeshki, Ali; Tarokh, Vahid
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31441-3_32
 - id: 969
+  presenter: "Ziqiang Shi"
   title: Eliminating Object Hallucination In Mllms Via Convex Potential Flow Intervention
   track: O10-C.T1 # OLD P4.T1
   fullauthors: Ziqiang Shi (Fujitsu Research \& Development Center Co.,LTD.)*; Rujie
@@ -3474,6 +3576,7 @@
   authors: Wang, Lu-Yan; Lai, Shang-Hong*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31441-3_36
 - id: 981
+  presenter: "Ravi Prasad"
   title: 'Spot-Face: Forensic Face Identification Using Attention Guided Optimal Transport'
   track: O6-A.T1
   fullauthors: RAVI PRASAD (IIT MANDI)*; Dinesh Singh (IIT MANDI)
@@ -3489,6 +3592,7 @@
   authors: Sun, Jingxuan*; Li, Yuxuan; Jia, Yibin; Gao, Rui; Qiao, Xu; Wang, Jianbo
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31441-3_38
 - id: 985
+  presenter: "Qian Li"
   title: Sparse 3D Object Detection Via Local Geometric Refinement And Dynamic Context
     Perception
   track: O1-E.T2
@@ -3558,6 +3662,7 @@
   authors: Lee, Hyeonmin*; Ko, Seonghyeon; Bum, Junghyun; Le, Duc-Tai; Son, Chang-Hwan;
     Choo, Hyunseung
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31441-3_46
+  ext-presenter: A representative of the team (but not an author)
 - id: 1001
   title: 'Ifagenet: Identity-Aware Face Aging Via Feature Inversion And Age-Conditioned
     Adaptive Latent Shifts'
@@ -3654,6 +3759,7 @@
   authors: Beaujard, Traian; Crombez, Nathan*; Ruichek, Yassine
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31438-3_10
 - id: 1022
+  presenter: "Shahar Ofir"
   title: Pairwise Alignment And Compatibility For Arbitrary Irregular And Eroded Image
     Fragments
   track: O8-B.T2
@@ -3688,6 +3794,7 @@
     Concetto
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31438-3_14
 - id: 1029
+  presenter: Emilio Raimond
   title: Spatio-Temporal Pattern Spectra For Analysis Of Satellite Image Time Series
   track: O10-D.T3
   fullauthors: Emilio Raimond (IRISA)*; François Merciol (IRISA); Abdelbadie Belmouhcine
@@ -3724,6 +3831,7 @@
   authors: Minami, Masaki; Chen, Jinhui*; Ding, Nan
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31438-3_18
 - id: 1036
+  presenter: "Matthias Neuwirth-Trapp"
   title: 'Multi: Disentangling Camera Lens, Sensor, View, And Domain For Novel Image
     Generation'
   track: O2-C.T1
@@ -3756,6 +3864,7 @@
   authors: Liu, Naixi*; Huang, Yan
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31438-3_22
 - id: 1046
+  presenter: "xie, xianghua"
   title: 'Ace-Grasp: Aleatoric Ambiguity Modeling Via Consistency And Exploration
     For Grasping'
   track: O9-B.T2
@@ -3763,6 +3872,7 @@
   authors: Li, Yiming; xie, xianghua*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31438-3_23
 - id: 1047
+  presenter: "Yanchao Xiao"
   title: 'Kadr: Multi-Charge Legal Judgment Prediction Via Knowledge-Augmented Dialectical
     Reasoning'
   track: O1-D.T5
@@ -3811,6 +3921,7 @@
     Jinkyu
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31438-3_29
 - id: 1055
+  presenter: "Oskar Åström"
   title: Latent Rigidity Regularization For Conditional Vaes In Anomaly Detection
   track: O2-A.T1
   fullauthors: Oskar Åström (Lund University)*; Alexandros Sopasakis (Lund University)
@@ -3864,6 +3975,7 @@
     D'Hondt, Fabien; Santana Maia, Deise
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31438-3_35
 - id: 1062
+  presenter: "Nicolas Paris"
   title: Peak Wave Period And Direction Estimation Using 3D Fft On Monoscopic Videos
   track: O7-B.T2
   fullauthors: Nicolas Paris (La Rochelle University)*; Sylvain Marchand (La Rochelle
@@ -3887,6 +3999,7 @@
     (Xinjiang University)*
   authors: Wang, Jiachang; Xian, Tingting; Xu, Haibo; Aysa, Alimjan; Ubul, Kurban*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31438-3_39
+  presenter: "..."
 - id: 1067
   title: 'Eg-Spxnet: Edge-Gated Superpixel Graph Neural Networks For Interpretable
     Retinal Disease Grading'
@@ -3920,6 +4033,7 @@
   authors: Babé, Aloïs*; Cuingnet, Remi; Scuturici, Mihaela; Miguet, Serge
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31438-3_42
 - id: 1075
+  presenter: "Li, Yu"
   title: 'Trtf: A Two-Stage Robust Training Framework For Visual Question Answering'
   track: O3-D.T3
   fullauthors: Yu Li (Beijing Jiaotong University)*; Jinan Xu (Beijing Jiaotong University)
@@ -3949,6 +4063,7 @@
   authors: Nazir, Maham; Aqeel, Muhammad*; Zhang, Richong; Setti, Francesco
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31438-3_46
 - id: 1087
+  presenter: Poisson Caillault
   title: Improving N1-Sleep Stage Detection Using Constant-Q Transform And Lightweight
     Cnn/Lstm Model
   track: O10-E.T6
@@ -4017,6 +4132,7 @@
   authors: Pijarowski, Matthias; Rapp, Matthias*; Wolpert, Alexander; Heckmann, Martin
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31452-9_8
 - id: 1100
+  presenter: "Fu, Xuanshuo"
   title: 'Reading In The Dark: Low-Light Scene Text Recognition'
   track: O4-D.T5
   fullauthors: Xuanshuo Fu (Computer Vision Center)*; Lei Kang (Computer Vision Center);
@@ -4035,6 +4151,7 @@
   authors: Voigts, Johannes*; Kuete-Meli, Natacha; Lellmann, Jan
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31452-9_10
 - id: 1103
+  presenter: "Atamna, Mehd"
   title: 'Hfvideoswin: High-Frequency Spatio-Temporal Features For More Generalizable
     Deepfake Video Detection'
   track: O8-D.T3
@@ -4050,6 +4167,7 @@
   authors: Salmi, Abderezak*; Hammouche, Kamal; Macaire, Ludovic
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31452-9_12
 - id: 1106
+  presenter: "Sameer Malik"
   title: 'Adapt-Peft: Adaptive Parameter Efficient Fine Tuning For Underwater Image
     Enhancement'
   track: O7-D.T3
@@ -4112,6 +4230,7 @@
     Ali; Sewelam, Ashraf; Ghazal, Mohammed; El-Baz, Ayman
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31452-9_20
 - id: 1122
+  presenter: "Palaiahnakote, Shivakumara"
   title: 'Cpa-Gnn: Contextual-Based Pattern-Aware Graph-Neural Network For Text Spotting'
   track: O4-D.T5
   fullauthors: Anant  Sinha (Veermata Jijabai Technological Institute); Shivakumara 
@@ -4158,6 +4277,7 @@
   authors: Wang, Bin; Dornaika, Fadi*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31452-9_26
 - id: 1135
+  presenter: "Kossi Josué ADOSSEHOUN"
   title: 'Gcd: Geometry–Constrained Contact-Aware Diffusion For Text–Driven 3D Hand–Object
     Motion Synthesis'
   track: O7-C.T4
@@ -4293,6 +4413,7 @@
   authors: Li, Yize*; Lu, Lei; Kong, Zhenglun; Wang, Yanzhi; Zhao, Pu; Lin, Xue
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31452-9_41
 - id: 1167
+  presenter: "Yifei Wang"
   title: 'SAID: Spatial and Interaction-Aware Directed Heterogeneous Graph Neural Network for Gene Mutation Prediction from Histopathology
     Whole Slide Images'
   track: O7-E.T6
@@ -4303,6 +4424,7 @@
   authors: Wang, Yifei; Shi, Jun*; Wu, Shihao; Li, Jiyang; Jiang, Zhiguo; Zheng, Yushan
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31452-9_42
 - id: 1168
+  presenter: "Edison Mucllari"
   title: Compact Recurrent Transformer With Persistent Memory
   track: O8-B.T2 # P3.T2 #O3-E.T2
   fullauthors: Edison Mucllari (University of Kentucky)*; Zachary Daniels (SRI International);
@@ -4338,6 +4460,7 @@
     Jotaro; Aoki, Takafumi
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31452-9_46
 - id: 1181
+  presenter: "Xu, Tianchen"
   title: Enhancing Interactive Gaze Behavior Recognition Via Co-Training With Temporal
     Gaze Segmentation
   track: O9-B.T2
@@ -4414,6 +4537,7 @@
     Technology, Chinese Academy of Sciences)
   authors: Liu, Zhenhua*; Ye, Yuping; Liang, Jixin; Gu, Feifei; Song, Zhan
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_6
+  presenter: Zhenhua Liu
 - id: 1201
   title: 'Yoga-Matnode: Multi-View Attention Neural Ode For Skeleton-Based Yoga Pose
     Recognition'
@@ -4445,6 +4569,7 @@
   authors: Li, Zitao*; Gu, Jiayue; Huang, Ziyi; Xiong, Ze
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_9
 - id: 1207
+  presenter: "Yanchao Xiao"
   title: Prototype-Based Label Propagation For Zero-Shot Histopathology Segmentation
     With Vision-Language Models
   track: O7-E.T6
@@ -4495,6 +4620,7 @@
   authors: Wang, Zihan*; Ji, Xu; Zhang, Yejun; Rahtu, Esa; Kannala, Juho
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_15
 - id: 1217
+  presenter: "Yanchao Xiao"
   title: 'Mus: Multilingual Synergy With Shared Representations For Visual Speech
     Recognition'
   track: O2-D.T3
@@ -4508,6 +4634,7 @@
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_16
   ext-presenter: Yanchao Xiao        
 - id: 1218
+  presenter: "Oraki, Soroush"
   title: 'Scale: Semantic- And Confidence-Aware Conditional Variational Autoencoder
     For Zero-Shot Skeleton-Based Action Recognition'
   track: O10-B.T2
@@ -4516,6 +4643,7 @@
   authors: Oraki, Soroush*; Ding, Feng; Liang, Jie
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_17
 - id: 1221
+  presenter: "Benjelloun, Doha"
   title: Directional Selective Filters For Guiding Spiking Neural Networks In Event-Based
     Optical Flow Estimation
   track: O7-A.T1
@@ -4539,6 +4667,7 @@
   authors: Satija, Sanchit*; Rawal, Dhar
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_20
 - id: 1232
+  presenter: "Yuan Ma"
   title: Gradient Guided Lora For Stable Fine-Tuning Of Llms
   track: O6-A.T1
   fullauthors: Yuan Ma (Institute of Automation, Chinese Academy of Sciences (CASIA));
@@ -4558,7 +4687,7 @@
   authors: Chen, Tong; Li, Jia; Chen, Yunzhi; Huang, Hongyang; Yang, Fengyu*; Chen,
     Ying
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_22
-  presented: "no"
+  presenter: ... 
   endOrder: 2
 - id: 1238
   title: 'Fedadas: Communication-Efficient Federated Distillation For On-Device Driver
@@ -4589,6 +4718,7 @@
     Ikbeom*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_25
 - id: 1243
+  presenter: "UJJWAL BHATTACHARYA"
   title: 'Cad-Gan+: Classifier-Filtered Synthetic Cmri Generation Towards Robust Detection
     Of Cad'
   track: O4-E.T6
@@ -4598,6 +4728,7 @@
   authors: BASAK, SHUBHAM; HUSSAIN, NUSHRAT; BHATTACHARYA, UJJWAL*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_26
 - id: 1244
+  presenter: "Gharbage, Mehdi"
   title: 'Sam2 R-Cnn: Transferring Sam 2 Knowledge For Data Efficient Instance Segmentation'
   track: O6-C.T1
   fullauthors: Mehdi Gharbage (Institut Pascal (UCA))*; Thierry  Chateau (Institut
@@ -4653,7 +4784,9 @@
   fullauthors: Gil Ben-Artzi (Ariel University)*
   authors: Ben-Artzi, Gil*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_33
+  presenter: ...
 - id: 1259
+  presenter: "Qianyang Zhu"
   title: Llm-Empowered Dual Exploration-Exploitation Framework For Sequential Recommendation
   track: O10-A.T1
   fullauthors: Qianyang Zhu (University of Electronic Science and Technology of China);
@@ -4687,6 +4820,7 @@
   authors: Sharma, Mridul*; Hase, Ajinkya Prakash; Kancharla, Parimala
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_37
 - id: 1271
+  presenter: "Yasmine Sakas"
   title: 'Probiou+ : Enhanced Probabilistic Iou Loss For Oriented Object Detection'
   track: O1-B.T2
   fullauthors: Yasmine Sakas (LAAS-CNRS)*; Pascal Houssam Salmane (CEREMA); Josué
@@ -4695,6 +4829,7 @@
     Saint Pierre, Guillaume
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_38
 - id: 1272
+  presenter: "YeEun Joo"
   title: Interaction-Centric Video Scene Graph Generation Via Intended Interaction
     Targets
   track: O3-B.T2
@@ -4703,6 +4838,7 @@
   authors: Joo, YeEun*; Jung, Soon Ki
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_39
 - id: 1273
+  presenter: "Liu, Fang"
   title: 'Lingml: Linguistic-Informed Machine Learning For Enhanced Fake News Detection'
   track: O7-A.T1
   fullauthors: Jasraj Singh (Nanyang Technological University); Fang Liu (Singapore
@@ -4721,6 +4857,7 @@
     Rathish Kumar, B.V.; Kumar Dwivedi, Durgesh
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_41
 - id: 1275
+  presenter: "Today Atinc Uzun"
   title: Closed-Loop Llm Discovery Of Non-Standard Channel Priors In Vision Models
   track: O10-A.T1
   fullauthors: Tolgay Atinc Uzun (University of Wuerzburg)*; Dmytro Ignatov (University
@@ -4769,6 +4906,7 @@
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31404-8_28
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_46
 - id: 1287
+  presenter: "Nick Theisen"
   title: Cross-Domain Transfer Of Hyperspectral Foundation Models
   track: O10-A.T1
   fullauthors: Nick Theisen (University Koblenz-Landau)*; Peer Neubert (University
@@ -4783,7 +4921,9 @@
     of Southern Denmark); Bodo Rosenhahn (Leibniz University Hannover)
   authors: Jiwatode, Mohit*; Dockhorn, Alexander; Rosenhahn, Bodo
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31927-2_1
+  presenter:  Jiwatode, Mohit
 - id: 1290
+  presenter: Domenico Amato
   title: Attention-Based Radiomics To Predict Histological Grade Of Gliomas
   track: O8-E.T6
   fullauthors: Domenico Amato (Università degli studi di Palermo); Celeste Caruso
@@ -4926,6 +5066,7 @@
     Xie, Ren-De; Chen, Bo-Yang; Tseng, Yu-Chee
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31927-2_15
 - id: 1324
+  presenter: "Ródenas Cumplido, Javier"
   title: 'Quartet Of Experts: Multi-Aspect Semantic Guidance For Few-Shot Learning'
   track: O6-C.T1
   fullauthors: Javier Ródenas Cumplido (Universitat de Barcelona)*; Eduardo Aguilar
@@ -4959,6 +5100,7 @@
   authors: Lee, Injae; Park, Jinhwi; Jo, Hyeonseo; Yoon, Young chul; Paik, Joonki*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31927-2_19
 - id: 1335
+  presenter: Sophie Haynes
   title: 'Spot The Difference: Bilateral Contrastive Representation Learning For Nodule
     Classification'
   track: O8-E.T6
@@ -4976,6 +5118,7 @@
   authors: Das, Abhirup; Singh, Nishant; Gupta, Anubha*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31927-2_21
 - id: 1338
+  presenter: ...
   title: Graph-Based Manifold Learning For Resource Allocation Optimization In Data
     Center Networks
   track: O2-C.T1
@@ -5026,6 +5169,7 @@
   authors: Honeine, Paul*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31927-2_27
 - id: 1353
+  presenter: "Ardhendu BEHERA"
   title: 'Histdit: A Structure-Aware Latent Conditional Diffusion Model For High-Fidelity
     Virtual Staining In Histopathology'
   track: O7-E.T6
@@ -5052,6 +5196,7 @@
   authors: Gabr, Mohamed*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31927-2_30
 - id: 1359
+  presenter: "Carmelo Scribano"
   title: Accelerating Vision Foundation Models With Drop-In Depthwise Convolution
   track: O5-A.T1
   fullauthors: Carmelo Scribano (National Research Council of Italy)*; Mohammad Mahdi
@@ -5085,6 +5230,7 @@
     Salerno, Valerio Mario; Sorce, Salvatore; Cilia, Nicole*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31927-2_33
 - id: 1363
+  presenter: "Dhulipudi Durga Prasad"
   title: 'Aero-Detr: Coarse-To-Fine Runway Extraction Via Orientation-Normalized Marking
     Detection'
   track: O2-E.T1
@@ -5101,6 +5247,7 @@
   authors: Moustafa, Mohamed Sabry*; Bieshaar, Maarten; Albrecht, Andreas; Sick, Bernhard
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31927-2_35
 - id: 1366
+  presenter: "Faisal SHAFAIT"
   title: Assessing Vulnerabilities To Adversarial Perturbations In Eeg-Based Pathology
     Detection Systems
   track: O7-E.T6
@@ -5119,6 +5266,7 @@
     Shafait, Faisal; Khan, Hassan Aqeel
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31927-2_36
 - id: 1367
+  presenter: "Nguyen, Thanh Phuong"
   title: 'Attention Meets Focus: Enhancing Vision Transformers With Sparse Fractal
     Focus'
   track: O3-E.T2
@@ -5181,6 +5329,7 @@
     Menotti (Federal University of Paraná)
   authors: Estevam, Valter*; Laroca, Rayson; Pedrini, Hélio; Menotti, David
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31927-2_42
+  presenter: Rayson Laroca
 - id: 1382
   title: 'Rightfeatkd: Selective Feature-Based Knowledge Distillation'
   track: P1.T2
@@ -5260,6 +5409,7 @@
   authors: Kim, Yeji*; Babiker, Housam; Kim, Mi-Young; Goebel, Randy
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31930-2_3
 - id: 1403
+  presenter: "Raghavendra Mudgalgundurao"
   title: Generating Icao-Compliant Synthetic Face Images Via Curriculum-Guided Diffusion
   track: O7-C.T4   # P4.T4
   fullauthors: Raghavendra Mudgalgundurao (NTNU -NBL Lab)*; Patrick Schuch (NTNU-NBL
@@ -5269,6 +5419,7 @@
     Raghavendra; Raja, Kiran
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31930-2_4
 - id: 1405
+  presenter: "Tetiana Yemelianenko"
   title: Hierarchical Binary Space Partitioning Patch Decomposition For Efficient
     Alzheimer’S Disease Staging From Axial Mri
   track: O4-E.T6
@@ -5295,6 +5446,7 @@
   authors: Kim, Minju; Hur, Youngbum*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31930-2_7
 - id: 1413
+  presenter: Khudri, Mohamed
   title: Quantifying Multi-Site Heterogeneity In Tractography-Based Regression Of
     Srs Cognition In Autism Spectrum Disorder
   track: O10-E.T6
@@ -5309,6 +5461,7 @@
     Barnes, Gregory; El-Baz, Ayman
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31930-2_8
 - id: 1415
+  presenter: "Boral, Subhadip"
   title: Anomaly Detection Using Density Adaptive Tree Based Clustering
   track: O7-A.T1
   fullauthors: Subhadip Boral (Siksha O ANusandhan)*; Sagnik Ghosal (Amazon Development
@@ -5340,6 +5493,7 @@
     Gondim, Dibson; El-Baz, Ayman
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31930-2_11
 - id: 1425
+  presenter: "Zhou, Mingyang"
   title: 'Sigref: Verification-Driven Reflection For Faithful Paper-To-Code Development'
   track: O1-A.T1
   fullauthors: Mingyang Zhou (Tsinghua University); Quanming Yao (Tsinghua University)*;
@@ -5347,6 +5501,7 @@
   authors: Zhou, Mingyang; Yao, Quanming*; Du, Lun; Wei, Lanning; Zheng, Da
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31930-2_12
 - id: 1427
+  presenter: ...
   title: 'Huemanity: Probing Fine-Grained Visual Perception In Mllms'
   track: O3-A.T1
   fullauthors: Rynaa Grover (Google); Jayant Sravan Tamarapalli (Google)*; Sahiti
@@ -5363,6 +5518,7 @@
   authors: Kim, Dahee*; Kim, Sujeong; Yi, Won-Jin
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31930-2_14
 - id: 1429
+  presenter: "Anudeep Vurity"
   title: Layer-Wise Diagnostic Probing To Enhance Selectivity In Machine Unlearning
   track: O2-E.T1
   fullauthors: Anudeep Vurity (George Mason University)*; Zhisheng Yan (George Mason
@@ -5377,6 +5533,7 @@
   authors: Shrivastava, Anika; Rameshan, Renu; Agnihotri, Samar*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31930-2_16
 - id: 1431
+  presenter: "Anudeep Vurity"
   title: Evaluating Machine Unlearning In Fingerphoto Presentation Attack Detection
   track: O2-E.T1
   fullauthors: Anudeep Vurity (George Mason University)*; Zhisheng  Yan (George Mason
@@ -5384,6 +5541,7 @@
   authors: Vurity, Anudeep*; Yan, Zhisheng ; Albanese, Massimiliano
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31930-2_17
 - id: 1434
+  presenter: "Avijit Dasgupta"
   title: Dense Frame Annotations For Low-Resource Isl Fingerspelling Recognition
   track: O7-C.T4
   fullauthors: Kirandevraj R (IIIT Hyderabad)*; Vinod Kurmi (IISER Bhopal); Vinay
@@ -5444,6 +5602,7 @@
   authors: Brandt, Rafaël *; Strisciuglio, Nicola; Raatjes,  Daan; Gaydadjiev, Georgi
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31930-2_24
 - id: 1452
+  presenter: "Yifan Zhang"
   title: 'Kash: 1-Bit Key-Value Cache Quantizaiton Via Asymmetric Hashing'
   track: O5-A.T1
   fullauthors: Yifan Zhang (Nanjing University of Science and Technology)*; Qinghao
@@ -5453,6 +5612,7 @@
   authors: Zhang, Yifan*; Hu, Qinghao; Wei, Zhihui; Cheng, Jian
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31930-2_25
 - id: 1453
+  presenter: "Kim, Mingi"
   title: 'Beyond Co-Existence: Measuring Attribute Binding Hallucinations In Audio-Language
     Models'
   track: O3-A.T1 # OLD P2
@@ -5486,6 +5646,7 @@
   authors: Choi, Hyunjun*; Chung, JaeHo; Jeong, Hawook
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31930-2_29
 - id: 1466
+  presenter: "Takumi Kobayashi"
   title: Physics-Guided Prune-Then-Finetune Of Vision Transformers For Wavefield Pattern
     Analysis
   track: O5-A.T1
@@ -5495,6 +5656,7 @@
   authors: Ye, Jiaxing*; Kobayashi, Takumi
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31930-2_30
 - id: 1468
+  presenter: "Weiqiang Wang"
   title: Rectifying Self-Supervised Speech Representations For Diffusion-Based Speech
     Enhancement
   track: O2-D.T3
@@ -5611,6 +5773,7 @@
   authors: Oh, Yujeong; Kim, Taehoon; Lee, Mingyu; Yun, Kimin; Choi, Jongwon*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31930-2_44
 - id: 1494
+  presenter: "Hwang, Jinkwon"
   title: 'Blocking Visual Leakage: Visually-Agnostic Text Decomposition For Composed
     Video Retrieval'
   track: O6-D.T3
@@ -5719,6 +5882,7 @@
     Lukas; Kühl, Hjalmar ; Beery, Sara; Mirmehdi, Majid; Burghardt, Tilo
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31933-3_10
 - id: 1514
+  presenter: "Ayman Elbaz"
   title: 3D Nmibc Segmentation Via Texture-Guided Frequency-Aware Transformer On T2-Weighted
     Mri
   track: O4-E.T6
@@ -5815,6 +5979,7 @@
   fullauthors: Haiteng Xu (The Pennsylvania State University)*
   authors: Xu, Haiteng*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31933-3_20
+  presenter:  Haiteng Xu
 - id: 1534
   title: 'From Short Histories To Long Futures: Horizon-Aware Graph Neural Networks
     For Long Horizon Forecasting'
@@ -5841,6 +6006,7 @@
   ext-presenter: Abolfazl Chaman Motlagh
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31933-3_23
 - id: 1537
+  presenter: "Bishal Bashyal"
   title: 'Llie-Cvt: A Convolutional Vision Transformer For Low Light Image Enhancement'
   track: O7-D.T3
   fullauthors: Debanjan Goswami (Florida State University); Bishal Bashyal (Florida
@@ -5911,6 +6077,7 @@
   authors: Kang, Hyunwook; Lee, Young-Eun; Lee, Minji*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31933-3_31
 - id: 1549
+  presenter: "Sung-Bae Cho"
   title: Hyperbolic Spatio-Temporal Representation Learning For Unsupervised Video
     Anomaly Detection
   track: O9-A.T1
@@ -5965,6 +6132,7 @@
     Ritwik
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31933-3_37
 - id: 1558
+  presenter: "Dou Huang"
   title: Weakly Supervised Spatial Downscaling Via Constrained Inference And Variational
     Priors
   track: O9-A.T1
@@ -6064,6 +6232,7 @@
   authors: Dahaghin, Mahtab*; Padalkar, Milind Gajanan; Toso, Matteo; Del Bue, Alessio;
     Murino, Vittorio
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31936-4_2
+  presenter: Mahtab Dahaghin
 - id: 1594
   title: 'Dats-Av: A Dissonance-Aware Two-Stage Framework For Audio–Visual Deepfake
     Detection'
@@ -6072,6 +6241,7 @@
     Texas)*
   authors: Tonmoy, Rubayet; Rattani, Ajita*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31936-4_3
+  presenter: ...
 - id: 1598
   title: Dual-Branch Spectral–Spatial Network With Knowledge- And Data-Driven Band
     Selection For Uav Hyperspectral Wheat Rust Detection
@@ -6087,6 +6257,7 @@
   authors: Bhansali, Aayush*; Niagm, Dr. Aditya
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31936-4_5
 - id: 1601
+  presenter: Olle Edgren Schüllerqvist
   title: 'From Cells To Survival: Hierarchical Analysis Of Cell Inter-Relations In
     Multiplex Microscopy For Lung Cancer Prognosis'
   track: O8-E.T6 #OLD P3.T6
@@ -6108,7 +6279,9 @@
   authors: Gesualdi, Davide*; Santambrogio, Riccardo; Palermo, Francesca; Plizzari,
     Chiara; Mentasti, Simone; Matteucci, Matteo
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31936-4_7
+  presenter: Santambrogio, Riccardo
 - id: 1608
+  presenter: "Riccardo Santambrogio"
   title: Continuous Online Action Detection From Egocentric Videos
   track: O7-B.T2
   fullauthors: Riccardo Santambrogio (Politecnico di Milano)*; Chiara Plizzari (Università
@@ -6118,6 +6291,7 @@
     Simone; Matteucci, Matteo
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31936-4_8
 - id: 1616
+  presenter: ...
   title: 'Mamba-Byte-Time: A Token-Free, Byte-Level, Natural-Language-Inspired Approach
     For Time Series Forecasting'
   track: O10-C.T1
@@ -6137,6 +6311,7 @@
     Thi-Oanh*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31936-4_10
 - id: 1629
+  presenter: "Keito Kobayashi"
   title: Spatio-Temporal Instability And Epoch-Wise Double Descent
   track: O8-C.T1
   fullauthors: Keito Kobayashi (Tokyo Denki University)*; Reiya  Hiramoto (Tokyo Denki
@@ -6145,6 +6320,7 @@
   authors: Kobayashi, Keito*;  Hiramoto, Reiya; Sekiguchi, Ryoichi; Maeda, Eisaku
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31936-4_11
 - id: 1632
+  presenter: "Djeachandrane, Abhishek"
   title: 'Xd : Explainable Drift For Llm''S Robustness In Communication Network Protocols
     Modelling'
   track: O1-A.T1
@@ -6160,16 +6336,18 @@
   authors: Sun, PeiHong*; Lu, Jun
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31936-4_13
 - id: 1639
+  presenter: "Fouad Oueslati"
   title: 'Emo-Gnn: Graph Neural Networks For Explainable Monoand Multi-Label Emotion
     Detection'
   track: O1-D.T5
-  fullauthors: OUESLATI Fouad (LIMTIC-ISI)*; Sahbi Bahroun (LR16ES06 Laboratoire LIMTIC,
+  fullauthors: Oueslati Fouad (LIMTIC-ISI)*; Sahbi Bahroun (LR16ES06 Laboratoire LIMTIC,
     Higher Institute of Computer Science, University of Tunis El Manar, Tunisia);
     Ezzeddine Zagrouba (LR16ES06 Laboratoire LIMTIC, Higher Institute of Computer
     Science, University of Tunis El Manar, Tunisia)
   authors: Fouad, OUESLATI*; Bahroun, Sahbi; Zagrouba, Ezzeddine
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31936-4_14
 - id: 1065
+  presenter: "Charbel Yahchouchi"
   title: Generalizable Deepfake Detection Via Simplicity-Bias-Aware Clip Adaptation
   track: O5-C.T4
   fullauthors: charbel yahchouchi (Inria Centre at Université Côte d’Azur)*; Noemi
@@ -6178,6 +6356,7 @@
   authors: yahchouchi, charbel*; Roggero, Noemi; Saroul, Laurent; Dantcheva, Antitza
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31438-3_38
 - id: 332
+  presenter: "Dibitonto, Francesco"
   title: 'Hac: Parameter-Efficient Hyperbolic Adaptation Of Clip For Zero-Shot Vqa'
   track: O3-D.T3
   fullauthors: Francesco Dibitonto (University of Verona)*; Cigdem Beyan (University
