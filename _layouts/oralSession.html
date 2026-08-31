@@ -212,7 +212,7 @@
     <td  {% if paper.presenter == "..." %}style="color:#555;" {% endif %}>{{ paper.id }}</td>
 
     <td>
- {% if paper.presenter == "..." %}
+      {% if paper.presenter == "..." %}
       <div style="font-size:0.9em;color:#888;">{{ paper.title }}</div>
       <div style="font-size:0.9em;color:#AAA;">
         {{ paper.authors | join:", " | replace:"*","" }}
