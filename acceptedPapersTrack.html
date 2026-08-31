@@ -3,7 +3,7 @@ layout: default
 title: "ICPR 2026: list of accepted papers by track"
 canonical: "https://icpr2026.org/acceptedPapersTrack.html"
 description: "List of accepted papers to ICPR 2026 - International Conference on Pattern Recognition that take place in Lyon 17-22 August 2026."
-last_modified: 2026-07-14
+last_modified: 2026-08-31
 ---
 
 
@@ -12,7 +12,7 @@ last_modified: 2026-07-14
 <section id="searchPaper">
   <h1>Search ICPR 2026 Papers   </h1>
   
-<p>We received 1432 paper submissions to ICPR 2026. After a thorough reviewing process, the following {{ papers.size | minus: 5 }} papers are accepted and have uploaded their camera-ready manuscript for publication in Springer’s LNCS series.
+<p>We received 1432 paper submissions to ICPR 2026. After a thorough reviewing process, the following {{ papers.size | minus: 5 }} papers are accepted and have uploaded their camera-ready manuscript for publication in Springer’s LNCS series. 5 papers were also included presenting <a href="{{site.baseurl}}/acceptedPapersTrack.html#Track%20Competition"}>competition results</a>.
  </p>
 
 <div style="margin:20px 0;">
@@ -21,9 +21,20 @@ last_modified: 2026-07-14
          id="paperSearch"
          placeholder="e.g. 123"
          style="max-width:250px;padding:6px;">
-  <span id="paperCount" style="display:none;margin-left:15px;"></span>
-</span>
+
+    <label>
+      <input type="checkbox" id="filterOral">
+      Oral
+    </label>
+
+    <label style="margin-left:15px;">
+      <input type="checkbox" id="filterPoster">
+      Poster
+    </label>
+
+    <span id="paperCount" style="display:none;margin-left:15px;"></span>
 </div>
+
 
 {% assign tracksdef = site.data.tracks %}
 
@@ -78,7 +89,7 @@ last_modified: 2026-07-14
 
       {% if last_part == track_key %}
       {% assign paper_id = p.id | append: "" %}
-    <tr data-presenter="{{ p.presenter | escape }}">
+<tr data-presenter="{{ p.presenter | escape }}"    data-type="{{ link }}">
       <td>
         {% if p.presenter == "..." %} <div style="font-size: 0.9em; color: #AAA;">
           {{ p.id }} </div>
@@ -139,36 +150,56 @@ last_modified: 2026-07-14
 </tbody>
 </table>
 
-
 <script>
 const search = document.getElementById("paperSearch");
+const filterOral = document.getElementById("filterOral");
+const filterPoster = document.getElementById("filterPoster");
 const overview = document.getElementById("tracksOverview");
 const counter = document.getElementById("paperCount");
 
-search.addEventListener("input", function () {
+function applyFilters() {
 
-const value = this.value.trim().toLowerCase();
+    const value = search.value.trim().toLowerCase();
+    const oralChecked = filterOral.checked;
+    const posterChecked = filterPoster.checked;
 
-    // Hide overview table once entering data
-    overview.style.display = value === "" ? "" : "none";
+    // Hide overview table when a filter is active
+    overview.style.display =
+        (value === "" && !oralChecked && !posterChecked) ? "" : "none";
 
     let totalVisible = 0;
 
     document.querySelectorAll(".track-section").forEach(section => {
+
         let visibleRows = 0;
 
         section.querySelectorAll("tbody tr").forEach(row => {
+
             const text = row.textContent.toLowerCase();
             const id = row.querySelector("td").textContent.trim();
+            const type = row.dataset.type.toLowerCase();
 
-            let visible;
-           if (value ==="..."){
-                 visible = row.dataset.presenter === "...";
-           }else if (/^\d+$/.test(value)) {
-                visible = (id === value);
+            // Text / ID / presenter filter
+            let textMatch;
+
+            if (value === "...") {
+                textMatch = row.dataset.presenter === "...";
+            } else if (/^\d+$/.test(value)) {
+                textMatch = (id === value);
             } else {
-                visible = text.includes(value);
+                textMatch = value === "" || text.includes(value);
             }
+
+            // Oral / Poster filter
+            let typeMatch = true;
+
+            if (oralChecked || posterChecked) {
+                typeMatch =
+                    (oralChecked && type.startsWith("oral")) ||
+                    (posterChecked && type.startsWith("poster"));
+            }
+
+            const visible = textMatch && typeMatch;
 
             row.style.display = visible ? "" : "none";
 
@@ -177,24 +208,35 @@ const value = this.value.trim().toLowerCase();
                 totalVisible++;
             }
         });
-if (value.length === 0) {
-    counter.style.display = "none";
-} else {
-    counter.style.display = "inline";
-    counter.textContent = `(${totalVisible} paper${totalVisible > 1 ? "s" : ""} found)`;
-}
+
         section.style.display = visibleRows ? "" : "none";
     });
-  
-});
+
+    // Counter
+    if (value.length === 0 && !oralChecked && !posterChecked) {
+        counter.style.display = "none";
+    } else {
+        counter.style.display = "inline";
+        counter.textContent =
+            `(${totalVisible} paper${totalVisible > 1 ? "s" : ""} found)`;
+    }
+}
+
+// Search field
+search.addEventListener("input", applyFilters);
+
+// Checkboxes
+filterOral.addEventListener("change", applyFilters);
+filterPoster.addEventListener("change", applyFilters);
+
 // To get link from query string
 const params = new URLSearchParams(window.location.search);
 const query = params.get("search") || params.get("id");
+
 if (query) {
     search.value = query;
-    search.dispatchEvent(new Event("input"));
+    applyFilters();
 }
-
 </script>
   
 </section>
