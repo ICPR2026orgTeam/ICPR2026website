@@ -124,18 +124,23 @@ last_modified: 2026-08-31
             </div>
             {% endif %}
             {% endif %}
-            {% if p.pdflink %}
-            <a href="{{ p.pdflink }}" target="_blank" class="text-danger">
-              <i class="bi bi-file-earmark-pdf"></i> PDF
-            </a>
+            {% if p.slideDiff == "OK" %}
+            <a href="https://icpr2026orgteam.github.io/OralPres/{{p.id}}.pdf"><i class="bi bi-file-earmark-slides"></i> slides </a>             
             {% endif %}
+
           </td>
           <td><a href="{{ site.baseurl }}/sessions/{{link}}/">{{ p.track }}</a>
             {% assign poster_number = site.data.gridPosterID[p.id] %}
           {% if poster_number %}
           #{{ poster_number }}
           {% endif %}
-          
+            {% if p.pdflink %}
+            <br>
+            <a href="{{ p.pdflink }}" target="_blank" class="text-danger">
+              <i class="bi bi-file-earmark-pdf"></i> PDF
+            </a>
+            {% endif %}
+
           </td>
         </tr>
       {% endif %}
