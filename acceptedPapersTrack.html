@@ -31,6 +31,10 @@ last_modified: 2026-08-31
       <input type="checkbox" id="filterPoster">
       Poster
     </label>
+    <label style="margin-left:15px;">
+      <input type="checkbox" id="filterRR">
+      RR label
+    </label>
 
     <span id="paperCount" style="display:none;margin-left:15px;"></span>
 </div>
@@ -39,6 +43,7 @@ last_modified: 2026-08-31
 {% assign tracksdef = site.data.tracks %}
 
 {% assign paperLabelList = site.data.papersRRLabels %}
+{% assign paperLabelIds = paperLabelList | split: ", " %}
 
 
 <table class="table-workshop" id="tracksOverview">
@@ -89,14 +94,21 @@ last_modified: 2026-08-31
 
       {% if last_part == track_key %}
       {% assign paper_id = p.id | append: "" %}
-<tr data-presenter="{{ p.presenter | escape }}"    data-type="{{ link }}">
+    <tr data-presenter="{{ p.presenter | escape }}"    data-type="{{ link }}"
+    {% if paperLabelIds contains paper_id %}
+        data-rr="OK" 
+    {% else %}
+      data-rr="--"      
+    {% endif %}
+
+        >
       <td>
         {% if p.presenter == "..." %} <div style="font-size: 0.9em; color: #AAA;">
           {{ p.id }} </div>
         {% else %}
           {{ p.id }}
         {% endif %}
-        {% if paperLabelList contains paper_id %}
+        {% if paperLabelIds contains paper_id %}
         <a href="https://iapr-tc22-rrl.github.io/icpr2026/results/">
         <img src="/Images/labelRL.svg" alt="Label" width="64" height="64" class="ms-1"></a>
         {% endif %}
@@ -167,6 +179,7 @@ function applyFilters() {
     const value = search.value.trim().toLowerCase();
     const oralChecked = filterOral.checked;
     const posterChecked = filterPoster.checked;
+    const rrChecked = filterRR.checked;
 
     // Hide overview table when a filter is active
     overview.style.display =
@@ -198,10 +211,10 @@ function applyFilters() {
             // Oral / Poster filter
             let typeMatch = true;
 
-            if (oralChecked || posterChecked) {
+            if (oralChecked || posterChecked || rrChecked) {
                 typeMatch =
-                    (oralChecked && type.startsWith("oral")) ||
-                    (posterChecked && type.startsWith("poster"));
+(!oralChecked && !posterChecked &&   (!rrChecked || row.dataset.rr.startsWith("OK"))) || ((oralChecked && type.startsWith("oral")) ||
+                     (posterChecked && type.startsWith("poster"))) &&  (!rrChecked || row.dataset.rr.startsWith("OK"));
             }
 
             const visible = textMatch && typeMatch;
@@ -218,7 +231,7 @@ function applyFilters() {
     });
 
     // Counter
-    if (value.length === 0 && !oralChecked && !posterChecked) {
+    if (value.length === 0 && !oralChecked && !posterChecked && !rrChecked) {
         counter.style.display = "none";
     } else {
         counter.style.display = "inline";
@@ -233,6 +246,7 @@ search.addEventListener("input", applyFilters);
 // Checkboxes
 filterOral.addEventListener("change", applyFilters);
 filterPoster.addEventListener("change", applyFilters);
+filterRR.addEventListener("change", applyFilters);
 
 // To get link from query string
 const params = new URLSearchParams(window.location.search);
