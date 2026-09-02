@@ -175,7 +175,6 @@ last_modified: 2026-08-31
 
 </tbody>
 </table>
-
 <script>
 const search = document.getElementById("paperSearch");
 const filterOral = document.getElementById("filterOral");
@@ -194,15 +193,22 @@ function applyFilters() {
     const rrChecked = filterRR.checked;
     const slideDiffChecked = filterSlide.checked;
 
+    const filtering =
+        value !== "" ||
+        oralChecked ||
+        posterChecked ||
+        rrChecked ||
+        slideDiffChecked;
+
     // Hide overview table when a filter is active
-    overview.style.display =
-        (value === "" && !oralChecked && !posterChecked) ? "" : "none";
+    overview.style.display = filtering ? "none" : "";
 
     let totalVisible = 0;
 
     document.querySelectorAll(".track-section").forEach(section => {
 
         let visibleRows = 0;
+        let visibleIndex = 0;
 
         section.querySelectorAll("tbody tr").forEach(row => {
 
@@ -216,37 +222,68 @@ function applyFilters() {
             if (value === "...") {
                 textMatch = row.dataset.presenter === "...";
             } else if (/^\d+$/.test(value)) {
-                textMatch = (id === value);
+                textMatch = id === value;
             } else {
                 textMatch = value === "" || text.includes(value);
             }
 
-            // Oral / Poster filter
+            // Oral / Poster / RR filter
             let typeMatch = true;
 
-            if (oralChecked || posterChecked || rrChecked|| slideDiffChecked) {
-               typeMatch = (!oralChecked && !posterChecked &&   (!rrChecked || row.dataset.rr.startsWith("OK"))) ||
-                           ((oralChecked && type.startsWith("oral")) ||
-                         (posterChecked && type.startsWith("poster")));
+            if (oralChecked || posterChecked ) {
+
+                const oralMatch =
+                    oralChecked && type.startsWith("oral");
+
+                const posterMatch =
+                    posterChecked && type.startsWith("poster");
+
+
+                typeMatch = oralMatch || posterMatch ;
             }
-           if (slideDiffChecked) {
-               typeMatch = typeMatch && row.dataset.sd === "OK";
+           if (rrChecked){
+                typeMatch = typeMatch  && row.dataset.rr.startsWith("OK")  ;
+           }
+
+            // Slides filter
+            if (slideDiffChecked) {
+                typeMatch =
+                    typeMatch &&
+                    row.dataset.sd === "OK";
             }
+
             const visible = textMatch && typeMatch;
 
+            // Show / hide row
             row.style.display = visible ? "" : "none";
 
+            // Remove previous filtering classes
+            row.classList.remove("filtered-even", "filtered-odd");
+
             if (visible) {
+
+                // Alternate only visible rows
+                if (filtering) {
+                    row.classList.add(
+                        visibleIndex % 2 === 0
+                            ? "filtered-even"
+                            : "filtered-odd"
+                    );
+                }
+
+                visibleIndex++;
                 visibleRows++;
                 totalVisible++;
             }
         });
 
-        section.style.display = visibleRows ? "" : "none";
+        // Hide empty tracks
+        section.style.display =
+            visibleRows > 0 ? "" : "none";
     });
 
     // Counter
-    if (value.length === 0 && !oralChecked && !posterChecked && !rrChecked&& !slideDiffChecked) {
+    if (!filtering) {
         counter.style.display = "none";
     } else {
         counter.style.display = "inline";

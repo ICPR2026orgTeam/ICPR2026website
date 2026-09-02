@@ -77,10 +77,20 @@ table {
 }
 .table-workshop {
     width: 90%;
-  tr:nth-child(even) {
-    background-color: #FFEEEE;
-  }
-  margin-bottom: 100px; 
+
+    tr:nth-child(even) {
+        background-color: #FFEEEE;
+    }
+
+    tr.filtered-even > td {
+        background-color: #FFEEEE !important;
+    }
+
+    tr.filtered-odd > td {
+        background-color: white !important;
+    }
+
+    margin-bottom: 100px; 
 }
 /* Mini style pour tableau contact */
 .table-contact {
