@@ -35,6 +35,10 @@ last_modified: 2026-08-31
       <input type="checkbox" id="filterRR">
       RR label
     </label>
+    <label style="margin-left:15px;">
+      <input type="checkbox" id="filterSlide">
+      with slides
+    </label>
 
     <span id="paperCount" style="display:none;margin-left:15px;"></span>
 </div>
@@ -99,6 +103,11 @@ last_modified: 2026-08-31
         data-rr="OK" 
     {% else %}
       data-rr="--"      
+    {% endif %}
+   {% if p.slideDiff == "OK"  %}
+        data-sd="OK" 
+    {% else %}
+      data-sd="--"      
     {% endif %}
 
         >
@@ -171,6 +180,9 @@ last_modified: 2026-08-31
 const search = document.getElementById("paperSearch");
 const filterOral = document.getElementById("filterOral");
 const filterPoster = document.getElementById("filterPoster");
+const filterSlide = document.getElementById("filterSlide");
+const filterRR = document.getElementById("filterRR");
+
 const overview = document.getElementById("tracksOverview");
 const counter = document.getElementById("paperCount");
 
@@ -180,6 +192,7 @@ function applyFilters() {
     const oralChecked = filterOral.checked;
     const posterChecked = filterPoster.checked;
     const rrChecked = filterRR.checked;
+    const slideDiffChecked = filterSlide.checked;
 
     // Hide overview table when a filter is active
     overview.style.display =
@@ -211,12 +224,14 @@ function applyFilters() {
             // Oral / Poster filter
             let typeMatch = true;
 
-            if (oralChecked || posterChecked || rrChecked) {
-                typeMatch =
-(!oralChecked && !posterChecked &&   (!rrChecked || row.dataset.rr.startsWith("OK"))) || ((oralChecked && type.startsWith("oral")) ||
-                     (posterChecked && type.startsWith("poster"))) &&  (!rrChecked || row.dataset.rr.startsWith("OK"));
+            if (oralChecked || posterChecked || rrChecked|| slideDiffChecked) {
+               typeMatch = (!oralChecked && !posterChecked &&   (!rrChecked || row.dataset.rr.startsWith("OK"))) ||
+                           ((oralChecked && type.startsWith("oral")) ||
+                         (posterChecked && type.startsWith("poster")));
             }
-
+           if (slideDiffChecked) {
+               typeMatch = typeMatch && row.dataset.sd === "OK";
+            }
             const visible = textMatch && typeMatch;
 
             row.style.display = visible ? "" : "none";
@@ -231,7 +246,7 @@ function applyFilters() {
     });
 
     // Counter
-    if (value.length === 0 && !oralChecked && !posterChecked && !rrChecked) {
+    if (value.length === 0 && !oralChecked && !posterChecked && !rrChecked&& !slideDiffChecked) {
         counter.style.display = "none";
     } else {
         counter.style.display = "inline";
@@ -247,6 +262,7 @@ search.addEventListener("input", applyFilters);
 filterOral.addEventListener("change", applyFilters);
 filterPoster.addEventListener("change", applyFilters);
 filterRR.addEventListener("change", applyFilters);
+filterSlide.addEventListener("change", applyFilters);
 
 // To get link from query string
 const params = new URLSearchParams(window.location.search);
