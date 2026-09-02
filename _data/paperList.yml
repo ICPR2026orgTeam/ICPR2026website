@@ -4827,7 +4827,8 @@
   fullauthors: Gil Ben-Artzi (Ariel University)*
   authors: Ben-Artzi, Gil*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_33
-  presenter: ...
+  presenter: Ben-Artzi, Gil
+  slideDiff: "OK"  
 - id: 1259
   presenter: "Qianyang Zhu"
   title: Llm-Empowered Dual Exploration-Exploitation Framework For Sequential Recommendation
