@@ -47,7 +47,9 @@
     | first %}
 
     {% assign listPapersAll = site.data.paperList %}
+    
     {% assign paperLabelList = site.data.papersRRLabels %}
+    {% assign paperLabelIds = paperLabelList | split: ", " %}
 
 
     {% capture sessionNumber %}
@@ -140,8 +142,8 @@
 
     <td>
       {% if paper.presenter == "..." %}
-      <div style="font-size:0.9em;color:#888;">{{ paper.title }}</div>
-      <div style="font-size:0.9em;color:#AAA;">
+      <div style="font-size:1em;color:#888;">{{ paper.title }}</div>
+      <div style="font-size:1em;color:#AAA;">
         {{ paper.authors | join:", " | replace:"*","" }}
       </div>
 
@@ -157,10 +159,14 @@
             </div>
             {% else  %}
             {% if paper.presenter and paper.presenter != "..."  %}
-            <div style="font-size: 0.9em; color: #881111;">
+            <div style="font-size: 0.95em; color: #222;">
               {{  "presented by:" }} {{ paper.presenter }}
             </div>
             {% endif %}
+
+            {% endif %}
+            {% if paper.slideDiff == "OK" %}
+            <a href="https://icpr2026orgteam.github.io/OralPres/{{paper.id}}.pdf"><i class="bi bi-file-earmark-slides"></i> slides </a>             
             {% endif %}
 
     </td>
@@ -168,10 +174,12 @@
         {% if paper.pdflink %}
 <a href="{{ paper.pdflink }}" target="_blank"
    class="{% if paper.presented == "no" %}text-secondary{% else %}text-danger{% endif %}">
-  <i class="bi bi-file-earmark-pdf"></i> PDF
-</a> {% if paperLabelList contains paper_id %}
-<a href="https://iapr-tc22-rrl.github.io/icpr2026/results/">        <img src="/Images/labelRL.svg" alt="Label" width="64" height="64" class="ms-1"></a>
-        {% endif %}
+  <i class="bi bi-file-earmark-pdf"></i> paper
+</a> {% if paperLabelIds contains paper_id %}
+<a href="https://iapr-tc22-rrl.github.io/icpr2026/results/">
+  <img src="/Images/labelRL.svg" alt="Label" width="64" height="64" class="ms-1">
+</a>
+{% endif %}
        
         {% endif %}
     </td>
@@ -213,7 +221,7 @@
 
     <td>
       {% if paper.presenter == "..." %}
-      <div style="font-size:0.9em;color:#888;">{{ paper.title }}</div>
+      <div style="font-size:0.9em;color:#888;">{{ paper.title }} </div>
       <div style="font-size:0.9em;color:#AAA;">
         {{ paper.authors | join:", " | replace:"*","" }}
       </div>
@@ -225,7 +233,8 @@
         {{ paper.authors | join:", " | replace:"*","" }}
       </div>
       {% endif %}
-     {% if paper.ext-presenter %}
+            
+      {% if paper.ext-presenter %}
             <div style="font-size: 0.9em; color: #C22;">
               {{  "presented by (proxy):" }} {{ paper.ext-presenter }}
             </div>
@@ -242,7 +251,7 @@
 <a href="{{ paper.pdflink }}" target="_blank"
    class="{% if paper.presented == "no" %}text-secondary{% else %}text-danger{% endif %}">
   <i class="bi bi-file-earmark-pdf"></i> PDF
-</a> {% if paperLabelList contains paper_id %}
+</a> {% if paperLabelIds contains paper_id %}
 <a href="https://iapr-tc22-rrl.github.io/icpr2026/results/">        <img src="/Images/labelRL.svg" alt="Label" width="64" height="64" class="ms-1"></a>
         {% endif %}
        
