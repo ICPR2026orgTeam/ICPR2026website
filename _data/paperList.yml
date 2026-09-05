@@ -3699,7 +3699,7 @@
   authors: Lee, Hyeonmin*; Ko, Seonghyeon; Bum, Junghyun; Le, Duc-Tai; Son, Chang-Hwan;
     Choo, Hyunseung
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31441-3_46
-  ext-presenter: A representative of the team (but not an author)
+  ext-presenter: A proxy presenter
 - id: 1001
   title: 'Ifagenet: Identity-Aware Face Aging Via Feature Inversion And Age-Conditioned
     Adaptive Latent Shifts'
