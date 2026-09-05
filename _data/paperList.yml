@@ -455,6 +455,7 @@
   authors: Horn, Pius*; Keuper, Janis
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31583-0_7
 - id: 155
+  slideDiff: "OK"
   presenter: "Fernando, Muditha"
   title: 'Semalign: Language Guided Semi-Supervised Domain Generalization'
   track: O2-B.T2
@@ -2062,6 +2063,7 @@
     Frédéric; Aider, Omar Ait
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31673-8_1
 - id: 566
+  slideDiff: "OK"
   presenter: "Sungho Kang"
   title: Anomaly Detection By Effectively Leveraging Synthetic Images
   track: O2-A.T1
@@ -3461,6 +3463,7 @@
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31441-3_20
   presenter: Moresco, Matheus
 - id: 950
+  slideDiff: "OK"
   presenter: "Sotelo, Juan"
   title: 'Chroma: Detecting Ai-Generated Images Through Inter-Channel Color-Space
     Correlations'
@@ -4103,6 +4106,7 @@
   authors: Nazir, Maham; Aqeel, Muhammad*; Zhang, Richong; Setti, Francesco
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31438-3_46
 - id: 1087
+  slideDiff: "OK"
   presenter: Poisson Caillault
   title: Improving N1-Sleep Stage Detection Using Constant-Q Transform And Lightweight
     Cnn/Lstm Model
@@ -4271,6 +4275,7 @@
     Ali; Sewelam, Ashraf; Ghazal, Mohammed; El-Baz, Ayman
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31452-9_20
 - id: 1122
+  slideDiff: "OK"
   presenter: "Palaiahnakote, Shivakumara"
   title: 'Cpa-Gnn: Contextual-Based Pattern-Aware Graph-Neural Network For Text Spotting'
   track: O4-D.T5
@@ -4318,6 +4323,7 @@
   authors: Wang, Bin; Dornaika, Fadi*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31452-9_26
 - id: 1135
+  slideDiff: "OK"
   presenter: "Kossi Josué ADOSSEHOUN"
   title: 'Gcd: Geometry–Constrained Contact-Aware Diffusion For Text–Driven 3D Hand–Object
     Motion Synthesis'
@@ -4779,6 +4785,7 @@
     Pascal (UCA)); Céline  Teulière (Institut Pascal (UCA)); Pierre Bouges (Michelin)
   authors: Gharbage, Mehdi*; Chateau, Thierry ; Teulière, Céline ; Bouges, Pierre
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_27
+  slideDiff: "OK"
 - id: 1246
   title: 'Sync-Flow: Synchronization-Aware One-Step Generative Model For Audio-Visual
     Speech Enhancement'
@@ -6413,6 +6420,7 @@
   authors: Fouad, OUESLATI*; Bahroun, Sahbi; Zagrouba, Ezzeddine
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31936-4_14
 - id: 1065
+  slideDiff: "OK"
   presenter: "Charbel Yahchouchi"
   title: Generalizable Deepfake Detection Via Simplicity-Bias-Aware Clip Adaptation
   track: O5-C.T4
