@@ -2521,6 +2521,7 @@
     Flora; Lobry, Sylvain; Tuia, Devis
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31397-3_8
 - id: 674
+  slideDiff: "OK"
   presenter: "Alexandre Monnier Weil"
   title: 'Ragdnet: A Region-Adjacency Graph For Semantic Segmentation Of Mechanical
     Drawings Using Graph Neural Networks'
@@ -4669,6 +4670,7 @@
   authors: Wang, Zihan*; Ji, Xu; Zhang, Yejun; Rahtu, Esa; Kannala, Juho
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_15
 - id: 1217
+  slideDiff: "OK"
   presenter: "Yanchao Xiao"
   title: 'Mus: Multilingual Synergy With Shared Representations For Visual Speech
     Recognition'
