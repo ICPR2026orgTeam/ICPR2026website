@@ -1291,6 +1291,7 @@
   authors: Pan, Zhigeng; Zhang, Lifeng*; Lin, Xianxuan; Wu, Xi; Meng, Fan; Wu, Timing
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31663-9_10
 - id: 382
+  slideDiff: OK
   title: 'Cafe-Gs: Compactness-Aware Frequency-Guided Densification For 3D Gaussian
     Splatting'
   track: O4-B.T2
@@ -1691,6 +1692,7 @@
   authors: Feng, Shijia*; Wray, Michael; Mayol-Cuevas, Walterio
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31666-0_7
 - id: 481
+  slideDiff: OK
   presenter: "Luigi Bianchi"
   title: 'Eva Optimizer: Escaping Low-Curvature Traps In Deep Learning'
   track: O3-C.T1
@@ -3618,6 +3620,7 @@
   authors: Wang, Lu-Yan; Lai, Shang-Hong*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31441-3_36
 - id: 981
+  slideDiff: OK
   presenter: "Ravi Prasad"
   title: 'Spot-Face: Forensic Face Identification Using Attention Guided Optimal Transport'
   track: O6-A.T1
