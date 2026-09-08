@@ -4300,6 +4300,7 @@
     Pal, Umapada
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31452-9_22
 - id: 1128
+  ext-presenter: Yifan Zhang
   title: 'Sketch-Clip: Efficient Clip Adaptation For Few-Shot Sketch Classification'
   track: P2.T5
   fullauthors: Yunqi Xu (Concordia University)*; Ching Yee Suen (Concordia Unniversity)
@@ -4917,6 +4918,7 @@
     Rathish Kumar, B.V.; Kumar Dwivedi, Durgesh
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_41
 - id: 1275
+  slideDiff: OK
   presenter: "Tolgay Atinc Uzun"
   title: Closed-Loop Llm Discovery Of Non-Standard Channel Priors In Vision Models
   track: O10-A.T1
