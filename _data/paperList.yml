@@ -298,6 +298,7 @@
   authors: Hendricks, Arne*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31335-5_34
 - id: 104
+  slideDiff: OK
   presenter: "Kecia Moura"
   title: A Prototypical Signature Approach For Writer-Independent Offline Signature
     Verification
@@ -1020,6 +1021,7 @@
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31654-7_25
   ext-presenter: Evelyn Turri
 - id: 307
+  slideDiff: OK
   presenter: "de Almeida, Melonie"
   title: 'Pixel-To-4D: Camera-Controlled Image-To-Video Generation With Dynamic 3D
     Gaussians'
@@ -2579,6 +2581,7 @@
     Gaetan; Lobry, Sylvain*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31397-3_14
 - id: 692
+  slideDiff: OK
   presenter: "Yushio Kashimoto"
   title: 'Adgr: Adaptive Density-Guided Graph Re-Ranking For Person Re-Identification'
   track: O5-C.T4
