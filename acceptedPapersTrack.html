@@ -109,10 +109,15 @@ last_modified: 2026-08-31
     {% else %}
       data-sd="--"      
     {% endif %}
+   {% if p.posterState == "NoPosterSeenBySChairs"  %}
+        data-ps="NoPoster" 
+    {% elsif p.posterState == "PosterOnlySeenBySChairs"  %}
+        data-ps="PosterOnly" 
+    {% endif %}
 
         >
       <td>
-        {% if p.presenter == "..." %} <div style="font-size: 0.9em; color: #AAA;">
+        {% if p.presenter == "..." or p.posterState == "NoPosterSeenBySChairs"  %} <div style="font-size: 0.9em; color: #AAA;">
           {{ p.id }} </div>
         {% else %}
           {{ p.id }}
@@ -123,15 +128,37 @@ last_modified: 2026-08-31
         {% endif %}
         </td>
       <td>
-        {% if p.presenter == "..." %}
+        {% if p.presenter == "..." or p.posterState == "NoPosterSeenBySChairs" %}
         <div class="text-break" style="font-size: 0.9em; color: #888;">{{ p.title }}</div>
         <div style="font-size: 0.9em; color: #AAA;">
               {{ p.authors | join: ", " | replace: "*", "" }}
             </div>
-            {% else %}
+        {% else %}
             <div class="text-break">{{ p.title }}</div>
             <div style="font-size: 0.9em; color: #666;">
               {{ p.authors | join: ", " | replace: "*", "" }}
+            {% if p.posterState == "PosterAndPresenterSeenBySChairs" or p.posterState == "PosterOnlySeenBySChairs" %}
+            <span class="position-relative d-inline-block">
+              <i class="bi bi-file-earmark-image"></i>
+              <span class="position-absolute"
+                    style="right: -3px; bottom: 0px; width: 12px; height: 12px;">
+                <i class="bi-check-circle"
+                   style="font-size: 12px;"></i>
+              </span>
+            </span>
+            {% endif %}
+
+            {% if p.posterState == "PosterAndPresenterSeenBySChairs"  %}
+            <span class="position-relative d-inline-block">
+              <i class="bi bi-person" style="font-size: 25px;"></i>
+              <span class="position-absolute"
+                    style="right: -3px; bottom: 0px; width: 12px; height: 12px;">
+                <i class="bi-check-circle"
+                   style="font-size: 12px;"></i>
+              </span>
+            </span>
+            {% endif %}
+
             </div>
             {% endif %}
             {% if p.ext-presenter %}
@@ -148,7 +175,7 @@ last_modified: 2026-08-31
             {% if p.slideDiff == "OK" %}
             <a href="https://icpr2026orgteam.github.io/OralPres/{{p.id}}.pdf"><i class="bi bi-file-earmark-slides"></i> slides </a>             
             {% endif %}
-
+          
           </td>
           <td><a href="{{ site.baseurl }}/sessions/{{link}}/">{{ p.track }}</a>
             {% assign poster_number = site.data.gridPosterID[p.id] %}
@@ -221,6 +248,10 @@ function applyFilters() {
 
             if (value === "...") {
                 textMatch = row.dataset.presenter === "...";
+            }else if (value === "....") {
+                textMatch = row.dataset.ps === "NoPoster";
+            }else if (value === ".....") {
+                textMatch = row.dataset.ps === "PosterOnly";
             } else if (/^\d+$/.test(value)) {
                 textMatch = id === value;
             } else {
