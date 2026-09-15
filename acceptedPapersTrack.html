@@ -117,7 +117,7 @@ last_modified: 2026-08-31
 
         >
       <td>
-        {% if p.presenter == "..." %} <div style="font-size: 0.9em; color: #AAA;">
+        {% if p.presenter == "..." or p.posterState == "NoPosterSeenBySChairs"  %} <div style="font-size: 0.9em; color: #AAA;">
           {{ p.id }} </div>
         {% else %}
           {{ p.id }}
@@ -128,7 +128,7 @@ last_modified: 2026-08-31
         {% endif %}
         </td>
       <td>
-        {% if p.presenter == "..." %}
+        {% if p.presenter == "..." or p.posterState == "NoPosterSeenBySChairs" %}
         <div class="text-break" style="font-size: 0.9em; color: #888;">{{ p.title }}</div>
         <div style="font-size: 0.9em; color: #AAA;">
               {{ p.authors | join: ", " | replace: "*", "" }}
