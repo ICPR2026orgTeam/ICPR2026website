@@ -137,19 +137,48 @@
       {% for p in listPapers  %}
       {% assign paper_id = p.id | append: "" %}
       
- <tr>
-   <td>{{ p.id }} <div>{{ p.track |slice: -2, 2 }}</div>
-   </td>
-          <td>
-            <div class="text-break" id="{{ p.track |slice: -2, 2 }}">{{ p.title }}</div>
-            <div style="font-size: 0.9em; color: #666;">
-              {{ p.authors | join: ", " | replace: "*", "" }}
-            </div>
-            {% if p.ext-presenter %}
-            <div style="font-size: 0.9em; color: #C22;">
-              {{  "presented by:" }} {{ p.ext-presenter }}
-            </div>
+      <tr>
+        <td>{{ p.id }} <div>{{ p.track |slice: -2, 2 }}</div> 
+        </td>
+        <td>
+          <div class="text-break" id="{{ p.track |slice: -2, 2 }}">{{ p.title }}
+            {% if p.posterState == "PosterAndPresenterSeenBySChairs" or p.posterState == "PosterOnlySeenBySChairs" %}
+            <span class="position-relative d-inline-block">
+              <i class="bi bi-file-earmark-image"></i>
+              <span class="position-absolute"
+                    style="right: -3px; bottom: 0px; width: 12px; height: 12px;">
+                <i class="bi-check-circle"
+                   style="font-size: 12px;"></i>
+              </span>
+            </span>
             {% endif %}
+          </div>
+          <div style="font-size: 0.9em; color: #666;">
+            {{ p.authors | join: ", " | replace: "*", "" }}
+          {% if p.posterState == "PosterAndPresenterSeenBySChairs"  %}
+            <span class="position-relative d-inline-block">
+              <i class="bi bi-person" style="font-size: 25px;"></i>
+              <span class="position-absolute"
+                    style="right: -3px; bottom: 0px; width: 12px; height: 12px;">
+                <i class="bi-check-circle"
+                   style="font-size: 12px;"></i>
+              </span>
+            </span>
+            {% endif %}
+          </div>
+          {% if p.ext-presenter %}
+          <div style="font-size: 0.9em; color: #C22;">
+            {{  "presented by:" }} {{ p.ext-presenter }}
+          </div>
+          {% endif %}
+          
+          
+    
+
+           
+            
+
+
           </td>
           <td>
             
