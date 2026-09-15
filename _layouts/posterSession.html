@@ -138,10 +138,11 @@
       {% assign paper_id = p.id | append: "" %}
       
       <tr>
-        <td>{{ p.id }} <div>{{ p.track |slice: -2, 2 }}</div> 
+        <td {% if p.posterState == "NoPosterSeenBySChairs" %} style="font-size:1em;color:#AAA;" {% endif %}>{{ p.id }} <div>{{ p.track |slice: -2, 2 }}</div> 
         </td>
         <td>
-          <div class="text-break" id="{{ p.track |slice: -2, 2 }}">{{ p.title }}
+          
+          <div {% if p.posterState == "NoPosterSeenBySChairs" %} style="font-size:1em;color:#888;"{% endif %} class="text-break" id="{{ p.track |slice: -2, 2 }}">{{ p.title }}
             {% if p.posterState == "PosterAndPresenterSeenBySChairs" or p.posterState == "PosterOnlySeenBySChairs" %}
             <span class="position-relative d-inline-block">
               <i class="bi bi-file-earmark-image"></i>
@@ -153,7 +154,7 @@
             </span>
             {% endif %}
           </div>
-          <div style="font-size: 0.9em; color: #666;">
+          <div {% if p.posterState == "NoPosterSeenBySChairs" %} style="font-size:1em;color:#AAA;"  {% else %} style="font-size: 0.9em; color: #666;" {% endif %} >
             {{ p.authors | join: ", " | replace: "*", "" }}
           {% if p.posterState == "PosterAndPresenterSeenBySChairs"  %}
             <span class="position-relative d-inline-block">
@@ -192,7 +193,7 @@
         {% endif %}
        
           </td>
-   <td>
+        <td {% if p.posterState == "NoPosterSeenBySChairs" %} style="font-size:1em;color:#AAA;" {% endif %}>
             {% assign poster_number = site.data.gridPosterID[p.id] %}
           {% if poster_number %}
           #{{ poster_number }}
