@@ -1062,7 +1062,7 @@
     Maurel, Fabrice; Dias, Gaël; Chahir, Youssef
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31654-7_20
 - id: 297
-  posterState: "PosterOnlySeenBySChairs"
+  posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Adp-Dit: Text-Guided Diffusion Transformer For Brain Image Generation In
     Alzheimer’S Disease Progression'
   track: P4.T6
