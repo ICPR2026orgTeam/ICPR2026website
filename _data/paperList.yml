@@ -3033,6 +3033,7 @@
   authors: Li, Feng*; Sun, Chen; Wang, Bing; Xie, Zongyu
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31397-3_33
 - id: 757
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Inherently Interpretable Graph Neural Networks Via B-Cos Alignment
   track: P2.T1
