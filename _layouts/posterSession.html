@@ -173,7 +173,10 @@
           </div>
           {% endif %}
           
-          
+          {% if p.PosterPDFPresent == "OK" %}
+            <a href="https://icpr2026orgteam.github.io/PosterPres/{{p.id}}.pdf"><i class="bi bi-file-earmark-slides"></i> poster </a>             
+            {% endif %}
+
     
 
            
