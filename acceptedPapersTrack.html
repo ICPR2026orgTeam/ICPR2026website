@@ -37,7 +37,7 @@ last_modified: 2026-08-31
     </label>
     <label style="margin-left:15px;">
       <input type="checkbox" id="filterSlide">
-      with slides
+      Slides/Poster available
     </label>
 
     <span id="paperCount" style="display:none;margin-left:15px;"></span>
@@ -104,7 +104,7 @@ last_modified: 2026-08-31
     {% else %}
       data-rr="--"      
     {% endif %}
-   {% if p.slideDiff == "OK"  %}
+   {% if p.slideDiff == "OK" or p.PosterPDFPresent == "OK"  %}
         data-sd="OK" 
     {% else %}
       data-sd="--"      
