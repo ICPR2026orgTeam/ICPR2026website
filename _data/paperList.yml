@@ -59,6 +59,7 @@
     Federico; Dengel, Andreas
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31335-5_6
 - id: 21
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Retinexdual: Retinex-Based Dual Nature Approach For Generalized Ultra-High-Definition
     Image Restoration'
@@ -218,6 +219,7 @@
   authors: Ojo, Akinlolu*; Bouguila, Nizar
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31335-5_23
 - id: 79
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Feddg-Moe-Nf: Prototypical Normalizing Flow Networks For Federated Domain
     Generalization'
@@ -270,6 +272,7 @@
   authors: Ma, Jiahao*; Li, Hongzong; Hu, Yefan; Huang, Jian-dong
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31335-5_28
 - id: 90
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Univariate Channel Fusion For Multivariate Time Series Classification
   track: P3.T1
@@ -341,6 +344,7 @@
   authors: 庆鑫, 倪; 朝路, 冯*; 睦卿, 张; 金柱, 杨
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31335-5_36
 - id: 109
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Training Free Zero-Shot Image Anomaly Localisation Via Diffusion Inversion
   track: P4.T3
@@ -375,6 +379,7 @@
   authors: Dini, Afshin*; Delirie, Farnaz; Rahtu, Esa
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31335-5_40
 - id: 124
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Panosamic: Panoramic Image Segmentation From Sam Feature Encoding And Dual
     View Fusion'
@@ -407,6 +412,7 @@
   authors: Mendes Ramon, Stevan Henrique*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31335-5_44
 - id: 139
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Visg Av-Hubert: Viseme-Guided Av-Hubert'
   track: P4.T3
@@ -695,6 +701,7 @@
   authors: Peng, Yusen; Yilmaz, Alper*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31583-0_28
 - id: 210
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'More Interpretable Decision Trees: Pruning Via Node Descent And The Delta
     Penalty'
@@ -756,6 +763,7 @@
   authors: Wang, Ziye*; Wang, Guanyu; Wang, Kailong
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31583-0_35
 - id: 223
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Weeddiffusion: A Dual-Branch Synthetic Augmentation Framework For Weed Mapping'
   track: P4.T3
@@ -809,6 +817,7 @@
   authors: Sato, Shogo*; Murasaki, Kazuhiko; Tanida, Ryuichi
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31583-0_40
 - id: 235
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Higher-Order Adversarial Patches For Real-Time Object Detectors
   track: P2.T2
@@ -818,6 +827,7 @@
   authors: Bayer, Jens*; Münch, David; Becker, Stefan; Arens, Michael; Beyerer, Jürgen
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31583-0_41
 - id: 236
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Kinetic Mining In Context: Few-Shot Action Synthesis Via Text-To-Motion
     Distillation'
@@ -945,6 +955,7 @@
   authors: Kang, Jaeyong*; Herremans, Dorien
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31654-7_8
 - id: 266
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Operational Readiness For Object Detection
   track: P3.T2
@@ -961,6 +972,7 @@
   authors: Pragier, Gabi*; Karklinsky, Matan; Ungarish, David; Ben-Cohen, Avi
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31654-7_10
 - id: 272
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Dynamic Classifier Ensemble Selection For Data Stream Mining Based On Loca-Global
     Dominance And Adaptive Online Sampling
@@ -1062,6 +1074,7 @@
     Maurel, Fabrice; Dias, Gaël; Chahir, Youssef
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31654-7_20
 - id: 297
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Adp-Dit: Text-Guided Diffusion Transformer For Brain Image Generation In
     Alzheimer’S Disease Progression'
@@ -1183,6 +1196,7 @@
   authors: amrani, abderraouf*; laga, hamid
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31654-7_31
 - id: 317
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Chardiff-Lp: A Diffusion Model With Character-Level Guidance For License
     Plate Image Restoration'
@@ -1739,6 +1753,7 @@
   authors: Bouzid, Hamza*; Lézoray, Olivier; Rosenberger, Christophe
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31663-9_43
 - id: 455
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Nearest-Neighbor Density Estimation For Dependency Suppression
   track: P3.T1
@@ -1770,6 +1785,7 @@
     Tunai; Branzan Albu, Alexandra
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31663-9_46
 - id: 459
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Fake3Dgs: A Benchmark For 3D Manipulation Detection In Neural Rendering'
   track: P1.T3
@@ -2002,6 +2018,7 @@
     Reza
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31666-0_22
 - id: 524
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Fusedpt: Multi-Scale And Multi-Projection Model For Learning Depth In 360
     Degree'
@@ -2061,6 +2078,7 @@
   authors: Xie, Xianan*; Li, Junbao; Sheng, Yuanyuan; Liu, Huanyu
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31666-0_28
 - id: 531
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Unique Step Refinement For Transformer-Based Generative Models
   track: P2.T1
@@ -2068,6 +2086,7 @@
   authors: Grimal, Paul; Le Borgne, Herve*; Ferret, Olivier
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31666-0_29
 - id: 533
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Selfxtface: Attention Based Feature Pyramid Network In Face Detection'
   track: P2.T2
@@ -2091,6 +2110,7 @@
   authors: Feng, Haiwei; Zhang, Qi; Yang, Shuo*; Li, Yutong; Xie, Ziye; Xiao, Zhiqun
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31666-0_31
 - id: 537
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Graphexplainer: Explaining Nodes, Edges And Attributes Of Graph Neural Network
     Predictions'
@@ -2143,6 +2163,7 @@
     Hannah; Hullin, Matthias; Plack, Markus*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31666-0_36
 - id: 550
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Tag-Head: Time-Aligned Graph Head For Plug-And-Play Fine-Grained Action
     Recognition'
@@ -2162,6 +2183,7 @@
   authors: Lucho, Stuardo*; Desquesnes, Xavier; Leconge, Remy; Treuillet, Sylvie
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31666-0_38
 - id: 553
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'There Is  More To Attention: Statistical Filtering Enhances Explanations
     In Vision Transformers'
@@ -2227,6 +2249,7 @@
   authors: Khan, Ahmad Saeed*; Schaffernicht, Erik; Stork, Johannes Andreas
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31666-0_45
 - id: 564
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Automatic Segmentation For 3D Morphometric Analysis Of The Mouse Brain
   track: P4.T1
@@ -2234,6 +2257,7 @@
   authors: Zayim, Beyza*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31666-0_46
 - id: 565
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Stylistic-Storm: Self-Supervised Spectral Disentanglement Using Adversarial
     Learning And Jepa For Weather Analysis'
@@ -2291,6 +2315,7 @@
   authors: Sahoo, Roja*; Namboodiri, Anoop
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31673-8_6
 - id: 574
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Lightweight Model Augmented By Expert Knowledge In Realistic Clinical Decision-Making
     On Colorectal Cancer Treatment
@@ -2427,6 +2452,7 @@
   authors: Yu, Hantian*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31673-8_22
 - id: 603
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Ray Augmented Supervision For 3D Object Detection
   track: P2.T2
@@ -2532,6 +2558,7 @@
   authors: Rigo, Andrea*; Stornaiuolo, Luca; Martino, Mauro; Lepri, Bruno; Sebe, Niculae
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31673-8_33
 - id: 623
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Dynamic Personality Adaptation In Large Language Models Via State Machines
   track: P1.T2
@@ -2542,6 +2569,7 @@
     Benjamin*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31673-8_34
 - id: 624
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Loss Landscape Topology Reveals Why Simple Baselines Are Competitive At 3D
     Point Cloud Segmentation Under Class Imbalance
@@ -2555,6 +2583,7 @@
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31673-8_35
  # ext-presenter: Avijit Dasgupta
 - id: 631
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 3D Sparse Gan-Based Moe For Object Generation And Completion
   track: P1.T1
@@ -2713,6 +2742,7 @@
     Anna; Jordao, Artur
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31397-3_5
 - id: 669
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Geometry-Based Approach To Find The Egg-Shape Parameters
   track: P4.T3
@@ -2975,6 +3005,7 @@
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31397-3_30
   presenter: ...
 - id: 744
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Speaker-Invariant Emotion Representations With Gradient Reversal
   track: P1.T1
@@ -3320,6 +3351,7 @@
   authors: Bøss, Jonathan*; Wilm, Jakob
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31404-8_21
 - id: 846
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Adaptive Confidence-Weighted Expansion For Trustworthy Multi-Omics Multimodal
     Fusion
@@ -3340,6 +3372,7 @@
   authors: Zhang, Handan; Liu, Tie*; Shang, Yuanyuan; Ding, Hui; Shao, Zhuhong
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31404-8_23
 - id: 848
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Medroi: Codec-Agnostic Region Of Interest-Centric Compression For Medical
     Images'
@@ -3482,6 +3515,7 @@
     Hélène
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31404-8_37
 - id: 880
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Calad: Channel-Aware Contrastive Learning For Multivariate Time Series Anomaly
     Detection'
@@ -3768,6 +3802,7 @@
   authors: Sotelo, Juan*; Gardella, Marina; Musé, Pablo
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31441-3_21
 - id: 951
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Learning Quantifiable Visual Explanations Without Ground-Truth
   track: P1.T1
@@ -3964,6 +3999,7 @@
   authors: Cai, Zhangjie*; Sun, Ruiting; Liao, Zhenhong; Zhang, Guanwen; Zhou, Wei
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31441-3_40
 - id: 990
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Consistent Scene Understanding In 3D Gaussian Splatting Via Multi-Cue Mask
     Refinement
@@ -3999,6 +4035,7 @@
   authors: Chaudhari, Hiya*; Rana, Satyam; Patil, Hemant
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31441-3_44
 - id: 996
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Learning And Recognizing Latent Innovation Maturity Indicator Patterns In
     Texts
@@ -4266,6 +4303,7 @@
   authors: Shen, Ke; kong, longteng*; Zhou, Wanting
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31438-3_25
 - id: 1049
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Mile: Mixture Of Incremental Lora Experts For Continual Semantic Segmentation
     Across Domains And Modalities'
@@ -4309,6 +4347,7 @@
   authors: Åström, Oskar*; Sopasakis, Alexandros
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31438-3_30
 - id: 1056
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'From Videos To Conversations: Egocentric Instructions For Task Assistance'
   track: P3.T2
@@ -4431,6 +4470,7 @@
   authors: Li, Yu*; Xu, Jinan
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31438-3_43
 - id: 1080
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Scene-Aware Emotion Recognition In Comics With Llms
   track: P1.T2
@@ -4652,6 +4692,7 @@
   authors: Sinha, Anant ; Palaiahnakote, Shivakumara *; Pal , Umapada ; Saraee, Mo
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31452-9_21
 - id: 1123
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Mstis: Multi-Views Scene Text Image Sequencing To Enhance Text Detection
     Performance'
@@ -4946,6 +4987,7 @@
     Zhengping; Chuai, Qingyuan
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_3
 - id: 1194
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Paired Uniform Cubic B-Splines Are Strong Approximation To Represent Skeleton
     Activity
@@ -5039,6 +5081,7 @@
     Sadek Al; Simi, Safia Akter; Nandi, Dip; Jubair, Md Abdullah Al
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_11
 - id: 1209
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Sedtalker: Emotion-Aware 3D Facial Animation Using Frame-Level Speech Emotion
     Diarization'
@@ -5145,6 +5188,7 @@
   presenter: ... 
   endOrder: 2
 - id: 1238
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Fedadas: Communication-Efficient Federated Distillation For On-Device Driver
     Yawn Recognition In Vehicular Networks'
@@ -5165,6 +5209,7 @@
   authors: Ko, Seonghyeon*; Bum, Junghyun; Le, Duc-Tai; Son, Chang-Hwan; Choo, Hyunseung
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_24
 - id: 1241
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Serc: Ldpc-Inspired Semantic Error Correction For Retrieval-Augmented Generation'
   track: P2.T1
@@ -5213,6 +5258,7 @@
   authors: Li, Feng; Zhang, Yuhang*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_29
 - id: 1251
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Cvglobal And Zesco: Geographically Balanced Cross-View Zero-Shot Orientation
     Estimation'
@@ -5231,6 +5277,7 @@
   authors: Li, Jia; Wang, Bo; Chen, Tong; Yang, FengYu*; Ma, Ying; Chen, Ying
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_31
 - id: 1257
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Comparative Evaluation Of Deep Learning Architectures And Training Strategies
     For Diabetic Retinopathy Classification
@@ -5271,6 +5318,7 @@
   authors: Mateus Martins, Alice Evelyn*; Nasrollahi, Kamal
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_35
 - id: 1266
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Baysurf-Sanf: Bayesian Surface Reconstruction Using Self-Attention And Normalizing
     Flows'
@@ -5352,6 +5400,7 @@
     Kunjie; Lu, Min; Li, Wenjing
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31920-3_43
 - id: 1277
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Freq2Clean: Enhancing Calcium Imaging Denoising Via Frequency-Domain Fusion'
   track: P1.T3
@@ -5454,6 +5503,7 @@
   authors: Bizzaro, Davide*; Serafini, Luciano
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31927-2_6
 - id: 1303
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Spark-Il: Spectral Retrieval-Augmented Rag For Knowledge-Driven Deepfake
     Detection Via Incremental Learning'
@@ -5469,6 +5519,7 @@
     ; Hadid, Abdenour
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31927-2_7
 - id: 1305
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: A Step Forward Towards Trustworthy Risk-Aware Facial Retrieval (Ra-Fr)
   track: P4.T4
@@ -5500,6 +5551,7 @@
   authors: Ujjain, Siddhant; Srivastava, Ekta *; Gandhi, Tapan Kumar; Kumar, Sandeep
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31927-2_10
 - id: 1311
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Evaluating Age Estimation Robustness Under Realistic Facial Occlusions
   track: P4.T4
@@ -5521,6 +5573,7 @@
   authors: Pereira, Clayton*; Rodrigues, Douglas; Paschoalini, Enzo; Papa, João
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31927-2_12
 - id: 1320
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Dastatformer: A Hybrid Multibranch Transformer With Statistical Feature
     Integration For Das-Based Pattern Recognitions'
@@ -5542,6 +5595,7 @@
   authors: Padnekar, S Meena *; Mitra, Kaushik; Das, Sukhendu
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31927-2_14
 - id: 1323
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Robust 3D Human Pose Estimation From Mmwave Radar Via Spatio-Temporal Representation
     Learning
@@ -5921,6 +5975,7 @@
   authors: Gandhi, Kashish; Wu, Xiaolong; Liu, Yang; Mertz, Christoph; Xu, Min*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31930-2_2
 - id: 1402
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Feature-Level Interaction Explanations In Multimodal Transformers
   track: P3.T2
@@ -5961,6 +6016,7 @@
     Deniz; Dauth, Benjamin; Koeppl, Heinz
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31930-2_6
 - id: 1408
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Pap-Nf: Probabilistic Long-Term Time Series Forecasting Via Prefix-As-Prompt
     Reprogramming And Normalizing Flows'
@@ -6107,6 +6163,7 @@
     Zhang, Hui*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31930-2_20
 - id: 1439
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Ican: Information Capacity Approximate Network For Estimating Regression
     Model Confidence'
@@ -6172,6 +6229,7 @@
     Ujjwal
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31930-2_27
 - id: 1457
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'East-Spl: Event-Aware Statistical Tiling For Decomposable Soccer Player
     Localization With An Auxiliary Rejection Network'
@@ -6180,6 +6238,7 @@
   authors: Chaman Motlagh, Abolfazl*; Nilsson, Mikael
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31930-2_28
 - id: 1460
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Optimizing Three Critical Factors For Practical And Effective Ood Detection
     Fine-Tuning
@@ -6218,6 +6277,7 @@
   authors: Keraghel, Imed*; Nadif, Mohamed
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31930-2_32
 - id: 1471
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Dgssm: Diffusion Guided State-Space Models For Multimodal Salient Object
     Detection'
@@ -6361,6 +6421,7 @@
   authors: Tashdeed, Ishmam*; Rahman, Md. Atiqur; Islam, Sabrina; Hossain, Md. Azam
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31930-2_47
 - id: 1498
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Zero-Shot Sim2Real Wildfire Frontline Estimation From Uav Imagery Via Vlm-Guided
     Learning
@@ -6528,6 +6589,7 @@
   authors: Lee, Jeongae*; Nang, Jongho
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31933-3_17
 - id: 1529
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Empirical Characterization Of Rationale Stability Under Controlled Perturbations
     For Explainable Pattern Recognition
@@ -6567,6 +6629,7 @@
   authors: Liu, Zesheng; Rahnemoonfar, Maryam*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31933-3_21
 - id: 1535
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Pain In 3D: Controllable Generation Of Synthetic Faces For Automated Pain
     Assessment'
@@ -6755,6 +6818,7 @@
     Swakkhar; Alam, Md. Golam Rabiul; Mourning, Chad*
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31933-3_40
 - id: 1561
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Vits For Action Classification In Videos: An Approach To Risky Tackle Detection
     In American Football Practice Videos'
@@ -6781,6 +6845,7 @@
   authors: DAIMELLAH, Sofiane*; Le Hegarat-Mascle, Sylvie; Boust, Clotilde
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31933-3_43
 - id: 1574
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: Dual-Foundation Models For Unsupervised Domain Adaptation
   track: P1.T1
@@ -6976,6 +7041,7 @@
   authors: Dibitonto, Francesco*; Beyan, Cigdem; Murino, Vittorio
   pdflink: https://link.springer.com/content/pdf/10.1007/978-3-032-31654-7_37
 - id: 601
+  PosterPDFPresent: OK
   posterState: "PosterAndPresenterSeenBySChairs"
   title: 'Embedding Arithmetic: A Lightweight, Tuning-Free Framework For Post-Hoc
     Bias Mitigation In Text-To-Image Models'
