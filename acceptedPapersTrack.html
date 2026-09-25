@@ -175,7 +175,10 @@ last_modified: 2026-08-31
             {% if p.slideDiff == "OK" %}
             <a href="https://icpr2026orgteam.github.io/OralPres/{{p.id}}.pdf"><i class="bi bi-file-earmark-slides"></i> slides </a>             
             {% endif %}
-          
+            {% if p.PosterPDFPresent == "OK" %}
+            <a href="https://icpr2026orgteam.github.io/PosterPres/{{p.id}}.pdf"><i class="bi bi-file-earmark-slides"></i> poster </a>             
+            {% endif %}
+            
           </td>
           <td><a href="{{ site.baseurl }}/sessions/{{link}}/">{{ p.track }}</a>
             {% assign poster_number = site.data.gridPosterID[p.id] %}
