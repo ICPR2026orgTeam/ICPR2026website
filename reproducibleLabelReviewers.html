@@ -1,0 +1,43 @@
+---
+layout: default
+title: "ICPR 2026: Reviewer Board for Reproducible Label Badge"
+canonical: "https://icpr2026.org/localOrgTeam.html"
+description: "Reviewer Board for Reproducible Label Badge - ICPR 2026 - International Conference on Pattern Recognition that take place in Lyon 17-22
+August 2026."
+last_modified: 2026-07-30
+---
+
+  <h1>Reviewer Board for Reproducible Label Badge </h1>
+
+  <p>Thanks to the Reviewer Board for their thorough evaluations allowing us to award the RR badge.</p>
+
+<div class="text-center">
+  <img src="/Images/labelRL.svg" alt="Label" width="128" height="128">
+</div>
+       
+   
+  <section id="Local organisation team">
+    <!------ Local organisation team ----->
+    <div class="container d-flex justify-content-center">
+      <div class="row justify-content-center">
+  
+
+        <div class="col-md-12  ml-10  mr-3 b-3 t-3">
+          <div class="card border-info ml-1 mb-3">
+            <div class="card-header"><b>Reviewer Team</b> </div>
+            <div class="card-body text-info">
+              <ul class="reviewers">
+                {% assign rrTeam = site.data.reproducibleLabelReviewer | sort: "id" %}
+                {% for member in rrTeam %}
+                   <li> {{ member.name }}  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+    

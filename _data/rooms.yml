@@ -10,9 +10,11 @@ rooms:
   "G": Gratte-Ciel 1
   "H": Bellecour 1
   "I": Bellecour 2
-  "J": Bellecour 1+2
-  "K": Bellecour Reception (floor -1) 
-
+  "J": Bellecour 2+3
+  "K": Bellecour Reception (floor -1)
+  "L": Forum (floor -2) and Bellecour 2+3
+  "M": Coat check (in front of the registration desk)
+  
 #rooms:
 #  "A": "Main Auditorium"
 #  "B": "Prestige Gratte-Ciel"

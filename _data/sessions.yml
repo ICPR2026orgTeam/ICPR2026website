@@ -1,9 +1,9 @@
-
 - sessionId: "1" 
   title: "Representation, Knowledge & Reasoning"
   codePlace: "A"
   chair: "Shiqi Yu"
   paperTrack: "1"
+  link: https://u.pcloud.link/publink/show?code=kZeSco5ZLJtVuj7NFnzXrKS8q1eTjS9OJsXk
 
 
 - sessionId: "1" 
@@ -11,12 +11,15 @@
   codePlace: "B"
   chair: "Masayuki Tanaka"
   paperTrack: "2"
+  link: https://u.pcloud.link/publink/show?code=kZMSco5ZbsS5XtMlgQHWrnO1wMSv40OKGsDX
 
+  
 - sessionId: "1" 
   title: "Induction, Gameplay & Logic Traces"
   codePlace: "C"
   chair: "Cheng-Lin Liu"
   paperTrack: "1"
+  link: https://u.pcloud.link/publink/show?code=kZPSco5ZmOjw5WyOAd5xVgvb1Fz90HHyxiC7
 
 
 - sessionId: "1" 
@@ -24,6 +27,7 @@
   codePlace: "D"
   chair: "Elisa Barney"
   paperTrack: "5"
+  link: https://u.pcloud.link/publink/show?code=kZKSco5ZL06959I54K7mNj261DkobFsGHnHV
 
 
 - sessionId: "1" 
@@ -31,6 +35,7 @@
   codePlace: "E"
   chair: "Sylvain Marchand"
   paperTrack: "2"
+  link: https://u.pcloud.link/publink/show?code=kZtSco5ZeqwOgqNGwrLzAY36r3k3OuGgQ3Ak
 
 
 
@@ -40,12 +45,15 @@
   codePlace: "A"
   chair: "Miguel Colom"
   paperTrack: "1"
+  link: https://u.pcloud.link/publink/show?code=kZED6yJZ4hcHxbV2HwQB8dQNIP4uaRDg2Yak
+
 
 - sessionId: "2" 
   title: "Vision And Language"
   codePlace: "B"
   chair: "Chiou-Ting Hsu"
   paperTrack: "2"
+  link: https://u.pcloud.link/publink/show?code=kZID6yJZNQYxhMr3DO4renUJGexOYbiiypf7
 
 
 - sessionId: "2" 
@@ -53,6 +61,7 @@
   codePlace: "C"
   chair: "Miguel Carreira-Perpiñán"
   paperTrack: "1"
+  link: https://u.pcloud.link/publink/show?code=kZAD6yJZ4IAmRyULsjbXFjHFCk7ALYISRDWk
 
 
 
@@ -61,12 +70,15 @@
   codePlace: "D"
   chair: "Hermann Ney"
   paperTrack: "3"
-
+  link: https://u.pcloud.link/publink/show?code=kZk16yJZefktSpugbqSEERztxmgspLUUaObV
+         
 - sessionId: "2" 
   title: "Machine Intelligence & Diagnostic Analysis"
   codePlace: "E"
   chair: "Joao Paulo Papa"
   paperTrack: "1"
+  link: https://u.pcloud.link/publink/show?code=kZX16yJZCO1SXtBNpu5DAbIv42yjrjiyjQOk
+
 
 
 
@@ -74,8 +86,9 @@
 - sessionId: "3" 
   title: "Choice, Answering & Output"
   codePlace: "A"
-  chair: "Maria De Marsico"
+  chair: "Carlos Crispim-Junior"
   paperTrack: "1"
+  link: https://u.pcloud.link/publink/show?code=kZn16yJZUT5JpCGS7zmWPrRlW4fuChgqKSCy
 
 
 - sessionId: "3" 
@@ -83,6 +96,7 @@
   codePlace: "B"
   chair: "Mario Molinara"
   paperTrack: "2"
+  link: https://u.pcloud.link/publink/show?code=kZq16yJZg9dyonSrn74gubv3L2mOkFO9Nma7
 
 
 - sessionId: "3" 
@@ -90,7 +104,7 @@
   codePlace: "C"
   chair: "Josef Kittler"
   paperTrack: "1"
-
+  link: https://u.pcloud.link/publink/show?code=kZt16yJZSfVmFKNSI3fuGf34qgslAXo4iPBV
 
 
 
@@ -99,6 +113,7 @@
   codePlace: "D"
   chair: "Takafumi Koshinaka"
   paperTrack: "3"
+  link: https://u.pcloud.link/publink/show?code=kZ616yJZ93uyccP2LN5YPy7gjLDWHB8fBjz7
 
 
 - sessionId: "3" 
@@ -106,7 +121,8 @@
   codePlace: "E"
   chair: "Walter Kropatsch"
   paperTrack: "2"
-
+  link: https://u.pcloud.link/publink/show?code=kZE16yJZBvePF3pq0tHKl01bHwsq8pFJYRzX
+  
 
 
 
@@ -115,12 +131,16 @@
   codePlace: "B"
   chair: "Amanda Berg"
   paperTrack: "2"
+  link: https://u.pcloud.link/publink/show?code=kZXe6yJZC0rXYxyJaI8JpzoEDVyq3bzhdD7y
+
+
 
 - sessionId: "4" 
   title: "Biometrics and HCI (I)"
   codePlace: "C"
   chair: "Raghavendra Ramachandra"
   paperTrack: "4"
+  link: https://u.pcloud.link/publink/show?code=kZre6yJZBcWXYJAbFWReRYqMHYS15bEeVIdk
 
 
 
@@ -129,6 +149,7 @@
   codePlace: "D"
   chair: "Andreas Fischer"
   paperTrack: "5"
+  link: https://u.pcloud.link/publink/show?code=kZce6yJZGmswWpLXcnSc2PzcXVOtFkfqFIxV
 
 
 - sessionId: "4" 
@@ -136,6 +157,7 @@
   codePlace: "E"
   chair: "Hamid Jafarkhani"
   paperTrack: "6"
+  link: https://u.pcloud.link/publink/show?code=kZ7n6yJZKoQMahbJrrYD5YkMQWgBzRaYWGTX
 
 
 
@@ -144,6 +166,7 @@
   codePlace: "A"
   chair: "Enzo Tartaglione"
   paperTrack: "1"
+  link: https://u.pcloud.link/publink/show?code=kZmn6yJZRztRzVgcmDjVmk5KWaN4Jp3IHW6X
 
 
 
@@ -152,6 +175,7 @@
   codePlace: "B"
   chair: "Ilan Shimshoni"
   paperTrack: "2"
+  link: https://u.pcloud.link/publink/show?code=kZbn6yJZT1U9TPrpf4pGhFIXi4YnApGJCwyV
 
 
 
@@ -160,13 +184,15 @@
   codePlace: "C"
   chair: "Nicole Vincent"
   paperTrack: "4"
+  link: https://u.pcloud.link/publink/show?code=kZSn6yJZtAoIYA3RPy88Odqla9YVGfnx7QoV
 
 
 - sessionId: "5" 
   title: "Document Analysis Applications"
   codePlace: "D"
-  chair: "Umapada Pal"
+  chair: "Shivakumara Palainakote"
   paperTrack: "5"
+  link: https://u.pcloud.link/publink/show?code=kZjn6yJZeC2g2k2hvm0ggHwmQQBiNLwXPsfV
 
 
 - sessionId: "5" 
@@ -174,6 +200,7 @@
   codePlace: "E"
   chair: "Franck Davoine"
   paperTrack: "1"
+  link: https://u.pcloud.link/publink/show?code=kZfn6yJZKx6cRUjYOTFoGKCM5QHwVVMOaqHX
 
 
 - sessionId: "6" 
@@ -181,6 +208,7 @@
   codePlace: "A"
   chair: "Daniel Lopresti"
   paperTrack: "1"
+  link: https://u.pcloud.link/publink/show?code=kZdn6yJZGBLlBYQTxNJ3DoT4egoEHjaUQ7fy
 
 
 - sessionId: "6" 
@@ -188,6 +216,7 @@
   codePlace: "B"
   chair: "Josiane Zerubia"
   paperTrack: "2"
+  link: https://u.pcloud.link/publink/show?code=kZ6n6yJZ9GBXIncXuE7Hee2zygEAMXyT1FWX
 
 
 
@@ -196,6 +225,7 @@
   codePlace: "C"
   chair: "Paul Honeine"
   paperTrack: "1"
+  link: https://u.pcloud.link/publink/show?code=kZrn6yJZrTUIHtqvIHkMibz5iVNCThKL86Ay
 
 
 - sessionId: "6" 
@@ -203,6 +233,7 @@
   codePlace: "D"
   chair: "Véronique Eglin"
   paperTrack: "3"
+  link: https://u.pcloud.link/publink/show?code=kZon6yJZsDUaaVyCpsbP66zWkRn9FQXBqPbk
 
 
 
@@ -211,6 +242,7 @@
   codePlace: "E"
   chair: "Anup Basu"
   paperTrack: "2"
+  link: https://u.pcloud.link/publink/show?code=kZy96yJZfuK6cL44jYkWiWcgd1YkPFsI9UGX
 
 
 - sessionId: "7" 
@@ -218,31 +250,40 @@
   codePlace: "A"
   chair: "Alexandra Branzan Albu"
   paperTrack: "1"
+  link: https://u.pcloud.link/publink/show?code=kZL96yJZuCpl6EEgwPbCCiHiW8u1qyp944e7
+
 
 - sessionId: "7" 
   title: "Scene Analysis And Understanding"
   codePlace: "B"
   chair: "Giovanna Castellano"
   paperTrack: "2"
+  link: https://u.pcloud.link/publink/show?code=kZ496yJZQW6IXpq4vhSldFpSumLJ1J9b0hgX
+
+
 
 - sessionId: "7" 
   title: "Biometrics and HCI (III)"
   codePlace: "C"
   chair: "Anoop Namboodiri"
   paperTrack: "4"
+  link: https://u.pcloud.link/publink/show?code=kZY96yJZUbh8EIrNM3y5vwWvl4HoyBlARBny
+
+
 
 - sessionId: "7" 
   title: "Low Light Image Enhancement"
   codePlace: "D"
   chair: "Rafael Dueire Lins"
   paperTrack: "3"
-
+  link: https://u.pcloud.link/publink/show?code=kZb96yJZb1QJx5K4oLLje1e0eHoNOVoaX6rk
 
 - sessionId: "7" 
   title: "Pathology Systems"
   codePlace: "E"
   chair: "Hubert Cardot"
   paperTrack: "6"
+  link: https://u.pcloud.link/publink/show?code=kZh96yJZiixO51nKLUjAew2DYjn0amSQGpTk
 
 
 - sessionId: "8" 
@@ -250,6 +291,7 @@
   codePlace: "A"
   chair: "Anuj Srivastava"
   paperTrack: "1"
+  link: https://u.pcloud.link/publink/show?code=kZB96yJZCTy4ruMDuPfhxvzvxVt2eRlTaFzX
 
 
 - sessionId: "8" 
@@ -257,7 +299,7 @@
   codePlace: "B"
   chair: "Sukalpa Chanda"
   paperTrack: "2"
-
+  link: https://u.pcloud.link/publink/show?code=kZW96yJZEhQuvto1LLHl8lpnwhUUIfVzzDAX
 
 
 - sessionId: "8" 
@@ -265,6 +307,7 @@
   codePlace: "C"
   chair: "Federico Bolelli"
   paperTrack: "1"
+  link: https://u.pcloud.link/publink/show?code=kZ196yJZjuKHEaJ0Pqjub5uAIvTKPRextH57
 
 
 - sessionId: "8" 
@@ -272,6 +315,7 @@
   codePlace: "D"
   chair: "Byoung Chul Ko"
   paperTrack: "3"
+  link: https://u.pcloud.link/publink/show?code=kZe96yJZY8DfePFYPrLXry7VNjtNtbxeypY7
 
 
 - sessionId: "8" 
@@ -279,6 +323,7 @@
   codePlace: "E"
   chair: "Xiaoyi Jiang"
   paperTrack: "6"
+  link: https://u.pcloud.link/publink/show?code=kZn96yJZfCptHmIIXWmbLTh6MVaVHzgDaHOy
 
 
 
@@ -287,6 +332,7 @@
   codePlace: "A"
   chair: "Peter M. Roth"
   paperTrack: "1"
+  link: https://u.pcloud.link/publink/show?code=kZa96yJZwAIl3rwQvrhXNDKWf8rIehE04oP7
 
 
 - sessionId: "9" 
@@ -294,6 +340,7 @@
   codePlace: "B"
   chair: "Zoltan Kato"
   paperTrack: "2"
+  link: https://u.pcloud.link/publink/show?code=kZi96yJZiyYPQPtTQzXA0coenviAwJCmHlSy
 
 
 
@@ -302,6 +349,7 @@
   codePlace: "C"
   chair: "Aysin Baytan Ertuzun"
   paperTrack: "1"
+  link: https://u.pcloud.link/publink/show?code=kZr96yJZgkUmxrnkkyzcKPh3F6SUtQHqsTtk
 
 
 - sessionId: "9" 
@@ -309,6 +357,7 @@
   codePlace: "D"
   chair: "Bertrand Kerautret"
   paperTrack: "3"
+  link: https://u.pcloud.link/publink/show?code=kZc96yJZTw6A8HrxJPYNulmQpodwlX6iu75k
 
 
 - sessionId: "9" 
@@ -316,7 +365,8 @@
   codePlace: "E"
   chair: "Antoine Vacavant"
   paperTrack: "6"
-
+  link: https://u.pcloud.link/publink/show?code=kZo96yJZ4naklNAqMYXKJdRmiP8ItFKhvucV
+  
 
 
 
@@ -325,6 +375,7 @@
   codePlace: "A"
   chair: "Tin Kam Ho"
   paperTrack: "1"
+  link: https://u.pcloud.link/publink/show?code=kZsM6yJZ2FbYGKWpunYTJd2ufwaiEJ9ku26X
 
 
 
@@ -333,6 +384,7 @@
   codePlace: "B"
   chair: "Yasutomo Kawanishi"
   paperTrack: "2"
+  link: https://u.pcloud.link/publink/show?code=kZ1M6yJZfMmhXBzP8yRDDlTgLNSG5LyjJSlV
 
 
 - sessionId: "10" 
@@ -340,29 +392,31 @@
   codePlace: "C"
   chair: "Faisal Shafait"
   paperTrack: "1"
+  link: https://u.pcloud.link/publink/show?code=kZeM6yJZzmAuEjSpO9Bpbor5XQ2uU03cgi3X
 
-
+  
 
 - sessionId: "10" 
   title: "Image Processing and Applications"
   codePlace: "D"
   chair: "Mariofanna Milanova"
   paperTrack: "3"
-
-
-
+  link: https://u.pcloud.link/publink/show?code=kZnM6yJZ8Wo27houHX09GvK3VkwYxjJxhxWV
+  
 - sessionId: "10" 
   title: "Modelling for Medical Images "
   codePlace: "E"
-  chair: "Ida-Maria Sintorn"
+  chair: "Muriel Visani"
   paperTrack: "6"
+  link: https://u.pcloud.link/publink/show?code=kZ9M6yJZHTKnGwpy3d8Aoda8yeJzrShlQbPX
+
 
 - sessionId: "11" 
   title: "Competiton Session"
   codePlace: "A"
   chair: "Thierry Paquet"
   paperTrack: "7"
-
+  link: https://u.pcloud.link/publink/show?code=kZeWQVJZCk533RhLiVHfLLrpJAULshxbLqik
 
 
 - sessionId: "P1" 
@@ -372,13 +426,12 @@
   paperTrack: "1,2,3"
 
 
-
 - sessionId: "P2" 
   title: "Poster Session 2"
   codePlace: "F"
-  chair: "Olga Cherednichenko"
+  chair: "Olga Cherednichenko, Mihaela Scuturici"
   paperTrack: "1,2,4,5"
-
+  
 
 - sessionId: "P3" 
   title: "Poster Session 3"
@@ -392,7 +445,7 @@
 - sessionId: "P4" 
   title: "Poster Session 4"
   codePlace: "F"
-  chair: "Tetiana Yemelianenko"
+  chair: "Tetiana Yemelianenko,  Mihaela Scuturici"
   paperTrack: "1,3,4,6"
 
 
@@ -400,23 +453,35 @@
   title: "Women@ICPR 2026 Panel — Breaking Through Career Roadblocks"
   codePlace: "A"
   chair: "Alexandra Branzan Albu"
+  mainContent: "
+<h3>Panelists</h3>
+<ul>
+<li>Apostolos Antonacopoulos </li>
+<li> Sara Atito Ali Ahmed </li>
+<li> Alicia Fornés </li>
+<li> Momina Moetesum </li>
+</ul>"
 
 - sessionId: "2W" 
   title: "What is the IAPR and how it can benefit you"
   codePlace: "D"
   chair: "Bob Fisher"
-
+  mainContent: ""
 
 
 - sessionId: "3W" 
-  title: "IAPR Technical Commiittes (reserved to TC chairs)"
+  title: "IAPR Technical Committees (reserved to TC chairs)"
   codePlace: "H"
-  chair: ""
+  mainContent: |
+               IAPR Technical Committees (TCs) are expert groups within IAPR dedicated to specific areas of pattern recognition. This meeting brings together TC chairs to review their activities and receive recommendations. See the list of TCs on the <a href="https://iapr.org/committees/technical-committees">IAPR TC page</a>.
+  chair: "Jose Francisco Martinez-Trinidad"
 
 - sessionId: "4W" 
   title: "IAPR Governing Board Meeting (reserved to governing board members)"
   codePlace: "J"
   chair: ""
+  mainContent: " <p>The IAPR Governing Board oversees the activities and strategic directions of IAPR. This meeting is reserved for Governing Board members. Topics typically include IAPR activities, reports from Technical Committees, financial and administrative matters, future conferences, membership, new initiatives, and governance matters.</p>
+"
 
 - sessionId: "5W" 
   title: "Industrial  Paper Award"
@@ -425,40 +490,91 @@
 
 - sessionId: "6W" 
   title: "Doctorial Consortium"
-  codePlace: "F"
+  codePlace: "L"
   chair: "Mansour Mayaki"
-
-
+  mainContent: |
+               <h2>Join Us for the ICPR 2026 Doctoral Consortium!  </h2>
+               <p> Interested in engaging with the rising talent of our academic community?</p>
+               <p>Join us for an interactive, fast-paced <b class="text-info">Doctoral Consortium</b> featuring <b class="text-info">30 outstanding PhD researchers</b> showcasing their ongoing thesis work!</p>
+               <h3>Highlights of the Session </h3>
+               <ul>
+               <li><b>Lightning Pitches</b>: Hear a rapid presentations highlighting cutting-edge PhD projects and core research challenges.</li>
+               <li><b>Interactive Poster & Networking Session</b>: Meet the PhD candidates, explore innovative methodologies, and connect directly with senior academic and industry mentors</li>
+               </ul>
+               <p>Whether you are looking to offer feedback, explore potential research collaborations, or recruit top-tier talent, you are welcome to join us.</p>
+               <b class="text-info">All ICPR attendees are warmly invited to drop in and participate!</b>
 - sessionId: "S0" 
   title: "Registration"
   codePlace: "K"
   chair: ""
+  mainContent: "(main conference center)"
 
 - sessionId: "S1" 
   title: "Welcome Reception"
   codePlace: "K"
   chair: ""
+  mainContent: " <p> The cocktail reception includes a mealto be enjoyed in a standing cocktail format at the Cité Internationale Conference Center, along the forums where the poster sessions, the gala dinner, and the industrial exhibitions will take place. </p>"
 
 - sessionId: "S2" 
   title: "Opening Ceremony"
   codePlace: "A"
   chair: ""
+ 
 
 - sessionId: "S3" 
-  title: "Conference Banquet"
+  title: "Conference Banquet — Gala Dinner"
   codePlace: "F"
   chair: ""
-
-
-- sessionId: "S3" 
-  title: "Conference Banquet"
-  codePlace: "F"
-  chair: ""
+  mainContent: |
+               <p>Join us for the ICPR 2026 Conference Banquet, a gala dinner bringing the community together for an elegant and memorable evening.</p>
+               <p>Guests will enjoy an elegant menu in a welcoming setting, with time to connect with colleagues and celebrate the conference.</p>
+               <p><strong>Location:</strong> Main conference venue (Forum 4).</p>
+               <div class="row g-3 mt-2">
+                 <figure class="col-md-6 mb-0">
+                   <img class="img-fluid rounded shadow-sm" src="/Images/gala-dinner-table.jpg" alt="ICPR 2026 gala dinner menu surrounded by wine glasses and an elegant table setting" loading="lazy">
+                   <figcaption class="text-muted small mt-2">A preview of the ICPR 2026 gala dinner setting.</figcaption>
+                 </figure>
+                 <figure class="col-md-6 mb-0">
+                   <img class="img-fluid rounded shadow-sm" src="/Images/gala-dinner-menu.jpg" alt="ICPR 2026 gala dinner menu displayed beside bread, glassware, and cutlery" loading="lazy">
+                 </figure>
+               </div>
 
 - sessionId: "S4" 
   title: "Closing & Awards"
   codePlace: "A"
-  chair: ""
+  chair: "Maria De Marsico, Arun Ross and Jean-Marc Ogier "
+  mainContent: |
+               <p>Join us for the ICPR 2026 Closing &amp; Awards Ceremony, where we will celebrate the conference's outstanding contributions. Awards will be presented for the Best Student Paper Award, Best Scientific Award, and other distinctions.</p>
+               <p><span class="champagne-toast" aria-hidden="true"><svg class="champagne-toast__glass champagne-toast__glass--left" viewBox="0 0 32 64"><path class="champagne-toast__bowl" d="M6 4h20l-2 22c-.5 6-3.5 10-8 10S8.5 32 8 26L6 4Z"/><path class="champagne-toast__drink" d="M8 18h16l-1 9c-.5 5-3 8-7 8s-6.5-3-7-8l-1-9Z"/><path class="champagne-toast__stem" d="M16 36v21M8 59h16"/></svg><svg class="champagne-toast__glass champagne-toast__glass--right" viewBox="0 0 32 64"><path class="champagne-toast__bowl" d="M6 4h20l-2 22c-.5 6-3.5 10-8 10S8.5 32 8 26L6 4Z"/><path class="champagne-toast__drink" d="M8 18h16l-1 9c-.5 5-3 8-7 8s-6.5-3-7-8l-1-9Z"/><path class="champagne-toast__stem" d="M16 36v21M8 59h16"/></svg><span class="champagne-toast__spark">✦</span></span>The ceremony will conclude with a farewell toast, offering everyone a final opportunity to celebrate together and mark the close of ICPR 2026.</p>
+               <p><strong>Location:</strong> Main conference center.</p>
+
+- sessionId: "S5" 
+  title: "Lunch break with Women at ICPR"
+  codePlace: "J"
+  chair: "Alexandra Branzan-Albu"
+  mainContent: |
+               Welcome to join lunch in a reserved area where we can bring our lunch boxes and sit down with other colleagues interested in activities and discussions on women in academic and non-academic environments. The local organisers kindly support this event with 50 complimentary lunch boxes that will be distributed on a first-come-first serve basis. After we have had lunch together, we will close the event and leave in time for the plenary session and panel discussion on Breaking through Career Roadblocks starting at 14:00 in the Main Auditorium, see <a href="/sessions/oral1W/"> Oral1w</a>.
 
 
+- sessionId: "S6" 
+  title: "ICPR Group Photography"
+  codePlace: "A"
+  chair: "Main ICPR photograph"
+  mainContent: |
+               A special moment to bring all participants together and capture a lasting memory of ICPR 2026.
+               <b class="text-info"> In the main auditorium with your ICPR 2026 Tee-shirt!</b>
+               
 
+
+- sessionId: "S7" 
+  title: "ICPR TeeShirt Pick-up"
+  codePlace: "M"
+  chair: "Local volunteer team"
+  mainContent: |  
+               Please Pick-up your ICPR 2026 pick-up! 
+               <figure class="mb-0 mx-auto text-center" style="width:
+                50%;"> <img class="img-fluid rounded shadow-sm"
+                src="/Images/TeeShirtICPR26.jpg" alt="ICPR 2026 Tee
+                Shirt" loading="lazy"> <figcaption class="text-muted
+                small mt-2"> A preview of the ICPR 2026 Tee Shirt.
+                </figcaption> </figure>

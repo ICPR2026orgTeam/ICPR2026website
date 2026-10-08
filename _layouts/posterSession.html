@@ -46,6 +46,7 @@
     {% assign listPaper = site.data.paperList %}
     {% assign time = site.data.timeSession %}
     {% capture code %}P{{posterSessionID}}{% endcapture %}
+    {% assign paperLabelList = site.data.papersRRLabels %}
 
     {% assign listPapers = "" | split: "" %}
 
@@ -75,8 +76,8 @@
 {% assign sessionDay = currentTime.day %}
 {% assign sessionTime = currentTime.time %}
 {% assign sessionVenue = room_names[found.codePlace] %}
- {% assign chairs =  found.chair | split: "," %}
-
+{% assign chairs =  found.chair | split: "," %}
+    
 {% include sessionInfoDisplay.html
     day=sessionDay
     time=sessionTime
@@ -115,47 +116,97 @@
         <th><span id="copyIds" 
             style="cursor:pointer;"
             title="Click to copy poster IDs">
-        #
-      </span>
-      </button></th>
+            # and Track
+          </span>
+      </th>
         <th>Title and Authors</th>
-        <th> pdf </th>
-<th><span id="copyTrack" 
+       <th>
+         PDF
+</span></th>
+<th><span id="copyGrid" 
             style="cursor:pointer;"
-            title="Click to copy poster IDs">
-        Track
-      </span></th>
+            title="Click to copy poster IDs">#grid board</span>  </th>
       </tr>
     </thead>
     <tbody>
+
       {% assign listPapers = listPapers | sort: "track" %}
+     
 
 
       {% for p in listPapers  %}
- <tr>
-          <td>{{ p.id }}</td>
-          <td>
-            <div class="text-break" id="{{ p.track |slice: -2, 2 }}">{{ p.title }}</div>
-            <div style="font-size: 0.9em; color: #666;">
-              {{ p.authors | join: ", " | replace: "*", "" }}
-            </div>
-            {% if p.ext-presenter %}
-            <div style="font-size: 0.9em; color: #C22;">
-              {{  "presented by:" }} {{ p.ext-presenter }}
-            </div>
+      {% assign paper_id = p.id | append: "" %}
+      
+      <tr>
+        <td {% if p.posterState == "NoPosterSeenBySChairs" %} style="font-size:1em;color:#AAA;" {% endif %}>{{ p.id }} <div>{{ p.track |slice: -2, 2 }}</div> 
+        </td>
+        <td>
+          
+          <div {% if p.posterState == "NoPosterSeenBySChairs" %} style="font-size:1em;color:#888;"{% endif %} class="text-break" id="{{ p.track |slice: -2, 2 }}">{{ p.title }}
+            {% if p.posterState == "PosterAndPresenterSeenBySChairs" or p.posterState == "PosterOnlySeenBySChairs" %}
+            <span class="position-relative d-inline-block">
+              <i class="bi bi-file-earmark-image"></i>
+              <span class="position-absolute"
+                    style="right: -3px; bottom: 0px; width: 12px; height: 12px;">
+                <i class="bi-check-circle"
+                   style="font-size: 12px;"></i>
+              </span>
+            </span>
             {% endif %}
+          </div>
+          <div {% if p.posterState == "NoPosterSeenBySChairs" %} style="font-size:1em;color:#AAA;"  {% else %} style="font-size: 0.9em; color: #666;" {% endif %} >
+            {{ p.authors | join: ", " | replace: "*", "" }}
+          {% if p.posterState == "PosterAndPresenterSeenBySChairs"  %}
+            <span class="position-relative d-inline-block">
+              <i class="bi bi-person" style="font-size: 25px;"></i>
+              <span class="position-absolute"
+                    style="right: -3px; bottom: 0px; width: 12px; height: 12px;">
+                <i class="bi-check-circle"
+                   style="font-size: 12px;"></i>
+              </span>
+            </span>
+            {% endif %}
+          </div>
+          {% if p.ext-presenter %}
+          <div style="font-size: 0.9em; color: #C22;">
+            {{  "presented by:" }} {{ p.ext-presenter }}
+          </div>
+          {% endif %}
+          
+          {% if p.PosterPDFPresent == "OK" %}
+            <a href="https://icpr2026orgteam.github.io/PosterPres/{{p.id}}.pdf"><i class="bi bi-file-earmark-slides"></i> poster </a>             
+            {% endif %}
+
+    
+
+           
+            
+
+
           </td>
           <td>
-          {% if p.pdflink %}
+            
+            {% if p.pdflink %}
         <a href="{{ p.pdflink }}" target="_blank" class="text-danger">
           <i class="bi bi-file-earmark-pdf"></i> PDF
         </a>
         {% endif %}
+         {% if paperLabelList contains paper_id %}
+        <a href="https://iapr-tc22-rrl.github.io/icpr2026/results/"><img src="/Images/labelRL.svg" alt="Label" width="64" height="64" class="ms-1"></a>
+        {% endif %}
+       
+          </td>
+        <td {% if p.posterState == "NoPosterSeenBySChairs" %} style="font-size:1em;color:#AAA;" {% endif %}>
+            {% assign poster_number = site.data.gridPosterID[p.id] %}
+          {% if poster_number %}
+          #{{ poster_number }}
+          {% endif %}
+   
         </td>
-          <td>            <div>{{ p.track |slice: -2, 2 }}</div> </td>
-
+        
  </tr>
 
+ 
 {% endfor %}
 
 
@@ -189,14 +240,14 @@ document.getElementById("copyIds").addEventListener("click", async () => {
     alert("Unable to copy the IDs.");
   }
 });
-document.getElementById("copyTrack").addEventListener("click", async () => {
+document.getElementById("copyGrid").addEventListener("click", async () => {
 
-  const ids = `{% for p in listPapers %}{{ p.track |slice: -2, 2 }}{% unless forloop.last %}, {% endunless %}{% endfor %}`;
+  const ids = `{% for p in listPapers %}{{ site.data.gridPosterID[p.id]  }}{% unless forloop.last %}, {% endunless %}{% endfor %}`;
 
   try {
     await navigator.clipboard.writeText(ids);
 
-    const btn = document.getElementById("copyTrack");
+    const btn = document.getElementById("copyGrid");
     const old = btn.innerHTML;
     btn.innerHTML = "✓";
     setTimeout(() => btn.innerHTML = old, 1500);

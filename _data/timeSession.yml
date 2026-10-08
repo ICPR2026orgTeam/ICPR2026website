@@ -96,7 +96,7 @@ I4:
 
 2W:
   time: "13h00-13h30"
-  day: "Wednesday 19 August"
+  day: "Thursday 20 August"
 
 3W:
   time: "15h00-16h30"
@@ -104,8 +104,8 @@ I4:
 
 
 4W:
-  time: "14h00-23h00"
-  day: "Wednesday 19 August"
+  time: "15h00-23h00"
+  day: "Tuesday 18 August"
 
 5W:
   time: "15h00-16h30"
@@ -151,6 +151,22 @@ S3:
 S4:
   time: "16h30-17h00"
   day: "Thursday 20 August"
+
+
+S5:
+  time: "12h30-14h00"
+  day: "Wednesday 19 August"
+
+
+S6:
+  time: "18h30-19h00"
+  day: "Wednesday 19 August"
+
+
+
+S7:
+  time: "17h50-18h30"
+  day: "Wednesday 19 August"
 
 
 
