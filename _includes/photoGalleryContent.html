@@ -1,0 +1,104 @@
+
+<h1> {{ include.title }}</h1>
+<div class="photo-gallery" id="photo-gallery">
+
+{% assign nb_photos = {{include.totalPhoto}} %}
+
+{% for i in (1..nb_photos) %}
+    {% assign filename = i | prepend: '00000' | slice: -5, 5 %}
+
+    <a href="/assets/photos/{{include.dirPhoto}}/{{ filename }}.jpg">
+        <img src="/assets/photos/{{include.dirPhoto}}/{{ filename }}.jpg"
+             alt="{{include.title}} {{ i }}"
+             loading="lazy">
+    </a>
+{% endfor %}
+
+</div>
+
+
+
+<script>
+function buildPhotoGallery() {
+
+    const gallery = document.getElementById("photo-gallery");
+    const items = Array.from(gallery.querySelectorAll("a"));
+    const gap = 5;
+    const targetHeight = 220;
+
+    let row = [];
+    let rowWidth = 0;
+
+    function finishRow() {
+
+        if (row.length === 0)
+            return;
+
+        const availableWidth =
+            gallery.clientWidth - gap * (row.length - 1);
+
+        const scale =
+            availableWidth / rowWidth;
+
+        const height =
+            targetHeight * scale;
+
+        row.forEach(item => {
+
+            const ratio = item.dataset.ratio;
+
+            item.style.width =
+                (targetHeight * ratio * scale) + "px";
+
+            item.style.height =
+                height + "px";
+
+        });
+
+        row = [];
+        rowWidth = 0;
+    }
+
+    items.forEach(item => {
+
+        const img = item.querySelector("img");
+
+        function process() {
+
+            const ratio =
+                img.naturalWidth / img.naturalHeight;
+
+            item.dataset.ratio = ratio;
+
+            const width =
+                targetHeight * ratio;
+
+            row.push(item);
+            rowWidth += width;
+
+            if (rowWidth + gap * (row.length - 1)
+                > gallery.clientWidth) {
+
+                const last = row.pop();
+
+                rowWidth -= width;
+
+                finishRow();
+
+                row.push(last);
+                rowWidth = width;
+            }
+        }
+
+        if (img.complete)
+            process();
+        else
+            img.addEventListener("load", process);
+    });
+
+    finishRow();
+}
+
+window.addEventListener("load", buildPhotoGallery);
+window.addEventListener("resize", buildPhotoGallery);
+</script>
