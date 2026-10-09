@@ -81,6 +81,10 @@ last_modified: 2026-08-15
       <a href="{{ p.pdflink }}" target="_blank" class="text-danger">
         <i class="bi bi-file-earmark-pdf"></i> PDF
       </a>
+      {% else %}
+      <a href="https://icpr2026orgteam.github.io/WSpapers/pdfs/paper_0{{ p.id }}.pdf" target="_blank" class="text-danger">
+        <i class="bi bi-file-earmark-pdf"></i> PDF
+      </a>
     {% endif %}
       </td>
     </tr>
