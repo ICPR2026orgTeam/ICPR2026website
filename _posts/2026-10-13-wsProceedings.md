@@ -1,15 +1,14 @@
 ---
 layout: newsTemplate
-title: "Workshop proceedings now available on Springer"
+title: "Workshop proceedings now freely available on Springer"
 date: 2026-10-13
 last_modified: 2026-10-13
 ---
 
 
-<p>The Springer links to the workshop proceedings are now available.
-Free access will begin in the coming days and will remain open for
-approximately 4 to 6 weeks. The proceedings can be accessed in two
-ways:</p>
+<p>The workshop proceedings are now freely available on
+SpringerLink. Free access is available until 30 November 2026. The
+proceedings can be accessed in two ways:</p>
 
 
 <ul>
