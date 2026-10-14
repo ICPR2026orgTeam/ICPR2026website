@@ -136,3 +136,22 @@ table {
     padding-right: 2rem !important;
   }
 }
+
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.photo-gallery a {
+    display: block;
+    overflow: hidden;
+}
+
+.photo-gallery img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

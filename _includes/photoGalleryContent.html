@@ -1,0 +1,117 @@
+
+<h1> {{ include.title }}</h1>
+<div class="photo-gallery" id="photo-gallery">
+
+{% assign nb_photos = include.totalPhoto | plus: 0 %}
+{% for i in (1..nb_photos) %}
+    {% assign filename = i | prepend: '00000' | slice: -5, 5 %}
+
+    <a href="/assets/photos/{{include.dirPhoto}}/{{ filename }}.jpg">
+        <img src="/assets/photos/{{include.dirPhoto}}/{{ filename }}.jpg"
+             alt="{{include.title}} {{ i }}"
+             loading="lazy">
+    </a>
+{% endfor %}
+
+</div>
+
+
+<script>
+function buildPhotoGallery() {
+    const gallery = document.getElementById("photo-gallery");
+
+    if (!gallery)
+        return;
+
+    const items = Array.from(gallery.querySelectorAll("a"));
+    const gap = 5;
+    const targetHeight = 220;
+
+    // Get all image sizes
+    Promise.all(items.map(item => {
+        const img = item.querySelector("img");
+        if (img.complete && img.naturalWidth > 0)
+            return Promise.resolve();
+        return new Promise(resolve => {
+            img.addEventListener("load", resolve, { once: true });
+            img.addEventListener("error", resolve, { once: true });
+        });
+    })).then(() => {
+        const galleryWidth = gallery.clientWidth;
+        if (galleryWidth === 0)
+            return;
+        items.forEach(item => {
+            item.style.width = "";
+            item.style.height = "";
+            item.style.flexGrow = "";
+        });
+
+        let row = [];
+        let rowWidth = 0;
+
+        function finishRow(isLastRow = false) {
+            if (row.length === 0)
+                return;
+
+            const availableWidth =
+                galleryWidth - gap * (row.length - 1);
+
+            const scale = isLastRow
+                ? 1
+                : availableWidth / rowWidth;
+
+            const height = targetHeight * scale;
+
+            row.forEach(item => {
+                const ratio = Number(item.dataset.ratio);
+
+                item.style.width =
+                    (targetHeight * ratio * scale) + "px";
+
+                item.style.height = height + "px";
+            });
+
+            row = [];
+            rowWidth = 0;
+        }
+
+        items.forEach(item => {
+            const img = item.querySelector("img");
+
+            if (!img.naturalWidth || !img.naturalHeight)
+                return;
+
+            const ratio = img.naturalWidth / img.naturalHeight;
+            item.dataset.ratio = ratio;
+
+            const width = targetHeight * ratio;
+
+            row.push(item);
+            rowWidth += width;
+
+            if (rowWidth + gap * (row.length - 1) > galleryWidth
+                && row.length > 1) {
+
+                const last = row.pop();
+                rowWidth -= width;
+
+                finishRow();
+
+                row.push(last);
+                rowWidth = width;
+            }
+        });
+
+        finishRow(true);
+    });
+}
+
+let galleryResizeTimer;
+
+window.addEventListener("load", buildPhotoGallery);
+
+window.addEventListener("resize", () => {
+    clearTimeout(galleryResizeTimer);
+    galleryResizeTimer = setTimeout(buildPhotoGallery, 150);
+});
+</script>

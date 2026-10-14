@@ -1282,3 +1282,16 @@ $color-coffee: #B8912F;
     animation: none;
   }
 }
+.photos-intro {
+    text-align: center;
+    margin: 1.5rem auto 2rem;
+}
+
+.photos-intro img {
+    display: block;
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 6px;
+}
