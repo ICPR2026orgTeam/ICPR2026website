@@ -2,8 +2,7 @@
 <h1> {{ include.title }}</h1>
 <div class="photo-gallery" id="photo-gallery">
 
-{% assign nb_photos = {{include.totalPhoto}} %}
-
+{% assign nb_photos = include.totalPhoto | plus: 0 %}
 {% for i in (1..nb_photos) %}
     {% assign filename = i | prepend: '00000' | slice: -5, 5 %}
 
@@ -17,70 +16,83 @@
 </div>
 
 
-
 <script>
 function buildPhotoGallery() {
-
     const gallery = document.getElementById("photo-gallery");
+
+    if (!gallery)
+        return;
+
     const items = Array.from(gallery.querySelectorAll("a"));
     const gap = 5;
     const targetHeight = 220;
 
-    let row = [];
-    let rowWidth = 0;
-
-    function finishRow() {
-
-        if (row.length === 0)
+    // Get all image sizes
+    Promise.all(items.map(item => {
+        const img = item.querySelector("img");
+        if (img.complete && img.naturalWidth > 0)
+            return Promise.resolve();
+        return new Promise(resolve => {
+            img.addEventListener("load", resolve, { once: true });
+            img.addEventListener("error", resolve, { once: true });
+        });
+    })).then(() => {
+        const galleryWidth = gallery.clientWidth;
+        if (galleryWidth === 0)
             return;
-
-        const availableWidth =
-            gallery.clientWidth - gap * (row.length - 1);
-
-        const scale =
-            availableWidth / rowWidth;
-
-        const height =
-            targetHeight * scale;
-
-        row.forEach(item => {
-
-            const ratio = item.dataset.ratio;
-
-            item.style.width =
-                (targetHeight * ratio * scale) + "px";
-
-            item.style.height =
-                height + "px";
-
+        items.forEach(item => {
+            item.style.width = "";
+            item.style.height = "";
+            item.style.flexGrow = "";
         });
 
-        row = [];
-        rowWidth = 0;
-    }
+        let row = [];
+        let rowWidth = 0;
 
-    items.forEach(item => {
+        function finishRow(isLastRow = false) {
+            if (row.length === 0)
+                return;
 
-        const img = item.querySelector("img");
+            const availableWidth =
+                galleryWidth - gap * (row.length - 1);
 
-        function process() {
+            const scale = isLastRow
+                ? 1
+                : availableWidth / rowWidth;
 
-            const ratio =
-                img.naturalWidth / img.naturalHeight;
+            const height = targetHeight * scale;
 
+            row.forEach(item => {
+                const ratio = Number(item.dataset.ratio);
+
+                item.style.width =
+                    (targetHeight * ratio * scale) + "px";
+
+                item.style.height = height + "px";
+            });
+
+            row = [];
+            rowWidth = 0;
+        }
+
+        items.forEach(item => {
+            const img = item.querySelector("img");
+
+            if (!img.naturalWidth || !img.naturalHeight)
+                return;
+
+            const ratio = img.naturalWidth / img.naturalHeight;
             item.dataset.ratio = ratio;
 
-            const width =
-                targetHeight * ratio;
+            const width = targetHeight * ratio;
 
             row.push(item);
             rowWidth += width;
 
-            if (rowWidth + gap * (row.length - 1)
-                > gallery.clientWidth) {
+            if (rowWidth + gap * (row.length - 1) > galleryWidth
+                && row.length > 1) {
 
                 const last = row.pop();
-
                 rowWidth -= width;
 
                 finishRow();
@@ -88,17 +100,18 @@ function buildPhotoGallery() {
                 row.push(last);
                 rowWidth = width;
             }
-        }
+        });
 
-        if (img.complete)
-            process();
-        else
-            img.addEventListener("load", process);
+        finishRow(true);
     });
-
-    finishRow();
 }
 
+let galleryResizeTimer;
+
 window.addEventListener("load", buildPhotoGallery);
-window.addEventListener("resize", buildPhotoGallery);
+
+window.addEventListener("resize", () => {
+    clearTimeout(galleryResizeTimer);
+    galleryResizeTimer = setTimeout(buildPhotoGallery, 150);
+});
 </script>
