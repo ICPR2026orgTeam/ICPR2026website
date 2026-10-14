@@ -6,8 +6,8 @@
 {% for i in (1..nb_photos) %}
     {% assign filename = i | prepend: '00000' | slice: -5, 5 %}
 
-    <a href="/assets/photos/{{include.dirPhoto}}/{{ filename }}.jpg">
-        <img src="/assets/photos/{{include.dirPhoto}}/{{ filename }}.jpg"
+    <a href="/assets/photos/{{include.dirPhoto}}/{{ filename }}.JPG">
+        <img src="/assets/photos/{{include.dirPhoto}}/{{ filename }}.JPG"
              alt="{{include.title}} {{ i }}"
              loading="lazy">
     </a>
