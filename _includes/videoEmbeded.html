@@ -1,0 +1,17 @@
+<div class="video-container youtube-preview">
+  <iframe
+    src="{{include.srcLink}}"
+    allow="autoplay; encrypted-media; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+
+  <div class="video-poster"
+       onclick="this.style.display='none';
+                this.previousElementSibling.contentWindow.postMessage(
+                  JSON.stringify({event:'command',func:'playVideo',args:[]}),
+                  '*'
+                );">
+    <img src="{{include.previewImage}}" alt="ICPR session">
+    <span class="play-button">▶</span>
+  </div>
+</div>
