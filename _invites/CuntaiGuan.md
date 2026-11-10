@@ -12,5 +12,7 @@ biographie: "Professor Cuntai Guan is President’s Chair Professor in Computer 
 "
 abstract: ""
 abstractTitle: "Building a Foundation Model for EEG-based Brain-Computer Interfaces"
+srcLink: "https://www.youtube-nocookie.com/embed/j9x4dTSunXE?enablejsapi=1"
+previewImage: "Images/previImageKeynote3.jpeg"
 ---
 

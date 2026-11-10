@@ -16,6 +16,9 @@ abstract: |
 
 biographie: |
             Dr. Zhangyang “Atlas” Wang is the Temple Foundation Endowed Associate Professor at The University of Texas at Austin. His research focuses on how training dynamics discover structural inductive biases such as sparsity, low-rank structure, and algebraic symmetries; how these structures manifest at test time in inference, reasoning, and agentic planning; and how they enable resource-aware and trustworthy AI in high-stakes real-world domains. His work has received a number of distinctions, and he has mentored a broad network of Ph.D. students and postdoctoral researchers, many of whom now hold tenure-track faculty positions or senior research roles in industry. He is also on leave serving as Research Director at XTX Markets, where he founded and leads the firm’s AI Lab in New York City. For more information about his group and alumni, please visit:  <a href="www.vita-group.space/team"> www.vita-group.space/team </a> 
+srcLink: "https://www.youtube-nocookie.com/embed/elqiiaC2Z18?enablejsapi=1"
+previewImage: "Images/previImageZhangyangWang.jpeg"
+
 ---
 
 

@@ -20,5 +20,7 @@ biographie: "
 <p>Henrik I Christensen is a distinguished professor of computer science and
 the director of robotics at UC San Diego. He has held faculty positions in
 Aalborg, Stockholm, and Atlanta prior to San Diego. He is the co-founder of six companies and serves as an advisor to agencies and companies across four continents. He is a fellow of IEEE and AAAS.</p>"
+srcLink: "https://www.youtube-nocookie.com/embed/sDZq1kZaDKw?enablejsapi=1"
+previewImage: "Images/previImageKeynote1.jpeg"
 
 ---

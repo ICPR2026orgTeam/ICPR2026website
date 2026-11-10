@@ -99,6 +99,14 @@
     {% endif %}
 
   </div>
+
+  {% assign previewI = page.previewImage | prepend: "/" | relative_url %}
+
+  {% include videoEmbeded.html
+   srcLink=page.srcLink
+   previewImage=previewI
+  %}
+  
 </main>
 
 
