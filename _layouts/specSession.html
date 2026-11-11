@@ -64,6 +64,13 @@
 
   {{ session[0].mainContent }}
 
+    {% if page.srcLink  %}
+    
+  {% include videoEmbeded.html
+   srcLink=page.srcLink
+   previewImage=previewI
+  %}
+    {% endif %}
     
 </main>
 
