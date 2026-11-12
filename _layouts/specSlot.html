@@ -64,6 +64,16 @@
 
     
   {{ session[0].mainContent }}
+
+  {% assign previewI = page.previewImage | prepend: "/" | relative_url %}
+
+{% if page.srcLink  %}
+    
+  {% include videoEmbeded.html
+   srcLink=page.srcLink
+   previewImage=previewI
+  %}
+{% endif %}
     
 </main>
 

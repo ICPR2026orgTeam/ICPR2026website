@@ -19,6 +19,9 @@ abstract:  |
            
 biographie: | 
             <p>Prof. Sanghamitra Bandyopadhyay did her B Tech, M Tech and Ph. D. in Computer Science from Calcutta University, IIT Kharagpur and Indian Statistical Institute respectively. She then joined the Indian Statistical Institute as a faculty member, and became the Director in 2015. After two full tenures as Director of the Indian Statistical Institute from 2015 to 2020 and from 2020 to 2025, Prof. Bandyopadhyay continues as Professor of the Institute. Her research interests include artificial intelligence and machine learning, computational biology, and evolutionary computation and multiobjective optimization.  Prof. Bandyopadhyay is the recipient of several awards including the Shanti Swarup Bhatnagar Prize in Engineering Science, TWAS Prize, Infosys Prize, Humboldt Fellowship from Germany, Senior Associateship of ICTP, Italy, and Dr. Shanker Dayal Sharma Gold Medal and Institute Silver from IIT, Kharagpur, India. She is a Fellow of all the National Science Academies and the Engineering Academy of India, the IEEE, The World Academy of Sciences (TWAS), and International Association for Pattern Recognition (IAPR). She serves as a member of the Science, Technology and Innovation Advisory Council of the Prime Minister of India (PM-STIAC). In 2022, she was conferred the Padma Shri, the fourth highest civilian award conferred by the Government of India. </p>
+srcLink: "https://www.youtube-nocookie.com/embed/tqO71lD575E?enablejsapi=1"
+previewImage: "Images/previImageSanghamitraBandopadhyay.jpeg"
+
 ---
 
 
